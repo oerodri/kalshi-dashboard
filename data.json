@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-13T04:53:02.726848-04:00",
+ "actualizado": "2026-10-13T05:03:03.060537-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -161,7 +161,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-13T04:50:01.955249-04:00"
+   "ultimo_latido": "2026-10-13T05:00:02.954244-04:00"
   },
   {
    "id": "btc_t5",
@@ -173,7 +173,15 @@
    "ganadas": 3,
    "winrate": 75.0,
    "drawdown_max_pct": 2.79,
-   "abiertas": [],
+   "abiertas": [
+    {
+     "fecha": "2026-10-13T08:55:02.202517+00:00",
+     "mercado": "KXBTCD-26OCT1305-T83599.99",
+     "lado": "no",
+     "precio": 0.93,
+     "contratos": 3
+    }
+   ],
    "equity": [
     {
      "t": "2026-10-13T00:55:06.792511+00:00",
@@ -239,7 +247,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-13T04:50:01.955249-04:00"
+   "ultimo_latido": "2026-10-13T05:00:02.954244-04:00"
   },
   {
    "id": "clima",
@@ -255,7 +263,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-13T04:50:11.176573-04:00"
+   "ultimo_latido": "2026-10-13T05:00:11.194474-04:00"
   },
   {
    "id": "v2_1",
@@ -267,7 +275,15 @@
    "ganadas": 6,
    "winrate": 85.7,
    "drawdown_max_pct": 0.74,
-   "abiertas": [],
+   "abiertas": [
+    {
+     "fecha": null,
+     "mercado": "KXBTC15M-26OCT130515-15",
+     "lado": "DOWN",
+     "precio": 0.71,
+     "contratos": 1
+    }
+   ],
    "equity": [
     {
      "t": "2026-10-12T16:21:15.663273-04:00",
@@ -378,7 +394,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-13T04:15:33.425967-04:00"
+   "ultimo_latido": "2026-10-13T05:01:41.625504-04:00"
   },
   {
    "id": "v2_3",
@@ -390,7 +406,15 @@
    "ganadas": 6,
    "winrate": 85.7,
    "drawdown_max_pct": 2.15,
-   "abiertas": [],
+   "abiertas": [
+    {
+     "fecha": null,
+     "mercado": "KXBTC15M-26OCT130515-15",
+     "lado": "DOWN",
+     "precio": 0.71,
+     "contratos": 3
+    }
+   ],
    "equity": [
     {
      "t": "2026-10-12T16:21:15.663273-04:00",
@@ -501,7 +525,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-13T04:15:33.425967-04:00"
+   "ultimo_latido": "2026-10-13T05:01:41.625504-04:00"
   }
  ]
 }
