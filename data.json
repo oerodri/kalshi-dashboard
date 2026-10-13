@@ -1,30 +1,39 @@
 {
- "actualizado": "2026-10-12T20:02:48.009504-04:00",
+ "actualizado": "2026-10-12T20:12:48.020941-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
    "id": "btc_t15",
    "nombre": "BTC por hora KXBTCD (T15)",
    "inicial": 100.0,
-   "saldo": 100.0,
-   "pnl": 0.0,
-   "trades": 0,
-   "ganadas": 0,
-   "winrate": null,
+   "saldo": 100.19,
+   "pnl": 0.19,
+   "trades": 1,
+   "ganadas": 1,
+   "winrate": 100.0,
    "drawdown_max_pct": 0,
-   "abiertas": [
+   "abiertas": [],
+   "equity": [
+    {
+     "t": "2026-10-12T23:45:05.358096+00:00",
+     "v": 100.19
+    }
+   ],
+   "operaciones": [
     {
      "fecha": "2026-10-12T23:45:05.358096+00:00",
      "mercado": "KXBTCD-26OCT1220-T81499.99",
      "lado": "yes",
      "precio": 0.93,
-     "contratos": 3
+     "contratos": 3.0,
+     "resultado": "yes",
+     "gano": true,
+     "pnl": 0.19,
+     "saldo": 100.19
     }
    ],
-   "equity": [],
-   "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-12T20:00:06.015028-04:00"
+   "ultimo_latido": "2026-10-12T20:10:06.157261-04:00"
   },
   {
    "id": "btc_t5",
@@ -40,7 +49,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-12T20:00:06.015028-04:00"
+   "ultimo_latido": "2026-10-12T20:10:06.157261-04:00"
   },
   {
    "id": "clima",
@@ -56,7 +65,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-12T20:00:06.472633-04:00"
+   "ultimo_latido": "2026-10-12T20:10:06.491091-04:00"
   },
   {
    "id": "v2_1",
