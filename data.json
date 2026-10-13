@@ -1,26 +1,18 @@
 {
- "actualizado": "2026-10-13T05:03:03.060537-04:00",
+ "actualizado": "2026-10-13T05:13:02.951560-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
    "id": "btc_t15",
    "nombre": "BTC por hora KXBTCD (T15)",
    "inicial": 100.0,
-   "saldo": 101.68,
-   "pnl": 1.68,
-   "trades": 9,
+   "saldo": 99.01,
+   "pnl": -0.99,
+   "trades": 10,
    "ganadas": 9,
-   "winrate": 100.0,
-   "drawdown_max_pct": 0,
-   "abiertas": [
-    {
-     "fecha": "2026-10-13T08:45:01.544005+00:00",
-     "mercado": "KXBTCD-26OCT1305-T83599.99",
-     "lado": "yes",
-     "precio": 0.88,
-     "contratos": 3
-    }
-   ],
+   "winrate": 90.0,
+   "drawdown_max_pct": 2.63,
+   "abiertas": [],
    "equity": [
     {
      "t": "2026-10-12T23:45:05.358096+00:00",
@@ -57,6 +49,10 @@
     {
      "t": "2026-10-13T07:45:14.316275+00:00",
      "v": 101.68
+    },
+    {
+     "t": "2026-10-13T08:45:01.544005+00:00",
+     "v": 99.01
     }
    ],
    "operaciones": [
@@ -158,30 +154,33 @@
      "gano": true,
      "pnl": 0.19,
      "saldo": 101.68
+    },
+    {
+     "fecha": "2026-10-13T08:45:01.544005+00:00",
+     "mercado": "KXBTCD-26OCT1305-T83599.99",
+     "lado": "yes",
+     "precio": 0.88,
+     "contratos": 3.0,
+     "resultado": "no",
+     "gano": false,
+     "pnl": -2.67,
+     "saldo": 99.01
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-13T05:00:02.954244-04:00"
+   "ultimo_latido": "2026-10-13T05:10:03.437264-04:00"
   },
   {
    "id": "btc_t5",
    "nombre": "BTC por hora KXBTCD (T5)",
    "inicial": 100.0,
-   "saldo": 97.74,
-   "pnl": -2.26,
-   "trades": 4,
-   "ganadas": 3,
-   "winrate": 75.0,
+   "saldo": 97.93,
+   "pnl": -2.07,
+   "trades": 5,
+   "ganadas": 4,
+   "winrate": 80.0,
    "drawdown_max_pct": 2.79,
-   "abiertas": [
-    {
-     "fecha": "2026-10-13T08:55:02.202517+00:00",
-     "mercado": "KXBTCD-26OCT1305-T83599.99",
-     "lado": "no",
-     "precio": 0.93,
-     "contratos": 3
-    }
-   ],
+   "abiertas": [],
    "equity": [
     {
      "t": "2026-10-13T00:55:06.792511+00:00",
@@ -198,6 +197,10 @@
     {
      "t": "2026-10-13T07:55:14.702665+00:00",
      "v": 97.74
+    },
+    {
+     "t": "2026-10-13T08:55:02.202517+00:00",
+     "v": 97.93
     }
    ],
    "operaciones": [
@@ -244,10 +247,21 @@
      "gano": false,
      "pnl": -2.81,
      "saldo": 97.74
+    },
+    {
+     "fecha": "2026-10-13T08:55:02.202517+00:00",
+     "mercado": "KXBTCD-26OCT1305-T83599.99",
+     "lado": "no",
+     "precio": 0.93,
+     "contratos": 3.0,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 0.19,
+     "saldo": 97.93
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-13T05:00:02.954244-04:00"
+   "ultimo_latido": "2026-10-13T05:10:03.437264-04:00"
   },
   {
    "id": "clima",
@@ -263,7 +277,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-13T05:00:11.194474-04:00"
+   "ultimo_latido": "2026-10-13T05:10:11.212711-04:00"
   },
   {
    "id": "v2_1",
