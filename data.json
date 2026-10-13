@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-13T17:38:52.575604-04:00",
+ "actualizado": "2026-10-13T17:48:52.632958-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -12,7 +12,15 @@
    "ganadas": 17,
    "winrate": 94.4,
    "drawdown_max_pct": 2.63,
-   "abiertas": [],
+   "abiertas": [
+    {
+     "fecha": "2026-10-13T21:45:10.648674+00:00",
+     "mercado": "KXBTCD-26OCT1318-T83499.99",
+     "lado": "no",
+     "precio": 0.9,
+     "contratos": 3
+    }
+   ],
    "equity": [
     {
      "t": "2026-10-12T23:45:05.358096+00:00",
@@ -288,7 +296,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-13T17:30:10.488726-04:00"
+   "ultimo_latido": "2026-10-13T17:45:10.700271-04:00"
   },
   {
    "id": "btc_t5",
@@ -516,7 +524,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-13T17:30:10.488726-04:00"
+   "ultimo_latido": "2026-10-13T17:45:10.700271-04:00"
   },
   {
    "id": "clima",
@@ -532,7 +540,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-13T17:30:17.659077-04:00"
+   "ultimo_latido": "2026-10-13T17:40:17.686878-04:00"
   },
   {
    "id": "v2_1",
