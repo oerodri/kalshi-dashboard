@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-14T02:29:15.905046-04:00",
+ "actualizado": "2026-10-14T02:30:33.446038-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -408,7 +408,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-14T02:29:09.095266-04:00"
+   "ultimo_latido": "2026-10-14T02:30:24.100316-04:00"
   },
   {
    "id": "btc_t5",
@@ -726,7 +726,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-14T02:29:09.095266-04:00"
+   "ultimo_latido": "2026-10-14T02:30:24.100316-04:00"
   },
   {
    "id": "clima",
@@ -742,7 +742,23 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-14T02:28:51.496454-04:00"
+   "ultimo_latido": "2026-10-14T02:30:08.993663-04:00"
+  },
+  {
+   "id": "clima_v2",
+   "nombre": "Clima v2 (NO 85–95¢, modelo >90%)",
+   "inicial": 100.0,
+   "saldo": 100.0,
+   "pnl": 0.0,
+   "trades": 0,
+   "ganadas": 0,
+   "winrate": null,
+   "drawdown_max_pct": 0,
+   "abiertas": [],
+   "equity": [],
+   "operaciones": [],
+   "activo": true,
+   "ultimo_latido": "2026-10-14T02:30:08.993663-04:00"
   },
   {
    "id": "v2_1",
@@ -1000,7 +1016,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-14T02:29:13.155832-04:00"
+   "ultimo_latido": "2026-10-14T02:30:29.562910-04:00"
   },
   {
    "id": "v2_3",
@@ -1258,7 +1274,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-14T02:29:13.155832-04:00"
+   "ultimo_latido": "2026-10-14T02:30:29.562910-04:00"
   },
   {
    "id": "v2_10usd",
@@ -1516,7 +1532,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-14T02:29:13.155832-04:00"
+   "ultimo_latido": "2026-10-14T02:30:29.562910-04:00"
   },
   {
    "id": "v2_20usd",
@@ -1774,7 +1790,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-14T02:29:13.155832-04:00"
+   "ultimo_latido": "2026-10-14T02:30:29.562910-04:00"
   }
  ]
 }
