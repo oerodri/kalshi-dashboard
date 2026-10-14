@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-14T13:38:46.217920-04:00",
+ "actualizado": "2026-10-14T13:48:47.091150-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -12,7 +12,15 @@
    "ganadas": 30,
    "winrate": 90.9,
    "drawdown_max_pct": 4.63,
-   "abiertas": [],
+   "abiertas": [
+    {
+     "fecha": "2026-10-14T17:45:01.141812+00:00",
+     "mercado": "KXBTCD-26OCT1414-T81899.99",
+     "lado": "no",
+     "precio": 0.95,
+     "contratos": 3
+    }
+   ],
    "equity": [
     {
      "t": "2026-10-12T23:45:05.358096+00:00",
@@ -513,7 +521,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-14T13:38:30.999999-04:00"
+   "ultimo_latido": "2026-10-14T13:48:31.452353-04:00"
   },
   {
    "id": "btc_t5",
@@ -921,7 +929,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-14T13:38:30.999999-04:00"
+   "ultimo_latido": "2026-10-14T13:48:31.452353-04:00"
   },
   {
    "id": "clima",
@@ -945,7 +953,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-14T13:38:18.304688-04:00"
+   "ultimo_latido": "2026-10-14T13:48:18.573123-04:00"
   },
   {
    "id": "clima_v2",
@@ -969,7 +977,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-14T13:38:18.304688-04:00"
+   "ultimo_latido": "2026-10-14T13:48:18.573123-04:00"
   },
   {
    "id": "v2_1",
@@ -1257,7 +1265,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-14T13:38:42.510142-04:00"
+   "ultimo_latido": "2026-10-14T13:48:41.450679-04:00"
   },
   {
    "id": "v2_3",
@@ -1545,7 +1553,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-14T13:38:42.510142-04:00"
+   "ultimo_latido": "2026-10-14T13:48:41.450679-04:00"
   },
   {
    "id": "v2_10usd",
@@ -1833,7 +1841,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-14T13:38:42.510142-04:00"
+   "ultimo_latido": "2026-10-14T13:48:41.450679-04:00"
   },
   {
    "id": "v2_20usd",
@@ -2121,7 +2129,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-14T13:38:42.510142-04:00"
+   "ultimo_latido": "2026-10-14T13:48:41.450679-04:00"
   }
  ]
 }
