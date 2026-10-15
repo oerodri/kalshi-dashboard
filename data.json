@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-15T08:39:37.093467-04:00",
+ "actualizado": "2026-10-15T08:44:17.614486-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -723,7 +723,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-15T08:39:25.163687-04:00"
+   "ultimo_latido": "2026-10-15T08:43:59.633992-04:00"
   },
   {
    "id": "btc_t5",
@@ -1251,7 +1251,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-15T08:39:25.163687-04:00"
+   "ultimo_latido": "2026-10-15T08:43:59.633992-04:00"
   },
   {
    "id": "clima",
@@ -1282,7 +1282,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-15T08:39:23.103206-04:00"
+   "ultimo_latido": "2026-10-15T08:44:03.973775-04:00"
   },
   {
    "id": "clima_v2",
@@ -1327,7 +1327,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-15T08:39:23.103206-04:00"
+   "ultimo_latido": "2026-10-15T08:44:03.973775-04:00"
   },
   {
    "id": "v2_1",
@@ -1351,7 +1351,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-15T08:39:31.480015-04:00"
+   "ultimo_latido": "2026-10-15T08:44:05.747810-04:00"
   },
   {
    "id": "v2_3",
@@ -1375,7 +1375,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-15T08:39:31.480015-04:00"
+   "ultimo_latido": "2026-10-15T08:44:05.747810-04:00"
   },
   {
    "id": "v2_10usd",
@@ -1399,7 +1399,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-15T08:39:31.480015-04:00"
+   "ultimo_latido": "2026-10-15T08:44:11.725940-04:00"
   },
   {
    "id": "v2_20usd",
@@ -1423,7 +1423,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-15T08:39:31.480015-04:00"
+   "ultimo_latido": "2026-10-15T08:44:11.725940-04:00"
   },
   {
    "id": "v2_40usd",
@@ -1447,7 +1447,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-15T08:39:31.480015-04:00"
+   "ultimo_latido": "2026-10-15T08:44:11.725940-04:00"
   },
   {
    "id": "v2_50usd",
@@ -1471,7 +1471,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-15T08:39:31.480015-04:00"
+   "ultimo_latido": "2026-10-15T08:44:11.725940-04:00"
   },
   {
    "id": "v2_100usd",
@@ -1495,7 +1495,39 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-15T08:39:31.480015-04:00"
+   "ultimo_latido": "2026-10-15T08:44:11.725940-04:00"
+  },
+  {
+   "id": "v3_10usd",
+   "nombre": "BTC 15 min KXBTC15M v3 favorito z>=1, min 5-8 (~$10 por trade, inicio $500)",
+   "inicial": 500.0,
+   "saldo": 500.0,
+   "pnl": 0.0,
+   "trades": 0,
+   "ganadas": 0,
+   "winrate": null,
+   "drawdown_max_pct": 0,
+   "abiertas": [],
+   "equity": [],
+   "operaciones": [],
+   "activo": true,
+   "ultimo_latido": "2026-10-15T08:44:16.333221-04:00"
+  },
+  {
+   "id": "v3_20usd",
+   "nombre": "BTC 15 min KXBTC15M v3 favorito z>=1, min 5-8 (~$20 por trade, inicio $500)",
+   "inicial": 500.0,
+   "saldo": 500.0,
+   "pnl": 0.0,
+   "trades": 0,
+   "ganadas": 0,
+   "winrate": null,
+   "drawdown_max_pct": 0,
+   "abiertas": [],
+   "equity": [],
+   "operaciones": [],
+   "activo": true,
+   "ultimo_latido": "2026-10-15T08:44:16.333221-04:00"
   }
  ]
 }
