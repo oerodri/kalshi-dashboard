@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-14T23:39:11.307934-04:00",
+ "actualizado": "2026-10-14T23:49:11.980680-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -12,7 +12,15 @@
    "ganadas": 39,
    "winrate": 92.9,
    "drawdown_max_pct": 4.63,
-   "abiertas": [],
+   "abiertas": [
+    {
+     "fecha": "2026-10-15T03:45:00.655277+00:00",
+     "mercado": "KXBTCD-26OCT1500-T80399.99",
+     "lado": "yes",
+     "precio": 0.93,
+     "contratos": 3
+    }
+   ],
    "equity": [
     {
      "t": "2026-10-12T23:45:05.358096+00:00",
@@ -648,7 +656,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-14T23:39:00.514550-04:00"
+   "ultimo_latido": "2026-10-14T23:49:00.940612-04:00"
   },
   {
    "id": "btc_t5",
@@ -1131,7 +1139,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-14T23:39:00.514550-04:00"
+   "ultimo_latido": "2026-10-14T23:49:00.940612-04:00"
   },
   {
    "id": "clima",
@@ -1162,7 +1170,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-14T23:38:41.510770-04:00"
+   "ultimo_latido": "2026-10-14T23:48:42.225364-04:00"
   },
   {
    "id": "clima_v2",
@@ -1207,7 +1215,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-14T23:38:41.510770-04:00"
+   "ultimo_latido": "2026-10-14T23:48:42.225364-04:00"
   },
   {
    "id": "v2_1",
@@ -1223,7 +1231,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-14T23:39:07.939769-04:00"
+   "ultimo_latido": "2026-10-14T23:49:03.395912-04:00"
   },
   {
    "id": "v2_3",
@@ -1239,7 +1247,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-14T23:39:07.939769-04:00"
+   "ultimo_latido": "2026-10-14T23:49:09.682703-04:00"
   },
   {
    "id": "v2_10usd",
@@ -1255,7 +1263,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-14T23:39:07.939769-04:00"
+   "ultimo_latido": "2026-10-14T23:49:09.682703-04:00"
   },
   {
    "id": "v2_20usd",
@@ -1271,7 +1279,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-14T23:39:07.939769-04:00"
+   "ultimo_latido": "2026-10-14T23:49:09.682703-04:00"
   }
  ]
 }
