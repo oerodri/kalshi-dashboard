@@ -1,26 +1,18 @@
 {
- "actualizado": "2026-10-14T23:59:11.707530-04:00",
+ "actualizado": "2026-10-15T00:09:12.779823-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
    "id": "btc_t15",
    "nombre": "BTC por hora KXBTCD (T15)",
    "inicial": 100.0,
-   "saldo": 98.97,
-   "pnl": -1.03,
-   "trades": 42,
-   "ganadas": 39,
-   "winrate": 92.9,
+   "saldo": 99.16,
+   "pnl": -0.84,
+   "trades": 43,
+   "ganadas": 40,
+   "winrate": 93.0,
    "drawdown_max_pct": 4.63,
-   "abiertas": [
-    {
-     "fecha": "2026-10-15T03:45:00.655277+00:00",
-     "mercado": "KXBTCD-26OCT1500-T80399.99",
-     "lado": "yes",
-     "precio": 0.93,
-     "contratos": 3
-    }
-   ],
+   "abiertas": [],
    "equity": [
     {
      "t": "2026-10-12T23:45:05.358096+00:00",
@@ -189,6 +181,10 @@
     {
      "t": "2026-10-15T02:45:13.311332+00:00",
      "v": 98.97
+    },
+    {
+     "t": "2026-10-15T03:45:00.655277+00:00",
+     "v": 99.16
     }
    ],
    "operaciones": [
@@ -653,30 +649,33 @@
      "gano": true,
      "pnl": 0.14,
      "saldo": 98.97
+    },
+    {
+     "fecha": "2026-10-15T03:45:00.655277+00:00",
+     "mercado": "KXBTCD-26OCT1500-T80399.99",
+     "lado": "yes",
+     "precio": 0.93,
+     "contratos": 3.0,
+     "resultado": "yes",
+     "gano": true,
+     "pnl": 0.19,
+     "saldo": 99.16
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-14T23:59:01.836309-04:00"
+   "ultimo_latido": "2026-10-15T00:09:02.564537-04:00"
   },
   {
    "id": "btc_t5",
    "nombre": "BTC por hora KXBTCD (T5)",
    "inicial": 100.0,
-   "saldo": 97.12,
-   "pnl": -2.88,
-   "trades": 31,
-   "ganadas": 28,
-   "winrate": 90.3,
+   "saldo": 97.4,
+   "pnl": -2.6,
+   "trades": 32,
+   "ganadas": 29,
+   "winrate": 90.6,
    "drawdown_max_pct": 5.56,
-   "abiertas": [
-    {
-     "fecha": "2026-10-15T03:55:01.312658+00:00",
-     "mercado": "KXBTCD-26OCT1500-T80899.99",
-     "lado": "no",
-     "precio": 0.9,
-     "contratos": 3
-    }
-   ],
+   "abiertas": [],
    "equity": [
     {
      "t": "2026-10-13T00:55:06.792511+00:00",
@@ -801,6 +800,10 @@
     {
      "t": "2026-10-15T02:55:13.721067+00:00",
      "v": 97.12
+    },
+    {
+     "t": "2026-10-15T03:55:01.312658+00:00",
+     "v": 97.4
     }
    ],
    "operaciones": [
@@ -1144,10 +1147,21 @@
      "gano": true,
      "pnl": 0.22,
      "saldo": 97.12
+    },
+    {
+     "fecha": "2026-10-15T03:55:01.312658+00:00",
+     "mercado": "KXBTCD-26OCT1500-T80899.99",
+     "lado": "no",
+     "precio": 0.9,
+     "contratos": 3.0,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 0.28,
+     "saldo": 97.4
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-14T23:59:01.836309-04:00"
+   "ultimo_latido": "2026-10-15T00:09:02.564537-04:00"
   },
   {
    "id": "clima",
@@ -1178,7 +1192,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-14T23:58:43.042731-04:00"
+   "ultimo_latido": "2026-10-15T00:08:46.046901-04:00"
   },
   {
    "id": "clima_v2",
@@ -1223,7 +1237,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-14T23:58:43.042731-04:00"
+   "ultimo_latido": "2026-10-15T00:08:46.046901-04:00"
   },
   {
    "id": "v2_1",
@@ -1239,7 +1253,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-14T23:59:07.051625-04:00"
+   "ultimo_latido": "2026-10-15T00:09:09.066211-04:00"
   },
   {
    "id": "v2_3",
@@ -1255,7 +1269,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-14T23:59:07.051625-04:00"
+   "ultimo_latido": "2026-10-15T00:09:09.066211-04:00"
   },
   {
    "id": "v2_10usd",
@@ -1271,7 +1285,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-14T23:59:07.051625-04:00"
+   "ultimo_latido": "2026-10-15T00:09:09.066211-04:00"
   },
   {
    "id": "v2_20usd",
@@ -1287,7 +1301,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-14T23:59:07.051625-04:00"
+   "ultimo_latido": "2026-10-15T00:09:09.066211-04:00"
   }
  ]
 }
