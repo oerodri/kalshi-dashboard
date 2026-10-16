@@ -1,26 +1,18 @@
 {
- "actualizado": "2026-10-16T02:05:14.666007-04:00",
+ "actualizado": "2026-10-16T02:15:14.271372-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
    "id": "btc_t15",
    "nombre": "BTC por hora KXBTCD (T15)",
    "inicial": 100.0,
-   "saldo": 91.3,
-   "pnl": -8.7,
-   "trades": 61,
-   "ganadas": 54,
-   "winrate": 88.5,
+   "saldo": 91.39,
+   "pnl": -8.61,
+   "trades": 62,
+   "ganadas": 55,
+   "winrate": 88.7,
    "drawdown_max_pct": 10.32,
-   "abiertas": [
-    {
-     "fecha": "2026-10-16T05:45:09.151754+00:00",
-     "mercado": "KXBTCD-26OCT1602-T81799.99",
-     "lado": "yes",
-     "precio": 0.95,
-     "contratos": 2
-    }
-   ],
+   "abiertas": [],
    "equity": [
     {
      "t": "2026-10-12T23:45:05.358096+00:00",
@@ -265,6 +257,10 @@
     {
      "t": "2026-10-16T04:45:07.159689+00:00",
      "v": 91.3
+    },
+    {
+     "t": "2026-10-16T05:45:09.151754+00:00",
+     "v": 91.39
     }
    ],
    "operaciones": [
@@ -938,10 +934,21 @@
      "gano": true,
      "pnl": 0.11,
      "saldo": 91.3
+    },
+    {
+     "fecha": "2026-10-16T05:45:09.151754+00:00",
+     "mercado": "KXBTCD-26OCT1602-T81799.99",
+     "lado": "yes",
+     "precio": 0.95,
+     "contratos": 2.0,
+     "resultado": "yes",
+     "gano": true,
+     "pnl": 0.09,
+     "saldo": 91.39
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T02:04:40.830238-04:00"
+   "ultimo_latido": "2026-10-16T02:14:40.971958-04:00"
   },
   {
    "id": "btc_t5",
@@ -1589,7 +1596,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T02:04:40.830238-04:00"
+   "ultimo_latido": "2026-10-16T02:14:40.971958-04:00"
   },
   {
    "id": "clima",
@@ -1620,7 +1627,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-16T02:04:38.635440-04:00"
+   "ultimo_latido": "2026-10-16T02:14:39.569282-04:00"
   },
   {
    "id": "clima_v2",
@@ -1679,7 +1686,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-16T02:04:38.635440-04:00"
+   "ultimo_latido": "2026-10-16T02:14:39.569282-04:00"
   },
   {
    "id": "v2_1",
@@ -1712,7 +1719,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T02:04:56.470375-04:00"
+   "ultimo_latido": "2026-10-16T02:14:55.374584-04:00"
   },
   {
    "id": "v2_3",
@@ -1745,7 +1752,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T02:05:02.681715-04:00"
+   "ultimo_latido": "2026-10-16T02:15:01.384485-04:00"
   },
   {
    "id": "v2_10usd",
@@ -1778,7 +1785,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T02:05:02.681715-04:00"
+   "ultimo_latido": "2026-10-16T02:15:01.384485-04:00"
   },
   {
    "id": "v2_20usd",
@@ -1811,7 +1818,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T02:05:02.681715-04:00"
+   "ultimo_latido": "2026-10-16T02:15:01.384485-04:00"
   },
   {
    "id": "v2_40usd",
@@ -1844,7 +1851,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T02:05:02.681715-04:00"
+   "ultimo_latido": "2026-10-16T02:15:07.372101-04:00"
   },
   {
    "id": "v2_50usd",
@@ -1877,7 +1884,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T02:05:08.447510-04:00"
+   "ultimo_latido": "2026-10-16T02:15:07.372101-04:00"
   },
   {
    "id": "v2_100usd",
@@ -1910,7 +1917,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T02:05:08.447510-04:00"
+   "ultimo_latido": "2026-10-16T02:15:07.372101-04:00"
   },
   {
    "id": "v3_10usd",
@@ -2273,7 +2280,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T02:05:11.218870-04:00"
+   "ultimo_latido": "2026-10-16T02:15:11.341791-04:00"
   },
   {
    "id": "v3_20usd",
@@ -2636,7 +2643,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T02:05:13.306170-04:00"
+   "ultimo_latido": "2026-10-16T02:15:13.426817-04:00"
   }
  ]
 }
