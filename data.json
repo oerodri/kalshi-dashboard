@@ -1,26 +1,18 @@
 {
- "actualizado": "2026-10-16T07:05:21.115322-04:00",
+ "actualizado": "2026-10-16T07:15:21.276096-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
    "id": "btc_t15",
    "nombre": "BTC por hora KXBTCD (T15)",
    "inicial": 100.0,
-   "saldo": 91.68,
-   "pnl": -8.32,
-   "trades": 65,
-   "ganadas": 58,
-   "winrate": 89.2,
+   "saldo": 91.79,
+   "pnl": -8.21,
+   "trades": 66,
+   "ganadas": 59,
+   "winrate": 89.4,
    "drawdown_max_pct": 10.32,
-   "abiertas": [
-    {
-     "fecha": "2026-10-16T10:45:05.119914+00:00",
-     "mercado": "KXBTCD-26OCT1607-T82299.99",
-     "lado": "no",
-     "precio": 0.94,
-     "contratos": 2
-    }
-   ],
+   "abiertas": [],
    "equity": [
     {
      "t": "2026-10-12T23:45:05.358096+00:00",
@@ -281,6 +273,10 @@
     {
      "t": "2026-10-16T09:45:02.733851+00:00",
      "v": 91.68
+    },
+    {
+     "t": "2026-10-16T10:45:05.119914+00:00",
+     "v": 91.79
     }
    ],
    "operaciones": [
@@ -998,30 +994,33 @@
      "gano": true,
      "pnl": 0.06,
      "saldo": 91.68
+    },
+    {
+     "fecha": "2026-10-16T10:45:05.119914+00:00",
+     "mercado": "KXBTCD-26OCT1607-T82299.99",
+     "lado": "no",
+     "precio": 0.94,
+     "contratos": 2.0,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 0.11,
+     "saldo": 91.79
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T07:04:52.052408-04:00"
+   "ultimo_latido": "2026-10-16T07:14:52.350247-04:00"
   },
   {
    "id": "btc_t5",
    "nombre": "BTC por hora KXBTCD (T5)",
    "inicial": 100.0,
-   "saldo": 97.15,
-   "pnl": -2.85,
-   "trades": 44,
-   "ganadas": 40,
-   "winrate": 90.9,
+   "saldo": 97.29,
+   "pnl": -2.71,
+   "trades": 45,
+   "ganadas": 41,
+   "winrate": 91.1,
    "drawdown_max_pct": 6.42,
-   "abiertas": [
-    {
-     "fecha": "2026-10-16T10:55:06.249698+00:00",
-     "mercado": "KXBTCD-26OCT1607-T82199.99",
-     "lado": "no",
-     "precio": 0.95,
-     "contratos": 3
-    }
-   ],
+   "abiertas": [],
    "equity": [
     {
      "t": "2026-10-13T00:55:06.792511+00:00",
@@ -1198,6 +1197,10 @@
     {
      "t": "2026-10-16T08:55:00.925587+00:00",
      "v": 97.15
+    },
+    {
+     "t": "2026-10-16T10:55:06.249698+00:00",
+     "v": 97.29
     }
    ],
    "operaciones": [
@@ -1684,29 +1687,33 @@
      "gano": true,
      "pnl": 0.16,
      "saldo": 97.15
+    },
+    {
+     "fecha": "2026-10-16T10:55:06.249698+00:00",
+     "mercado": "KXBTCD-26OCT1607-T82199.99",
+     "lado": "no",
+     "precio": 0.95,
+     "contratos": 3.0,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 0.14,
+     "saldo": 97.29
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T07:04:52.052408-04:00"
+   "ultimo_latido": "2026-10-16T07:15:07.351460-04:00"
   },
   {
    "id": "clima",
    "nombre": "Clima (NO 85–95¢, modelo >97%)",
    "inicial": 500.0,
-   "saldo": 500.0,
-   "pnl": 0.0,
-   "trades": 0,
-   "ganadas": 0,
-   "winrate": null,
+   "saldo": 500.28,
+   "pnl": 0.28,
+   "trades": 1,
+   "ganadas": 1,
+   "winrate": 100.0,
    "drawdown_max_pct": 0,
    "abiertas": [
-    {
-     "fecha": "2026-10-15T02:00:03.293083+00:00",
-     "mercado": "KXHIGHPHIL-26OCT15-B74.5",
-     "lado": "no",
-     "precio": 0.9,
-     "contratos": 3
-    },
     {
      "fecha": "2026-10-16T03:00:20.197422+00:00",
      "mercado": "KXHIGHCHI-26OCT16-B62.5",
@@ -1715,43 +1722,39 @@
      "contratos": 10
     }
    ],
-   "equity": [],
-   "operaciones": [],
-   "activo": true,
-   "ultimo_latido": "2026-10-16T07:05:07.929853-04:00"
-  },
-  {
-   "id": "clima_v2",
-   "nombre": "Clima v2 (NO 85–95¢, modelo >90%)",
-   "inicial": 500.0,
-   "saldo": 500.0,
-   "pnl": 0.0,
-   "trades": 0,
-   "ganadas": 0,
-   "winrate": null,
-   "drawdown_max_pct": 0,
-   "abiertas": [
+   "equity": [
     {
-     "fecha": "2026-10-15T02:00:02.791800+00:00",
-     "mercado": "KXHIGHNY-26OCT15-B68.5",
-     "lado": "no",
-     "precio": 0.95,
-     "contratos": 3
-    },
-    {
-     "fecha": "2026-10-15T02:00:03.062754+00:00",
-     "mercado": "KXHIGHMIA-26OCT15-B86.5",
-     "lado": "no",
-     "precio": 0.92,
-     "contratos": 3
-    },
+     "t": "2026-10-15T02:00:03.293083+00:00",
+     "v": 500.28
+    }
+   ],
+   "operaciones": [
     {
      "fecha": "2026-10-15T02:00:03.293083+00:00",
      "mercado": "KXHIGHPHIL-26OCT15-B74.5",
      "lado": "no",
      "precio": 0.9,
-     "contratos": 3
-    },
+     "contratos": 3.0,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 0.28,
+     "saldo": 500.28
+    }
+   ],
+   "activo": true,
+   "ultimo_latido": "2026-10-16T07:14:38.855400-04:00"
+  },
+  {
+   "id": "clima_v2",
+   "nombre": "Clima v2 (NO 85–95¢, modelo >90%)",
+   "inicial": 500.0,
+   "saldo": 500.64,
+   "pnl": 0.64,
+   "trades": 3,
+   "ganadas": 3,
+   "winrate": 100.0,
+   "drawdown_max_pct": 0,
+   "abiertas": [
     {
      "fecha": "2026-10-15T16:00:29.731361+00:00",
      "mercado": "KXHIGHDEN-26OCT15-B51.5",
@@ -1774,10 +1777,57 @@
      "contratos": 22
     }
    ],
-   "equity": [],
-   "operaciones": [],
+   "equity": [
+    {
+     "t": "2026-10-15T02:00:02.791800+00:00",
+     "v": 500.14
+    },
+    {
+     "t": "2026-10-15T02:00:03.062754+00:00",
+     "v": 500.36
+    },
+    {
+     "t": "2026-10-15T02:00:03.293083+00:00",
+     "v": 500.64
+    }
+   ],
+   "operaciones": [
+    {
+     "fecha": "2026-10-15T02:00:02.791800+00:00",
+     "mercado": "KXHIGHNY-26OCT15-B68.5",
+     "lado": "no",
+     "precio": 0.95,
+     "contratos": 3.0,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 0.14,
+     "saldo": 500.14
+    },
+    {
+     "fecha": "2026-10-15T02:00:03.062754+00:00",
+     "mercado": "KXHIGHMIA-26OCT15-B86.5",
+     "lado": "no",
+     "precio": 0.92,
+     "contratos": 3.0,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 0.22,
+     "saldo": 500.36
+    },
+    {
+     "fecha": "2026-10-15T02:00:03.293083+00:00",
+     "mercado": "KXHIGHPHIL-26OCT15-B74.5",
+     "lado": "no",
+     "precio": 0.9,
+     "contratos": 3.0,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 0.28,
+     "saldo": 500.64
+    }
+   ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T07:05:07.929853-04:00"
+   "ultimo_latido": "2026-10-16T07:15:08.857692-04:00"
   },
   {
    "id": "v2_1",
@@ -1810,7 +1860,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T07:05:08.860793-04:00"
+   "ultimo_latido": "2026-10-16T07:15:07.821887-04:00"
   },
   {
    "id": "v2_3",
@@ -1843,7 +1893,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T07:05:08.860793-04:00"
+   "ultimo_latido": "2026-10-16T07:15:07.821887-04:00"
   },
   {
    "id": "v2_10usd",
@@ -1876,7 +1926,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T07:05:08.860793-04:00"
+   "ultimo_latido": "2026-10-16T07:15:07.821887-04:00"
   },
   {
    "id": "v2_20usd",
@@ -1909,7 +1959,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T07:05:08.860793-04:00"
+   "ultimo_latido": "2026-10-16T07:15:13.821384-04:00"
   },
   {
    "id": "v2_40usd",
@@ -1942,7 +1992,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T07:05:14.891031-04:00"
+   "ultimo_latido": "2026-10-16T07:15:13.821384-04:00"
   },
   {
    "id": "v2_50usd",
@@ -1975,7 +2025,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T07:05:14.891031-04:00"
+   "ultimo_latido": "2026-10-16T07:15:13.821384-04:00"
   },
   {
    "id": "v2_100usd",
@@ -2008,7 +2058,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T07:05:14.891031-04:00"
+   "ultimo_latido": "2026-10-16T07:15:13.821384-04:00"
   },
   {
    "id": "v3_10usd",
@@ -2476,7 +2526,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T07:05:17.990674-04:00"
+   "ultimo_latido": "2026-10-16T07:15:19.883181-04:00"
   },
   {
    "id": "v3_20usd",
@@ -2944,7 +2994,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T07:05:20.072833-04:00"
+   "ultimo_latido": "2026-10-16T07:15:19.883181-04:00"
   }
  ]
 }
