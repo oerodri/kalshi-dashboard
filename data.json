@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T10:06:08.456118-04:00",
+ "actualizado": "2026-10-17T10:16:09.079356-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -56,33 +56,19 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-17T10:05:28.567880-04:00"
+   "ultimo_latido": "2026-10-17T10:15:29.043630-04:00"
   },
   {
    "id": "clima_v2",
    "nombre": "Clima v2 (NO 85–95¢, modelo >90%)",
    "inicial": 500.0,
-   "saldo": 501.85,
-   "pnl": 1.85,
-   "trades": 5,
-   "ganadas": 5,
+   "saldo": 505.46,
+   "pnl": 5.46,
+   "trades": 7,
+   "ganadas": 7,
    "winrate": 100.0,
    "drawdown_max_pct": 0,
    "abiertas": [
-    {
-     "fecha": "2026-10-16T05:00:01.969509+00:00",
-     "mercado": "KXHIGHLAX-26OCT16-B93.5",
-     "lado": "no",
-     "precio": 0.87,
-     "contratos": 22
-    },
-    {
-     "fecha": "2026-10-16T17:00:04.575353+00:00",
-     "mercado": "KXHIGHLAX-26OCT16-B93.5",
-     "lado": "no",
-     "precio": 0.95,
-     "contratos": 20
-    },
     {
      "fecha": "2026-10-17T02:00:02.178574+00:00",
      "mercado": "KXHIGHNY-26OCT17-B62.5",
@@ -111,6 +97,14 @@
     {
      "t": "2026-10-16T03:00:20.197422+00:00",
      "v": 501.85
+    },
+    {
+     "t": "2026-10-16T05:00:01.969509+00:00",
+     "v": 504.53
+    },
+    {
+     "t": "2026-10-16T17:00:04.575353+00:00",
+     "v": 505.46
     }
    ],
    "operaciones": [
@@ -168,10 +162,32 @@
      "gano": true,
      "pnl": 0.93,
      "saldo": 501.85
+    },
+    {
+     "fecha": "2026-10-16T05:00:01.969509+00:00",
+     "mercado": "KXHIGHLAX-26OCT16-B93.5",
+     "lado": "no",
+     "precio": 0.87,
+     "contratos": 22.0,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 2.68,
+     "saldo": 504.53
+    },
+    {
+     "fecha": "2026-10-16T17:00:04.575353+00:00",
+     "mercado": "KXHIGHLAX-26OCT16-B93.5",
+     "lado": "no",
+     "precio": 0.95,
+     "contratos": 20.0,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 0.93,
+     "saldo": 505.46
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-17T10:05:28.567880-04:00"
+   "ultimo_latido": "2026-10-17T10:15:29.043630-04:00"
   },
   {
    "id": "v2_1",
@@ -264,7 +280,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-17T10:05:48.787232-04:00"
+   "ultimo_latido": "2026-10-17T10:15:53.715384-04:00"
   },
   {
    "id": "v2_3",
@@ -357,7 +373,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-17T10:05:54.818675-04:00"
+   "ultimo_latido": "2026-10-17T10:15:53.715384-04:00"
   },
   {
    "id": "v2_10usd",
@@ -450,7 +466,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-17T10:05:54.818675-04:00"
+   "ultimo_latido": "2026-10-17T10:15:53.715384-04:00"
   },
   {
    "id": "v2_20usd",
@@ -543,7 +559,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-17T10:05:54.818675-04:00"
+   "ultimo_latido": "2026-10-17T10:15:53.715384-04:00"
   },
   {
    "id": "v2_40usd",
@@ -636,7 +652,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-17T10:05:54.818675-04:00"
+   "ultimo_latido": "2026-10-17T10:15:59.702844-04:00"
   },
   {
    "id": "v2_50usd",
@@ -729,7 +745,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-17T10:06:00.836813-04:00"
+   "ultimo_latido": "2026-10-17T10:15:59.702844-04:00"
   },
   {
    "id": "v2_100usd",
@@ -822,7 +838,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-17T10:06:00.836813-04:00"
+   "ultimo_latido": "2026-10-17T10:15:59.702844-04:00"
   },
   {
    "id": "v3_10usd",
@@ -1635,7 +1651,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-17T10:06:04.554367-04:00"
+   "ultimo_latido": "2026-10-17T10:16:06.334546-04:00"
   },
   {
    "id": "v3_20usd",
@@ -2448,7 +2464,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-17T10:06:06.637838-04:00"
+   "ultimo_latido": "2026-10-17T10:16:08.415002-04:00"
   }
  ]
 }
