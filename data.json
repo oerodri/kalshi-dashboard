@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T03:35:50.864685-04:00",
+ "actualizado": "2026-10-17T03:45:54.185076-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -48,7 +48,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-17T03:35:06.244243-04:00"
+   "ultimo_latido": "2026-10-17T03:45:06.942779-04:00"
   },
   {
    "id": "clima_v2",
@@ -155,7 +155,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-17T03:35:06.244243-04:00"
+   "ultimo_latido": "2026-10-17T03:45:36.944876-04:00"
   },
   {
    "id": "v2_1",
@@ -233,7 +233,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-17T03:35:31.729514-04:00"
+   "ultimo_latido": "2026-10-17T03:45:36.650909-04:00"
   },
   {
    "id": "v2_3",
@@ -311,7 +311,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-17T03:35:37.712489-04:00"
+   "ultimo_latido": "2026-10-17T03:45:36.650909-04:00"
   },
   {
    "id": "v2_10usd",
@@ -389,7 +389,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-17T03:35:37.712489-04:00"
+   "ultimo_latido": "2026-10-17T03:45:42.654004-04:00"
   },
   {
    "id": "v2_20usd",
@@ -467,7 +467,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-17T03:35:37.712489-04:00"
+   "ultimo_latido": "2026-10-17T03:45:42.654004-04:00"
   },
   {
    "id": "v2_40usd",
@@ -545,7 +545,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-17T03:35:37.712489-04:00"
+   "ultimo_latido": "2026-10-17T03:45:42.654004-04:00"
   },
   {
    "id": "v2_50usd",
@@ -623,7 +623,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-17T03:35:43.698921-04:00"
+   "ultimo_latido": "2026-10-17T03:45:48.659338-04:00"
   },
   {
    "id": "v2_100usd",
@@ -701,17 +701,17 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-17T03:35:43.698921-04:00"
+   "ultimo_latido": "2026-10-17T03:45:48.659338-04:00"
   },
   {
    "id": "v3_10usd",
    "nombre": "BTC 15 min KXBTC15M v3 favorito z>=1, min 5-8 (~$10 por trade, inicio $500)",
    "inicial": 500.0,
-   "saldo": 517.78,
-   "pnl": 17.78,
-   "trades": 49,
-   "ganadas": 46,
-   "winrate": 93.9,
+   "saldo": 519.12,
+   "pnl": 19.12,
+   "trades": 50,
+   "ganadas": 47,
+   "winrate": 94.0,
    "drawdown_max_pct": 2.05,
    "abiertas": [],
    "equity": [
@@ -910,6 +910,10 @@
     {
      "t": "2026-10-17T01:05:03.635174-04:00",
      "v": 517.78
+    },
+    {
+     "t": "2026-10-17T03:37:05.315321-04:00",
+     "v": 519.12
     }
    ],
    "operaciones": [
@@ -1451,20 +1455,31 @@
      "gano": true,
      "pnl": 1.13,
      "saldo": 517.78
+    },
+    {
+     "fecha": "2026-10-17T03:37:05.315321-04:00",
+     "mercado": "KXBTC15M-26OCT170345-45",
+     "lado": "UP",
+     "precio": 0.87,
+     "contratos": 11,
+     "resultado": "yes",
+     "gano": true,
+     "pnl": 1.34,
+     "saldo": 519.12
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-17T03:35:47.550621-04:00"
+   "ultimo_latido": "2026-10-17T03:45:51.074812-04:00"
   },
   {
    "id": "v3_20usd",
    "nombre": "BTC 15 min KXBTC15M v3 favorito z>=1, min 5-8 (~$20 por trade, inicio $500)",
    "inicial": 500.0,
-   "saldo": 535.91,
-   "pnl": 35.91,
-   "trades": 49,
-   "ganadas": 46,
-   "winrate": 93.9,
+   "saldo": 538.59,
+   "pnl": 38.59,
+   "trades": 50,
+   "ganadas": 47,
+   "winrate": 94.0,
    "drawdown_max_pct": 3.95,
    "abiertas": [],
    "equity": [
@@ -1663,6 +1678,10 @@
     {
      "t": "2026-10-17T01:05:03.636017-04:00",
      "v": 535.91
+    },
+    {
+     "t": "2026-10-17T03:37:05.315883-04:00",
+     "v": 538.59
     }
    ],
    "operaciones": [
@@ -2204,10 +2223,21 @@
      "gano": true,
      "pnl": 2.26,
      "saldo": 535.91
+    },
+    {
+     "fecha": "2026-10-17T03:37:05.315883-04:00",
+     "mercado": "KXBTC15M-26OCT170345-45",
+     "lado": "UP",
+     "precio": 0.87,
+     "contratos": 22,
+     "resultado": "yes",
+     "gano": true,
+     "pnl": 2.68,
+     "saldo": 538.59
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-17T03:35:49.636210-04:00"
+   "ultimo_latido": "2026-10-17T03:45:53.184002-04:00"
   }
  ]
 }
