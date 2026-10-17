@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-16T20:35:58.856198-04:00",
+ "actualizado": "2026-10-16T20:46:03.017496-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -1173,7 +1173,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T20:35:40.951752-04:00"
+   "ultimo_latido": "2026-10-16T20:45:41.593154-04:00"
   },
   {
    "id": "btc_t5",
@@ -1956,7 +1956,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T20:35:40.951752-04:00"
+   "ultimo_latido": "2026-10-16T20:45:41.593154-04:00"
   },
   {
    "id": "clima",
@@ -1997,7 +1997,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T20:35:27.910239-04:00"
+   "ultimo_latido": "2026-10-16T20:45:28.387048-04:00"
   },
   {
    "id": "clima_v2",
@@ -2097,7 +2097,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T20:35:27.910239-04:00"
+   "ultimo_latido": "2026-10-16T20:45:28.387048-04:00"
   },
   {
    "id": "v2_1",
@@ -2130,7 +2130,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T20:35:43.141620-04:00"
+   "ultimo_latido": "2026-10-16T20:45:48.115593-04:00"
   },
   {
    "id": "v2_3",
@@ -2163,7 +2163,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T20:35:49.162380-04:00"
+   "ultimo_latido": "2026-10-16T20:45:48.115593-04:00"
   },
   {
    "id": "v2_10usd",
@@ -2196,7 +2196,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T20:35:49.162380-04:00"
+   "ultimo_latido": "2026-10-16T20:45:48.115593-04:00"
   },
   {
    "id": "v2_20usd",
@@ -2229,7 +2229,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T20:35:49.162380-04:00"
+   "ultimo_latido": "2026-10-16T20:45:54.118017-04:00"
   },
   {
    "id": "v2_40usd",
@@ -2262,7 +2262,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T20:35:49.162380-04:00"
+   "ultimo_latido": "2026-10-16T20:45:54.118017-04:00"
   },
   {
    "id": "v2_50usd",
@@ -2295,7 +2295,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T20:35:49.162380-04:00"
+   "ultimo_latido": "2026-10-16T20:45:54.118017-04:00"
   },
   {
    "id": "v2_100usd",
@@ -2328,18 +2328,18 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T20:35:55.177023-04:00"
+   "ultimo_latido": "2026-10-16T20:45:54.118017-04:00"
   },
   {
    "id": "v3_10usd",
    "nombre": "BTC 15 min KXBTC15M v3 favorito z>=1, min 5-8 (~$10 por trade, inicio $500)",
    "inicial": 500.0,
-   "saldo": 523.64,
-   "pnl": 23.64,
-   "trades": 45,
+   "saldo": 513.87,
+   "pnl": 13.87,
+   "trades": 46,
    "ganadas": 43,
-   "winrate": 95.6,
-   "drawdown_max_pct": 1.9,
+   "winrate": 93.5,
+   "drawdown_max_pct": 2.05,
    "abiertas": [],
    "equity": [
     {
@@ -2521,6 +2521,10 @@
     {
      "t": "2026-10-16T18:07:04.321025-04:00",
      "v": 523.64
+    },
+    {
+     "t": "2026-10-16T20:36:05.130465-04:00",
+     "v": 513.87
     }
    ],
    "operaciones": [
@@ -3018,21 +3022,32 @@
      "gano": true,
      "pnl": 1.34,
      "saldo": 523.64
+    },
+    {
+     "fecha": "2026-10-16T20:36:05.130465-04:00",
+     "mercado": "KXBTC15M-26OCT162045-45",
+     "lado": "UP",
+     "precio": 0.88,
+     "contratos": 11,
+     "resultado": "no",
+     "gano": false,
+     "pnl": -9.77,
+     "saldo": 513.87
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T20:35:56.501225-04:00"
+   "ultimo_latido": "2026-10-16T20:45:59.804635-04:00"
   },
   {
    "id": "v3_20usd",
    "nombre": "BTC 15 min KXBTC15M v3 favorito z>=1, min 5-8 (~$20 por trade, inicio $500)",
    "inicial": 500.0,
-   "saldo": 547.47,
-   "pnl": 47.47,
-   "trades": 45,
+   "saldo": 527.94,
+   "pnl": 27.94,
+   "trades": 46,
    "ganadas": 43,
-   "winrate": 95.6,
-   "drawdown_max_pct": 3.74,
+   "winrate": 93.5,
+   "drawdown_max_pct": 3.95,
    "abiertas": [],
    "equity": [
     {
@@ -3214,6 +3229,10 @@
     {
      "t": "2026-10-16T18:07:04.321754-04:00",
      "v": 547.47
+    },
+    {
+     "t": "2026-10-16T20:36:05.131041-04:00",
+     "v": 527.94
     }
    ],
    "operaciones": [
@@ -3711,10 +3730,21 @@
      "gano": true,
      "pnl": 2.68,
      "saldo": 547.47
+    },
+    {
+     "fecha": "2026-10-16T20:36:05.131041-04:00",
+     "mercado": "KXBTC15M-26OCT162045-45",
+     "lado": "UP",
+     "precio": 0.88,
+     "contratos": 22,
+     "resultado": "no",
+     "gano": false,
+     "pnl": -19.53,
+     "saldo": 527.94
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-16T20:35:58.578391-04:00"
+   "ultimo_latido": "2026-10-16T20:46:01.892879-04:00"
   }
  ]
 }
