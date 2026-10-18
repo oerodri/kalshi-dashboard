@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-18T08:37:05.283365-04:00",
+ "actualizado": "2026-10-18T08:47:01.620692-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -78,7 +78,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-18T08:36:33.412215-04:00"
+   "ultimo_latido": "2026-10-18T08:46:33.993452-04:00"
   },
   {
    "id": "clima_v2",
@@ -238,7 +238,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-18T08:36:33.412215-04:00"
+   "ultimo_latido": "2026-10-18T08:46:33.993452-04:00"
   },
   {
    "id": "v2_1",
@@ -361,7 +361,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-18T08:36:51.719637-04:00"
+   "ultimo_latido": "2026-10-18T08:46:45.747731-04:00"
   },
   {
    "id": "v2_3",
@@ -484,7 +484,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-18T08:36:51.719637-04:00"
+   "ultimo_latido": "2026-10-18T08:46:51.748671-04:00"
   },
   {
    "id": "v2_10usd",
@@ -607,7 +607,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-18T08:36:51.719637-04:00"
+   "ultimo_latido": "2026-10-18T08:46:51.748671-04:00"
   },
   {
    "id": "v2_20usd",
@@ -730,7 +730,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-18T08:36:51.719637-04:00"
+   "ultimo_latido": "2026-10-18T08:46:51.748671-04:00"
   },
   {
    "id": "v2_40usd",
@@ -853,7 +853,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-18T08:36:57.749786-04:00"
+   "ultimo_latido": "2026-10-18T08:46:51.748671-04:00"
   },
   {
    "id": "v2_50usd",
@@ -976,7 +976,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-18T08:36:57.749786-04:00"
+   "ultimo_latido": "2026-10-18T08:46:51.748671-04:00"
   },
   {
    "id": "v2_100usd",
@@ -1099,16 +1099,16 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-18T08:36:57.749786-04:00"
+   "ultimo_latido": "2026-10-18T08:46:57.756373-04:00"
   },
   {
    "id": "v3_10usd",
    "nombre": "BTC 15 min KXBTC15M v3 favorito z>=1, min 5-8 (~$10 por trade, inicio $500)",
    "inicial": 500.0,
-   "saldo": 529.11,
-   "pnl": 29.11,
-   "trades": 80,
-   "ganadas": 75,
+   "saldo": 530.24,
+   "pnl": 30.24,
+   "trades": 81,
+   "ganadas": 76,
    "winrate": 93.8,
    "drawdown_max_pct": 2.46,
    "abiertas": [],
@@ -1432,6 +1432,10 @@
     {
      "t": "2026-10-18T08:08:03.541512-04:00",
      "v": 529.11
+    },
+    {
+     "t": "2026-10-18T08:37:03.756341-04:00",
+     "v": 530.24
     }
    ],
    "operaciones": [
@@ -2314,19 +2318,30 @@
      "gano": true,
      "pnl": 1.13,
      "saldo": 529.11
+    },
+    {
+     "fecha": "2026-10-18T08:37:03.756341-04:00",
+     "mercado": "KXBTC15M-26OCT180845-45",
+     "lado": "DOWN",
+     "precio": 0.89,
+     "contratos": 11,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 1.13,
+     "saldo": 530.24
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-18T08:37:01.384380-04:00"
+   "ultimo_latido": "2026-10-18T08:47:00.133797-04:00"
   },
   {
    "id": "v3_20usd",
    "nombre": "BTC 15 min KXBTC15M v3 favorito z>=1, min 5-8 (~$20 por trade, inicio $500)",
    "inicial": 500.0,
-   "saldo": 559.35,
-   "pnl": 59.35,
-   "trades": 80,
-   "ganadas": 75,
+   "saldo": 561.61,
+   "pnl": 61.61,
+   "trades": 81,
+   "ganadas": 76,
    "winrate": 93.8,
    "drawdown_max_pct": 4.7,
    "abiertas": [],
@@ -2650,6 +2665,10 @@
     {
      "t": "2026-10-18T08:08:03.542067-04:00",
      "v": 559.35
+    },
+    {
+     "t": "2026-10-18T08:37:03.756950-04:00",
+     "v": 561.61
     }
    ],
    "operaciones": [
@@ -3532,10 +3551,21 @@
      "gano": true,
      "pnl": 2.26,
      "saldo": 559.35
+    },
+    {
+     "fecha": "2026-10-18T08:37:03.756950-04:00",
+     "mercado": "KXBTC15M-26OCT180845-45",
+     "lado": "DOWN",
+     "precio": 0.89,
+     "contratos": 22,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 2.26,
+     "saldo": 561.61
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-18T08:37:03.758910-04:00"
+   "ultimo_latido": "2026-10-18T08:47:00.133797-04:00"
   }
  ]
 }
