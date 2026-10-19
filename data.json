@@ -1,26 +1,18 @@
 {
- "actualizado": "2026-10-19T10:00:58.530474-04:00",
+ "actualizado": "2026-10-19T10:11:01.611305-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
    "id": "clima",
    "nombre": "Clima (NO 85–95¢, modelo >97%)",
    "inicial": 500.0,
-   "saldo": 493.54,
-   "pnl": -6.46,
-   "trades": 5,
-   "ganadas": 4,
-   "winrate": 80.0,
+   "saldo": 494.38,
+   "pnl": -5.62,
+   "trades": 6,
+   "ganadas": 5,
+   "winrate": 83.3,
    "drawdown_max_pct": 1.91,
-   "abiertas": [
-    {
-     "fecha": "2026-10-18T17:00:27.047829+00:00",
-     "mercado": "KXHIGHLAX-26OCT18-B82.5",
-     "lado": "no",
-     "precio": 0.91,
-     "contratos": 10
-    }
-   ],
+   "abiertas": [],
    "equity": [
     {
      "t": "2026-10-15T02:00:03.293083+00:00",
@@ -41,6 +33,10 @@
     {
      "t": "2026-10-18T02:00:07.801912+00:00",
      "v": 493.54
+    },
+    {
+     "t": "2026-10-18T17:00:27.047829+00:00",
+     "v": 494.38
     }
    ],
    "operaciones": [
@@ -98,29 +94,33 @@
      "gano": true,
      "pnl": 1.13,
      "saldo": 493.54
-    }
-   ],
-   "activo": true,
-   "ultimo_latido": "2026-10-19T10:00:44.020448-04:00"
-  },
-  {
-   "id": "clima_v2",
-   "nombre": "Clima v2 (NO 85–95¢, modelo >90%)",
-   "inicial": 500.0,
-   "saldo": 492.3,
-   "pnl": -7.7,
-   "trades": 12,
-   "ganadas": 11,
-   "winrate": 91.7,
-   "drawdown_max_pct": 3.95,
-   "abiertas": [
+    },
     {
      "fecha": "2026-10-18T17:00:27.047829+00:00",
      "mercado": "KXHIGHLAX-26OCT18-B82.5",
      "lado": "no",
      "precio": 0.91,
-     "contratos": 21
-    },
+     "contratos": 10.0,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 0.84,
+     "saldo": 494.38
+    }
+   ],
+   "activo": true,
+   "ultimo_latido": "2026-10-19T10:10:45.740631-04:00"
+  },
+  {
+   "id": "clima_v2",
+   "nombre": "Clima v2 (NO 85–95¢, modelo >90%)",
+   "inicial": 500.0,
+   "saldo": 494.06,
+   "pnl": -5.94,
+   "trades": 13,
+   "ganadas": 12,
+   "winrate": 92.3,
+   "drawdown_max_pct": 3.95,
+   "abiertas": [
     {
      "fecha": "2026-10-19T02:00:15.394810+00:00",
      "mercado": "KXHIGHNY-26OCT19-B60.5",
@@ -177,6 +177,10 @@
     {
      "t": "2026-10-18T14:00:10.594780+00:00",
      "v": 492.3
+    },
+    {
+     "t": "2026-10-18T17:00:27.047829+00:00",
+     "v": 494.06
     }
    ],
    "operaciones": [
@@ -311,10 +315,21 @@
      "gano": true,
      "pnl": 0.93,
      "saldo": 492.3
+    },
+    {
+     "fecha": "2026-10-18T17:00:27.047829+00:00",
+     "mercado": "KXHIGHLAX-26OCT18-B82.5",
+     "lado": "no",
+     "precio": 0.91,
+     "contratos": 21.0,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 1.76,
+     "saldo": 494.06
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-19T10:00:44.020448-04:00"
+   "ultimo_latido": "2026-10-19T10:10:45.740631-04:00"
   },
   {
    "id": "v2_1",
@@ -467,7 +482,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-19T10:00:48.135262-04:00"
+   "ultimo_latido": "2026-10-19T10:10:49.562825-04:00"
   },
   {
    "id": "v2_3",
@@ -620,7 +635,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-19T10:00:48.135262-04:00"
+   "ultimo_latido": "2026-10-19T10:10:49.562825-04:00"
   },
   {
    "id": "v2_10usd",
@@ -773,7 +788,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-19T10:00:48.135262-04:00"
+   "ultimo_latido": "2026-10-19T10:10:49.562825-04:00"
   },
   {
    "id": "v2_20usd",
@@ -926,7 +941,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-19T10:00:48.135262-04:00"
+   "ultimo_latido": "2026-10-19T10:10:55.548354-04:00"
   },
   {
    "id": "v2_40usd",
@@ -1079,7 +1094,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-19T10:00:54.140433-04:00"
+   "ultimo_latido": "2026-10-19T10:10:55.548354-04:00"
   },
   {
    "id": "v2_50usd",
@@ -1232,7 +1247,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-19T10:00:54.140433-04:00"
+   "ultimo_latido": "2026-10-19T10:10:55.548354-04:00"
   },
   {
    "id": "v2_100usd",
@@ -1385,7 +1400,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-19T10:00:54.140433-04:00"
+   "ultimo_latido": "2026-10-19T10:10:55.548354-04:00"
   },
   {
    "id": "v3_10usd",
@@ -3038,7 +3053,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-19T10:00:55.519782-04:00"
+   "ultimo_latido": "2026-10-19T10:10:58.617493-04:00"
   },
   {
    "id": "v3_20usd",
@@ -4691,7 +4706,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-19T10:00:57.613294-04:00"
+   "ultimo_latido": "2026-10-19T10:11:00.696352-04:00"
   }
  ]
 }
