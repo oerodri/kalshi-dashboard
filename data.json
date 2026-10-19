@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-19T06:20:51.304927-04:00",
+ "actualizado": "2026-10-19T06:30:52.311652-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -93,7 +93,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-19T06:20:26.803504-04:00"
+   "ultimo_latido": "2026-10-19T06:30:27.617717-04:00"
   },
   {
    "id": "clima_v2",
@@ -282,7 +282,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-19T06:20:26.803504-04:00"
+   "ultimo_latido": "2026-10-19T06:30:27.617717-04:00"
   },
   {
    "id": "v2_1",
@@ -420,7 +420,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-19T06:20:36.137076-04:00"
+   "ultimo_latido": "2026-10-19T06:30:41.014689-04:00"
   },
   {
    "id": "v2_3",
@@ -558,7 +558,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-19T06:20:42.079431-04:00"
+   "ultimo_latido": "2026-10-19T06:30:41.014689-04:00"
   },
   {
    "id": "v2_10usd",
@@ -696,7 +696,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-19T06:20:42.079431-04:00"
+   "ultimo_latido": "2026-10-19T06:30:41.014689-04:00"
   },
   {
    "id": "v2_20usd",
@@ -834,7 +834,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-19T06:20:42.079431-04:00"
+   "ultimo_latido": "2026-10-19T06:30:41.014689-04:00"
   },
   {
    "id": "v2_40usd",
@@ -972,7 +972,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-19T06:20:42.079431-04:00"
+   "ultimo_latido": "2026-10-19T06:30:47.026417-04:00"
   },
   {
    "id": "v2_50usd",
@@ -1110,7 +1110,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-19T06:20:42.079431-04:00"
+   "ultimo_latido": "2026-10-19T06:30:47.026417-04:00"
   },
   {
    "id": "v2_100usd",
@@ -1248,16 +1248,16 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-19T06:20:48.070907-04:00"
+   "ultimo_latido": "2026-10-19T06:30:47.026417-04:00"
   },
   {
    "id": "v3_10usd",
    "nombre": "BTC 15 min KXBTC15M v3 favorito z>=1, min 5-8 (~$10 por trade, inicio $500)",
    "inicial": 500.0,
-   "saldo": 544.24,
-   "pnl": 44.24,
-   "trades": 107,
-   "ganadas": 101,
+   "saldo": 545.37,
+   "pnl": 45.37,
+   "trades": 108,
+   "ganadas": 102,
    "winrate": 94.4,
    "drawdown_max_pct": 2.46,
    "abiertas": [],
@@ -1689,6 +1689,10 @@
     {
      "t": "2026-10-19T05:36:04.123927-04:00",
      "v": 544.24
+    },
+    {
+     "t": "2026-10-19T06:21:03.868175-04:00",
+     "v": 545.37
     }
    ],
    "operaciones": [
@@ -2868,19 +2872,30 @@
      "gano": true,
      "pnl": 1.44,
      "saldo": 544.24
+    },
+    {
+     "fecha": "2026-10-19T06:21:03.868175-04:00",
+     "mercado": "KXBTC15M-26OCT190630-30",
+     "lado": "DOWN",
+     "precio": 0.89,
+     "contratos": 11,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 1.13,
+     "saldo": 545.37
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-19T06:20:48.974877-04:00"
+   "ultimo_latido": "2026-10-19T06:30:50.246219-04:00"
   },
   {
    "id": "v3_20usd",
    "nombre": "BTC 15 min KXBTC15M v3 favorito z>=1, min 5-8 (~$20 por trade, inicio $500)",
    "inicial": 500.0,
-   "saldo": 590.88,
-   "pnl": 90.88,
-   "trades": 107,
-   "ganadas": 101,
+   "saldo": 593.14,
+   "pnl": 93.14,
+   "trades": 108,
+   "ganadas": 102,
    "winrate": 94.4,
    "drawdown_max_pct": 4.7,
    "abiertas": [],
@@ -3312,6 +3327,10 @@
     {
      "t": "2026-10-19T05:36:04.124538-04:00",
      "v": 590.88
+    },
+    {
+     "t": "2026-10-19T06:21:03.868743-04:00",
+     "v": 593.14
     }
    ],
    "operaciones": [
@@ -4491,10 +4510,21 @@
      "gano": true,
      "pnl": 3.02,
      "saldo": 590.88
+    },
+    {
+     "fecha": "2026-10-19T06:21:03.868743-04:00",
+     "mercado": "KXBTC15M-26OCT190630-30",
+     "lado": "DOWN",
+     "precio": 0.89,
+     "contratos": 22,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 2.26,
+     "saldo": 593.14
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-19T06:20:51.059577-04:00"
+   "ultimo_latido": "2026-10-19T06:30:50.246219-04:00"
   }
  ]
 }
