@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T03:45:01.011856-04:00",
+ "actualizado": "2026-10-23T17:35:36.032816-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -123,7 +123,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-23T03:44:33.247758-04:00"
+   "ultimo_latido": "2026-10-23T03:52:03.407301-04:00"
   },
   {
    "id": "clima_v2",
@@ -404,7 +404,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-23T03:44:33.247758-04:00"
+   "ultimo_latido": "2026-10-23T03:52:03.407301-04:00"
   },
   {
    "id": "v2_1",
@@ -617,7 +617,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-23T03:44:45.996226-04:00"
+   "ultimo_latido": "2026-10-23T17:35:17.568050-04:00"
   },
   {
    "id": "v2_3",
@@ -830,7 +830,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-23T03:44:52.003662-04:00"
+   "ultimo_latido": "2026-10-23T17:35:23.607122-04:00"
   },
   {
    "id": "v2_10usd",
@@ -1043,7 +1043,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-23T03:44:52.003662-04:00"
+   "ultimo_latido": "2026-10-23T17:35:23.607122-04:00"
   },
   {
    "id": "v2_20usd",
@@ -1256,7 +1256,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-23T03:44:52.003662-04:00"
+   "ultimo_latido": "2026-10-23T17:35:23.607122-04:00"
   },
   {
    "id": "v2_40usd",
@@ -1469,7 +1469,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-23T03:44:52.003662-04:00"
+   "ultimo_latido": "2026-10-23T17:35:23.607122-04:00"
   },
   {
    "id": "v2_50usd",
@@ -1682,7 +1682,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-23T03:44:52.003662-04:00"
+   "ultimo_latido": "2026-10-23T17:35:29.571234-04:00"
   },
   {
    "id": "v2_100usd",
@@ -1895,16 +1895,16 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-23T03:44:58.028848-04:00"
+   "ultimo_latido": "2026-10-23T17:35:29.571234-04:00"
   },
   {
    "id": "v3_10usd",
    "nombre": "BTC 15 min KXBTC15M v3 favorito z>=1, min 5-8 (~$10 por trade, inicio $500)",
    "inicial": 500.0,
-   "saldo": 520.88,
-   "pnl": 20.88,
-   "trades": 162,
-   "ganadas": 149,
+   "saldo": 521.72,
+   "pnl": 21.72,
+   "trades": 163,
+   "ganadas": 150,
    "winrate": 92.0,
    "drawdown_max_pct": 6.22,
    "abiertas": [],
@@ -2556,6 +2556,10 @@
     {
      "t": "2026-10-23T03:23:03.806497-04:00",
      "v": 520.88
+    },
+    {
+     "t": "2026-10-23T03:51:05.135910-04:00",
+     "v": 521.72
     }
    ],
    "operaciones": [
@@ -4340,19 +4344,30 @@
      "gano": true,
      "pnl": 1.23,
      "saldo": 520.88
+    },
+    {
+     "fecha": "2026-10-23T03:51:05.135910-04:00",
+     "mercado": "KXBTC15M-26OCT230400-00",
+     "lado": "DOWN",
+     "precio": 0.91,
+     "contratos": 10,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 0.84,
+     "saldo": 521.72
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-23T03:44:58.887727-04:00"
+   "ultimo_latido": "2026-10-23T17:35:34.405703-04:00"
   },
   {
    "id": "v3_20usd",
    "nombre": "BTC 15 min KXBTC15M v3 favorito z>=1, min 5-8 (~$20 por trade, inicio $500)",
    "inicial": 500.0,
-   "saldo": 543.69,
-   "pnl": 43.69,
-   "trades": 162,
-   "ganadas": 149,
+   "saldo": 545.45,
+   "pnl": 45.45,
+   "trades": 163,
+   "ganadas": 150,
    "winrate": 92.0,
    "drawdown_max_pct": 11.54,
    "abiertas": [],
@@ -5004,6 +5019,10 @@
     {
      "t": "2026-10-23T03:23:03.807092-04:00",
      "v": 543.69
+    },
+    {
+     "t": "2026-10-23T03:51:05.136650-04:00",
+     "v": 545.45
     }
    ],
    "operaciones": [
@@ -6788,10 +6807,21 @@
      "gano": true,
      "pnl": 2.47,
      "saldo": 543.69
+    },
+    {
+     "fecha": "2026-10-23T03:51:05.136650-04:00",
+     "mercado": "KXBTC15M-26OCT230400-00",
+     "lado": "DOWN",
+     "precio": 0.91,
+     "contratos": 21,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 1.76,
+     "saldo": 545.45
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-23T03:45:00.971308-04:00"
+   "ultimo_latido": "2026-10-23T17:35:34.405703-04:00"
   }
  ]
 }
