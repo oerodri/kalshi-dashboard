@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24T22:50:18.903366-04:00",
+ "actualizado": "2026-10-24T23:00:19.125124-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -123,7 +123,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-24T22:49:52.437823-04:00"
+   "ultimo_latido": "2026-10-24T22:59:52.465682-04:00"
   },
   {
    "id": "clima_v2",
@@ -411,7 +411,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-24T22:49:52.437823-04:00"
+   "ultimo_latido": "2026-10-24T22:59:52.465682-04:00"
   },
   {
    "id": "v2_1",
@@ -423,7 +423,15 @@
    "ganadas": 15,
    "winrate": 93.8,
    "drawdown_max_pct": 1.5,
-   "abiertas": [],
+   "abiertas": [
+    {
+     "fecha": "2026-10-24T22:51:19.199605-04:00",
+     "mercado": "KXBTC15M-26OCT242300-00",
+     "lado": "DOWN",
+     "precio": 0.75,
+     "contratos": 1
+    }
+   ],
    "equity": [
     {
      "t": "2026-10-15T08:31:08.519543-04:00",
@@ -669,7 +677,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-24T22:50:07.192414-04:00"
+   "ultimo_latido": "2026-10-24T23:00:12.067229-04:00"
   },
   {
    "id": "v2_3",
@@ -681,7 +689,15 @@
    "ganadas": 15,
    "winrate": 93.8,
    "drawdown_max_pct": 4.42,
-   "abiertas": [],
+   "abiertas": [
+    {
+     "fecha": "2026-10-24T22:51:19.200101-04:00",
+     "mercado": "KXBTC15M-26OCT242300-00",
+     "lado": "DOWN",
+     "precio": 0.75,
+     "contratos": 3
+    }
+   ],
    "equity": [
     {
      "t": "2026-10-15T08:31:08.520100-04:00",
@@ -927,7 +943,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-24T22:50:07.192414-04:00"
+   "ultimo_latido": "2026-10-24T23:00:12.067229-04:00"
   },
   {
    "id": "v2_10usd",
@@ -939,7 +955,15 @@
    "ganadas": 15,
    "winrate": 93.8,
    "drawdown_max_pct": 3.94,
-   "abiertas": [],
+   "abiertas": [
+    {
+     "fecha": "2026-10-24T22:51:19.200453-04:00",
+     "mercado": "KXBTC15M-26OCT242300-00",
+     "lado": "DOWN",
+     "precio": 0.75,
+     "contratos": 13
+    }
+   ],
    "equity": [
     {
      "t": "2026-10-15T08:31:08.520481-04:00",
@@ -1185,7 +1209,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-24T22:50:13.143827-04:00"
+   "ultimo_latido": "2026-10-24T23:00:12.067229-04:00"
   },
   {
    "id": "v2_20usd",
@@ -1197,7 +1221,15 @@
    "ganadas": 15,
    "winrate": 93.8,
    "drawdown_max_pct": 7.59,
-   "abiertas": [],
+   "abiertas": [
+    {
+     "fecha": "2026-10-24T22:51:19.200792-04:00",
+     "mercado": "KXBTC15M-26OCT242300-00",
+     "lado": "DOWN",
+     "precio": 0.75,
+     "contratos": 26
+    }
+   ],
    "equity": [
     {
      "t": "2026-10-15T08:31:08.520836-04:00",
@@ -1443,7 +1475,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-24T22:50:13.143827-04:00"
+   "ultimo_latido": "2026-10-24T23:00:12.067229-04:00"
   },
   {
    "id": "v2_40usd",
@@ -1455,7 +1487,15 @@
    "ganadas": 15,
    "winrate": 93.8,
    "drawdown_max_pct": 14.11,
-   "abiertas": [],
+   "abiertas": [
+    {
+     "fecha": "2026-10-24T22:51:19.201136-04:00",
+     "mercado": "KXBTC15M-26OCT242300-00",
+     "lado": "DOWN",
+     "precio": 0.75,
+     "contratos": 52
+    }
+   ],
    "equity": [
     {
      "t": "2026-10-15T08:31:08.521455-04:00",
@@ -1701,7 +1741,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-24T22:50:13.143827-04:00"
+   "ultimo_latido": "2026-10-24T23:00:12.067229-04:00"
   },
   {
    "id": "v2_50usd",
@@ -1713,7 +1753,15 @@
    "ganadas": 15,
    "winrate": 93.8,
    "drawdown_max_pct": 17.01,
-   "abiertas": [],
+   "abiertas": [
+    {
+     "fecha": "2026-10-24T22:51:19.201480-04:00",
+     "mercado": "KXBTC15M-26OCT242300-00",
+     "lado": "DOWN",
+     "precio": 0.75,
+     "contratos": 65
+    }
+   ],
    "equity": [
     {
      "t": "2026-10-15T08:31:08.521812-04:00",
@@ -1959,7 +2007,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-24T22:50:13.143827-04:00"
+   "ultimo_latido": "2026-10-24T23:00:12.067229-04:00"
   },
   {
    "id": "v2_100usd",
@@ -1971,7 +2019,15 @@
    "ganadas": 15,
    "winrate": 93.8,
    "drawdown_max_pct": 17.05,
-   "abiertas": [],
+   "abiertas": [
+    {
+     "fecha": "2026-10-24T22:51:19.201834-04:00",
+     "mercado": "KXBTC15M-26OCT242300-00",
+     "lado": "DOWN",
+     "precio": 0.75,
+     "contratos": 131
+    }
+   ],
    "equity": [
     {
      "t": "2026-10-15T08:31:08.522168-04:00",
@@ -2217,7 +2273,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-24T22:50:13.143827-04:00"
+   "ultimo_latido": "2026-10-24T23:00:12.067229-04:00"
   },
   {
    "id": "v3_10usd",
@@ -4785,7 +4841,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-24T22:50:16.059376-04:00"
+   "ultimo_latido": "2026-10-24T23:00:16.920085-04:00"
   },
   {
    "id": "v3_20usd",
@@ -7353,7 +7409,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-24T22:50:18.130069-04:00"
+   "ultimo_latido": "2026-10-24T23:00:19.016658-04:00"
   }
  ]
 }
