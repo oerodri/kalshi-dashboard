@@ -70,4 +70,4 @@ function tbl(){const fb=$('#fBot').value,fr=$('#fRes').value,ft=$('#fTxt').value
  r.sort((a,b)=>(a[sortK]>b[sortK]?1:a[sortK]<b[sortK]?-1:0)*sortD);
  $('#trades').innerHTML=r.length?`<table><tr>${cols.map(([k,n])=>`<th data-k="${k}">${n}${sortK==k?(sortD>0?' ▲':' ▼'):''}</th>`).join('')}</tr>${r.map(o=>`<tr><td>${fdt(o.fecha)}</td><td>${o.bot}</td><td>${o.mercado}</td><td>${o.lado}</td><td>${o.precio??'—'}</td><td>${o.contratos??'—'}</td><td>${o.gano?'✅ Ganada':'❌ Perdida'}</td><td class="${cls(o.pnl)}">${usd(o.pnl)}</td><td>${usd(o.saldo)}</td></tr>`).join('')}</table>`:'<div class="empty">Sin operaciones que coincidan.</div>';
  document.querySelectorAll('#trades th').forEach(th=>th.onclick=()=>{sortD=sortK==th.dataset.k?-sortD:-1;sortK=th.dataset.k;tbl()})}
-</script></body></html>
+</script><script src="compass.js"></script></body></html>

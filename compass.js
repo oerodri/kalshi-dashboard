@@ -1,0 +1,7 @@
+(function(){const m=document.querySelector('main');if(!m)return;const p=document.createElement('div');p.className='panel';p.id='compass';
+p.innerHTML='<div class="bar"><h2>🧭 Compass (paper, 1 día de prueba)</h2></div><div id="cpx" class="mut">Cargando…</div>';m.prepend(p);
+const u=v=>(v<0?'-':'')+'$'+Math.abs(v||0).toFixed(2),c=v=>v>0?'pos':v<0?'neg':'';
+fetch('compass.json?'+Date.now()).then(r=>r.json()).then(d=>{let h='<div class="mut">Actualizado: '+d.actualizado+(d.log_existe?'':' · aún sin lecturas')+'</div>';
+h+=d.grupos.map(g=>`<div style="border-bottom:1px solid var(--ln);padding:8px 0"><b>${g.nombre}</b><br>Trades: ${g.trades} · ✅ ${g.ganadas} · ❌ ${g.perdidas}<br>Neto: <span class="${c(g.neto)}">${u(g.neto)}</span> · Abiertas: ${g.abiertas}</div>`).join('');
+h+='<div style="margin-top:10px"><b>Últimas 10</b></div>'+(d.ultimas.length?d.ultimas.map(t=>`<div style="border-bottom:1px solid var(--ln);padding:6px 0;font-size:13px">${t.t||'—'}<br>${t.flip?'Flip':'Llamada'} ${t.tier?'Tier '+t.tier:''} · ${t.lado||''} a ${t.precio!=null?Math.round(t.precio)+'¢':'—'}${t.min_left!=null?' · '+t.min_left+' min':''}<br>${t.abierta?'⏳ Abierta':(t.gano?'✅ Ganada ':'❌ Perdida ')+'<span class="'+c(t.pnl)+'">'+u(t.pnl)+'</span>'}</div>`).join(''):'<div class="empty">Sin operaciones todavía.</div>');
+document.getElementById('cpx').innerHTML=h}).catch(()=>{document.getElementById('cpx').textContent='Sin datos de Compass todavía.'})})();
