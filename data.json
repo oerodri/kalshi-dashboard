@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T17:15:22.929059-04:00",
+ "actualizado": "2026-10-27T17:25:21.858864-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -123,7 +123,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-27T17:15:08.024359-04:00"
+   "ultimo_latido": "2026-10-27T17:25:08.160844-04:00"
   },
   {
    "id": "clima_v2",
@@ -434,7 +434,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-27T17:15:08.024359-04:00"
+   "ultimo_latido": "2026-10-27T17:25:08.160844-04:00"
   },
   {
    "id": "v2_1",
@@ -2777,7 +2777,15 @@
    "ganadas": 187,
    "winrate": 91.7,
    "drawdown_max_pct": 8.46,
-   "abiertas": [],
+   "abiertas": [
+    {
+     "fecha": "2026-10-27T17:23:03.821984-04:00",
+     "mercado": "KXBTC15M-26OCT271730-30",
+     "lado": "DOWN",
+     "precio": 0.87,
+     "contratos": 11
+    }
+   ],
    "equity": [
     {
      "t": "2026-10-15T09:50:03.851928-04:00",
@@ -5843,7 +5851,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-27T17:15:21.039001-04:00"
+   "ultimo_latido": "2026-10-27T17:25:19.775717-04:00"
   },
   {
    "id": "v3_20usd",
@@ -5855,7 +5863,15 @@
    "ganadas": 187,
    "winrate": 91.7,
    "drawdown_max_pct": 15.44,
-   "abiertas": [],
+   "abiertas": [
+    {
+     "fecha": "2026-10-27T17:23:03.822493-04:00",
+     "mercado": "KXBTC15M-26OCT271730-30",
+     "lado": "DOWN",
+     "precio": 0.87,
+     "contratos": 22
+    }
+   ],
    "equity": [
     {
      "t": "2026-10-15T09:50:03.852991-04:00",
@@ -8921,7 +8937,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-27T17:15:21.039001-04:00"
+   "ultimo_latido": "2026-10-27T17:25:19.775717-04:00"
   },
   {
    "id": "v4b_10usd",
@@ -8933,11 +8949,19 @@
    "ganadas": 0,
    "winrate": null,
    "drawdown_max_pct": 0,
-   "abiertas": [],
+   "abiertas": [
+    {
+     "fecha": "2026-10-27T17:22:04.469055-04:00",
+     "mercado": "KXBTC15M-26OCT271730-30",
+     "lado": "DOWN",
+     "precio": 0.82,
+     "contratos": 12
+    }
+   ],
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-10-27T17:15:22.066274-04:00"
+   "ultimo_latido": "2026-10-27T17:25:21.227789-04:00"
   }
  ]
 }
