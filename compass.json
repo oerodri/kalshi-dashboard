@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-10-27 19:29 ET",
+ "actualizado": "2026-10-27 19:40 ET",
  "log_existe": true,
- "filas": 5,
+ "filas": 6,
  "grupos": [
   {
    "id": "todas",
@@ -10,7 +10,7 @@
    "ganadas": 3,
    "perdidas": 2,
    "neto": -17.97,
-   "abiertas": 0
+   "abiertas": 1
   },
   {
    "id": "tierA",
@@ -59,6 +59,19 @@
   }
  ],
  "ultimas": [
+  {
+   "t": "2026-10-27 19:40",
+   "mercado": "KXBTC15M-26OCT271945-45",
+   "lado": "NO",
+   "tier": "B",
+   "min_left": 4.9,
+   "precio": 70.0,
+   "contratos": 14.0,
+   "pnl": null,
+   "gano": null,
+   "abierta": true,
+   "flip": false
+  },
   {
    "t": "2026-10-27 18:53",
    "mercado": "KXBTC15M-26OCT271900-00",
