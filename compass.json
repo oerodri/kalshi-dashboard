@@ -1,15 +1,15 @@
 {
- "actualizado": "2026-10-28 15:34 ET",
+ "actualizado": "2026-10-28 15:57 ET",
  "log_existe": true,
- "filas": 40,
+ "filas": 41,
  "grupos": [
   {
    "id": "todas",
    "nombre": "Todas las llamadas oficiales",
-   "trades": 40,
-   "ganadas": 30,
+   "trades": 41,
+   "ganadas": 31,
    "perdidas": 10,
-   "neto": 7.17,
+   "neto": 7.47,
    "abiertas": 0
   },
   {
@@ -59,6 +59,19 @@
   }
  ],
  "ultimas": [
+  {
+   "t": "2026-10-28 15:41",
+   "mercado": "KXBTC15M-26OCT281545-45",
+   "lado": "YES",
+   "tier": "B",
+   "min_left": 3.27,
+   "precio": 96.7,
+   "contratos": 10.0,
+   "pnl": 0.3,
+   "gano": true,
+   "abierta": false,
+   "flip": false
+  },
   {
    "t": "2026-10-28 14:53",
    "mercado": "KXBTC15M-26OCT281500-00",
@@ -173,19 +186,6 @@
    "contratos": 10.0,
    "pnl": 0.05,
    "gano": true,
-   "abierta": false,
-   "flip": false
-  },
-  {
-   "t": "2026-10-28 10:57",
-   "mercado": "KXBTC15M-26OCT281100-00",
-   "lado": "NO",
-   "tier": "B",
-   "min_left": 2.42,
-   "precio": 75.0,
-   "contratos": 13.0,
-   "pnl": -9.93,
-   "gano": false,
    "abierta": false,
    "flip": false
   }
