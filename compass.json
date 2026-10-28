@@ -1,16 +1,16 @@
 {
- "actualizado": "2026-10-28 02:15 ET",
+ "actualizado": "2026-10-28 02:16 ET",
  "log_existe": true,
  "filas": 16,
  "grupos": [
   {
    "id": "todas",
    "nombre": "Todas las llamadas oficiales",
-   "trades": 15,
-   "ganadas": 10,
+   "trades": 16,
+   "ganadas": 11,
    "perdidas": 5,
-   "neto": -26.15,
-   "abiertas": 1
+   "neto": -26.05,
+   "abiertas": 0
   },
   {
    "id": "tierA",
@@ -67,9 +67,9 @@
    "min_left": 1.5,
    "precio": 98.9,
    "contratos": 10.0,
-   "pnl": null,
-   "gano": null,
-   "abierta": true,
+   "pnl": 0.1,
+   "gano": true,
+   "abierta": false,
    "flip": false
   },
   {
