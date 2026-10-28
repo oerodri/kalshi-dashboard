@@ -6,11 +6,11 @@
   {
    "id": "todas",
    "nombre": "Todas las llamadas oficiales",
-   "trades": 6,
+   "trades": 7,
    "ganadas": 3,
-   "perdidas": 3,
-   "neto": -27.98,
-   "abiertas": 1
+   "perdidas": 4,
+   "neto": -32.71,
+   "abiertas": 0
   },
   {
    "id": "tierA",
@@ -67,9 +67,9 @@
    "min_left": 2.75,
    "precio": 4.3,
    "contratos": 103.0,
-   "pnl": null,
-   "gano": null,
-   "abierta": true,
+   "pnl": -4.73,
+   "gano": false,
+   "abierta": false,
    "flip": false
   },
   {
