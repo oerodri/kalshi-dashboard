@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T01:35:40.076786-04:00",
+ "actualizado": "2026-10-28T01:45:40.678923-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -123,7 +123,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-28T01:35:23.660748-04:00"
+   "ultimo_latido": "2026-10-28T01:45:24.054966-04:00"
   },
   {
    "id": "clima_v2",
@@ -448,7 +448,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-28T01:35:23.660748-04:00"
+   "ultimo_latido": "2026-10-28T01:45:24.054966-04:00"
   },
   {
    "id": "v2_1",
@@ -5917,7 +5917,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-28T01:35:38.091221-04:00"
+   "ultimo_latido": "2026-10-28T01:45:39.259054-04:00"
   },
   {
    "id": "v3_20usd",
@@ -9055,18 +9055,18 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-28T01:35:38.091221-04:00"
+   "ultimo_latido": "2026-10-28T01:45:39.259054-04:00"
   },
   {
    "id": "v4b_10usd",
    "nombre": "BTC 15 min KXBTC15M v4b balanceado 78-85, z>=0.75, min 3-10 (~$10 por trade, inicio $500)",
    "inicial": 500.0,
-   "saldo": 484.47,
-   "pnl": -15.53,
-   "trades": 4,
+   "saldo": 474.5,
+   "pnl": -25.5,
+   "trades": 5,
    "ganadas": 2,
-   "winrate": 50.0,
-   "drawdown_max_pct": 3.54,
+   "winrate": 40.0,
+   "drawdown_max_pct": 5.1,
    "abiertas": [],
    "equity": [
     {
@@ -9084,6 +9084,10 @@
     {
      "t": "2026-10-28T01:04:03.992502-04:00",
      "v": 484.47
+    },
+    {
+     "t": "2026-10-28T01:39:03.827253-04:00",
+     "v": 474.5
     }
    ],
    "operaciones": [
@@ -9130,10 +9134,21 @@
      "gano": true,
      "pnl": 2.15,
      "saldo": 484.47
+    },
+    {
+     "fecha": "2026-10-28T01:39:03.827253-04:00",
+     "mercado": "KXBTC15M-26OCT280145-45",
+     "lado": "DOWN",
+     "precio": 0.82,
+     "contratos": 12,
+     "resultado": "yes",
+     "gano": false,
+     "pnl": -9.97,
+     "saldo": 474.5
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-28T01:35:39.620403-04:00"
+   "ultimo_latido": "2026-10-28T01:45:39.274067-04:00"
   }
  ]
 }
