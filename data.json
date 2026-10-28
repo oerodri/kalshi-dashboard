@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T01:55:42.957922-04:00",
+ "actualizado": "2026-10-28T02:05:41.378305-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -123,7 +123,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-28T01:55:24.440778-04:00"
+   "ultimo_latido": "2026-10-28T02:05:24.783035-04:00"
   },
   {
    "id": "clima_v2",
@@ -448,7 +448,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-28T01:55:24.440778-04:00"
+   "ultimo_latido": "2026-10-28T02:05:24.783035-04:00"
   },
   {
    "id": "v2_1",
@@ -5917,7 +5917,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-28T01:55:40.250446-04:00"
+   "ultimo_latido": "2026-10-28T02:05:38.237896-04:00"
   },
   {
    "id": "v3_20usd",
@@ -9055,27 +9055,19 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-28T01:55:40.250446-04:00"
+   "ultimo_latido": "2026-10-28T02:05:40.318152-04:00"
   },
   {
    "id": "v4b_10usd",
    "nombre": "BTC 15 min KXBTC15M v4b balanceado 78-85, z>=0.75, min 3-10 (~$10 por trade, inicio $500)",
    "inicial": 500.0,
-   "saldo": 474.5,
-   "pnl": -25.5,
-   "trades": 5,
-   "ganadas": 2,
-   "winrate": 40.0,
+   "saldo": 476.53,
+   "pnl": -23.47,
+   "trades": 6,
+   "ganadas": 3,
+   "winrate": 50.0,
    "drawdown_max_pct": 5.1,
-   "abiertas": [
-    {
-     "fecha": "2026-10-28T01:52:05.437738-04:00",
-     "mercado": "KXBTC15M-26OCT280200-00",
-     "lado": "DOWN",
-     "precio": 0.82,
-     "contratos": 12
-    }
-   ],
+   "abiertas": [],
    "equity": [
     {
      "t": "2026-10-27T17:22:04.469055-04:00",
@@ -9096,6 +9088,10 @@
     {
      "t": "2026-10-28T01:39:03.827253-04:00",
      "v": 474.5
+    },
+    {
+     "t": "2026-10-28T01:52:05.437738-04:00",
+     "v": 476.53
     }
    ],
    "operaciones": [
@@ -9153,10 +9149,21 @@
      "gano": false,
      "pnl": -9.97,
      "saldo": 474.5
+    },
+    {
+     "fecha": "2026-10-28T01:52:05.437738-04:00",
+     "mercado": "KXBTC15M-26OCT280200-00",
+     "lado": "DOWN",
+     "precio": 0.82,
+     "contratos": 12,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 2.03,
+     "saldo": 476.53
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-28T01:55:42.594539-04:00"
+   "ultimo_latido": "2026-10-28T02:05:40.997307-04:00"
   }
  ]
 }
