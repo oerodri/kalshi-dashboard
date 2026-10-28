@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T06:05:51.540319-04:00",
+ "actualizado": "2026-10-28T06:15:51.372744-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -123,7 +123,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-28T06:05:34.359908-04:00"
+   "ultimo_latido": "2026-10-28T06:15:34.730206-04:00"
   },
   {
    "id": "clima_v2",
@@ -448,7 +448,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-28T06:05:34.359908-04:00"
+   "ultimo_latido": "2026-10-28T06:15:34.730206-04:00"
   },
   {
    "id": "v2_1",
@@ -6052,7 +6052,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-28T06:05:49.378808-04:00"
+   "ultimo_latido": "2026-10-28T06:15:48.977079-04:00"
   },
   {
    "id": "v3_20usd",
@@ -9325,17 +9325,17 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-28T06:05:49.378808-04:00"
+   "ultimo_latido": "2026-10-28T06:15:48.977079-04:00"
   },
   {
    "id": "v4b_10usd",
    "nombre": "BTC 15 min KXBTC15M v4b balanceado 78-85, z>=0.75, min 3-10 (~$10 por trade, inicio $500)",
    "inicial": 500.0,
-   "saldo": 483.04,
-   "pnl": -16.96,
-   "trades": 9,
-   "ganadas": 6,
-   "winrate": 66.7,
+   "saldo": 484.59,
+   "pnl": -15.41,
+   "trades": 10,
+   "ganadas": 7,
+   "winrate": 70.0,
    "drawdown_max_pct": 5.1,
    "abiertas": [],
    "equity": [
@@ -9374,6 +9374,10 @@
     {
      "t": "2026-10-28T03:08:04.272574-04:00",
      "v": 483.04
+    },
+    {
+     "t": "2026-10-28T06:07:04.382859-04:00",
+     "v": 484.59
     }
    ],
    "operaciones": [
@@ -9475,10 +9479,21 @@
      "gano": true,
      "pnl": 2.26,
      "saldo": 483.04
+    },
+    {
+     "fecha": "2026-10-28T06:07:04.382859-04:00",
+     "mercado": "KXBTC15M-26OCT280615-15",
+     "lado": "DOWN",
+     "precio": 0.85,
+     "contratos": 11,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 1.55,
+     "saldo": 484.59
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-28T06:05:50.794626-04:00"
+   "ultimo_latido": "2026-10-28T06:15:50.357938-04:00"
   }
  ]
 }
