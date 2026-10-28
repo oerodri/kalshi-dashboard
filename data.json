@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T08:05:55.802519-04:00",
+ "actualizado": "2026-10-28T08:15:56.765164-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -123,26 +123,19 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-28T08:05:39.513988-04:00"
+   "ultimo_latido": "2026-10-28T08:15:39.908979-04:00"
   },
   {
    "id": "clima_v2",
    "nombre": "Clima v2 (NO 85–95¢, modelo >90%)",
    "inicial": 500.0,
-   "saldo": 502.39,
-   "pnl": 2.39,
-   "trades": 19,
-   "ganadas": 18,
-   "winrate": 94.7,
+   "saldo": 504.45,
+   "pnl": 4.45,
+   "trades": 20,
+   "ganadas": 19,
+   "winrate": 95.0,
    "drawdown_max_pct": 3.95,
    "abiertas": [
-    {
-     "fecha": "2026-10-27T03:00:09.100369+00:00",
-     "mercado": "KXHIGHAUS-26OCT27-T80",
-     "lado": "no",
-     "precio": 0.9,
-     "contratos": 22
-    },
     {
      "fecha": "2026-10-28T03:00:16.267896+00:00",
      "mercado": "KXHIGHAUS-26OCT28-T82",
@@ -234,6 +227,10 @@
     {
      "t": "2026-10-25T03:00:22.715007+00:00",
      "v": 502.39
+    },
+    {
+     "t": "2026-10-27T03:00:09.100369+00:00",
+     "v": 504.45
     }
    ],
    "operaciones": [
@@ -445,10 +442,21 @@
      "gano": true,
      "pnl": 0.88,
      "saldo": 502.39
+    },
+    {
+     "fecha": "2026-10-27T03:00:09.100369+00:00",
+     "mercado": "KXHIGHAUS-26OCT27-T80",
+     "lado": "no",
+     "precio": 0.9,
+     "contratos": 22.0,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 2.06,
+     "saldo": 504.45
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-28T08:05:39.513988-04:00"
+   "ultimo_latido": "2026-10-28T08:15:39.908979-04:00"
   },
   {
    "id": "v2_1",
@@ -6052,7 +6060,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-28T08:05:53.619459-04:00"
+   "ultimo_latido": "2026-10-28T08:15:54.013515-04:00"
   },
   {
    "id": "v3_20usd",
@@ -9325,7 +9333,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-28T08:05:53.619459-04:00"
+   "ultimo_latido": "2026-10-28T08:15:56.096804-04:00"
   },
   {
    "id": "v4b_10usd",
@@ -9508,7 +9516,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-28T08:05:55.443520-04:00"
+   "ultimo_latido": "2026-10-28T08:15:56.307995-04:00"
   }
  ]
 }
