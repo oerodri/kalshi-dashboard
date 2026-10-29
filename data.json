@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T08:15:32.505721-04:00",
+ "actualizado": "2026-10-29T08:25:32.790589-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -123,26 +123,19 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-29T08:15:04.221865-04:00"
+   "ultimo_latido": "2026-10-29T08:25:04.505714-04:00"
   },
   {
    "id": "clima_v2",
    "nombre": "Clima v2 (NO 85â€“95Â¢, modelo >90%)",
    "inicial": 500.0,
-   "saldo": 505.82,
-   "pnl": 5.82,
-   "trades": 21,
+   "saldo": 485.88,
+   "pnl": -14.12,
+   "trades": 22,
    "ganadas": 20,
-   "winrate": 95.2,
+   "winrate": 90.9,
    "drawdown_max_pct": 3.95,
    "abiertas": [
-    {
-     "fecha": "2026-10-28T03:00:16.267896+00:00",
-     "mercado": "KXHIGHAUS-26OCT28-T82",
-     "lado": "no",
-     "precio": 0.9,
-     "contratos": 22
-    },
     {
      "fecha": "2026-10-29T02:00:05.547357+00:00",
      "mercado": "KXHIGHMIA-26OCT29-B89.5",
@@ -235,6 +228,10 @@
     {
      "t": "2026-10-28T03:00:16.625977+00:00",
      "v": 505.82
+    },
+    {
+     "t": "2026-10-28T03:00:16.267896+00:00",
+     "v": 485.88
     }
    ],
    "operaciones": [
@@ -468,10 +465,21 @@
      "gano": true,
      "pnl": 1.37,
      "saldo": 505.82
+    },
+    {
+     "fecha": "2026-10-28T03:00:16.267896+00:00",
+     "mercado": "KXHIGHAUS-26OCT28-T82",
+     "lado": "no",
+     "precio": 0.9,
+     "contratos": 22.0,
+     "resultado": "yes",
+     "gano": false,
+     "pnl": -19.94,
+     "saldo": 485.88
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-29T08:15:04.221865-04:00"
+   "ultimo_latido": "2026-10-29T08:25:04.505714-04:00"
   },
   {
    "id": "v2_1",
@@ -3015,7 +3023,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-29T08:15:30.696363-04:00"
+   "ultimo_latido": "2026-10-29T08:25:31.992834-04:00"
   }
  ]
 }
