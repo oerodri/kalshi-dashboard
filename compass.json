@@ -1,193 +1,27 @@
 {
- "actualizado": "2026-10-29 08:18 ET",
- "log_existe": true,
- "filas": 43,
- "grupos": [
+ "etiqueta": "Tier A en vivo (papel)",
+ "actualizado": "2026-10-29 08:59 ET",
+ "saldo": 500,
+ "pnl_total": 0,
+ "pnl_hoy": 0,
+ "trades": 0,
+ "ganadas": 0,
+ "winrate": null,
+ "max_dd_pct": 0,
+ "abiertas": 0,
+ "saltadas": 0,
+ "ultimas": [],
+ "tipo": "tierA_live",
+ "balance": 500,
+ "trades_total": 0,
+ "trades_hoy": 0,
+ "losses_hoy": 0,
+ "max_dd": 0,
+ "equity": [
   {
-   "id": "todas",
-   "nombre": "Todas las llamadas oficiales",
-   "trades": 43,
-   "ganadas": 32,
-   "perdidas": 11,
-   "neto": -3.23,
-   "abiertas": 0
-  },
-  {
-   "id": "tierA",
-   "nombre": "Tier A",
-   "trades": 17,
-   "ganadas": 15,
-   "perdidas": 2,
-   "neto": 58.56,
-   "abiertas": 0
-  },
-  {
-   "id": "tempranas",
-   "nombre": "Tempranas (11+ min)",
-   "trades": 0,
-   "ganadas": 0,
-   "perdidas": 0,
-   "neto": 0,
-   "abiertas": 0
-  },
-  {
-   "id": "tierA_tempranas",
-   "nombre": "Tier A + tempranas",
-   "trades": 0,
-   "ganadas": 0,
-   "perdidas": 0,
-   "neto": 0,
-   "abiertas": 0
-  },
-  {
-   "id": "flips",
-   "nombre": "Alertas de flip",
-   "trades": 0,
-   "ganadas": 0,
-   "perdidas": 0,
-   "neto": 0,
-   "abiertas": 0
-  },
-  {
-   "id": "p78_88",
-   "nombre": "Entradas 78–88¢",
-   "trades": 1,
-   "ganadas": 1,
-   "perdidas": 0,
-   "neto": 1.44,
-   "abiertas": 0
+   "t": "inicio",
+   "b": 500
   }
  ],
- "ultimas": [
-  {
-   "t": "2026-10-28 16:27",
-   "mercado": "KXBTC15M-26OCT281630-30",
-   "lado": "NO",
-   "tier": "B",
-   "min_left": 2.33,
-   "precio": 99.9,
-   "contratos": 10.0,
-   "pnl": 0.0,
-   "gano": true,
-   "abierta": false,
-   "flip": false
-  },
-  {
-   "t": "2026-10-28 16:12",
-   "mercado": "KXBTC15M-26OCT281615-15",
-   "lado": "YES",
-   "tier": "A",
-   "min_left": 2.23,
-   "precio": 20.0,
-   "contratos": 5000.0,
-   "pnl": -10.7,
-   "gano": false,
-   "abierta": false,
-   "flip": false
-  },
-  {
-   "t": "2026-10-28 15:41",
-   "mercado": "KXBTC15M-26OCT281545-45",
-   "lado": "YES",
-   "tier": "B",
-   "min_left": 3.27,
-   "precio": 96.7,
-   "contratos": 10.0,
-   "pnl": 0.3,
-   "gano": true,
-   "abierta": false,
-   "flip": false
-  },
-  {
-   "t": "2026-10-28 14:53",
-   "mercado": "KXBTC15M-26OCT281500-00",
-   "lado": "NO",
-   "tier": "A",
-   "min_left": 6.72,
-   "precio": 96.4,
-   "contratos": 10.0,
-   "pnl": 0.33,
-   "gano": true,
-   "abierta": false,
-   "flip": false
-  },
-  {
-   "t": "2026-10-28 14:11",
-   "mercado": "KXBTC15M-26OCT281415-15",
-   "lado": "NO",
-   "tier": "A",
-   "min_left": 4.02,
-   "precio": 89.0,
-   "contratos": 11.0,
-   "pnl": 1.13,
-   "gano": true,
-   "abierta": false,
-   "flip": false
-  },
-  {
-   "t": "2026-10-28 13:53",
-   "mercado": "KXBTC15M-26OCT281400-00",
-   "lado": "YES",
-   "tier": "B",
-   "min_left": 7.07,
-   "precio": 95.9,
-   "contratos": 10.0,
-   "pnl": 0.38,
-   "gano": true,
-   "abierta": false,
-   "flip": false
-  },
-  {
-   "t": "2026-10-28 13:42",
-   "mercado": "KXBTC15M-26OCT281345-45",
-   "lado": "YES",
-   "tier": "B",
-   "min_left": 2.93,
-   "precio": 99.4,
-   "contratos": 10.0,
-   "pnl": 0.05,
-   "gano": true,
-   "abierta": false,
-   "flip": false
-  },
-  {
-   "t": "2026-10-28 13:25",
-   "mercado": "KXBTC15M-26OCT281330-30",
-   "lado": "YES",
-   "tier": "A",
-   "min_left": 5.33,
-   "precio": 98.4,
-   "contratos": 10.0,
-   "pnl": 0.14,
-   "gano": true,
-   "abierta": false,
-   "flip": false
-  },
-  {
-   "t": "2026-10-28 12:41",
-   "mercado": "KXBTC15M-26OCT281245-45",
-   "lado": "YES",
-   "tier": "B",
-   "min_left": 3.43,
-   "precio": 10.0,
-   "contratos": 99.0,
-   "pnl": -10.53,
-   "gano": false,
-   "abierta": false,
-   "flip": false
-  },
-  {
-   "t": "2026-10-28 12:28",
-   "mercado": "KXBTC15M-26OCT281230-30",
-   "lado": "NO",
-   "tier": "B",
-   "min_left": 2.07,
-   "precio": 98.6,
-   "contratos": 10.0,
-   "pnl": 0.13,
-   "gano": true,
-   "abierta": false,
-   "flip": false
-  }
- ]
+ "last_trades": []
 }
