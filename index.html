@@ -22,7 +22,7 @@ table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:ta
 th{color:var(--mu);cursor:pointer;user-select:none;font-weight:600}th:hover{color:var(--tx)}.tw{overflow-x:auto}
 .empty{color:var(--mu);text-align:center;padding:26px}footer{color:var(--mu);font-size:12px;text-align:center;padding:20px}
 @media(max-width:600px){header{padding:10px}main{padding:10px}.big{font-size:20px}.chartbox{height:240px}}
-main>*:not(#compass):not(#pm5m){display:none!important}/*SOLO_COMPASS: borrar esta regla para volver a mostrar los bots*/
+main>*:not(#compass){display:none!important}/*SOLO_COMPASS: borrar esta regla para volver a mostrar los bots*/
 </style></head><body>
 <header><div><h1>⚡ <b>Kalshi</b> Paper Terminal</h1><div class="mut">Bots de Erick · operado por Alfred</div></div>
 <span class="badge">SIMULACIÓN · PAPER · SIN DINERO REAL</span>
@@ -71,4 +71,4 @@ function tbl(){const fb=$('#fBot').value,fr=$('#fRes').value,ft=$('#fTxt').value
  r.sort((a,b)=>(a[sortK]>b[sortK]?1:a[sortK]<b[sortK]?-1:0)*sortD);
  $('#trades').innerHTML=r.length?`<table><tr>${cols.map(([k,n])=>`<th data-k="${k}">${n}${sortK==k?(sortD>0?' ▲':' ▼'):''}</th>`).join('')}</tr>${r.map(o=>`<tr><td>${fdt(o.fecha)}</td><td>${o.bot}</td><td>${o.mercado}</td><td>${o.lado}</td><td>${o.precio??'—'}</td><td>${o.contratos??'—'}</td><td>${o.gano?'✅ Ganada':'❌ Perdida'}</td><td class="${cls(o.pnl)}">${usd(o.pnl)}</td><td>${usd(o.saldo)}</td></tr>`).join('')}</table>`:'<div class="empty">Sin operaciones que coincidan.</div>';
  document.querySelectorAll('#trades th').forEach(th=>th.onclick=()=>{sortD=sortK==th.dataset.k?-sortD:-1;sortK=th.dataset.k;tbl()})}
-</script><script src="compass.js"></script><script src="pm5m.js"></script></body></html>
+</script><script src="compass.js"></script></body></html>
