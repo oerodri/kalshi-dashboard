@@ -1,27 +1,217 @@
 {
  "etiqueta": "Tier A en vivo (papel)",
  "actualizado": "2026-10-29 08:59 ET",
- "saldo": 500,
- "pnl_total": 0,
+ "saldo": 558.56,
+ "pnl_total": 58.56,
  "pnl_hoy": 0,
- "trades": 0,
- "ganadas": 0,
- "winrate": null,
- "max_dd_pct": 0,
+ "trades": 17,
+ "ganadas": 15,
+ "winrate": 88.2,
+ "max_dd_pct": 3.36,
  "abiertas": 0,
  "saltadas": 0,
  "ultimas": [],
+ "trades_prueba": 17,
  "tipo": "tierA_live",
- "balance": 500,
- "trades_total": 0,
+ "balance": 558.56,
+ "trades_total": 17,
  "trades_hoy": 0,
  "losses_hoy": 0,
- "max_dd": 0,
+ "max_dd": 3.36,
  "equity": [
   {
    "t": "inicio",
    "b": 500
+  },
+  {
+   "t": "2026-10-27 17:12",
+   "b": 500.74
+  },
+  {
+   "t": "2026-10-27 18:44",
+   "b": 500.75
+  },
+  {
+   "t": "2026-10-27 22:52",
+   "b": 501.54
+  },
+  {
+   "t": "2026-10-28 00:25",
+   "b": 502.98
+  },
+  {
+   "t": "2026-10-28 00:43",
+   "b": 503.45
+  },
+  {
+   "t": "2026-10-28 03:55",
+   "b": 503.57
+  },
+  {
+   "t": "2026-10-28 04:40",
+   "b": 503.69
+  },
+  {
+   "t": "2026-10-28 04:53",
+   "b": 504.08
+  },
+  {
+   "t": "2026-10-28 08:39",
+   "b": 504.35
+  },
+  {
+   "t": "2026-10-28 09:13",
+   "b": 577.63
+  },
+  {
+   "t": "2026-10-28 09:40",
+   "b": 578.0
+  },
+  {
+   "t": "2026-10-28 10:44",
+   "b": 567.3
+  },
+  {
+   "t": "2026-10-28 11:54",
+   "b": 567.66
+  },
+  {
+   "t": "2026-10-28 13:25",
+   "b": 567.8
+  },
+  {
+   "t": "2026-10-28 14:11",
+   "b": 568.93
+  },
+  {
+   "t": "2026-10-28 14:53",
+   "b": 569.26
+  },
+  {
+   "t": "2026-10-28 16:12",
+   "b": 558.56
   }
  ],
- "last_trades": []
+ "last_trades": [
+  {
+   "hora": "10-28 16:12",
+   "lado": "YES",
+   "precio": 0.2,
+   "pnl": -10.7,
+   "result": "loss",
+   "origen": "prueba"
+  },
+  {
+   "hora": "10-28 14:53",
+   "lado": "NO",
+   "precio": 96.4,
+   "pnl": 0.33,
+   "result": "win",
+   "origen": "prueba"
+  },
+  {
+   "hora": "10-28 14:11",
+   "lado": "NO",
+   "precio": 89.0,
+   "pnl": 1.13,
+   "result": "win",
+   "origen": "prueba"
+  },
+  {
+   "hora": "10-28 13:25",
+   "lado": "YES",
+   "precio": 98.4,
+   "pnl": 0.14,
+   "result": "win",
+   "origen": "prueba"
+  },
+  {
+   "hora": "10-28 11:54",
+   "lado": "NO",
+   "precio": 96.1,
+   "pnl": 0.36,
+   "result": "win",
+   "origen": "prueba"
+  },
+  {
+   "hora": "10-28 10:44",
+   "lado": "NO",
+   "precio": 0.1,
+   "pnl": -10.7,
+   "result": "loss",
+   "origen": "prueba"
+  },
+  {
+   "hora": "10-28 09:40",
+   "lado": "YES",
+   "precio": 96.0,
+   "pnl": 0.37,
+   "result": "win",
+   "origen": "prueba"
+  },
+  {
+   "hora": "10-28 09:13",
+   "lado": "NO",
+   "precio": 10.0,
+   "pnl": 73.28,
+   "result": "win",
+   "origen": "prueba"
+  },
+  {
+   "hora": "10-28 08:39",
+   "lado": "NO",
+   "precio": 97.0,
+   "pnl": 0.27,
+   "result": "win",
+   "origen": "prueba"
+  },
+  {
+   "hora": "10-28 04:53",
+   "lado": "NO",
+   "precio": 95.8,
+   "pnl": 0.39,
+   "result": "win",
+   "origen": "prueba"
+  },
+  {
+   "hora": "10-28 04:40",
+   "lado": "YES",
+   "precio": 98.7,
+   "pnl": 0.12,
+   "result": "win",
+   "origen": "prueba"
+  },
+  {
+   "hora": "10-28 03:55",
+   "lado": "YES",
+   "precio": 98.7,
+   "pnl": 0.12,
+   "result": "win",
+   "origen": "prueba"
+  },
+  {
+   "hora": "10-28 00:43",
+   "lado": "YES",
+   "precio": 94.9,
+   "pnl": 0.47,
+   "result": "win",
+   "origen": "prueba"
+  },
+  {
+   "hora": "10-28 00:25",
+   "lado": "NO",
+   "precio": 86.0,
+   "pnl": 1.44,
+   "result": "win",
+   "origen": "prueba"
+  },
+  {
+   "hora": "10-27 22:52",
+   "lado": "YES",
+   "precio": 91.5,
+   "pnl": 0.79,
+   "result": "win",
+   "origen": "prueba"
+  }
+ ]
 }
