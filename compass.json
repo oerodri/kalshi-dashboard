@@ -8,9 +8,24 @@
  "ganadas": 19,
  "winrate": 86.4,
  "max_dd_pct": 5.02,
- "abiertas": 0,
+ "abiertas": 1,
  "saltadas": 0,
  "ultimas": [
+  {
+   "ts_et": "2026-10-29 12:53",
+   "ticker": "KXBTC15M-26OCT291300-00",
+   "side": "no",
+   "tier": "A",
+   "confidence": "89",
+   "min_left": "6.7",
+   "page_price": "92",
+   "entry_price": "90.1",
+   "contracts": "11",
+   "fee": "0.07",
+   "result": "open",
+   "pnl": "",
+   "note": ""
+  },
   {
    "ts_et": "2026-10-29 12:40",
    "ticker": "KXBTC15M-26OCT291245-45",
