@@ -1,23 +1,24 @@
 {
-"actualizado": "2026-10-29 06:29 ET",
+"actualizado": "2026-10-29 06:33 ET",
 "bots": [
 {
 "nombre": "A · últimos 150 s (80-91¢)",
-"balance": 489.86,
-"pnl": -10.14,
-"trades": 1,
-"winrate": 0.0,
+"balance": 492.07,
+"pnl": -7.93,
+"trades": 2,
+"winrate": 50.0,
 "perdidas_hoy": 1,
 "max_dd": 2.0,
-"abiertas": [
+"abiertas": [],
+"ultimas": [
 {
-"t": "06:25",
+"t": "10-29 06:33",
+"ep": 1793269500,
 "lado": "Down",
 "precio": 81.0,
-"acciones": 12.35
-}
-],
-"ultimas": [
+"gano": true,
+"pnl": 2.21
+},
 {
 "t": "10-29 06:13",
 "ep": 1793268300,
