@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-10-29 08:15 ET",
+"actualizado": "2026-10-29 08:17 ET",
 "bots": [
 {
 "nombre": "A · últimos 150 s (80-91¢)",
@@ -35,6 +35,14 @@
 "gano": false,
 "pnl": -10.14
 }
+],
+"pnl_hoy": -5.86,
+"trades_hoy": 3,
+"equity": [
+500,
+489.86,
+492.07,
+494.14
 ]
 },
 {
@@ -71,6 +79,14 @@
 "gano": true,
 "pnl": 1.79
 }
+],
+"pnl_hoy": -6.39,
+"trades_hoy": 3,
+"equity": [
+500,
+501.79,
+491.69,
+493.62
 ]
 }
 ]

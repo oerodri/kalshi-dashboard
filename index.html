@@ -1,74 +1,51 @@
-<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Kalshi Paper Terminal · Alfred</title>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Paper Trading · Erick</title>
 <style>
-:root{--bg:#0b0f14;--pn:#121821;--ln:#1f2a37;--tx:#d6dee8;--mu:#7d8b9c;--up:#16c784;--dn:#ea3943;--ac:#f0b90b;--bl:#3b82f6}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.4 "Inter","Segoe UI",system-ui,sans-serif}
-header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;padding:14px 20px;border-bottom:1px solid var(--ln);background:#0d131b;position:sticky;top:0;z-index:5}
-h1{font-size:18px;margin:0;letter-spacing:.5px}h1 b{color:var(--ac)}
-.badge{background:#3a2a00;color:var(--ac);border:1px solid var(--ac);padding:3px 10px;border-radius:999px;font-size:12px;font-weight:600}
-.mut{color:var(--mu);font-size:12px}main{padding:18px 20px;max-width:1400px;margin:auto}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
-.card{background:var(--pn);border:1px solid var(--ln);border-radius:10px;padding:14px;cursor:pointer;transition:.15s}
-.card:hover,.card.sel{border-color:var(--ac)}.card h3{margin:0 0 8px;font-size:13px;display:flex;justify-content:space-between;gap:6px}
-.dot{width:9px;height:9px;border-radius:50%;display:inline-block;margin-right:6px}.on{background:var(--up);box-shadow:0 0 8px var(--up)}.off{background:var(--dn)}
-.big{font-size:24px;font-weight:700;font-variant-numeric:tabular-nums}.pos{color:var(--up)}.neg{color:var(--dn)}
-.kv{display:grid;grid-template-columns:1fr 1fr;gap:4px 10px;margin-top:8px;font-size:12px}.kv span:nth-child(odd){color:var(--mu)}
-.panel{background:var(--pn);border:1px solid var(--ln);border-radius:10px;padding:14px;margin-top:14px}
-.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:10px}.bar h2{font-size:15px;margin:0 auto 0 0}
-select,input,button{background:#0d131b;color:var(--tx);border:1px solid var(--ln);border-radius:6px;padding:6px 9px;font:inherit}
-button.act{border-color:var(--ac);color:var(--ac)}.chartbox{height:320px}
-table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}th,td{padding:7px 8px;border-bottom:1px solid var(--ln);text-align:left;white-space:nowrap}
-th{color:var(--mu);cursor:pointer;user-select:none;font-weight:600}th:hover{color:var(--tx)}.tw{overflow-x:auto}
-.empty{color:var(--mu);text-align:center;padding:26px}footer{color:var(--mu);font-size:12px;text-align:center;padding:20px}
-@media(max-width:600px){header{padding:10px}main{padding:10px}.big{font-size:20px}.chartbox{height:240px}}
-main>*:not(#compass):not(#pm5m){display:none!important}/*SOLO_COMPASS: borrar esta regla para volver a mostrar los bots*/
+:root{--bg:#0b0f14;--pn:#121821;--ln:#1f2a36;--tx:#e6edf3;--mut:#8b98a5;--pos:#22c55e;--neg:#ef4444;--warn:#f59e0b;--acc:#3b82f6}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.45 -apple-system,Segoe UI,Roboto,sans-serif}
+.num,td.n{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-variant-numeric:tabular-nums}
+header{position:sticky;top:0;z-index:5;background:rgba(11,15,20,.95);backdrop-filter:blur(6px);border-bottom:1px solid var(--ln);padding:12px 16px;display:flex;justify-content:space-between;align-items:center;gap:8px}
+h1{font-size:16px;margin:0;font-weight:600}.mut{color:var(--mut);font-size:12px}
+.st{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--mut)}.dot{width:8px;height:8px;border-radius:50%;background:var(--mut)}.dot.live{background:var(--pos);box-shadow:0 0 6px var(--pos)}.dot.stale{background:var(--warn)}
+.paper{margin:12px 16px 0;padding:8px 12px;border:1px solid #3a2f12;background:#1c1708;color:#fbbf24;border-radius:8px;font-size:12px}
+main{max-width:1100px;margin:0 auto;padding:0 16px 32px}
+section{margin-top:20px}h2{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--mut);margin:0 0 10px;font-weight:600;display:flex;justify-content:space-between}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}@media(min-width:760px){.grid{grid-template-columns:1fr 1fr}}
+.card{background:var(--pn);border:1px solid var(--ln);border-radius:12px;padding:14px}
+.ch{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:10px}.ch b{font-size:15px}
+.big{font-size:24px;font-weight:600}
+.kp{display:grid;grid-template-columns:repeat(3,1fr);gap:10px 8px;margin-top:10px}.kp div span{display:block;color:var(--mut);font-size:11px}.kp div b{font-size:14px;font-weight:600}
+.pos{color:var(--pos)}.neg{color:var(--neg)}
+.bar{height:4px;background:var(--ln);border-radius:2px;margin-top:3px;overflow:hidden}.bar i{display:block;height:100%}
+svg.sp{width:100%;height:56px;margin-top:10px;display:block}
+table{width:100%;border-collapse:collapse;margin-top:12px;font-size:12px}th{color:var(--mut);font-weight:500;text-align:left;padding:6px 4px;border-bottom:1px solid var(--ln)}td{padding:6px 4px;border-bottom:1px solid #18212c}th.n,td.n{text-align:right}
+.empty{color:var(--mut);font-size:12px;padding:10px 0}.tag{font-size:10px;padding:1px 6px;border-radius:4px;background:#1e293b;color:#93c5fd}
+footer{color:var(--mut);font-size:11px;text-align:center;padding:16px}
 </style></head><body>
-<header><div><h1>⚡ <b>Kalshi</b> Paper Terminal</h1><div class="mut">Bots de Erick · operado por Alfred</div></div>
-<span class="badge">SIMULACIÓN · PAPER · SIN DINERO REAL</span>
-<div class="mut" id="upd">Cargando…</div></header>
+<header><div><h1>Paper Trading Desk</h1><div class="mut">Bots de Erick · Alfred</div></div><div class="st"><i id="dot" class="dot"></i><span id="upd">Cargando…</span></div></header>
+<div class="paper">PAPER TRADING · simulación, sin dinero real. Resultados con poca muestra; no es consejo financiero.</div>
 <main>
-<div class="grid" id="cards"></div>
-<div class="panel"><div class="bar"><h2>Curva de capital</h2>
-<select id="botSel"></select>
-<span id="rng"><button data-r="1">24h</button><button data-r="7">7d</button><button data-r="30">30d</button><button data-r="0" class="act">Todo</button></span></div>
-<div class="chartbox"><canvas id="eq"></canvas></div><div class="empty" id="eqEmpty" hidden>Este bot todavía no tiene operaciones liquidadas.</div></div>
-<div class="panel"><div class="bar"><h2>Posiciones abiertas</h2></div><div class="tw" id="open"></div></div>
-<div class="panel"><div class="bar"><h2>Operaciones</h2>
-<select id="fBot"><option value="">Todos los bots</option></select>
-<select id="fRes"><option value="">Todas</option><option value="g">Ganadas</option><option value="p">Perdidas</option></select>
-<input id="fTxt" placeholder="Buscar mercado…"></div><div class="tw" id="trades"></div></div>
-</main><footer>Datos reales de la simulación, generados en la PC de Erick cada 10 min. Ninguna orden real. No es consejo financiero.</footer>
+<section id="pm5m"><h2><span>Polymarket BTC 5m</span><span class="num" id="pmu"></span></h2><div class="grid" id="pmg"><div class="empty">Cargando…</div></div></section>
+<section id="compass"><h2><span>Kalshi Compass</span><span class="num" id="cpu"></span></h2><div id="cpg"><div class="empty">Cargando…</div></div></section>
+</main><footer>Datos reales de la simulación · se actualiza cada minuto</footer>
 <script>
-const $=s=>document.querySelector(s),usd=v=>v==null?'—':(v<0?'-':'')+'$'+Math.abs(v).toFixed(2),
-fdt=s=>s?new Date(s).toLocaleString('es-US',{timeZone:'America/New_York',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'})+' ET':'—',
-cls=v=>v>0?'pos':v<0?'neg':'';let D,sel,range=0,chart,sortK='fecha',sortD=-1;
-fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{D=d;init()}).catch(()=>{$('#upd').textContent='No se pudo cargar data.json';$('#cards').innerHTML='<div class="empty">Sin datos todavía.</div>'});
-function init(){$('#upd').textContent='Actualizado: '+fdt(D.actualizado);sel=D.bots[0]?.id;
- $('#botSel').innerHTML=$('#fBot').innerHTML='';$('#fBot').innerHTML='<option value="">Todos los bots</option>';
- D.bots.forEach(b=>{$('#botSel').add(new Option(b.nombre,b.id));$('#fBot').add(new Option(b.nombre,b.id))});
- $('#botSel').onchange=e=>{sel=e.target.value;draw()};
- document.querySelectorAll('#rng button').forEach(b=>b.onclick=()=>{range=+b.dataset.r;document.querySelectorAll('#rng button').forEach(x=>x.classList.toggle('act',x===b));drawChart()});
- ['#fBot','#fRes','#fTxt'].forEach(s=>$(s).oninput=tbl);draw();tbl()}
-function draw(){$('#botSel').value=sel;
- $('#cards').innerHTML=D.bots.map(b=>`<div class="card ${b.id==sel?'sel':''}" data-id="${b.id}"><h3><span><i class="dot ${b.activo?'on':'off'}"></i>${b.nombre}</span></h3>
- <div class="big">${usd(b.saldo)}</div><div class="${cls(b.pnl)}">${b.pnl>=0?'+':''}${usd(b.pnl)} (${(b.pnl/b.inicial*100).toFixed(2)}%)</div>
- <div class="kv"><span>Win rate</span><span>${b.winrate==null?'—':b.winrate+'%'}</span><span>Trades</span><span>${b.trades} (${b.ganadas} G)</span>
- <span>Drawdown máx</span><span>${b.drawdown_max_pct}%</span><span>Abiertas</span><span>${b.abiertas.length}</span>
- <span>Estado</span><span>${b.activo?'Corriendo':'Detenido'}</span><span>Último latido</span><span>${fdt(b.ultimo_latido)}</span></div></div>`).join('');
- document.querySelectorAll('.card').forEach(c=>c.onclick=()=>{sel=c.dataset.id;draw()});drawChart();openT()}
-function drawChart(){const b=D.bots.find(x=>x.id==sel);let e=b.equity;if(range)e=e.filter(p=>new Date(p.t)>Date.now()-range*864e5);
- const pts=[{t:null,v:b.inicial},...e];$('#eqEmpty').hidden=b.equity.length>0;$('#eq').parentNode.style.display=b.equity.length?'':'none';
- chart&&chart.destroy();if(!b.equity.length)return;const up=pts.at(-1).v>=b.inicial,c=up?'#16c784':'#ea3943';
- chart=new Chart($('#eq'),{type:'line',data:{labels:pts.map(p=>p.t?fdt(p.t):'Inicio'),datasets:[{data:pts.map(p=>p.v),borderColor:c,backgroundColor:c+'22',fill:true,tension:.25,pointRadius:3}]},
- options:{maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:x=>usd(x.raw)}}},scales:{x:{ticks:{color:'#7d8b9c',maxTicksLimit:8},grid:{color:'#1f2a37'}},y:{ticks:{color:'#7d8b9c',callback:v=>'$'+v},grid:{color:'#1f2a37'}}}}})}
-function openT(){const r=D.bots.flatMap(b=>b.abiertas.map(o=>({...o,bot:b.nombre})));
- $('#open').innerHTML=r.length?`<table><tr><th>Bot</th><th>Mercado</th><th>Lado</th><th>Precio</th><th>Contratos</th><th>Entrada</th></tr>${r.map(o=>`<tr><td>${o.bot}</td><td>${o.mercado}</td><td>${o.lado}</td><td>${o.precio}</td><td>${o.contratos}</td><td>${fdt(o.fecha)}</td></tr>`).join('')}</table>`:'<div class="empty">No hay posiciones abiertas.</div>'}
-const cols=[['fecha','Fecha'],['bot','Bot'],['mercado','Mercado'],['lado','Lado'],['precio','Precio'],['contratos','Contr.'],['resultado','Resultado'],['pnl','PnL'],['saldo','Saldo']];
-function tbl(){const fb=$('#fBot').value,fr=$('#fRes').value,ft=$('#fTxt').value.toLowerCase();
- let r=D.bots.filter(b=>!fb||b.id==fb).flatMap(b=>b.operaciones.map(o=>({...o,bot:b.nombre})))
- .filter(o=>(!fr||(fr=='g')==o.gano)&&(!ft||(o.mercado||'').toLowerCase().includes(ft)));
- r.sort((a,b)=>(a[sortK]>b[sortK]?1:a[sortK]<b[sortK]?-1:0)*sortD);
- $('#trades').innerHTML=r.length?`<table><tr>${cols.map(([k,n])=>`<th data-k="${k}">${n}${sortK==k?(sortD>0?' ▲':' ▼'):''}</th>`).join('')}</tr>${r.map(o=>`<tr><td>${fdt(o.fecha)}</td><td>${o.bot}</td><td>${o.mercado}</td><td>${o.lado}</td><td>${o.precio??'—'}</td><td>${o.contratos??'—'}</td><td>${o.gano?'✅ Ganada':'❌ Perdida'}</td><td class="${cls(o.pnl)}">${usd(o.pnl)}</td><td>${usd(o.saldo)}</td></tr>`).join('')}</table>`:'<div class="empty">Sin operaciones que coincidan.</div>';
- document.querySelectorAll('#trades th').forEach(th=>th.onclick=()=>{sortD=sortK==th.dataset.k?-sortD:-1;sortK=th.dataset.k;tbl()})}
-</script><script src="compass.js"></script><script src="pm5m.js"></script></body></html>
+const $=s=>document.getElementById(s),u=v=>v==null?'—':(v<0?'-':'')+'$'+Math.abs(v).toFixed(2),sg=v=>v==null?'—':(v>0?'+':'')+u(v),c=v=>v>0?'pos':v<0?'neg':'';
+const LBL={0:['Bot A','últimos 150 s · 80–91¢'],1:['Bot B','últimos 150 s · 83–93¢']};
+function spark(e){if(!e||e.length<2)return'<div class="empty">Curva disponible con más trades.</div>';const mn=Math.min(...e),mx=Math.max(...e),r=mx-mn||1,W=300,H=56;
+const p=e.map((v,i)=>[(i/(e.length-1)*W).toFixed(1),(H-4-(v-mn)/r*(H-8)).toFixed(1)]);const col=e[e.length-1]>=e[0]?'#22c55e':'#ef4444';
+return`<svg class="sp" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none"><polyline fill="none" stroke="${col}" stroke-width="1.6" points="${p.map(x=>x.join(',')).join(' ')}"/></svg>`}
+function ddBar(d){const p=Math.min(100,d/10*100),col=d>=10?'var(--neg)':d>=7?'var(--warn)':'var(--pos)';return`<div class="bar"><i style="width:${p}%;background:${col}"></i></div>`}
+function pmCard(b,i){const L=LBL[i]||[b.nombre,''];return`<div class="card"><div class="ch"><div><b>${L[0]}</b> <span class="mut">${L[1]}</span></div><span class="tag">${b.abiertas.length?b.abiertas.length+' abierta':'sin posición'}</span></div>
+<div class="big num">${u(b.balance)}</div><div class="num ${c(b.pnl)}">${sg(b.pnl)} total</div>
+<div class="kp"><div><span>P&L hoy</span><b class="num ${c(b.pnl_hoy)}">${sg(b.pnl_hoy)}</b></div><div><span>Trades hoy</span><b class="num">${b.trades_hoy??'—'}</b></div><div><span>Win rate</span><b class="num">${b.winrate==null?'—':b.winrate+'%'}</b></div>
+<div><span>Trades total</span><b class="num">${b.trades}</b></div><div><span>Pérdidas hoy</span><b class="num">${b.perdidas_hoy}</b></div><div><span>Caída máx / 10%</span><b class="num">${b.max_dd}%</b>${ddBar(b.max_dd)}</div></div>
+${spark(b.equity)}
+${b.ultimas.length?`<table><tr><th>Hora ET</th><th>Lado</th><th class="n">Precio</th><th class="n">P&L</th></tr>${b.ultimas.map(t=>`<tr><td class="num">${t.t}</td><td>${t.lado}</td><td class="n">${t.precio}¢</td><td class="n ${c(t.pnl)}">${sg(t.pnl)}</td></tr>`).join('')}</table>`:'<div class="empty">Sin operaciones todavía.</div>'}</div>`}
+function cpView(d){const g=d.grupos.filter(x=>x.trades>0);return`<div class="grid">${g.map(x=>`<div class="card"><div class="ch"><b>${x.nombre}</b><span class="tag">prueba 1 día</span></div>
+<div class="big num ${c(x.neto)}">${sg(x.neto)}</div><div class="kp"><div><span>Trades</span><b class="num">${x.trades}</b></div><div><span>Win rate</span><b class="num">${(100*x.ganadas/x.trades).toFixed(0)}%</b></div><div><span>G / P</span><b class="num">${x.ganadas} / ${x.perdidas}</b></div></div></div>`).join('')}</div>
+<div class="card" style="margin-top:12px"><b>Últimas operaciones</b><table><tr><th>Hora ET</th><th>Tier</th><th>Lado</th><th class="n">Precio</th><th class="n">P&L</th></tr>${d.ultimas.map(t=>`<tr><td class="num">${(t.t||'').slice(5)}</td><td>${t.tier||'—'}</td><td>${t.lado||''}</td><td class="n">${t.precio!=null?t.precio+'¢':'—'}</td><td class="n ${c(t.pnl)}">${t.abierta?'abierta':sg(t.pnl)}</td></tr>`).join('')}</table></div>`}
+function age(s){const m=/(\d{4}-\d\d-\d\d) (\d\d:\d\d)/.exec(s||'');if(!m)return 1e9;const now=new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'}));return(now-new Date(m[1]+'T'+m[2]+':00'))/6e4}
+async function load(){try{const d=await(await fetch('pm5m.json?'+Date.now())).json();$('pmg').innerHTML=d.bots.map(pmCard).join('');$('pmu').textContent=d.actualizado;
+const a=age(d.actualizado);$('dot').className='dot '+(a<20?'live':'stale');$('upd').textContent=(a<20?'En vivo · ':'Sin actualizar · ')+d.actualizado}catch(e){$('pmg').innerHTML='<div class="empty">Sin datos todavía.</div>';$('dot').className='dot stale';$('upd').textContent='Sin conexión'}
+try{const d=await(await fetch('compass.json?'+Date.now())).json();$('cpg').innerHTML=cpView(d);$('cpu').textContent=d.actualizado}catch(e){$('cpg').innerHTML='<div class="empty">Sin datos de Compass.</div>'}}
+load();setInterval(load,60000);
+</script></body></html>
