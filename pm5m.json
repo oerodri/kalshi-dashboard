@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-10-29 05:56 ET",
+"actualizado": "2026-10-29 06:04 ET",
 "bots": [
 {
 "nombre": "A · últimos 150 s (80-91¢)",
@@ -14,13 +14,20 @@
 },
 {
 "nombre": "B · últimos 150 s (83-93¢)",
-"balance": 500,
-"pnl": 0,
+"balance": 500.0,
+"pnl": 0.0,
 "trades": 0,
 "winrate": null,
 "perdidas_hoy": 0,
 "max_dd": 0,
-"abiertas": [],
+"abiertas": [
+{
+"t": "06:00",
+"lado": "Down",
+"precio": 84.0,
+"acciones": 11.9
+}
+],
 "ultimas": []
 }
 ]
