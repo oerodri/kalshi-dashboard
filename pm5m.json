@@ -1,23 +1,24 @@
 {
-"actualizado": "2026-10-29 09:05 ET",
+"actualizado": "2026-10-29 09:07 ET",
 "bots": [
 {
 "nombre": "A · últimos 150 s (80-91¢)",
-"balance": 494.14,
-"pnl": -5.86,
-"trades": 3,
-"winrate": 66.7,
+"balance": 495.94,
+"pnl": -4.06,
+"trades": 4,
+"winrate": 75.0,
 "perdidas_hoy": 1,
 "max_dd": 2.0,
-"abiertas": [
+"abiertas": [],
+"ultimas": [
 {
-"t": "08:55",
+"t": "10-29 09:07",
+"ep": 1793278500,
 "lado": "Up",
 "precio": 84.0,
-"acciones": 11.9
-}
-],
-"ultimas": [
+"gano": true,
+"pnl": 1.79
+},
 {
 "t": "10-29 08:04",
 "ep": 1793274900,
@@ -43,32 +44,34 @@
 "pnl": -10.14
 }
 ],
-"pnl_hoy": -5.86,
-"trades_hoy": 3,
+"pnl_hoy": -4.07,
+"trades_hoy": 4,
 "equity": [
 500,
 489.86,
 492.07,
-494.14
+494.14,
+495.94
 ]
 },
 {
 "nombre": "B · últimos 150 s (83-93¢)",
-"balance": 495.41,
-"pnl": -4.59,
-"trades": 4,
-"winrate": 75.0,
-"perdidas_hoy": 1,
-"max_dd": 2.0,
-"abiertas": [
+"balance": 485.29,
+"pnl": -14.71,
+"trades": 5,
+"winrate": 60.0,
+"perdidas_hoy": 2,
+"max_dd": 3.3,
+"abiertas": [],
+"ultimas": [
 {
-"t": "08:55",
+"t": "10-29 09:07",
+"ep": 1793278500,
 "lado": "Down",
 "precio": 83.0,
-"acciones": 12.05
-}
-],
-"ultimas": [
+"gano": false,
+"pnl": -10.12
+},
 {
 "t": "10-29 08:48",
 "ep": 1793277600,
@@ -102,14 +105,15 @@
 "pnl": 1.79
 }
 ],
-"pnl_hoy": -4.6,
-"trades_hoy": 4,
+"pnl_hoy": -14.72,
+"trades_hoy": 5,
 "equity": [
 500,
 501.79,
 491.69,
 493.62,
-495.41
+495.41,
+485.29
 ]
 }
 ]
