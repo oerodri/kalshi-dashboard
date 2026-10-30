@@ -8,9 +8,25 @@
  "ganadas": 0,
  "winrate": null,
  "max_dd_pct": 0,
- "abiertas": 0,
+ "abiertas": 1,
  "saltadas": 0,
- "ultimas": [],
+ "ultimas": [
+  {
+   "ts_et": "2026-10-30 00:09",
+   "ticker": "KXBTC15M-26OCT300015-15",
+   "side": "no",
+   "tier": "A",
+   "confidence": "88",
+   "min_left": "5.6",
+   "page_price": "97",
+   "entry_price": "97.0",
+   "contracts": "10",
+   "fee": "0.03",
+   "result": "open",
+   "pnl": "",
+   "note": ""
+  }
+ ],
  "trades_prueba": 0,
  "tipo": "tierA_live",
  "balance": 500,
