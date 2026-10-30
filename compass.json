@@ -1,16 +1,31 @@
 {
  "etiqueta": "Tier A en vivo (papel)",
- "actualizado": "2026-10-30 17:55 ET",
- "saldo": 576.72,
- "pnl_total": 76.72,
- "pnl_hoy": 5.04,
- "trades": 40,
- "ganadas": 36,
- "winrate": 90.0,
+ "actualizado": "2026-10-30 18:00 ET",
+ "saldo": 577.69,
+ "pnl_total": 77.69,
+ "pnl_hoy": 6.01,
+ "trades": 41,
+ "ganadas": 37,
+ "winrate": 90.2,
  "max_dd_pct": 5.02,
  "abiertas": 0,
  "saltadas": 5,
  "ultimas": [
+  {
+   "ts_et": "2026-10-30 17:55",
+   "ticker": "KXBTC15M-26OCT301800-00",
+   "side": "no",
+   "tier": "A",
+   "confidence": "89",
+   "min_left": "8.53",
+   "page_price": "91",
+   "entry_price": "90.5",
+   "contracts": "11",
+   "fee": "0.07",
+   "result": "win",
+   "pnl": "0.97",
+   "note": ""
+  },
   {
    "ts_et": "2026-10-30 14:27",
    "ticker": "KXBTC15M-26OCT301430-30",
@@ -145,28 +160,13 @@
    "result": "skip",
    "pnl": "",
    "note": "sin_profundidad"
-  },
-  {
-   "ts_et": "2026-10-30 07:27",
-   "ticker": "KXBTC15M-26OCT300730-30",
-   "side": "yes",
-   "tier": "A",
-   "confidence": "88",
-   "min_left": "4.5",
-   "page_price": "100",
-   "entry_price": "99.1",
-   "contracts": "0",
-   "fee": "",
-   "result": "skip",
-   "pnl": "",
-   "note": "precio_fuera_5_99"
   }
  ],
  "trades_prueba": 17,
  "tipo": "tierA_live",
- "balance": 576.72,
- "trades_total": 40,
- "trades_hoy": 11,
+ "balance": 577.69,
+ "trades_total": 41,
+ "trades_hoy": 12,
  "losses_hoy": 1,
  "max_dd": 5.02,
  "equity": [
@@ -333,9 +333,21 @@
   {
    "t": "2026-10-30 14:27",
    "b": 576.72
+  },
+  {
+   "t": "2026-10-30 17:55",
+   "b": 577.69
   }
  ],
  "last_trades": [
+  {
+   "hora": "10-30 17:55",
+   "lado": "NO",
+   "precio": 90.5,
+   "pnl": 0.97,
+   "result": "win",
+   "origen": "vivo"
+  },
   {
    "hora": "10-30 14:27",
    "lado": "NO",
@@ -445,14 +457,6 @@
    "lado": "NO",
    "precio": 83.0,
    "pnl": 1.92,
-   "result": "win",
-   "origen": "vivo"
-  },
-  {
-   "hora": "10-29 16:49",
-   "lado": "NO",
-   "precio": 47.0,
-   "pnl": 10.76,
    "result": "win",
    "origen": "vivo"
   }
