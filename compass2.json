@@ -1,14 +1,14 @@
 {
  "etiqueta": "Tier A 2.0 (papel)",
- "actualizado": "2026-10-30 00:09 ET",
- "saldo": 500,
- "pnl_total": 0,
- "pnl_hoy": 0,
- "trades": 0,
- "ganadas": 0,
- "winrate": null,
+ "actualizado": "2026-10-30 00:22 ET",
+ "saldo": 500.27,
+ "pnl_total": 0.27,
+ "pnl_hoy": 0.27,
+ "trades": 1,
+ "ganadas": 1,
+ "winrate": 100.0,
  "max_dd_pct": 0,
- "abiertas": 1,
+ "abiertas": 0,
  "saltadas": 0,
  "ultimas": [
   {
@@ -22,25 +22,38 @@
    "entry_price": "97.0",
    "contracts": "10",
    "fee": "0.03",
-   "result": "open",
-   "pnl": "",
+   "result": "win",
+   "pnl": "0.27",
    "note": ""
   }
  ],
  "trades_prueba": 0,
  "tipo": "tierA_live",
- "balance": 500,
- "trades_total": 0,
- "trades_hoy": 0,
+ "balance": 500.27,
+ "trades_total": 1,
+ "trades_hoy": 1,
  "losses_hoy": 0,
  "max_dd": 0,
  "equity": [
   {
    "t": "inicio",
    "b": 500
+  },
+  {
+   "t": "2026-10-30 00:09",
+   "b": 500.27
   }
  ],
- "last_trades": [],
+ "last_trades": [
+  {
+   "hora": "10-30 00:09",
+   "lado": "NO",
+   "precio": 97.0,
+   "pnl": 0.27,
+   "result": "win",
+   "origen": "vivo"
+  }
+ ],
  "titulo": "Tier A 2.0 &middot; Compass",
  "subtitulo": "(papel) &middot; entrada + 1 compra extra si baja 5&cent; &middot; $10/compra",
  "addons": 0
