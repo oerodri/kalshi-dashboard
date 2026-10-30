@@ -1,26 +1,18 @@
 {
- "actualizado": "2026-10-30T07:09:24.881199-04:00",
+ "actualizado": "2026-10-30T07:19:25.451310-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
    "id": "clima",
    "nombre": "Clima (NO 85â€“95Â¢, modelo >97%)",
    "inicial": 500.0,
-   "saldo": 495.05,
-   "pnl": -4.95,
-   "trades": 7,
-   "ganadas": 6,
-   "winrate": 85.7,
+   "saldo": 496.08,
+   "pnl": -3.92,
+   "trades": 8,
+   "ganadas": 7,
+   "winrate": 87.5,
    "drawdown_max_pct": 1.91,
-   "abiertas": [
-    {
-     "fecha": "2026-10-29T14:00:09.134819+00:00",
-     "mercado": "KXHIGHNY-26OCT29-B69.5",
-     "lado": "no",
-     "precio": 0.9,
-     "contratos": 11
-    }
-   ],
+   "abiertas": [],
    "equity": [
     {
      "t": "2026-10-15T02:00:03.293083+00:00",
@@ -49,6 +41,10 @@
     {
      "t": "2026-10-19T16:00:20.802207+00:00",
      "v": 495.05
+    },
+    {
+     "t": "2026-10-29T14:00:09.134819+00:00",
+     "v": 496.08
     }
    ],
    "operaciones": [
@@ -128,37 +124,33 @@
      "gano": true,
      "pnl": 0.67,
      "saldo": 495.05
-    }
-   ],
-   "activo": true,
-   "ultimo_latido": "2026-10-30T07:08:57.885289-04:00"
-  },
-  {
-   "id": "clima_v2",
-   "nombre": "Clima v2 (NO 85â€“95Â¢, modelo >90%)",
-   "inicial": 500.0,
-   "saldo": 485.88,
-   "pnl": -14.12,
-   "trades": 22,
-   "ganadas": 20,
-   "winrate": 90.9,
-   "drawdown_max_pct": 3.95,
-   "abiertas": [
-    {
-     "fecha": "2026-10-29T02:00:05.547357+00:00",
-     "mercado": "KXHIGHMIA-26OCT29-B89.5",
-     "lado": "no",
-     "precio": 0.85,
-     "contratos": 23
     },
     {
      "fecha": "2026-10-29T14:00:09.134819+00:00",
      "mercado": "KXHIGHNY-26OCT29-B69.5",
      "lado": "no",
      "precio": 0.9,
-     "contratos": 19
+     "contratos": 11.0,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 1.03,
+     "saldo": 496.08
     }
    ],
+   "activo": true,
+   "ultimo_latido": "2026-10-30T07:18:58.278111-04:00"
+  },
+  {
+   "id": "clima_v2",
+   "nombre": "Clima v2 (NO 85â€“95Â¢, modelo >90%)",
+   "inicial": 500.0,
+   "saldo": 490.9,
+   "pnl": -9.1,
+   "trades": 24,
+   "ganadas": 22,
+   "winrate": 91.7,
+   "drawdown_max_pct": 3.95,
+   "abiertas": [],
    "equity": [
     {
      "t": "2026-10-15T02:00:02.791800+00:00",
@@ -247,6 +239,14 @@
     {
      "t": "2026-10-28T03:00:16.267896+00:00",
      "v": 485.88
+    },
+    {
+     "t": "2026-10-29T02:00:05.547357+00:00",
+     "v": 489.12
+    },
+    {
+     "t": "2026-10-29T14:00:09.134819+00:00",
+     "v": 490.9
     }
    ],
    "operaciones": [
@@ -491,10 +491,32 @@
      "gano": false,
      "pnl": -19.94,
      "saldo": 485.88
+    },
+    {
+     "fecha": "2026-10-29T02:00:05.547357+00:00",
+     "mercado": "KXHIGHMIA-26OCT29-B89.5",
+     "lado": "no",
+     "precio": 0.85,
+     "contratos": 23.0,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 3.24,
+     "saldo": 489.12
+    },
+    {
+     "fecha": "2026-10-29T14:00:09.134819+00:00",
+     "mercado": "KXHIGHNY-26OCT29-B69.5",
+     "lado": "no",
+     "precio": 0.9,
+     "contratos": 19.0,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 1.78,
+     "saldo": 490.9
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-30T07:08:57.885289-04:00"
+   "ultimo_latido": "2026-10-30T07:18:58.278111-04:00"
   },
   {
    "id": "v2_1",
@@ -2831,21 +2853,13 @@
    "id": "v4b_10usd",
    "nombre": "BTC 15 min KXBTC15M v4b balanceado 78-85, z>=0.75, min 3-10 (~$10 por trade, inicio $500)",
    "inicial": 500.0,
-   "saldo": 458.11,
-   "pnl": -41.89,
-   "trades": 20,
-   "ganadas": 13,
-   "winrate": 65.0,
+   "saldo": 460.49,
+   "pnl": -39.51,
+   "trades": 21,
+   "ganadas": 14,
+   "winrate": 66.7,
    "drawdown_max_pct": 9.66,
-   "abiertas": [
-    {
-     "fecha": "2026-10-30T07:04:05.260749-04:00",
-     "mercado": "KXBTC15M-26OCT300715-15",
-     "lado": "DOWN",
-     "precio": 0.79,
-     "contratos": 12
-    }
-   ],
+   "abiertas": [],
    "equity": [
     {
      "t": "2026-10-27T17:22:04.469055-04:00",
@@ -2926,6 +2940,10 @@
     {
      "t": "2026-10-30T06:21:03.590734-04:00",
      "v": 458.11
+    },
+    {
+     "t": "2026-10-30T07:04:05.260749-04:00",
+     "v": 460.49
     }
    ],
    "operaciones": [
@@ -3148,10 +3166,21 @@
      "gano": true,
      "pnl": 2.49,
      "saldo": 458.11
+    },
+    {
+     "fecha": "2026-10-30T07:04:05.260749-04:00",
+     "mercado": "KXBTC15M-26OCT300715-15",
+     "lado": "DOWN",
+     "precio": 0.79,
+     "contratos": 12,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 2.38,
+     "saldo": 460.49
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-30T07:09:23.082746-04:00"
+   "ultimo_latido": "2026-10-30T07:19:23.634875-04:00"
   }
  ]
 }
