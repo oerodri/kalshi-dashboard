@@ -1,16 +1,31 @@
 {
  "etiqueta": "Tier A en vivo (papel)",
- "actualizado": "2026-10-30 13:10 ET",
- "saldo": 575.83,
- "pnl_total": 75.83,
- "pnl_hoy": 4.15,
- "trades": 38,
- "ganadas": 34,
- "winrate": 89.5,
+ "actualizado": "2026-10-30 13:25 ET",
+ "saldo": 576.5,
+ "pnl_total": 76.5,
+ "pnl_hoy": 4.82,
+ "trades": 39,
+ "ganadas": 35,
+ "winrate": 89.7,
  "max_dd_pct": 5.02,
  "abiertas": 0,
  "saltadas": 5,
  "ultimas": [
+  {
+   "ts_et": "2026-10-30 13:10",
+   "ticker": "KXBTC15M-26OCT301315-15",
+   "side": "no",
+   "tier": "A",
+   "confidence": "90",
+   "min_left": "4.5",
+   "page_price": "90",
+   "entry_price": "92.8",
+   "contracts": "10",
+   "fee": "0.05",
+   "result": "win",
+   "pnl": "0.67",
+   "note": ""
+  },
   {
    "ts_et": "2026-10-30 12:50",
    "ticker": "KXBTC15M-26OCT301300-00",
@@ -145,28 +160,13 @@
    "result": "win",
    "pnl": "0.25",
    "note": ""
-  },
-  {
-   "ts_et": "2026-10-30 05:35",
-   "ticker": "KXBTC15M-26OCT300545-45",
-   "side": "no",
-   "tier": "A",
-   "confidence": "88",
-   "min_left": "9.2",
-   "page_price": "85",
-   "entry_price": "87.0",
-   "contracts": "11",
-   "fee": "0.09",
-   "result": "win",
-   "pnl": "1.34",
-   "note": ""
   }
  ],
  "trades_prueba": 17,
  "tipo": "tierA_live",
- "balance": 575.83,
- "trades_total": 38,
- "trades_hoy": 9,
+ "balance": 576.5,
+ "trades_total": 39,
+ "trades_hoy": 10,
  "losses_hoy": 1,
  "max_dd": 5.02,
  "equity": [
@@ -325,9 +325,21 @@
   {
    "t": "2026-10-30 12:50",
    "b": 575.83
+  },
+  {
+   "t": "2026-10-30 13:10",
+   "b": 576.5
   }
  ],
  "last_trades": [
+  {
+   "hora": "10-30 13:10",
+   "lado": "NO",
+   "precio": 92.8,
+   "pnl": 0.67,
+   "result": "win",
+   "origen": "vivo"
+  },
   {
    "hora": "10-30 12:50",
    "lado": "NO",
@@ -437,14 +449,6 @@
    "lado": "NO",
    "precio": 98.4,
    "pnl": 0.14,
-   "result": "win",
-   "origen": "vivo"
-  },
-  {
-   "hora": "10-29 16:08",
-   "lado": "NO",
-   "precio": 96.9,
-   "pnl": 0.28,
    "result": "win",
    "origen": "vivo"
   }
