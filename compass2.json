@@ -1,14 +1,14 @@
 {
  "etiqueta": "Tier A 2.0 (papel)",
- "actualizado": "2026-10-30 05:40 ET",
- "saldo": 515.01,
- "pnl_total": 15.01,
- "pnl_hoy": 15.01,
- "trades": 4,
- "ganadas": 4,
+ "actualizado": "2026-10-30 05:53 ET",
+ "saldo": 518.61,
+ "pnl_total": 18.61,
+ "pnl_hoy": 18.61,
+ "trades": 6,
+ "ganadas": 6,
  "winrate": 100.0,
  "max_dd_pct": 0,
- "abiertas": 2,
+ "abiertas": 0,
  "saltadas": 0,
  "ultimas": [
   {
@@ -22,8 +22,8 @@
    "entry_price": "80.0",
    "contracts": "12",
    "fee": "0.14",
-   "result": "open",
-   "pnl": "",
+   "result": "win",
+   "pnl": "2.26",
    "note": "add-on"
   },
   {
@@ -37,8 +37,8 @@
    "entry_price": "87.0",
    "contracts": "11",
    "fee": "0.09",
-   "result": "open",
-   "pnl": "",
+   "result": "win",
+   "pnl": "1.34",
    "note": ""
   },
   {
@@ -104,9 +104,9 @@
  ],
  "trades_prueba": 0,
  "tipo": "tierA_live",
- "balance": 515.01,
- "trades_total": 4,
- "trades_hoy": 4,
+ "balance": 518.61,
+ "trades_total": 6,
+ "trades_hoy": 6,
  "losses_hoy": 0,
  "max_dd": 0,
  "equity": [
@@ -129,9 +129,33 @@
   {
    "t": "2026-10-30 03:51",
    "b": 515.01
+  },
+  {
+   "t": "2026-10-30 05:35",
+   "b": 516.35
+  },
+  {
+   "t": "2026-10-30 05:36",
+   "b": 518.61
   }
  ],
  "last_trades": [
+  {
+   "hora": "10-30 05:36",
+   "lado": "NO",
+   "precio": 80.0,
+   "pnl": 2.26,
+   "result": "win",
+   "origen": "extra"
+  },
+  {
+   "hora": "10-30 05:35",
+   "lado": "NO",
+   "precio": 87.0,
+   "pnl": 1.34,
+   "result": "win",
+   "origen": "vivo"
+  },
   {
    "hora": "10-30 03:51",
    "lado": "YES",
