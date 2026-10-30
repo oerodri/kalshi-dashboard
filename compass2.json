@@ -1,6 +1,6 @@
 {
  "etiqueta": "Tier A 2.0 (papel)",
- "actualizado": "2026-10-30 18:24 ET",
+ "actualizado": "2026-10-30 18:26 ET",
  "saldo": 513.23,
  "pnl_total": 13.23,
  "pnl_hoy": 13.23,
@@ -8,9 +8,39 @@
  "ganadas": 17,
  "winrate": 89.5,
  "max_dd_pct": 3.74,
- "abiertas": 0,
+ "abiertas": 2,
  "saltadas": 3,
  "ultimas": [
+  {
+   "ts_et": "2026-10-30 18:26",
+   "ticker": "KXBTC15M-26OCT301830-30",
+   "side": "no",
+   "tier": "A",
+   "confidence": "88",
+   "min_left": "11.33",
+   "page_price": "92",
+   "entry_price": "80.0",
+   "contracts": "12",
+   "fee": "0.14",
+   "result": "open",
+   "pnl": "",
+   "note": "add-on"
+  },
+  {
+   "ts_et": "2026-10-30 18:24",
+   "ticker": "KXBTC15M-26OCT301830-30",
+   "side": "no",
+   "tier": "A",
+   "confidence": "88",
+   "min_left": "11.33",
+   "page_price": "92",
+   "entry_price": "85.0",
+   "contracts": "11",
+   "fee": "0.1",
+   "result": "open",
+   "pnl": "",
+   "note": ""
+  },
   {
    "ts_et": "2026-10-30 17:55",
    "ticker": "KXBTC15M-26OCT301800-00",
@@ -129,36 +159,6 @@
    "fee": "0.15",
    "result": "loss",
    "pnl": "-9.51",
-   "note": ""
-  },
-  {
-   "ts_et": "2026-10-30 11:21",
-   "ticker": "KXBTC15M-26OCT301130-30",
-   "side": "yes",
-   "tier": "A",
-   "confidence": "88",
-   "min_left": "12.1",
-   "page_price": "94",
-   "entry_price": "74.0",
-   "contracts": "0",
-   "fee": "",
-   "result": "skip",
-   "pnl": "",
-   "note": "ask_difiere_pagina"
-  },
-  {
-   "ts_et": "2026-10-30 11:05",
-   "ticker": "KXBTC15M-26OCT301115-15",
-   "side": "yes",
-   "tier": "A",
-   "confidence": "88",
-   "min_left": "11.28",
-   "page_price": "90",
-   "entry_price": "92.1",
-   "contracts": "10",
-   "fee": "0.06",
-   "result": "win",
-   "pnl": "0.73",
    "note": ""
   }
  ],
@@ -375,5 +375,5 @@
  ],
  "titulo": "Tier A 2.0 &middot; Compass",
  "subtitulo": "(papel) &middot; entrada + 1 compra extra si baja 5&cent; &middot; $10/compra",
- "addons": 6
+ "addons": 7
 }
