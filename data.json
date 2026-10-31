@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31T02:00:09.026471-04:00",
+ "actualizado": "2026-10-31T02:10:10.025168-04:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -138,7 +138,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-31T01:59:52.096092-04:00"
+   "ultimo_latido": "2026-10-31T02:09:52.359137-04:00"
   },
   {
    "id": "clima_v2",
@@ -531,7 +531,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-31T01:59:52.096092-04:00"
+   "ultimo_latido": "2026-10-31T02:09:52.359137-04:00"
   },
   {
    "id": "v2_1",
@@ -2868,19 +2868,19 @@
    "id": "v4b_10usd",
    "nombre": "BTC 15 min KXBTC15M v4b balanceado 78-85, z>=0.75, min 3-10 (~$10 por trade, inicio $500)",
    "inicial": 500.0,
-   "saldo": 453.54,
-   "pnl": -46.46,
-   "trades": 30,
-   "ganadas": 21,
-   "winrate": 70.0,
+   "saldo": 456.03,
+   "pnl": -43.97,
+   "trades": 31,
+   "ganadas": 22,
+   "winrate": 71.0,
    "drawdown_max_pct": 9.66,
    "abiertas": [
     {
-     "fecha": "2026-10-31T01:50:04.391626-04:00",
-     "mercado": "KXBTC15M-26OCT310200-00",
-     "lado": "DOWN",
-     "precio": 0.78,
-     "contratos": 12
+     "fecha": "2026-10-31T02:04:03.467638-04:00",
+     "mercado": "KXBTC15M-26OCT310215-15",
+     "lado": "UP",
+     "precio": 0.85,
+     "contratos": 11
     }
    ],
    "equity": [
@@ -3003,6 +3003,10 @@
     {
      "t": "2026-10-31T01:35:04.416451-04:00",
      "v": 453.54
+    },
+    {
+     "t": "2026-10-31T01:50:04.391626-04:00",
+     "v": 456.03
     }
    ],
    "operaciones": [
@@ -3335,10 +3339,21 @@
      "gano": false,
      "pnl": -9.74,
      "saldo": 453.54
+    },
+    {
+     "fecha": "2026-10-31T01:50:04.391626-04:00",
+     "mercado": "KXBTC15M-26OCT310200-00",
+     "lado": "DOWN",
+     "precio": 0.78,
+     "contratos": 12,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 2.49,
+     "saldo": 456.03
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-10-31T02:00:08.783381-04:00"
+   "ultimo_latido": "2026-10-31T02:10:09.309919-04:00"
   }
  ]
 }
