@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-10-31 04:59 ET",
+"actualizado": "2026-10-31 05:00 ET",
 "bots": [
 {
 "nombre": "Polymarket A",
@@ -706,13 +706,20 @@
 },
 {
 "nombre": "Polymarket F",
-"balance": 500,
-"pnl": 0,
+"balance": 500.0,
+"pnl": 0.0,
 "trades": 0,
 "winrate": null,
 "perdidas_hoy": 0,
 "max_dd": 0,
-"abiertas": [],
+"abiertas": [
+{
+"t": "04:55",
+"lado": "Up",
+"precio": 93.0,
+"acciones": 10.75
+}
+],
 "ultimas": [],
 "pnl_hoy": 0,
 "trades_hoy": 0,
