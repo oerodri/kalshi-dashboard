@@ -1,31 +1,87 @@
 {
  "etiqueta": "Tier A 2.0 (papel)",
- "actualizado": "2026-10-31 13:40 ET",
- "saldo": 500,
- "pnl_total": 0,
- "pnl_hoy": 0,
- "trades": 0,
- "ganadas": 0,
- "winrate": null,
+ "actualizado": "2026-10-31 13:46 ET",
+ "saldo": 504.23,
+ "pnl_total": 4.23,
+ "pnl_hoy": 4.23,
+ "trades": 2,
+ "ganadas": 2,
+ "winrate": 100.0,
  "max_dd_pct": 0,
  "abiertas": 0,
  "saltadas": 0,
- "ultimas": [],
+ "ultimas": [
+  {
+   "ts_et": "2026-10-31 13:41",
+   "ticker": "KXBTC15M-26OCT311345-45",
+   "side": "yes",
+   "tier": "A",
+   "confidence": "88",
+   "min_left": "4.7",
+   "page_price": "90",
+   "entry_price": "74.0",
+   "contracts": "13",
+   "fee": "0.18",
+   "result": "win",
+   "pnl": "3.2",
+   "note": "add-on"
+  },
+  {
+   "ts_et": "2026-10-31 13:41",
+   "ticker": "KXBTC15M-26OCT311345-45",
+   "side": "yes",
+   "tier": "A",
+   "confidence": "88",
+   "min_left": "4.7",
+   "page_price": "90",
+   "entry_price": "90.0",
+   "contracts": "11",
+   "fee": "0.07",
+   "result": "win",
+   "pnl": "1.03",
+   "note": ""
+  }
+ ],
  "trades_prueba": 0,
  "tipo": "tierA_live",
- "balance": 500,
- "trades_total": 0,
- "trades_hoy": 0,
+ "balance": 504.23,
+ "trades_total": 2,
+ "trades_hoy": 2,
  "losses_hoy": 0,
  "max_dd": 0,
  "equity": [
   {
    "t": "inicio",
    "b": 500
+  },
+  {
+   "t": "2026-10-31 13:41",
+   "b": 501.03
+  },
+  {
+   "t": "2026-10-31 13:41",
+   "b": 504.23
   }
  ],
- "last_trades": [],
+ "last_trades": [
+  {
+   "hora": "10-31 13:41",
+   "lado": "YES",
+   "precio": 74.0,
+   "pnl": 3.2,
+   "result": "win",
+   "origen": "extra"
+  },
+  {
+   "hora": "10-31 13:41",
+   "lado": "YES",
+   "precio": 90.0,
+   "pnl": 1.03,
+   "result": "win",
+   "origen": "vivo"
+  }
+ ],
  "titulo": "Tier A 2.0 &middot; Compass",
  "subtitulo": "(papel) &middot; entrada + 1 compra extra si baja 5&cent; &middot; $10/compra",
- "addons": 0
+ "addons": 1
 }
