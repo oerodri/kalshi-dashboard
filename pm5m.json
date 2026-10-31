@@ -1,23 +1,31 @@
 {
-"actualizado": "2026-10-31 05:09 ET",
+"actualizado": "2026-10-31 05:14 ET",
 "bots": [
 {
 "nombre": "Polymarket A",
-"balance": 503.72,
-"pnl": 3.72,
-"trades": 43,
-"winrate": 83.7,
+"balance": 505.79,
+"pnl": 5.79,
+"trades": 44,
+"winrate": 84.1,
 "perdidas_hoy": 0,
 "max_dd": 5.6,
 "abiertas": [
 {
-"t": "05:05",
-"lado": "Up",
-"precio": 82.0,
-"acciones": 12.2
+"t": "05:10",
+"lado": "Down",
+"precio": 81.0,
+"acciones": 12.35
 }
 ],
 "ultimas": [
+{
+"t": "10-31 05:13",
+"ep": 1793437500,
+"lado": "Up",
+"precio": 82.0,
+"gano": true,
+"pnl": 2.07
+},
 {
 "t": "10-31 03:36",
 "ep": 1793431500,
@@ -89,18 +97,10 @@
 "precio": 80.0,
 "gano": true,
 "pnl": 2.36
-},
-{
-"t": "10-30 21:57",
-"ep": 1793411100,
-"lado": "Up",
-"precio": 82.0,
-"gano": false,
-"pnl": -10.13
 }
 ],
-"pnl_hoy": 5.93,
-"trades_hoy": 3,
+"pnl_hoy": 8.0,
+"trades_hoy": 4,
 "equity": [
 500,
 489.86,
@@ -145,7 +145,8 @@
 497.79,
 499.86,
 501.65,
-503.72
+503.72,
+505.79
 ]
 },
 {
@@ -282,7 +283,14 @@
 "winrate": 86.5,
 "perdidas_hoy": 0,
 "max_dd": 7.4,
-"abiertas": [],
+"abiertas": [
+{
+"t": "05:10",
+"lado": "Down",
+"precio": 90.0,
+"acciones": 11.11
+}
+],
 "ultimas": [
 {
 "t": "10-31 05:04",
@@ -416,7 +424,14 @@
 "winrate": 82.8,
 "perdidas_hoy": 0,
 "max_dd": 7.8,
-"abiertas": [],
+"abiertas": [
+{
+"t": "05:10",
+"lado": "Down",
+"precio": 90.0,
+"acciones": 11.11
+}
+],
 "ultimas": [
 {
 "t": "10-31 05:04",
@@ -542,7 +557,14 @@
 "winrate": 86.2,
 "perdidas_hoy": 0,
 "max_dd": 5.7,
-"abiertas": [],
+"abiertas": [
+{
+"t": "05:10",
+"lado": "Down",
+"precio": 90.0,
+"acciones": 11.11
+}
+],
 "ultimas": [
 {
 "t": "10-31 05:04",
@@ -668,7 +690,14 @@
 "winrate": 100.0,
 "perdidas_hoy": 0,
 "max_dd": 0,
-"abiertas": [],
+"abiertas": [
+{
+"t": "05:10",
+"lado": "Down",
+"precio": 90.0,
+"acciones": 11.11
+}
+],
 "ultimas": [
 {
 "t": "10-31 05:04",
@@ -703,7 +732,14 @@
 "winrate": 100.0,
 "perdidas_hoy": 0,
 "max_dd": 0,
-"abiertas": [],
+"abiertas": [
+{
+"t": "05:10",
+"lado": "Down",
+"precio": 90.0,
+"acciones": 11.11
+}
+],
 "ultimas": [
 {
 "t": "10-31 05:04",
