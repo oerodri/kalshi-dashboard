@@ -1,16 +1,31 @@
 {
  "etiqueta": "Tier A 2.0 (papel)",
- "actualizado": "2026-10-31 07:53 ET",
- "saldo": 523.14,
- "pnl_total": 23.14,
- "pnl_hoy": 2.36,
- "trades": 26,
- "ganadas": 24,
- "winrate": 92.3,
+ "actualizado": "2026-10-31 08:12 ET",
+ "saldo": 523.32,
+ "pnl_total": 23.32,
+ "pnl_hoy": 2.54,
+ "trades": 27,
+ "ganadas": 25,
+ "winrate": 92.6,
  "max_dd_pct": 3.74,
  "abiertas": 0,
  "saltadas": 5,
  "ultimas": [
+  {
+   "ts_et": "2026-10-31 07:54",
+   "ticker": "KXBTC15M-26OCT310800-00",
+   "side": "yes",
+   "tier": "A",
+   "confidence": "89",
+   "min_left": "5.7",
+   "page_price": "99",
+   "entry_price": "98.0",
+   "contracts": "10",
+   "fee": "0.02",
+   "result": "win",
+   "pnl": "0.18",
+   "note": ""
+  },
   {
    "ts_et": "2026-10-31 02:56",
    "ticker": "KXBTC15M-26OCT310300-00",
@@ -145,28 +160,13 @@
    "result": "win",
    "pnl": "1.55",
    "note": ""
-  },
-  {
-   "ts_et": "2026-10-30 17:55",
-   "ticker": "KXBTC15M-26OCT301800-00",
-   "side": "no",
-   "tier": "A",
-   "confidence": "89",
-   "min_left": "8.53",
-   "page_price": "91",
-   "entry_price": "85.0",
-   "contracts": "11",
-   "fee": "0.1",
-   "result": "win",
-   "pnl": "1.55",
-   "note": "add-on"
   }
  ],
  "trades_prueba": 0,
  "tipo": "tierA_live",
- "balance": 523.14,
- "trades_total": 26,
- "trades_hoy": 2,
+ "balance": 523.32,
+ "trades_total": 27,
+ "trades_hoy": 3,
  "losses_hoy": 0,
  "max_dd": 3.74,
  "equity": [
@@ -277,9 +277,21 @@
   {
    "t": "2026-10-31 02:56",
    "b": 523.14
+  },
+  {
+   "t": "2026-10-31 07:54",
+   "b": 523.32
   }
  ],
  "last_trades": [
+  {
+   "hora": "10-31 07:54",
+   "lado": "YES",
+   "precio": 98.0,
+   "pnl": 0.18,
+   "result": "win",
+   "origen": "vivo"
+  },
   {
    "hora": "10-31 02:56",
    "lado": "YES",
@@ -391,14 +403,6 @@
    "pnl": -10.15,
    "result": "loss",
    "origen": "extra"
-  },
-  {
-   "hora": "10-30 11:49",
-   "lado": "NO",
-   "precio": 78.0,
-   "pnl": -9.51,
-   "result": "loss",
-   "origen": "vivo"
   }
  ],
  "titulo": "Tier A 2.0 &middot; Compass",

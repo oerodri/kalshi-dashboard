@@ -1,16 +1,31 @@
 {
  "etiqueta": "Tier A en vivo (papel)",
- "actualizado": "2026-10-31 07:53 ET",
- "saldo": 581.64,
- "pnl_total": 81.64,
- "pnl_hoy": 0.81,
- "trades": 45,
- "ganadas": 41,
- "winrate": 91.1,
+ "actualizado": "2026-10-31 08:12 ET",
+ "saldo": 581.81,
+ "pnl_total": 81.81,
+ "pnl_hoy": 0.98,
+ "trades": 46,
+ "ganadas": 42,
+ "winrate": 91.3,
  "max_dd_pct": 5.02,
  "abiertas": 0,
  "saltadas": 7,
  "ultimas": [
+  {
+   "ts_et": "2026-10-31 07:54",
+   "ticker": "KXBTC15M-26OCT310800-00",
+   "side": "yes",
+   "tier": "A",
+   "confidence": "89",
+   "min_left": "5.7",
+   "page_price": "99",
+   "entry_price": "98.1",
+   "contracts": "10",
+   "fee": "0.02",
+   "result": "win",
+   "pnl": "0.17",
+   "note": ""
+  },
   {
    "ts_et": "2026-10-31 02:53",
    "ticker": "KXBTC15M-26OCT310300-00",
@@ -145,28 +160,13 @@
    "result": "win",
    "pnl": "0.67",
    "note": ""
-  },
-  {
-   "ts_et": "2026-10-30 12:50",
-   "ticker": "KXBTC15M-26OCT301300-00",
-   "side": "no",
-   "tier": "A",
-   "confidence": "88",
-   "min_left": "11.08",
-   "page_price": "82",
-   "entry_price": "82.0",
-   "contracts": "12",
-   "fee": "0.13",
-   "result": "win",
-   "pnl": "2.03",
-   "note": ""
   }
  ],
  "trades_prueba": 17,
  "tipo": "tierA_live",
- "balance": 581.64,
- "trades_total": 45,
- "trades_hoy": 1,
+ "balance": 581.81,
+ "trades_total": 46,
+ "trades_hoy": 2,
  "losses_hoy": 0,
  "max_dd": 5.02,
  "equity": [
@@ -353,9 +353,21 @@
   {
    "t": "2026-10-31 02:53",
    "b": 581.64
+  },
+  {
+   "t": "2026-10-31 07:54",
+   "b": 581.81
   }
  ],
  "last_trades": [
+  {
+   "hora": "10-31 07:54",
+   "lado": "YES",
+   "precio": 98.1,
+   "pnl": 0.17,
+   "result": "win",
+   "origen": "vivo"
+  },
   {
    "hora": "10-31 02:53",
    "lado": "YES",
@@ -465,14 +477,6 @@
    "lado": "YES",
    "precio": 60.0,
    "pnl": 6.13,
-   "result": "win",
-   "origen": "vivo"
-  },
-  {
-   "hora": "10-30 00:23",
-   "lado": "YES",
-   "precio": 93.1,
-   "pnl": 0.64,
    "result": "win",
    "origen": "vivo"
   }
