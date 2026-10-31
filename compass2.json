@@ -1,16 +1,46 @@
 {
  "etiqueta": "Tier A 2.0 (papel)",
- "actualizado": "2026-10-31 19:04 ET",
- "saldo": 507.7,
- "pnl_total": 7.7,
- "pnl_hoy": 7.7,
- "trades": 5,
+ "actualizado": "2026-10-31 19:26 ET",
+ "saldo": 488.93,
+ "pnl_total": -11.07,
+ "pnl_hoy": -11.07,
+ "trades": 7,
  "ganadas": 5,
- "winrate": 100.0,
- "max_dd_pct": 0,
+ "winrate": 71.4,
+ "max_dd_pct": 3.7,
  "abiertas": 0,
  "saltadas": 0,
  "ultimas": [
+  {
+   "ts_et": "2026-10-31 19:09",
+   "ticker": "KXBTC15M-26OCT311915-15",
+   "side": "yes",
+   "tier": "A",
+   "confidence": "88",
+   "min_left": "6.05",
+   "page_price": "88",
+   "entry_price": "86.0",
+   "contracts": "11",
+   "fee": "0.1",
+   "result": "loss",
+   "pnl": "-9.56",
+   "note": "add-on"
+  },
+  {
+   "ts_et": "2026-10-31 19:09",
+   "ticker": "KXBTC15M-26OCT311915-15",
+   "side": "yes",
+   "tier": "A",
+   "confidence": "88",
+   "min_left": "6.05",
+   "page_price": "88",
+   "entry_price": "91.5",
+   "contracts": "10",
+   "fee": "0.06",
+   "result": "loss",
+   "pnl": "-9.21",
+   "note": ""
+  },
   {
    "ts_et": "2026-10-31 18:50",
    "ticker": "KXBTC15M-26OCT311900-00",
@@ -89,11 +119,11 @@
  ],
  "trades_prueba": 0,
  "tipo": "tierA_live",
- "balance": 507.7,
- "trades_total": 5,
- "trades_hoy": 5,
- "losses_hoy": 0,
- "max_dd": 0,
+ "balance": 488.93,
+ "trades_total": 7,
+ "trades_hoy": 7,
+ "losses_hoy": 2,
+ "max_dd": 3.7,
  "equity": [
   {
    "t": "inicio",
@@ -118,9 +148,33 @@
   {
    "t": "2026-10-31 18:50",
    "b": 507.7
+  },
+  {
+   "t": "2026-10-31 19:09",
+   "b": 498.49
+  },
+  {
+   "t": "2026-10-31 19:09",
+   "b": 488.93
   }
  ],
  "last_trades": [
+  {
+   "hora": "10-31 19:09",
+   "lado": "YES",
+   "precio": 86.0,
+   "pnl": -9.56,
+   "result": "loss",
+   "origen": "extra"
+  },
+  {
+   "hora": "10-31 19:09",
+   "lado": "YES",
+   "precio": 91.5,
+   "pnl": -9.21,
+   "result": "loss",
+   "origen": "vivo"
+  },
   {
    "hora": "10-31 18:50",
    "lado": "NO",
@@ -164,5 +218,5 @@
  ],
  "titulo": "Tier A 2.0 &middot; Compass",
  "subtitulo": "(papel) &middot; entrada + 1 compra extra si baja 5&cent; &middot; $10/compra",
- "addons": 1
+ "addons": 2
 }
