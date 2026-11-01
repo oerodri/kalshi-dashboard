@@ -25,6 +25,7 @@ footer{color:var(--mut);font-size:11px;text-align:center;padding:16px}
 <div class="paper">PAPER TRADING · simulación, sin dinero real. Resultados con poca muestra; no es consejo financiero.</div>
 <main>
 <section id="pm5m"><h2><span>Polymarket BTC 5m</span><span class="num" id="pmu"></span></h2><div class="grid" id="pmg"><div class="empty">Cargando…</div></div></section>
+<section id="terry"><h2><span>Terry Calls 5m</span><span class="num" id="tru"></span></h2><div class="grid" id="trg"><div class="empty">Cargando…</div></div></section>
 <section id="compass"><h2><span>Kalshi Compass</span><span class="num" id="cpu"></span></h2><div id="cpg"><div class="empty">Cargando…</div></div></section>
 </main><footer>Datos reales de la simulación · se actualiza cada minuto</footer>
 <script>
@@ -34,7 +35,7 @@ function spark(e){if(!e||e.length<2)return'<div class="empty">Curva disponible c
 const p=e.map((v,i)=>[(i/(e.length-1)*W).toFixed(1),(H-4-(v-mn)/r*(H-8)).toFixed(1)]);const col=e[e.length-1]>=e[0]?'#22c55e':'#ef4444';
 return`<svg class="sp" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none"><polyline fill="none" stroke="${col}" stroke-width="1.6" points="${p.map(x=>x.join(',')).join(' ')}"/></svg>`}
 function ddBar(d){const p=Math.min(100,d/10*100),col=d>=10?'var(--neg)':d>=7?'var(--warn)':'var(--pos)';return`<div class="bar"><i style="width:${p}%;background:${col}"></i></div>`}
-function pmCard(b,i){const L=LBL[i]||[b.nombre,''];return`<div class="card"><div class="ch"><div><b>${L[0]}</b> <span class="mut">${L[1]}</span></div><span class="tag">${b.abiertas.length?b.abiertas.length+' abierta':'sin posición'}</span></div>
+function pmCard(b,i){const L=LBL[i]||[b.nombre,b.sub||''];return`<div class="card"><div class="ch"><div><b>${L[0]}</b> <span class="mut">${L[1]}</span></div><span class="tag">${b.abiertas.length?b.abiertas.length+' abierta':'sin posición'}</span></div>
 <div class="big num">${u(b.balance)}</div><div class="num ${c(b.pnl)}">${sg(b.pnl)} total</div>
 <div class="kp"><div><span>P&L hoy</span><b class="num ${c(b.pnl_hoy)}">${sg(b.pnl_hoy)}</b></div><div><span>Trades hoy</span><b class="num">${b.trades_hoy??'—'}</b></div><div><span>Win rate</span><b class="num">${b.winrate==null?'—':b.winrate+'%'}</b></div>
 <div><span>Trades total</span><b class="num">${b.trades}</b></div><div><span>Pérdidas hoy</span><b class="num">${b.perdidas_hoy}</b></div><div><span>Caída máx / 10%</span><b class="num">${b.max_dd}%</b>${ddBar(b.max_dd)}</div></div>
@@ -47,5 +48,7 @@ function age(s){const m=/(\d{4}-\d\d-\d\d) (\d\d:\d\d)/.exec(s||'');if(!m)return
 async function load(){try{const d=await(await fetch('pm5m.json?'+Date.now())).json();$('pmg').innerHTML=d.bots.map(pmCard).join('');$('pmu').textContent=d.actualizado;
 const a=age(d.actualizado);$('dot').className='dot '+(a<20?'live':'stale');$('upd').textContent=(a<20?'En vivo · ':'Sin actualizar · ')+d.actualizado}catch(e){$('pmg').innerHTML='<div class="empty">Sin datos todavía.</div>';$('dot').className='dot stale';$('upd').textContent='Sin conexión'}
 try{const d=await(await fetch('compass.json?'+Date.now())).json();$('cpg').innerHTML=cpView(d);$('cpu').textContent=d.actualizado}catch(e){$('cpg').innerHTML='<div class="empty">Sin datos de Compass.</div>'}}
+async function loadT(){try{const d=await(await fetch('terry.json?'+Date.now())).json();$('trg').innerHTML=d.bots.map((b,k)=>pmCard(b,100+k)).join('');$('tru').textContent=d.actualizado}catch(e){$('trg').innerHTML='<div class="empty">Sin datos de Terry.</div>'}}
+loadT();setInterval(loadT,60000);
 load();setInterval(load,60000);
 </script></body></html>
