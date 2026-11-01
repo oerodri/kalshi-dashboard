@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01 15:02 ET",
+ "actualizado": "2026-11-01 15:08 ET",
  "desde": "2026-11-01 12:28 ET",
  "liquidacion": "terrycalls record-calls.csv (Polymarket US, BRTI)",
  "bots": [
@@ -12,7 +12,9 @@
    "winrate": 82.4,
    "perdidas_hoy": 3,
    "max_dd": 1.97,
-   "abiertas": [],
+   "abiertas": [
+    "cpc-btc-updown-5m-2026-11-01-2000z"
+   ],
    "ultimas": [
     {
      "t": "11-01 14:58",
