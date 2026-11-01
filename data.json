@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01T08:07:16.115315-05:00",
+ "actualizado": "2026-11-01T08:17:14.451525-05:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -16,26 +16,19 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-11-01T08:06:49.013705-05:00"
+   "ultimo_latido": "2026-11-01T08:16:49.605372-05:00"
   },
   {
    "id": "clima_v2",
    "nombre": "Clima v2 (NO 85–95¢, modelo >90%)",
    "inicial": 500.0,
-   "saldo": 500.0,
-   "pnl": 0.0,
-   "trades": 0,
-   "ganadas": 0,
-   "winrate": null,
+   "saldo": 500.84,
+   "pnl": 0.84,
+   "trades": 1,
+   "ganadas": 1,
+   "winrate": 100.0,
    "drawdown_max_pct": 0,
    "abiertas": [
-    {
-     "fecha": "2026-10-31T16:46:15.901011+00:00",
-     "mercado": "KXHIGHAUS-26OCT31-T77",
-     "lado": "no",
-     "precio": 0.9,
-     "contratos": 9
-    },
     {
      "fecha": "2026-10-31T16:46:16.429529+00:00",
      "mercado": "KXHIGHDEN-26OCT31-T58",
@@ -65,10 +58,27 @@
      "contratos": 21
     }
    ],
-   "equity": [],
-   "operaciones": [],
+   "equity": [
+    {
+     "t": "2026-10-31T16:46:15.901011+00:00",
+     "v": 500.84
+    }
+   ],
+   "operaciones": [
+    {
+     "fecha": "2026-10-31T16:46:15.901011+00:00",
+     "mercado": "KXHIGHAUS-26OCT31-T77",
+     "lado": "no",
+     "precio": 0.9,
+     "contratos": 9.0,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 0.84,
+     "saldo": 500.84
+    }
+   ],
    "activo": true,
-   "ultimo_latido": "2026-11-01T08:06:49.013705-05:00"
+   "ultimo_latido": "2026-11-01T08:16:49.605372-05:00"
   },
   {
    "id": "v2_1",
@@ -423,7 +433,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-01T08:07:15.631230-05:00"
+   "ultimo_latido": "2026-11-01T08:17:14.117266-05:00"
   }
  ]
 }
