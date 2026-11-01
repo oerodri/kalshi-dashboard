@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01T04:27:08.852936-05:00",
+ "actualizado": "2026-11-01T04:37:06.573685-05:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -16,7 +16,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-11-01T04:26:34.820048-05:00"
+   "ultimo_latido": "2026-11-01T04:36:35.397578-05:00"
   },
   {
    "id": "clima_v2",
@@ -68,7 +68,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-11-01T04:26:34.820048-05:00"
+   "ultimo_latido": "2026-11-01T04:36:35.397578-05:00"
   },
   {
    "id": "v2_1",
@@ -186,19 +186,19 @@
    "id": "v4b_10usd",
    "nombre": "BTC 15 min KXBTC15M v4b balanceado 78-85, z>=0.75, min 3-10 (~$10 por trade, inicio $500)",
    "inicial": 500.0,
-   "saldo": 492.74,
-   "pnl": -7.26,
-   "trades": 13,
-   "ganadas": 10,
-   "winrate": 76.9,
+   "saldo": 494.5,
+   "pnl": -5.5,
+   "trades": 14,
+   "ganadas": 11,
+   "winrate": 78.6,
    "drawdown_max_pct": 3.46,
    "abiertas": [
     {
-     "fecha": "2026-11-01T04:23:04.247257-05:00",
-     "mercado": "KXBTC15M-26NOV010430-30",
+     "fecha": "2026-11-01T04:34:04.666206-05:00",
+     "mercado": "KXBTC15M-26NOV010445-45",
      "lado": "DOWN",
-     "precio": 0.83,
-     "contratos": 11
+     "precio": 0.79,
+     "contratos": 12
     }
    ],
    "equity": [
@@ -253,6 +253,10 @@
     {
      "t": "2026-11-01T04:03:05.227169-05:00",
      "v": 492.74
+    },
+    {
+     "t": "2026-11-01T04:23:04.247257-05:00",
+     "v": 494.5
     }
    ],
    "operaciones": [
@@ -398,10 +402,21 @@
      "gano": true,
      "pnl": 2.49,
      "saldo": 492.74
+    },
+    {
+     "fecha": "2026-11-01T04:23:04.247257-05:00",
+     "mercado": "KXBTC15M-26NOV010430-30",
+     "lado": "DOWN",
+     "precio": 0.83,
+     "contratos": 11,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 1.76,
+     "saldo": 494.5
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-01T04:27:08.569019-05:00"
+   "ultimo_latido": "2026-11-01T04:37:06.304266-05:00"
   }
  ]
 }
