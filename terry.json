@@ -1,0 +1,43 @@
+{
+ "actualizado": "2026-11-01 12:29 ET",
+ "desde": "2026-11-01 12:28 ET",
+ "liquidacion": "terrycalls record-calls.csv (Polymarket US, BRTI)",
+ "bots": [
+  {
+   "nombre": "Terry Lean",
+   "sub": "(papel) &middot; primera llamada de Terry al ask del feed &middot; $10/trade",
+   "balance": 500.0,
+   "pnl": 0.0,
+   "trades": 0,
+   "winrate": null,
+   "perdidas_hoy": 0,
+   "max_dd": 0,
+   "abiertas": [],
+   "ultimas": [],
+   "pnl_hoy": 0,
+   "trades_hoy": 0,
+   "equity": [
+    500.0
+   ],
+   "saltadas": 0
+  },
+  {
+   "nombre": "Terry Lock",
+   "sub": "(papel) &middot; llamada lock de Terry al ask del feed &middot; $10/trade",
+   "balance": 500.0,
+   "pnl": 0.0,
+   "trades": 0,
+   "winrate": null,
+   "perdidas_hoy": 0,
+   "max_dd": 0,
+   "abiertas": [],
+   "ultimas": [],
+   "pnl_hoy": 0,
+   "trades_hoy": 0,
+   "equity": [
+    500.0
+   ],
+   "saltadas": 0
+  }
+ ]
+}
