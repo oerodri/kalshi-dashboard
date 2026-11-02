@@ -1,6 +1,6 @@
 {
- "generated": 1793661621.4400508,
- "generated_et": "2026-11-02 18:20:22 ET",
+ "generated": 1793661745.8981867,
+ "generated_et": "2026-11-02 18:22:26 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 12.49221,
-  "buying_power": 12.49221,
-  "in_positions": 0
+  "current": 13.19931,
+  "buying_power": 10.46931,
+  "in_positions": 2.73
  },
  "balance_err": null,
  "balance_hist": [
@@ -198,6 +198,10 @@
   [
    1793661621,
    12.49221
+  ],
+  [
+   1793661746,
+   13.19931
   ]
  ],
  "totals": {
@@ -219,7 +223,8 @@
   "error": 2,
   "gano": 24,
   "nofill": 13,
-  "perdio": 7
+  "perdio": 7,
+  "abierta": 1
  },
  "equity": [
   [
@@ -379,6 +384,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2320z",
+   "ronda": "2320z",
+   "hora": "18:21:44",
+   "day": "2026-11-02",
+   "ts": 1793661704.4737792,
+   "side": "down",
+   "prob": 0.7503,
+   "precio": 0.73,
+   "qty": 2.73,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 1207,
+    "envio": 140,
+    "bolsa": 182
+   },
+   "order_id": "DFXM21JG52W4",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0229,
+   "pct_bal": 16.2,
+   "pct_gan": null,
+   "bal_entrada": 12.4922
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2315z",
    "ronda": "2315z",
@@ -807,7 +838,7 @@
    "costo": 2.0466,
    "pct_bal": 17.3,
    "pct_gan": 45.6,
-   "bal_entrada": 11.8624
+   "bal_entrada": 11.86241
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2150z",
@@ -1966,12 +1997,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1232,
+  "llamada": 1231,
   "envio": 134,
   "bolsa": 196
  },
- "open": [],
- "heartbeat": 1793661604.4223363,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2320z",
+   "ronda": "2320z",
+   "hora": "18:21:44",
+   "day": "2026-11-02",
+   "ts": 1793661704.4737792,
+   "side": "down",
+   "prob": 0.7503,
+   "precio": 0.73,
+   "qty": 2.73,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 1207,
+    "envio": 140,
+    "bolsa": 182
+   },
+   "order_id": "DFXM21JG52W4",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0229,
+   "pct_bal": 16.2,
+   "pct_gan": null,
+   "bal_entrada": 12.4922
+  }
+ ],
+ "heartbeat": 1793661738.6173131,
  "running": true,
  "stop_file": false
 }
