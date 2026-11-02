@@ -1,6 +1,6 @@
 {
- "generated": 1793661745.8981867,
- "generated_et": "2026-11-02 18:22:26 ET",
+ "generated": 1793661931.319018,
+ "generated_et": "2026-11-02 18:25:32 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 13.19931,
-  "buying_power": 10.46931,
-  "in_positions": 2.73
+  "buying_power": 13.19931,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -205,26 +205,25 @@
   ]
  ],
  "totals": {
-  "trades": 31,
-  "wins": 24,
-  "win_pct": 77.4,
-  "gross_pnl": 1.5493,
-  "fees": 1.09,
-  "net_pnl": 0.4593
+  "trades": 32,
+  "wins": 25,
+  "win_pct": 78.1,
+  "gross_pnl": 2.2864,
+  "fees": 1.12,
+  "net_pnl": 1.1664
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": 0.4593,
+  "pnl": 1.1664,
   "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
   "saltada": 18,
   "error": 2,
-  "gano": 24,
+  "gano": 25,
   "nofill": 13,
-  "perdio": 7,
-  "abierta": 1
+  "perdio": 7
  },
  "equity": [
   [
@@ -381,6 +380,11 @@
    1793661391,
    0.4593,
    "2315z"
+  ],
+  [
+   1793661704,
+   1.1664,
+   "2320z"
   ]
  ],
  "calls": [
@@ -395,7 +399,7 @@
    "precio": 0.73,
    "qty": 2.73,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.7071,
    "lat": {
     "llamada": 1207,
     "envio": 140,
@@ -403,11 +407,11 @@
    },
    "order_id": "DFXM21JG52W4",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.0229,
    "pct_bal": 16.2,
-   "pct_gan": null,
+   "pct_gan": 35.0,
    "bal_entrada": 12.4922
   },
   {
@@ -797,7 +801,7 @@
    "side": "up",
    "prob": 0.8199,
    "precio": 0.87,
-   "qty": 2.27,
+   "qty": 0.83,
    "fee": 0.02,
    "pnl": 0.2751,
    "lat": {
@@ -809,10 +813,10 @@
    "aviso": null,
    "out": "gano",
    "motivo": "Liquidada",
-   "costo": 1.9949,
-   "pct_bal": 15.6,
-   "pct_gan": 13.8,
-   "bal_entrada": 12.7958
+   "costo": 0.7421,
+   "pct_bal": 6.4,
+   "pct_gan": 37.1,
+   "bal_entrada": 11.533
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2155z",
@@ -2001,35 +2005,8 @@
   "envio": 134,
   "bolsa": 196
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2320z",
-   "ronda": "2320z",
-   "hora": "18:21:44",
-   "day": "2026-11-02",
-   "ts": 1793661704.4737792,
-   "side": "down",
-   "prob": 0.7503,
-   "precio": 0.73,
-   "qty": 2.73,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 1207,
-    "envio": 140,
-    "bolsa": 182
-   },
-   "order_id": "DFXM21JG52W4",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0229,
-   "pct_bal": 16.2,
-   "pct_gan": null,
-   "bal_entrada": 12.4922
-  }
- ],
- "heartbeat": 1793661738.6173131,
+ "open": [],
+ "heartbeat": 1793661918.7220328,
  "running": true,
  "stop_file": false
 }
