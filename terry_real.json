@@ -1,6 +1,6 @@
 {
- "generated": 1793649502.9461534,
- "generated_et": "2026-11-02 14:58:23 ET",
+ "generated": 1793649627.5427985,
+ "generated_et": "2026-11-02 15:00:28 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 10.87961,
-  "buying_power": 10.87961,
+  "current": 13.46961,
+  "buying_power": 13.46961,
   "in_positions": 0
  },
  "balance_err": null,
@@ -70,29 +70,32 @@
   [
    1793649496,
    10.87961
+  ],
+  [
+   1793649628,
+   13.46961
   ]
  ],
  "totals": {
-  "trades": 10,
-  "wins": 8,
-  "win_pct": 80.0,
-  "gross_pnl": 1.171,
-  "fees": 0.3,
-  "net_pnl": 0.871
+  "trades": 11,
+  "wins": 9,
+  "win_pct": 81.8,
+  "gross_pnl": 1.7667,
+  "fees": 0.33,
+  "net_pnl": 1.4367
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": 0.871,
+  "pnl": 1.4367,
   "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
   "saltada": 7,
   "error": 2,
-  "gano": 8,
+  "gano": 9,
   "nofill": 4,
-  "perdio": 2,
-  "abierta": 1
+  "perdio": 2
  },
  "equity": [
   [
@@ -144,6 +147,11 @@
    1793648850,
    0.871,
    "1945z"
+  ],
+  [
+   1793649466,
+   1.4367,
+   "1955z"
   ]
  ],
  "calls": [
@@ -158,7 +166,7 @@
    "precio": 0.77,
    "qty": 2.59,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.5657,
    "lat": {
     "llamada": 1458,
     "envio": 132,
@@ -166,11 +174,11 @@
    },
    "order_id": "DFTPP02G12WK",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.0243,
    "pct_bal": 15.7,
-   "pct_gan": null,
+   "pct_gan": 27.9,
    "bal_entrada": 12.9039
   },
   {
@@ -614,9 +622,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 2.0268,
-   "pct_bal": 15.7,
+   "pct_bal": null,
    "pct_gan": 26.3,
-   "bal_entrada": 12.9337
+   "bal_entrada": null
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1820z",
@@ -742,35 +750,8 @@
   "envio": 132,
   "bolsa": 164
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-1955z",
-   "ronda": "1955z",
-   "hora": "14:57:45",
-   "day": "2026-11-02",
-   "ts": 1793649465.5211675,
-   "side": "up",
-   "prob": 0.7131,
-   "precio": 0.77,
-   "qty": 2.59,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 1458,
-    "envio": 132,
-    "bolsa": 129
-   },
-   "order_id": "DFTPP02G12WK",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0243,
-   "pct_bal": 15.7,
-   "pct_gan": null,
-   "bal_entrada": 12.9039
-  }
- ],
- "heartbeat": 1793649498.4462588,
+ "open": [],
+ "heartbeat": 1793649618.5113614,
  "running": true,
  "stop_file": false
 }
