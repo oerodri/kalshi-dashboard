@@ -1,6 +1,6 @@
 {
- "generated": 1793644303.9392428,
- "generated_et": "2026-11-02 13:31:44 ET",
+ "generated": 1793644347.0462475,
+ "generated_et": "2026-11-02 13:32:27 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -38,7 +38,7 @@
   "saltada": 1,
   "error": 2,
   "gano": 2,
-  "nofill": 1
+  "nofill": 2
  },
  "equity": [
   [
@@ -53,6 +53,28 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-1830z",
+   "ronda": "1830z",
+   "hora": "13:31:47",
+   "day": "2026-11-02",
+   "ts": 1793644307.939455,
+   "side": "down",
+   "prob": 0.7044,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": {
+    "llamada": 802,
+    "envio": 135,
+    "bolsa": 148
+   },
+   "order_id": "DFSFATHG12TT",
+   "aviso": null,
+   "out": "nofill",
+   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)"
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1825z",
    "ronda": "1825z",
@@ -175,12 +197,12 @@
   }
  ],
  "lat_avg": {
-  "llamada": 2185,
-  "envio": 129,
-  "bolsa": 202
+  "llamada": 1839,
+  "envio": 131,
+  "bolsa": 189
  },
  "open": [],
- "heartbeat": 1793644303.076579,
+ "heartbeat": 1793644343.0979774,
  "running": true,
  "stop_file": false
 }
