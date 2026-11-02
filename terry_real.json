@@ -1,6 +1,6 @@
 {
- "generated": 1793663603.6013896,
- "generated_et": "2026-11-02 18:53:24 ET",
+ "generated": 1793663972.117099,
+ "generated_et": "2026-11-02 18:59:32 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 13.47701,
-  "buying_power": 13.47701,
+  "current": 11.43041,
+  "buying_power": 11.43041,
   "in_positions": 0
  },
  "balance_err": null,
@@ -210,6 +210,10 @@
   [
    1793663172,
    13.47701
+  ],
+  [
+   1793663972,
+   11.43041
   ]
  ],
  "totals": {
@@ -231,7 +235,8 @@
   "error": 2,
   "gano": 26,
   "nofill": 15,
-  "perdio": 7
+  "perdio": 7,
+  "abierta": 1
  },
  "equity": [
   [
@@ -401,6 +406,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2355z",
+   "ronda": "2355z",
+   "hora": "18:59:14",
+   "day": "2026-11-02",
+   "ts": 1793663954.355105,
+   "side": "up",
+   "prob": 0.6603,
+   "precio": 0.67,
+   "qty": 2.98,
+   "fee": 0.05,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 129,
+    "bolsa": 144
+   },
+   "order_id": "DFY57AEG12WP",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0466,
+   "pct_bal": 15.2,
+   "pct_gan": null,
+   "bal_entrada": 13.477
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2350z",
    "ronda": "2350z",
@@ -921,7 +952,7 @@
    "costo": 2.0341,
    "pct_bal": 15.6,
    "pct_gan": -100.0,
-   "bal_entrada": 13.0709
+   "bal_entrada": 13.07091
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2205z",
@@ -2158,12 +2189,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1241,
+  "llamada": 1215,
   "envio": 135,
-  "bolsa": 211
+  "bolsa": 210
  },
- "open": [],
- "heartbeat": 1793663586.4714925,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2355z",
+   "ronda": "2355z",
+   "hora": "18:59:14",
+   "day": "2026-11-02",
+   "ts": 1793663954.355105,
+   "side": "up",
+   "prob": 0.6603,
+   "precio": 0.67,
+   "qty": 2.98,
+   "fee": 0.05,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 129,
+    "bolsa": 144
+   },
+   "order_id": "DFY57AEG12WP",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0466,
+   "pct_bal": 15.2,
+   "pct_gan": null,
+   "bal_entrada": 13.477
+  }
+ ],
+ "heartbeat": 1793663966.693917,
  "running": true,
  "stop_file": false
 }
