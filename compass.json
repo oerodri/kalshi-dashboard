@@ -1,16 +1,31 @@
 {
  "etiqueta": "Tier A en vivo (papel)",
- "actualizado": "2026-11-01 23:52 ET",
- "saldo": 472.05,
- "pnl_total": -27.95,
- "pnl_hoy": -23.67,
- "trades": 17,
- "ganadas": 13,
- "winrate": 76.5,
+ "actualizado": "2026-11-02 00:10 ET",
+ "saldo": 475.9,
+ "pnl_total": -24.1,
+ "pnl_hoy": 0,
+ "trades": 18,
+ "ganadas": 14,
+ "winrate": 77.8,
  "max_dd_pct": 6.43,
  "abiertas": 0,
  "saltadas": 0,
  "ultimas": [
+  {
+   "ts_et": "2026-11-01 23:52",
+   "ticker": "KXBTC15M-26NOV020000-00",
+   "side": "no",
+   "tier": "A",
+   "confidence": "88",
+   "min_left": "7.5",
+   "page_price": "81",
+   "entry_price": "71.0",
+   "contracts": "14",
+   "fee": "0.21",
+   "result": "win",
+   "pnl": "3.85",
+   "note": ""
+  },
   {
    "ts_et": "2026-11-01 22:50",
    "ticker": "KXBTC15M-26NOV012300-00",
@@ -145,29 +160,14 @@
    "result": "win",
    "pnl": "0.56",
    "note": ""
-  },
-  {
-   "ts_et": "2026-11-01 02:23",
-   "ticker": "KXBTC15M-26NOV010230-30",
-   "side": "no",
-   "tier": "A",
-   "confidence": "88",
-   "min_left": "6.9",
-   "page_price": "98",
-   "entry_price": "98.7",
-   "contracts": "10",
-   "fee": "0.01",
-   "result": "win",
-   "pnl": "0.12",
-   "note": ""
   }
  ],
  "trades_prueba": 0,
  "tipo": "tierA_live",
- "balance": 472.05,
- "trades_total": 17,
- "trades_hoy": 11,
- "losses_hoy": 3,
+ "balance": 475.9,
+ "trades_total": 18,
+ "trades_hoy": 0,
+ "losses_hoy": 0,
  "max_dd": 6.43,
  "equity": [
   {
@@ -241,9 +241,21 @@
   {
    "t": "2026-11-01 22:50",
    "b": 472.05
+  },
+  {
+   "t": "2026-11-01 23:52",
+   "b": 475.9
   }
  ],
  "last_trades": [
+  {
+   "hora": "11-01 23:52",
+   "lado": "NO",
+   "precio": 71.0,
+   "pnl": 3.85,
+   "result": "win",
+   "origen": "vivo"
+  },
   {
    "hora": "11-01 22:50",
    "lado": "YES",
@@ -353,14 +365,6 @@
    "lado": "NO",
    "precio": 90.1,
    "pnl": 1.02,
-   "result": "win",
-   "origen": "vivo"
-  },
-  {
-   "hora": "10-31 17:09",
-   "lado": "NO",
-   "precio": 97.9,
-   "pnl": 0.19,
    "result": "win",
    "origen": "vivo"
   }
