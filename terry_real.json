@@ -1,6 +1,6 @@
 {
- "generated": 1793644533.6594357,
- "generated_et": "2026-11-02 13:35:34 ET",
+ "generated": 1793644696.036501,
+ "generated_et": "2026-11-02 13:38:16 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -35,7 +35,7 @@
   "cap_hit": false
  },
  "counts": {
-  "saltada": 1,
+  "saltada": 2,
   "error": 2,
   "gano": 2,
   "nofill": 2
@@ -53,6 +53,28 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-1835z",
+   "ronda": "1835z",
+   "hora": "13:37:28",
+   "day": "2026-11-02",
+   "ts": 1793644648.3355162,
+   "side": "up",
+   "prob": 0.9649,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": null,
+   "order_id": null,
+   "aviso": null,
+   "out": "saltada",
+   "motivo": "ask 0.97 > max 0.9",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1830z",
    "ronda": "1830z",
@@ -97,7 +119,7 @@
     "bolsa": 161
    },
    "order_id": "DFSCX41G12TT",
-   "aviso": "La bolsa sí llenó esta orden pero el bot la marcó como \"nofill\"; no cuenta para su tope diario.",
+   "aviso": null,
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 2.0268,
@@ -230,7 +252,7 @@
   "bolsa": 189
  },
  "open": [],
- "heartbeat": 1793644523.1643748,
+ "heartbeat": 1793644683.3720436,
  "running": true,
  "stop_file": false
 }
