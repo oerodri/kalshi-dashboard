@@ -1,6 +1,6 @@
 {
- "generated": 1793654717.5481734,
- "generated_et": "2026-11-02 16:25:18 ET",
+ "generated": 1793654842.2742932,
+ "generated_et": "2026-11-02 16:27:23 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 10.01171,
-  "buying_power": 10.01171,
-  "in_positions": 0
+  "current": 10.31651,
+  "buying_power": 7.99651,
+  "in_positions": 2.32
  },
  "balance_err": null,
  "balance_hist": [
@@ -122,6 +122,10 @@
   [
    1793654532,
    10.01171
+  ],
+  [
+   1793654842,
+   10.31651
   ]
  ],
  "totals": {
@@ -143,7 +147,8 @@
   "error": 2,
   "gano": 14,
   "nofill": 7,
-  "perdio": 5
+  "perdio": 5,
+  "abierta": 1
  },
  "equity": [
   [
@@ -243,6 +248,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2125z",
+   "ronda": "2125z",
+   "hora": "16:26:36",
+   "day": "2026-11-02",
+   "ts": 1793654796.1942904,
+   "side": "down",
+   "prob": 0.8504,
+   "precio": 0.86,
+   "qty": 2.32,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 126,
+    "envio": 135,
+    "bolsa": 142
+   },
+   "order_id": "DFVZBE6012WK",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0152,
+   "pct_bal": 20.1,
+   "pct_gan": null,
+   "bal_entrada": 10.0117
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2120z",
    "ronda": "2120z",
@@ -685,7 +716,7 @@
    "costo": 2.0243,
    "pct_bal": 15.7,
    "pct_gan": 27.9,
-   "bal_entrada": 12.9039
+   "bal_entrada": 12.90391
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1950z",
@@ -1252,12 +1283,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1673,
+  "llamada": 1615,
   "envio": 133,
-  "bolsa": 162
+  "bolsa": 161
  },
- "open": [],
- "heartbeat": 1793654713.583817,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2125z",
+   "ronda": "2125z",
+   "hora": "16:26:36",
+   "day": "2026-11-02",
+   "ts": 1793654796.1942904,
+   "side": "down",
+   "prob": 0.8504,
+   "precio": 0.86,
+   "qty": 2.32,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 126,
+    "envio": 135,
+    "bolsa": 142
+   },
+   "order_id": "DFVZBE6012WK",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0152,
+   "pct_bal": 20.1,
+   "pct_gan": null,
+   "bal_entrada": 10.0117
+  }
+ ],
+ "heartbeat": 1793654834.175961,
  "running": true,
  "stop_file": false
 }
