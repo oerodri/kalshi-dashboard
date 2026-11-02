@@ -1,6 +1,6 @@
 {
- "generated": 1793657828.6601243,
- "generated_et": "2026-11-02 17:17:09 ET",
+ "generated": 1793658014.6633303,
+ "generated_et": "2026-11-02 17:20:15 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 8.99761,
-  "buying_power": 8.99761,
+  "current": 11.93761,
+  "buying_power": 11.93761,
   "in_positions": 0
  },
  "balance_err": null,
@@ -158,29 +158,32 @@
   [
    1793657829,
    8.99761
+  ],
+  [
+   1793658015,
+   11.93761
   ]
  ],
  "totals": {
-  "trades": 25,
-  "wins": 19,
-  "win_pct": 76.0,
-  "gross_pnl": -0.1261,
-  "fees": 0.87,
-  "net_pnl": -0.9961
+  "trades": 26,
+  "wins": 20,
+  "win_pct": 76.9,
+  "gross_pnl": 0.8147,
+  "fees": 0.91,
+  "net_pnl": -0.0953
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": -0.9961,
-  "cap_left": 19.0,
+  "pnl": -0.0953,
+  "cap_left": 19.9,
   "cap_hit": false
  },
  "counts": {
   "saltada": 15,
   "error": 2,
-  "gano": 19,
+  "gano": 20,
   "nofill": 9,
-  "perdio": 6,
-  "abierta": 1
+  "perdio": 6
  },
  "equity": [
   [
@@ -307,6 +310,11 @@
    1793657551,
    -0.9961,
    "2210z"
+  ],
+  [
+   1793657791,
+   -0.0953,
+   "2215z"
   ]
  ],
  "calls": [
@@ -321,7 +329,7 @@
    "precio": 0.68,
    "qty": 2.94,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.9008,
    "lat": {
     "llamada": 812,
     "envio": 134,
@@ -329,11 +337,11 @@
    },
    "order_id": "DFWP6HS012WQ",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.0392,
    "pct_bal": 18.5,
-   "pct_gan": null,
+   "pct_gan": 44.2,
    "bal_entrada": 11.0368
   },
   {
@@ -664,7 +672,7 @@
    "costo": 2.0126,
    "pct_bal": 18.8,
    "pct_gan": 20.7,
-   "bal_entrada": 10.7107
+   "bal_entrada": 10.71071
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2105z",
@@ -1601,35 +1609,8 @@
   "envio": 135,
   "bolsa": 191
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2215z",
-   "ronda": "2215z",
-   "hora": "17:16:30",
-   "day": "2026-11-02",
-   "ts": 1793657790.828235,
-   "side": "up",
-   "prob": 0.6764,
-   "precio": 0.68,
-   "qty": 2.94,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 812,
-    "envio": 134,
-    "bolsa": 140
-   },
-   "order_id": "DFWP6HS012WQ",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0392,
-   "pct_bal": 18.5,
-   "pct_gan": null,
-   "bal_entrada": 11.0368
-  }
- ],
- "heartbeat": 1793657823.4390087,
+ "open": [],
+ "heartbeat": 1793658013.8052502,
  "running": true,
  "stop_file": false
 }
