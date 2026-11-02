@@ -1,6 +1,6 @@
 {
- "generated": 1793644907.6062672,
- "generated_et": "2026-11-02 13:41:48 ET",
+ "generated": 1793645217.502988,
+ "generated_et": "2026-11-02 13:46:58 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 13.46691,
-  "buying_power": 13.46691,
+  "current": 11.42771,
+  "buying_power": 11.42771,
   "in_positions": 0
  },
  "balance_err": null,
@@ -18,6 +18,10 @@
   [
    1793644189,
    13.46691
+  ],
+  [
+   1793645211,
+   11.42771
   ]
  ],
  "totals": {
@@ -38,7 +42,8 @@
   "saltada": 3,
   "error": 2,
   "gano": 2,
-  "nofill": 2
+  "nofill": 2,
+  "abierta": 1
  },
  "equity": [
   [
@@ -53,6 +58,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-1845z",
+   "ronda": "1845z",
+   "hora": "13:46:46",
+   "day": "2026-11-02",
+   "ts": 1793645206.0526419,
+   "side": "up",
+   "prob": 0.6861,
+   "precio": 0.68,
+   "qty": 2.94,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 2593,
+    "envio": 130,
+    "bolsa": 131
+   },
+   "order_id": "DFSP62WG12W4",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0392,
+   "pct_bal": 15.1,
+   "pct_gan": null,
+   "bal_entrada": 13.4669
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1840z",
    "ronda": "1840z",
@@ -146,9 +177,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 2.0268,
-   "pct_bal": null,
+   "pct_bal": 15.7,
    "pct_gan": 26.3,
-   "bal_entrada": null
+   "bal_entrada": 12.9337
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1820z",
@@ -198,9 +229,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 2.0392,
-   "pct_bal": null,
+   "pct_bal": 16.9,
    "pct_gan": 44.2,
-   "bal_entrada": null
+   "bal_entrada": 12.0329
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1805z",
@@ -270,12 +301,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1920,
+  "llamada": 2054,
   "envio": 131,
-  "bolsa": 189
+  "bolsa": 177
  },
- "open": [],
- "heartbeat": 1793644903.4732182,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-1845z",
+   "ronda": "1845z",
+   "hora": "13:46:46",
+   "day": "2026-11-02",
+   "ts": 1793645206.0526419,
+   "side": "up",
+   "prob": 0.6861,
+   "precio": 0.68,
+   "qty": 2.94,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 2593,
+    "envio": 130,
+    "bolsa": 131
+   },
+   "order_id": "DFSP62WG12W4",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0392,
+   "pct_bal": 15.1,
+   "pct_gan": null,
+   "bal_entrada": 13.4669
+  }
+ ],
+ "heartbeat": 1793645217.8168304,
  "running": true,
  "stop_file": false
 }
