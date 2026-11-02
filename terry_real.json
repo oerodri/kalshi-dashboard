@@ -1,6 +1,6 @@
 {
- "generated": 1793656264.9053988,
- "generated_et": "2026-11-02 16:51:05 ET",
+ "generated": 1793656389.857394,
+ "generated_et": "2026-11-02 16:53:10 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 10.88221,
-  "buying_power": 10.88221,
+  "current": 8.83241,
+  "buying_power": 8.83241,
   "in_positions": 0
  },
  "balance_err": null,
@@ -130,6 +130,10 @@
   [
    1793656018,
    10.88221
+  ],
+  [
+   1793656390,
+   8.83241
   ]
  ],
  "totals": {
@@ -151,7 +155,8 @@
   "error": 2,
   "gano": 16,
   "nofill": 8,
-  "perdio": 5
+  "perdio": 5,
+  "abierta": 1
  },
  "equity": [
   [
@@ -261,6 +266,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2150z",
+   "ronda": "2150z",
+   "hora": "16:52:54",
+   "day": "2026-11-02",
+   "ts": 1793656374.6825893,
+   "side": "up",
+   "prob": 0.6775,
+   "precio": 0.66,
+   "qty": 3.03,
+   "fee": 0.05,
+   "pnl": null,
+   "lat": {
+    "llamada": 93,
+    "envio": 133,
+    "bolsa": 157
+   },
+   "order_id": "DFWBCT7G12VX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0498,
+   "pct_bal": 18.8,
+   "pct_gan": null,
+   "bal_entrada": 10.8822
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2145z",
    "ronda": "2145z",
@@ -614,7 +645,7 @@
    "side": "down",
    "prob": 0.7022,
    "precio": 0.77,
-   "qty": 2.59,
+   "qty": 1.59,
    "fee": 0.03,
    "pnl": 0.5657,
    "lat": {
@@ -626,10 +657,10 @@
    "aviso": null,
    "out": "gano",
    "motivo": "Liquidada",
-   "costo": 2.0243,
-   "pct_bal": 14.5,
-   "pct_gan": 27.9,
-   "bal_entrada": 13.9964
+   "costo": 1.2543,
+   "pct_bal": 9.5,
+   "pct_gan": 45.1,
+   "bal_entrada": 13.2164
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2030z",
@@ -1392,12 +1423,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1506,
+  "llamada": 1459,
   "envio": 133,
-  "bolsa": 167
+  "bolsa": 166
  },
- "open": [],
- "heartbeat": 1793656258.9598844,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2150z",
+   "ronda": "2150z",
+   "hora": "16:52:54",
+   "day": "2026-11-02",
+   "ts": 1793656374.6825893,
+   "side": "up",
+   "prob": 0.6775,
+   "precio": 0.66,
+   "qty": 3.03,
+   "fee": 0.05,
+   "pnl": null,
+   "lat": {
+    "llamada": 93,
+    "envio": 133,
+    "bolsa": 157
+   },
+   "order_id": "DFWBCT7G12VX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0498,
+   "pct_bal": 18.8,
+   "pct_gan": null,
+   "bal_entrada": 10.8822
+  }
+ ],
+ "heartbeat": 1793656379.3438005,
  "running": true,
  "stop_file": false
 }
