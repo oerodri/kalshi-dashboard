@@ -1,6 +1,6 @@
 {
- "generated": 1793652109.1244497,
- "generated_et": "2026-11-02 15:41:49 ET",
+ "generated": 1793652356.8571541,
+ "generated_et": "2026-11-02 15:45:57 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 14.99951,
+  "current": 12.53951,
   "buying_power": 12.53951,
-  "in_positions": 2.46
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -86,19 +86,23 @@
   [
    1793652109,
    14.99951
+  ],
+  [
+   1793652357,
+   12.53951
   ]
  ],
  "totals": {
-  "trades": 13,
+  "trades": 14,
   "wins": 11,
-  "win_pct": 84.6,
-  "gross_pnl": 2.9192,
-  "fees": 0.39,
-  "net_pnl": 2.5292
+  "win_pct": 78.6,
+  "gross_pnl": 0.9266,
+  "fees": 0.42,
+  "net_pnl": 0.5066
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": 2.5292,
+  "pnl": 0.5066,
   "cap_left": 20.0,
   "cap_hit": false
  },
@@ -107,8 +111,7 @@
   "error": 2,
   "gano": 11,
   "nofill": 7,
-  "perdio": 2,
-  "abierta": 1
+  "perdio": 3
  },
  "equity": [
   [
@@ -175,6 +178,11 @@
    1793651868,
    2.5292,
    "2035z"
+  ],
+  [
+   1793652102,
+   0.5066,
+   "2040z"
   ]
  ],
  "calls": [
@@ -189,7 +197,7 @@
    "precio": 0.81,
    "qty": 2.46,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": -2.0226,
    "lat": {
     "llamada": 7998,
     "envio": 124,
@@ -197,11 +205,11 @@
    },
    "order_id": "DFVASR1G12W4",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 2.0226,
    "pct_bal": 13.9,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 14.5621
   },
   {
@@ -683,7 +691,7 @@
    "side": "down",
    "prob": 0.7586,
    "precio": 0.7,
-   "qty": 0.7,
+   "qty": 2.7,
    "fee": 0.04,
    "pnl": 0.77,
    "lat": {
@@ -695,10 +703,10 @@
    "aviso": null,
    "out": "gano",
    "motivo": "Liquidada",
-   "costo": 0.53,
-   "pct_bal": 4.9,
-   "pct_gan": 145.3,
-   "bal_entrada": 10.9134
+   "costo": 1.93,
+   "pct_bal": 15.6,
+   "pct_gan": 39.9,
+   "bal_entrada": 12.34341
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1855z",
@@ -995,35 +1003,8 @@
   "envio": 133,
   "bolsa": 165
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2040z",
-   "ronda": "2040z",
-   "hora": "15:41:42",
-   "day": "2026-11-02",
-   "ts": 1793652102.319929,
-   "side": "down",
-   "prob": 0.8029,
-   "precio": 0.81,
-   "qty": 2.46,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 7998,
-    "envio": 124,
-    "bolsa": 128
-   },
-   "order_id": "DFVASR1G12W4",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0226,
-   "pct_bal": 13.9,
-   "pct_gan": null,
-   "bal_entrada": 14.5621
-  }
- ],
- "heartbeat": 1793652103.2136626,
+ "open": [],
+ "heartbeat": 1793652342.1399448,
  "running": true,
  "stop_file": false
 }
