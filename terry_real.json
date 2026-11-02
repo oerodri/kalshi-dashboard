@@ -1,6 +1,6 @@
 {
- "generated": 1793662703.8864634,
- "generated_et": "2026-11-02 18:38:24 ET",
+ "generated": 1793662986.158326,
+ "generated_et": "2026-11-02 18:43:06 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 13.19931,
-  "buying_power": 13.19931,
+  "current": 11.18701,
+  "buying_power": 11.18701,
   "in_positions": 0
  },
  "balance_err": null,
@@ -202,6 +202,10 @@
   [
    1793661746,
    13.19931
+  ],
+  [
+   1793662986,
+   11.18701
   ]
  ],
  "totals": {
@@ -223,7 +227,8 @@
   "error": 2,
   "gano": 25,
   "nofill": 14,
-  "perdio": 7
+  "perdio": 7,
+  "abierta": 1
  },
  "equity": [
   [
@@ -388,6 +393,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2340z",
+   "ronda": "2340z",
+   "hora": "18:42:32",
+   "day": "2026-11-02",
+   "ts": 1793662952.6170247,
+   "side": "up",
+   "prob": 0.8074,
+   "precio": 0.87,
+   "qty": 2.29,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 2628,
+    "envio": 155,
+    "bolsa": 238
+   },
+   "order_id": "DFXXJS9G12WP",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0123,
+   "pct_bal": 15.2,
+   "pct_gan": null,
+   "bal_entrada": 13.1993
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2335z",
    "ronda": "2335z",
@@ -871,7 +902,7 @@
    "side": "up",
    "prob": 0.8199,
    "precio": 0.87,
-   "qty": 0.83,
+   "qty": 2.27,
    "fee": 0.02,
    "pnl": 0.2751,
    "lat": {
@@ -883,10 +914,10 @@
    "aviso": null,
    "out": "gano",
    "motivo": "Liquidada",
-   "costo": 0.7421,
-   "pct_bal": 6.4,
-   "pct_gan": 37.1,
-   "bal_entrada": 11.533
+   "costo": 1.9949,
+   "pct_bal": 15.6,
+   "pct_gan": 13.8,
+   "bal_entrada": 12.79581
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2155z",
@@ -2071,12 +2102,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1211,
-  "envio": 134,
-  "bolsa": 211
+  "llamada": 1241,
+  "envio": 135,
+  "bolsa": 212
  },
- "open": [],
- "heartbeat": 1793662685.7109313,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2340z",
+   "ronda": "2340z",
+   "hora": "18:42:32",
+   "day": "2026-11-02",
+   "ts": 1793662952.6170247,
+   "side": "up",
+   "prob": 0.8074,
+   "precio": 0.87,
+   "qty": 2.29,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 2628,
+    "envio": 155,
+    "bolsa": 238
+   },
+   "order_id": "DFXXJS9G12WP",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0123,
+   "pct_bal": 15.2,
+   "pct_gan": null,
+   "bal_entrada": 13.1993
+  }
+ ],
+ "heartbeat": 1793662985.8794994,
  "running": true,
  "stop_file": false
 }
