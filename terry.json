@@ -1,21 +1,28 @@
 {
- "actualizado": "2026-11-02 15:10 ET",
+ "actualizado": "2026-11-02 15:13 ET",
  "desde": "2026-11-01 12:28 ET",
  "liquidacion": "terrycalls record-calls.csv (Polymarket US, BRTI)",
  "bots": [
   {
    "nombre": "Terry Lean",
    "sub": "(papel) &middot; primera llamada de Terry al ask del feed &middot; $10/trade",
-   "balance": 617.04,
-   "pnl": 117.04,
-   "trades": 212,
-   "winrate": 82.5,
+   "balance": 618.67,
+   "pnl": 118.67,
+   "trades": 213,
+   "winrate": 82.6,
    "perdidas_hoy": 23,
    "max_dd": 11.45,
    "abiertas": [
-    "cpc-btc-updown-5m-2026-11-02-2005z"
+    "cpc-btc-updown-5m-2026-11-02-2010z"
    ],
    "ultimas": [
+    {
+     "t": "11-02 15:07",
+     "lado": "Down",
+     "precio": 86.0,
+     "gano": true,
+     "pnl": 1.63
+    },
     {
      "t": "11-02 15:02",
      "lado": "Down",
@@ -78,19 +85,11 @@
      "precio": 87.0,
      "gano": false,
      "pnl": -10.0
-    },
-    {
-     "t": "11-02 14:01",
-     "lado": "Down",
-     "precio": 75.0,
-     "gano": true,
-     "pnl": 3.33
     }
    ],
-   "pnl_hoy": 65.46,
-   "trades_hoy": 127,
+   "pnl_hoy": 67.09,
+   "trades_hoy": 128,
    "equity": [
-    504.48,
     509.86,
     516.25,
     522.12,
@@ -289,7 +288,8 @@
     610.28,
     611.77,
     615.28,
-    617.04
+    617.04,
+    618.67
    ],
    "saltadas": 0,
    "salidas_flip": 0
@@ -297,16 +297,21 @@
   {
    "nombre": "Terry Lock",
    "sub": "(papel) &middot; llamada lock de Terry al ask del feed &middot; $10/trade",
-   "balance": 415.09,
-   "pnl": -84.91,
-   "trades": 146,
-   "winrate": 91.1,
+   "balance": 415.51,
+   "pnl": -84.49,
+   "trades": 147,
+   "winrate": 91.2,
    "perdidas_hoy": 11,
    "max_dd": 19.26,
-   "abiertas": [
-    "cpc-btc-updown-5m-2026-11-02-2005z"
-   ],
+   "abiertas": [],
    "ultimas": [
+    {
+     "t": "11-02 15:08",
+     "lado": "Down",
+     "precio": 96.0,
+     "gano": true,
+     "pnl": 0.42
+    },
     {
      "t": "11-02 15:02",
      "lado": "Down",
@@ -369,17 +374,10 @@
      "precio": 96.0,
      "gano": true,
      "pnl": 0.42
-    },
-    {
-     "t": "11-02 13:27",
-     "lado": "Down",
-     "precio": 97.0,
-     "gano": true,
-     "pnl": 0.31
     }
    ],
-   "pnl_hoy": -83.81,
-   "trades_hoy": 88,
+   "pnl_hoy": -83.39,
+   "trades_hoy": 89,
    "equity": [
     500.0,
     500.1,
@@ -527,7 +525,8 @@
     413.5,
     413.81,
     414.45,
-    415.09
+    415.09,
+    415.51
    ],
    "saltadas": 30,
    "salidas_flip": 0
@@ -535,16 +534,23 @@
   {
    "nombre": "Terry Lean Filtro",
    "sub": "(papel) &middot; Lean con prob&ge;0.66; sale al bid real si el lock sale contrario &middot; $10/trade",
-   "balance": 514.19,
-   "pnl": 14.19,
-   "trades": 26,
-   "winrate": 80.8,
+   "balance": 515.82,
+   "pnl": 15.82,
+   "trades": 27,
+   "winrate": 81.5,
    "perdidas_hoy": 5,
    "max_dd": 3.21,
    "abiertas": [
-    "cpc-btc-updown-5m-2026-11-02-2005z"
+    "cpc-btc-updown-5m-2026-11-02-2010z"
    ],
    "ultimas": [
+    {
+     "t": "11-02 15:07",
+     "lado": "Down",
+     "precio": 86.0,
+     "gano": true,
+     "pnl": 1.63
+    },
     {
      "t": "11-02 15:02",
      "lado": "Down",
@@ -607,17 +613,10 @@
      "precio": 87.0,
      "gano": false,
      "pnl": -10.0
-    },
-    {
-     "t": "11-02 14:01",
-     "lado": "Down",
-     "precio": 75.0,
-     "gano": true,
-     "pnl": 3.33
     }
    ],
-   "pnl_hoy": 14.19,
-   "trades_hoy": 26,
+   "pnl_hoy": 15.82,
+   "trades_hoy": 27,
    "equity": [
     500.0,
     505.15,
@@ -645,7 +644,8 @@
     507.43,
     508.92,
     512.43,
-    514.19
+    514.19,
+    515.82
    ],
    "saltadas": 2,
    "salidas_flip": 2
