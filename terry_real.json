@@ -1,6 +1,6 @@
 {
- "generated": 1793654468.248114,
- "generated_et": "2026-11-02 16:21:09 ET",
+ "generated": 1793654532.0281131,
+ "generated_et": "2026-11-02 16:22:12 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 12.06151,
-  "buying_power": 12.06151,
+  "current": 10.01171,
+  "buying_power": 10.01171,
   "in_positions": 0
  },
  "balance_err": null,
@@ -118,6 +118,10 @@
   [
    1793654468,
    12.06151
+  ],
+  [
+   1793654532,
+   10.01171
   ]
  ],
  "totals": {
@@ -139,7 +143,8 @@
   "error": 2,
   "gano": 14,
   "nofill": 7,
-  "perdio": 4
+  "perdio": 4,
+  "abierta": 1
  },
  "equity": [
   [
@@ -234,6 +239,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2120z",
+   "ronda": "2120z",
+   "hora": "16:21:35",
+   "day": "2026-11-02",
+   "ts": 1793654495.0223658,
+   "side": "up",
+   "prob": 0.6763,
+   "precio": 0.66,
+   "qty": 3.03,
+   "fee": 0.05,
+   "pnl": null,
+   "lat": {
+    "llamada": 1156,
+    "envio": 129,
+    "bolsa": 135
+   },
+   "order_id": "DFVX1X5G12W4",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0498,
+   "pct_bal": 17.0,
+   "pct_gan": null,
+   "bal_entrada": 12.0615
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2115z",
    "ronda": "2115z",
@@ -698,7 +729,7 @@
    "costo": 2.0152,
    "pct_bal": 16.0,
    "pct_gan": 15.1,
-   "bal_entrada": 12.5991
+   "bal_entrada": 12.59911
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1940z",
@@ -1217,12 +1248,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1693,
+  "llamada": 1673,
   "envio": 133,
-  "bolsa": 163
+  "bolsa": 162
  },
- "open": [],
- "heartbeat": 1793654452.3304293,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2120z",
+   "ronda": "2120z",
+   "hora": "16:21:35",
+   "day": "2026-11-02",
+   "ts": 1793654495.0223658,
+   "side": "up",
+   "prob": 0.6763,
+   "precio": 0.66,
+   "qty": 3.03,
+   "fee": 0.05,
+   "pnl": null,
+   "lat": {
+    "llamada": 1156,
+    "envio": 129,
+    "bolsa": 135
+   },
+   "order_id": "DFVX1X5G12W4",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0498,
+   "pct_bal": 17.0,
+   "pct_gan": null,
+   "bal_entrada": 12.0615
+  }
+ ],
+ "heartbeat": 1793654532.368151,
  "running": true,
  "stop_file": false
 }
