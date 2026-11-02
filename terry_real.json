@@ -1,6 +1,6 @@
 {
- "generated": 1793660814.821866,
- "generated_et": "2026-11-02 18:06:55 ET",
+ "generated": 1793661062.2289681,
+ "generated_et": "2026-11-02 18:11:03 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 9.01741,
-  "buying_power": 9.01741,
+  "current": 12.18741,
+  "buying_power": 12.18741,
   "in_positions": 0
  },
  "balance_err": null,
@@ -186,29 +186,32 @@
   [
    1793660815,
    9.01741
+  ],
+  [
+   1793661062,
+   12.18741
   ]
  ],
  "totals": {
-  "trades": 29,
-  "wins": 22,
-  "win_pct": 75.9,
-  "gross_pnl": -0.0118,
-  "fees": 1.02,
-  "net_pnl": -1.0318
+  "trades": 30,
+  "wins": 23,
+  "win_pct": 76.7,
+  "gross_pnl": 1.2245,
+  "fees": 1.07,
+  "net_pnl": 0.1545
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": -1.0318,
-  "cap_left": 18.97,
+  "pnl": 0.1545,
+  "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
   "saltada": 18,
   "error": 2,
-  "gano": 22,
+  "gano": 23,
   "nofill": 12,
-  "perdio": 7,
-  "abierta": 1
+  "perdio": 7
  },
  "equity": [
   [
@@ -355,6 +358,11 @@
    1793660226,
    -1.0318,
    "2255z"
+  ],
+  [
+   1793660802,
+   0.1545,
+   "2305z"
   ]
  ],
  "calls": [
@@ -369,7 +377,7 @@
    "precio": 0.61,
    "qty": 3.17,
    "fee": 0.05,
-   "pnl": null,
+   "pnl": 1.1863,
    "lat": {
     "llamada": 1649,
     "envio": 137,
@@ -377,11 +385,11 @@
    },
    "order_id": "DFXD5KG012WQ",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9837,
    "pct_bal": 18.0,
-   "pct_gan": null,
+   "pct_gan": 59.8,
    "bal_entrada": 11.0011
   },
   {
@@ -1897,35 +1905,8 @@
   "envio": 134,
   "bolsa": 183
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2305z",
-   "ronda": "2305z",
-   "hora": "18:06:41",
-   "day": "2026-11-02",
-   "ts": 1793660801.5992885,
-   "side": "up",
-   "prob": 0.6704,
-   "precio": 0.61,
-   "qty": 3.17,
-   "fee": 0.05,
-   "pnl": null,
-   "lat": {
-    "llamada": 1649,
-    "envio": 137,
-    "bolsa": 139
-   },
-   "order_id": "DFXD5KG012WQ",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9837,
-   "pct_bal": 18.0,
-   "pct_gan": null,
-   "bal_entrada": 11.0011
-  }
- ],
- "heartbeat": 1793660802.528078,
+ "open": [],
+ "heartbeat": 1793661062.670398,
  "running": true,
  "stop_file": false
 }
