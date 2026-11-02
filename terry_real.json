@@ -1,6 +1,6 @@
 {
- "generated": 1793648884.4121804,
- "generated_et": "2026-11-02 14:48:05 ET",
+ "generated": 1793649069.9573796,
+ "generated_et": "2026-11-02 14:51:10 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 12.90391,
-  "buying_power": 10.58391,
-  "in_positions": 2.32
+  "buying_power": 12.90391,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -69,26 +69,25 @@
   ]
  ],
  "totals": {
-  "trades": 9,
-  "wins": 7,
-  "win_pct": 77.8,
-  "gross_pnl": 0.8462,
-  "fees": 0.28,
-  "net_pnl": 0.5662
+  "trades": 10,
+  "wins": 8,
+  "win_pct": 80.0,
+  "gross_pnl": 1.171,
+  "fees": 0.3,
+  "net_pnl": 0.871
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": 0.5662,
+  "pnl": 0.871,
   "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
   "saltada": 6,
   "error": 2,
-  "gano": 7,
+  "gano": 8,
   "nofill": 4,
-  "perdio": 2,
-  "abierta": 1
+  "perdio": 2
  },
  "equity": [
   [
@@ -135,6 +134,11 @@
    1793648192,
    0.5662,
    "1935z"
+  ],
+  [
+   1793648850,
+   0.871,
+   "1945z"
   ]
  ],
  "calls": [
@@ -149,7 +153,7 @@
    "precio": 0.86,
    "qty": 2.32,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.3048,
    "lat": {
     "llamada": 0,
     "envio": 130,
@@ -157,11 +161,11 @@
    },
    "order_id": "DFTHZPP012VX",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.0152,
    "pct_bal": 16.0,
-   "pct_gan": null,
+   "pct_gan": 15.1,
    "bal_entrada": 12.5991
   },
   {
@@ -609,9 +613,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 2.0392,
-   "pct_bal": 16.9,
+   "pct_bal": null,
    "pct_gan": 44.2,
-   "bal_entrada": 12.0329
+   "bal_entrada": null
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1805z",
@@ -685,35 +689,8 @@
   "envio": 132,
   "bolsa": 167
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-1945z",
-   "ronda": "1945z",
-   "hora": "14:47:29",
-   "day": "2026-11-02",
-   "ts": 1793648849.8939362,
-   "side": "down",
-   "prob": 0.8399,
-   "precio": 0.86,
-   "qty": 2.32,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 130,
-    "bolsa": 160
-   },
-   "order_id": "DFTHZPP012VX",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0152,
-   "pct_bal": 16.0,
-   "pct_gan": null,
-   "bal_entrada": 12.5991
-  }
- ],
- "heartbeat": 1793648876.818026,
+ "open": [],
+ "heartbeat": 1793649056.9160883,
  "running": true,
  "stop_file": false
 }
