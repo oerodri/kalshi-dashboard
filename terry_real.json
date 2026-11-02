@@ -1,6 +1,6 @@
 {
- "generated": 1793657016.8451917,
- "generated_et": "2026-11-02 17:03:37 ET",
+ "generated": 1793657141.7419016,
+ "generated_et": "2026-11-02 17:05:42 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 10.80091,
-  "buying_power": 10.80091,
+  "current": 13.07091,
+  "buying_power": 13.07091,
   "in_positions": 0
  },
  "balance_err": null,
@@ -146,29 +146,32 @@
   [
    1793656953,
    10.80091
+  ],
+  [
+   1793657142,
+   13.07091
   ]
  ],
  "totals": {
-  "trades": 23,
-  "wins": 18,
-  "win_pct": 78.3,
-  "gross_pnl": 1.5729,
-  "fees": 0.81,
-  "net_pnl": 0.7629
+  "trades": 24,
+  "wins": 19,
+  "win_pct": 79.2,
+  "gross_pnl": 1.868,
+  "fees": 0.83,
+  "net_pnl": 1.038
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": 0.7629,
+  "pnl": 1.038,
   "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
   "saltada": 15,
   "error": 2,
-  "gano": 18,
+  "gano": 19,
   "nofill": 8,
-  "perdio": 5,
-  "abierta": 1
+  "perdio": 5
  },
  "equity": [
   [
@@ -285,6 +288,11 @@
    1793656653,
    0.7629,
    "2155z"
+  ],
+  [
+   1793656951,
+   1.038,
+   "2200z"
   ]
  ],
  "calls": [
@@ -299,7 +307,7 @@
    "precio": 0.87,
    "qty": 2.27,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.2751,
    "lat": {
     "llamada": 1438,
     "envio": 138,
@@ -307,11 +315,11 @@
    },
    "order_id": "DFWFSSRG12WK",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9949,
    "pct_bal": 15.6,
-   "pct_gan": null,
+   "pct_gan": 13.8,
    "bal_entrada": 12.7958
   },
   {
@@ -1501,35 +1509,8 @@
   "envio": 134,
   "bolsa": 189
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2200z",
-   "ronda": "2200z",
-   "hora": "17:02:31",
-   "day": "2026-11-02",
-   "ts": 1793656951.3955946,
-   "side": "up",
-   "prob": 0.8199,
-   "precio": 0.87,
-   "qty": 2.27,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 1438,
-    "envio": 138,
-    "bolsa": 914
-   },
-   "order_id": "DFWFSSRG12WK",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9949,
-   "pct_bal": 15.6,
-   "pct_gan": null,
-   "bal_entrada": 12.7958
-  }
- ],
- "heartbeat": 1793657002.481508,
+ "open": [],
+ "heartbeat": 1793657122.5329816,
  "running": true,
  "stop_file": false
 }
