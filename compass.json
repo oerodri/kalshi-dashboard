@@ -1,16 +1,31 @@
 {
  "etiqueta": "Tier A en vivo (papel)",
- "actualizado": "2026-11-01 19:35 ET",
- "saldo": 480.35,
- "pnl_total": -19.65,
- "pnl_hoy": -15.37,
- "trades": 14,
- "ganadas": 11,
- "winrate": 78.6,
+ "actualizado": "2026-11-01 19:50 ET",
+ "saldo": 481.09,
+ "pnl_total": -18.91,
+ "pnl_hoy": -14.63,
+ "trades": 15,
+ "ganadas": 12,
+ "winrate": 80.0,
  "max_dd_pct": 4.79,
  "abiertas": 0,
  "saltadas": 0,
  "ultimas": [
+  {
+   "ts_et": "2026-11-01 19:35",
+   "ticker": "KXBTC15M-26NOV011945-45",
+   "side": "no",
+   "tier": "A",
+   "confidence": "88",
+   "min_left": "10.9",
+   "page_price": "91",
+   "entry_price": "92.0",
+   "contracts": "10",
+   "fee": "0.06",
+   "result": "win",
+   "pnl": "0.74",
+   "note": ""
+  },
   {
    "ts_et": "2026-11-01 19:05",
    "ticker": "KXBTC15M-26NOV011915-15",
@@ -145,28 +160,13 @@
    "result": "win",
    "pnl": "0.45",
    "note": ""
-  },
-  {
-   "ts_et": "2026-10-31 19:09",
-   "ticker": "KXBTC15M-26OCT311915-15",
-   "side": "yes",
-   "tier": "A",
-   "confidence": "88",
-   "min_left": "6.05",
-   "page_price": "88",
-   "entry_price": "91.6",
-   "contracts": "10",
-   "fee": "0.06",
-   "result": "loss",
-   "pnl": "-9.22",
-   "note": ""
   }
  ],
  "trades_prueba": 0,
  "tipo": "tierA_live",
- "balance": 480.35,
- "trades_total": 14,
- "trades_hoy": 8,
+ "balance": 481.09,
+ "trades_total": 15,
+ "trades_hoy": 9,
  "losses_hoy": 2,
  "max_dd": 4.79,
  "equity": [
@@ -229,9 +229,21 @@
   {
    "t": "2026-11-01 19:05",
    "b": 480.35
+  },
+  {
+   "t": "2026-11-01 19:35",
+   "b": 481.09
   }
  ],
  "last_trades": [
+  {
+   "hora": "11-01 19:35",
+   "lado": "NO",
+   "precio": 92.0,
+   "pnl": 0.74,
+   "result": "win",
+   "origen": "vivo"
+  },
   {
    "hora": "11-01 19:05",
    "lado": "YES",
