@@ -1,6 +1,6 @@
 {
- "generated": 1793657579.567235,
- "generated_et": "2026-11-02 17:13:00 ET",
+ "generated": 1793657765.1980379,
+ "generated_et": "2026-11-02 17:16:05 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -157,17 +157,17 @@
   ]
  ],
  "totals": {
-  "trades": 24,
+  "trades": 25,
   "wins": 19,
-  "win_pct": 79.2,
-  "gross_pnl": 1.868,
-  "fees": 0.83,
-  "net_pnl": 1.038
+  "win_pct": 76.0,
+  "gross_pnl": -0.1261,
+  "fees": 0.87,
+  "net_pnl": -0.9961
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": 1.038,
-  "cap_left": 20.0,
+  "pnl": -0.9961,
+  "cap_left": 19.0,
   "cap_hit": false
  },
  "counts": {
@@ -175,8 +175,7 @@
   "error": 2,
   "gano": 19,
   "nofill": 9,
-  "perdio": 5,
-  "abierta": 1
+  "perdio": 6
  },
  "equity": [
   [
@@ -298,6 +297,11 @@
    1793656951,
    1.038,
    "2200z"
+  ],
+  [
+   1793657551,
+   -0.9961,
+   "2210z"
   ]
  ],
  "calls": [
@@ -312,7 +316,7 @@
    "precio": 0.69,
    "qty": 2.89,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": -2.0341,
    "lat": {
     "llamada": 0,
     "envio": 150,
@@ -320,11 +324,11 @@
    },
    "order_id": "DFWMBY5G52WP",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 2.0341,
    "pct_bal": 15.6,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 13.0709
   },
   {
@@ -662,7 +666,7 @@
    "side": "down",
    "prob": 0.7309,
    "precio": 0.25,
-   "qty": 1.0,
+   "qty": 8.0,
    "fee": 0.1,
    "pnl": -2.1,
    "lat": {
@@ -674,10 +678,10 @@
    "aviso": null,
    "out": "perdio",
    "motivo": "Liquidada",
-   "costo": 0.35,
-   "pct_bal": 3.2,
-   "pct_gan": -600.0,
-   "bal_entrada": 10.9707
+   "costo": 2.1,
+   "pct_bal": 16.4,
+   "pct_gan": -100.0,
+   "bal_entrada": 12.81071
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2055z",
@@ -1566,35 +1570,8 @@
   "envio": 135,
   "bolsa": 193
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2210z",
-   "ronda": "2210z",
-   "hora": "17:12:30",
-   "day": "2026-11-02",
-   "ts": 1793657550.5085413,
-   "side": "up",
-   "prob": 0.7197,
-   "precio": 0.69,
-   "qty": 2.89,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 150,
-    "bolsa": 366
-   },
-   "order_id": "DFWMBY5G52WP",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0341,
-   "pct_bal": 15.6,
-   "pct_gan": null,
-   "bal_entrada": 13.0709
-  }
- ],
- "heartbeat": 1793657563.3203359,
+ "open": [],
+ "heartbeat": 1793657763.419496,
  "running": true,
  "stop_file": false
 }
