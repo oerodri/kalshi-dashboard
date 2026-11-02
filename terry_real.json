@@ -1,6 +1,6 @@
 {
- "generated": 1793648015.8165717,
- "generated_et": "2026-11-02 14:33:36 ET",
+ "generated": 1793648140.378647,
+ "generated_et": "2026-11-02 14:35:41 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 12.07251,
-  "buying_power": 9.69251,
-  "in_positions": 2.38
+  "buying_power": 12.07251,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -61,26 +61,25 @@
   ]
  ],
  "totals": {
-  "trades": 7,
-  "wins": 5,
-  "win_pct": 71.4,
-  "gross_pnl": -0.0912,
-  "fees": 0.23,
-  "net_pnl": -0.3212
+  "trades": 8,
+  "wins": 6,
+  "win_pct": 75.0,
+  "gross_pnl": 0.2896,
+  "fees": 0.25,
+  "net_pnl": 0.0396
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": -0.3212,
-  "cap_left": 19.68,
+  "pnl": 0.0396,
+  "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
   "saltada": 6,
   "error": 2,
-  "gano": 5,
+  "gano": 6,
   "nofill": 3,
-  "perdio": 2,
-  "abierta": 1
+  "perdio": 2
  },
  "equity": [
   [
@@ -117,6 +116,11 @@
    1793646995,
    -0.3212,
    "1915z"
+  ],
+  [
+   1793647952,
+   0.0396,
+   "1930z"
   ]
  ],
  "calls": [
@@ -131,7 +135,7 @@
    "precio": 0.84,
    "qty": 2.38,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.3608,
    "lat": {
     "llamada": 1933,
     "envio": 135,
@@ -139,11 +143,11 @@
    },
    "order_id": "DFTB4FZ012WK",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.0192,
    "pct_bal": 17.2,
-   "pct_gan": null,
+   "pct_gan": 17.9,
    "bal_entrada": 11.7117
   },
   {
@@ -589,35 +593,8 @@
   "envio": 131,
   "bolsa": 172
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-1930z",
-   "ronda": "1930z",
-   "hora": "14:32:31",
-   "day": "2026-11-02",
-   "ts": 1793647951.957396,
-   "side": "down",
-   "prob": 0.7413,
-   "precio": 0.84,
-   "qty": 2.38,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 1933,
-    "envio": 135,
-    "bolsa": 207
-   },
-   "order_id": "DFTB4FZ012WK",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0192,
-   "pct_bal": 17.2,
-   "pct_gan": null,
-   "bal_entrada": 11.7117
-  }
- ],
- "heartbeat": 1793648015.057125,
+ "open": [],
+ "heartbeat": 1793648135.102168,
  "running": true,
  "stop_file": false
 }
