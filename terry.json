@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02 16:52 ET",
+ "actualizado": "2026-11-02 17:04 ET",
  "desde": "2026-11-01 12:28 ET",
  "liquidacion": "terrycalls record-calls.csv (Polymarket US, BRTI)",
  "bots": [
@@ -12,7 +12,10 @@
    "winrate": 82.7,
    "perdidas_hoy": 25,
    "max_dd": 11.45,
-   "abiertas": [],
+   "abiertas": [
+    "cpc-btc-updown-5m-2026-11-02-2150z",
+    "cpc-btc-updown-5m-2026-11-02-2200z"
+   ],
    "ultimas": [
     {
      "t": "11-02 16:41",
@@ -301,7 +304,9 @@
    "winrate": 91.8,
    "perdidas_hoy": 11,
    "max_dd": 19.26,
-   "abiertas": [],
+   "abiertas": [
+    "cpc-btc-updown-5m-2026-11-02-2200z"
+   ],
    "ultimas": [
     {
      "t": "11-02 16:43",
@@ -549,7 +554,10 @@
    "winrate": 82.5,
    "perdidas_hoy": 7,
    "max_dd": 3.21,
-   "abiertas": [],
+   "abiertas": [
+    "cpc-btc-updown-5m-2026-11-02-2150z",
+    "cpc-btc-updown-5m-2026-11-02-2200z"
+   ],
    "ultimas": [
     {
      "t": "11-02 16:41",
