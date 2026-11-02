@@ -1,6 +1,6 @@
 {
- "generated": 1793644696.036501,
- "generated_et": "2026-11-02 13:38:16 ET",
+ "generated": 1793644720.65707,
+ "generated_et": "2026-11-02 13:38:41 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -114,9 +114,10 @@
    "fee": 0.03,
    "pnl": 0.5332,
    "lat": {
-    "llamada": -322,
+    "llamada": 0,
     "envio": 133,
-    "bolsa": 161
+    "bolsa": 161,
+    "desfase": -322
    },
    "order_id": "DFSCX41G12TT",
    "aviso": null,
@@ -195,7 +196,7 @@
    "order_id": null,
    "aviso": null,
    "out": "error",
-   "motivo": "orden fallida: 400 Request is required (bug preview, sin dinero)",
+   "motivo": "Error antiguo, ya corregido (no gastó dinero)",
    "costo": null,
    "pct_bal": null,
    "pct_gan": null,
@@ -217,7 +218,7 @@
    "order_id": null,
    "aviso": null,
    "out": "error",
-   "motivo": "orden fallida: 400 Request is required (bug preview, sin dinero)",
+   "motivo": "Error antiguo, ya corregido (no gastó dinero)",
    "costo": null,
    "pct_bal": null,
    "pct_gan": null,
@@ -247,12 +248,12 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1839,
+  "llamada": 1920,
   "envio": 131,
   "bolsa": 189
  },
  "open": [],
- "heartbeat": 1793644683.3720436,
+ "heartbeat": 1793644703.3766913,
  "running": true,
  "stop_file": false
 }
