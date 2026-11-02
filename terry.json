@@ -1,21 +1,28 @@
 {
- "actualizado": "2026-11-02 05:10 ET",
+ "actualizado": "2026-11-02 05:14 ET",
  "desde": "2026-11-01 12:28 ET",
  "liquidacion": "terrycalls record-calls.csv (Polymarket US, BRTI)",
  "bots": [
   {
    "nombre": "Terry Lean",
    "sub": "(papel) &middot; primera llamada de Terry al ask del feed &middot; $10/trade",
-   "balance": 574.72,
-   "pnl": 74.72,
-   "trades": 121,
-   "winrate": 83.5,
+   "balance": 576.21,
+   "pnl": 76.21,
+   "trades": 122,
+   "winrate": 83.6,
    "perdidas_hoy": 6,
    "max_dd": 5.37,
    "abiertas": [
-    "cpc-btc-updown-5m-2026-11-02-1005z"
+    "cpc-btc-updown-5m-2026-11-02-1010z"
    ],
    "ultimas": [
+    {
+     "t": "11-02 05:07",
+     "lado": "Down",
+     "precio": 87.0,
+     "gano": true,
+     "pnl": 1.49
+    },
     {
      "t": "11-02 05:04",
      "lado": "Down",
@@ -78,17 +85,10 @@
      "precio": 74.0,
      "gano": true,
      "pnl": 3.51
-    },
-    {
-     "t": "11-02 03:42",
-     "lado": "Up",
-     "precio": 93.0,
-     "gano": true,
-     "pnl": 0.75
     }
    ],
-   "pnl_hoy": 23.14,
-   "trades_hoy": 36,
+   "pnl_hoy": 24.63,
+   "trades_hoy": 37,
    "equity": [
     500.0,
     502.66,
@@ -211,23 +211,31 @@
     573.35,
     573.88,
     574.19,
-    574.72
+    574.72,
+    576.21
    ],
    "saltadas": 0
   },
   {
    "nombre": "Terry Lock",
    "sub": "(papel) &middot; llamada lock de Terry al ask del feed &middot; $10/trade",
-   "balance": 486.96,
-   "pnl": -13.04,
-   "trades": 81,
+   "balance": 487.49,
+   "pnl": -12.51,
+   "trades": 82,
    "winrate": 95.1,
    "perdidas_hoy": 2,
    "max_dd": 4.99,
    "abiertas": [
-    "cpc-btc-updown-5m-2026-11-02-1005z"
+    "cpc-btc-updown-5m-2026-11-02-1010z"
    ],
    "ultimas": [
+    {
+     "t": "11-02 05:08",
+     "lado": "Down",
+     "precio": 95.0,
+     "gano": true,
+     "pnl": 0.53
+    },
     {
      "t": "11-02 04:57",
      "lado": "Down",
@@ -290,17 +298,10 @@
      "precio": 94.0,
      "gano": true,
      "pnl": 0.64
-    },
-    {
-     "t": "11-02 03:28",
-     "lado": "Up",
-     "precio": 96.0,
-     "gano": true,
-     "pnl": 0.42
     }
    ],
-   "pnl_hoy": -11.94,
-   "trades_hoy": 23,
+   "pnl_hoy": -11.41,
+   "trades_hoy": 24,
    "equity": [
     500.0,
     500.1,
@@ -383,7 +384,8 @@
     485.92,
     486.45,
     486.65,
-    486.96
+    486.96,
+    487.49
    ],
    "saltadas": 16
   }
