@@ -1,6 +1,6 @@
 {
  "etiqueta": "Tier A 2.0 (papel)",
- "actualizado": "2026-11-02 11:41 ET",
+ "actualizado": "2026-11-02 11:53 ET",
  "saldo": 428.14,
  "pnl_total": -71.86,
  "pnl_hoy": -19.77,
@@ -9,8 +9,23 @@
  "winrate": 65.5,
  "max_dd_pct": 15.67,
  "abiertas": 0,
- "saltadas": 7,
+ "saltadas": 8,
  "ultimas": [
+  {
+   "ts_et": "2026-11-02 11:41",
+   "ticker": "KXBTC15M-26NOV021145-00",
+   "side": "yes",
+   "tier": "A",
+   "confidence": "88",
+   "min_left": "3.4",
+   "page_price": "0.97",
+   "entry_price": "",
+   "contracts": "0",
+   "fee": "",
+   "result": "skip",
+   "pnl": "",
+   "note": "sin_liquidez"
+  },
   {
    "ts_et": "2026-11-02 10:10",
    "ticker": "KXBTC15M-26NOV021015-00",
@@ -145,21 +160,6 @@
    "result": "loss",
    "pnl": "-9.74",
    "note": ""
-  },
-  {
-   "ts_et": "2026-11-01 23:54",
-   "ticker": "KXBTC15M-26NOV020000-00",
-   "side": "no",
-   "tier": "A",
-   "confidence": "88",
-   "min_left": "7.5",
-   "page_price": "81",
-   "entry_price": "66.0",
-   "contracts": "15",
-   "fee": "0.24",
-   "result": "win",
-   "pnl": "4.86",
-   "note": "add-on"
   }
  ],
  "trades_prueba": 0,
