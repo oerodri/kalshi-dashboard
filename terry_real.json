@@ -1,6 +1,6 @@
 {
- "generated": 1793645613.8662446,
- "generated_et": "2026-11-02 13:53:34 ET",
+ "generated": 1793645719.7188942,
+ "generated_et": "2026-11-02 13:55:20 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 14.93341,
+  "current": 12.34341,
   "buying_power": 12.34341,
-  "in_positions": 2.59
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -30,19 +30,23 @@
   [
    1793645530,
    14.93341
+  ],
+  [
+   1793645720,
+   12.34341
   ]
  ],
  "totals": {
-  "trades": 3,
+  "trades": 4,
   "wins": 3,
-  "win_pct": 100.0,
-  "gross_pnl": 2.4448,
-  "fees": 0.11,
-  "net_pnl": 2.3348
+  "win_pct": 75.0,
+  "gross_pnl": 0.4505,
+  "fees": 0.14,
+  "net_pnl": 0.3105
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": 2.3348,
+  "pnl": 0.3105,
   "cap_left": 20.0,
   "cap_hit": false
  },
@@ -51,7 +55,7 @@
   "error": 2,
   "gano": 3,
   "nofill": 2,
-  "abierta": 1
+  "perdio": 1
  },
  "equity": [
   [
@@ -68,6 +72,11 @@
    1793645206,
    2.3348,
    "1845z"
+  ],
+  [
+   1793645530,
+   0.3105,
+   "1850z"
   ]
  ],
  "calls": [
@@ -82,7 +91,7 @@
    "precio": 0.77,
    "qty": 2.59,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": -2.0243,
    "lat": {
     "llamada": 5137,
     "envio": 131,
@@ -90,11 +99,11 @@
    },
    "order_id": "DFSRN3T012WE",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 2.0243,
    "pct_bal": 14.1,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 14.3677
   },
   {
@@ -344,35 +353,8 @@
   "envio": 131,
   "bolsa": 177
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-1850z",
-   "ronda": "1850z",
-   "hora": "13:52:09",
-   "day": "2026-11-02",
-   "ts": 1793645529.711523,
-   "side": "down",
-   "prob": 0.7252,
-   "precio": 0.77,
-   "qty": 2.59,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 5137,
-    "envio": 131,
-    "bolsa": 174
-   },
-   "order_id": "DFSRN3T012WE",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0243,
-   "pct_bal": 14.1,
-   "pct_gan": null,
-   "bal_entrada": 14.3677
-  }
- ],
- "heartbeat": 1793645577.5298672,
+ "open": [],
+ "heartbeat": 1793645710.8801544,
  "running": true,
  "stop_file": false
 }
