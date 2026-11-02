@@ -1,6 +1,6 @@
 {
- "generated": 1793656578.063901,
- "generated_et": "2026-11-02 16:56:18 ET",
+ "generated": 1793656702.452946,
+ "generated_et": "2026-11-02 16:58:23 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 11.86241,
-  "buying_power": 11.86241,
-  "in_positions": 0
+  "current": 12.79581,
+  "buying_power": 9.81581,
+  "in_positions": 2.98
  },
  "balance_err": null,
  "balance_hist": [
@@ -138,6 +138,10 @@
   [
    1793656515,
    11.86241
+  ],
+  [
+   1793656700,
+   12.79581
   ]
  ],
  "totals": {
@@ -159,7 +163,8 @@
   "error": 2,
   "gano": 17,
   "nofill": 8,
-  "perdio": 5
+  "perdio": 5,
+  "abierta": 1
  },
  "equity": [
   [
@@ -274,6 +279,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2155z",
+   "ronda": "2155z",
+   "hora": "16:57:33",
+   "day": "2026-11-02",
+   "ts": 1793656653.197249,
+   "side": "down",
+   "prob": 0.6898,
+   "precio": 0.67,
+   "qty": 2.98,
+   "fee": 0.05,
+   "pnl": null,
+   "lat": {
+    "llamada": 486,
+    "envio": 143,
+    "bolsa": 159
+   },
+   "order_id": "DFWDGT8G12VC",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0466,
+   "pct_bal": 17.3,
+   "pct_gan": null,
+   "bal_entrada": 11.8624
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2150z",
    "ronda": "2150z",
@@ -1431,12 +1462,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1459,
+  "llamada": 1427,
   "envio": 133,
   "bolsa": 166
  },
- "open": [],
- "heartbeat": 1793656559.4451928,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2155z",
+   "ronda": "2155z",
+   "hora": "16:57:33",
+   "day": "2026-11-02",
+   "ts": 1793656653.197249,
+   "side": "down",
+   "prob": 0.6898,
+   "precio": 0.67,
+   "qty": 2.98,
+   "fee": 0.05,
+   "pnl": null,
+   "lat": {
+    "llamada": 486,
+    "envio": 143,
+    "bolsa": 159
+   },
+   "order_id": "DFWDGT8G12VC",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0466,
+   "pct_bal": 17.3,
+   "pct_gan": null,
+   "bal_entrada": 11.8624
+  }
+ ],
+ "heartbeat": 1793656699.5235045,
  "running": true,
  "stop_file": false
 }
