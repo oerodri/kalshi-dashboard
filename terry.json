@@ -1,19 +1,28 @@
 {
- "actualizado": "2026-11-02 13:15 ET",
+ "actualizado": "2026-11-02 13:24 ET",
  "desde": "2026-11-01 12:28 ET",
  "liquidacion": "terrycalls record-calls.csv (Polymarket US, BRTI)",
  "bots": [
   {
    "nombre": "Terry Lean",
    "sub": "(papel) &middot; primera llamada de Terry al ask del feed &middot; $10/trade",
-   "balance": 595.51,
-   "pnl": 95.51,
-   "trades": 193,
-   "winrate": 82.4,
+   "balance": 600.89,
+   "pnl": 100.89,
+   "trades": 194,
+   "winrate": 82.5,
    "perdidas_hoy": 20,
    "max_dd": 11.45,
-   "abiertas": [],
+   "abiertas": [
+    "cpc-btc-updown-5m-2026-11-02-1820z"
+   ],
    "ultimas": [
+    {
+     "t": "11-02 13:16",
+     "lado": "Down",
+     "precio": 65.0,
+     "gano": true,
+     "pnl": 5.38
+    },
     {
      "t": "11-02 13:11",
      "lado": "Down",
@@ -76,17 +85,10 @@
      "precio": 66.0,
      "gano": true,
      "pnl": 5.15
-    },
-    {
-     "t": "11-02 12:26",
-     "lado": "Down",
-     "precio": 81.0,
-     "gano": true,
-     "pnl": 2.35
     }
    ],
-   "pnl_hoy": 43.93,
-   "trades_hoy": 108,
+   "pnl_hoy": 49.31,
+   "trades_hoy": 109,
    "equity": [
     500.0,
     502.66,
@@ -281,7 +283,8 @@
     596.29,
     586.29,
     590.58,
-    595.51
+    595.51,
+    600.89
    ],
    "saltadas": 0,
    "salidas_flip": 0
@@ -509,7 +512,7 @@
     411.11,
     411.64
    ],
-   "saltadas": 27,
+   "saltadas": 28,
    "salidas_flip": 0
   },
   {
@@ -521,7 +524,9 @@
    "winrate": 77.8,
    "perdidas_hoy": 2,
    "max_dd": 2.33,
-   "abiertas": [],
+   "abiertas": [
+    "cpc-btc-updown-5m-2026-11-02-1820z"
+   ],
    "ultimas": [
     {
      "t": "11-02 13:11",
@@ -601,7 +606,7 @@
     497.68,
     502.61
    ],
-   "saltadas": 0,
+   "saltadas": 1,
    "salidas_flip": 1
   }
  ]
