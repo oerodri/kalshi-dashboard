@@ -1,6 +1,6 @@
 {
- "generated": 1793644347.0462475,
- "generated_et": "2026-11-02 13:32:27 ET",
+ "generated": 1793644533.6594357,
+ "generated_et": "2026-11-02 13:35:34 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -73,7 +73,11 @@
    "order_id": "DFSFATHG12TT",
    "aviso": null,
    "out": "nofill",
-   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)"
+   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1825z",
@@ -95,7 +99,11 @@
    "order_id": "DFSCX41G12TT",
    "aviso": "La bolsa sí llenó esta orden pero el bot la marcó como \"nofill\"; no cuenta para su tope diario.",
    "out": "gano",
-   "motivo": "Liquidada"
+   "motivo": "Liquidada",
+   "costo": 2.0268,
+   "pct_bal": null,
+   "pct_gan": 26.3,
+   "bal_entrada": null
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1820z",
@@ -117,7 +125,11 @@
    "order_id": "DFSAXWF012VC",
    "aviso": null,
    "out": "nofill",
-   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)"
+   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1810z",
@@ -139,7 +151,11 @@
    "order_id": "DFS675JG12WK",
    "aviso": null,
    "out": "gano",
-   "motivo": "Liquidada"
+   "motivo": "Liquidada",
+   "costo": 2.0392,
+   "pct_bal": null,
+   "pct_gan": 44.2,
+   "bal_entrada": null
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1805z",
@@ -157,7 +173,11 @@
    "order_id": null,
    "aviso": null,
    "out": "error",
-   "motivo": "orden fallida: 400 Request is required (bug preview, sin dinero)"
+   "motivo": "orden fallida: 400 Request is required (bug preview, sin dinero)",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1800z",
@@ -175,7 +195,11 @@
    "order_id": null,
    "aviso": null,
    "out": "error",
-   "motivo": "orden fallida: 400 Request is required (bug preview, sin dinero)"
+   "motivo": "orden fallida: 400 Request is required (bug preview, sin dinero)",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1755z",
@@ -193,7 +217,11 @@
    "order_id": null,
    "aviso": null,
    "out": "saltada",
-   "motivo": "Llamada de Terry muy vieja (>45 s)"
+   "motivo": "Llamada de Terry muy vieja (>45 s)",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
   }
  ],
  "lat_avg": {
@@ -202,7 +230,7 @@
   "bolsa": 189
  },
  "open": [],
- "heartbeat": 1793644343.0979774,
+ "heartbeat": 1793644523.1643748,
  "running": true,
  "stop_file": false
 }
