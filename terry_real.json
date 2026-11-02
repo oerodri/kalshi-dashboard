@@ -1,6 +1,6 @@
 {
- "generated": 1793642894.9399214,
- "generated_et": "2026-11-02 13:08:15 ET",
+ "generated": 1793643493.7325628,
+ "generated_et": "2026-11-02 13:18:14 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -22,14 +22,42 @@
   "cap_left": 20.0,
   "cap_hit": false
  },
- "open": [],
- "last": [],
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-1810z",
+   "hora": "11-02 13:11",
+   "side": "down",
+   "prob": 0.6785,
+   "ask": 0.68,
+   "qty": 2.94,
+   "fee": 0.04,
+   "status": "open",
+   "result": null,
+   "pnl": null,
+   "orden": null
+  }
+ ],
+ "last": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-1810z",
+   "hora": "11-02 13:11",
+   "side": "down",
+   "prob": 0.6785,
+   "ask": 0.68,
+   "qty": 2.94,
+   "fee": 0.04,
+   "status": "open",
+   "result": null,
+   "pnl": null,
+   "orden": null
+  }
+ ],
  "skips": {
   "llamada vieja": 1
  },
  "skips_total": 1,
- "heartbeat": 1793642877.0579233,
- "heartbeat_age_s": 18,
+ "heartbeat": 1793643281.3021767,
+ "heartbeat_age_s": 212,
  "running": true,
  "stop_file": false
 }
