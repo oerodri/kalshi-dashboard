@@ -1,6 +1,6 @@
 {
- "generated": 1793652420.372818,
- "generated_et": "2026-11-02 15:47:01 ET",
+ "generated": 1793652668.0633817,
+ "generated_et": "2026-11-02 15:51:08 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 10.57071,
-  "buying_power": 10.57071,
+  "current": 12.81071,
+  "buying_power": 12.81071,
   "in_positions": 0
  },
  "balance_err": null,
@@ -94,29 +94,32 @@
   [
    1793652420,
    10.57071
+  ],
+  [
+   1793652668,
+   12.81071
   ]
  ],
  "totals": {
-  "trades": 14,
-  "wins": 11,
-  "win_pct": 78.6,
-  "gross_pnl": 0.9266,
-  "fees": 0.42,
-  "net_pnl": 0.5066
+  "trades": 15,
+  "wins": 12,
+  "win_pct": 80.0,
+  "gross_pnl": 1.2178,
+  "fees": 0.44,
+  "net_pnl": 0.7778
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": 0.5066,
+  "pnl": 0.7778,
   "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
   "saltada": 10,
   "error": 2,
-  "gano": 11,
+  "gano": 12,
   "nofill": 7,
-  "perdio": 3,
-  "abierta": 1
+  "perdio": 3
  },
  "equity": [
   [
@@ -188,6 +191,11 @@
    1793652102,
    0.5066,
    "2040z"
+  ],
+  [
+   1793652391,
+   0.7778,
+   "2045z"
   ]
  ],
  "calls": [
@@ -202,7 +210,7 @@
    "precio": 0.87,
    "qty": 2.24,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.2712,
    "lat": {
     "llamada": 0,
     "envio": 131,
@@ -210,11 +218,11 @@
    },
    "order_id": "DFVD057G12VC",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9688,
    "pct_bal": 15.7,
-   "pct_gan": null,
+   "pct_gan": 13.8,
    "bal_entrada": 12.5395
   },
   {
@@ -711,7 +719,7 @@
    "costo": 2.0192,
    "pct_bal": 15.4,
    "pct_gan": -100.0,
-   "bal_entrada": 13.1134
+   "bal_entrada": 13.11341
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1900z",
@@ -1034,35 +1042,8 @@
   "envio": 133,
   "bolsa": 163
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2045z",
-   "ronda": "2045z",
-   "hora": "15:46:30",
-   "day": "2026-11-02",
-   "ts": 1793652390.71619,
-   "side": "up",
-   "prob": 0.8423,
-   "precio": 0.87,
-   "qty": 2.24,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 131,
-    "bolsa": 135
-   },
-   "order_id": "DFVD057G12VC",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9688,
-   "pct_bal": 15.7,
-   "pct_gan": null,
-   "bal_entrada": 12.5395
-  }
- ],
- "heartbeat": 1793652402.1856043,
+ "open": [],
+ "heartbeat": 1793652662.5395977,
  "running": true,
  "stop_file": false
 }
