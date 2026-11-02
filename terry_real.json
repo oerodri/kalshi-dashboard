@@ -1,6 +1,6 @@
 {
- "generated": 1793660252.939283,
- "generated_et": "2026-11-02 17:57:33 ET",
+ "generated": 1793660439.3307147,
+ "generated_et": "2026-11-02 18:00:40 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 14.03111,
+  "current": 11.00111,
   "buying_power": 11.00111,
-  "in_positions": 3.03
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -178,20 +178,24 @@
   [
    1793660253,
    14.03111
+  ],
+  [
+   1793660439,
+   11.00111
   ]
  ],
  "totals": {
-  "trades": 28,
+  "trades": 29,
   "wins": 22,
-  "win_pct": 78.6,
-  "gross_pnl": 1.9273,
-  "fees": 0.97,
-  "net_pnl": 0.9573
+  "win_pct": 75.9,
+  "gross_pnl": -0.0118,
+  "fees": 1.02,
+  "net_pnl": -1.0318
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": 0.9573,
-  "cap_left": 20.0,
+  "pnl": -1.0318,
+  "cap_left": 18.97,
   "cap_hit": false
  },
  "counts": {
@@ -199,8 +203,7 @@
   "error": 2,
   "gano": 22,
   "nofill": 12,
-  "perdio": 6,
-  "abierta": 1
+  "perdio": 7
  },
  "equity": [
   [
@@ -342,6 +345,11 @@
    1793659337,
    0.9573,
    "2240z"
+  ],
+  [
+   1793660226,
+   -1.0318,
+   "2255z"
   ]
  ],
  "calls": [
@@ -356,7 +364,7 @@
    "precio": 0.64,
    "qty": 3.03,
    "fee": 0.05,
-   "pnl": null,
+   "pnl": -1.9891,
    "lat": {
     "llamada": 551,
     "envio": 121,
@@ -364,11 +372,11 @@
    },
    "order_id": "DFX8S1K012WP",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 1.9892,
    "pct_bal": 15.3,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 12.9902
   },
   {
@@ -1836,35 +1844,8 @@
   "envio": 134,
   "bolsa": 184
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2255z",
-   "ronda": "2255z",
-   "hora": "17:57:05",
-   "day": "2026-11-02",
-   "ts": 1793660225.8915052,
-   "side": "down",
-   "prob": 0.6723,
-   "precio": 0.64,
-   "qty": 3.03,
-   "fee": 0.05,
-   "pnl": null,
-   "lat": {
-    "llamada": 551,
-    "envio": 121,
-    "bolsa": 130
-   },
-   "order_id": "DFX8S1K012WP",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9892,
-   "pct_bal": 15.3,
-   "pct_gan": null,
-   "bal_entrada": 12.9902
-  }
- ],
- "heartbeat": 1793660241.439779,
+ "open": [],
+ "heartbeat": 1793660421.534204,
  "running": true,
  "stop_file": false
 }
