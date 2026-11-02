@@ -1,21 +1,35 @@
 {
- "actualizado": "2026-11-02 00:10 ET",
+ "actualizado": "2026-11-02 00:18 ET",
  "desde": "2026-11-01 12:28 ET",
  "liquidacion": "terrycalls record-calls.csv (Polymarket US, BRTI)",
  "bots": [
   {
    "nombre": "Terry Lean",
    "sub": "(papel) &middot; primera llamada de Terry al ask del feed &middot; $10/trade",
-   "balance": 551.58,
-   "pnl": 51.58,
-   "trades": 85,
-   "winrate": 83.5,
+   "balance": 555.56,
+   "pnl": 55.56,
+   "trades": 87,
+   "winrate": 83.9,
    "perdidas_hoy": 0,
    "max_dd": 5.37,
    "abiertas": [
-    "cpc-btc-updown-5m-2026-11-02-0505z"
+    "cpc-btc-updown-5m-2026-11-02-0515z"
    ],
    "ultimas": [
+    {
+     "t": "11-02 00:11",
+     "lado": "Down",
+     "precio": 91.0,
+     "gano": true,
+     "pnl": 0.99
+    },
+    {
+     "t": "11-02 00:09",
+     "lado": "Up",
+     "precio": 77.0,
+     "gano": true,
+     "pnl": 2.99
+    },
     {
      "t": "11-01 23:56",
      "lado": "Down",
@@ -71,24 +85,10 @@
      "precio": 76.0,
      "gano": true,
      "pnl": 3.16
-    },
-    {
-     "t": "11-01 22:52",
-     "lado": "Down",
-     "precio": 97.0,
-     "gano": true,
-     "pnl": 0.31
-    },
-    {
-     "t": "11-01 22:42",
-     "lado": "Down",
-     "precio": 96.0,
-     "gano": true,
-     "pnl": 0.42
     }
    ],
-   "pnl_hoy": 0,
-   "trades_hoy": 0,
+   "pnl_hoy": 3.98,
+   "trades_hoy": 2,
    "equity": [
     500.0,
     502.66,
@@ -175,21 +175,30 @@
     542.94,
     545.44,
     546.43,
-    551.58
+    551.58,
+    554.57,
+    555.56
    ],
    "saltadas": 0
   },
   {
    "nombre": "Terry Lock",
    "sub": "(papel) &middot; llamada lock de Terry al ask del feed &middot; $10/trade",
-   "balance": 498.9,
-   "pnl": -1.1,
-   "trades": 58,
+   "balance": 499.1,
+   "pnl": -0.9,
+   "trades": 59,
    "winrate": 96.6,
    "perdidas_hoy": 0,
    "max_dd": 1.99,
    "abiertas": [],
    "ultimas": [
+    {
+     "t": "11-02 00:12",
+     "lado": "Down",
+     "precio": 98.0,
+     "gano": true,
+     "pnl": 0.2
+    },
     {
      "t": "11-01 23:52",
      "lado": "Down",
@@ -252,17 +261,10 @@
      "precio": 97.0,
      "gano": true,
      "pnl": 0.31
-    },
-    {
-     "t": "11-01 21:59",
-     "lado": "Up",
-     "precio": 99.0,
-     "gano": true,
-     "pnl": 0.1
     }
    ],
-   "pnl_hoy": 0,
-   "trades_hoy": 0,
+   "pnl_hoy": 0.2,
+   "trades_hoy": 1,
    "equity": [
     500.0,
     500.1,
@@ -322,7 +324,8 @@
     508.06,
     498.06,
     498.48,
-    498.9
+    498.9,
+    499.1
    ],
    "saltadas": 10
   }
