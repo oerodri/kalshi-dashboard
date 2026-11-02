@@ -1,6 +1,6 @@
 {
- "generated": 1793654282.1458282,
- "generated_et": "2026-11-02 16:18:03 ET",
+ "generated": 1793654468.248114,
+ "generated_et": "2026-11-02 16:21:09 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 9.08151,
-  "buying_power": 9.08151,
+  "current": 12.06151,
+  "buying_power": 12.06151,
   "in_positions": 0
  },
  "balance_err": null,
@@ -114,29 +114,32 @@
   [
    1793654282,
    9.08151
+  ],
+  [
+   1793654468,
+   12.06151
   ]
  ],
  "totals": {
-  "trades": 17,
-  "wins": 13,
-  "win_pct": 76.5,
-  "gross_pnl": -0.3448,
-  "fees": 0.56,
-  "net_pnl": -0.9048
+  "trades": 18,
+  "wins": 14,
+  "win_pct": 77.8,
+  "gross_pnl": 0.6386,
+  "fees": 0.61,
+  "net_pnl": 0.0286
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": -0.9048,
-  "cap_left": 19.1,
+  "pnl": 0.0286,
+  "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
   "saltada": 13,
   "error": 2,
-  "gano": 13,
+  "gano": 14,
   "nofill": 7,
-  "perdio": 4,
-  "abierta": 1
+  "perdio": 4
  },
  "equity": [
   [
@@ -223,6 +226,11 @@
    1793653952,
    -0.9048,
    "2110z"
+  ],
+  [
+   1793654238,
+   0.0286,
+   "2115z"
   ]
  ],
  "calls": [
@@ -237,7 +245,7 @@
    "precio": 0.67,
    "qty": 2.98,
    "fee": 0.05,
-   "pnl": null,
+   "pnl": 0.9334,
    "lat": {
     "llamada": 1572,
     "envio": 142,
@@ -245,11 +253,11 @@
    },
    "order_id": "DFVV32WG12TT",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.0466,
    "pct_bal": 18.4,
-   "pct_gan": null,
+   "pct_gan": 45.6,
    "bal_entrada": 11.1281
   },
   {
@@ -1213,35 +1221,8 @@
   "envio": 133,
   "bolsa": 163
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2115z",
-   "ronda": "2115z",
-   "hora": "16:17:17",
-   "day": "2026-11-02",
-   "ts": 1793654237.6987474,
-   "side": "up",
-   "prob": 0.6817,
-   "precio": 0.67,
-   "qty": 2.98,
-   "fee": 0.05,
-   "pnl": null,
-   "lat": {
-    "llamada": 1572,
-    "envio": 142,
-    "bolsa": 132
-   },
-   "order_id": "DFVV32WG12TT",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0466,
-   "pct_bal": 18.4,
-   "pct_gan": null,
-   "bal_entrada": 11.1281
-  }
- ],
- "heartbeat": 1793654271.5820792,
+ "open": [],
+ "heartbeat": 1793654452.3304293,
  "running": true,
  "stop_file": false
 }
