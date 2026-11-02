@@ -1,6 +1,6 @@
 {
- "generated": 1793656018.1664608,
- "generated_et": "2026-11-02 16:46:58 ET",
+ "generated": 1793656264.9053988,
+ "generated_et": "2026-11-02 16:51:05 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 10.88221,
-  "buying_power": 8.29221,
-  "in_positions": 2.59
+  "buying_power": 10.88221,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -133,26 +133,25 @@
   ]
  ],
  "totals": {
-  "trades": 20,
-  "wins": 15,
-  "win_pct": 75.0,
-  "gross_pnl": -1.0364,
-  "fees": 0.68,
-  "net_pnl": -1.7164
+  "trades": 21,
+  "wins": 16,
+  "win_pct": 76.2,
+  "gross_pnl": -0.4407,
+  "fees": 0.71,
+  "net_pnl": -1.1507
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": -1.7164,
-  "cap_left": 18.28,
+  "pnl": -1.1507,
+  "cap_left": 18.85,
   "cap_hit": false
  },
  "counts": {
   "saltada": 15,
   "error": 2,
-  "gano": 15,
+  "gano": 16,
   "nofill": 8,
-  "perdio": 5,
-  "abierta": 1
+  "perdio": 5
  },
  "equity": [
   [
@@ -254,6 +253,11 @@
    1793654796,
    -1.7164,
    "2125z"
+  ],
+  [
+   1793655990,
+   -1.1507,
+   "2145z"
   ]
  ],
  "calls": [
@@ -268,7 +272,7 @@
    "precio": 0.77,
    "qty": 2.59,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.5657,
    "lat": {
     "llamada": 55,
     "envio": 135,
@@ -276,11 +280,11 @@
    },
    "order_id": "DFW8EY7G52WP",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.0243,
    "pct_bal": 19.6,
-   "pct_gan": null,
+   "pct_gan": 27.9,
    "bal_entrada": 10.3165
   },
   {
@@ -1392,35 +1396,8 @@
   "envio": 133,
   "bolsa": 167
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2145z",
-   "ronda": "2145z",
-   "hora": "16:46:30",
-   "day": "2026-11-02",
-   "ts": 1793655990.0359874,
-   "side": "down",
-   "prob": 0.759,
-   "precio": 0.77,
-   "qty": 2.59,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 55,
-    "envio": 135,
-    "bolsa": 289
-   },
-   "order_id": "DFW8EY7G52WP",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0243,
-   "pct_bal": 19.6,
-   "pct_gan": null,
-   "bal_entrada": 10.3165
-  }
- ],
- "heartbeat": 1793655998.847864,
+ "open": [],
+ "heartbeat": 1793656258.9598844,
  "running": true,
  "stop_file": false
 }
