@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-01 21:37 ET",
+"actualizado": "2026-11-01 21:45 ET",
 "bots": [
 {
 "nombre": "Polymarket A",
@@ -436,7 +436,14 @@
 "winrate": 92.9,
 "perdidas_hoy": 2,
 "max_dd": 3.4,
-"abiertas": [],
+"abiertas": [
+{
+"t": "21:40",
+"lado": "Up",
+"precio": 96.0,
+"acciones": 10.42
+}
+],
 "ultimas": [
 {
 "t": "11-01 18:35",
@@ -561,7 +568,14 @@
 "winrate": 92.3,
 "perdidas_hoy": 2,
 "max_dd": 3.5,
-"abiertas": [],
+"abiertas": [
+{
+"t": "21:40",
+"lado": "Up",
+"precio": 96.0,
+"acciones": 10.42
+}
+],
 "ultimas": [
 {
 "t": "11-01 18:35",
