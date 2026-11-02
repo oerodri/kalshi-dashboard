@@ -1,6 +1,6 @@
 {
- "generated": 1793655768.633814,
- "generated_et": "2026-11-02 16:42:49 ET",
+ "generated": 1793656018.1664608,
+ "generated_et": "2026-11-02 16:46:58 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 10.31651,
-  "buying_power": 10.31651,
-  "in_positions": 0
+  "current": 10.88221,
+  "buying_power": 8.29221,
+  "in_positions": 2.59
  },
  "balance_err": null,
  "balance_hist": [
@@ -126,6 +126,10 @@
   [
    1793654842,
    10.31651
+  ],
+  [
+   1793656018,
+   10.88221
   ]
  ],
  "totals": {
@@ -147,7 +151,8 @@
   "error": 2,
   "gano": 15,
   "nofill": 8,
-  "perdio": 5
+  "perdio": 5,
+  "abierta": 1
  },
  "equity": [
   [
@@ -252,6 +257,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2145z",
+   "ronda": "2145z",
+   "hora": "16:46:30",
+   "day": "2026-11-02",
+   "ts": 1793655990.0359874,
+   "side": "down",
+   "prob": 0.759,
+   "precio": 0.77,
+   "qty": 2.59,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 55,
+    "envio": 135,
+    "bolsa": 289
+   },
+   "order_id": "DFW8EY7G52WP",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0243,
+   "pct_bal": 19.6,
+   "pct_gan": null,
+   "bal_entrada": 10.3165
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2140z",
    "ronda": "2140z",
@@ -738,7 +769,7 @@
    "costo": 1.7932,
    "pct_bal": 13.3,
    "pct_gan": 29.4,
-   "bal_entrada": 13.4696
+   "bal_entrada": 13.46961
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2000z",
@@ -1357,12 +1388,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1558,
+  "llamada": 1506,
   "envio": 133,
-  "bolsa": 162
+  "bolsa": 167
  },
- "open": [],
- "heartbeat": 1793655758.7033863,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2145z",
+   "ronda": "2145z",
+   "hora": "16:46:30",
+   "day": "2026-11-02",
+   "ts": 1793655990.0359874,
+   "side": "down",
+   "prob": 0.759,
+   "precio": 0.77,
+   "qty": 2.59,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 55,
+    "envio": 135,
+    "bolsa": 289
+   },
+   "order_id": "DFW8EY7G52WP",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0243,
+   "pct_bal": 19.6,
+   "pct_gan": null,
+   "bal_entrada": 10.3165
+  }
+ ],
+ "heartbeat": 1793655998.847864,
  "running": true,
  "stop_file": false
 }
