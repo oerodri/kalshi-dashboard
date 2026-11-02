@@ -1,6 +1,6 @@
 {
- "generated": 1793658762.1658316,
- "generated_et": "2026-11-02 17:32:43 ET",
+ "generated": 1793658948.1978562,
+ "generated_et": "2026-11-02 17:35:49 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 12.21531,
-  "buying_power": 9.92531,
-  "in_positions": 2.29
+  "buying_power": 12.21531,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -169,26 +169,25 @@
   ]
  ],
  "totals": {
-  "trades": 26,
-  "wins": 20,
-  "win_pct": 76.9,
-  "gross_pnl": 0.8147,
-  "fees": 0.91,
-  "net_pnl": -0.0953
+  "trades": 27,
+  "wins": 21,
+  "win_pct": 77.8,
+  "gross_pnl": 1.1124,
+  "fees": 0.93,
+  "net_pnl": 0.1824
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": -0.0953,
-  "cap_left": 19.9,
+  "pnl": 0.1824,
+  "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
   "saltada": 16,
   "error": 2,
-  "gano": 20,
+  "gano": 21,
   "nofill": 10,
-  "perdio": 6,
-  "abierta": 1
+  "perdio": 6
  },
  "equity": [
   [
@@ -320,6 +319,11 @@
    1793657791,
    -0.0953,
    "2215z"
+  ],
+  [
+   1793658750,
+   0.1824,
+   "2230z"
   ]
  ],
  "calls": [
@@ -334,7 +338,7 @@
    "precio": 0.87,
    "qty": 2.29,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.2777,
    "lat": {
     "llamada": 0,
     "envio": 154,
@@ -342,11 +346,11 @@
    },
    "order_id": "DFWXGNC012WE",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.0123,
    "pct_bal": 16.9,
-   "pct_gan": null,
+   "pct_gan": 13.8,
    "bal_entrada": 11.9376
   },
   {
@@ -725,7 +729,7 @@
    "costo": 2.0466,
    "pct_bal": 18.4,
    "pct_gan": 45.6,
-   "bal_entrada": 11.1281
+   "bal_entrada": 11.12811
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2110z",
@@ -1688,35 +1692,8 @@
   "envio": 135,
   "bolsa": 188
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2230z",
-   "ronda": "2230z",
-   "hora": "17:32:29",
-   "day": "2026-11-02",
-   "ts": 1793658749.7343936,
-   "side": "down",
-   "prob": 0.7982,
-   "precio": 0.87,
-   "qty": 2.29,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 154,
-    "bolsa": 138
-   },
-   "order_id": "DFWXGNC012WE",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0123,
-   "pct_bal": 16.9,
-   "pct_gan": null,
-   "bal_entrada": 11.9376
-  }
- ],
- "heartbeat": 1793658755.9759214,
+ "open": [],
+ "heartbeat": 1793658936.0472863,
  "running": true,
  "stop_file": false
 }
