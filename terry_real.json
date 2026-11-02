@@ -1,6 +1,6 @@
 {
- "generated": 1793649760.3635457,
- "generated_et": "2026-11-02 15:02:41 ET",
+ "generated": 1793650068.1153376,
+ "generated_et": "2026-11-02 15:07:49 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 13.46961,
-  "buying_power": 13.46961,
-  "in_positions": 0
+  "current": 13.99641,
+  "buying_power": 11.67641,
+  "in_positions": 2.32
  },
  "balance_err": null,
  "balance_hist": [
@@ -74,6 +74,10 @@
   [
    1793649628,
    13.46961
+  ],
+  [
+   1793650068,
+   13.99641
   ]
  ],
  "totals": {
@@ -95,7 +99,8 @@
   "error": 2,
   "gano": 9,
   "nofill": 5,
-  "perdio": 2
+  "perdio": 2,
+  "abierta": 1
  },
  "equity": [
   [
@@ -155,6 +160,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2005z",
+   "ronda": "2005z",
+   "hora": "15:07:30",
+   "day": "2026-11-02",
+   "ts": 1793650050.1554153,
+   "side": "down",
+   "prob": 0.7884,
+   "precio": 0.76,
+   "qty": 2.32,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 137,
+    "envio": 144,
+    "bolsa": 149
+   },
+   "order_id": "DFTV4QSG32VC",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.7932,
+   "pct_bal": 13.3,
+   "pct_gan": null,
+   "bal_entrada": 13.4696
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2000z",
    "ronda": "2000z",
@@ -772,12 +803,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1738,
-  "envio": 132,
-  "bolsa": 167
+  "llamada": 1643,
+  "envio": 133,
+  "bolsa": 166
  },
- "open": [],
- "heartbeat": 1793649758.5856137,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2005z",
+   "ronda": "2005z",
+   "hora": "15:07:30",
+   "day": "2026-11-02",
+   "ts": 1793650050.1554153,
+   "side": "down",
+   "prob": 0.7884,
+   "precio": 0.76,
+   "qty": 2.32,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 137,
+    "envio": 144,
+    "bolsa": 149
+   },
+   "order_id": "DFTV4QSG32VC",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.7932,
+   "pct_bal": 13.3,
+   "pct_gan": null,
+   "bal_entrada": 13.4696
+  }
+ ],
+ "heartbeat": 1793650060.1542275,
  "running": true,
  "stop_file": false
 }
