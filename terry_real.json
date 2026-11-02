@@ -1,6 +1,6 @@
 {
- "generated": 1793659382.9331717,
- "generated_et": "2026-11-02 17:43:03 ET",
+ "generated": 1793659569.3686075,
+ "generated_et": "2026-11-02 17:46:10 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 10.18021,
-  "buying_power": 10.18021,
+  "current": 12.99021,
+  "buying_power": 12.99021,
   "in_positions": 0
  },
  "balance_err": null,
@@ -170,29 +170,32 @@
   [
    1793659383,
    10.18021
+  ],
+  [
+   1793659569,
+   12.99021
   ]
  ],
  "totals": {
-  "trades": 27,
-  "wins": 21,
-  "win_pct": 77.8,
-  "gross_pnl": 1.1124,
-  "fees": 0.93,
-  "net_pnl": 0.1824
+  "trades": 28,
+  "wins": 22,
+  "win_pct": 78.6,
+  "gross_pnl": 1.9273,
+  "fees": 0.97,
+  "net_pnl": 0.9573
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": 0.1824,
+  "pnl": 0.9573,
   "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
   "saltada": 16,
   "error": 2,
-  "gano": 21,
+  "gano": 22,
   "nofill": 11,
-  "perdio": 6,
-  "abierta": 1
+  "perdio": 6
  },
  "equity": [
   [
@@ -329,6 +332,11 @@
    1793658750,
    0.1824,
    "2230z"
+  ],
+  [
+   1793659337,
+   0.9573,
+   "2240z"
   ]
  ],
  "calls": [
@@ -343,7 +351,7 @@
    "precio": 0.71,
    "qty": 2.81,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.7749,
    "lat": {
     "llamada": 197,
     "envio": 134,
@@ -351,11 +359,11 @@
    },
    "order_id": "DFX200WG12WQ",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.0351,
    "pct_bal": 16.7,
-   "pct_gan": null,
+   "pct_gan": 38.1,
    "bal_entrada": 12.2153
   },
   {
@@ -760,7 +768,7 @@
    "costo": 2.0498,
    "pct_bal": 17.0,
    "pct_gan": -100.0,
-   "bal_entrada": 12.0615
+   "bal_entrada": 12.06151
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2115z",
@@ -1749,35 +1757,8 @@
   "envio": 134,
   "bolsa": 187
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2240z",
-   "ronda": "2240z",
-   "hora": "17:42:16",
-   "day": "2026-11-02",
-   "ts": 1793659336.9117565,
-   "side": "up",
-   "prob": 0.7214,
-   "precio": 0.71,
-   "qty": 2.81,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 197,
-    "envio": 134,
-    "bolsa": 181
-   },
-   "order_id": "DFX200WG12WQ",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0351,
-   "pct_bal": 16.7,
-   "pct_gan": null,
-   "bal_entrada": 12.2153
-  }
- ],
- "heartbeat": 1793659380.716083,
+ "open": [],
+ "heartbeat": 1793659560.8165424,
  "running": true,
  "stop_file": false
 }
