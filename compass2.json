@@ -1,16 +1,31 @@
 {
  "etiqueta": "Tier A 2.0 (papel)",
- "actualizado": "2026-11-02 04:57 ET",
- "saldo": 447.91,
- "pnl_total": -52.09,
- "pnl_hoy": 0,
- "trades": 27,
+ "actualizado": "2026-11-02 05:10 ET",
+ "saldo": 428.14,
+ "pnl_total": -71.86,
+ "pnl_hoy": -19.77,
+ "trades": 29,
  "ganadas": 19,
- "winrate": 70.4,
- "max_dd_pct": 13.49,
- "abiertas": 1,
+ "winrate": 65.5,
+ "max_dd_pct": 15.67,
+ "abiertas": 0,
  "saltadas": 0,
  "ultimas": [
+  {
+   "ts_et": "2026-11-02 04:57",
+   "ticker": "KXBTC15M-26NOV020500-00",
+   "side": "yes",
+   "tier": "A",
+   "confidence": "88",
+   "min_left": "11.92",
+   "page_price": "78",
+   "entry_price": "61.0",
+   "contracts": "16",
+   "fee": "0.27",
+   "result": "loss",
+   "pnl": "-10.03",
+   "note": "add-on"
+  },
   {
    "ts_et": "2026-11-02 04:57",
    "ticker": "KXBTC15M-26NOV020500-00",
@@ -22,8 +37,8 @@
    "entry_price": "80.0",
    "contracts": "12",
    "fee": "0.14",
-   "result": "open",
-   "pnl": "",
+   "result": "loss",
+   "pnl": "-9.74",
    "note": ""
   },
   {
@@ -145,30 +160,15 @@
    "result": "loss",
    "pnl": "-9.55",
    "note": "add-on"
-  },
-  {
-   "ts_et": "2026-11-01 19:05",
-   "ticker": "KXBTC15M-26NOV011915-15",
-   "side": "yes",
-   "tier": "A",
-   "confidence": "88",
-   "min_left": "11.1",
-   "page_price": "85",
-   "entry_price": "82.0",
-   "contracts": "12",
-   "fee": "0.13",
-   "result": "loss",
-   "pnl": "-9.97",
-   "note": ""
   }
  ],
  "trades_prueba": 0,
  "tipo": "tierA_live",
- "balance": 447.91,
- "trades_total": 27,
- "trades_hoy": 0,
- "losses_hoy": 0,
- "max_dd": 13.49,
+ "balance": 428.14,
+ "trades_total": 29,
+ "trades_hoy": 2,
+ "losses_hoy": 2,
+ "max_dd": 15.67,
  "equity": [
   {
    "t": "inicio",
@@ -281,9 +281,33 @@
   {
    "t": "2026-11-01 23:54",
    "b": 447.91
+  },
+  {
+   "t": "2026-11-02 04:57",
+   "b": 438.17
+  },
+  {
+   "t": "2026-11-02 04:57",
+   "b": 428.14
   }
  ],
  "last_trades": [
+  {
+   "hora": "11-02 04:57",
+   "lado": "YES",
+   "precio": 61.0,
+   "pnl": -10.03,
+   "result": "loss",
+   "origen": "extra"
+  },
+  {
+   "hora": "11-02 04:57",
+   "lado": "YES",
+   "precio": 80.0,
+   "pnl": -9.74,
+   "result": "loss",
+   "origen": "vivo"
+  },
   {
    "hora": "11-01 23:54",
    "lado": "NO",
@@ -387,25 +411,9 @@
    "pnl": 0.59,
    "result": "win",
    "origen": "vivo"
-  },
-  {
-   "hora": "11-01 05:38",
-   "lado": "NO",
-   "precio": 96.0,
-   "pnl": 0.22,
-   "result": "win",
-   "origen": "vivo"
-  },
-  {
-   "hora": "11-01 03:35",
-   "lado": "YES",
-   "precio": 94.0,
-   "pnl": 0.56,
-   "result": "win",
-   "origen": "vivo"
   }
  ],
  "titulo": "Tier A 2.0 &middot; Compass",
  "subtitulo": "(papel) &middot; entrada + 1 compra extra si baja 5&cent; &middot; $10/compra",
- "addons": 9
+ "addons": 10
 }
