@@ -1,0 +1,35 @@
+{
+ "generated": 1793642565.1503768,
+ "generated_et": "2026-11-02 13:02:45 ET",
+ "mode": "real",
+ "config": {
+  "size_usd": 2.0,
+  "daily_loss_cap_usd": 20.0,
+  "min_prob": 0.66,
+  "max_entry_price": 0.9
+ },
+ "totals": {
+  "trades": 0,
+  "wins": 0,
+  "win_pct": null,
+  "gross_pnl": 0,
+  "fees": 0,
+  "net_pnl": 0
+ },
+ "today": {
+  "day": "2026-11-02",
+  "pnl": 0,
+  "cap_left": 20.0,
+  "cap_hit": false
+ },
+ "open": [],
+ "last": [],
+ "skips": {
+  "llamada vieja": 1
+ },
+ "skips_total": 1,
+ "heartbeat": 1793642554.6827953,
+ "heartbeat_age_s": 10,
+ "running": true,
+ "stop_file": false
+}

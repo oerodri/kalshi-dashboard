@@ -24,6 +24,7 @@ footer{color:var(--mut);font-size:11px;text-align:center;padding:16px}
 <header><div><h1>Paper Trading Desk</h1><div class="mut">Bots de Erick · Alfred</div></div><div class="st"><i id="dot" class="dot"></i><span id="upd">Cargando…</span></div></header>
 <div class="paper">PAPER TRADING · simulación, sin dinero real. Resultados con poca muestra; no es consejo financiero.</div>
 <main>
+<section id="real" style="border:2px solid #16a34a;border-radius:12px;padding:10px;margin-bottom:14px"><h2><span>💵 Terry Real (dinero real)</span><span class="num" id="rlu"></span></h2><div id="rlg"><div class="empty">Cargando…</div></div></section>
 <section id="pm5m"><h2><span>Polymarket BTC 5m</span><span class="num" id="pmu"></span></h2><div class="grid" id="pmg"><div class="empty">Cargando…</div></div></section>
 <section id="terry"><h2><span>Terry Calls 5m</span><span class="num" id="tru"></span></h2><div class="grid" id="trg"><div class="empty">Cargando…</div></div></section>
 <section id="compass"><h2><span>Kalshi Compass</span><span class="num" id="cpu"></span></h2><div id="cpg"><div class="empty">Cargando…</div></div></section>
@@ -51,4 +52,19 @@ try{const d=await(await fetch('compass.json?'+Date.now())).json();$('cpg').inner
 async function loadT(){try{const d=await(await fetch('terry.json?'+Date.now())).json();$('trg').innerHTML=d.bots.map((b,k)=>pmCard(b,100+k)).join('');$('tru').textContent=d.actualizado}catch(e){$('trg').innerHTML='<div class="empty">Sin datos de Terry.</div>'}}
 loadT();setInterval(loadT,60000);
 load();setInterval(load,60000);
-</script></body></html>
+</script><script>
+async function loadR(){const g=document.getElementById('rlg'),u=document.getElementById('rlu');try{const d=await(await fetch('terry_real.json?'+Date.now())).json();
+const f=(x,n=2)=>x==null?'—':(+x).toFixed(n),m=x=>x==null?'—':(x<0?'-$':'$')+Math.abs(x).toFixed(2),c=x=>x>0?'#16a34a':x<0?'#dc2626':'inherit';
+const age=Math.round(Date.now()/1000-d.heartbeat),T=d.totals,D=d.today,C=d.config;let w=[];
+if(d.running===false)w.push('⛔ BOT DETENIDO');if(d.stop_file)w.push('⛔ Archivo STOP presente');if(age>180)w.push('⚠️ Sin señal hace '+Math.round(age/60)+' min');if(D.cap_hit)w.push('⛔ Tope diario alcanzado');
+const badge=w.length?'<div style="background:#dc2626;color:#fff;padding:6px 10px;border-radius:8px;font-weight:700;margin:6px 0">'+w.join(' · ')+'</div>':'<div style="background:#16a34a;color:#fff;padding:6px 10px;border-radius:8px;font-weight:700;margin:6px 0">✅ Corriendo · señal hace '+age+' s</div>';
+const k=(l,v,col)=>'<div style="flex:1;min-width:90px"><div class="mut" style="font-size:12px">'+l+'</div><div style="font-size:18px;font-weight:700;color:'+(col||'inherit')+'">'+v+'</div></div>';
+let h=badge+'<div class="mut" style="font-size:12px">Modo: <b>'+(d.mode=='real'?'REAL':'PRUEBA (dry)')+'</b> · $'+f(C.size_usd)+'/op · tope $'+f(C.daily_loss_cap_usd)+'/día · prob ≥ '+C.min_prob+' · precio ≤ '+C.max_entry_price+'</div>';
+h+='<div style="display:flex;flex-wrap:wrap;gap:8px;margin:8px 0">'+k('Neto total',m(T.net_pnl),c(T.net_pnl))+k('Bruto',m(T.gross_pnl),c(T.gross_pnl))+k('Comisiones',m(T.fees))+k('Operaciones',T.trades)+k('Aciertos',T.wins+' ('+(T.win_pct==null?'—':T.win_pct+'%')+')')+k('Hoy',m(D.pnl),c(D.pnl))+k('Le queda al tope',m(D.cap_left))+k('Abiertas',d.open.length)+'</div>';
+const sk=Object.entries(d.skips||{}).map(([a,b])=>a+': '+b).join(' · ');h+='<div class="mut" style="font-size:12px">Saltadas: '+(d.skips_total||0)+(sk?' ('+sk+')':'')+'</div>';
+const rows=d.last.map(t=>'<tr><td>'+t.hora+'</td><td>'+t.side+'</td><td>'+f(t.prob)+'</td><td>'+f(t.ask)+'</td><td>'+f(t.qty)+'</td><td>'+(t.status=='open'?'abierta':(t.result==t.side?'✅':'❌'))+'</td><td style="color:'+c(t.pnl)+'">'+(t.pnl==null?'—':m(t.pnl))+'</td></tr>').join('');
+h+='<div style="overflow-x:auto"><table style="width:100%;font-size:12px;border-collapse:collapse;margin-top:6px"><tr class="mut"><th align=left>Hora ET</th><th align=left>Lado</th><th align=left>Prob</th><th align=left>Precio</th><th align=left>Cant</th><th align=left>Res</th><th align=left>P&amp;L neto</th></tr>'+(rows||'<tr><td colspan=7 class="mut">Sin operaciones todavía</td></tr>')+'</table></div>';
+g.innerHTML=h;u.textContent='act. '+d.generated_et.slice(11,16)+' ET';}catch(e){g.innerHTML='<div class="empty">Sin datos todavía</div>';}}
+loadR();setInterval(loadR,60000);
+</script>
+</body></html>
