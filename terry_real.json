@@ -1,6 +1,6 @@
 {
- "generated": 1793656953.0006914,
- "generated_et": "2026-11-02 17:02:33 ET",
+ "generated": 1793657016.8451917,
+ "generated_et": "2026-11-02 17:03:37 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -167,7 +167,8 @@
   "error": 2,
   "gano": 18,
   "nofill": 8,
-  "perdio": 5
+  "perdio": 5,
+  "abierta": 1
  },
  "equity": [
   [
@@ -287,6 +288,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2200z",
+   "ronda": "2200z",
+   "hora": "17:02:31",
+   "day": "2026-11-02",
+   "ts": 1793656951.3955946,
+   "side": "up",
+   "prob": 0.8199,
+   "precio": 0.87,
+   "qty": 2.27,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 1438,
+    "envio": 138,
+    "bolsa": 914
+   },
+   "order_id": "DFWFSSRG12WK",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9949,
+   "pct_bal": 15.6,
+   "pct_gan": null,
+   "bal_entrada": 12.7958
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2155z",
    "ronda": "2155z",
@@ -1470,12 +1497,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1427,
-  "envio": 133,
-  "bolsa": 166
+  "llamada": 1428,
+  "envio": 134,
+  "bolsa": 189
  },
- "open": [],
- "heartbeat": 1793656953.1215105,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2200z",
+   "ronda": "2200z",
+   "hora": "17:02:31",
+   "day": "2026-11-02",
+   "ts": 1793656951.3955946,
+   "side": "up",
+   "prob": 0.8199,
+   "precio": 0.87,
+   "qty": 2.27,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 1438,
+    "envio": 138,
+    "bolsa": 914
+   },
+   "order_id": "DFWFSSRG12WK",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9949,
+   "pct_bal": 15.6,
+   "pct_gan": null,
+   "bal_entrada": 12.7958
+  }
+ ],
+ "heartbeat": 1793657002.481508,
  "running": true,
  "stop_file": false
 }
