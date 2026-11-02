@@ -1,6 +1,6 @@
 {
- "generated": 1793661435.4999335,
- "generated_et": "2026-11-02 18:17:16 ET",
+ "generated": 1793661621.4400508,
+ "generated_et": "2026-11-02 18:20:22 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 10.17221,
-  "buying_power": 10.17221,
+  "current": 12.49221,
+  "buying_power": 12.49221,
   "in_positions": 0
  },
  "balance_err": null,
@@ -194,29 +194,32 @@
   [
    1793661435,
    10.17221
+  ],
+  [
+   1793661621,
+   12.49221
   ]
  ],
  "totals": {
-  "trades": 30,
-  "wins": 23,
-  "win_pct": 76.7,
-  "gross_pnl": 1.2245,
-  "fees": 1.07,
-  "net_pnl": 0.1545
+  "trades": 31,
+  "wins": 24,
+  "win_pct": 77.4,
+  "gross_pnl": 1.5493,
+  "fees": 1.09,
+  "net_pnl": 0.4593
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": 0.1545,
+  "pnl": 0.4593,
   "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
   "saltada": 18,
   "error": 2,
-  "gano": 23,
+  "gano": 24,
   "nofill": 13,
-  "perdio": 7,
-  "abierta": 1
+  "perdio": 7
  },
  "equity": [
   [
@@ -368,6 +371,11 @@
    1793660802,
    0.1545,
    "2305z"
+  ],
+  [
+   1793661391,
+   0.4593,
+   "2315z"
   ]
  ],
  "calls": [
@@ -382,7 +390,7 @@
    "precio": 0.86,
    "qty": 2.32,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.3048,
    "lat": {
     "llamada": 1394,
     "envio": 126,
@@ -390,11 +398,11 @@
    },
    "order_id": "DFXHNK2G52WP",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.0152,
    "pct_bal": 16.5,
-   "pct_gan": null,
+   "pct_gan": 15.1,
    "bal_entrada": 12.1874
   },
   {
@@ -1962,35 +1970,8 @@
   "envio": 134,
   "bolsa": 196
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2315z",
-   "ronda": "2315z",
-   "hora": "18:16:31",
-   "day": "2026-11-02",
-   "ts": 1793661391.3110564,
-   "side": "up",
-   "prob": 0.8798,
-   "precio": 0.86,
-   "qty": 2.32,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 1394,
-    "envio": 126,
-    "bolsa": 206
-   },
-   "order_id": "DFXHNK2G52WP",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0152,
-   "pct_bal": 16.5,
-   "pct_gan": null,
-   "bal_entrada": 12.1874
-  }
- ],
- "heartbeat": 1793661424.2982671,
+ "open": [],
+ "heartbeat": 1793661604.4223363,
  "running": true,
  "stop_file": false
 }
