@@ -1,6 +1,6 @@
 {
- "generated": 1793644097.281612,
- "generated_et": "2026-11-02 13:28:17 ET",
+ "generated": 1793644277.108623,
+ "generated_et": "2026-11-02 13:31:17 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -8,42 +8,179 @@
   "min_prob": 0.66,
   "max_entry_price": 0.9
  },
+ "balance": {
+  "current": 13.46691,
+  "buying_power": 13.46691,
+  "in_positions": 0
+ },
+ "balance_err": null,
+ "balance_hist": [
+  [
+   1793644189,
+   13.46691
+  ]
+ ],
  "totals": {
-  "trades": 1,
-  "wins": 1,
+  "trades": 2,
+  "wins": 2,
   "win_pct": 100.0,
-  "gross_pnl": 0.9408,
-  "fees": 0.04,
-  "net_pnl": 0.9008
+  "gross_pnl": 1.504,
+  "fees": 0.07,
+  "net_pnl": 1.434
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": 0.9008,
-  "cap_left": 20.9,
+  "pnl": 1.434,
+  "cap_left": 20.0,
   "cap_hit": false
  },
- "open": [],
- "last": [
+ "counts": {
+  "saltada": 1,
+  "error": 2,
+  "gano": 2,
+  "nofill": 1
+ },
+ "equity": [
+  [
+   1793643113,
+   0.9008,
+   "1810z"
+  ],
+  [
+   1793643990,
+   1.434,
+   "1825z"
+  ]
+ ],
+ "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-1825z",
+   "ronda": "1825z",
+   "hora": "13:26:29",
+   "day": "2026-11-02",
+   "ts": 1793643989.6590097,
+   "side": "down",
+   "prob": 0.7965,
+   "precio": 0.78,
+   "qty": 2.56,
+   "fee": 0.03,
+   "pnl": 0.5332,
+   "lat": {
+    "llamada": -322,
+    "envio": 133,
+    "bolsa": 161
+   },
+   "order_id": "DFSCX41G12TT",
+   "aviso": "La bolsa sí llenó esta orden pero el bot la marcó como \"nofill\"; no cuenta para su tope diario.",
+   "out": "gano",
+   "motivo": "Liquidada"
+  },
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-1820z",
+   "ronda": "1820z",
+   "hora": "13:22:10",
+   "day": "2026-11-02",
+   "ts": 1793643730.526668,
+   "side": "down",
+   "prob": 0.6986,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": {
+    "llamada": 4659,
+    "envio": 126,
+    "bolsa": 283
+   },
+   "order_id": "DFSAXWF012VC",
+   "aviso": null,
+   "out": "nofill",
+   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)"
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1810z",
-   "hora": "11-02 13:11",
+   "ronda": "1810z",
+   "hora": "13:11:53",
+   "day": "2026-11-02",
+   "ts": 1793643113.3194637,
    "side": "down",
    "prob": 0.6785,
-   "ask": 0.68,
+   "precio": 0.68,
    "qty": 2.94,
    "fee": 0.04,
-   "status": "closed",
-   "result": "down",
    "pnl": 0.9008,
-   "orden": null
+   "lat": {
+    "llamada": 2218,
+    "envio": 129,
+    "bolsa": 163
+   },
+   "order_id": "DFS675JG12WK",
+   "aviso": null,
+   "out": "gano",
+   "motivo": "Liquidada"
+  },
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-1805z",
+   "ronda": "1805z",
+   "hora": "13:06:40",
+   "day": "2026-11-02",
+   "ts": 1793642800.584107,
+   "side": "up",
+   "prob": 0.7136,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": null,
+   "order_id": null,
+   "aviso": null,
+   "out": "error",
+   "motivo": "orden fallida: 400 Request is required (bug preview, sin dinero)"
+  },
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-1800z",
+   "ronda": "1800z",
+   "hora": "13:01:30",
+   "day": "2026-11-02",
+   "ts": 1793642490.0028353,
+   "side": "down",
+   "prob": 0.7406,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": null,
+   "order_id": null,
+   "aviso": null,
+   "out": "error",
+   "motivo": "orden fallida: 400 Request is required (bug preview, sin dinero)"
+  },
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-1755z",
+   "ronda": "1755z",
+   "hora": "12:58:36",
+   "day": "2026-11-02",
+   "ts": 1793642316.1138997,
+   "side": "up",
+   "prob": 0.9808,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": null,
+   "order_id": null,
+   "aviso": null,
+   "out": "saltada",
+   "motivo": "Llamada de Terry muy vieja (>45 s)"
   }
  ],
- "skips": {
-  "llamada vieja": 1
+ "lat_avg": {
+  "llamada": 2185,
+  "envio": 129,
+  "bolsa": 202
  },
- "skips_total": 1,
- "heartbeat": 1793644083.007781,
- "heartbeat_age_s": 14,
+ "open": [],
+ "heartbeat": 1793644263.062379,
  "running": true,
  "stop_file": false
 }
