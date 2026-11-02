@@ -1,6 +1,6 @@
 {
- "generated": 1793651490.8048177,
- "generated_et": "2026-11-02 15:31:31 ET",
+ "generated": 1793651920.1611788,
+ "generated_et": "2026-11-02 15:38:40 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 13.99641,
-  "buying_power": 13.99641,
-  "in_positions": 0
+  "current": 14.56211,
+  "buying_power": 11.97211,
+  "in_positions": 2.59
  },
  "balance_err": null,
  "balance_hist": [
@@ -78,6 +78,10 @@
   [
    1793650068,
    13.99641
+  ],
+  [
+   1793651897,
+   14.56211
   ]
  ],
  "totals": {
@@ -99,7 +103,8 @@
   "error": 2,
   "gano": 10,
   "nofill": 7,
-  "perdio": 2
+  "perdio": 2,
+  "abierta": 1
  },
  "equity": [
   [
@@ -164,6 +169,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2035z",
+   "ronda": "2035z",
+   "hora": "15:37:47",
+   "day": "2026-11-02",
+   "ts": 1793651867.5341415,
+   "side": "down",
+   "prob": 0.7022,
+   "precio": 0.77,
+   "qty": 2.59,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 133,
+    "bolsa": 199
+   },
+   "order_id": "DFV90EC012VP",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0243,
+   "pct_bal": 14.5,
+   "pct_gan": null,
+   "bal_entrada": 13.9964
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2030z",
    "ronda": "2030z",
@@ -680,7 +711,7 @@
    "costo": 2.0243,
    "pct_bal": 14.1,
    "pct_gan": -100.0,
-   "bal_entrada": 14.3677
+   "bal_entrada": 14.36771
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1845z",
@@ -925,12 +956,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1472,
+  "llamada": 1399,
   "envio": 133,
-  "bolsa": 165
+  "bolsa": 167
  },
- "open": [],
- "heartbeat": 1793651490.066228,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2035z",
+   "ronda": "2035z",
+   "hora": "15:37:47",
+   "day": "2026-11-02",
+   "ts": 1793651867.5341415,
+   "side": "down",
+   "prob": 0.7022,
+   "precio": 0.77,
+   "qty": 2.59,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 133,
+    "bolsa": 199
+   },
+   "order_id": "DFV90EC012VP",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0243,
+   "pct_bal": 14.5,
+   "pct_gan": null,
+   "bal_entrada": 13.9964
+  }
+ ],
+ "heartbeat": 1793651901.4980762,
  "running": true,
  "stop_file": false
 }
