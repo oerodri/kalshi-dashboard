@@ -1,6 +1,6 @@
 {
- "generated": 1793647022.9058733,
- "generated_et": "2026-11-02 14:17:04 ET",
+ "generated": 1793647272.2137163,
+ "generated_et": "2026-11-02 14:21:13 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 9.12171,
-  "buying_power": 9.12171,
+  "current": 11.71171,
+  "buying_power": 11.71171,
   "in_positions": 0
  },
  "balance_err": null,
@@ -50,29 +50,32 @@
   [
    1793647023,
    9.12171
+  ],
+  [
+   1793647272,
+   11.71171
   ]
  ],
  "totals": {
-  "trades": 6,
-  "wins": 4,
-  "win_pct": 66.7,
-  "gross_pnl": -0.7387,
-  "fees": 0.2,
-  "net_pnl": -0.9387
+  "trades": 7,
+  "wins": 5,
+  "win_pct": 71.4,
+  "gross_pnl": -0.0912,
+  "fees": 0.23,
+  "net_pnl": -0.3212
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": -0.9387,
-  "cap_left": 19.06,
+  "pnl": -0.3212,
+  "cap_left": 19.68,
   "cap_hit": false
  },
  "counts": {
   "saltada": 4,
   "error": 2,
-  "gano": 4,
+  "gano": 5,
   "nofill": 3,
-  "perdio": 2,
-  "abierta": 1
+  "perdio": 2
  },
  "equity": [
   [
@@ -104,6 +107,11 @@
    1793646391,
    -0.9387,
    "1905z"
+  ],
+  [
+   1793646995,
+   -0.3212,
+   "1915z"
   ]
  ],
  "calls": [
@@ -118,7 +126,7 @@
    "precio": 0.75,
    "qty": 2.59,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.6175,
    "lat": {
     "llamada": 2077,
     "envio": 126,
@@ -126,11 +134,11 @@
    },
    "order_id": "DFT3TTXG12VP",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9725,
    "pct_bal": 17.8,
-   "pct_gan": null,
+   "pct_gan": 31.3,
    "bal_entrada": 11.0942
   },
   {
@@ -506,35 +514,8 @@
   "envio": 130,
   "bolsa": 169
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-1915z",
-   "ronda": "1915z",
-   "hora": "14:16:34",
-   "day": "2026-11-02",
-   "ts": 1793646994.994004,
-   "side": "up",
-   "prob": 0.7101,
-   "precio": 0.75,
-   "qty": 2.59,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 2077,
-    "envio": 126,
-    "bolsa": 119
-   },
-   "order_id": "DFT3TTXG12VP",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9725,
-   "pct_bal": 17.8,
-   "pct_gan": null,
-   "bal_entrada": 11.0942
-  }
- ],
- "heartbeat": 1793647014.2944603,
+ "open": [],
+ "heartbeat": 1793647254.4034996,
  "running": true,
  "stop_file": false
 }
