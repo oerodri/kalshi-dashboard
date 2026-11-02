@@ -1,14 +1,14 @@
 {
  "etiqueta": "Tier A 2.0 (papel)",
- "actualizado": "2026-11-01 20:56 ET",
- "saldo": 458.22,
- "pnl_total": -41.78,
- "pnl_hoy": -32.18,
- "trades": 22,
- "ganadas": 16,
- "winrate": 72.7,
+ "actualizado": "2026-11-01 21:11 ET",
+ "saldo": 459.05,
+ "pnl_total": -40.95,
+ "pnl_hoy": -31.35,
+ "trades": 23,
+ "ganadas": 17,
+ "winrate": 73.9,
  "max_dd_pct": 10.16,
- "abiertas": 1,
+ "abiertas": 0,
  "saltadas": 0,
  "ultimas": [
   {
@@ -22,8 +22,8 @@
    "entry_price": "91.1",
    "contracts": "10",
    "fee": "0.06",
-   "result": "open",
-   "pnl": "",
+   "result": "win",
+   "pnl": "0.83",
    "note": ""
   },
   {
@@ -164,9 +164,9 @@
  ],
  "trades_prueba": 0,
  "tipo": "tierA_live",
- "balance": 458.22,
- "trades_total": 22,
- "trades_hoy": 13,
+ "balance": 459.05,
+ "trades_total": 23,
+ "trades_hoy": 14,
  "losses_hoy": 4,
  "max_dd": 10.16,
  "equity": [
@@ -261,9 +261,21 @@
   {
    "t": "2026-11-01 19:36",
    "b": 458.22
+  },
+  {
+   "t": "2026-11-01 20:53",
+   "b": 459.05
   }
  ],
  "last_trades": [
+  {
+   "hora": "11-01 20:53",
+   "lado": "NO",
+   "precio": 91.1,
+   "pnl": 0.83,
+   "result": "win",
+   "origen": "vivo"
+  },
   {
    "hora": "11-01 19:36",
    "lado": "NO",
@@ -375,14 +387,6 @@
    "pnl": 1.02,
    "result": "win",
    "origen": "extra"
-  },
-  {
-   "hora": "10-31 22:04",
-   "lado": "YES",
-   "precio": 95.1,
-   "pnl": 0.45,
-   "result": "win",
-   "origen": "vivo"
   }
  ],
  "titulo": "Tier A 2.0 &middot; Compass",
