@@ -1,6 +1,6 @@
 {
- "generated": 1793643493.7325628,
- "generated_et": "2026-11-02 13:18:14 ET",
+ "generated": 1793644097.281612,
+ "generated_et": "2026-11-02 13:28:17 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,34 +9,20 @@
   "max_entry_price": 0.9
  },
  "totals": {
-  "trades": 0,
-  "wins": 0,
-  "win_pct": null,
-  "gross_pnl": 0,
-  "fees": 0,
-  "net_pnl": 0
+  "trades": 1,
+  "wins": 1,
+  "win_pct": 100.0,
+  "gross_pnl": 0.9408,
+  "fees": 0.04,
+  "net_pnl": 0.9008
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": 0,
-  "cap_left": 20.0,
+  "pnl": 0.9008,
+  "cap_left": 20.9,
   "cap_hit": false
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-1810z",
-   "hora": "11-02 13:11",
-   "side": "down",
-   "prob": 0.6785,
-   "ask": 0.68,
-   "qty": 2.94,
-   "fee": 0.04,
-   "status": "open",
-   "result": null,
-   "pnl": null,
-   "orden": null
-  }
- ],
+ "open": [],
  "last": [
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1810z",
@@ -46,9 +32,9 @@
    "ask": 0.68,
    "qty": 2.94,
    "fee": 0.04,
-   "status": "open",
-   "result": null,
-   "pnl": null,
+   "status": "closed",
+   "result": "down",
+   "pnl": 0.9008,
    "orden": null
   }
  ],
@@ -56,8 +42,8 @@
   "llamada vieja": 1
  },
  "skips_total": 1,
- "heartbeat": 1793643281.3021767,
- "heartbeat_age_s": 212,
+ "heartbeat": 1793644083.007781,
+ "heartbeat_age_s": 14,
  "running": true,
  "stop_file": false
 }
