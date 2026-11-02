@@ -1,14 +1,14 @@
 {
  "etiqueta": "Tier A 2.0 (papel)",
- "actualizado": "2026-11-01 19:11 ET",
- "saldo": 475.66,
- "pnl_total": -24.34,
- "pnl_hoy": -14.74,
- "trades": 18,
+ "actualizado": "2026-11-01 19:26 ET",
+ "saldo": 456.14,
+ "pnl_total": -43.86,
+ "pnl_hoy": -34.26,
+ "trades": 20,
  "ganadas": 14,
- "winrate": 77.8,
- "max_dd_pct": 7.51,
- "abiertas": 2,
+ "winrate": 70.0,
+ "max_dd_pct": 10.16,
+ "abiertas": 0,
  "saltadas": 0,
  "ultimas": [
   {
@@ -22,8 +22,8 @@
    "entry_price": "72.0",
    "contracts": "13",
    "fee": "0.19",
-   "result": "open",
-   "pnl": "",
+   "result": "loss",
+   "pnl": "-9.55",
    "note": "add-on"
   },
   {
@@ -37,8 +37,8 @@
    "entry_price": "82.0",
    "contracts": "12",
    "fee": "0.13",
-   "result": "open",
-   "pnl": "",
+   "result": "loss",
+   "pnl": "-9.97",
    "note": ""
   },
   {
@@ -164,11 +164,11 @@
  ],
  "trades_prueba": 0,
  "tipo": "tierA_live",
- "balance": 475.66,
- "trades_total": 18,
- "trades_hoy": 9,
- "losses_hoy": 2,
- "max_dd": 7.51,
+ "balance": 456.14,
+ "trades_total": 20,
+ "trades_hoy": 11,
+ "losses_hoy": 4,
+ "max_dd": 10.16,
  "equity": [
   {
    "t": "inicio",
@@ -245,9 +245,33 @@
   {
    "t": "2026-11-01 18:34",
    "b": 475.66
+  },
+  {
+   "t": "2026-11-01 19:05",
+   "b": 465.69
+  },
+  {
+   "t": "2026-11-01 19:06",
+   "b": 456.14
   }
  ],
  "last_trades": [
+  {
+   "hora": "11-01 19:06",
+   "lado": "YES",
+   "precio": 72.0,
+   "pnl": -9.55,
+   "result": "loss",
+   "origen": "extra"
+  },
+  {
+   "hora": "11-01 19:05",
+   "lado": "YES",
+   "precio": 82.0,
+   "pnl": -9.97,
+   "result": "loss",
+   "origen": "vivo"
+  },
   {
    "hora": "11-01 18:34",
    "lado": "YES",
@@ -350,22 +374,6 @@
    "precio": 91.5,
    "pnl": -9.21,
    "result": "loss",
-   "origen": "vivo"
-  },
-  {
-   "hora": "10-31 18:50",
-   "lado": "NO",
-   "precio": 90.1,
-   "pnl": 1.02,
-   "result": "win",
-   "origen": "vivo"
-  },
-  {
-   "hora": "10-31 17:09",
-   "lado": "NO",
-   "precio": 97.9,
-   "pnl": 0.19,
-   "result": "win",
    "origen": "vivo"
   }
  ],
