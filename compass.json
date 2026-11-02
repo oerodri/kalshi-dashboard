@@ -1,6 +1,6 @@
 {
  "etiqueta": "Tier A en vivo (papel)",
- "actualizado": "2026-11-02 04:56 ET",
+ "actualizado": "2026-11-02 04:57 ET",
  "saldo": 475.9,
  "pnl_total": -24.1,
  "pnl_hoy": 0,
@@ -8,9 +8,24 @@
  "ganadas": 14,
  "winrate": 77.8,
  "max_dd_pct": 6.43,
- "abiertas": 0,
+ "abiertas": 1,
  "saltadas": 0,
  "ultimas": [
+  {
+   "ts_et": "2026-11-02 04:57",
+   "ticker": "KXBTC15M-26NOV020500-00",
+   "side": "yes",
+   "tier": "A",
+   "confidence": "88",
+   "min_left": "11.92",
+   "page_price": "78",
+   "entry_price": "80.0",
+   "contracts": "12",
+   "fee": "0.14",
+   "result": "open",
+   "pnl": "",
+   "note": ""
+  },
   {
    "ts_et": "2026-11-01 23:52",
    "ticker": "KXBTC15M-26NOV020000-00",
@@ -144,21 +159,6 @@
    "fee": "0.03",
    "result": "win",
    "pnl": "0.37",
-   "note": ""
-  },
-  {
-   "ts_et": "2026-11-01 03:35",
-   "ticker": "KXBTC15M-26NOV010345-45",
-   "side": "yes",
-   "tier": "A",
-   "confidence": "88",
-   "min_left": "10.07",
-   "page_price": "94",
-   "entry_price": "94.0",
-   "contracts": "10",
-   "fee": "0.04",
-   "result": "win",
-   "pnl": "0.56",
    "note": ""
   }
  ],
