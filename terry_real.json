@@ -1,6 +1,6 @@
 {
- "generated": 1793650068.1153376,
- "generated_et": "2026-11-02 15:07:49 ET",
+ "generated": 1793650254.0174396,
+ "generated_et": "2026-11-02 15:10:54 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 13.99641,
-  "buying_power": 11.67641,
-  "in_positions": 2.32
+  "buying_power": 13.99641,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -81,26 +81,25 @@
   ]
  ],
  "totals": {
-  "trades": 11,
-  "wins": 9,
-  "win_pct": 81.8,
-  "gross_pnl": 1.7667,
-  "fees": 0.33,
-  "net_pnl": 1.4367
+  "trades": 12,
+  "wins": 10,
+  "win_pct": 83.3,
+  "gross_pnl": 2.3235,
+  "fees": 0.36,
+  "net_pnl": 1.9635
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": 1.4367,
+  "pnl": 1.9635,
   "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
   "saltada": 7,
   "error": 2,
-  "gano": 9,
+  "gano": 10,
   "nofill": 5,
-  "perdio": 2,
-  "abierta": 1
+  "perdio": 2
  },
  "equity": [
   [
@@ -157,6 +156,11 @@
    1793649466,
    1.4367,
    "1955z"
+  ],
+  [
+   1793650050,
+   1.9635,
+   "2005z"
   ]
  ],
  "calls": [
@@ -171,7 +175,7 @@
    "precio": 0.76,
    "qty": 2.32,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.5268,
    "lat": {
     "llamada": 137,
     "envio": 144,
@@ -179,11 +183,11 @@
    },
    "order_id": "DFTV4QSG32VC",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.7932,
    "pct_bal": 13.3,
-   "pct_gan": null,
+   "pct_gan": 29.4,
    "bal_entrada": 13.4696
   },
   {
@@ -584,7 +588,7 @@
    "costo": 2.0392,
    "pct_bal": 15.1,
    "pct_gan": 44.2,
-   "bal_entrada": 13.4669
+   "bal_entrada": 13.46691
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1840z",
@@ -807,35 +811,8 @@
   "envio": 133,
   "bolsa": 166
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2005z",
-   "ronda": "2005z",
-   "hora": "15:07:30",
-   "day": "2026-11-02",
-   "ts": 1793650050.1554153,
-   "side": "down",
-   "prob": 0.7884,
-   "precio": 0.76,
-   "qty": 2.32,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 137,
-    "envio": 144,
-    "bolsa": 149
-   },
-   "order_id": "DFTV4QSG32VC",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.7932,
-   "pct_bal": 13.3,
-   "pct_gan": null,
-   "bal_entrada": 13.4696
-  }
- ],
- "heartbeat": 1793650060.1542275,
+ "open": [],
+ "heartbeat": 1793650240.2523646,
  "running": true,
  "stop_file": false
 }
