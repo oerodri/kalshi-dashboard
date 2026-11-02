@@ -1,6 +1,6 @@
 {
- "generated": 1793648515.181042,
- "generated_et": "2026-11-02 14:41:56 ET",
+ "generated": 1793648884.4121804,
+ "generated_et": "2026-11-02 14:48:05 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 12.59911,
-  "buying_power": 12.59911,
-  "in_positions": 0
+  "current": 12.90391,
+  "buying_power": 10.58391,
+  "in_positions": 2.32
  },
  "balance_err": null,
  "balance_hist": [
@@ -62,6 +62,10 @@
   [
    1793648204,
    12.59911
+  ],
+  [
+   1793648884,
+   12.90391
   ]
  ],
  "totals": {
@@ -83,7 +87,8 @@
   "error": 2,
   "gano": 7,
   "nofill": 4,
-  "perdio": 2
+  "perdio": 2,
+  "abierta": 1
  },
  "equity": [
   [
@@ -133,6 +138,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-1945z",
+   "ronda": "1945z",
+   "hora": "14:47:29",
+   "day": "2026-11-02",
+   "ts": 1793648849.8939362,
+   "side": "down",
+   "prob": 0.8399,
+   "precio": 0.86,
+   "qty": 2.32,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 130,
+    "bolsa": 160
+   },
+   "order_id": "DFTHZPP012VX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0152,
+   "pct_bal": 16.0,
+   "pct_gan": null,
+   "bal_entrada": 12.5991
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1940z",
    "ronda": "1940z",
@@ -650,12 +681,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1983,
+  "llamada": 1841,
   "envio": 132,
-  "bolsa": 168
+  "bolsa": 167
  },
- "open": [],
- "heartbeat": 1793648512.123534,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-1945z",
+   "ronda": "1945z",
+   "hora": "14:47:29",
+   "day": "2026-11-02",
+   "ts": 1793648849.8939362,
+   "side": "down",
+   "prob": 0.8399,
+   "precio": 0.86,
+   "qty": 2.32,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 130,
+    "bolsa": 160
+   },
+   "order_id": "DFTHZPP012VX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0152,
+   "pct_bal": 16.0,
+   "pct_gan": null,
+   "bal_entrada": 12.5991
+  }
+ ],
+ "heartbeat": 1793648876.818026,
  "running": true,
  "stop_file": false
 }
