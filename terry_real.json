@@ -1,6 +1,6 @@
 {
- "generated": 1793653098.1079283,
- "generated_et": "2026-11-02 15:58:18 ET",
+ "generated": 1793653348.329639,
+ "generated_et": "2026-11-02 16:02:29 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 12.81071,
-  "buying_power": 12.81071,
-  "in_positions": 0
+  "current": 18.71071,
+  "buying_power": 10.71071,
+  "in_positions": 8
  },
  "balance_err": null,
  "balance_hist": [
@@ -98,6 +98,10 @@
   [
    1793652668,
    12.81071
+  ],
+  [
+   1793653348,
+   18.71071
   ]
  ],
  "totals": {
@@ -119,7 +123,8 @@
   "error": 2,
   "gano": 12,
   "nofill": 7,
-  "perdio": 3
+  "perdio": 3,
+  "abierta": 1
  },
  "equity": [
   [
@@ -199,6 +204,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2100z",
+   "ronda": "2100z",
+   "hora": "16:02:09",
+   "day": "2026-11-02",
+   "ts": 1793653329.986504,
+   "side": "down",
+   "prob": 0.7309,
+   "precio": 0.25,
+   "qty": 8.0,
+   "fee": 0.1,
+   "pnl": null,
+   "lat": {
+    "llamada": 3040,
+    "envio": 139,
+    "bolsa": 149
+   },
+   "order_id": "DFVM5FEG52VX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.1,
+   "pct_bal": 16.4,
+   "pct_gan": null,
+   "bal_entrada": 12.8107
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2055z",
    "ronda": "2055z",
@@ -711,7 +742,7 @@
    "costo": 1.9725,
    "pct_bal": 17.8,
    "pct_gan": 31.3,
-   "bal_entrada": 11.0942
+   "bal_entrada": 11.09421
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1910z",
@@ -1082,12 +1113,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1635,
+  "llamada": 1696,
   "envio": 133,
   "bolsa": 163
  },
- "open": [],
- "heartbeat": 1793653083.2757168,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2100z",
+   "ronda": "2100z",
+   "hora": "16:02:09",
+   "day": "2026-11-02",
+   "ts": 1793653329.986504,
+   "side": "down",
+   "prob": 0.7309,
+   "precio": 0.25,
+   "qty": 8.0,
+   "fee": 0.1,
+   "pnl": null,
+   "lat": {
+    "llamada": 3040,
+    "envio": 139,
+    "bolsa": 149
+   },
+   "order_id": "DFVM5FEG52VX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.1,
+   "pct_bal": 16.4,
+   "pct_gan": null,
+   "bal_entrada": 12.8107
+  }
+ ],
+ "heartbeat": 1793653343.3951862,
  "running": true,
  "stop_file": false
 }
