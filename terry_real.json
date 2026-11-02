@@ -1,6 +1,6 @@
 {
- "generated": 1793662986.158326,
- "generated_et": "2026-11-02 18:43:06 ET",
+ "generated": 1793663171.6329484,
+ "generated_et": "2026-11-02 18:46:12 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 11.18701,
-  "buying_power": 11.18701,
+  "current": 13.47701,
+  "buying_power": 13.47701,
   "in_positions": 0
  },
  "balance_err": null,
@@ -206,29 +206,32 @@
   [
    1793662986,
    11.18701
+  ],
+  [
+   1793663172,
+   13.47701
   ]
  ],
  "totals": {
-  "trades": 32,
-  "wins": 25,
-  "win_pct": 78.1,
-  "gross_pnl": 2.2864,
-  "fees": 1.12,
-  "net_pnl": 1.1664
+  "trades": 33,
+  "wins": 26,
+  "win_pct": 78.8,
+  "gross_pnl": 2.5841,
+  "fees": 1.14,
+  "net_pnl": 1.4441
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": 1.1664,
+  "pnl": 1.4441,
   "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
   "saltada": 20,
   "error": 2,
-  "gano": 25,
+  "gano": 26,
   "nofill": 14,
-  "perdio": 7,
-  "abierta": 1
+  "perdio": 7
  },
  "equity": [
   [
@@ -390,6 +393,11 @@
    1793661704,
    1.1664,
    "2320z"
+  ],
+  [
+   1793662953,
+   1.4441,
+   "2340z"
   ]
  ],
  "calls": [
@@ -404,7 +412,7 @@
    "precio": 0.87,
    "qty": 2.29,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.2777,
    "lat": {
     "llamada": 2628,
     "envio": 155,
@@ -412,11 +420,11 @@
    },
    "order_id": "DFXXJS9G12WP",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.0123,
    "pct_bal": 15.2,
-   "pct_gan": null,
+   "pct_gan": 13.8,
    "bal_entrada": 13.1993
   },
   {
@@ -2106,35 +2114,8 @@
   "envio": 135,
   "bolsa": 212
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2340z",
-   "ronda": "2340z",
-   "hora": "18:42:32",
-   "day": "2026-11-02",
-   "ts": 1793662952.6170247,
-   "side": "up",
-   "prob": 0.8074,
-   "precio": 0.87,
-   "qty": 2.29,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 2628,
-    "envio": 155,
-    "bolsa": 238
-   },
-   "order_id": "DFXXJS9G12WP",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0123,
-   "pct_bal": 15.2,
-   "pct_gan": null,
-   "bal_entrada": 13.1993
-  }
- ],
- "heartbeat": 1793662985.8794994,
+ "open": [],
+ "heartbeat": 1793663165.9709423,
  "running": true,
  "stop_file": false
 }
