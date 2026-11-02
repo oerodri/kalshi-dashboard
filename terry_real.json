@@ -1,6 +1,6 @@
 {
- "generated": 1793653698.2332373,
- "generated_et": "2026-11-02 16:08:19 ET",
+ "generated": 1793653969.9894423,
+ "generated_et": "2026-11-02 16:12:50 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 10.71071,
-  "buying_power": 10.71071,
-  "in_positions": 0
+  "current": 11.12811,
+  "buying_power": 8.69811,
+  "in_positions": 2.43
  },
  "balance_err": null,
  "balance_hist": [
@@ -106,6 +106,10 @@
   [
    1793653535,
    10.71071
+  ],
+  [
+   1793653970,
+   11.12811
   ]
  ],
  "totals": {
@@ -127,7 +131,8 @@
   "error": 2,
   "gano": 12,
   "nofill": 7,
-  "perdio": 4
+  "perdio": 4,
+  "abierta": 1
  },
  "equity": [
   [
@@ -212,6 +217,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2110z",
+   "ronda": "2110z",
+   "hora": "16:12:31",
+   "day": "2026-11-02",
+   "ts": 1793653951.746718,
+   "side": "down",
+   "prob": 0.7836,
+   "precio": 0.82,
+   "qty": 2.43,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 1752,
+    "envio": 136,
+    "bolsa": 203
+   },
+   "order_id": "DFVRX9D052VC",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0126,
+   "pct_bal": 18.8,
+   "pct_gan": null,
+   "bal_entrada": 10.7107
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2105z",
    "ronda": "2105z",
@@ -702,7 +733,7 @@
    "costo": 2.0192,
    "pct_bal": 17.2,
    "pct_gan": 17.9,
-   "bal_entrada": 11.7117
+   "bal_entrada": 11.71171
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1925z",
@@ -1143,12 +1174,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1696,
+  "llamada": 1698,
   "envio": 133,
-  "bolsa": 163
+  "bolsa": 164
  },
- "open": [],
- "heartbeat": 1793653691.2679071,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2110z",
+   "ronda": "2110z",
+   "hora": "16:12:31",
+   "day": "2026-11-02",
+   "ts": 1793653951.746718,
+   "side": "down",
+   "prob": 0.7836,
+   "precio": 0.82,
+   "qty": 2.43,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 1752,
+    "envio": 136,
+    "bolsa": 203
+   },
+   "order_id": "DFVRX9D052VC",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0126,
+   "pct_bal": 18.8,
+   "pct_gan": null,
+   "bal_entrada": 10.7107
+  }
+ ],
+ "heartbeat": 1793653952.7419374,
  "running": true,
  "stop_file": false
 }
