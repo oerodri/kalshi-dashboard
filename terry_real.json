@@ -1,6 +1,6 @@
 {
- "generated": 1793657141.7419016,
- "generated_et": "2026-11-02 17:05:42 ET",
+ "generated": 1793657205.5736942,
+ "generated_et": "2026-11-02 17:06:46 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -170,7 +170,7 @@
   "saltada": 15,
   "error": 2,
   "gano": 19,
-  "nofill": 8,
+  "nofill": 9,
   "perdio": 5
  },
  "equity": [
@@ -296,6 +296,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-2205z",
+   "ronda": "2205z",
+   "hora": "17:06:34",
+   "day": "2026-11-02",
+   "ts": 1793657194.0775366,
+   "side": "up",
+   "prob": 0.6758,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": {
+    "llamada": 1157,
+    "envio": 158,
+    "bolsa": 132
+   },
+   "order_id": "DFWHMVS012VC",
+   "aviso": null,
+   "out": "nofill",
+   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2200z",
    "ronda": "2200z",
@@ -1505,12 +1531,12 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1428,
+  "llamada": 1420,
   "envio": 134,
-  "bolsa": 189
+  "bolsa": 188
  },
  "open": [],
- "heartbeat": 1793657122.5329816,
+ "heartbeat": 1793657202.5815153,
  "running": true,
  "stop_file": false
 }
