@@ -1,6 +1,6 @@
 {
- "generated": 1793656702.452946,
- "generated_et": "2026-11-02 16:58:23 ET",
+ "generated": 1793656826.9431517,
+ "generated_et": "2026-11-02 17:00:27 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 12.79581,
-  "buying_power": 9.81581,
-  "in_positions": 2.98
+  "buying_power": 12.79581,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -145,26 +145,25 @@
   ]
  ],
  "totals": {
-  "trades": 22,
-  "wins": 17,
-  "win_pct": 77.3,
-  "gross_pnl": 0.5895,
-  "fees": 0.76,
-  "net_pnl": -0.1705
+  "trades": 23,
+  "wins": 18,
+  "win_pct": 78.3,
+  "gross_pnl": 1.5729,
+  "fees": 0.81,
+  "net_pnl": 0.7629
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": -0.1705,
-  "cap_left": 19.83,
+  "pnl": 0.7629,
+  "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
   "saltada": 15,
   "error": 2,
-  "gano": 17,
+  "gano": 18,
   "nofill": 8,
-  "perdio": 5,
-  "abierta": 1
+  "perdio": 5
  },
  "equity": [
   [
@@ -276,6 +275,11 @@
    1793656375,
    -0.1705,
    "2150z"
+  ],
+  [
+   1793656653,
+   0.7629,
+   "2155z"
   ]
  ],
  "calls": [
@@ -290,7 +294,7 @@
    "precio": 0.67,
    "qty": 2.98,
    "fee": 0.05,
-   "pnl": null,
+   "pnl": 0.9334,
    "lat": {
     "llamada": 486,
     "envio": 143,
@@ -298,11 +302,11 @@
    },
    "order_id": "DFWDGT8G12VC",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.0466,
    "pct_bal": 17.3,
-   "pct_gan": null,
+   "pct_gan": 45.6,
    "bal_entrada": 11.8624
   },
   {
@@ -673,7 +677,7 @@
    "costo": 2.0226,
    "pct_bal": 13.9,
    "pct_gan": -100.0,
-   "bal_entrada": 14.5621
+   "bal_entrada": 14.56211
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2035z",
@@ -1466,35 +1470,8 @@
   "envio": 133,
   "bolsa": 166
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2155z",
-   "ronda": "2155z",
-   "hora": "16:57:33",
-   "day": "2026-11-02",
-   "ts": 1793656653.197249,
-   "side": "down",
-   "prob": 0.6898,
-   "precio": 0.67,
-   "qty": 2.98,
-   "fee": 0.05,
-   "pnl": null,
-   "lat": {
-    "llamada": 486,
-    "envio": 143,
-    "bolsa": 159
-   },
-   "order_id": "DFWDGT8G12VC",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0466,
-   "pct_bal": 17.3,
-   "pct_gan": null,
-   "bal_entrada": 11.8624
-  }
- ],
- "heartbeat": 1793656699.5235045,
+ "open": [],
+ "heartbeat": 1793656820.1968746,
  "running": true,
  "stop_file": false
 }
