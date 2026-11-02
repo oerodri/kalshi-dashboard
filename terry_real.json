@@ -1,6 +1,6 @@
 {
- "generated": 1793654532.0281131,
- "generated_et": "2026-11-02 16:22:12 ET",
+ "generated": 1793654717.5481734,
+ "generated_et": "2026-11-02 16:25:18 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -125,17 +125,17 @@
   ]
  ],
  "totals": {
-  "trades": 18,
+  "trades": 19,
   "wins": 14,
-  "win_pct": 77.8,
-  "gross_pnl": 0.6386,
-  "fees": 0.61,
-  "net_pnl": 0.0286
+  "win_pct": 73.7,
+  "gross_pnl": -1.3612,
+  "fees": 0.66,
+  "net_pnl": -2.0212
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": 0.0286,
-  "cap_left": 20.0,
+  "pnl": -2.0212,
+  "cap_left": 17.98,
   "cap_hit": false
  },
  "counts": {
@@ -143,8 +143,7 @@
   "error": 2,
   "gano": 14,
   "nofill": 7,
-  "perdio": 4,
-  "abierta": 1
+  "perdio": 5
  },
  "equity": [
   [
@@ -236,6 +235,11 @@
    1793654238,
    0.0286,
    "2115z"
+  ],
+  [
+   1793654495,
+   -2.0212,
+   "2120z"
   ]
  ],
  "calls": [
@@ -250,7 +254,7 @@
    "precio": 0.66,
    "qty": 3.03,
    "fee": 0.05,
-   "pnl": null,
+   "pnl": -2.0498,
    "lat": {
     "llamada": 1156,
     "envio": 129,
@@ -258,11 +262,11 @@
    },
    "order_id": "DFVX1X5G12W4",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 2.0498,
    "pct_bal": 17.0,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 12.0615
   },
   {
@@ -1252,35 +1256,8 @@
   "envio": 133,
   "bolsa": 162
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2120z",
-   "ronda": "2120z",
-   "hora": "16:21:35",
-   "day": "2026-11-02",
-   "ts": 1793654495.0223658,
-   "side": "up",
-   "prob": 0.6763,
-   "precio": 0.66,
-   "qty": 3.03,
-   "fee": 0.05,
-   "pnl": null,
-   "lat": {
-    "llamada": 1156,
-    "envio": 129,
-    "bolsa": 135
-   },
-   "order_id": "DFVX1X5G12W4",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0498,
-   "pct_bal": 17.0,
-   "pct_gan": null,
-   "bal_entrada": 12.0615
-  }
- ],
- "heartbeat": 1793654532.368151,
+ "open": [],
+ "heartbeat": 1793654713.583817,
  "running": true,
  "stop_file": false
 }
