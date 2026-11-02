@@ -1,6 +1,6 @@
 {
- "generated": 1793645968.0574791,
- "generated_et": "2026-11-02 13:59:28 ET",
+ "generated": 1793646154.0776274,
+ "generated_et": "2026-11-02 14:02:34 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 12.34341,
-  "buying_power": 12.34341,
-  "in_positions": 0
+  "current": 13.11341,
+  "buying_power": 10.41341,
+  "in_positions": 2.7
  },
  "balance_err": null,
  "balance_hist": [
@@ -34,6 +34,10 @@
   [
    1793645720,
    12.34341
+  ],
+  [
+   1793646154,
+   13.11341
   ]
  ],
  "totals": {
@@ -55,7 +59,8 @@
   "error": 2,
   "gano": 3,
   "nofill": 2,
-  "perdio": 1
+  "perdio": 1,
+  "abierta": 1
  },
  "equity": [
   [
@@ -80,6 +85,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-1900z",
+   "ronda": "1900z",
+   "hora": "14:01:47",
+   "day": "2026-11-02",
+   "ts": 1793646107.5001056,
+   "side": "down",
+   "prob": 0.7586,
+   "precio": 0.7,
+   "qty": 2.7,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 2950,
+    "envio": 141,
+    "bolsa": 176
+   },
+   "order_id": "DFSX25W012TT",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.93,
+   "pct_bal": 15.6,
+   "pct_gan": null,
+   "bal_entrada": 12.3434
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-1855z",
    "ronda": "1855z",
@@ -371,12 +402,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 2568,
-  "envio": 131,
+  "llamada": 2623,
+  "envio": 132,
   "bolsa": 177
  },
- "open": [],
- "heartbeat": 1793645952.9051073,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-02-1900z",
+   "ronda": "1900z",
+   "hora": "14:01:47",
+   "day": "2026-11-02",
+   "ts": 1793646107.5001056,
+   "side": "down",
+   "prob": 0.7586,
+   "precio": 0.7,
+   "qty": 2.7,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 2950,
+    "envio": 141,
+    "bolsa": 176
+   },
+   "order_id": "DFSX25W012TT",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.93,
+   "pct_bal": 15.6,
+   "pct_gan": null,
+   "bal_entrada": 12.3434
+  }
+ ],
+ "heartbeat": 1793646152.995322,
  "running": true,
  "stop_file": false
 }
