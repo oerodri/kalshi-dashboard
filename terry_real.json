@@ -1,6 +1,6 @@
 {
- "generated": 1793710971.5345008,
- "generated_et": "2026-11-03 08:02:52 ET",
+ "generated": 1793711157.126843,
+ "generated_et": "2026-11-03 08:05:57 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 19.13321,
-  "buying_power": 16.50321,
-  "in_positions": 2.63
+  "buying_power": 19.13321,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -793,18 +793,18 @@
   ]
  ],
  "totals": {
-  "trades": 125,
-  "wins": 101,
-  "win_pct": 80.8,
-  "gross_pnl": 12.36,
-  "fees": 3.95,
-  "net_pnl": 8.41
+  "trades": 126,
+  "wins": 102,
+  "win_pct": 81.0,
+  "gross_pnl": 13.0701,
+  "fees": 3.99,
+  "net_pnl": 9.0801
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 7.9222,
-  "trades": 68,
-  "wins": 57,
+  "pnl": 8.5923,
+  "trades": 69,
+  "wins": 58,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -812,10 +812,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 101,
+  "gano": 102,
   "nofill": 38,
-  "perdio": 24,
-  "abierta": 1
+  "perdio": 24
  },
  "equity": [
   [
@@ -1442,6 +1441,11 @@
    1793710590,
    8.41,
    "1255z"
+  ],
+  [
+   1793710940,
+   9.0801,
+   "1300z"
   ]
  ],
  "calls": [
@@ -1456,7 +1460,7 @@
    "precio": 0.73,
    "qty": 2.63,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.6701,
    "lat": {
     "llamada": 0,
     "envio": 133,
@@ -1464,11 +1468,11 @@
    },
    "order_id": "DG9BPAS013D6",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9599,
    "pct_bal": 10.6,
-   "pct_gan": null,
+   "pct_gan": 34.2,
    "bal_entrada": 18.4631
   },
   {
@@ -6455,35 +6459,8 @@
   "envio": 133,
   "bolsa": 198
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1300z",
-   "ronda": "1300z",
-   "hora": "08:02:19",
-   "day": "2026-11-03",
-   "ts": 1793710939.5044549,
-   "side": "down",
-   "prob": 0.711,
-   "precio": 0.73,
-   "qty": 2.63,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 133,
-    "bolsa": 165
-   },
-   "order_id": "DG9BPAS013D6",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9599,
-   "pct_bal": 10.6,
-   "pct_gan": null,
-   "bal_entrada": 18.4631
-  }
- ],
- "heartbeat": 1793710953.7728422,
+ "open": [],
+ "heartbeat": 1793711153.9403157,
  "running": true,
  "stop_file": false
 }
