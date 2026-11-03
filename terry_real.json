@@ -1,6 +1,6 @@
 {
- "generated": 1793703777.697845,
- "generated_et": "2026-11-03 06:02:58 ET",
+ "generated": 1793703963.6471121,
+ "generated_et": "2026-11-03 06:06:04 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 12.46841,
-  "buying_power": 12.46841,
+  "current": 15.12841,
+  "buying_power": 15.12841,
   "in_positions": 0
  },
  "balance_err": null,
@@ -662,21 +662,25 @@
   [
    1793703778,
    12.46841
+  ],
+  [
+   1793703964,
+   15.12841
   ]
  ],
  "totals": {
-  "trades": 106,
-  "wins": 84,
-  "win_pct": 79.2,
-  "gross_pnl": 7.8237,
-  "fees": 3.4,
-  "net_pnl": 4.4237
+  "trades": 107,
+  "wins": 85,
+  "win_pct": 79.4,
+  "gross_pnl": 8.5153,
+  "fees": 3.44,
+  "net_pnl": 5.0753
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 3.9359,
-  "trades": 49,
-  "wins": 40,
+  "pnl": 4.5875,
+  "trades": 50,
+  "wins": 41,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -684,10 +688,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 84,
+  "gano": 85,
   "nofill": 37,
-  "perdio": 22,
-  "abierta": 1
+  "perdio": 22
  },
  "equity": [
   [
@@ -1219,6 +1222,11 @@
    1793703151,
    4.4237,
    "1050z"
+  ],
+  [
+   1793703719,
+   5.0753,
+   "1100z"
   ]
  ],
  "calls": [
@@ -1233,7 +1241,7 @@
    "precio": 0.74,
    "qty": 2.66,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.6516,
    "lat": {
     "llamada": 333,
     "envio": 151,
@@ -1241,11 +1249,11 @@
    },
    "order_id": "DG7MKH0013CT",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.0084,
    "pct_bal": 13.9,
-   "pct_gan": null,
+   "pct_gan": 32.4,
    "bal_entrada": 14.4768
   },
   {
@@ -1532,7 +1540,7 @@
    "costo": 1.9862,
    "pct_bal": 13.5,
    "pct_gan": 32.4,
-   "bal_entrada": 14.6618
+   "bal_entrada": 14.66181
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0950z",
@@ -6205,35 +6213,8 @@
   "envio": 133,
   "bolsa": 205
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1100z",
-   "ronda": "1100z",
-   "hora": "06:01:59",
-   "day": "2026-11-03",
-   "ts": 1793703719.0726848,
-   "side": "up",
-   "prob": 0.7426,
-   "precio": 0.74,
-   "qty": 2.66,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 333,
-    "envio": 151,
-    "bolsa": 139
-   },
-   "order_id": "DG7MKH0013CT",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0084,
-   "pct_bal": 13.9,
-   "pct_gan": null,
-   "bal_entrada": 14.4768
-  }
- ],
- "heartbeat": 1793703761.5299335,
+ "open": [],
+ "heartbeat": 1793703961.68317,
  "running": true,
  "stop_file": false
 }
