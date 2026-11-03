@@ -1,6 +1,6 @@
 {
- "generated": 1793709730.44137,
- "generated_et": "2026-11-03 07:42:11 ET",
+ "generated": 1793709915.8754513,
+ "generated_et": "2026-11-03 07:45:16 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 17.38771,
-  "buying_power": 15.00771,
-  "in_positions": 2.38
+  "buying_power": 17.38771,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -769,18 +769,18 @@
   ]
  ],
  "totals": {
-  "trades": 121,
-  "wins": 97,
-  "win_pct": 80.2,
-  "gross_pnl": 10.7624,
-  "fees": 3.85,
-  "net_pnl": 6.9124
+  "trades": 122,
+  "wins": 98,
+  "win_pct": 80.3,
+  "gross_pnl": 11.2146,
+  "fees": 3.88,
+  "net_pnl": 7.3346
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 6.4246,
-  "trades": 64,
-  "wins": 53,
+  "pnl": 6.8468,
+  "trades": 65,
+  "wins": 54,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -788,10 +788,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 97,
+  "gano": 98,
   "nofill": 38,
-  "perdio": 24,
-  "abierta": 1
+  "perdio": 24
  },
  "equity": [
   [
@@ -1398,6 +1397,11 @@
    1793709432,
    6.9124,
    "1235z"
+  ],
+  [
+   1793709691,
+   7.3346,
+   "1240z"
   ]
  ],
  "calls": [
@@ -1412,7 +1416,7 @@
    "precio": 0.81,
    "qty": 2.38,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.4222,
    "lat": {
     "llamada": 0,
     "envio": 123,
@@ -1420,11 +1424,11 @@
    },
    "order_id": "DG925F2013D7",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9578,
    "pct_bal": 11.5,
-   "pct_gan": null,
+   "pct_gan": 21.6,
    "bal_entrada": 16.9655
   },
   {
@@ -6407,35 +6411,8 @@
   "envio": 133,
   "bolsa": 200
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1240z",
-   "ronda": "1240z",
-   "hora": "07:41:30",
-   "day": "2026-11-03",
-   "ts": 1793709690.78789,
-   "side": "down",
-   "prob": 0.8205,
-   "precio": 0.81,
-   "qty": 2.38,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 123,
-    "bolsa": 160
-   },
-   "order_id": "DG925F2013D7",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9578,
-   "pct_bal": 11.5,
-   "pct_gan": null,
-   "bal_entrada": 16.9655
-  }
- ],
- "heartbeat": 1793709711.7319992,
+ "open": [],
+ "heartbeat": 1793709912.1347115,
  "running": true,
  "stop_file": false
 }
