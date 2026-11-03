@@ -1,6 +1,6 @@
 {
- "generated": 1793725920.9111521,
- "generated_et": "2026-11-03 12:12:01 ET",
+ "generated": 1793726169.555875,
+ "generated_et": "2026-11-03 12:16:10 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 10.86201,
-  "buying_power": 8.48201,
-  "in_positions": 2.38
+  "buying_power": 10.86201,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -1065,18 +1065,18 @@
   ]
  ],
  "totals": {
-  "trades": 167,
-  "wins": 132,
-  "win_pct": 79.0,
-  "gross_pnl": 9.7474,
-  "fees": 5.3,
-  "net_pnl": 4.4474
+  "trades": 168,
+  "wins": 133,
+  "win_pct": 79.2,
+  "gross_pnl": 10.1996,
+  "fees": 5.33,
+  "net_pnl": 4.8696
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 3.9596,
-  "trades": 110,
-  "wins": 88,
+  "pnl": 4.3818,
+  "trades": 111,
+  "wins": 89,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -1084,10 +1084,9 @@
  "counts": {
   "saltada": 57,
   "error": 2,
-  "gano": 132,
+  "gano": 133,
   "nofill": 40,
-  "perdio": 35,
-  "abierta": 1
+  "perdio": 35
  },
  "equity": [
   [
@@ -1924,6 +1923,11 @@
    1793724402,
    4.4474,
    "1645z"
+  ],
+  [
+   1793725889,
+   4.8696,
+   "1710z"
   ]
  ],
  "calls": [
@@ -1938,7 +1942,7 @@
    "precio": 0.81,
    "qty": 2.38,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.4222,
    "lat": {
     "llamada": 0,
     "envio": 136,
@@ -1946,11 +1950,11 @@
    },
    "order_id": "DGCXR6B013D6",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9578,
    "pct_bal": 18.8,
-   "pct_gan": null,
+   "pct_gan": 21.6,
    "bal_entrada": 10.4398
   },
   {
@@ -6985,35 +6989,8 @@
   "envio": 133,
   "bolsa": 190
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1710z",
-   "ronda": "1710z",
-   "hora": "12:11:29",
-   "day": "2026-11-03",
-   "ts": 1793725889.283306,
-   "side": "down",
-   "prob": 0.822,
-   "precio": 0.81,
-   "qty": 2.38,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 136,
-    "bolsa": 186
-   },
-   "order_id": "DGCXR6B013D6",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9578,
-   "pct_bal": 18.8,
-   "pct_gan": null,
-   "bal_entrada": 10.4398
-  }
- ],
- "heartbeat": 1793725910.310889,
+ "open": [],
+ "heartbeat": 1793726150.506089,
  "running": true,
  "stop_file": false
 }
