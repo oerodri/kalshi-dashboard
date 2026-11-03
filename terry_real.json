@@ -1,6 +1,6 @@
 {
- "generated": 1793731148.7892172,
- "generated_et": "2026-11-03 13:39:09 ET",
+ "generated": 1793731354.9036386,
+ "generated_et": "2026-11-03 13:42:35 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -1133,17 +1133,17 @@
   ]
  ],
  "totals": {
-  "trades": 179,
+  "trades": 180,
   "wins": 141,
-  "win_pct": 78.8,
-  "gross_pnl": 9.0605,
-  "fees": 5.67,
-  "net_pnl": 3.3905
+  "win_pct": 78.3,
+  "gross_pnl": 7.0625,
+  "fees": 5.71,
+  "net_pnl": 1.3525
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 2.9027,
-  "trades": 122,
+  "pnl": 0.8647,
+  "trades": 123,
   "wins": 97,
   "breakeven_pct": 77,
   "cap_left": 20.0,
@@ -1154,8 +1154,7 @@
   "error": 2,
   "gano": 141,
   "nofill": 41,
-  "perdio": 38,
-  "abierta": 1
+  "perdio": 39
  },
  "equity": [
   [
@@ -2052,6 +2051,11 @@
    1793730434,
    3.3905,
    "1825z"
+  ],
+  [
+   1793730991,
+   1.3525,
+   "1835z"
   ]
  ],
  "calls": [
@@ -2066,7 +2070,7 @@
    "precio": 0.74,
    "qty": 2.7,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": -2.038,
    "lat": {
     "llamada": 0,
     "envio": 128,
@@ -2074,11 +2078,11 @@
    },
    "order_id": "DGE4NPK013CX",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 2.038,
    "pct_bal": 21.7,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 9.3829
   },
   {
@@ -7141,35 +7145,8 @@
   "envio": 134,
   "bolsa": 189
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1835z",
-   "ronda": "1835z",
-   "hora": "13:36:30",
-   "day": "2026-11-03",
-   "ts": 1793730990.9365401,
-   "side": "up",
-   "prob": 0.7217,
-   "precio": 0.74,
-   "qty": 2.7,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 128,
-    "bolsa": 127
-   },
-   "order_id": "DGE4NPK013CX",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.038,
-   "pct_bal": 21.7,
-   "pct_gan": null,
-   "bal_entrada": 9.3829
-  }
- ],
- "heartbeat": 1793731131.9934425,
+ "open": [],
+ "heartbeat": 1793731352.4380245,
  "running": true,
  "stop_file": false
 }
