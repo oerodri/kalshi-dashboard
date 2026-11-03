@@ -1,6 +1,6 @@
 {
- "generated": 1793683982.5290315,
- "generated_et": "2026-11-03 00:33:03 ET",
+ "generated": 1793684168.0654762,
+ "generated_et": "2026-11-03 00:36:08 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 4.94551,
-  "buying_power": 2.38551,
-  "in_positions": 2.56
+  "buying_power": 4.94551,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -385,29 +385,28 @@
   ]
  ],
  "totals": {
-  "trades": 62,
-  "wins": 47,
-  "win_pct": 75.8,
-  "gross_pnl": 2.1726,
-  "fees": 2.09,
-  "net_pnl": 0.0826
+  "trades": 63,
+  "wins": 48,
+  "win_pct": 76.2,
+  "gross_pnl": 2.8126,
+  "fees": 2.12,
+  "net_pnl": 0.6926
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": -0.4052,
-  "trades": 5,
-  "wins": 3,
+  "pnl": 0.2048,
+  "trades": 6,
+  "wins": 4,
   "breakeven_pct": 77,
-  "cap_left": 19.59,
+  "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
   "saltada": 42,
   "error": 2,
-  "gano": 47,
+  "gano": 48,
   "nofill": 32,
-  "perdio": 15,
-  "abierta": 1
+  "perdio": 15
  },
  "equity": [
   [
@@ -719,6 +718,11 @@
    1793683596,
    0.0826,
    "0525z"
+  ],
+  [
+   1793683926,
+   0.6926,
+   "0530z"
   ]
  ],
  "calls": [
@@ -733,7 +737,7 @@
    "precio": 0.75,
    "qty": 2.56,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.61,
    "lat": {
     "llamada": 0,
     "envio": 129,
@@ -741,11 +745,11 @@
    },
    "order_id": "DG2XK5RG12TT",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.95,
    "pct_bal": 45.0,
-   "pct_gan": null,
+   "pct_gan": 31.3,
    "bal_entrada": 4.3355
   },
   {
@@ -898,7 +902,7 @@
    "costo": 2.0351,
    "pct_bal": 16.3,
    "pct_gan": 122.9,
-   "bal_entrada": 12.5208
+   "bal_entrada": 12.52081
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0455z",
@@ -4167,35 +4171,8 @@
   "envio": 134,
   "bolsa": 227
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0530z",
-   "ronda": "0530z",
-   "hora": "00:32:05",
-   "day": "2026-11-03",
-   "ts": 1793683925.8290846,
-   "side": "down",
-   "prob": 0.7735,
-   "precio": 0.75,
-   "qty": 2.56,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 129,
-    "bolsa": 129
-   },
-   "order_id": "DG2XK5RG12TT",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.95,
-   "pct_bal": 45.0,
-   "pct_gan": null,
-   "bal_entrada": 4.3355
-  }
- ],
- "heartbeat": 1793683966.0610888,
+ "open": [],
+ "heartbeat": 1793684166.1916983,
  "running": true,
  "stop_file": false
 }
