@@ -1,6 +1,6 @@
 {
- "generated": 1793672310.8153658,
- "generated_et": "2026-11-02 21:18:31 ET",
+ "generated": 1793672435.5597124,
+ "generated_et": "2026-11-02 21:20:36 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 12.66471,
-  "buying_power": 10.34471,
-  "in_positions": 2.32
+  "buying_power": 12.66471,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -257,26 +257,25 @@
   ]
  ],
  "totals": {
-  "trades": 39,
-  "wins": 30,
-  "win_pct": 76.9,
-  "gross_pnl": 1.6969,
-  "fees": 1.37,
-  "net_pnl": 0.3269
+  "trades": 40,
+  "wins": 31,
+  "win_pct": 77.5,
+  "gross_pnl": 2.0217,
+  "fees": 1.39,
+  "net_pnl": 0.6317
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": 0.3269,
+  "pnl": 0.6317,
   "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
   "saltada": 35,
   "error": 2,
-  "gano": 30,
+  "gano": 31,
   "nofill": 23,
-  "perdio": 9,
-  "abierta": 1
+  "perdio": 9
  },
  "equity": [
   [
@@ -473,6 +472,11 @@
    1793670726,
    0.3269,
    "0150z"
+  ],
+  [
+   1793672250,
+   0.6317,
+   "0215z"
   ]
  ],
  "calls": [
@@ -487,7 +491,7 @@
    "precio": 0.86,
    "qty": 2.32,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.3048,
    "lat": {
     "llamada": 535,
     "envio": 125,
@@ -495,11 +499,11 @@
    },
    "order_id": "DG04GQZG12WP",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.0152,
    "pct_bal": 16.3,
-   "pct_gan": null,
+   "pct_gan": 15.1,
    "bal_entrada": 12.3599
   },
   {
@@ -1368,7 +1372,7 @@
    "costo": 2.0152,
    "pct_bal": 16.5,
    "pct_gan": 15.1,
-   "bal_entrada": 12.1874
+   "bal_entrada": 12.18741
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2310z",
@@ -2935,35 +2939,8 @@
   "envio": 134,
   "bolsa": 217
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0215z",
-   "ronda": "0215z",
-   "hora": "21:17:30",
-   "day": "2026-11-02",
-   "ts": 1793672250.4819443,
-   "side": "down",
-   "prob": 0.8799,
-   "precio": 0.86,
-   "qty": 2.32,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 535,
-    "envio": 125,
-    "bolsa": 200
-   },
-   "order_id": "DG04GQZG12WP",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0152,
-   "pct_bal": 16.3,
-   "pct_gan": null,
-   "bal_entrada": 12.3599
-  }
- ],
- "heartbeat": 1793672297.5282817,
+ "open": [],
+ "heartbeat": 1793672417.612255,
  "running": true,
  "stop_file": false
 }
