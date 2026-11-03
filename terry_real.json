@@ -1,6 +1,6 @@
 {
- "generated": 1793723433.2024336,
- "generated_et": "2026-11-03 11:30:34 ET",
+ "generated": 1793723558.304057,
+ "generated_et": "2026-11-03 11:32:39 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 9.44821,
-  "buying_power": 9.44821,
+  "current": 7.44121,
+  "buying_power": 7.44121,
   "in_positions": 0
  },
  "balance_err": null,
@@ -1030,6 +1030,10 @@
   [
    1793723433,
    9.44821
+  ],
+  [
+   1793723558,
+   7.44121
   ]
  ],
  "totals": {
@@ -1054,7 +1058,8 @@
   "error": 2,
   "gano": 128,
   "nofill": 39,
-  "perdio": 35
+  "perdio": 35,
+  "abierta": 1
  },
  "equity": [
   [
@@ -1875,6 +1880,32 @@
  ],
  "calls": [
   {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1630z",
+   "ronda": "1630z",
+   "hora": "11:32:14",
+   "day": "2026-11-03",
+   "ts": 1793723534.9280086,
+   "side": "up",
+   "prob": 0.731,
+   "precio": 0.7,
+   "qty": 2.81,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 141,
+    "bolsa": 156
+   },
+   "order_id": "DGCBSCPG13D7",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.007,
+   "pct_bal": 21.2,
+   "pct_gan": null,
+   "bal_entrada": 9.4482
+  },
+  {
    "slug": "cpc-btc-updown-5m-2026-11-03-1625z",
    "ronda": "1625z",
    "hora": "11:27:03",
@@ -2106,7 +2137,7 @@
    "costo": 1.9705,
    "pct_bal": 13.3,
    "pct_gan": 19.3,
-   "bal_entrada": 14.8369
+   "bal_entrada": 14.83691
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1540z",
@@ -6895,41 +6926,42 @@
    "pct_bal": null,
    "pct_gan": null,
    "bal_entrada": null
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2255z",
-   "ronda": "2255z",
-   "hora": "17:57:05",
-   "day": "2026-11-02",
-   "ts": 1793660225.8915052,
-   "side": "down",
-   "prob": 0.6723,
-   "precio": 0.64,
-   "qty": 3.03,
-   "fee": 0.05,
-   "pnl": -1.9892,
-   "lat": {
-    "llamada": 551,
-    "envio": 121,
-    "bolsa": 130
-   },
-   "order_id": "DFX8S1K012WP",
-   "aviso": null,
-   "out": "perdio",
-   "motivo": "Liquidada",
-   "costo": 1.9892,
-   "pct_bal": 15.3,
-   "pct_gan": -100.0,
-   "bal_entrada": 12.99021
   }
  ],
  "lat_avg": {
-  "llamada": 613,
+  "llamada": 610,
   "envio": 133,
   "bolsa": 191
  },
- "open": [],
- "heartbeat": 1793723424.1130009,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1630z",
+   "ronda": "1630z",
+   "hora": "11:32:14",
+   "day": "2026-11-03",
+   "ts": 1793723534.9280086,
+   "side": "up",
+   "prob": 0.731,
+   "precio": 0.7,
+   "qty": 2.81,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 141,
+    "bolsa": 156
+   },
+   "order_id": "DGCBSCPG13D7",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.007,
+   "pct_bal": 21.2,
+   "pct_gan": null,
+   "bal_entrada": 9.4482
+  }
+ ],
+ "heartbeat": 1793723544.224877,
  "running": true,
  "stop_file": false
 }
