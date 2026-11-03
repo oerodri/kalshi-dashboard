@@ -1,6 +1,6 @@
 {
- "generated": 1793683225.1715183,
- "generated_et": "2026-11-03 00:20:25 ET",
+ "generated": 1793683410.68324,
+ "generated_et": "2026-11-03 00:23:31 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 5.39831,
-  "buying_power": 5.39831,
-  "in_positions": 0
+  "current": 5.69611,
+  "buying_power": 3.42611,
+  "in_positions": 2.27
  },
  "balance_err": null,
  "balance_hist": [
@@ -362,6 +362,10 @@
   [
    1793683040,
    5.39831
+  ],
+  [
+   1793683411,
+   5.69611
   ]
  ],
  "totals": {
@@ -386,7 +390,8 @@
   "error": 2,
   "gano": 46,
   "nofill": 32,
-  "perdio": 14
+  "perdio": 14,
+  "abierta": 1
  },
  "equity": [
   [
@@ -692,6 +697,32 @@
  ],
  "calls": [
   {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0520z",
+   "ronda": "0520z",
+   "hora": "00:23:00",
+   "day": "2026-11-03",
+   "ts": 1793683380.655981,
+   "side": "down",
+   "prob": 0.8396,
+   "precio": 0.86,
+   "qty": 2.27,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 153,
+    "bolsa": 114
+   },
+   "order_id": "DG2SE2N012WQ",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9722,
+   "pct_bal": 36.5,
+   "pct_gan": null,
+   "bal_entrada": 5.3983
+  },
+  {
    "slug": "cpc-btc-updown-5m-2026-11-03-0515z",
    "ronda": "0515z",
    "hora": "00:16:44",
@@ -867,7 +898,7 @@
    "costo": 1.9578,
    "pct_bal": 17.1,
    "pct_gan": 21.6,
-   "bal_entrada": 11.4184
+   "bal_entrada": 11.41841
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0440z",
@@ -4054,12 +4085,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1078,
+  "llamada": 1066,
   "envio": 134,
-  "bolsa": 230
+  "bolsa": 228
  },
- "open": [],
- "heartbeat": 1793683224.830178,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0520z",
+   "ronda": "0520z",
+   "hora": "00:23:00",
+   "day": "2026-11-03",
+   "ts": 1793683380.655981,
+   "side": "down",
+   "prob": 0.8396,
+   "precio": 0.86,
+   "qty": 2.27,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 153,
+    "bolsa": 114
+   },
+   "order_id": "DG2SE2N012WQ",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9722,
+   "pct_bal": 36.5,
+   "pct_gan": null,
+   "bal_entrada": 5.3983
+  }
+ ],
+ "heartbeat": 1793683405.1836617,
  "running": true,
  "stop_file": false
 }
