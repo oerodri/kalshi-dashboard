@@ -1,6 +1,6 @@
 {
- "generated": 1793686779.862146,
- "generated_et": "2026-11-03 01:21:47 ET",
+ "generated": 1793686968.2844806,
+ "generated_et": "2026-11-03 01:22:49 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -8,8 +8,12 @@
   "min_prob": 0.66,
   "max_entry_price": 0.9
  },
- "balance": null,
- "balance_err": "APITimeoutError",
+ "balance": {
+  "current": 0.36111,
+  "buying_power": 0.36111,
+  "in_positions": 0
+ },
+ "balance_err": null,
  "balance_hist": [
   [
    1793644189,
@@ -422,6 +426,10 @@
   [
    1793686345,
    8.76611
+  ],
+  [
+   1793686968,
+   0.36111
   ]
  ],
  "totals": {
@@ -446,7 +454,8 @@
   "error": 2,
   "gano": 55,
   "nofill": 32,
-  "perdio": 16
+  "perdio": 16,
+  "abierta": 1
  },
  "equity": [
   [
@@ -807,6 +816,32 @@
  ],
  "calls": [
   {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0620z",
+   "ronda": "0620z",
+   "hora": "01:22:20",
+   "day": "2026-11-03",
+   "ts": 1793686940.3327022,
+   "side": "up",
+   "prob": 0.7262,
+   "precio": 0.76,
+   "qty": 2.56,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 19371,
+    "envio": 140,
+    "bolsa": 188
+   },
+   "order_id": "DG3MK55G12WK",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9756,
+   "pct_bal": 22.5,
+   "pct_gan": null,
+   "bal_entrada": 8.7661
+  },
+  {
    "slug": "cpc-btc-updown-5m-2026-11-03-0615z",
    "ronda": "0615z",
    "hora": "01:17:29",
@@ -852,7 +887,7 @@
    "costo": 1.8978,
    "pct_bal": 22.7,
    "pct_gan": 20.7,
-   "bal_entrada": 8.37391
+   "bal_entrada": 8.3739
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0605z",
@@ -878,7 +913,7 @@
    "costo": 1.9725,
    "pct_bal": 25.4,
    "pct_gan": 31.3,
-   "bal_entrada": 7.75641
+   "bal_entrada": 7.7564
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0600z",
@@ -904,7 +939,7 @@
    "costo": 1.8404,
    "pct_bal": 24.9,
    "pct_gan": 20.6,
-   "bal_entrada": 7.37681
+   "bal_entrada": 7.3768
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0555z",
@@ -930,7 +965,7 @@
    "costo": 1.974,
    "pct_bal": 28.5,
    "pct_gan": 23.1,
-   "bal_entrada": 6.92081
+   "bal_entrada": 6.9208
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0550z",
@@ -956,7 +991,7 @@
    "costo": 2.0268,
    "pct_bal": 31.7,
    "pct_gan": 26.3,
-   "bal_entrada": 6.38761
+   "bal_entrada": 6.3876
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0545z",
@@ -982,7 +1017,7 @@
    "costo": 1.9736,
    "pct_bal": 32.1,
    "pct_gan": 12.5,
-   "bal_entrada": 6.14121
+   "bal_entrada": 6.1412
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0540z",
@@ -1008,7 +1043,7 @@
    "costo": 1.9781,
    "pct_bal": 35.4,
    "pct_gan": 27.9,
-   "bal_entrada": 5.58931
+   "bal_entrada": 5.5893
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0535z",
@@ -1034,7 +1069,7 @@
    "costo": 1.9862,
    "pct_bal": 40.2,
    "pct_gan": 32.4,
-   "bal_entrada": 4.94551
+   "bal_entrada": 4.9455
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0530z",
@@ -1060,7 +1095,7 @@
    "costo": 1.95,
    "pct_bal": 45.0,
    "pct_gan": 31.3,
-   "bal_entrada": 4.33551
+   "bal_entrada": 4.3355
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0525z",
@@ -4477,12 +4512,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 963,
+  "llamada": 1140,
   "envio": 134,
-  "bolsa": 222
+  "bolsa": 221
  },
- "open": [],
- "heartbeat": 1793686903.867002,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0620z",
+   "ronda": "0620z",
+   "hora": "01:22:20",
+   "day": "2026-11-03",
+   "ts": 1793686940.3327022,
+   "side": "up",
+   "prob": 0.7262,
+   "precio": 0.76,
+   "qty": 2.56,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 19371,
+    "envio": 140,
+    "bolsa": 188
+   },
+   "order_id": "DG3MK55G12WK",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9756,
+   "pct_bal": 22.5,
+   "pct_gan": null,
+   "bal_entrada": 8.7661
+  }
+ ],
+ "heartbeat": 1793686952.1581368,
  "running": true,
  "stop_file": false
 }
