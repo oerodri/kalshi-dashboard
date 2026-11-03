@@ -1,6 +1,6 @@
 {
- "generated": 1793712207.5026426,
- "generated_et": "2026-11-03 08:23:28 ET",
+ "generated": 1793712332.094355,
+ "generated_et": "2026-11-03 08:25:32 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 17.87581,
-  "buying_power": 15.60581,
-  "in_positions": 2.27
+  "buying_power": 17.87581,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -809,18 +809,18 @@
   ]
  ],
  "totals": {
-  "trades": 128,
-  "wins": 103,
-  "win_pct": 80.5,
-  "gross_pnl": 11.5749,
-  "fees": 4.05,
-  "net_pnl": 7.5249
+  "trades": 129,
+  "wins": 104,
+  "win_pct": 80.6,
+  "gross_pnl": 11.8927,
+  "fees": 4.07,
+  "net_pnl": 7.8227
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 7.0371,
-  "trades": 71,
-  "wins": 59,
+  "pnl": 7.3349,
+  "trades": 72,
+  "wins": 60,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -828,10 +828,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 103,
+  "gano": 104,
   "nofill": 38,
-  "perdio": 25,
-  "abierta": 1
+  "perdio": 25
  },
  "equity": [
   [
@@ -1473,6 +1472,11 @@
    1793711634,
    7.5249,
    "1310z"
+  ],
+  [
+   1793712150,
+   7.8227,
+   "1320z"
   ]
  ],
  "calls": [
@@ -1487,7 +1491,7 @@
    "precio": 0.86,
    "qty": 2.27,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.2978,
    "lat": {
     "llamada": 0,
     "envio": 127,
@@ -1495,11 +1499,11 @@
    },
    "order_id": "DG9MXVMG13D6",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9722,
    "pct_bal": 11.2,
-   "pct_gan": null,
+   "pct_gan": 15.1,
    "bal_entrada": 17.578
   },
   {
@@ -6490,35 +6494,8 @@
   "envio": 133,
   "bolsa": 197
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1320z",
-   "ronda": "1320z",
-   "hora": "08:22:30",
-   "day": "2026-11-03",
-   "ts": 1793712150.0062654,
-   "side": "down",
-   "prob": 0.8192,
-   "precio": 0.86,
-   "qty": 2.27,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 127,
-    "bolsa": 147
-   },
-   "order_id": "DG9MXVMG13D6",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9722,
-   "pct_bal": 11.2,
-   "pct_gan": null,
-   "bal_entrada": 17.578
-  }
- ],
- "heartbeat": 1793712195.5081382,
+ "open": [],
+ "heartbeat": 1793712315.6241226,
  "running": true,
  "stop_file": false
 }
