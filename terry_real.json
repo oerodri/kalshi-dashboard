@@ -1,6 +1,6 @@
 {
- "generated": 1793719548.7613888,
- "generated_et": "2026-11-03 10:25:49 ET",
+ "generated": 1793719674.598611,
+ "generated_et": "2026-11-03 10:27:55 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 14.50221,
-  "buying_power": 14.50221,
-  "in_positions": 0
+  "current": 15.18041,
+  "buying_power": 12.52041,
+  "in_positions": 2.66
  },
  "balance_err": null,
  "balance_hist": [
@@ -930,6 +930,10 @@
   [
    1793719549,
    14.50221
+  ],
+  [
+   1793719675,
+   15.18041
   ]
  ],
  "totals": {
@@ -954,7 +958,8 @@
   "error": 2,
   "gano": 119,
   "nofill": 39,
-  "perdio": 31
+  "perdio": 31,
+  "abierta": 1
  },
  "equity": [
   [
@@ -1709,6 +1714,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1525z",
+   "ronda": "1525z",
+   "hora": "10:27:39",
+   "day": "2026-11-03",
+   "ts": 1793719659.022101,
+   "side": "down",
+   "prob": 0.7147,
+   "precio": 0.73,
+   "qty": 2.66,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 127,
+    "bolsa": 146
+   },
+   "order_id": "DGBE73Z013D1",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9818,
+   "pct_bal": 13.7,
+   "pct_gan": null,
+   "bal_entrada": 14.5022
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1520z",
    "ronda": "1520z",
@@ -6722,41 +6753,42 @@
    "pct_bal": 17.3,
    "pct_gan": 45.6,
    "bal_entrada": 11.86241
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2150z",
-   "ronda": "2150z",
-   "hora": "16:52:54",
-   "day": "2026-11-02",
-   "ts": 1793656374.6825893,
-   "side": "up",
-   "prob": 0.6775,
-   "precio": 0.66,
-   "qty": 3.03,
-   "fee": 0.05,
-   "pnl": 0.9802,
-   "lat": {
-    "llamada": 93,
-    "envio": 133,
-    "bolsa": 157
-   },
-   "order_id": "DFWBCT7G12VX",
-   "aviso": null,
-   "out": "gano",
-   "motivo": "Liquidada",
-   "costo": 2.0498,
-   "pct_bal": 18.8,
-   "pct_gan": 47.8,
-   "bal_entrada": 10.88221
   }
  ],
  "lat_avg": {
-  "llamada": 654,
+  "llamada": 651,
   "envio": 133,
   "bolsa": 194
  },
- "open": [],
- "heartbeat": 1793719544.655291,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1525z",
+   "ronda": "1525z",
+   "hora": "10:27:39",
+   "day": "2026-11-03",
+   "ts": 1793719659.022101,
+   "side": "down",
+   "prob": 0.7147,
+   "precio": 0.73,
+   "qty": 2.66,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 127,
+    "bolsa": 146
+   },
+   "order_id": "DGBE73Z013D1",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9818,
+   "pct_bal": 13.7,
+   "pct_gan": null,
+   "bal_entrada": 14.5022
+  }
+ ],
+ "heartbeat": 1793719665.0141964,
  "running": true,
  "stop_file": false
 }
