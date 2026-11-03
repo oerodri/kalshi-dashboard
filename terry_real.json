@@ -1,6 +1,6 @@
 {
- "generated": 1793739216.540412,
- "generated_et": "2026-11-03 15:53:37 ET",
+ "generated": 1793739353.7485564,
+ "generated_et": "2026-11-03 15:55:54 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 0.11411,
-  "buying_power": 0.11411,
+  "current": 1.01411,
+  "buying_power": 1.01411,
   "in_positions": 0
  },
  "balance_err": null,
@@ -1226,32 +1226,35 @@
   [
    1793739217,
    0.11411
+  ],
+  [
+   1793739354,
+   1.01411
   ]
  ],
  "totals": {
-  "trades": 197,
-  "wins": 155,
-  "win_pct": 78.7,
-  "gross_pnl": 5.7615,
-  "fees": 6.02,
-  "net_pnl": -0.2585
+  "trades": 198,
+  "wins": 156,
+  "win_pct": 78.8,
+  "gross_pnl": 5.9595,
+  "fees": 6.03,
+  "net_pnl": -0.0705
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": -0.7463,
-  "trades": 140,
-  "wins": 111,
+  "pnl": -0.5583,
+  "trades": 141,
+  "wins": 112,
   "breakeven_pct": 77,
-  "cap_left": 19.25,
+  "cap_left": 19.44,
   "cap_hit": false
  },
  "counts": {
   "saltada": 61,
   "error": 2,
-  "gano": 155,
+  "gano": 156,
   "nofill": 47,
-  "perdio": 42,
-  "abierta": 1
+  "perdio": 42
  },
  "equity": [
   [
@@ -2238,6 +2241,11 @@
    1793738802,
    -0.2585,
    "2045z"
+  ],
+  [
+   1793739186,
+   -0.0705,
+   "2050z"
   ]
  ],
  "calls": [
@@ -2252,7 +2260,7 @@
    "precio": 0.78,
    "qty": 0.9,
    "fee": 0.01,
-   "pnl": null,
+   "pnl": 0.188,
    "lat": {
     "llamada": 0,
     "envio": 151,
@@ -2260,11 +2268,11 @@
    },
    "order_id": "DGG36G9053CZ",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 0.712,
    "pct_bal": 86.2,
-   "pct_gan": null,
+   "pct_gan": 26.4,
    "bal_entrada": 0.8261
   },
   {
@@ -7343,35 +7351,8 @@
   "envio": 134,
   "bolsa": 191
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-2050z",
-   "ronda": "2050z",
-   "hora": "15:53:06",
-   "day": "2026-11-03",
-   "ts": 1793739186.1821008,
-   "side": "up",
-   "prob": 0.7402,
-   "precio": 0.78,
-   "qty": 0.9,
-   "fee": 0.01,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 151,
-    "bolsa": 127
-   },
-   "order_id": "DGG36G9053CZ",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 0.712,
-   "pct_bal": 86.2,
-   "pct_gan": null,
-   "bal_entrada": 0.8261
-  }
- ],
- "heartbeat": 1793739214.0820062,
+ "open": [],
+ "heartbeat": 1793739354.2133534,
  "running": true,
  "stop_file": false
 }
