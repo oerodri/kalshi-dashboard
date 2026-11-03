@@ -1,6 +1,6 @@
 {
- "generated": 1793697336.812907,
- "generated_et": "2026-11-03 04:15:37 ET",
+ "generated": 1793697461.232695,
+ "generated_et": "2026-11-03 04:17:42 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 16.56331,
-  "buying_power": 16.56331,
+  "current": 14.59171,
+  "buying_power": 14.59171,
   "in_positions": 0
  },
  "balance_err": null,
@@ -554,6 +554,10 @@
   [
    1793697337,
    16.56331
+  ],
+  [
+   1793697461,
+   14.59171
   ]
  ],
  "totals": {
@@ -578,7 +582,8 @@
   "error": 2,
   "gano": 73,
   "nofill": 34,
-  "perdio": 18
+  "perdio": 18,
+  "abierta": 1
  },
  "equity": [
   [
@@ -1039,6 +1044,32 @@
  ],
  "calls": [
   {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0915z",
+   "ronda": "0915z",
+   "hora": "04:17:30",
+   "day": "2026-11-03",
+   "ts": 1793697450.405742,
+   "side": "up",
+   "prob": 0.794,
+   "precio": 0.82,
+   "qty": 2.38,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 404,
+    "envio": 127,
+    "bolsa": 191
+   },
+   "order_id": "DG64S35G13CX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9716,
+   "pct_bal": 11.9,
+   "pct_gan": null,
+   "bal_entrada": 16.5633
+  },
+  {
    "slug": "cpc-btc-updown-5m-2026-11-03-0910z",
    "ronda": "0910z",
    "hora": "04:11:30",
@@ -1414,7 +1445,7 @@
    "costo": 1.9237,
    "pct_bal": 18.3,
    "pct_gan": 41.9,
-   "bal_entrada": 10.5091
+   "bal_entrada": 10.50911
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0750z",
@@ -5523,12 +5554,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 950,
+  "llamada": 945,
   "envio": 133,
   "bolsa": 211
  },
- "open": [],
- "heartbeat": 1793697326.653247,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0915z",
+   "ronda": "0915z",
+   "hora": "04:17:30",
+   "day": "2026-11-03",
+   "ts": 1793697450.405742,
+   "side": "up",
+   "prob": 0.794,
+   "precio": 0.82,
+   "qty": 2.38,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 404,
+    "envio": 127,
+    "bolsa": 191
+   },
+   "order_id": "DG64S35G13CX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9716,
+   "pct_bal": 11.9,
+   "pct_gan": null,
+   "bal_entrada": 16.5633
+  }
+ ],
+ "heartbeat": 1793697451.9475355,
  "running": true,
  "stop_file": false
 }
