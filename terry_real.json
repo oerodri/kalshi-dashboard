@@ -1,6 +1,6 @@
 {
- "generated": 1793708978.979097,
- "generated_et": "2026-11-03 07:29:39 ET",
+ "generated": 1793709044.1497676,
+ "generated_et": "2026-11-03 07:30:44 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 15.79421,
-  "buying_power": 15.79421,
+  "current": 18.32421,
+  "buying_power": 18.32421,
   "in_positions": 0
  },
  "balance_err": null,
@@ -742,21 +742,25 @@
   [
    1793708935,
    15.79421
+  ],
+  [
+   1793709044,
+   18.32421
   ]
  ],
  "totals": {
-  "trades": 118,
-  "wins": 95,
-  "win_pct": 80.5,
-  "gross_pnl": 11.4945,
-  "fees": 3.75,
-  "net_pnl": 7.7445
+  "trades": 119,
+  "wins": 96,
+  "win_pct": 80.7,
+  "gross_pnl": 12.0511,
+  "fees": 3.78,
+  "net_pnl": 8.2711
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 7.2567,
-  "trades": 61,
-  "wins": 51,
+  "pnl": 7.7833,
+  "trades": 62,
+  "wins": 52,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -764,10 +768,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 95,
+  "gano": 96,
   "nofill": 38,
-  "perdio": 23,
-  "abierta": 1
+  "perdio": 23
  },
  "equity": [
   [
@@ -1359,6 +1362,11 @@
    1793708251,
    7.7445,
    "1215z"
+  ],
+  [
+   1793708924,
+   8.2711,
+   "1225z"
   ]
  ],
  "calls": [
@@ -1373,7 +1381,7 @@
    "precio": 0.78,
    "qty": 2.53,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.5266,
    "lat": {
     "llamada": 0,
     "envio": 132,
@@ -1381,11 +1389,11 @@
    },
    "order_id": "DG8WA6V013D9",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.0034,
    "pct_bal": 11.3,
-   "pct_gan": null,
+   "pct_gan": 26.3,
    "bal_entrada": 17.7976
   },
   {
@@ -1631,7 +1639,7 @@
    "side": "up",
    "prob": 0.7015,
    "precio": 0.71,
-   "qty": 2.73,
+   "qty": 1.73,
    "fee": 0.04,
    "pnl": -1.9783,
    "lat": {
@@ -1643,10 +1651,10 @@
    "aviso": null,
    "out": "perdio",
    "motivo": "Liquidada",
-   "costo": 1.9783,
-   "pct_bal": 12.1,
-   "pct_gan": -100.0,
-   "bal_entrada": 16.3262
+   "costo": 1.2683,
+   "pct_bal": 8.1,
+   "pct_gan": -156.0,
+   "bal_entrada": 15.6062
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1110z",
@@ -6364,35 +6372,8 @@
   "envio": 133,
   "bolsa": 200
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1225z",
-   "ronda": "1225z",
-   "hora": "07:28:43",
-   "day": "2026-11-03",
-   "ts": 1793708923.7546885,
-   "side": "up",
-   "prob": 0.7699,
-   "precio": 0.78,
-   "qty": 2.53,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 132,
-    "bolsa": 184
-   },
-   "order_id": "DG8WA6V013D9",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0034,
-   "pct_bal": 11.3,
-   "pct_gan": null,
-   "bal_entrada": 17.7976
-  }
- ],
- "heartbeat": 1793708969.8239071,
+ "open": [],
+ "heartbeat": 1793709029.8731706,
  "running": true,
  "stop_file": false
 }
