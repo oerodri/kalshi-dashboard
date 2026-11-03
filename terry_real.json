@@ -1,6 +1,6 @@
 {
- "generated": 1793678678.6062963,
- "generated_et": "2026-11-02 23:04:39 ET",
+ "generated": 1793678882.1368022,
+ "generated_et": "2026-11-02 23:08:02 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 11.25761,
-  "buying_power": 11.25761,
+  "current": 9.30061,
+  "buying_power": 9.30061,
   "in_positions": 0
  },
  "balance_err": null,
@@ -306,6 +306,10 @@
   [
    1793678136,
    11.25761
+  ],
+  [
+   1793678882,
+   9.30061
   ]
  ],
  "totals": {
@@ -330,7 +334,8 @@
   "error": 2,
   "gano": 38,
   "nofill": 31,
-  "perdio": 12
+  "perdio": 12,
+  "abierta": 1
  },
  "equity": [
   [
@@ -585,6 +590,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0405z",
+   "ronda": "0405z",
+   "hora": "23:07:29",
+   "day": "2026-11-02",
+   "ts": 1793678849.8275998,
+   "side": "up",
+   "prob": 0.7064,
+   "precio": 0.71,
+   "qty": 2.7,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 128,
+    "bolsa": 156
+   },
+   "order_id": "DG1PVXKG12WK",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.957,
+   "pct_bal": 17.4,
+   "pct_gan": null,
+   "bal_entrada": 11.2576
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0400z",
    "ronda": "0400z",
@@ -1039,7 +1070,7 @@
    "costo": 1.9756,
    "pct_bal": 15.6,
    "pct_gan": -100.0,
-   "bal_entrada": 12.6647
+   "bal_entrada": 12.66471
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0230z",
@@ -3574,12 +3605,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1224,
+  "llamada": 1209,
   "envio": 134,
   "bolsa": 229
  },
- "open": [],
- "heartbeat": 1793678675.4641325,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0405z",
+   "ronda": "0405z",
+   "hora": "23:07:29",
+   "day": "2026-11-02",
+   "ts": 1793678849.8275998,
+   "side": "up",
+   "prob": 0.7064,
+   "precio": 0.71,
+   "qty": 2.7,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 128,
+    "bolsa": 156
+   },
+   "order_id": "DG1PVXKG12WK",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.957,
+   "pct_bal": 17.4,
+   "pct_gan": null,
+   "bal_entrada": 11.2576
+  }
+ ],
+ "heartbeat": 1793678875.5948656,
  "running": true,
  "stop_file": false
 }
