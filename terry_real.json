@@ -1,6 +1,6 @@
 {
- "generated": 1793702167.8905094,
- "generated_et": "2026-11-03 05:36:08 ET",
+ "generated": 1793702292.3680437,
+ "generated_et": "2026-11-03 05:38:13 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 15.19701,
-  "buying_power": 15.19701,
+  "current": 13.22821,
+  "buying_power": 13.22821,
   "in_positions": 0
  },
  "balance_err": null,
@@ -630,6 +630,10 @@
   [
    1793701982,
    15.19701
+  ],
+  [
+   1793702292,
+   13.22821
   ]
  ],
  "totals": {
@@ -654,7 +658,8 @@
   "error": 2,
   "gano": 81,
   "nofill": 37,
-  "perdio": 21
+  "perdio": 21,
+  "abierta": 1
  },
  "equity": [
   [
@@ -1170,6 +1175,32 @@
  ],
  "calls": [
   {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1035z",
+   "ronda": "1035z",
+   "hora": "05:37:34",
+   "day": "2026-11-03",
+   "ts": 1793702254.047455,
+   "side": "up",
+   "prob": 0.8398,
+   "precio": 0.87,
+   "qty": 2.24,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 130,
+    "bolsa": 193
+   },
+   "order_id": "DG79DVGG13D9",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9688,
+   "pct_bal": 13.0,
+   "pct_gan": null,
+   "bal_entrada": 15.197
+  },
+  {
    "slug": "cpc-btc-updown-5m-2026-11-03-1030z",
    "ronda": "1030z",
    "hora": "05:32:29",
@@ -1460,7 +1491,7 @@
    "side": "up",
    "prob": 0.8582,
    "precio": 0.84,
-   "qty": 2.22,
+   "qty": 0.02,
    "fee": 0.02,
    "pnl": 0.335,
    "lat": {
@@ -1472,10 +1503,10 @@
    "aviso": null,
    "out": "gano",
    "motivo": "Liquidada",
-   "costo": 1.8848,
-   "pct_bal": 10.7,
-   "pct_gan": 17.8,
-   "bal_entrada": 17.5817
+   "costo": 0.0368,
+   "pct_bal": 0.2,
+   "pct_gan": 910.3,
+   "bal_entrada": 15.7137
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0925z",
@@ -6040,12 +6071,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 857,
+  "llamada": 851,
   "envio": 133,
   "bolsa": 206
  },
- "open": [],
- "heartbeat": 1793702158.9472065,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1035z",
+   "ronda": "1035z",
+   "hora": "05:37:34",
+   "day": "2026-11-03",
+   "ts": 1793702254.047455,
+   "side": "up",
+   "prob": 0.8398,
+   "precio": 0.87,
+   "qty": 2.24,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 130,
+    "bolsa": 193
+   },
+   "order_id": "DG79DVGG13D9",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9688,
+   "pct_bal": 13.0,
+   "pct_gan": null,
+   "bal_entrada": 15.197
+  }
+ ],
+ "heartbeat": 1793702279.0540335,
  "running": true,
  "stop_file": false
 }
