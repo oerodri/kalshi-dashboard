@@ -1,6 +1,6 @@
 {
- "generated": 1793717859.231591,
- "generated_et": "2026-11-03 09:57:40 ET",
+ "generated": 1793718045.0417883,
+ "generated_et": "2026-11-03 10:00:45 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 11.59831,
-  "buying_power": 11.59831,
+  "current": 14.09831,
+  "buying_power": 14.09831,
   "in_positions": 0
  },
  "balance_err": null,
@@ -898,21 +898,25 @@
   [
    1793717859,
    11.59831
+  ],
+  [
+   1793718045,
+   14.09831
   ]
  ],
  "totals": {
-  "trades": 144,
-  "wins": 114,
-  "win_pct": 79.2,
-  "gross_pnl": 8.0571,
-  "fees": 4.55,
-  "net_pnl": 3.5071
+  "trades": 145,
+  "wins": 115,
+  "win_pct": 79.3,
+  "gross_pnl": 8.6071,
+  "fees": 4.58,
+  "net_pnl": 4.0271
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 3.0193,
-  "trades": 87,
-  "wins": 70,
+  "pnl": 3.5393,
+  "trades": 88,
+  "wins": 71,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -920,10 +924,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 114,
+  "gano": 115,
   "nofill": 39,
-  "perdio": 30,
-  "abierta": 1
+  "perdio": 30
  },
  "equity": [
   [
@@ -1645,6 +1648,11 @@
    1793717490,
    3.5071,
    "1450z"
+  ],
+  [
+   1793717830,
+   4.0271,
+   "1455z"
   ]
  ],
  "calls": [
@@ -1659,7 +1667,7 @@
    "precio": 0.78,
    "qty": 2.5,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.52,
    "lat": {
     "llamada": 0,
     "envio": 123,
@@ -1667,11 +1675,11 @@
    },
    "order_id": "DGB08ET013D5",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.98,
    "pct_bal": 14.6,
-   "pct_gan": null,
+   "pct_gan": 26.3,
    "bal_entrada": 13.5783
   },
   {
@@ -6686,35 +6694,8 @@
   "envio": 133,
   "bolsa": 195
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1455z",
-   "ronda": "1455z",
-   "hora": "09:57:09",
-   "day": "2026-11-03",
-   "ts": 1793717829.5199726,
-   "side": "up",
-   "prob": 0.7736,
-   "precio": 0.78,
-   "qty": 2.5,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 123,
-    "bolsa": 133
-   },
-   "order_id": "DGB08ET013D5",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.98,
-   "pct_bal": 14.6,
-   "pct_gan": null,
-   "bal_entrada": 13.5783
-  }
- ],
- "heartbeat": 1793717839.7723422,
+ "open": [],
+ "heartbeat": 1793718039.9452493,
  "running": true,
  "stop_file": false
 }
