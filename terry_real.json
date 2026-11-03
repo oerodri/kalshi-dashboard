@@ -1,6 +1,6 @@
 {
- "generated": 1793721051.8157506,
- "generated_et": "2026-11-03 10:50:52 ET",
+ "generated": 1793721118.570637,
+ "generated_et": "2026-11-03 10:51:59 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 15.21641,
-  "buying_power": 15.21641,
-  "in_positions": 0
+  "current": 15.70301,
+  "buying_power": 13.24301,
+  "in_positions": 2.46
  },
  "balance_err": null,
  "balance_hist": [
@@ -970,6 +970,10 @@
   [
    1793721052,
    15.21641
+  ],
+  [
+   1793721119,
+   15.70301
   ]
  ],
  "totals": {
@@ -994,7 +998,8 @@
   "error": 2,
   "gano": 123,
   "nofill": 39,
-  "perdio": 32
+  "perdio": 32,
+  "abierta": 1
  },
  "equity": [
   [
@@ -1775,6 +1780,32 @@
  ],
  "calls": [
   {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1550z",
+   "ronda": "1550z",
+   "hora": "10:51:29",
+   "day": "2026-11-03",
+   "ts": 1793721089.8394444,
+   "side": "down",
+   "prob": 0.7924,
+   "precio": 0.79,
+   "qty": 2.46,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 142,
+    "bolsa": 129
+   },
+   "order_id": "DGBS4E7013CX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9734,
+   "pct_bal": 13.0,
+   "pct_gan": null,
+   "bal_entrada": 15.2164
+  },
+  {
    "slug": "cpc-btc-updown-5m-2026-11-03-1545z",
    "ronda": "1545z",
    "hora": "10:46:31",
@@ -2017,7 +2048,7 @@
    "side": "down",
    "prob": 0.7023,
    "precio": 0.73,
-   "qty": 1.7,
+   "qty": 2.7,
    "fee": 0.03,
    "pnl": 0.709,
    "lat": {
@@ -2029,10 +2060,10 @@
    "aviso": null,
    "out": "gano",
    "motivo": "Liquidada",
-   "costo": 1.271,
-   "pct_bal": 9.5,
-   "pct_gan": 55.8,
-   "bal_entrada": 13.3683
+   "costo": 2.001,
+   "pct_bal": 14.2,
+   "pct_gan": 35.4,
+   "bal_entrada": 14.09831
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1455z",
@@ -6787,41 +6818,42 @@
    "pct_bal": null,
    "pct_gan": null,
    "bal_entrada": null
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2215z",
-   "ronda": "2215z",
-   "hora": "17:16:30",
-   "day": "2026-11-02",
-   "ts": 1793657790.828235,
-   "side": "up",
-   "prob": 0.6764,
-   "precio": 0.68,
-   "qty": 2.94,
-   "fee": 0.04,
-   "pnl": 0.9008,
-   "lat": {
-    "llamada": 812,
-    "envio": 134,
-    "bolsa": 140
-   },
-   "order_id": "DFWP6HS012WQ",
-   "aviso": null,
-   "out": "gano",
-   "motivo": "Liquidada",
-   "costo": 2.0392,
-   "pct_bal": 18.5,
-   "pct_gan": 44.2,
-   "bal_entrada": 11.03681
   }
  ],
  "lat_avg": {
-  "llamada": 637,
+  "llamada": 634,
   "envio": 133,
   "bolsa": 193
  },
- "open": [],
- "heartbeat": 1793721047.4342766,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1550z",
+   "ronda": "1550z",
+   "hora": "10:51:29",
+   "day": "2026-11-03",
+   "ts": 1793721089.8394444,
+   "side": "down",
+   "prob": 0.7924,
+   "precio": 0.79,
+   "qty": 2.46,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 142,
+    "bolsa": 129
+   },
+   "order_id": "DGBS4E7013CX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9734,
+   "pct_bal": 13.0,
+   "pct_gan": null,
+   "bal_entrada": 15.2164
+  }
+ ],
+ "heartbeat": 1793721107.473347,
  "running": true,
  "stop_file": false
 }
