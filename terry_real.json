@@ -1,6 +1,6 @@
 {
- "generated": 1793693128.4472313,
- "generated_et": "2026-11-03 03:05:29 ET",
+ "generated": 1793693313.9320765,
+ "generated_et": "2026-11-03 03:08:34 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 11.56181,
-  "buying_power": 11.56181,
+  "current": 9.53311,
+  "buying_power": 9.53311,
   "in_positions": 0
  },
  "balance_err": null,
@@ -502,6 +502,10 @@
   [
    1793692943,
    11.56181
+  ],
+  [
+   1793693314,
+   9.53311
   ]
  ],
  "totals": {
@@ -526,7 +530,8 @@
   "error": 2,
   "gano": 65,
   "nofill": 32,
-  "perdio": 18
+  "perdio": 18,
+  "abierta": 1
  },
  "equity": [
   [
@@ -947,6 +952,32 @@
  ],
  "calls": [
   {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0805z",
+   "ronda": "0805z",
+   "hora": "03:07:59",
+   "day": "2026-11-03",
+   "ts": 1793693279.7616625,
+   "side": "up",
+   "prob": 0.7677,
+   "precio": 0.79,
+   "qty": 2.53,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 137,
+    "bolsa": 168
+   },
+   "order_id": "DG54YVW013CX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0287,
+   "pct_bal": 17.5,
+   "pct_gan": null,
+   "bal_entrada": 11.5618
+  },
+  {
    "slug": "cpc-btc-updown-5m-2026-11-03-0800z",
    "ronda": "0800z",
    "hora": "03:02:01",
@@ -1358,7 +1389,7 @@
    "costo": 1.9763,
    "pct_bal": 17.3,
    "pct_gan": 46.2,
-   "bal_entrada": 11.4389
+   "bal_entrada": 11.43891
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0630z",
@@ -5105,12 +5136,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1031,
+  "llamada": 1022,
   "envio": 133,
   "bolsa": 215
  },
- "open": [],
- "heartbeat": 1793693121.2990534,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0805z",
+   "ronda": "0805z",
+   "hora": "03:07:59",
+   "day": "2026-11-03",
+   "ts": 1793693279.7616625,
+   "side": "up",
+   "prob": 0.7677,
+   "precio": 0.79,
+   "qty": 2.53,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 137,
+    "bolsa": 168
+   },
+   "order_id": "DG54YVW013CX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0287,
+   "pct_bal": 17.5,
+   "pct_gan": null,
+   "bal_entrada": 11.5618
+  }
+ ],
+ "heartbeat": 1793693301.8357255,
  "running": true,
  "stop_file": false
 }
