@@ -1,6 +1,6 @@
 {
- "generated": 1793704273.772347,
- "generated_et": "2026-11-03 06:11:14 ET",
+ "generated": 1793704398.4928377,
+ "generated_et": "2026-11-03 06:13:19 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 15.79041,
-  "buying_power": 15.79041,
+  "current": 13.86621,
+  "buying_power": 13.86621,
   "in_positions": 0
  },
  "balance_err": null,
@@ -674,6 +674,10 @@
   [
    1793704274,
    15.79041
+  ],
+  [
+   1793704398,
+   13.86621
   ]
  ],
  "totals": {
@@ -698,7 +702,8 @@
   "error": 2,
   "gano": 86,
   "nofill": 37,
-  "perdio": 22
+  "perdio": 22,
+  "abierta": 1
  },
  "equity": [
   [
@@ -1243,6 +1248,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1110z",
+   "ronda": "1110z",
+   "hora": "06:12:29",
+   "day": "2026-11-03",
+   "ts": 1793704349.6222026,
+   "side": "up",
+   "prob": 0.7309,
+   "precio": 0.77,
+   "qty": 2.46,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 131,
+    "bolsa": 139
+   },
+   "order_id": "DG7SDF1013D1",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9242,
+   "pct_bal": 12.2,
+   "pct_gan": null,
+   "bal_entrada": 15.7904
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1105z",
    "ronda": "1105z",
@@ -6201,37 +6232,42 @@
    "pct_bal": null,
    "pct_gan": 44.2,
    "bal_entrada": null
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-1805z",
-   "ronda": "1805z",
-   "hora": "13:06:40",
-   "day": "2026-11-02",
-   "ts": 1793642800.584107,
-   "side": "up",
-   "prob": 0.7136,
-   "precio": null,
-   "qty": null,
-   "fee": null,
-   "pnl": null,
-   "lat": null,
-   "order_id": null,
-   "aviso": null,
-   "out": "error",
-   "motivo": "Error antiguo, ya corregido (no gastó dinero)",
-   "costo": null,
-   "pct_bal": null,
-   "pct_gan": null,
-   "bal_entrada": null
   }
  ],
  "lat_avg": {
-  "llamada": 824,
+  "llamada": 819,
   "envio": 133,
-  "bolsa": 205
+  "bolsa": 204
  },
- "open": [],
- "heartbeat": 1793704262.1721933,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1110z",
+   "ronda": "1110z",
+   "hora": "06:12:29",
+   "day": "2026-11-03",
+   "ts": 1793704349.6222026,
+   "side": "up",
+   "prob": 0.7309,
+   "precio": 0.77,
+   "qty": 2.46,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 131,
+    "bolsa": 139
+   },
+   "order_id": "DG7SDF1013D1",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9242,
+   "pct_bal": 12.2,
+   "pct_gan": null,
+   "bal_entrada": 15.7904
+  }
+ ],
+ "heartbeat": 1793704382.9510417,
  "running": true,
  "stop_file": false
 }
