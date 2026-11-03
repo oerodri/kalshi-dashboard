@@ -1,6 +1,6 @@
 {
- "generated": 1793716369.38143,
- "generated_et": "2026-11-03 09:32:50 ET",
+ "generated": 1793716555.089429,
+ "generated_et": "2026-11-03 09:35:55 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 9.34681,
-  "buying_power": 9.34681,
+  "current": 11.56681,
+  "buying_power": 11.56681,
   "in_positions": 0
  },
  "balance_err": null,
@@ -870,21 +870,25 @@
   [
    1793716306,
    9.34681
+  ],
+  [
+   1793716555,
+   11.56681
   ]
  ],
  "totals": {
-  "trades": 140,
-  "wins": 110,
-  "win_pct": 78.6,
-  "gross_pnl": 5.7014,
-  "fees": 4.43,
-  "net_pnl": 1.2714
+  "trades": 141,
+  "wins": 111,
+  "win_pct": 78.7,
+  "gross_pnl": 5.9456,
+  "fees": 4.45,
+  "net_pnl": 1.4956
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 0.7836,
-  "trades": 83,
-  "wins": 66,
+  "pnl": 1.0078,
+  "trades": 84,
+  "wins": 67,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -892,10 +896,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 110,
+  "gano": 111,
   "nofill": 38,
-  "perdio": 30,
-  "abierta": 1
+  "perdio": 30
  },
  "equity": [
   [
@@ -1597,6 +1600,11 @@
    1793716062,
    1.2714,
    "1425z"
+  ],
+  [
+   1793716305,
+   1.4956,
+   "1430z"
   ]
  ],
  "calls": [
@@ -1611,7 +1619,7 @@
    "precio": 0.89,
    "qty": 2.22,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.2242,
    "lat": {
     "llamada": 0,
     "envio": 111,
@@ -1619,11 +1627,11 @@
    },
    "order_id": "DGAMMB8G13D6",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9958,
    "pct_bal": 17.6,
-   "pct_gan": null,
+   "pct_gan": 11.2,
    "bal_entrada": 11.3426
   },
   {
@@ -6634,35 +6642,8 @@
   "envio": 133,
   "bolsa": 196
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1430z",
-   "ronda": "1430z",
-   "hora": "09:31:45",
-   "day": "2026-11-03",
-   "ts": 1793716305.3748891,
-   "side": "up",
-   "prob": 0.8902,
-   "precio": 0.89,
-   "qty": 2.22,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 111,
-    "bolsa": 128
-   },
-   "order_id": "DGAMMB8G13D6",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9958,
-   "pct_bal": 17.6,
-   "pct_gan": null,
-   "bal_entrada": 11.3426
-  }
- ],
- "heartbeat": 1793716356.2924788,
+ "open": [],
+ "heartbeat": 1793716536.6696837,
  "running": true,
  "stop_file": false
 }
