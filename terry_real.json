@@ -1,6 +1,6 @@
 {
- "generated": 1793683535.2620466,
- "generated_et": "2026-11-03 00:25:36 ET",
+ "generated": 1793683598.8014004,
+ "generated_et": "2026-11-03 00:26:39 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 3.42611,
-  "buying_power": 3.42611,
-  "in_positions": 0
+  "current": 4.15051,
+  "buying_power": 1.42051,
+  "in_positions": 2.73
  },
  "balance_err": null,
  "balance_hist": [
@@ -370,6 +370,10 @@
   [
    1793683535,
    3.42611
+  ],
+  [
+   1793683599,
+   4.15051
   ]
  ],
  "totals": {
@@ -394,7 +398,8 @@
   "error": 2,
   "gano": 46,
   "nofill": 32,
-  "perdio": 15
+  "perdio": 15,
+  "abierta": 1
  },
  "equity": [
   [
@@ -705,6 +710,32 @@
  ],
  "calls": [
   {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0525z",
+   "ronda": "0525z",
+   "hora": "00:26:36",
+   "day": "2026-11-03",
+   "ts": 1793683596.3882222,
+   "side": "down",
+   "prob": 0.7103,
+   "precio": 0.72,
+   "qty": 2.73,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 115,
+    "bolsa": 157
+   },
+   "order_id": "DG2V2R3012TT",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0056,
+   "pct_bal": 58.5,
+   "pct_gan": null,
+   "bal_entrada": 3.4261
+  },
+  {
    "slug": "cpc-btc-updown-5m-2026-11-03-0520z",
    "ronda": "0520z",
    "hora": "00:23:00",
@@ -878,9 +909,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 1.9958,
-   "pct_bal": 16.9,
+   "pct_bal": 21.1,
    "pct_gan": 11.2,
-   "bal_entrada": 11.8406
+   "bal_entrada": 9.46061
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0445z",
@@ -4093,12 +4124,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1066,
+  "llamada": 1055,
   "envio": 134,
   "bolsa": 228
  },
- "open": [],
- "heartbeat": 1793683525.2696602,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0525z",
+   "ronda": "0525z",
+   "hora": "00:26:36",
+   "day": "2026-11-03",
+   "ts": 1793683596.3882222,
+   "side": "down",
+   "prob": 0.7103,
+   "precio": 0.72,
+   "qty": 2.73,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 115,
+    "bolsa": 157
+   },
+   "order_id": "DG2V2R3012TT",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0056,
+   "pct_bal": 58.5,
+   "pct_gan": null,
+   "bal_entrada": 3.4261
+  }
+ ],
+ "heartbeat": 1793683597.8625698,
  "running": true,
  "stop_file": false
 }
