@@ -1,6 +1,6 @@
 {
- "generated": 1793697150.9657817,
- "generated_et": "2026-11-03 04:12:31 ET",
+ "generated": 1793697336.812907,
+ "generated_et": "2026-11-03 04:15:37 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 14.00331,
-  "buying_power": 14.00331,
+  "current": 16.56331,
+  "buying_power": 16.56331,
   "in_positions": 0
  },
  "balance_err": null,
@@ -550,21 +550,25 @@
   [
    1793697151,
    14.00331
+  ],
+  [
+   1793697337,
+   16.56331
   ]
  ],
  "totals": {
-  "trades": 90,
-  "wins": 72,
-  "win_pct": 80.0,
-  "gross_pnl": 8.8456,
-  "fees": 2.92,
-  "net_pnl": 5.9256
+  "trades": 91,
+  "wins": 73,
+  "win_pct": 80.2,
+  "gross_pnl": 9.46,
+  "fees": 2.95,
+  "net_pnl": 6.51
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 5.4378,
-  "trades": 33,
-  "wins": 28,
+  "pnl": 6.0222,
+  "trades": 34,
+  "wins": 29,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -572,10 +576,9 @@
  "counts": {
   "saltada": 54,
   "error": 2,
-  "gano": 72,
+  "gano": 73,
   "nofill": 34,
-  "perdio": 18,
-  "abierta": 1
+  "perdio": 18
  },
  "equity": [
   [
@@ -1027,6 +1030,11 @@
    1793696533,
    5.9256,
    "0900z"
+  ],
+  [
+   1793697091,
+   6.51,
+   "0910z"
   ]
  ],
  "calls": [
@@ -1041,7 +1049,7 @@
    "precio": 0.76,
    "qty": 2.56,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.5844,
    "lat": {
     "llamada": 0,
     "envio": 135,
@@ -1049,11 +1057,11 @@
    },
    "order_id": "DG621AXG13CZ",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9756,
    "pct_bal": 12.4,
-   "pct_gan": null,
+   "pct_gan": 29.6,
    "bal_entrada": 15.9789
   },
   {
@@ -5519,35 +5527,8 @@
   "envio": 133,
   "bolsa": 211
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0910z",
-   "ronda": "0910z",
-   "hora": "04:11:30",
-   "day": "2026-11-03",
-   "ts": 1793697090.909203,
-   "side": "up",
-   "prob": 0.7732,
-   "precio": 0.76,
-   "qty": 2.56,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 135,
-    "bolsa": 223
-   },
-   "order_id": "DG621AXG13CZ",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9756,
-   "pct_bal": 12.4,
-   "pct_gan": null,
-   "bal_entrada": 15.9789
-  }
- ],
- "heartbeat": 1793697146.5039613,
+ "open": [],
+ "heartbeat": 1793697326.653247,
  "running": true,
  "stop_file": false
 }
