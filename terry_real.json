@@ -1,6 +1,6 @@
 {
- "generated": 1793742207.2620246,
- "generated_et": "2026-11-03 16:43:28 ET",
+ "generated": 1793742348.5445528,
+ "generated_et": "2026-11-03 16:45:49 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 0.01601,
-  "buying_power": 0.01601,
+  "current": 0.06601,
+  "buying_power": 0.06601,
   "in_positions": 0
  },
  "balance_err": null,
@@ -1282,32 +1282,35 @@
   [
    1793742207,
    0.01601
+  ],
+  [
+   1793742349,
+   0.06601
   ]
  ],
  "totals": {
-  "trades": 206,
-  "wins": 162,
-  "win_pct": 78.6,
-  "gross_pnl": 5.0609,
+  "trades": 207,
+  "wins": 163,
+  "win_pct": 78.7,
+  "gross_pnl": 5.0724,
   "fees": 6.1,
-  "net_pnl": -1.0391
+  "net_pnl": -1.0276
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": -1.5269,
-  "trades": 149,
-  "wins": 118,
+  "pnl": -1.5154,
+  "trades": 150,
+  "wins": 119,
   "breakeven_pct": 77,
-  "cap_left": 18.47,
+  "cap_left": 18.48,
   "cap_hit": false
  },
  "counts": {
   "saltada": 62,
   "error": 2,
-  "gano": 162,
+  "gano": 163,
   "nofill": 47,
-  "perdio": 44,
-  "abierta": 1
+  "perdio": 44
  },
  "equity": [
   [
@@ -2339,6 +2342,11 @@
    1793741802,
    -1.0391,
    "2135z"
+  ],
+  [
+   1793742166,
+   -1.0276,
+   "2140z"
   ]
  ],
  "calls": [
@@ -2353,7 +2361,7 @@
    "precio": 0.77,
    "qty": 0.05,
    "fee": 0.0,
-   "pnl": null,
+   "pnl": 0.0115,
    "lat": {
     "llamada": 0,
     "envio": 131,
@@ -2361,12 +2369,12 @@
    },
    "order_id": "DGGSXXM013CT",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 0.0385,
-   "pct_bal": 70.6,
-   "pct_gan": null,
-   "bal_entrada": 0.0545
+   "pct_bal": 41.4,
+   "pct_gan": 29.9,
+   "bal_entrada": 0.093
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2135z",
@@ -2390,9 +2398,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.028,
-   "pct_bal": 39.7,
+   "pct_bal": 25.7,
    "pct_gan": 42.9,
-   "bal_entrada": 0.0705
+   "bal_entrada": 0.109
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2130z",
@@ -2416,9 +2424,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.0172,
-   "pct_bal": 20.3,
+   "pct_bal": 13.9,
    "pct_gan": 16.3,
-   "bal_entrada": 0.0849
+   "bal_entrada": 0.1234
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2125z",
@@ -2442,9 +2450,9 @@
    "out": "perdio",
    "motivo": "Liquidada",
    "costo": 0.217,
-   "pct_bal": 41.8,
+   "pct_bal": 38.9,
    "pct_gan": -100.0,
-   "bal_entrada": 0.5189
+   "bal_entrada": 0.5574
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2120z",
@@ -2468,9 +2476,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.1764,
-   "pct_bal": 26.7,
+   "pct_bal": 25.2,
    "pct_gan": 19.0,
-   "bal_entrada": 0.6617
+   "bal_entrada": 0.7002
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2115z",
@@ -2494,9 +2502,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.1406,
-   "pct_bal": 18.7,
+   "pct_bal": 17.8,
    "pct_gan": 35.1,
-   "bal_entrada": 0.7529
+   "bal_entrada": 0.7914
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2110z",
@@ -2520,9 +2528,9 @@
    "out": "perdio",
    "motivo": "Liquidada",
    "costo": 1.724,
-   "pct_bal": 69.6,
+   "pct_bal": 68.5,
    "pct_gan": -100.0,
-   "bal_entrada": 2.4769
+   "bal_entrada": 2.5154
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2105z",
@@ -2568,9 +2576,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 1.2584,
-   "pct_bal": 62.4,
+   "pct_bal": 61.3,
    "pct_gan": 36.7,
-   "bal_entrada": 2.0153
+   "bal_entrada": 2.0538
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2055z",
@@ -2594,9 +2602,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.878,
-   "pct_bal": 55.1,
+   "pct_bal": 53.8,
    "pct_gan": 48.1,
-   "bal_entrada": 1.5933
+   "bal_entrada": 1.6318
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2050z",
@@ -2620,9 +2628,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.712,
-   "pct_bal": 50.7,
+   "pct_bal": 49.3,
    "pct_gan": 26.4,
-   "bal_entrada": 1.4053
+   "bal_entrada": 1.4438
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2045z",
@@ -7448,35 +7456,8 @@
   "envio": 134,
   "bolsa": 190
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-2140z",
-   "ronda": "2140z",
-   "hora": "16:42:45",
-   "day": "2026-11-03",
-   "ts": 1793742165.6684694,
-   "side": "up",
-   "prob": 0.774,
-   "precio": 0.77,
-   "qty": 0.05,
-   "fee": 0.0,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 131,
-    "bolsa": 151
-   },
-   "order_id": "DGGSXXM013CT",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 0.0385,
-   "pct_bal": 70.6,
-   "pct_gan": null,
-   "bal_entrada": 0.0545
-  }
- ],
- "heartbeat": 1793742192.6898177,
+ "open": [],
+ "heartbeat": 1793742332.8225555,
  "running": true,
  "stop_file": false
 }
