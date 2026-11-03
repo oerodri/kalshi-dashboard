@@ -1,6 +1,6 @@
 {
- "generated": 1793670640.9425633,
- "generated_et": "2026-11-02 20:50:41 ET",
+ "generated": 1793670768.4621108,
+ "generated_et": "2026-11-02 20:52:49 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 11.69791,
-  "buying_power": 11.69791,
+  "current": 9.65991,
+  "buying_power": 9.65991,
   "in_positions": 0
  },
  "balance_err": null,
@@ -242,19 +242,23 @@
   [
    1793670641,
    11.69791
+  ],
+  [
+   1793670768,
+   9.65991
   ]
  ],
  "totals": {
   "trades": 38,
   "wins": 29,
   "win_pct": 76.3,
-  "gross_pnl": 0.995,
+  "gross_pnl": 0.9949,
   "fees": 1.33,
-  "net_pnl": -0.335
+  "net_pnl": -0.3351
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": -0.335,
+  "pnl": -0.3351,
   "cap_left": 19.66,
   "cap_hit": false
  },
@@ -263,7 +267,8 @@
   "error": 2,
   "gano": 29,
   "nofill": 22,
-  "perdio": 9
+  "perdio": 9,
+  "abierta": 1
  },
  "equity": [
   [
@@ -408,56 +413,82 @@
   ],
   [
    1793660226,
-   -1.0318,
+   -1.0319,
    "2255z"
   ],
   [
    1793660802,
-   0.1545,
+   0.1544,
    "2305z"
   ],
   [
    1793661391,
-   0.4593,
+   0.4592,
    "2315z"
   ],
   [
    1793661704,
-   1.1664,
+   1.1663,
    "2320z"
   ],
   [
    1793662953,
-   1.4441,
+   1.444,
    "2340z"
   ],
   [
    1793663954,
-   2.3775,
+   2.3774,
    "2355z"
   ],
   [
    1793664110,
-   3.1685,
+   3.1684,
    "0000z"
   ],
   [
    1793667138,
-   1.1702,
+   1.1701,
    "0050z"
   ],
   [
    1793667420,
-   -0.8363,
+   -0.8364,
    "0055z"
   ],
   [
    1793670392,
-   -0.335,
+   -0.3351,
    "0145z"
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0150z",
+   "ronda": "0150z",
+   "hora": "20:52:06",
+   "day": "2026-11-02",
+   "ts": 1793670726.0069044,
+   "side": "up",
+   "prob": 0.7269,
+   "precio": 0.74,
+   "qty": 2.7,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 3099,
+    "envio": 150,
+    "bolsa": 133
+   },
+   "order_id": "DFZRWJ4G12VX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.038,
+   "pct_bal": 17.4,
+   "pct_gan": null,
+   "bal_entrada": 11.6979
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0145z",
    "ronda": "0145z",
@@ -1293,7 +1324,7 @@
    "precio": 0.64,
    "qty": 3.03,
    "fee": 0.05,
-   "pnl": -1.9891,
+   "pnl": -1.9892,
    "lat": {
     "llamada": 551,
     "envio": 121,
@@ -2769,12 +2800,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1505,
+  "llamada": 1531,
   "envio": 134,
-  "bolsa": 221
+  "bolsa": 219
  },
- "open": [],
- "heartbeat": 1793670639.0142233,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0150z",
+   "ronda": "0150z",
+   "hora": "20:52:06",
+   "day": "2026-11-02",
+   "ts": 1793670726.0069044,
+   "side": "up",
+   "prob": 0.7269,
+   "precio": 0.74,
+   "qty": 2.7,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 3099,
+    "envio": 150,
+    "bolsa": 133
+   },
+   "order_id": "DFZRWJ4G12VX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.038,
+   "pct_bal": 17.4,
+   "pct_gan": null,
+   "bal_entrada": 11.6979
+  }
+ ],
+ "heartbeat": 1793670761.5833075,
  "running": true,
  "stop_file": false
 }
