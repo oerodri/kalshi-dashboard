@@ -1,6 +1,6 @@
 {
- "generated": 1793686968.2844806,
- "generated_et": "2026-11-03 01:22:49 ET",
+ "generated": 1793687154.0481093,
+ "generated_et": "2026-11-03 01:25:54 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 0.36111,
-  "buying_power": 0.36111,
+  "current": 11.14111,
+  "buying_power": 11.14111,
   "in_positions": 0
  },
  "balance_err": null,
@@ -430,21 +430,25 @@
   [
    1793686968,
    0.36111
+  ],
+  [
+   1793687154,
+   11.14111
   ]
  ],
  "totals": {
-  "trades": 71,
-  "wins": 55,
-  "win_pct": 77.5,
-  "gross_pnl": 2.8434,
-  "fees": 2.34,
-  "net_pnl": 0.5034
+  "trades": 72,
+  "wins": 56,
+  "win_pct": 77.8,
+  "gross_pnl": 5.3484,
+  "fees": 2.37,
+  "net_pnl": 2.9784
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 0.0156,
-  "trades": 14,
-  "wins": 11,
+  "pnl": 2.4906,
+  "trades": 15,
+  "wins": 12,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -452,10 +456,9 @@
  "counts": {
   "saltada": 43,
   "error": 2,
-  "gano": 55,
+  "gano": 56,
   "nofill": 32,
-  "perdio": 16,
-  "abierta": 1
+  "perdio": 16
  },
  "equity": [
   [
@@ -812,6 +815,11 @@
    1793686313,
    0.5034,
    "0610z"
+  ],
+  [
+   1793686940,
+   2.9784,
+   "0620z"
   ]
  ],
  "calls": [
@@ -826,7 +834,7 @@
    "precio": 0.76,
    "qty": 2.56,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 2.475,
    "lat": {
     "llamada": 19371,
     "envio": 140,
@@ -834,11 +842,11 @@
    },
    "order_id": "DG3MK55G12WK",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9756,
    "pct_bal": 22.5,
-   "pct_gan": null,
+   "pct_gan": 125.3,
    "bal_entrada": 8.7661
   },
   {
@@ -1095,7 +1103,7 @@
    "costo": 1.95,
    "pct_bal": 45.0,
    "pct_gan": 31.3,
-   "bal_entrada": 4.3355
+   "bal_entrada": 4.33551
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0525z",
@@ -4516,35 +4524,8 @@
   "envio": 134,
   "bolsa": 221
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0620z",
-   "ronda": "0620z",
-   "hora": "01:22:20",
-   "day": "2026-11-03",
-   "ts": 1793686940.3327022,
-   "side": "up",
-   "prob": 0.7262,
-   "precio": 0.76,
-   "qty": 2.56,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 19371,
-    "envio": 140,
-    "bolsa": 188
-   },
-   "order_id": "DG3MK55G12WK",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9756,
-   "pct_bal": 22.5,
-   "pct_gan": null,
-   "bal_entrada": 8.7661
-  }
- ],
- "heartbeat": 1793686952.1581368,
+ "open": [],
+ "heartbeat": 1793687152.2899368,
  "running": true,
  "stop_file": false
 }
