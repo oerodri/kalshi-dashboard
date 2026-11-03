@@ -1,6 +1,6 @@
 {
- "generated": 1793675844.6494925,
- "generated_et": "2026-11-02 22:17:25 ET",
+ "generated": 1793676030.151137,
+ "generated_et": "2026-11-02 22:20:30 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 8.41261,
-  "buying_power": 8.41261,
+  "current": 11.11261,
+  "buying_power": 11.11261,
   "in_positions": 0
  },
  "balance_err": null,
@@ -282,29 +282,32 @@
   [
    1793675845,
    8.41261
+  ],
+  [
+   1793676030,
+   11.11261
   ]
  ],
  "totals": {
-  "trades": 45,
-  "wins": 34,
-  "win_pct": 75.6,
-  "gross_pnl": -0.1504,
-  "fees": 1.54,
-  "net_pnl": -1.6904
+  "trades": 46,
+  "wins": 35,
+  "win_pct": 76.1,
+  "gross_pnl": 0.6596,
+  "fees": 1.58,
+  "net_pnl": -0.9204
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": -1.6904,
-  "cap_left": 18.31,
+  "pnl": -0.9204,
+  "cap_left": 19.08,
   "cap_hit": false
  },
  "counts": {
   "saltada": 36,
   "error": 2,
-  "gano": 34,
+  "gano": 35,
   "nofill": 28,
-  "perdio": 11,
-  "abierta": 1
+  "perdio": 11
  },
  "equity": [
   [
@@ -531,6 +534,11 @@
    1793675528,
    -1.6904,
    "0310z"
+  ],
+  [
+   1793675793,
+   -0.9204,
+   "0315z"
   ]
  ],
  "calls": [
@@ -545,7 +553,7 @@
    "precio": 0.7,
    "qty": 2.7,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.77,
    "lat": {
     "llamada": 633,
     "envio": 151,
@@ -553,11 +561,11 @@
    },
    "order_id": "DG0ZHQE032WE",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.93,
    "pct_bal": 18.7,
-   "pct_gan": null,
+   "pct_gan": 39.9,
    "bal_entrada": 10.3426
   },
   {
@@ -3301,35 +3309,8 @@
   "envio": 134,
   "bolsa": 209
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0315z",
-   "ronda": "0315z",
-   "hora": "22:16:33",
-   "day": "2026-11-02",
-   "ts": 1793675793.3484516,
-   "side": "up",
-   "prob": 0.7489,
-   "precio": 0.7,
-   "qty": 2.7,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 633,
-    "envio": 151,
-    "bolsa": 210
-   },
-   "order_id": "DG0ZHQE032WE",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.93,
-   "pct_bal": 18.7,
-   "pct_gan": null,
-   "bal_entrada": 10.3426
-  }
- ],
- "heartbeat": 1793675826.3123696,
+ "open": [],
+ "heartbeat": 1793676026.6448996,
  "running": true,
  "stop_file": false
 }
