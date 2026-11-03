@@ -1,6 +1,6 @@
 {
- "generated": 1793680613.869733,
- "generated_et": "2026-11-02 23:36:54 ET",
+ "generated": 1793680860.3080668,
+ "generated_et": "2026-11-02 23:41:01 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 8.91841,
-  "buying_power": 8.91841,
+  "current": 11.41841,
+  "buying_power": 11.41841,
   "in_positions": 0
  },
  "balance_err": null,
@@ -326,32 +326,35 @@
   [
    1793680614,
    8.91841
+  ],
+  [
+   1793680860,
+   11.41841
   ]
  ],
  "totals": {
-  "trades": 53,
-  "wins": 40,
-  "win_pct": 75.5,
-  "gross_pnl": 0.7054,
-  "fees": 1.84,
-  "net_pnl": -1.1346
+  "trades": 54,
+  "wins": 41,
+  "win_pct": 75.9,
+  "gross_pnl": 1.2554,
+  "fees": 1.87,
+  "net_pnl": -0.6146
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": -1.1346,
-  "trades": 53,
-  "wins": 40,
+  "pnl": -0.6146,
+  "trades": 54,
+  "wins": 41,
   "breakeven_pct": 77,
-  "cap_left": 18.87,
+  "cap_left": 19.39,
   "cap_hit": false
  },
  "counts": {
   "saltada": 40,
   "error": 2,
-  "gano": 40,
+  "gano": 41,
   "nofill": 32,
-  "perdio": 13,
-  "abierta": 1
+  "perdio": 13
  },
  "equity": [
   [
@@ -618,6 +621,11 @@
    1793679700,
    -1.1346,
    "0420z"
+  ],
+  [
+   1793680590,
+   -0.6146,
+   "0435z"
   ]
  ],
  "calls": [
@@ -632,7 +640,7 @@
    "precio": 0.78,
    "qty": 2.5,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.52,
    "lat": {
     "llamada": 0,
     "envio": 105,
@@ -640,11 +648,11 @@
    },
    "order_id": "DG244QTG12W4",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.98,
    "pct_bal": 18.2,
-   "pct_gan": null,
+   "pct_gan": 26.3,
    "bal_entrada": 10.8984
   },
   {
@@ -3788,35 +3796,8 @@
   "envio": 133,
   "bolsa": 225
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0435z",
-   "ronda": "0435z",
-   "hora": "23:36:29",
-   "day": "2026-11-02",
-   "ts": 1793680589.8856509,
-   "side": "up",
-   "prob": 0.777,
-   "precio": 0.78,
-   "qty": 2.5,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 105,
-    "bolsa": 173
-   },
-   "order_id": "DG244QTG12W4",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.98,
-   "pct_bal": 18.2,
-   "pct_gan": null,
-   "bal_entrada": 10.8984
-  }
- ],
- "heartbeat": 1793680597.5057733,
+ "open": [],
+ "heartbeat": 1793680857.6824,
  "running": true,
  "stop_file": false
 }
