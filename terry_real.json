@@ -1,6 +1,6 @@
 {
- "generated": 1793727372.886511,
- "generated_et": "2026-11-03 12:36:13 ET",
+ "generated": 1793727441.643754,
+ "generated_et": "2026-11-03 12:37:22 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -1098,7 +1098,7 @@
   "cap_hit": false
  },
  "counts": {
-  "saltada": 58,
+  "saltada": 59,
   "error": 2,
   "gano": 134,
   "nofill": 40,
@@ -1962,6 +1962,28 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1735z",
+   "ronda": "1735z",
+   "hora": "12:37:13",
+   "day": "2026-11-03",
+   "ts": 1793727433.24253,
+   "side": "up",
+   "prob": 0.9056,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": null,
+   "order_id": null,
+   "aviso": null,
+   "out": "saltada",
+   "motivo": "ask 0.91 > max 0.9",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1730z",
    "ronda": "1730z",
@@ -6987,32 +7009,6 @@
    "pct_bal": 13.7,
    "pct_gan": 40.0,
    "bal_entrada": 14.41041
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2355z",
-   "ronda": "2355z",
-   "hora": "18:59:14",
-   "day": "2026-11-02",
-   "ts": 1793663954.355105,
-   "side": "up",
-   "prob": 0.6603,
-   "precio": 0.67,
-   "qty": 2.98,
-   "fee": 0.05,
-   "pnl": 0.9334,
-   "lat": {
-    "llamada": 0,
-    "envio": 129,
-    "bolsa": 144
-   },
-   "order_id": "DFY57AEG12WP",
-   "aviso": null,
-   "out": "gano",
-   "motivo": "Liquidada",
-   "costo": 2.0466,
-   "pct_bal": 15.2,
-   "pct_gan": 45.6,
-   "bal_entrada": 13.47701
   }
  ],
  "lat_avg": {
@@ -7021,7 +7017,7 @@
   "bolsa": 189
  },
  "open": [],
- "heartbeat": 1793727354.0264254,
+ "heartbeat": 1793727434.5077293,
  "running": true,
  "stop_file": false
 }
