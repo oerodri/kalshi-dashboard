@@ -1,6 +1,6 @@
 {
- "generated": 1793676513.3244853,
- "generated_et": "2026-11-02 22:28:34 ET",
+ "generated": 1793676715.0408823,
+ "generated_et": "2026-11-02 22:31:55 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 11.90361,
-  "buying_power": 11.90361,
-  "in_positions": 0
+  "current": 12.72231,
+  "buying_power": 9.95231,
+  "in_positions": 2.77
  },
  "balance_err": null,
  "balance_hist": [
@@ -290,6 +290,10 @@
   [
    1793676155,
    11.90361
+  ],
+  [
+   1793676715,
+   12.72231
   ]
  ],
  "totals": {
@@ -311,7 +315,8 @@
   "error": 2,
   "gano": 36,
   "nofill": 29,
-  "perdio": 11
+  "perdio": 11,
+  "abierta": 1
  },
  "equity": [
   [
@@ -551,6 +556,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0330z",
+   "ronda": "0330z",
+   "hora": "22:31:44",
+   "day": "2026-11-02",
+   "ts": 1793676704.1878347,
+   "side": "down",
+   "prob": 0.7004,
+   "precio": 0.69,
+   "qty": 2.77,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 151,
+    "bolsa": 735
+   },
+   "order_id": "DG16G7B012TT",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9513,
+   "pct_bal": 16.4,
+   "pct_gan": null,
+   "bal_entrada": 11.9036
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0325z",
    "ronda": "0325z",
@@ -1079,7 +1110,7 @@
    "costo": 2.0287,
    "pct_bal": 18.1,
    "pct_gan": 24.7,
-   "bal_entrada": 11.1966
+   "bal_entrada": 11.19661
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0140z",
@@ -3366,12 +3397,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1302,
+  "llamada": 1285,
   "envio": 134,
-  "bolsa": 208
+  "bolsa": 215
  },
- "open": [],
- "heartbeat": 1793676512.6559124,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0330z",
+   "ronda": "0330z",
+   "hora": "22:31:44",
+   "day": "2026-11-02",
+   "ts": 1793676704.1878347,
+   "side": "down",
+   "prob": 0.7004,
+   "precio": 0.69,
+   "qty": 2.77,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 151,
+    "bolsa": 735
+   },
+   "order_id": "DG16G7B012TT",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9513,
+   "pct_bal": 16.4,
+   "pct_gan": null,
+   "bal_entrada": 11.9036
+  }
+ ],
+ "heartbeat": 1793676712.7997591,
  "running": true,
  "stop_file": false
 }
