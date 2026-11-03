@@ -1,6 +1,6 @@
 {
- "generated": 1793681539.4596758,
- "generated_et": "2026-11-02 23:52:20 ET",
+ "generated": 1793681603.546102,
+ "generated_et": "2026-11-02 23:53:24 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 9.46061,
-  "buying_power": 9.46061,
-  "in_positions": 0
+  "current": 12.06481,
+  "buying_power": 9.84481,
+  "in_positions": 2.22
  },
  "balance_err": null,
  "balance_hist": [
@@ -334,6 +334,10 @@
   [
    1793681231,
    9.46061
+  ],
+  [
+   1793681604,
+   12.06481
   ]
  ],
  "totals": {
@@ -358,7 +362,8 @@
   "error": 2,
   "gano": 42,
   "nofill": 32,
-  "perdio": 13
+  "perdio": 13,
+  "abierta": 1
  },
  "equity": [
   [
@@ -638,6 +643,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0450z",
+   "ronda": "0450z",
+   "hora": "23:52:29",
+   "day": "2026-11-02",
+   "ts": 1793681549.8147287,
+   "side": "down",
+   "prob": 0.8628,
+   "precio": 0.89,
+   "qty": 2.22,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 126,
+    "bolsa": 129
+   },
+   "order_id": "DG2BF32G12WK",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9958,
+   "pct_bal": 16.9,
+   "pct_gan": null,
+   "bal_entrada": 11.8406
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0445z",
    "ronda": "0445z",
@@ -1110,7 +1141,7 @@
    "costo": 1.93,
    "pct_bal": 18.7,
    "pct_gan": 39.9,
-   "bal_entrada": 10.3426
+   "bal_entrada": 10.34261
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0310z",
@@ -3849,12 +3880,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1140,
-  "envio": 134,
-  "bolsa": 225
+  "llamada": 1127,
+  "envio": 133,
+  "bolsa": 223
  },
- "open": [],
- "heartbeat": 1793681538.7248538,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0450z",
+   "ronda": "0450z",
+   "hora": "23:52:29",
+   "day": "2026-11-02",
+   "ts": 1793681549.8147287,
+   "side": "down",
+   "prob": 0.8628,
+   "precio": 0.89,
+   "qty": 2.22,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 126,
+    "bolsa": 129
+   },
+   "order_id": "DG2BF32G12WK",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9958,
+   "pct_bal": 16.9,
+   "pct_gan": null,
+   "bal_entrada": 11.8406
+  }
+ ],
+ "heartbeat": 1793681598.768795,
  "running": true,
  "stop_file": false
 }
