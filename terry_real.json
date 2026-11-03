@@ -1,6 +1,6 @@
 {
- "generated": 1793696596.6208954,
- "generated_et": "2026-11-03 04:03:17 ET",
+ "generated": 1793696721.009307,
+ "generated_et": "2026-11-03 04:05:21 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 13.38891,
-  "buying_power": 13.38891,
+  "current": 15.97891,
+  "buying_power": 15.97891,
   "in_positions": 0
  },
  "balance_err": null,
@@ -542,21 +542,25 @@
   [
    1793696533,
    13.38891
+  ],
+  [
+   1793696721,
+   15.97891
   ]
  ],
  "totals": {
-  "trades": 89,
-  "wins": 71,
-  "win_pct": 79.8,
-  "gross_pnl": 8.1722,
-  "fees": 2.89,
-  "net_pnl": 5.2822
+  "trades": 90,
+  "wins": 72,
+  "win_pct": 80.0,
+  "gross_pnl": 8.8456,
+  "fees": 2.92,
+  "net_pnl": 5.9256
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 4.7944,
-  "trades": 32,
-  "wins": 27,
+  "pnl": 5.4378,
+  "trades": 33,
+  "wins": 28,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -564,10 +568,9 @@
  "counts": {
   "saltada": 54,
   "error": 2,
-  "gano": 71,
+  "gano": 72,
   "nofill": 34,
-  "perdio": 18,
-  "abierta": 1
+  "perdio": 18
  },
  "equity": [
   [
@@ -1014,6 +1017,11 @@
    1793695898,
    5.2822,
    "0850z"
+  ],
+  [
+   1793696533,
+   5.9256,
+   "0900z"
   ]
  ],
  "calls": [
@@ -1028,7 +1036,7 @@
    "precio": 0.74,
    "qty": 2.59,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.6434,
    "lat": {
     "llamada": 0,
     "envio": 125,
@@ -1036,11 +1044,11 @@
    },
    "order_id": "DG5XS2PG13D5",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9466,
    "pct_bal": 12.7,
-   "pct_gan": null,
+   "pct_gan": 33.1,
    "bal_entrada": 15.3355
   },
   {
@@ -5480,35 +5488,8 @@
   "envio": 133,
   "bolsa": 211
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0900z",
-   "ronda": "0900z",
-   "hora": "04:02:12",
-   "day": "2026-11-03",
-   "ts": 1793696532.9066496,
-   "side": "up",
-   "prob": 0.7429,
-   "precio": 0.74,
-   "qty": 2.59,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 125,
-    "bolsa": 128
-   },
-   "order_id": "DG5XS2PG13D5",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9466,
-   "pct_bal": 12.7,
-   "pct_gan": null,
-   "bal_entrada": 15.3355
-  }
- ],
- "heartbeat": 1793696585.8734536,
+ "open": [],
+ "heartbeat": 1793696705.9747107,
  "running": true,
  "stop_file": false
 }
