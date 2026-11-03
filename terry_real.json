@@ -1,6 +1,6 @@
 {
- "generated": 1793701241.3024426,
- "generated_et": "2026-11-03 05:20:42 ET",
+ "generated": 1793701671.7766995,
+ "generated_et": "2026-11-03 05:27:52 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 16.35781,
-  "buying_power": 16.35781,
-  "in_positions": 0
+  "current": 16.91101,
+  "buying_power": 14.48101,
+  "in_positions": 2.43
  },
  "balance_err": null,
  "balance_hist": [
@@ -618,6 +618,10 @@
   [
    1793701241,
    16.35781
+  ],
+  [
+   1793701672,
+   16.91101
   ]
  ],
  "totals": {
@@ -642,7 +646,8 @@
   "error": 2,
   "gano": 80,
   "nofill": 37,
-  "perdio": 20
+  "perdio": 20,
+  "abierta": 1
  },
  "equity": [
   [
@@ -1147,6 +1152,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1025z",
+   "ronda": "1025z",
+   "hora": "05:26:52",
+   "day": "2026-11-03",
+   "ts": 1793701612.2140155,
+   "side": "down",
+   "prob": 0.8023,
+   "precio": 0.76,
+   "qty": 2.43,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 118,
+    "bolsa": 132
+   },
+   "order_id": "DG74H4V053D3",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.8768,
+   "pct_bal": 11.5,
+   "pct_gan": null,
+   "bal_entrada": 16.3578
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1015z",
    "ronda": "1015z",
@@ -5966,12 +5997,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 870,
+  "llamada": 864,
   "envio": 133,
   "bolsa": 207
  },
- "open": [],
- "heartbeat": 1793701237.8183804,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1025z",
+   "ronda": "1025z",
+   "hora": "05:26:52",
+   "day": "2026-11-03",
+   "ts": 1793701612.2140155,
+   "side": "down",
+   "prob": 0.8023,
+   "precio": 0.76,
+   "qty": 2.43,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 118,
+    "bolsa": 132
+   },
+   "order_id": "DG74H4V053D3",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.8768,
+   "pct_bal": 11.5,
+   "pct_gan": null,
+   "bal_entrada": 16.3578
+  }
+ ],
+ "heartbeat": 1793701658.350703,
  "running": true,
  "stop_file": false
 }
