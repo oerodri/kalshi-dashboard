@@ -1,6 +1,6 @@
 {
- "generated": 1793700529.1024973,
- "generated_et": "2026-11-03 05:08:49 ET",
+ "generated": 1793700806.5921257,
+ "generated_et": "2026-11-03 05:13:27 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 15.30561,
-  "buying_power": 15.30561,
-  "in_positions": 0
+  "current": 15.94941,
+  "buying_power": 13.31941,
+  "in_positions": 2.63
  },
  "balance_err": null,
  "balance_hist": [
@@ -606,6 +606,10 @@
   [
    1793700064,
    15.30561
+  ],
+  [
+   1793700807,
+   15.94941
   ]
  ],
  "totals": {
@@ -630,7 +634,8 @@
   "error": 2,
   "gano": 78,
   "nofill": 37,
-  "perdio": 20
+  "perdio": 20,
+  "abierta": 1
  },
  "equity": [
   [
@@ -1125,6 +1130,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1010z",
+   "ronda": "1010z",
+   "hora": "05:12:43",
+   "day": "2026-11-03",
+   "ts": 1793700763.1572142,
+   "side": "down",
+   "prob": 0.7078,
+   "precio": 0.74,
+   "qty": 2.63,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 127,
+    "bolsa": 137
+   },
+   "order_id": "DG6Y1VNG13D5",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9862,
+   "pct_bal": 13.0,
+   "pct_gan": null,
+   "bal_entrada": 15.3056
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1005z",
    "ronda": "1005z",
@@ -5892,12 +5923,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 882,
+  "llamada": 876,
   "envio": 133,
-  "bolsa": 208
+  "bolsa": 207
  },
- "open": [],
- "heartbeat": 1793700516.9703119,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1010z",
+   "ronda": "1010z",
+   "hora": "05:12:43",
+   "day": "2026-11-03",
+   "ts": 1793700763.1572142,
+   "side": "down",
+   "prob": 0.7078,
+   "precio": 0.74,
+   "qty": 2.63,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 127,
+    "bolsa": 137
+   },
+   "order_id": "DG6Y1VNG13D5",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9862,
+   "pct_bal": 13.0,
+   "pct_gan": null,
+   "bal_entrada": 15.3056
+  }
+ ],
+ "heartbeat": 1793700797.1966522,
  "running": true,
  "stop_file": false
 }
