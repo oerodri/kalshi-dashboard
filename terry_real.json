@@ -1,6 +1,6 @@
 {
- "generated": 1793732204.928703,
- "generated_et": "2026-11-03 13:56:45 ET",
+ "generated": 1793732416.4721022,
+ "generated_et": "2026-11-03 14:00:17 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 2.94131,
-  "buying_power": 0.70131,
-  "in_positions": 2.24
+  "buying_power": 2.94131,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -1141,18 +1141,18 @@
   ]
  ],
  "totals": {
-  "trades": 181,
-  "wins": 142,
-  "win_pct": 78.5,
-  "gross_pnl": 7.3107,
-  "fees": 5.72,
-  "net_pnl": 1.5907
+  "trades": 182,
+  "wins": 143,
+  "win_pct": 78.6,
+  "gross_pnl": 7.6019,
+  "fees": 5.74,
+  "net_pnl": 1.8619
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 1.1029,
-  "trades": 124,
-  "wins": 98,
+  "pnl": 1.3741,
+  "trades": 125,
+  "wins": 99,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -1160,10 +1160,9 @@
  "counts": {
   "saltada": 59,
   "error": 2,
-  "gano": 142,
+  "gano": 143,
   "nofill": 42,
-  "perdio": 39,
-  "abierta": 1
+  "perdio": 39
  },
  "equity": [
   [
@@ -2070,6 +2069,11 @@
    1793731381,
    1.5907,
    "1840z"
+  ],
+  [
+   1793732190,
+   1.8619,
+   "1855z"
   ]
  ],
  "calls": [
@@ -2084,7 +2088,7 @@
    "precio": 0.87,
    "qty": 2.24,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.2712,
    "lat": {
     "llamada": 0,
     "envio": 130,
@@ -2092,11 +2096,11 @@
    },
    "order_id": "DGEDTBSG13CZ",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9688,
    "pct_bal": 73.7,
-   "pct_gan": null,
+   "pct_gan": 13.8,
    "bal_entrada": 2.6701
   },
   {
@@ -2357,7 +2361,7 @@
    "costo": 1.95,
    "pct_bal": 23.6,
    "pct_gan": 31.3,
-   "bal_entrada": 8.2745
+   "bal_entrada": 8.27451
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1745z",
@@ -7163,35 +7167,8 @@
   "envio": 134,
   "bolsa": 189
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1855z",
-   "ronda": "1855z",
-   "hora": "13:56:29",
-   "day": "2026-11-03",
-   "ts": 1793732189.5623515,
-   "side": "down",
-   "prob": 0.8986,
-   "precio": 0.87,
-   "qty": 2.24,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 130,
-    "bolsa": 246
-   },
-   "order_id": "DGEDTBSG13CZ",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9688,
-   "pct_bal": 73.7,
-   "pct_gan": null,
-   "bal_entrada": 2.6701
-  }
- ],
- "heartbeat": 1793732195.1173646,
+ "open": [],
+ "heartbeat": 1793732415.3009121,
  "running": true,
  "stop_file": false
 }
