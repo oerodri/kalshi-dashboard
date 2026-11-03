@@ -1,6 +1,6 @@
 {
- "generated": 1793685971.7936287,
- "generated_et": "2026-11-03 01:06:12 ET",
+ "generated": 1793686035.2057526,
+ "generated_et": "2026-11-03 01:07:15 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 7.75641,
-  "buying_power": 7.75641,
-  "in_positions": 0
+  "current": 8.37391,
+  "buying_power": 5.78391,
+  "in_positions": 2.59
  },
  "balance_err": null,
  "balance_hist": [
@@ -418,6 +418,10 @@
   [
    1793685786,
    7.75641
+  ],
+  [
+   1793686035,
+   8.37391
   ]
  ],
  "totals": {
@@ -442,7 +446,8 @@
   "error": 2,
   "gano": 53,
   "nofill": 32,
-  "perdio": 16
+  "perdio": 16,
+  "abierta": 1
  },
  "equity": [
   [
@@ -792,6 +797,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0605z",
+   "ronda": "0605z",
+   "hora": "01:06:30",
+   "day": "2026-11-03",
+   "ts": 1793685990.4170768,
+   "side": "down",
+   "prob": 0.7437,
+   "precio": 0.75,
+   "qty": 2.59,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 138,
+    "bolsa": 189
+   },
+   "order_id": "DG3DB7XG12TT",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9725,
+   "pct_bal": 25.4,
+   "pct_gan": null,
+   "bal_entrada": 7.7564
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0600z",
    "ronda": "0600z",
@@ -4389,12 +4420,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 982,
+  "llamada": 972,
   "envio": 134,
-  "bolsa": 223
+  "bolsa": 222
  },
- "open": [],
- "heartbeat": 1793685969.9168463,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0605z",
+   "ronda": "0605z",
+   "hora": "01:06:30",
+   "day": "2026-11-03",
+   "ts": 1793685990.4170768,
+   "side": "down",
+   "prob": 0.7437,
+   "precio": 0.75,
+   "qty": 2.59,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 138,
+    "bolsa": 189
+   },
+   "order_id": "DG3DB7XG12TT",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9725,
+   "pct_bal": 25.4,
+   "pct_gan": null,
+   "bal_entrada": 7.7564
+  }
+ ],
+ "heartbeat": 1793686029.962096,
  "running": true,
  "stop_file": false
 }
