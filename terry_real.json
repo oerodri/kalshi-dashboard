@@ -1,6 +1,6 @@
 {
- "generated": 1793715056.7589083,
- "generated_et": "2026-11-03 09:10:57 ET",
+ "generated": 1793715122.371336,
+ "generated_et": "2026-11-03 09:12:03 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 11.89901,
-  "buying_power": 11.89901,
-  "in_positions": 0
+  "current": 12.67391,
+  "buying_power": 9.86391,
+  "in_positions": 2.81
  },
  "balance_err": null,
  "balance_hist": [
@@ -842,19 +842,23 @@
   [
    1793715057,
    11.89901
+  ],
+  [
+   1793715122,
+   12.67391
   ]
  ],
  "totals": {
   "trades": 136,
   "wins": 107,
   "win_pct": 78.7,
-  "gross_pnl": 6.1459,
+  "gross_pnl": 6.1367,
   "fees": 4.3,
-  "net_pnl": 1.8459
+  "net_pnl": 1.8367
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 1.3581,
+  "pnl": 1.3489,
   "trades": 79,
   "wins": 63,
   "breakeven_pct": 77,
@@ -866,7 +870,8 @@
   "error": 2,
   "gano": 107,
   "nofill": 38,
-  "perdio": 29
+  "perdio": 29,
+  "abierta": 1
  },
  "equity": [
   [
@@ -1501,56 +1506,82 @@
   ],
   [
    1793711206,
-   7.0843,
+   7.0751,
    "1305z"
   ],
   [
    1793711634,
-   7.5249,
+   7.5157,
    "1310z"
   ],
   [
    1793712150,
-   7.8227,
+   7.8135,
    "1320z"
   ],
   [
    1793713039,
-   8.2544,
+   8.2452,
    "1335z"
   ],
   [
    1793713438,
-   6.2704,
+   6.2612,
    "1340z"
   ],
   [
    1793713592,
-   4.3016,
+   4.2924,
    "1345z"
   ],
   [
    1793713911,
-   4.9454,
+   4.9362,
    "1350z"
   ],
   [
    1793714204,
-   2.9729,
+   2.9637,
    "1355z"
   ],
   [
    1793714494,
-   3.8193,
+   3.8101,
    "1400z"
   ],
   [
    1793714850,
-   1.8459,
+   1.8367,
    "1405z"
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1410z",
+   "ronda": "1410z",
+   "hora": "09:11:55",
+   "day": "2026-11-03",
+   "ts": 1793715115.604196,
+   "side": "down",
+   "prob": 0.7012,
+   "precio": 0.71,
+   "qty": 2.81,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 131,
+    "bolsa": 115
+   },
+   "order_id": "DGABHW7013D8",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0351,
+   "pct_bal": 17.1,
+   "pct_gan": null,
+   "bal_entrada": 11.899
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1405z",
    "ronda": "1405z",
@@ -1796,7 +1827,7 @@
    "precio": 0.79,
    "qty": 2.5,
    "fee": 0.03,
-   "pnl": -1.9958,
+   "pnl": -2.005,
    "lat": {
     "llamada": 0,
     "envio": 140,
@@ -1808,7 +1839,7 @@
    "motivo": "Liquidada",
    "costo": 2.005,
    "pct_bal": 10.5,
-   "pct_gan": -99.5,
+   "pct_gan": -100.0,
    "bal_entrada": 19.13321
   },
   {
@@ -6544,41 +6575,42 @@
    "pct_bal": 13.9,
    "pct_gan": -100.0,
    "bal_entrada": 14.56211
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2035z",
-   "ronda": "2035z",
-   "hora": "15:37:47",
-   "day": "2026-11-02",
-   "ts": 1793651867.5341415,
-   "side": "down",
-   "prob": 0.7022,
-   "precio": 0.77,
-   "qty": 2.59,
-   "fee": 0.03,
-   "pnl": 0.5657,
-   "lat": {
-    "llamada": 0,
-    "envio": 133,
-    "bolsa": 199
-   },
-   "order_id": "DFV90EC012VP",
-   "aviso": null,
-   "out": "gano",
-   "motivo": "Liquidada",
-   "costo": 2.0243,
-   "pct_bal": 14.5,
-   "pct_gan": 27.9,
-   "bal_entrada": 13.99641
   }
  ],
  "lat_avg": {
-  "llamada": 689,
+  "llamada": 685,
   "envio": 133,
-  "bolsa": 198
+  "bolsa": 197
  },
- "open": [],
- "heartbeat": 1793715039.7466805,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1410z",
+   "ronda": "1410z",
+   "hora": "09:11:55",
+   "day": "2026-11-03",
+   "ts": 1793715115.604196,
+   "side": "down",
+   "prob": 0.7012,
+   "precio": 0.71,
+   "qty": 2.81,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 131,
+    "bolsa": 115
+   },
+   "order_id": "DGABHW7013D8",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0351,
+   "pct_bal": 17.1,
+   "pct_gan": null,
+   "bal_entrada": 11.899
+  }
+ ],
+ "heartbeat": 1793715119.815134,
  "running": true,
  "stop_file": false
 }
