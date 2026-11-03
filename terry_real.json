@@ -1,6 +1,6 @@
 {
- "generated": 1793710599.9025486,
- "generated_et": "2026-11-03 07:56:40 ET",
+ "generated": 1793710846.9632406,
+ "generated_et": "2026-11-03 08:00:47 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 18.46311,
-  "buying_power": 16.06311,
-  "in_positions": 2.4
+  "buying_power": 18.46311,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -789,18 +789,18 @@
   ]
  ],
  "totals": {
-  "trades": 124,
-  "wins": 100,
-  "win_pct": 80.6,
-  "gross_pnl": 11.904,
-  "fees": 3.92,
-  "net_pnl": 7.984
+  "trades": 125,
+  "wins": 101,
+  "win_pct": 80.8,
+  "gross_pnl": 12.36,
+  "fees": 3.95,
+  "net_pnl": 8.41
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 7.4962,
-  "trades": 67,
-  "wins": 56,
+  "pnl": 7.9222,
+  "trades": 68,
+  "wins": 57,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -808,10 +808,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 100,
+  "gano": 101,
   "nofill": 38,
-  "perdio": 24,
-  "abierta": 1
+  "perdio": 24
  },
  "equity": [
   [
@@ -1433,6 +1432,11 @@
    1793710407,
    7.984,
    "1250z"
+  ],
+  [
+   1793710590,
+   8.41,
+   "1255z"
   ]
  ],
  "calls": [
@@ -1447,7 +1451,7 @@
    "precio": 0.81,
    "qty": 2.4,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.426,
    "lat": {
     "llamada": 0,
     "envio": 106,
@@ -1455,11 +1459,11 @@
    },
    "order_id": "DG990YK013D3",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.974,
    "pct_bal": 10.9,
-   "pct_gan": null,
+   "pct_gan": 21.6,
    "bal_entrada": 18.0371
   },
   {
@@ -6446,35 +6450,8 @@
   "envio": 133,
   "bolsa": 199
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1255z",
-   "ronda": "1255z",
-   "hora": "07:56:29",
-   "day": "2026-11-03",
-   "ts": 1793710589.8417444,
-   "side": "down",
-   "prob": 0.8108,
-   "precio": 0.81,
-   "qty": 2.4,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 106,
-    "bolsa": 132
-   },
-   "order_id": "DG990YK013D3",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.974,
-   "pct_bal": 10.9,
-   "pct_gan": null,
-   "bal_entrada": 18.0371
-  }
- ],
- "heartbeat": 1793710593.0750756,
+ "open": [],
+ "heartbeat": 1793710833.4508438,
  "running": true,
  "stop_file": false
 }
