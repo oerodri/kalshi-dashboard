@@ -1,6 +1,6 @@
 {
- "generated": 1793701055.7531674,
- "generated_et": "2026-11-03 05:17:36 ET",
+ "generated": 1793701241.3024426,
+ "generated_et": "2026-11-03 05:20:42 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 13.97781,
-  "buying_power": 13.97781,
+  "current": 16.35781,
+  "buying_power": 16.35781,
   "in_positions": 0
  },
  "balance_err": null,
@@ -614,21 +614,25 @@
   [
    1793701056,
    13.97781
+  ],
+  [
+   1793701241,
+   16.35781
   ]
  ],
  "totals": {
-  "trades": 99,
-  "wins": 79,
-  "win_pct": 79.8,
-  "gross_pnl": 9.0961,
-  "fees": 3.2,
-  "net_pnl": 5.8961
+  "trades": 100,
+  "wins": 80,
+  "win_pct": 80.0,
+  "gross_pnl": 9.5245,
+  "fees": 3.22,
+  "net_pnl": 6.3045
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 5.4083,
-  "trades": 42,
-  "wins": 35,
+  "pnl": 5.8167,
+  "trades": 43,
+  "wins": 36,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -636,10 +640,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 79,
+  "gano": 80,
   "nofill": 37,
-  "perdio": 20,
-  "abierta": 1
+  "perdio": 20
  },
  "equity": [
   [
@@ -1136,6 +1139,11 @@
    1793700763,
    5.8961,
    "1010z"
+  ],
+  [
+   1793700996,
+   6.3045,
+   "1015z"
   ]
  ],
  "calls": [
@@ -1150,7 +1158,7 @@
    "precio": 0.82,
    "qty": 2.38,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.4084,
    "lat": {
     "llamada": 55,
     "envio": 123,
@@ -1158,11 +1166,11 @@
    },
    "order_id": "DG6ZTT1013D1",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9716,
    "pct_bal": 12.4,
-   "pct_gan": null,
+   "pct_gan": 20.7,
    "bal_entrada": 15.9494
   },
   {
@@ -1497,7 +1505,7 @@
    "costo": 1.9756,
    "pct_bal": 12.4,
    "pct_gan": 29.6,
-   "bal_entrada": 15.9789
+   "bal_entrada": 15.97891
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0900z",
@@ -5962,35 +5970,8 @@
   "envio": 133,
   "bolsa": 207
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1015z",
-   "ronda": "1015z",
-   "hora": "05:16:36",
-   "day": "2026-11-03",
-   "ts": 1793700996.3299336,
-   "side": "up",
-   "prob": 0.8289,
-   "precio": 0.82,
-   "qty": 2.38,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 55,
-    "envio": 123,
-    "bolsa": 226
-   },
-   "order_id": "DG6ZTT1013D1",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9716,
-   "pct_bal": 12.4,
-   "pct_gan": null,
-   "bal_entrada": 15.9494
-  }
- ],
- "heartbeat": 1793701037.384441,
+ "open": [],
+ "heartbeat": 1793701237.8183804,
  "running": true,
  "stop_file": false
 }
