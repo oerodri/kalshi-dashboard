@@ -1,6 +1,6 @@
 {
- "generated": 1793740377.622172,
- "generated_et": "2026-11-03 16:12:58 ET",
+ "generated": 1793740572.9445286,
+ "generated_et": "2026-11-03 16:16:13 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 2.37371,
+  "current": 0.17371,
   "buying_power": 0.17371,
-  "in_positions": 2.2
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -1246,23 +1246,27 @@
   [
    1793740378,
    2.37371
+  ],
+  [
+   1793740573,
+   0.17371
   ]
  ],
  "totals": {
-  "trades": 200,
+  "trades": 201,
   "wins": 158,
-  "win_pct": 79.0,
-  "gross_pnl": 6.8831,
-  "fees": 6.07,
-  "net_pnl": 0.8131
+  "win_pct": 78.6,
+  "gross_pnl": 5.1891,
+  "fees": 6.1,
+  "net_pnl": -0.9109
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 0.3253,
-  "trades": 143,
+  "pnl": -1.3987,
+  "trades": 144,
   "wins": 114,
   "breakeven_pct": 77,
-  "cap_left": 20.0,
+  "cap_left": 18.6,
   "cap_hit": false
  },
  "counts": {
@@ -1270,8 +1274,7 @@
   "error": 2,
   "gano": 158,
   "nofill": 47,
-  "perdio": 42,
-  "abierta": 1
+  "perdio": 43
  },
  "equity": [
   [
@@ -2273,6 +2276,11 @@
    1793739704,
    0.8131,
    "2100z"
+  ],
+  [
+   1793740338,
+   -0.9109,
+   "2110z"
   ]
  ],
  "calls": [
@@ -2287,7 +2295,7 @@
    "precio": 0.77,
    "qty": 2.2,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": -1.724,
    "lat": {
     "llamada": 0,
     "envio": 136,
@@ -2295,11 +2303,11 @@
    },
    "order_id": "DGGBZN3013CX",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 1.724,
    "pct_bal": 90.8,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 1.8977
   },
   {
@@ -7378,35 +7386,8 @@
   "envio": 134,
   "bolsa": 190
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-2110z",
-   "ronda": "2110z",
-   "hora": "16:12:17",
-   "day": "2026-11-03",
-   "ts": 1793740337.7810106,
-   "side": "down",
-   "prob": 0.7719,
-   "precio": 0.77,
-   "qty": 2.2,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 136,
-    "bolsa": 129
-   },
-   "order_id": "DGGBZN3013CX",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.724,
-   "pct_bal": 90.8,
-   "pct_gan": null,
-   "bal_entrada": 1.8977
-  }
- ],
- "heartbeat": 1793740376.3419275,
+ "open": [],
+ "heartbeat": 1793740556.5072553,
  "running": true,
  "stop_file": false
 }
