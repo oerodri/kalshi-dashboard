@@ -1,6 +1,6 @@
 {
- "generated": 1793667182.801518,
- "generated_et": "2026-11-02 19:53:03 ET",
+ "generated": 1793667368.3497496,
+ "generated_et": "2026-11-02 19:56:09 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -229,16 +229,16 @@
   ]
  ],
  "totals": {
-  "trades": 35,
+  "trades": 36,
   "wins": 28,
-  "win_pct": 80.0,
-  "gross_pnl": 4.3985,
-  "fees": 1.23,
-  "net_pnl": 3.1685
+  "win_pct": 77.8,
+  "gross_pnl": 2.4302,
+  "fees": 1.26,
+  "net_pnl": 1.1702
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": 3.1685,
+  "pnl": 1.1702,
   "cap_left": 20.0,
   "cap_hit": false
  },
@@ -247,8 +247,7 @@
   "error": 2,
   "gano": 28,
   "nofill": 16,
-  "perdio": 7,
-  "abierta": 1
+  "perdio": 8
  },
  "equity": [
   [
@@ -425,6 +424,11 @@
    1793664110,
    3.1685,
    "0000z"
+  ],
+  [
+   1793667138,
+   1.1702,
+   "0050z"
   ]
  ],
  "calls": [
@@ -439,7 +443,7 @@
    "precio": 0.81,
    "qty": 2.43,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": -1.9983,
    "lat": {
     "llamada": 7566,
     "envio": 135,
@@ -447,11 +451,11 @@
    },
    "order_id": "DFYXGXSG12WQ",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 1.9983,
    "pct_bal": 13.1,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 15.2014
   },
   {
@@ -2469,35 +2473,8 @@
   "envio": 135,
   "bolsa": 232
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0050z",
-   "ronda": "0050z",
-   "hora": "19:52:18",
-   "day": "2026-11-02",
-   "ts": 1793667138.1805365,
-   "side": "up",
-   "prob": 0.7389,
-   "precio": 0.81,
-   "qty": 2.43,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 7566,
-    "envio": 135,
-    "bolsa": 1380
-   },
-   "order_id": "DFYXGXSG12WQ",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9983,
-   "pct_bal": 13.1,
-   "pct_gan": null,
-   "bal_entrada": 15.2014
-  }
- ],
- "heartbeat": 1793667170.285191,
+ "open": [],
+ "heartbeat": 1793667350.410316,
  "running": true,
  "stop_file": false
 }
