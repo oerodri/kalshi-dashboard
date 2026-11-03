@@ -1,6 +1,6 @@
 {
- "generated": 1793670768.4621108,
- "generated_et": "2026-11-02 20:52:49 ET",
+ "generated": 1793670953.9677095,
+ "generated_et": "2026-11-02 20:55:54 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 9.65991,
-  "buying_power": 9.65991,
+  "current": 12.35991,
+  "buying_power": 12.35991,
   "in_positions": 0
  },
  "balance_err": null,
@@ -246,29 +246,32 @@
   [
    1793670768,
    9.65991
+  ],
+  [
+   1793670954,
+   12.35991
   ]
  ],
  "totals": {
-  "trades": 38,
-  "wins": 29,
-  "win_pct": 76.3,
-  "gross_pnl": 0.9949,
-  "fees": 1.33,
-  "net_pnl": -0.3351
+  "trades": 39,
+  "wins": 30,
+  "win_pct": 76.9,
+  "gross_pnl": 1.6969,
+  "fees": 1.37,
+  "net_pnl": 0.3269
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": -0.3351,
-  "cap_left": 19.66,
+  "pnl": 0.3269,
+  "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
   "saltada": 32,
   "error": 2,
-  "gano": 29,
+  "gano": 30,
   "nofill": 22,
-  "perdio": 9,
-  "abierta": 1
+  "perdio": 9
  },
  "equity": [
   [
@@ -460,6 +463,11 @@
    1793670392,
    -0.3351,
    "0145z"
+  ],
+  [
+   1793670726,
+   0.3269,
+   "0150z"
   ]
  ],
  "calls": [
@@ -474,7 +482,7 @@
    "precio": 0.74,
    "qty": 2.7,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.662,
    "lat": {
     "llamada": 3099,
     "envio": 150,
@@ -482,11 +490,11 @@
    },
    "order_id": "DFZRWJ4G12VX",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.038,
    "pct_bal": 17.4,
-   "pct_gan": null,
+   "pct_gan": 32.5,
    "bal_entrada": 11.6979
   },
   {
@@ -1289,7 +1297,7 @@
    "costo": 1.9837,
    "pct_bal": 18.0,
    "pct_gan": 59.8,
-   "bal_entrada": 11.0011
+   "bal_entrada": 11.00111
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2300z",
@@ -2804,35 +2812,8 @@
   "envio": 134,
   "bolsa": 219
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0150z",
-   "ronda": "0150z",
-   "hora": "20:52:06",
-   "day": "2026-11-02",
-   "ts": 1793670726.0069044,
-   "side": "up",
-   "prob": 0.7269,
-   "precio": 0.74,
-   "qty": 2.7,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 3099,
-    "envio": 150,
-    "bolsa": 133
-   },
-   "order_id": "DFZRWJ4G12VX",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.038,
-   "pct_bal": 17.4,
-   "pct_gan": null,
-   "bal_entrada": 11.6979
-  }
- ],
- "heartbeat": 1793670761.5833075,
+ "open": [],
+ "heartbeat": 1793670941.6929846,
  "running": true,
  "stop_file": false
 }
