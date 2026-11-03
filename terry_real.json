@@ -1,6 +1,6 @@
 {
- "generated": 1793676030.151137,
- "generated_et": "2026-11-02 22:20:30 ET",
+ "generated": 1793676154.841486,
+ "generated_et": "2026-11-02 22:22:35 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 11.11261,
-  "buying_power": 11.11261,
-  "in_positions": 0
+  "current": 11.90361,
+  "buying_power": 9.13361,
+  "in_positions": 2.77
  },
  "balance_err": null,
  "balance_hist": [
@@ -286,6 +286,10 @@
   [
    1793676030,
    11.11261
+  ],
+  [
+   1793676155,
+   11.90361
   ]
  ],
  "totals": {
@@ -307,7 +311,8 @@
   "error": 2,
   "gano": 35,
   "nofill": 28,
-  "perdio": 11
+  "perdio": 11,
+  "abierta": 1
  },
  "equity": [
   [
@@ -542,6 +547,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0320z",
+   "ronda": "0320z",
+   "hora": "22:21:48",
+   "day": "2026-11-02",
+   "ts": 1793676108.3268273,
+   "side": "down",
+   "prob": 0.7026,
+   "precio": 0.7,
+   "qty": 2.77,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 662,
+    "envio": 148,
+    "bolsa": 132
+   },
+   "order_id": "DG11YKK012WA",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.979,
+   "pct_bal": 17.8,
+   "pct_gan": null,
+   "bal_entrada": 11.1126
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0315z",
    "ronda": "0315z",
@@ -1266,7 +1297,7 @@
    "costo": 2.0065,
    "pct_bal": 15.2,
    "pct_gan": -100.0,
-   "bal_entrada": 13.2031
+   "bal_entrada": 13.20311
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0050z",
@@ -3305,12 +3336,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1317,
+  "llamada": 1308,
   "envio": 134,
-  "bolsa": 209
+  "bolsa": 208
  },
- "open": [],
- "heartbeat": 1793676026.6448996,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0320z",
+   "ronda": "0320z",
+   "hora": "22:21:48",
+   "day": "2026-11-02",
+   "ts": 1793676108.3268273,
+   "side": "down",
+   "prob": 0.7026,
+   "precio": 0.7,
+   "qty": 2.77,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 662,
+    "envio": 148,
+    "bolsa": 132
+   },
+   "order_id": "DG11YKK012WA",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.979,
+   "pct_bal": 17.8,
+   "pct_gan": null,
+   "bal_entrada": 11.1126
+  }
+ ],
+ "heartbeat": 1793676147.0825567,
  "running": true,
  "stop_file": false
 }
