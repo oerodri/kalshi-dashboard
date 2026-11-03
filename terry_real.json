@@ -1,6 +1,6 @@
 {
- "generated": 1793730150.7410984,
- "generated_et": "2026-11-03 13:22:31 ET",
+ "generated": 1793730339.9903193,
+ "generated_et": "2026-11-03 13:25:40 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 11.39491,
+  "current": 8.62491,
   "buying_power": 8.62491,
-  "in_positions": 2.77
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -1114,20 +1114,24 @@
   [
    1793730151,
    11.39491
+  ],
+  [
+   1793730340,
+   8.62491
   ]
  ],
  "totals": {
-  "trades": 177,
+  "trades": 178,
   "wins": 140,
-  "win_pct": 79.1,
-  "gross_pnl": 10.2258,
-  "fees": 5.6,
-  "net_pnl": 4.6258
+  "win_pct": 78.7,
+  "gross_pnl": 8.2625,
+  "fees": 5.63,
+  "net_pnl": 2.6325
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 4.138,
-  "trades": 120,
+  "pnl": 2.1447,
+  "trades": 121,
   "wins": 96,
   "breakeven_pct": 77,
   "cap_left": 20.0,
@@ -1138,8 +1142,7 @@
   "error": 2,
   "gano": 140,
   "nofill": 41,
-  "perdio": 37,
-  "abierta": 1
+  "perdio": 38
  },
  "equity": [
   [
@@ -2026,6 +2029,11 @@
    1793729790,
    4.6258,
    "1815z"
+  ],
+  [
+   1793730091,
+   2.6325,
+   "1820z"
   ]
  ],
  "calls": [
@@ -2040,7 +2048,7 @@
    "precio": 0.71,
    "qty": 2.77,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": -1.9933,
    "lat": {
     "llamada": 0,
     "envio": 131,
@@ -2048,11 +2056,11 @@
    },
    "order_id": "DGDXSWK013CX",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 1.9967,
    "pct_bal": 18.8,
-   "pct_gan": null,
+   "pct_gan": -99.8,
    "bal_entrada": 10.6182
   },
   {
@@ -2357,7 +2365,7 @@
    "costo": 1.9688,
    "pct_bal": 18.1,
    "pct_gan": 13.8,
-   "bal_entrada": 10.862
+   "bal_entrada": 10.86201
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1710z",
@@ -7111,35 +7119,8 @@
   "envio": 134,
   "bolsa": 189
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1820z",
-   "ronda": "1820z",
-   "hora": "13:21:30",
-   "day": "2026-11-03",
-   "ts": 1793730090.5275009,
-   "side": "down",
-   "prob": 0.7001,
-   "precio": 0.71,
-   "qty": 2.77,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 131,
-    "bolsa": 184
-   },
-   "order_id": "DGDXSWK013CX",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9967,
-   "pct_bal": 18.8,
-   "pct_gan": null,
-   "bal_entrada": 10.6182
-  }
- ],
- "heartbeat": 1793730139.611316,
+ "open": [],
+ "heartbeat": 1793730339.8079927,
  "running": true,
  "stop_file": false
 }
