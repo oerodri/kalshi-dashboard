@@ -1,6 +1,6 @@
 {
- "generated": 1793703038.027414,
- "generated_et": "2026-11-03 05:50:38 ET",
+ "generated": 1793703162.5960455,
+ "generated_et": "2026-11-03 05:52:43 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 16.45681,
-  "buying_power": 16.45681,
-  "in_positions": 0
+  "current": 16.97681,
+  "buying_power": 14.47681,
+  "in_positions": 2.5
  },
  "balance_err": null,
  "balance_hist": [
@@ -650,6 +650,10 @@
   [
    1793702852,
    16.45681
+  ],
+  [
+   1793703163,
+   16.97681
   ]
  ],
  "totals": {
@@ -674,7 +678,8 @@
   "error": 2,
   "gano": 84,
   "nofill": 37,
-  "perdio": 21
+  "perdio": 21,
+  "abierta": 1
  },
  "equity": [
   [
@@ -1204,6 +1209,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1050z",
+   "ronda": "1050z",
+   "hora": "05:52:30",
+   "day": "2026-11-03",
+   "ts": 1793703150.7362533,
+   "side": "down",
+   "prob": 0.7501,
+   "precio": 0.78,
+   "qty": 2.5,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 128,
+    "bolsa": 174
+   },
+   "order_id": "DG7G8RZ013CX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.98,
+   "pct_bal": 12.0,
+   "pct_gan": null,
+   "bal_entrada": 16.4568
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1045z",
    "ronda": "1045z",
@@ -6153,12 +6184,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 839,
+  "llamada": 833,
   "envio": 133,
   "bolsa": 206
  },
- "open": [],
- "heartbeat": 1793703020.5262182,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1050z",
+   "ronda": "1050z",
+   "hora": "05:52:30",
+   "day": "2026-11-03",
+   "ts": 1793703150.7362533,
+   "side": "down",
+   "prob": 0.7501,
+   "precio": 0.78,
+   "qty": 2.5,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 128,
+    "bolsa": 174
+   },
+   "order_id": "DG7G8RZ013CX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.98,
+   "pct_bal": 12.0,
+   "pct_gan": null,
+   "bal_entrada": 16.4568
+  }
+ ],
+ "heartbeat": 1793703160.8354895,
  "running": true,
  "stop_file": false
 }
