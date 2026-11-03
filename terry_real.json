@@ -1,6 +1,6 @@
 {
- "generated": 1793709356.6973312,
- "generated_et": "2026-11-03 07:35:57 ET",
+ "generated": 1793709481.3139274,
+ "generated_et": "2026-11-03 07:38:02 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 16.32171,
-  "buying_power": 16.32171,
+  "current": 14.33551,
+  "buying_power": 14.33551,
   "in_positions": 0
  },
  "balance_err": null,
@@ -754,6 +754,10 @@
   [
    1793709357,
    16.32171
+  ],
+  [
+   1793709481,
+   14.33551
   ]
  ],
  "totals": {
@@ -778,7 +782,8 @@
   "error": 2,
   "gano": 96,
   "nofill": 38,
-  "perdio": 24
+  "perdio": 24,
+  "abierta": 1
  },
  "equity": [
   [
@@ -1384,6 +1389,32 @@
  ],
  "calls": [
   {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1235z",
+   "ronda": "1235z",
+   "hora": "07:37:12",
+   "day": "2026-11-03",
+   "ts": 1793709432.338583,
+   "side": "up",
+   "prob": 0.7201,
+   "precio": 0.74,
+   "qty": 2.63,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 128,
+    "bolsa": 134
+   },
+   "order_id": "DG906BR013CT",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9862,
+   "pct_bal": 12.2,
+   "pct_gan": null,
+   "bal_entrada": 16.3217
+  },
+  {
    "slug": "cpc-btc-updown-5m-2026-11-03-1230z",
    "ronda": "1230z",
    "hora": "07:31:41",
@@ -1667,7 +1698,7 @@
    "costo": 1.9958,
    "pct_bal": 13.9,
    "pct_gan": 11.2,
-   "bal_entrada": 14.3479
+   "bal_entrada": 14.34791
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1115z",
@@ -6352,41 +6383,42 @@
    "pct_bal": null,
    "pct_gan": null,
    "bal_entrada": null
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-1915z",
-   "ronda": "1915z",
-   "hora": "14:16:34",
-   "day": "2026-11-02",
-   "ts": 1793646994.994004,
-   "side": "up",
-   "prob": 0.7101,
-   "precio": 0.75,
-   "qty": 2.59,
-   "fee": 0.03,
-   "pnl": 0.6175,
-   "lat": {
-    "llamada": 2077,
-    "envio": 126,
-    "bolsa": 119
-   },
-   "order_id": "DFT3TTXG12VP",
-   "aviso": null,
-   "out": "gano",
-   "motivo": "Liquidada",
-   "costo": 1.9725,
-   "pct_bal": 17.8,
-   "pct_gan": 31.3,
-   "bal_entrada": 11.09421
   }
  ],
  "lat_avg": {
-  "llamada": 758,
+  "llamada": 754,
   "envio": 133,
   "bolsa": 200
  },
- "open": [],
- "heartbeat": 1793709350.3330057,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1235z",
+   "ronda": "1235z",
+   "hora": "07:37:12",
+   "day": "2026-11-03",
+   "ts": 1793709432.338583,
+   "side": "up",
+   "prob": 0.7201,
+   "precio": 0.74,
+   "qty": 2.63,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 128,
+    "bolsa": 134
+   },
+   "order_id": "DG906BR013CT",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9862,
+   "pct_bal": 12.2,
+   "pct_gan": null,
+   "bal_entrada": 16.3217
+  }
+ ],
+ "heartbeat": 1793709470.7557206,
  "running": true,
  "stop_file": false
 }
