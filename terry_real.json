@@ -1,6 +1,6 @@
 {
- "generated": 1793680923.9317143,
- "generated_et": "2026-11-02 23:42:04 ET",
+ "generated": 1793681231.334588,
+ "generated_et": "2026-11-02 23:47:12 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 11.41841,
-  "buying_power": 11.41841,
+  "current": 9.46061,
+  "buying_power": 9.46061,
   "in_positions": 0
  },
  "balance_err": null,
@@ -330,6 +330,10 @@
   [
    1793680860,
    11.41841
+  ],
+  [
+   1793681231,
+   9.46061
   ]
  ],
  "totals": {
@@ -354,7 +358,8 @@
   "error": 2,
   "gano": 41,
   "nofill": 32,
-  "perdio": 13
+  "perdio": 13,
+  "abierta": 1
  },
  "equity": [
   [
@@ -629,6 +634,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0445z",
+   "ronda": "0445z",
+   "hora": "23:46:29",
+   "day": "2026-11-02",
+   "ts": 1793681189.62333,
+   "side": "up",
+   "prob": 0.8314,
+   "precio": 0.81,
+   "qty": 2.38,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 146,
+    "bolsa": 170
+   },
+   "order_id": "DG28Q5J012WE",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9578,
+   "pct_bal": 17.1,
+   "pct_gan": null,
+   "bal_entrada": 11.4184
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0440z",
    "ronda": "0440z",
@@ -1101,7 +1132,7 @@
    "costo": 2.0175,
    "pct_bal": 20.2,
    "pct_gan": 16.5,
-   "bal_entrada": 10.0101
+   "bal_entrada": 10.01011
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0305z",
@@ -3814,12 +3845,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1153,
-  "envio": 133,
+  "llamada": 1140,
+  "envio": 134,
   "bolsa": 225
  },
- "open": [],
- "heartbeat": 1793680917.7274642,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0445z",
+   "ronda": "0445z",
+   "hora": "23:46:29",
+   "day": "2026-11-02",
+   "ts": 1793681189.62333,
+   "side": "up",
+   "prob": 0.8314,
+   "precio": 0.81,
+   "qty": 2.38,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 146,
+    "bolsa": 170
+   },
+   "order_id": "DG28Q5J012WE",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9578,
+   "pct_bal": 17.1,
+   "pct_gan": null,
+   "bal_entrada": 11.4184
+  }
+ ],
+ "heartbeat": 1793681218.2104292,
  "running": true,
  "stop_file": false
 }
