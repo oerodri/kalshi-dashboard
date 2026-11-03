@@ -1,6 +1,6 @@
 {
- "generated": 1793699197.0496092,
- "generated_et": "2026-11-03 04:46:37 ET",
+ "generated": 1793699443.863588,
+ "generated_et": "2026-11-03 04:50:44 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 16.66021,
-  "buying_power": 13.96021,
-  "in_positions": 2.7
+  "buying_power": 16.66021,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -593,18 +593,18 @@
   ]
  ],
  "totals": {
-  "trades": 95,
-  "wins": 76,
-  "win_pct": 80.0,
-  "gross_pnl": 8.9409,
-  "fees": 3.05,
-  "net_pnl": 5.8909
+  "trades": 96,
+  "wins": 77,
+  "win_pct": 80.2,
+  "gross_pnl": 9.6969,
+  "fees": 3.09,
+  "net_pnl": 6.6069
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 5.4031,
-  "trades": 38,
-  "wins": 32,
+  "pnl": 6.1191,
+  "trades": 39,
+  "wins": 33,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -612,10 +612,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 76,
+  "gano": 77,
   "nofill": 35,
-  "perdio": 19,
-  "abierta": 1
+  "perdio": 19
  },
  "equity": [
   [
@@ -1092,6 +1091,11 @@
    1793698955,
    5.8909,
    "0940z"
+  ],
+  [
+   1793699194,
+   6.6069,
+   "0945z"
   ]
  ],
  "calls": [
@@ -1106,7 +1110,7 @@
    "precio": 0.72,
    "qty": 2.7,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.716,
    "lat": {
     "llamada": 0,
     "envio": 103,
@@ -1114,11 +1118,11 @@
    },
    "order_id": "DG6J2S1013D1",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.984,
    "pct_bal": 12.4,
-   "pct_gan": null,
+   "pct_gan": 36.1,
    "bal_entrada": 15.9442
   },
   {
@@ -1427,7 +1431,7 @@
    "costo": 2.0351,
    "pct_bal": 15.6,
    "pct_gan": 38.1,
-   "bal_entrada": 13.0536
+   "bal_entrada": 13.05361
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0835z",
@@ -5762,35 +5766,8 @@
   "envio": 133,
   "bolsa": 209
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0945z",
-   "ronda": "0945z",
-   "hora": "04:46:34",
-   "day": "2026-11-03",
-   "ts": 1793699194.0287886,
-   "side": "down",
-   "prob": 0.7211,
-   "precio": 0.72,
-   "qty": 2.7,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 103,
-    "bolsa": 186
-   },
-   "order_id": "DG6J2S1013D1",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.984,
-   "pct_bal": 12.4,
-   "pct_gan": null,
-   "bal_entrada": 15.9442
-  }
- ],
- "heartbeat": 1793699195.5377498,
+ "open": [],
+ "heartbeat": 1793699430.0230837,
  "running": true,
  "stop_file": false
 }
