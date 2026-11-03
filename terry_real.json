@@ -1,6 +1,6 @@
 {
- "generated": 1793710040.417498,
- "generated_et": "2026-11-03 07:47:21 ET",
+ "generated": 1793710226.0256553,
+ "generated_et": "2026-11-03 07:50:26 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 15.44071,
-  "buying_power": 15.44071,
+  "current": 17.79071,
+  "buying_power": 17.79071,
   "in_positions": 0
  },
  "balance_err": null,
@@ -770,21 +770,25 @@
   [
    1793710040,
    15.44071
+  ],
+  [
+   1793710226,
+   17.79071
   ]
  ],
  "totals": {
-  "trades": 122,
-  "wins": 98,
-  "win_pct": 80.3,
-  "gross_pnl": 11.2146,
-  "fees": 3.88,
-  "net_pnl": 7.3346
+  "trades": 123,
+  "wins": 99,
+  "win_pct": 80.5,
+  "gross_pnl": 11.6376,
+  "fees": 3.9,
+  "net_pnl": 7.7376
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 6.8468,
-  "trades": 65,
-  "wins": 54,
+  "pnl": 7.2498,
+  "trades": 66,
+  "wins": 55,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -792,10 +796,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 98,
+  "gano": 99,
   "nofill": 38,
-  "perdio": 24,
-  "abierta": 1
+  "perdio": 24
  },
  "equity": [
   [
@@ -1407,6 +1410,11 @@
    1793709691,
    7.3346,
    "1240z"
+  ],
+  [
+   1793710002,
+   7.7376,
+   "1245z"
   ]
  ],
  "calls": [
@@ -1421,7 +1429,7 @@
    "precio": 0.82,
    "qty": 2.35,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.403,
    "lat": {
     "llamada": 0,
     "envio": 138,
@@ -1429,11 +1437,11 @@
    },
    "order_id": "DG94HE8013D5",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.947,
    "pct_bal": 11.2,
-   "pct_gan": null,
+   "pct_gan": 20.7,
    "bal_entrada": 17.3877
   },
   {
@@ -6420,35 +6428,8 @@
   "envio": 133,
   "bolsa": 199
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1245z",
-   "ronda": "1245z",
-   "hora": "07:46:41",
-   "day": "2026-11-03",
-   "ts": 1793710001.9978404,
-   "side": "up",
-   "prob": 0.834,
-   "precio": 0.82,
-   "qty": 2.35,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 138,
-    "bolsa": 128
-   },
-   "order_id": "DG94HE8013D5",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.947,
-   "pct_bal": 11.2,
-   "pct_gan": null,
-   "bal_entrada": 17.3877
-  }
- ],
- "heartbeat": 1793710032.4300385,
+ "open": [],
+ "heartbeat": 1793710212.5716486,
  "running": true,
  "stop_file": false
 }
