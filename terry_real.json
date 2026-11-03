@@ -1,6 +1,6 @@
 {
- "generated": 1793689963.8846858,
- "generated_et": "2026-11-03 02:12:44 ET",
+ "generated": 1793690151.5151489,
+ "generated_et": "2026-11-03 02:15:52 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 11.74181,
+  "current": 8.80181,
   "buying_power": 8.80181,
-  "in_positions": 2.94
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -462,20 +462,24 @@
   [
    1793689964,
    11.74181
+  ],
+  [
+   1793690152,
+   8.80181
   ]
  ],
  "totals": {
-  "trades": 76,
+  "trades": 77,
   "wins": 59,
-  "win_pct": 77.6,
-  "gross_pnl": 4.9819,
-  "fees": 2.47,
-  "net_pnl": 2.5119
+  "win_pct": 76.6,
+  "gross_pnl": 3.1591,
+  "fees": 2.52,
+  "net_pnl": 0.6391
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 2.0241,
-  "trades": 19,
+  "pnl": 0.1513,
+  "trades": 20,
   "wins": 15,
   "breakeven_pct": 77,
   "cap_left": 20.0,
@@ -486,8 +490,7 @@
   "error": 2,
   "gano": 59,
   "nofill": 32,
-  "perdio": 17,
-  "abierta": 1
+  "perdio": 18
  },
  "equity": [
   [
@@ -869,6 +872,11 @@
    1793689290,
    2.5119,
    "0700z"
+  ],
+  [
+   1793689904,
+   0.6391,
+   "0710z"
   ]
  ],
  "calls": [
@@ -883,7 +891,7 @@
    "precio": 0.62,
    "qty": 2.94,
    "fee": 0.05,
-   "pnl": null,
+   "pnl": -1.8728,
    "lat": {
     "llamada": 0,
     "envio": 122,
@@ -891,11 +899,11 @@
    },
    "order_id": "DG4B6KK053CT",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 1.8728,
    "pct_bal": 17.5,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 10.6746
   },
   {
@@ -1240,7 +1248,7 @@
    "costo": 1.974,
    "pct_bal": 28.5,
    "pct_gan": 23.1,
-   "bal_entrada": 6.9208
+   "bal_entrada": 6.92081
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0550z",
@@ -4791,35 +4799,8 @@
   "envio": 134,
   "bolsa": 219
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0710z",
-   "ronda": "0710z",
-   "hora": "02:11:43",
-   "day": "2026-11-03",
-   "ts": 1793689903.548956,
-   "side": "down",
-   "prob": 0.7036,
-   "precio": 0.62,
-   "qty": 2.94,
-   "fee": 0.05,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 122,
-    "bolsa": 239
-   },
-   "order_id": "DG4B6KK053CT",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.8728,
-   "pct_bal": 17.5,
-   "pct_gan": null,
-   "bal_entrada": 10.6746
-  }
- ],
- "heartbeat": 1793689955.9925487,
+ "open": [],
+ "heartbeat": 1793690136.1002474,
  "running": true,
  "stop_file": false
 }
