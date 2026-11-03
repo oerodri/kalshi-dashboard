@@ -1,6 +1,6 @@
 {
- "generated": 1793670394.5977485,
- "generated_et": "2026-11-02 20:46:35 ET",
+ "generated": 1793670640.9425633,
+ "generated_et": "2026-11-02 20:50:41 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 9.16791,
-  "buying_power": 9.16791,
+  "current": 11.69791,
+  "buying_power": 11.69791,
   "in_positions": 0
  },
  "balance_err": null,
@@ -238,29 +238,32 @@
   [
    1793670395,
    9.16791
+  ],
+  [
+   1793670641,
+   11.69791
   ]
  ],
  "totals": {
-  "trades": 37,
-  "wins": 28,
-  "win_pct": 75.7,
-  "gross_pnl": 0.4637,
-  "fees": 1.3,
-  "net_pnl": -0.8363
+  "trades": 38,
+  "wins": 29,
+  "win_pct": 76.3,
+  "gross_pnl": 0.995,
+  "fees": 1.33,
+  "net_pnl": -0.335
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": -0.8363,
-  "cap_left": 19.16,
+  "pnl": -0.335,
+  "cap_left": 19.66,
   "cap_hit": false
  },
  "counts": {
   "saltada": 32,
   "error": 2,
-  "gano": 28,
+  "gano": 29,
   "nofill": 22,
-  "perdio": 9,
-  "abierta": 1
+  "perdio": 9
  },
  "equity": [
   [
@@ -447,6 +450,11 @@
    1793667420,
    -0.8363,
    "0055z"
+  ],
+  [
+   1793670392,
+   -0.335,
+   "0145z"
   ]
  ],
  "calls": [
@@ -461,7 +469,7 @@
    "precio": 0.79,
    "qty": 2.53,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.5013,
    "lat": {
     "llamada": 1660,
     "envio": 95,
@@ -469,11 +477,11 @@
    },
    "order_id": "DFZPAXEGB2TT",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.0287,
    "pct_bal": 18.1,
-   "pct_gan": null,
+   "pct_gan": 24.7,
    "bal_entrada": 11.1966
   },
   {
@@ -1283,7 +1291,7 @@
    "side": "down",
    "prob": 0.6723,
    "precio": 0.64,
-   "qty": 3.02,
+   "qty": 3.03,
    "fee": 0.05,
    "pnl": -1.9891,
    "lat": {
@@ -1295,10 +1303,10 @@
    "aviso": null,
    "out": "perdio",
    "motivo": "Liquidada",
-   "costo": 1.9828,
+   "costo": 1.9892,
    "pct_bal": 15.3,
-   "pct_gan": -100.3,
-   "bal_entrada": 12.9839
+   "pct_gan": -100.0,
+   "bal_entrada": 12.99021
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2250z",
@@ -2765,35 +2773,8 @@
   "envio": 134,
   "bolsa": 221
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0145z",
-   "ronda": "0145z",
-   "hora": "20:46:31",
-   "day": "2026-11-02",
-   "ts": 1793670391.6523385,
-   "side": "up",
-   "prob": 0.7862,
-   "precio": 0.79,
-   "qty": 2.53,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 1660,
-    "envio": 95,
-    "bolsa": 118
-   },
-   "order_id": "DFZPAXEGB2TT",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0287,
-   "pct_bal": 18.1,
-   "pct_gan": null,
-   "bal_entrada": 11.1966
-  }
- ],
- "heartbeat": 1793670393.0709012,
+ "open": [],
+ "heartbeat": 1793670639.0142233,
  "running": true,
  "stop_file": false
 }
