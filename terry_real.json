@@ -1,6 +1,6 @@
 {
- "generated": 1793699008.9777684,
- "generated_et": "2026-11-03 04:43:29 ET",
+ "generated": 1793699133.638456,
+ "generated_et": "2026-11-03 04:45:34 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 18.53421,
+  "current": 15.94421,
   "buying_power": 15.94421,
-  "in_positions": 2.59
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -582,20 +582,24 @@
   [
    1793699009,
    18.53421
+  ],
+  [
+   1793699134,
+   15.94421
   ]
  ],
  "totals": {
-  "trades": 94,
+  "trades": 95,
   "wins": 76,
-  "win_pct": 80.9,
-  "gross_pnl": 10.8834,
-  "fees": 3.02,
-  "net_pnl": 7.8634
+  "win_pct": 80.0,
+  "gross_pnl": 8.9409,
+  "fees": 3.05,
+  "net_pnl": 5.8909
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 7.3756,
-  "trades": 37,
+  "pnl": 5.4031,
+  "trades": 38,
   "wins": 32,
   "breakeven_pct": 77,
   "cap_left": 20.0,
@@ -606,8 +610,7 @@
   "error": 2,
   "gano": 76,
   "nofill": 35,
-  "perdio": 18,
-  "abierta": 1
+  "perdio": 19
  },
  "equity": [
   [
@@ -1079,6 +1082,11 @@
    1793698369,
    7.8634,
    "0930z"
+  ],
+  [
+   1793698955,
+   5.8909,
+   "0940z"
   ]
  ],
  "calls": [
@@ -1093,7 +1101,7 @@
    "precio": 0.75,
    "qty": 2.59,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": -1.9725,
    "lat": {
     "llamada": 0,
     "envio": 145,
@@ -1101,11 +1109,11 @@
    },
    "order_id": "DG6G8FF013CX",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 1.9725,
    "pct_bal": 11.0,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 17.9167
   },
   {
@@ -1414,7 +1422,7 @@
    "costo": 2.0012,
    "pct_bal": 16.0,
    "pct_gan": 27.9,
-   "bal_entrada": 12.4948
+   "bal_entrada": 12.49481
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0830z",
@@ -5723,35 +5731,8 @@
   "envio": 133,
   "bolsa": 210
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0940z",
-   "ronda": "0940z",
-   "hora": "04:42:35",
-   "day": "2026-11-03",
-   "ts": 1793698955.2514937,
-   "side": "down",
-   "prob": 0.7053,
-   "precio": 0.75,
-   "qty": 2.59,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 145,
-    "bolsa": 130
-   },
-   "order_id": "DG6G8FF013CX",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9725,
-   "pct_bal": 11.0,
-   "pct_gan": null,
-   "bal_entrada": 17.9167
-  }
- ],
- "heartbeat": 1793699009.475694,
+ "open": [],
+ "heartbeat": 1793699129.582303,
  "running": true,
  "stop_file": false
 }
