@@ -1,6 +1,6 @@
 {
- "generated": 1793718231.7617838,
- "generated_et": "2026-11-03 10:03:52 ET",
+ "generated": 1793718364.0594,
+ "generated_et": "2026-11-03 10:06:04 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 14.80731,
-  "buying_power": 12.10731,
-  "in_positions": 2.7
+  "buying_power": 14.80731,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -909,18 +909,18 @@
   ]
  ],
  "totals": {
-  "trades": 145,
-  "wins": 115,
-  "win_pct": 79.3,
-  "gross_pnl": 8.6071,
-  "fees": 4.58,
-  "net_pnl": 4.0271
+  "trades": 146,
+  "wins": 116,
+  "win_pct": 79.5,
+  "gross_pnl": 9.3461,
+  "fees": 4.61,
+  "net_pnl": 4.7361
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 3.5393,
-  "trades": 88,
-  "wins": 71,
+  "pnl": 4.2483,
+  "trades": 89,
+  "wins": 72,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -928,10 +928,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 115,
+  "gano": 116,
   "nofill": 39,
-  "perdio": 30,
-  "abierta": 1
+  "perdio": 30
  },
  "equity": [
   [
@@ -1658,6 +1657,11 @@
    1793717830,
    4.0271,
    "1455z"
+  ],
+  [
+   1793718204,
+   4.7361,
+   "1500z"
   ]
  ],
  "calls": [
@@ -1672,7 +1676,7 @@
    "precio": 0.73,
    "qty": 2.7,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.709,
    "lat": {
     "llamada": 0,
     "envio": 146,
@@ -1680,11 +1684,11 @@
    },
    "order_id": "DGB33W4013D3",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.001,
    "pct_bal": 14.2,
-   "pct_gan": null,
+   "pct_gan": 35.4,
    "bal_entrada": 14.0983
   },
   {
@@ -1945,7 +1949,7 @@
    "costo": 2.0351,
    "pct_bal": 17.1,
    "pct_gan": -100.0,
-   "bal_entrada": 11.899
+   "bal_entrada": 11.89901
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1405z",
@@ -6699,35 +6703,8 @@
   "envio": 133,
   "bolsa": 194
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1500z",
-   "ronda": "1500z",
-   "hora": "10:03:23",
-   "day": "2026-11-03",
-   "ts": 1793718203.941127,
-   "side": "down",
-   "prob": 0.7023,
-   "precio": 0.73,
-   "qty": 2.7,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 146,
-    "bolsa": 128
-   },
-   "order_id": "DGB33W4013D3",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.001,
-   "pct_bal": 14.2,
-   "pct_gan": null,
-   "bal_entrada": 14.0983
-  }
- ],
- "heartbeat": 1793718220.434416,
+ "open": [],
+ "heartbeat": 1793718360.5589259,
  "running": true,
  "stop_file": false
 }
