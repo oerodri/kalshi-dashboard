@@ -1,6 +1,6 @@
 {
- "generated": 1793687527.267057,
- "generated_et": "2026-11-03 01:32:08 ET",
+ "generated": 1793687834.902858,
+ "generated_et": "2026-11-03 01:37:15 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 11.43891,
-  "buying_power": 11.43891,
+  "current": 9.46261,
+  "buying_power": 9.46261,
   "in_positions": 0
  },
  "balance_err": null,
@@ -442,6 +442,10 @@
   [
    1793687464,
    11.43891
+  ],
+  [
+   1793687835,
+   9.46261
   ]
  ],
  "totals": {
@@ -466,7 +470,8 @@
   "error": 2,
   "gano": 57,
   "nofill": 32,
-  "perdio": 16
+  "perdio": 16,
+  "abierta": 1
  },
  "equity": [
   [
@@ -836,6 +841,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0635z",
+   "ronda": "0635z",
+   "hora": "01:36:41",
+   "day": "2026-11-03",
+   "ts": 1793687801.543492,
+   "side": "up",
+   "prob": 0.7143,
+   "precio": 0.67,
+   "qty": 2.89,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 148,
+    "bolsa": 265
+   },
+   "order_id": "DG3V5D4G52WP",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9763,
+   "pct_bal": 17.3,
+   "pct_gan": null,
+   "bal_entrada": 11.4389
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0630z",
    "ronda": "0630z",
@@ -4581,12 +4612,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1129,
+  "llamada": 1118,
   "envio": 134,
-  "bolsa": 220
+  "bolsa": 221
  },
- "open": [],
- "heartbeat": 1793687512.7249503,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0635z",
+   "ronda": "0635z",
+   "hora": "01:36:41",
+   "day": "2026-11-03",
+   "ts": 1793687801.543492,
+   "side": "up",
+   "prob": 0.7143,
+   "precio": 0.67,
+   "qty": 2.89,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 148,
+    "bolsa": 265
+   },
+   "order_id": "DG3V5D4G52WP",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9763,
+   "pct_bal": 17.3,
+   "pct_gan": null,
+   "bal_entrada": 11.4389
+  }
+ ],
+ "heartbeat": 1793687833.2647202,
  "running": true,
  "stop_file": false
 }
