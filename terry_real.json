@@ -1,6 +1,6 @@
 {
- "generated": 1793731748.81221,
- "generated_et": "2026-11-03 13:49:09 ET",
+ "generated": 1793732204.928703,
+ "generated_et": "2026-11-03 13:56:45 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 2.67011,
-  "buying_power": 2.67011,
-  "in_positions": 0
+  "current": 2.94131,
+  "buying_power": 0.70131,
+  "in_positions": 2.24
  },
  "balance_err": null,
  "balance_hist": [
@@ -1134,6 +1134,10 @@
   [
    1793731439,
    2.67011
+  ],
+  [
+   1793732205,
+   2.94131
   ]
  ],
  "totals": {
@@ -1158,7 +1162,8 @@
   "error": 2,
   "gano": 142,
   "nofill": 42,
-  "perdio": 39
+  "perdio": 39,
+  "abierta": 1
  },
  "equity": [
   [
@@ -2068,6 +2073,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1855z",
+   "ronda": "1855z",
+   "hora": "13:56:29",
+   "day": "2026-11-03",
+   "ts": 1793732189.5623515,
+   "side": "down",
+   "prob": 0.8986,
+   "precio": 0.87,
+   "qty": 2.24,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 130,
+    "bolsa": 246
+   },
+   "order_id": "DGEDTBSG13CZ",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9688,
+   "pct_bal": 73.7,
+   "pct_gan": null,
+   "bal_entrada": 2.6701
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1845z",
    "ronda": "1845z",
@@ -7125,37 +7156,42 @@
    "pct_bal": null,
    "pct_gan": null,
    "bal_entrada": null
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0100z",
-   "ronda": "0100z",
-   "hora": "20:02:30",
-   "day": "2026-11-02",
-   "ts": 1793667750.86023,
-   "side": "up",
-   "prob": 0.6583,
-   "precio": null,
-   "qty": null,
-   "fee": null,
-   "pnl": null,
-   "lat": null,
-   "order_id": null,
-   "aviso": null,
-   "out": "saltada",
-   "motivo": "prob 0.6583<0.66",
-   "costo": null,
-   "pct_bal": null,
-   "pct_gan": null,
-   "bal_entrada": null
   }
  ],
  "lat_avg": {
-  "llamada": 555,
+  "llamada": 553,
   "envio": 134,
   "bolsa": 189
  },
- "open": [],
- "heartbeat": 1793731734.711725,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1855z",
+   "ronda": "1855z",
+   "hora": "13:56:29",
+   "day": "2026-11-03",
+   "ts": 1793732189.5623515,
+   "side": "down",
+   "prob": 0.8986,
+   "precio": 0.87,
+   "qty": 2.24,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 130,
+    "bolsa": 246
+   },
+   "order_id": "DGEDTBSG13CZ",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9688,
+   "pct_bal": 73.7,
+   "pct_gan": null,
+   "bal_entrada": 2.6701
+  }
+ ],
+ "heartbeat": 1793732195.1173646,
  "running": true,
  "stop_file": false
 }
