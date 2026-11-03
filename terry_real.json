@@ -1,6 +1,6 @@
 {
- "generated": 1793741524.8478122,
- "generated_et": "2026-11-03 16:32:05 ET",
+ "generated": 1793741728.494858,
+ "generated_et": "2026-11-03 16:35:29 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 0.02251,
-  "buying_power": 0.02251,
+  "current": 0.04251,
+  "buying_power": 0.04251,
   "in_positions": 0
  },
  "balance_err": null,
@@ -1270,21 +1270,25 @@
   [
    1793741525,
    0.02251
+  ],
+  [
+   1793741728,
+   0.04251
   ]
  ],
  "totals": {
-  "trades": 204,
-  "wins": 160,
-  "win_pct": 78.4,
-  "gross_pnl": 5.0505,
+  "trades": 205,
+  "wins": 161,
+  "win_pct": 78.5,
+  "gross_pnl": 5.0489,
   "fees": 6.1,
-  "net_pnl": -1.0495
+  "net_pnl": -1.0511
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": -1.5373,
-  "trades": 147,
-  "wins": 116,
+  "pnl": -1.5389,
+  "trades": 148,
+  "wins": 117,
   "breakeven_pct": 77,
   "cap_left": 18.46,
   "cap_hit": false
@@ -1292,10 +1296,9 @@
  "counts": {
   "saltada": 62,
   "error": 2,
-  "gano": 160,
+  "gano": 161,
   "nofill": 47,
-  "perdio": 44,
-  "abierta": 1
+  "perdio": 44
  },
  "equity": [
   [
@@ -2270,53 +2273,58 @@
   ],
   [
    1793738222,
-   -0.6174,
+   -0.6218,
    "2035z"
   ],
   [
    1793738529,
-   -0.4735,
+   -0.4779,
    "2040z"
   ],
   [
    1793738802,
-   -0.2631,
+   -0.2675,
    "2045z"
   ],
   [
    1793739186,
-   -0.0751,
+   -0.0795,
    "2050z"
   ],
   [
    1793739409,
-   0.3469,
+   0.3425,
    "2055z"
   ],
   [
    1793739704,
-   0.8085,
+   0.8041,
    "2100z"
   ],
   [
    1793740338,
-   -0.9155,
+   -0.9199,
    "2110z"
   ],
   [
    1793740649,
-   -0.8661,
+   -0.8705,
    "2115z"
   ],
   [
    1793740892,
-   -0.8325,
+   -0.8369,
    "2120z"
   ],
   [
    1793741220,
-   -1.0495,
+   -1.0539,
    "2125z"
+  ],
+  [
+   1793741492,
+   -1.0511,
+   "2130z"
   ]
  ],
  "calls": [
@@ -2331,7 +2339,7 @@
    "precio": 0.86,
    "qty": 0.02,
    "fee": 0.0,
-   "pnl": null,
+   "pnl": 0.0028,
    "lat": {
     "llamada": 0,
     "envio": 130,
@@ -2339,12 +2347,12 @@
    },
    "order_id": "DGGMSAN013D9",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 0.0172,
-   "pct_bal": 43.3,
-   "pct_gan": null,
-   "bal_entrada": 0.0397
+   "pct_bal": 30.2,
+   "pct_gan": 16.3,
+   "bal_entrada": 0.0569
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2125z",
@@ -2368,9 +2376,9 @@
    "out": "perdio",
    "motivo": "Liquidada",
    "costo": 0.217,
-   "pct_bal": 45.8,
+   "pct_bal": 44.2,
    "pct_gan": -100.0,
-   "bal_entrada": 0.4737
+   "bal_entrada": 0.4909
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2120z",
@@ -2394,9 +2402,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.1764,
-   "pct_bal": 28.6,
+   "pct_bal": 27.8,
    "pct_gan": 19.0,
-   "bal_entrada": 0.6165
+   "bal_entrada": 0.6337
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2115z",
@@ -2420,9 +2428,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.1406,
-   "pct_bal": 19.9,
+   "pct_bal": 19.4,
    "pct_gan": 35.1,
-   "bal_entrada": 0.7077
+   "bal_entrada": 0.7249
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2110z",
@@ -2446,9 +2454,9 @@
    "out": "perdio",
    "motivo": "Liquidada",
    "costo": 1.724,
-   "pct_bal": 70.9,
+   "pct_bal": 70.4,
    "pct_gan": -100.0,
-   "bal_entrada": 2.4317
+   "bal_entrada": 2.4489
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2105z",
@@ -2494,9 +2502,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 1.2584,
-   "pct_bal": 63.9,
+   "pct_bal": 63.3,
    "pct_gan": 36.7,
-   "bal_entrada": 1.9701
+   "bal_entrada": 1.9873
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2055z",
@@ -2520,9 +2528,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.878,
-   "pct_bal": 56.7,
+   "pct_bal": 56.1,
    "pct_gan": 48.1,
-   "bal_entrada": 1.5481
+   "bal_entrada": 1.5653
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2050z",
@@ -2546,9 +2554,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.712,
-   "pct_bal": 52.3,
+   "pct_bal": 51.7,
    "pct_gan": 26.4,
-   "bal_entrada": 1.3601
+   "bal_entrada": 1.3773
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2045z",
@@ -2572,9 +2580,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.5496,
-   "pct_bal": 47.8,
+   "pct_bal": 47.1,
    "pct_gan": 38.3,
-   "bal_entrada": 1.1497
+   "bal_entrada": 1.1669
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2040z",
@@ -2598,9 +2606,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.4261,
-   "pct_bal": 42.4,
+   "pct_bal": 41.7,
    "pct_gan": 33.8,
-   "bal_entrada": 1.0058
+   "bal_entrada": 1.023
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2035z",
@@ -2613,7 +2621,7 @@
    "precio": 0.81,
    "qty": 0.41,
    "fee": 0.0,
-   "pnl": 0.0779,
+   "pnl": 0.0735,
    "lat": {
     "llamada": 0,
     "envio": 103,
@@ -2625,7 +2633,7 @@
    "motivo": "Liquidada",
    "costo": 0.3321,
    "pct_bal": 84.3,
-   "pct_gan": 23.5,
+   "pct_gan": 22.1,
    "bal_entrada": 0.39391
   },
   {
@@ -7426,35 +7434,8 @@
   "envio": 134,
   "bolsa": 190
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-2130z",
-   "ronda": "2130z",
-   "hora": "16:31:31",
-   "day": "2026-11-03",
-   "ts": 1793741491.5251384,
-   "side": "up",
-   "prob": 0.8706,
-   "precio": 0.86,
-   "qty": 0.02,
-   "fee": 0.0,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 130,
-    "bolsa": 126
-   },
-   "order_id": "DGGMSAN013D9",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 0.0172,
-   "pct_bal": 43.3,
-   "pct_gan": null,
-   "bal_entrada": 0.0397
-  }
- ],
- "heartbeat": 1793741509.2818942,
+ "open": [],
+ "heartbeat": 1793741709.703591,
  "running": true,
  "stop_file": false
 }
