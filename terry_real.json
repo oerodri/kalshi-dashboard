@@ -1,6 +1,6 @@
 {
- "generated": 1793687217.4623737,
- "generated_et": "2026-11-03 01:26:58 ET",
+ "generated": 1793687463.8993762,
+ "generated_et": "2026-11-03 01:31:04 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 9.16891,
-  "buying_power": 9.16891,
+  "current": 11.43891,
+  "buying_power": 11.43891,
   "in_positions": 0
  },
  "balance_err": null,
@@ -438,21 +438,25 @@
   [
    1793687217,
    9.16891
+  ],
+  [
+   1793687464,
+   11.43891
   ]
  ],
  "totals": {
-  "trades": 72,
-  "wins": 56,
-  "win_pct": 77.8,
-  "gross_pnl": 5.3484,
-  "fees": 2.37,
-  "net_pnl": 2.9784
+  "trades": 73,
+  "wins": 57,
+  "win_pct": 78.1,
+  "gross_pnl": 5.6662,
+  "fees": 2.39,
+  "net_pnl": 3.2762
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 2.4906,
-  "trades": 15,
-  "wins": 12,
+  "pnl": 2.7884,
+  "trades": 16,
+  "wins": 13,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -460,10 +464,9 @@
  "counts": {
   "saltada": 43,
   "error": 2,
-  "gano": 56,
+  "gano": 57,
   "nofill": 32,
-  "perdio": 16,
-  "abierta": 1
+  "perdio": 16
  },
  "equity": [
   [
@@ -825,6 +828,11 @@
    1793686940,
    2.9784,
    "0620z"
+  ],
+  [
+   1793687190,
+   3.2762,
+   "0625z"
   ]
  ],
  "calls": [
@@ -839,7 +847,7 @@
    "precio": 0.86,
    "qty": 2.27,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.2978,
    "lat": {
     "llamada": 0,
     "envio": 134,
@@ -847,11 +855,11 @@
    },
    "order_id": "DG3PG33012TT",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9722,
    "pct_bal": 17.7,
-   "pct_gan": null,
+   "pct_gan": 15.1,
    "bal_entrada": 11.1411
   },
   {
@@ -1108,7 +1116,7 @@
    "costo": 1.9862,
    "pct_bal": 40.2,
    "pct_gan": 32.4,
-   "bal_entrada": 4.9455
+   "bal_entrada": 4.94551
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0530z",
@@ -4555,35 +4563,8 @@
   "envio": 134,
   "bolsa": 220
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0625z",
-   "ronda": "0625z",
-   "hora": "01:26:30",
-   "day": "2026-11-03",
-   "ts": 1793687190.0078263,
-   "side": "up",
-   "prob": 0.872,
-   "precio": 0.86,
-   "qty": 2.27,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 134,
-    "bolsa": 110
-   },
-   "order_id": "DG3PG33012TT",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9722,
-   "pct_bal": 17.7,
-   "pct_gan": null,
-   "bal_entrada": 11.1411
-  }
- ],
- "heartbeat": 1793687212.3361413,
+ "open": [],
+ "heartbeat": 1793687452.6806798,
  "running": true,
  "stop_file": false
 }
