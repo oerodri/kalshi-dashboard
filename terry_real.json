@@ -1,6 +1,6 @@
 {
- "generated": 1793704523.0078495,
- "generated_et": "2026-11-03 06:15:23 ET",
+ "generated": 1793704648.1407142,
+ "generated_et": "2026-11-03 06:17:28 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 16.32621,
-  "buying_power": 16.32621,
+  "current": 14.34791,
+  "buying_power": 14.34791,
   "in_positions": 0
  },
  "balance_err": null,
@@ -682,6 +682,10 @@
   [
    1793704523,
    16.32621
+  ],
+  [
+   1793704648,
+   14.34791
   ]
  ],
  "totals": {
@@ -706,7 +710,8 @@
   "error": 2,
   "gano": 87,
   "nofill": 37,
-  "perdio": 22
+  "perdio": 22,
+  "abierta": 1
  },
  "equity": [
   [
@@ -1257,6 +1262,32 @@
  ],
  "calls": [
   {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1115z",
+   "ronda": "1115z",
+   "hora": "06:16:33",
+   "day": "2026-11-03",
+   "ts": 1793704593.5625458,
+   "side": "up",
+   "prob": 0.7015,
+   "precio": 0.71,
+   "qty": 2.73,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 147,
+    "bolsa": 181
+   },
+   "order_id": "DG7V918G13D8",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9783,
+   "pct_bal": 12.1,
+   "pct_gan": null,
+   "bal_entrada": 16.3262
+  },
+  {
    "slug": "cpc-btc-updown-5m-2026-11-03-1110z",
    "ronda": "1110z",
    "hora": "06:12:29",
@@ -1488,7 +1519,7 @@
    "costo": 1.8768,
    "pct_bal": 11.5,
    "pct_gan": -100.0,
-   "bal_entrada": 16.3578
+   "bal_entrada": 16.35781
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1015z",
@@ -6214,41 +6245,42 @@
    "pct_bal": null,
    "pct_gan": null,
    "bal_entrada": null
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-1810z",
-   "ronda": "1810z",
-   "hora": "13:11:53",
-   "day": "2026-11-02",
-   "ts": 1793643113.3194637,
-   "side": "down",
-   "prob": 0.6785,
-   "precio": 0.68,
-   "qty": 2.94,
-   "fee": 0.04,
-   "pnl": 0.9008,
-   "lat": {
-    "llamada": 2218,
-    "envio": 129,
-    "bolsa": 163
-   },
-   "order_id": "DFS675JG12WK",
-   "aviso": null,
-   "out": "gano",
-   "motivo": "Liquidada",
-   "costo": 2.0392,
-   "pct_bal": null,
-   "pct_gan": 44.2,
-   "bal_entrada": null
   }
  ],
  "lat_avg": {
-  "llamada": 819,
+  "llamada": 813,
   "envio": 133,
   "bolsa": 204
  },
- "open": [],
- "heartbeat": 1793704523.050987,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1115z",
+   "ronda": "1115z",
+   "hora": "06:16:33",
+   "day": "2026-11-03",
+   "ts": 1793704593.5625458,
+   "side": "up",
+   "prob": 0.7015,
+   "precio": 0.71,
+   "qty": 2.73,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 147,
+    "bolsa": 181
+   },
+   "order_id": "DG7V918G13D8",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9783,
+   "pct_bal": 12.1,
+   "pct_gan": null,
+   "bal_entrada": 16.3262
+  }
+ ],
+ "heartbeat": 1793704643.1336343,
  "running": true,
  "stop_file": false
 }
