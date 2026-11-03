@@ -1,6 +1,6 @@
 {
- "generated": 1793702292.3680437,
- "generated_et": "2026-11-03 05:38:13 ET",
+ "generated": 1793702416.80691,
+ "generated_et": "2026-11-03 05:40:17 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 13.22821,
-  "buying_power": 13.22821,
+  "current": 15.46821,
+  "buying_power": 15.46821,
   "in_positions": 0
  },
  "balance_err": null,
@@ -634,21 +634,25 @@
   [
    1793702292,
    13.22821
+  ],
+  [
+   1793702417,
+   15.46821
   ]
  ],
  "totals": {
-  "trades": 102,
-  "wins": 81,
-  "win_pct": 79.4,
-  "gross_pnl": 8.4337,
-  "fees": 3.29,
-  "net_pnl": 5.1437
+  "trades": 103,
+  "wins": 82,
+  "win_pct": 79.6,
+  "gross_pnl": 8.7249,
+  "fees": 3.31,
+  "net_pnl": 5.4149
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 4.6559,
-  "trades": 45,
-  "wins": 37,
+  "pnl": 4.9271,
+  "trades": 46,
+  "wins": 38,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -656,10 +660,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 81,
+  "gano": 82,
   "nofill": 37,
-  "perdio": 21,
-  "abierta": 1
+  "perdio": 21
  },
  "equity": [
   [
@@ -1171,6 +1174,11 @@
    1793701950,
    5.1437,
    "1030z"
+  ],
+  [
+   1793702254,
+   5.4149,
+   "1035z"
   ]
  ],
  "calls": [
@@ -1185,7 +1193,7 @@
    "precio": 0.87,
    "qty": 2.24,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.2712,
    "lat": {
     "llamada": 0,
     "envio": 130,
@@ -1193,11 +1201,11 @@
    },
    "order_id": "DG79DVGG13D9",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9688,
    "pct_bal": 13.0,
-   "pct_gan": null,
+   "pct_gan": 13.8,
    "bal_entrada": 15.197
   },
   {
@@ -1491,7 +1499,7 @@
    "side": "up",
    "prob": 0.8582,
    "precio": 0.84,
-   "qty": 0.02,
+   "qty": 2.22,
    "fee": 0.02,
    "pnl": 0.335,
    "lat": {
@@ -1503,10 +1511,10 @@
    "aviso": null,
    "out": "gano",
    "motivo": "Liquidada",
-   "costo": 0.0368,
-   "pct_bal": 0.2,
-   "pct_gan": 910.3,
-   "bal_entrada": 15.7137
+   "costo": 1.8848,
+   "pct_bal": 10.7,
+   "pct_gan": 17.8,
+   "bal_entrada": 17.58171
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0925z",
@@ -6075,35 +6083,8 @@
   "envio": 133,
   "bolsa": 206
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1035z",
-   "ronda": "1035z",
-   "hora": "05:37:34",
-   "day": "2026-11-03",
-   "ts": 1793702254.047455,
-   "side": "up",
-   "prob": 0.8398,
-   "precio": 0.87,
-   "qty": 2.24,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 130,
-    "bolsa": 193
-   },
-   "order_id": "DG79DVGG13D9",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9688,
-   "pct_bal": 13.0,
-   "pct_gan": null,
-   "bal_entrada": 15.197
-  }
- ],
- "heartbeat": 1793702279.0540335,
+ "open": [],
+ "heartbeat": 1793702402.2990868,
  "running": true,
  "stop_file": false
 }
