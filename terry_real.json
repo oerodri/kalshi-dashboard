@@ -1,6 +1,6 @@
 {
- "generated": 1793703162.5960455,
- "generated_et": "2026-11-03 05:52:43 ET",
+ "generated": 1793703348.085584,
+ "generated_et": "2026-11-03 05:55:48 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 16.97681,
+  "current": 14.47681,
   "buying_power": 14.47681,
-  "in_positions": 2.5
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -654,20 +654,24 @@
   [
    1793703163,
    16.97681
+  ],
+  [
+   1793703348,
+   14.47681
   ]
  ],
  "totals": {
-  "trades": 105,
+  "trades": 106,
   "wins": 84,
-  "win_pct": 80.0,
-  "gross_pnl": 9.7737,
-  "fees": 3.37,
-  "net_pnl": 6.4037
+  "win_pct": 79.2,
+  "gross_pnl": 7.8237,
+  "fees": 3.4,
+  "net_pnl": 4.4237
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 5.9159,
-  "trades": 48,
+  "pnl": 3.9359,
+  "trades": 49,
   "wins": 40,
   "breakeven_pct": 77,
   "cap_left": 20.0,
@@ -678,8 +682,7 @@
   "error": 2,
   "gano": 84,
   "nofill": 37,
-  "perdio": 21,
-  "abierta": 1
+  "perdio": 22
  },
  "equity": [
   [
@@ -1206,6 +1209,11 @@
    1793702827,
    6.4037,
    "1045z"
+  ],
+  [
+   1793703151,
+   4.4237,
+   "1050z"
   ]
  ],
  "calls": [
@@ -1220,7 +1228,7 @@
    "precio": 0.78,
    "qty": 2.5,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": -1.98,
    "lat": {
     "llamada": 0,
     "envio": 128,
@@ -1228,11 +1236,11 @@
    },
    "order_id": "DG7G8RZ013CX",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 1.98,
    "pct_bal": 12.0,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 16.4568
   },
   {
@@ -1519,7 +1527,7 @@
    "costo": 1.9984,
    "pct_bal": 12.0,
    "pct_gan": -100.0,
-   "bal_entrada": 16.6602
+   "bal_entrada": 16.66021
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0945z",
@@ -6188,35 +6196,8 @@
   "envio": 133,
   "bolsa": 206
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1050z",
-   "ronda": "1050z",
-   "hora": "05:52:30",
-   "day": "2026-11-03",
-   "ts": 1793703150.7362533,
-   "side": "down",
-   "prob": 0.7501,
-   "precio": 0.78,
-   "qty": 2.5,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 128,
-    "bolsa": 174
-   },
-   "order_id": "DG7G8RZ013CX",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.98,
-   "pct_bal": 12.0,
-   "pct_gan": null,
-   "bal_entrada": 16.4568
-  }
- ],
- "heartbeat": 1793703160.8354895,
+ "open": [],
+ "heartbeat": 1793703340.948629,
  "running": true,
  "stop_file": false
 }
