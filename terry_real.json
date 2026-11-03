@@ -1,6 +1,6 @@
 {
- "generated": 1793718427.9018066,
- "generated_et": "2026-11-03 10:07:08 ET",
+ "generated": 1793718674.7521496,
+ "generated_et": "2026-11-03 10:11:15 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 15.46661,
+  "current": 12.87661,
   "buying_power": 12.87661,
-  "in_positions": 2.59
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -910,20 +910,24 @@
   [
    1793718428,
    15.46661
+  ],
+  [
+   1793718675,
+   12.87661
   ]
  ],
  "totals": {
-  "trades": 146,
+  "trades": 147,
   "wins": 116,
-  "win_pct": 79.5,
-  "gross_pnl": 9.3461,
-  "fees": 4.61,
-  "net_pnl": 4.7361
+  "win_pct": 78.9,
+  "gross_pnl": 7.4554,
+  "fees": 4.65,
+  "net_pnl": 2.8054
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 4.2483,
-  "trades": 89,
+  "pnl": 2.3176,
+  "trades": 90,
   "wins": 72,
   "breakeven_pct": 77,
   "cap_left": 20.0,
@@ -934,8 +938,7 @@
   "error": 2,
   "gano": 116,
   "nofill": 39,
-  "perdio": 30,
-  "abierta": 1
+  "perdio": 31
  },
  "equity": [
   [
@@ -1667,6 +1670,11 @@
    1793718204,
    4.7361,
    "1500z"
+  ],
+  [
+   1793718390,
+   2.8054,
+   "1505z"
   ]
  ],
  "calls": [
@@ -1681,7 +1689,7 @@
    "precio": 0.73,
    "qty": 2.59,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": -1.9307,
    "lat": {
     "llamada": 0,
     "envio": 125,
@@ -1689,11 +1697,11 @@
    },
    "order_id": "DGB4H8MG13CX",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 1.9307,
    "pct_bal": 13.0,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 14.8073
   },
   {
@@ -1954,7 +1962,7 @@
    "costo": 1.9958,
    "pct_bal": 20.2,
    "pct_gan": 11.2,
-   "bal_entrada": 9.8639
+   "bal_entrada": 9.86391
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1410z",
@@ -6712,35 +6720,8 @@
   "envio": 133,
   "bolsa": 194
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1505z",
-   "ronda": "1505z",
-   "hora": "10:06:29",
-   "day": "2026-11-03",
-   "ts": 1793718389.8247766,
-   "side": "down",
-   "prob": 0.759,
-   "precio": 0.73,
-   "qty": 2.59,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 125,
-    "bolsa": 190
-   },
-   "order_id": "DGB4H8MG13CX",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9307,
-   "pct_bal": 13.0,
-   "pct_gan": null,
-   "bal_entrada": 14.8073
-  }
- ],
- "heartbeat": 1793718420.6146832,
+ "open": [],
+ "heartbeat": 1793718661.4045963,
  "running": true,
  "stop_file": false
 }
