@@ -1,6 +1,6 @@
 {
- "generated": 1793731438.5799668,
- "generated_et": "2026-11-03 13:43:59 ET",
+ "generated": 1793731563.8454685,
+ "generated_et": "2026-11-03 13:46:04 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 2.67011,
-  "buying_power": 0.43011,
-  "in_positions": 2.24
+  "buying_power": 2.67011,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -1137,18 +1137,18 @@
   ]
  ],
  "totals": {
-  "trades": 180,
-  "wins": 141,
-  "win_pct": 78.3,
-  "gross_pnl": 7.0625,
-  "fees": 5.71,
-  "net_pnl": 1.3525
+  "trades": 181,
+  "wins": 142,
+  "win_pct": 78.5,
+  "gross_pnl": 7.3107,
+  "fees": 5.72,
+  "net_pnl": 1.5907
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 0.8647,
-  "trades": 123,
-  "wins": 97,
+  "pnl": 1.1029,
+  "trades": 124,
+  "wins": 98,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -1156,10 +1156,9 @@
  "counts": {
   "saltada": 59,
   "error": 2,
-  "gano": 141,
+  "gano": 142,
   "nofill": 41,
-  "perdio": 39,
-  "abierta": 1
+  "perdio": 39
  },
  "equity": [
   [
@@ -2061,6 +2060,11 @@
    1793730991,
    1.3525,
    "1835z"
+  ],
+  [
+   1793731381,
+   1.5907,
+   "1840z"
   ]
  ],
  "calls": [
@@ -2075,7 +2079,7 @@
    "precio": 0.89,
    "qty": 2.24,
    "fee": 0.01,
-   "pnl": null,
+   "pnl": 0.2382,
    "lat": {
     "llamada": 0,
     "envio": 132,
@@ -2083,11 +2087,11 @@
    },
    "order_id": "DGE7MTBG13D3",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.0036,
    "pct_bal": 82.4,
-   "pct_gan": null,
+   "pct_gan": 11.9,
    "bal_entrada": 2.4319
   },
   {
@@ -2322,7 +2326,7 @@
    "costo": 2.0288,
    "pct_bal": 26.4,
    "pct_gan": 29.6,
-   "bal_entrada": 7.6733
+   "bal_entrada": 7.67331
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1740z",
@@ -7150,35 +7154,8 @@
   "envio": 134,
   "bolsa": 188
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1840z",
-   "ronda": "1840z",
-   "hora": "13:43:00",
-   "day": "2026-11-03",
-   "ts": 1793731380.522658,
-   "side": "down",
-   "prob": 0.8813,
-   "precio": 0.89,
-   "qty": 2.24,
-   "fee": 0.01,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 132,
-    "bolsa": 137
-   },
-   "order_id": "DGE7MTBG13D3",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0036,
-   "pct_bal": 82.4,
-   "pct_gan": null,
-   "bal_entrada": 2.4319
-  }
- ],
- "heartbeat": 1793731432.4940872,
+ "open": [],
+ "heartbeat": 1793731552.6189857,
  "running": true,
  "stop_file": false
 }
