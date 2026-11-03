@@ -1,6 +1,6 @@
 {
- "generated": 1793747863.7758756,
- "generated_et": "2026-11-03 18:17:44 ET",
+ "generated": 1793748050.0752978,
+ "generated_et": "2026-11-03 18:20:50 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -1377,20 +1377,20 @@
   ]
  ],
  "totals": {
-  "trades": 222,
+  "trades": 223,
   "wins": 178,
-  "win_pct": 80.2,
-  "gross_pnl": 6.2732,
-  "fees": 6.15,
-  "net_pnl": 0.1232
+  "win_pct": 79.8,
+  "gross_pnl": 5.1612,
+  "fees": 6.17,
+  "net_pnl": -1.0088
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": -0.3646,
-  "trades": 165,
+  "pnl": -1.4966,
+  "trades": 166,
   "wins": 134,
   "breakeven_pct": 77,
-  "cap_left": 19.64,
+  "cap_left": 18.5,
   "cap_hit": false
  },
  "counts": {
@@ -1398,8 +1398,7 @@
   "error": 2,
   "gano": 178,
   "nofill": 47,
-  "perdio": 44,
-  "abierta": 1
+  "perdio": 45
  },
  "equity": [
   [
@@ -2464,53 +2463,58 @@
   ],
   [
    1793743985,
-   -0.8803,
+   -0.8827,
    "2210z"
   ],
   [
    1793744249,
-   -0.8539,
+   -0.8563,
    "2215z"
   ],
   [
    1793744850,
-   -0.8239,
+   -0.8263,
    "2225z"
   ],
   [
    1793745154,
-   -0.7942,
+   -0.7966,
    "2230z"
   ],
   [
    1793745780,
-   -0.7348,
+   -0.7372,
    "2240z"
   ],
   [
    1793746082,
-   -0.626,
+   -0.6284,
    "2245z"
   ],
   [
    1793746649,
-   -0.5268,
+   -0.5292,
    "2255z"
   ],
   [
    1793746937,
-   -0.3668,
+   -0.3692,
    "2300z"
   ],
   [
    1793747298,
-   -0.1518,
+   -0.1542,
    "2305z"
   ],
   [
    1793747531,
-   0.1232,
+   0.1208,
    "2310z"
+  ],
+  [
+   1793747813,
+   -1.0088,
+   "2315z"
   ]
  ],
  "calls": [
@@ -2525,7 +2529,7 @@
    "precio": 0.76,
    "qty": 1.46,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": -1.1296,
    "lat": {
     "llamada": 0,
     "envio": 143,
@@ -2533,11 +2537,11 @@
    },
    "order_id": "DGJ50PF013D9",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 1.1296,
    "pct_bal": 91.6,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 1.2335
   },
   {
@@ -2785,7 +2789,7 @@
    "precio": 0.78,
    "qty": 0.2,
    "fee": 0.0,
-   "pnl": 0.044,
+   "pnl": 0.0416,
    "lat": {
     "llamada": 0,
     "envio": 131,
@@ -2797,7 +2801,7 @@
    "motivo": "Liquidada",
    "costo": 0.156,
    "pct_bal": 83.9,
-   "pct_gan": 28.2,
+   "pct_gan": 26.7,
    "bal_entrada": 0.18601
   },
   {
@@ -7640,35 +7644,8 @@
   "envio": 134,
   "bolsa": 193
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-2315z",
-   "ronda": "2315z",
-   "hora": "18:16:53",
-   "day": "2026-11-03",
-   "ts": 1793747813.0833614,
-   "side": "up",
-   "prob": 0.7796,
-   "precio": 0.76,
-   "qty": 1.46,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 143,
-    "bolsa": 181
-   },
-   "order_id": "DGJ50PF013D9",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.1296,
-   "pct_bal": 91.6,
-   "pct_gan": null,
-   "bal_entrada": 1.2335
-  }
- ],
- "heartbeat": 1793747855.2005315,
+ "open": [],
+ "heartbeat": 1793748035.6295774,
  "running": true,
  "stop_file": false
 }
