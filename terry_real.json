@@ -1,6 +1,6 @@
 {
- "generated": 1793732825.3327918,
- "generated_et": "2026-11-03 14:07:06 ET",
+ "generated": 1793733037.2108002,
+ "generated_et": "2026-11-03 14:10:38 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 1.18471,
-  "buying_power": 0.09471,
-  "in_positions": 1.09
+  "buying_power": 1.18471,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -1153,29 +1153,28 @@
   ]
  ],
  "totals": {
-  "trades": 183,
-  "wins": 143,
-  "win_pct": 78.1,
-  "gross_pnl": 5.7209,
-  "fees": 5.78,
-  "net_pnl": -0.0591
+  "trades": 184,
+  "wins": 144,
+  "win_pct": 78.3,
+  "gross_pnl": 5.8953,
+  "fees": 5.79,
+  "net_pnl": 0.1053
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": -0.5469,
-  "trades": 126,
-  "wins": 99,
+  "pnl": -0.3825,
+  "trades": 127,
+  "wins": 100,
   "breakeven_pct": 77,
-  "cap_left": 19.45,
+  "cap_left": 19.62,
   "cap_hit": false
  },
  "counts": {
   "saltada": 59,
   "error": 2,
-  "gano": 143,
+  "gano": 144,
   "nofill": 42,
-  "perdio": 40,
-  "abierta": 1
+  "perdio": 40
  },
  "equity": [
   [
@@ -2092,6 +2091,11 @@
    1793732489,
    -0.0591,
    "1900z"
+  ],
+  [
+   1793732807,
+   0.1053,
+   "1905z"
   ]
  ],
  "calls": [
@@ -2106,7 +2110,7 @@
    "precio": 0.84,
    "qty": 1.09,
    "fee": 0.01,
-   "pnl": null,
+   "pnl": 0.1644,
    "lat": {
     "llamada": 0,
     "envio": 142,
@@ -2114,11 +2118,11 @@
    },
    "order_id": "DGEJH0Y013CX",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 0.9256,
    "pct_bal": 90.7,
-   "pct_gan": null,
+   "pct_gan": 17.8,
    "bal_entrada": 1.0203
   },
   {
@@ -2353,7 +2357,7 @@
    "costo": 1.9705,
    "pct_bal": 20.8,
    "pct_gan": 19.3,
-   "bal_entrada": 9.487
+   "bal_entrada": 9.48701
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1800z",
@@ -7189,35 +7193,8 @@
   "envio": 134,
   "bolsa": 189
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1905z",
-   "ronda": "1905z",
-   "hora": "14:06:46",
-   "day": "2026-11-03",
-   "ts": 1793732806.7243245,
-   "side": "down",
-   "prob": 0.8315,
-   "precio": 0.84,
-   "qty": 1.09,
-   "fee": 0.01,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 142,
-    "bolsa": 173
-   },
-   "order_id": "DGEJH0Y013CX",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 0.9256,
-   "pct_bal": 90.7,
-   "pct_gan": null,
-   "bal_entrada": 1.0203
-  }
- ],
- "heartbeat": 1793732816.689642,
+ "open": [],
+ "heartbeat": 1793733037.343716,
  "running": true,
  "stop_file": false
 }
