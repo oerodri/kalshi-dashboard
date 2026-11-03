@@ -1,6 +1,6 @@
 {
- "generated": 1793710411.9323437,
- "generated_et": "2026-11-03 07:53:32 ET",
+ "generated": 1793710536.4533174,
+ "generated_et": "2026-11-03 07:55:37 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 15.81711,
-  "buying_power": 15.81711,
+  "current": 18.03711,
+  "buying_power": 18.03711,
   "in_positions": 0
  },
  "balance_err": null,
@@ -778,21 +778,25 @@
   [
    1793710412,
    15.81711
+  ],
+  [
+   1793710536,
+   18.03711
   ]
  ],
  "totals": {
-  "trades": 123,
-  "wins": 99,
-  "win_pct": 80.5,
-  "gross_pnl": 11.6376,
-  "fees": 3.9,
-  "net_pnl": 7.7376
+  "trades": 124,
+  "wins": 100,
+  "win_pct": 80.6,
+  "gross_pnl": 11.904,
+  "fees": 3.92,
+  "net_pnl": 7.984
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 7.2498,
-  "trades": 66,
-  "wins": 55,
+  "pnl": 7.4962,
+  "trades": 67,
+  "wins": 56,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -800,10 +804,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 99,
+  "gano": 100,
   "nofill": 38,
-  "perdio": 24,
-  "abierta": 1
+  "perdio": 24
  },
  "equity": [
   [
@@ -1420,6 +1423,11 @@
    1793710002,
    7.7376,
    "1245z"
+  ],
+  [
+   1793710407,
+   7.984,
+   "1250z"
   ]
  ],
  "calls": [
@@ -1434,7 +1442,7 @@
    "precio": 0.88,
    "qty": 2.22,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.2464,
    "lat": {
     "llamada": 0,
     "envio": 131,
@@ -1442,11 +1450,11 @@
    },
    "order_id": "DG97MD3G13D3",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9736,
    "pct_bal": 11.1,
-   "pct_gan": null,
+   "pct_gan": 12.5,
    "bal_entrada": 17.7907
   },
   {
@@ -6433,35 +6441,8 @@
   "envio": 133,
   "bolsa": 199
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1250z",
-   "ronda": "1250z",
-   "hora": "07:53:27",
-   "day": "2026-11-03",
-   "ts": 1793710407.318297,
-   "side": "up",
-   "prob": 0.8477,
-   "precio": 0.88,
-   "qty": 2.22,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 131,
-    "bolsa": 171
-   },
-   "order_id": "DG97MD3G13D3",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9736,
-   "pct_bal": 11.1,
-   "pct_gan": null,
-   "bal_entrada": 17.7907
-  }
- ],
- "heartbeat": 1793710407.7128792,
+ "open": [],
+ "heartbeat": 1793710533.0315273,
  "running": true,
  "stop_file": false
 }
