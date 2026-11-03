@@ -1,6 +1,6 @@
 {
- "generated": 1793721432.9985974,
- "generated_et": "2026-11-03 10:57:13 ET",
+ "generated": 1793721619.895757,
+ "generated_et": "2026-11-03 11:00:20 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -989,17 +989,17 @@
   ]
  ],
  "totals": {
-  "trades": 156,
+  "trades": 157,
   "wins": 123,
-  "win_pct": 78.8,
-  "gross_pnl": 8.1118,
-  "fees": 4.95,
-  "net_pnl": 3.1618
+  "win_pct": 78.3,
+  "gross_pnl": 6.184,
+  "fees": 4.98,
+  "net_pnl": 1.204
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 2.674,
-  "trades": 99,
+  "pnl": 0.7162,
+  "trades": 100,
   "wins": 79,
   "breakeven_pct": 77,
   "cap_left": 20.0,
@@ -1010,8 +1010,7 @@
   "error": 2,
   "gano": 123,
   "nofill": 39,
-  "perdio": 33,
-  "abierta": 1
+  "perdio": 34
  },
  "equity": [
   [
@@ -1793,6 +1792,11 @@
    1793721090,
    3.1618,
    "1550z"
+  ],
+  [
+   1793721389,
+   1.204,
+   "1555z"
   ]
  ],
  "calls": [
@@ -1807,7 +1811,7 @@
    "precio": 0.81,
    "qty": 2.38,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": -1.9578,
    "lat": {
     "llamada": 0,
     "envio": 144,
@@ -1815,11 +1819,11 @@
    },
    "order_id": "DGBVDJTG13D8",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 1.9578,
    "pct_bal": 21.1,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 9.2686
   },
   {
@@ -2054,7 +2058,7 @@
    "costo": 1.9734,
    "pct_bal": 15.3,
    "pct_gan": 24.7,
-   "bal_entrada": 12.8766
+   "bal_entrada": 12.87661
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1505z",
@@ -6846,35 +6850,8 @@
   "envio": 133,
   "bolsa": 192
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1555z",
-   "ronda": "1555z",
-   "hora": "10:56:29",
-   "day": "2026-11-03",
-   "ts": 1793721389.4454067,
-   "side": "up",
-   "prob": 0.8345,
-   "precio": 0.81,
-   "qty": 2.38,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 144,
-    "bolsa": 119
-   },
-   "order_id": "DGBVDJTG13D8",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9578,
-   "pct_bal": 21.1,
-   "pct_gan": null,
-   "bal_entrada": 9.2686
-  }
- ],
- "heartbeat": 1793721429.2076838,
+ "open": [],
+ "heartbeat": 1793721609.362411,
  "running": true,
  "stop_file": false
 }
