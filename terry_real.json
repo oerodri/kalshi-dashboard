@@ -1,6 +1,6 @@
 {
- "generated": 1793673734.2601025,
- "generated_et": "2026-11-02 21:42:15 ET",
+ "generated": 1793673980.514237,
+ "generated_et": "2026-11-02 21:46:21 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 11.24791,
-  "buying_power": 8.68791,
-  "in_positions": 2.56
+  "buying_power": 11.24791,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -265,26 +265,25 @@
   ]
  ],
  "totals": {
-  "trades": 41,
-  "wins": 31,
-  "win_pct": 75.6,
-  "gross_pnl": 0.0761,
-  "fees": 1.42,
-  "net_pnl": -1.3439
+  "trades": 42,
+  "wins": 32,
+  "win_pct": 76.2,
+  "gross_pnl": 0.6649,
+  "fees": 1.45,
+  "net_pnl": -0.7851
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": -1.3439,
-  "cap_left": 18.66,
+  "pnl": -0.7851,
+  "cap_left": 19.21,
   "cap_hit": false
  },
  "counts": {
   "saltada": 35,
   "error": 2,
-  "gano": 31,
+  "gano": 32,
   "nofill": 26,
-  "perdio": 10,
-  "abierta": 1
+  "perdio": 10
  },
  "equity": [
   [
@@ -491,6 +490,11 @@
    1793673450,
    -1.3439,
    "0235z"
+  ],
+  [
+   1793673730,
+   -0.7851,
+   "0240z"
   ]
  ],
  "calls": [
@@ -505,7 +509,7 @@
    "precio": 0.77,
    "qty": 2.56,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.5588,
    "lat": {
     "llamada": 519,
     "envio": 133,
@@ -513,11 +517,11 @@
    },
    "order_id": "DG0FSWC012VX",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.0012,
    "pct_bal": 18.7,
-   "pct_gan": null,
+   "pct_gan": 27.9,
    "bal_entrada": 10.6891
   },
   {
@@ -3083,35 +3087,8 @@
   "envio": 134,
   "bolsa": 214
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0240z",
-   "ronda": "0240z",
-   "hora": "21:42:09",
-   "day": "2026-11-02",
-   "ts": 1793673729.660675,
-   "side": "down",
-   "prob": 0.75,
-   "precio": 0.77,
-   "qty": 2.56,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 519,
-    "envio": 133,
-    "bolsa": 166
-   },
-   "order_id": "DG0FSWC012VX",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0012,
-   "pct_bal": 18.7,
-   "pct_gan": null,
-   "bal_entrada": 10.6891
-  }
- ],
- "heartbeat": 1793673730.6294646,
+ "open": [],
+ "heartbeat": 1793673963.157196,
  "running": true,
  "stop_file": false
 }
