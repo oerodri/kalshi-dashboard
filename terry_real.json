@@ -1,6 +1,6 @@
 {
- "generated": 1793715804.211616,
- "generated_et": "2026-11-03 09:23:25 ET",
+ "generated": 1793715929.2724009,
+ "generated_et": "2026-11-03 09:25:30 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 8.12821,
-  "buying_power": 8.12821,
+  "current": 10.75821,
+  "buying_power": 10.75821,
   "in_positions": 0
  },
  "balance_err": null,
@@ -858,32 +858,35 @@
   [
    1793715804,
    8.12821
+  ],
+  [
+   1793715929,
+   10.75821
   ]
  ],
  "totals": {
-  "trades": 138,
-  "wins": 108,
-  "win_pct": 78.3,
-  "gross_pnl": 4.3769,
-  "fees": 4.36,
-  "net_pnl": 0.0169
+  "trades": 139,
+  "wins": 109,
+  "win_pct": 78.4,
+  "gross_pnl": 5.087,
+  "fees": 4.4,
+  "net_pnl": 0.687
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": -0.4709,
-  "trades": 81,
-  "wins": 64,
+  "pnl": 0.1992,
+  "trades": 82,
+  "wins": 65,
   "breakeven_pct": 77,
-  "cap_left": 19.53,
+  "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 108,
+  "gano": 109,
   "nofill": 38,
-  "perdio": 30,
-  "abierta": 1
+  "perdio": 30
  },
  "equity": [
   [
@@ -1575,6 +1578,11 @@
    1793715395,
    0.0169,
    "1415z"
+  ],
+  [
+   1793715770,
+   0.687,
+   "1420z"
   ]
  ],
  "calls": [
@@ -1589,7 +1597,7 @@
    "precio": 0.73,
    "qty": 2.63,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.6701,
    "lat": {
     "llamada": 133,
     "envio": 143,
@@ -1597,11 +1605,11 @@
    },
    "order_id": "DGAGHNY013CZ",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9599,
    "pct_bal": 19.4,
-   "pct_gan": null,
+   "pct_gan": 34.2,
    "bal_entrada": 10.0881
   },
   {
@@ -6604,35 +6612,8 @@
   "envio": 133,
   "bolsa": 197
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1420z",
-   "ronda": "1420z",
-   "hora": "09:22:50",
-   "day": "2026-11-03",
-   "ts": 1793715770.13913,
-   "side": "up",
-   "prob": 0.7014,
-   "precio": 0.73,
-   "qty": 2.63,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 133,
-    "envio": 143,
-    "bolsa": 124
-   },
-   "order_id": "DGAGHNY013CZ",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9599,
-   "pct_bal": 19.4,
-   "pct_gan": null,
-   "bal_entrada": 10.0881
-  }
- ],
- "heartbeat": 1793715795.6177545,
+ "open": [],
+ "heartbeat": 1793715915.7214465,
  "running": true,
  "stop_file": false
 }
