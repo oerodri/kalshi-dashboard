@@ -1,6 +1,6 @@
 {
- "generated": 1793668974.9993718,
- "generated_et": "2026-11-02 20:22:55 ET",
+ "generated": 1793669225.131079,
+ "generated_et": "2026-11-02 20:27:05 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -254,7 +254,7 @@
   "saltada": 32,
   "error": 2,
   "gano": 28,
-  "nofill": 18,
+  "nofill": 19,
   "perdio": 9
  },
  "equity": [
@@ -445,6 +445,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0125z",
+   "ronda": "0125z",
+   "hora": "20:26:49",
+   "day": "2026-11-02",
+   "ts": 1793669209.7237804,
+   "side": "down",
+   "prob": 0.8156,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": {
+    "llamada": 1128,
+    "envio": 126,
+    "bolsa": 142
+   },
+   "order_id": "DFZDAC2012VX",
+   "aviso": null,
+   "out": "nofill",
+   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0120z",
    "ronda": "0120z",
@@ -2626,12 +2652,12 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1508,
+  "llamada": 1502,
   "envio": 134,
-  "bolsa": 229
+  "bolsa": 227
  },
  "open": [],
- "heartbeat": 1793668958.0642521,
+ "heartbeat": 1793669218.206378,
  "running": true,
  "stop_file": false
 }
