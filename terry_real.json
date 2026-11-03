@@ -1,6 +1,6 @@
 {
- "generated": 1793689128.7472389,
- "generated_et": "2026-11-03 01:58:49 ET",
+ "generated": 1793689253.463629,
+ "generated_et": "2026-11-03 02:00:54 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 12.64621,
-  "buying_power": 10.40621,
-  "in_positions": 2.24
+  "buying_power": 12.64621,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -457,18 +457,18 @@
   ]
  ],
  "totals": {
-  "trades": 74,
-  "wins": 58,
-  "win_pct": 78.4,
-  "gross_pnl": 6.6199,
-  "fees": 2.43,
-  "net_pnl": 4.1899
+  "trades": 75,
+  "wins": 59,
+  "win_pct": 78.7,
+  "gross_pnl": 6.9335,
+  "fees": 2.45,
+  "net_pnl": 4.4835
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 3.7021,
-  "trades": 17,
-  "wins": 14,
+  "pnl": 3.9957,
+  "trades": 18,
+  "wins": 15,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -476,10 +476,9 @@
  "counts": {
   "saltada": 47,
   "error": 2,
-  "gano": 58,
+  "gano": 59,
   "nofill": 32,
-  "perdio": 16,
-  "abierta": 1
+  "perdio": 16
  },
  "equity": [
   [
@@ -851,6 +850,11 @@
    1793687802,
    4.1899,
    "0635z"
+  ],
+  [
+   1793689115,
+   4.4835,
+   "0655z"
   ]
  ],
  "calls": [
@@ -865,7 +869,7 @@
    "precio": 0.86,
    "qty": 2.24,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.2936,
    "lat": {
     "llamada": 70,
     "envio": 132,
@@ -873,11 +877,11 @@
    },
    "order_id": "DG4562EG13D1",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9464,
    "pct_bal": 15.8,
-   "pct_gan": null,
+   "pct_gan": 15.1,
    "bal_entrada": 12.3526
   },
   {
@@ -1222,7 +1226,7 @@
    "costo": 1.9736,
    "pct_bal": 32.1,
    "pct_gan": 12.5,
-   "bal_entrada": 6.1412
+   "bal_entrada": 6.14121
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0540z",
@@ -4721,35 +4725,8 @@
   "envio": 134,
   "bolsa": 220
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0655z",
-   "ronda": "0655z",
-   "hora": "01:58:35",
-   "day": "2026-11-03",
-   "ts": 1793689115.0261729,
-   "side": "down",
-   "prob": 0.8531,
-   "precio": 0.86,
-   "qty": 2.24,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 70,
-    "envio": 132,
-    "bolsa": 127
-   },
-   "order_id": "DG4562EG13D1",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9464,
-   "pct_bal": 15.8,
-   "pct_gan": null,
-   "bal_entrada": 12.3526
-  }
- ],
- "heartbeat": 1793689115.9281597,
+ "open": [],
+ "heartbeat": 1793689234.3541012,
  "running": true,
  "stop_file": false
 }
