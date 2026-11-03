@@ -1,6 +1,6 @@
 {
- "generated": 1793692818.5769339,
- "generated_et": "2026-11-03 03:00:19 ET",
+ "generated": 1793692943.0240262,
+ "generated_et": "2026-11-03 03:02:23 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 11.31541,
-  "buying_power": 11.31541,
-  "in_positions": 0
+  "current": 11.56181,
+  "buying_power": 9.34181,
+  "in_positions": 2.22
  },
  "balance_err": null,
  "balance_hist": [
@@ -498,6 +498,10 @@
   [
    1793692694,
    11.31541
+  ],
+  [
+   1793692943,
+   11.56181
   ]
  ],
  "totals": {
@@ -522,7 +526,8 @@
   "error": 2,
   "gano": 64,
   "nofill": 32,
-  "perdio": 18
+  "perdio": 18,
+  "abierta": 1
  },
  "equity": [
   [
@@ -937,6 +942,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0800z",
+   "ronda": "0800z",
+   "hora": "03:02:01",
+   "day": "2026-11-03",
+   "ts": 1793692921.6622655,
+   "side": "down",
+   "prob": 0.8813,
+   "precio": 0.88,
+   "qty": 2.22,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 122,
+    "bolsa": 117
+   },
+   "order_id": "DG527DNG13CX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9736,
+   "pct_bal": 17.4,
+   "pct_gan": null,
+   "bal_entrada": 11.3154
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0755z",
    "ronda": "0755z",
@@ -1371,7 +1402,7 @@
    "costo": 1.9722,
    "pct_bal": 17.7,
    "pct_gan": 15.1,
-   "bal_entrada": 11.1411
+   "bal_entrada": 11.14111
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0620z",
@@ -5070,12 +5101,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1040,
+  "llamada": 1031,
   "envio": 133,
-  "bolsa": 216
+  "bolsa": 215
  },
- "open": [],
- "heartbeat": 1793692801.4168336,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0800z",
+   "ronda": "0800z",
+   "hora": "03:02:01",
+   "day": "2026-11-03",
+   "ts": 1793692921.6622655,
+   "side": "down",
+   "prob": 0.8813,
+   "precio": 0.88,
+   "qty": 2.22,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 122,
+    "bolsa": 117
+   },
+   "order_id": "DG527DNG13CX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9736,
+   "pct_bal": 17.4,
+   "pct_gan": null,
+   "bal_entrada": 11.3154
+  }
+ ],
+ "heartbeat": 1793692940.9625375,
  "running": true,
  "stop_file": false
 }
