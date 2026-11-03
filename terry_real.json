@@ -1,6 +1,6 @@
 {
- "generated": 1793674290.9183264,
- "generated_et": "2026-11-02 21:51:31 ET",
+ "generated": 1793674354.3859024,
+ "generated_et": "2026-11-02 21:52:35 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 11.98351,
-  "buying_power": 11.98351,
+  "current": 10.01011,
+  "buying_power": 10.01011,
   "in_positions": 0
  },
  "balance_err": null,
@@ -266,6 +266,10 @@
   [
    1793674044,
    11.98351
+  ],
+  [
+   1793674354,
+   10.01011
   ]
  ],
  "totals": {
@@ -287,7 +291,8 @@
   "error": 2,
   "gano": 33,
   "nofill": 26,
-  "perdio": 10
+  "perdio": 10,
+  "abierta": 1
  },
  "equity": [
   [
@@ -507,6 +512,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0250z",
+   "ronda": "0250z",
+   "hora": "21:51:35",
+   "day": "2026-11-02",
+   "ts": 1793674295.2685542,
+   "side": "up",
+   "prob": 0.7281,
+   "precio": 0.79,
+   "qty": 2.46,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 1338,
+    "envio": 140,
+    "bolsa": 144
+   },
+   "order_id": "DG0M3Z2G12WA",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9734,
+   "pct_bal": 16.5,
+   "pct_gan": null,
+   "bal_entrada": 11.9835
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0245z",
    "ronda": "0245z",
@@ -1359,7 +1390,7 @@
    "costo": 2.0466,
    "pct_bal": 15.2,
    "pct_gan": 45.6,
-   "bal_entrada": 13.477
+   "bal_entrada": 13.47701
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2350z",
@@ -3118,12 +3149,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1381,
+  "llamada": 1380,
   "envio": 134,
-  "bolsa": 213
+  "bolsa": 212
  },
- "open": [],
- "heartbeat": 1793674283.7611613,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0250z",
+   "ronda": "0250z",
+   "hora": "21:51:35",
+   "day": "2026-11-02",
+   "ts": 1793674295.2685542,
+   "side": "up",
+   "prob": 0.7281,
+   "precio": 0.79,
+   "qty": 2.46,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 1338,
+    "envio": 140,
+    "bolsa": 144
+   },
+   "order_id": "DG0M3Z2G12WA",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9734,
+   "pct_bal": 16.5,
+   "pct_gan": null,
+   "bal_entrada": 11.9835
+  }
+ ],
+ "heartbeat": 1793674344.9963255,
  "running": true,
  "stop_file": false
 }
