@@ -1,6 +1,6 @@
 {
- "generated": 1793723874.1746054,
- "generated_et": "2026-11-03 11:37:55 ET",
+ "generated": 1793724060.5749261,
+ "generated_et": "2026-11-03 11:41:01 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 6.48231,
-  "buying_power": 6.48231,
+  "current": 9.21231,
+  "buying_power": 9.21231,
   "in_positions": 0
  },
  "balance_err": null,
@@ -1042,21 +1042,25 @@
   [
    1793723810,
    6.48231
+  ],
+  [
+   1793724061,
+   9.21231
   ]
  ],
  "totals": {
-  "trades": 164,
-  "wins": 129,
-  "win_pct": 78.7,
-  "gross_pnl": 7.7228,
-  "fees": 5.2,
-  "net_pnl": 2.5228
+  "trades": 165,
+  "wins": 130,
+  "win_pct": 78.8,
+  "gross_pnl": 8.4599,
+  "fees": 5.24,
+  "net_pnl": 3.2199
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 2.035,
-  "trades": 107,
-  "wins": 85,
+  "pnl": 2.7321,
+  "trades": 108,
+  "wins": 86,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -1064,10 +1068,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 129,
+  "gano": 130,
   "nofill": 39,
-  "perdio": 35,
-  "abierta": 1
+  "perdio": 35
  },
  "equity": [
   [
@@ -1889,6 +1892,11 @@
    1793723535,
    2.5228,
    "1630z"
+  ],
+  [
+   1793723790,
+   3.2199,
+   "1635z"
   ]
  ],
  "calls": [
@@ -1903,7 +1911,7 @@
    "precio": 0.73,
    "qty": 2.73,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.6971,
    "lat": {
     "llamada": 0,
     "envio": 135,
@@ -1911,11 +1919,11 @@
    },
    "order_id": "DGCDQMA013CX",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.0329,
    "pct_bal": 23.9,
-   "pct_gan": null,
+   "pct_gan": 34.3,
    "bal_entrada": 8.5152
   },
   {
@@ -6950,35 +6958,8 @@
   "envio": 133,
   "bolsa": 191
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1635z",
-   "ronda": "1635z",
-   "hora": "11:36:29",
-   "day": "2026-11-03",
-   "ts": 1793723789.815594,
-   "side": "up",
-   "prob": 0.7219,
-   "precio": 0.73,
-   "qty": 2.73,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 135,
-    "bolsa": 200
-   },
-   "order_id": "DGCDQMA013CX",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0329,
-   "pct_bal": 23.9,
-   "pct_gan": null,
-   "bal_entrada": 8.5152
-  }
- ],
- "heartbeat": 1793723865.359995,
+ "open": [],
+ "heartbeat": 1793724045.49499,
  "running": true,
  "stop_file": false
 }
