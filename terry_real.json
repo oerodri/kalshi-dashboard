@@ -1,6 +1,6 @@
 {
- "generated": 1793678882.1368022,
- "generated_et": "2026-11-02 23:08:02 ET",
+ "generated": 1793679068.0984037,
+ "generated_et": "2026-11-02 23:11:08 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 9.30061,
-  "buying_power": 9.30061,
+  "current": 12.00061,
+  "buying_power": 12.00061,
   "in_positions": 0
  },
  "balance_err": null,
@@ -310,32 +310,35 @@
   [
    1793678882,
    9.30061
+  ],
+  [
+   1793679068,
+   12.00061
   ]
  ],
  "totals": {
-  "trades": 50,
-  "wins": 38,
-  "win_pct": 76.0,
-  "gross_pnl": 0.9546,
-  "fees": 1.73,
-  "net_pnl": -0.7754
+  "trades": 51,
+  "wins": 39,
+  "win_pct": 76.5,
+  "gross_pnl": 1.7376,
+  "fees": 1.77,
+  "net_pnl": -0.0324
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": -0.7754,
-  "trades": 50,
-  "wins": 38,
+  "pnl": -0.0324,
+  "trades": 51,
+  "wins": 39,
   "breakeven_pct": 77,
-  "cap_left": 19.22,
+  "cap_left": 19.97,
   "cap_hit": false
  },
  "counts": {
   "saltada": 38,
   "error": 2,
-  "gano": 38,
+  "gano": 39,
   "nofill": 31,
-  "perdio": 12,
-  "abierta": 1
+  "perdio": 12
  },
  "equity": [
   [
@@ -587,6 +590,11 @@
    1793677932,
    -0.7754,
    "0350z"
+  ],
+  [
+   1793678850,
+   -0.0324,
+   "0405z"
   ]
  ],
  "calls": [
@@ -601,7 +609,7 @@
    "precio": 0.71,
    "qty": 2.7,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.743,
    "lat": {
     "llamada": 0,
     "envio": 128,
@@ -609,11 +617,11 @@
    },
    "order_id": "DG1PVXKG12WK",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.957,
    "pct_bal": 17.4,
-   "pct_gan": null,
+   "pct_gan": 38.0,
    "bal_entrada": 11.2576
   },
   {
@@ -3609,35 +3617,8 @@
   "envio": 134,
   "bolsa": 229
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0405z",
-   "ronda": "0405z",
-   "hora": "23:07:29",
-   "day": "2026-11-02",
-   "ts": 1793678849.8275998,
-   "side": "up",
-   "prob": 0.7064,
-   "precio": 0.71,
-   "qty": 2.7,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 128,
-    "bolsa": 156
-   },
-   "order_id": "DG1PVXKG12WK",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.957,
-   "pct_bal": 17.4,
-   "pct_gan": null,
-   "bal_entrada": 11.2576
-  }
- ],
- "heartbeat": 1793678875.5948656,
+ "open": [],
+ "heartbeat": 1793679055.7094212,
  "running": true,
  "stop_file": false
 }
