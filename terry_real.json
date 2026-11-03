@@ -1,6 +1,6 @@
 {
- "generated": 1793686220.7988987,
- "generated_et": "2026-11-03 01:10:21 ET",
+ "generated": 1793686345.270922,
+ "generated_et": "2026-11-03 01:12:26 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 8.37391,
-  "buying_power": 8.37391,
-  "in_positions": 0
+  "current": 8.76611,
+  "buying_power": 6.47611,
+  "in_positions": 2.29
  },
  "balance_err": null,
  "balance_hist": [
@@ -422,6 +422,10 @@
   [
    1793686035,
    8.37391
+  ],
+  [
+   1793686345,
+   8.76611
   ]
  ],
  "totals": {
@@ -446,7 +450,8 @@
   "error": 2,
   "gano": 54,
   "nofill": 32,
-  "perdio": 16
+  "perdio": 16,
+  "abierta": 1
  },
  "equity": [
   [
@@ -801,6 +806,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0610z",
+   "ronda": "0610z",
+   "hora": "01:11:52",
+   "day": "2026-11-03",
+   "ts": 1793686312.8091393,
+   "side": "down",
+   "prob": 0.7967,
+   "precio": 0.82,
+   "qty": 2.29,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 125,
+    "bolsa": 151
+   },
+   "order_id": "DG3FSY7012VP",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.8978,
+   "pct_bal": 22.7,
+   "pct_gan": null,
+   "bal_entrada": 8.3739
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0605z",
    "ronda": "0605z",
@@ -4424,12 +4455,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 972,
+  "llamada": 963,
   "envio": 134,
   "bolsa": 222
  },
- "open": [],
- "heartbeat": 1793686210.5306828,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0610z",
+   "ronda": "0610z",
+   "hora": "01:11:52",
+   "day": "2026-11-03",
+   "ts": 1793686312.8091393,
+   "side": "down",
+   "prob": 0.7967,
+   "precio": 0.82,
+   "qty": 2.29,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 125,
+    "bolsa": 151
+   },
+   "order_id": "DG3FSY7012VP",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.8978,
+   "pct_bal": 22.7,
+   "pct_gan": null,
+   "bal_entrada": 8.3739
+  }
+ ],
+ "heartbeat": 1793686330.860519,
  "running": true,
  "stop_file": false
 }
