@@ -1,6 +1,6 @@
 {
- "generated": 1793693626.4496477,
- "generated_et": "2026-11-03 03:13:47 ET",
+ "generated": 1793693934.009178,
+ "generated_et": "2026-11-03 03:18:54 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 12.06311,
-  "buying_power": 12.06311,
-  "in_positions": 0
+  "current": 12.49481,
+  "buying_power": 10.06481,
+  "in_positions": 2.43
  },
  "balance_err": null,
  "balance_hist": [
@@ -510,6 +510,10 @@
   [
    1793693439,
    12.06311
+  ],
+  [
+   1793693926,
+   12.49481
   ]
  ],
  "totals": {
@@ -534,7 +538,8 @@
   "error": 2,
   "gano": 66,
   "nofill": 32,
-  "perdio": 18
+  "perdio": 18,
+  "abierta": 1
  },
  "equity": [
   [
@@ -960,6 +965,32 @@
  ],
  "calls": [
   {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0815z",
+   "ronda": "0815z",
+   "hora": "03:18:07",
+   "day": "2026-11-03",
+   "ts": 1793693887.2940586,
+   "side": "down",
+   "prob": 0.7342,
+   "precio": 0.81,
+   "qty": 2.43,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 134,
+    "bolsa": 188
+   },
+   "order_id": "DG59K6BG13CT",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9983,
+   "pct_bal": 16.6,
+   "pct_gan": null,
+   "bal_entrada": 12.0631
+  },
+  {
    "slug": "cpc-btc-updown-5m-2026-11-03-0810z",
    "ronda": "0810z",
    "hora": "03:12:57",
@@ -1327,7 +1358,7 @@
    "costo": 1.9464,
    "pct_bal": 15.8,
    "pct_gan": 15.1,
-   "bal_entrada": 12.3526
+   "bal_entrada": 12.35261
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0650z",
@@ -5166,12 +5197,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1022,
+  "llamada": 1014,
   "envio": 133,
   "bolsa": 215
  },
- "open": [],
- "heartbeat": 1793693622.3152125,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0815z",
+   "ronda": "0815z",
+   "hora": "03:18:07",
+   "day": "2026-11-03",
+   "ts": 1793693887.2940586,
+   "side": "down",
+   "prob": 0.7342,
+   "precio": 0.81,
+   "qty": 2.43,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 134,
+    "bolsa": 188
+   },
+   "order_id": "DG59K6BG13CT",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9983,
+   "pct_bal": 16.6,
+   "pct_gan": null,
+   "bal_entrada": 12.0631
+  }
+ ],
+ "heartbeat": 1793693922.5474882,
  "running": true,
  "stop_file": false
 }
