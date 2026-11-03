@@ -1,6 +1,6 @@
 {
- "generated": 1793667431.810196,
- "generated_et": "2026-11-02 19:57:12 ET",
+ "generated": 1793667617.423408,
+ "generated_et": "2026-11-02 20:00:18 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 14.04661,
+  "current": 11.19661,
   "buying_power": 11.19661,
-  "in_positions": 2.85
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -230,20 +230,24 @@
   [
    1793667432,
    14.04661
+  ],
+  [
+   1793667617,
+   11.19661
   ]
  ],
  "totals": {
-  "trades": 36,
+  "trades": 37,
   "wins": 28,
-  "win_pct": 77.8,
-  "gross_pnl": 2.4302,
-  "fees": 1.26,
-  "net_pnl": 1.1702
+  "win_pct": 75.7,
+  "gross_pnl": 0.4637,
+  "fees": 1.3,
+  "net_pnl": -0.8363
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": 1.1702,
-  "cap_left": 20.0,
+  "pnl": -0.8363,
+  "cap_left": 19.16,
   "cap_hit": false
  },
  "counts": {
@@ -251,8 +255,7 @@
   "error": 2,
   "gano": 28,
   "nofill": 16,
-  "perdio": 8,
-  "abierta": 1
+  "perdio": 9
  },
  "equity": [
   [
@@ -434,6 +437,11 @@
    1793667138,
    1.1702,
    "0050z"
+  ],
+  [
+   1793667420,
+   -0.8363,
+   "0055z"
   ]
  ],
  "calls": [
@@ -448,7 +456,7 @@
    "precio": 0.69,
    "qty": 2.85,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": -2.0065,
    "lat": {
     "llamada": 1994,
     "envio": 127,
@@ -456,11 +464,11 @@
    },
    "order_id": "DFYZNBMG12WP",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 2.0065,
    "pct_bal": 15.2,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 13.2031
   },
   {
@@ -2504,35 +2512,8 @@
   "envio": 134,
   "bolsa": 231
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0055z",
-   "ronda": "0055z",
-   "hora": "19:56:59",
-   "day": "2026-11-02",
-   "ts": 1793667419.7286077,
-   "side": "down",
-   "prob": 0.7035,
-   "precio": 0.69,
-   "qty": 2.85,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 1994,
-    "envio": 127,
-    "bolsa": 136
-   },
-   "order_id": "DFYZNBMG12WP",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0065,
-   "pct_bal": 15.2,
-   "pct_gan": null,
-   "bal_entrada": 13.2031
-  }
- ],
- "heartbeat": 1793667430.4604614,
+ "open": [],
+ "heartbeat": 1793667614.3201022,
  "running": true,
  "stop_file": false
 }
