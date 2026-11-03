@@ -1,6 +1,6 @@
 {
- "generated": 1793729210.0645304,
- "generated_et": "2026-11-03 13:06:50 ET",
+ "generated": 1793729467.7103016,
+ "generated_et": "2026-11-03 13:11:08 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 7.51651,
-  "buying_power": 7.51651,
+  "current": 9.86651,
+  "buying_power": 9.86651,
   "in_positions": 0
  },
  "balance_err": null,
@@ -1102,21 +1102,25 @@
   [
    1793729210,
    7.51651
+  ],
+  [
+   1793729468,
+   9.86651
   ]
  ],
  "totals": {
-  "trades": 175,
-  "wins": 138,
-  "win_pct": 78.9,
-  "gross_pnl": 9.0346,
-  "fees": 5.54,
-  "net_pnl": 3.4946
+  "trades": 176,
+  "wins": 139,
+  "win_pct": 79.0,
+  "gross_pnl": 9.4341,
+  "fees": 5.56,
+  "net_pnl": 3.8741
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 3.0068,
-  "trades": 118,
-  "wins": 94,
+  "pnl": 3.3863,
+  "trades": 119,
+  "wins": 95,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -1124,10 +1128,9 @@
  "counts": {
   "saltada": 59,
   "error": 2,
-  "gano": 138,
+  "gano": 139,
   "nofill": 41,
-  "perdio": 37,
-  "abierta": 1
+  "perdio": 37
  },
  "equity": [
   [
@@ -2004,6 +2007,11 @@
    1793728650,
    3.4946,
    "1755z"
+  ],
+  [
+   1793729195,
+   3.8741,
+   "1805z"
   ]
  ],
  "calls": [
@@ -2018,7 +2026,7 @@
    "precio": 0.83,
    "qty": 2.35,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.3795,
    "lat": {
     "llamada": 0,
     "envio": 131,
@@ -2026,11 +2034,11 @@
    },
    "order_id": "DGDPZ4Z013D3",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9705,
    "pct_bal": 20.8,
-   "pct_gan": null,
+   "pct_gan": 19.3,
    "bal_entrada": 9.487
   },
   {
@@ -7081,35 +7089,8 @@
   "envio": 134,
   "bolsa": 189
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1805z",
-   "ronda": "1805z",
-   "hora": "13:06:34",
-   "day": "2026-11-03",
-   "ts": 1793729194.599494,
-   "side": "up",
-   "prob": 0.82,
-   "precio": 0.83,
-   "qty": 2.35,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 131,
-    "bolsa": 161
-   },
-   "order_id": "DGDPZ4Z013D3",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9705,
-   "pct_bal": 20.8,
-   "pct_gan": null,
-   "bal_entrada": 9.487
-  }
- ],
- "heartbeat": 1793729198.1840405,
+ "open": [],
+ "heartbeat": 1793729458.3990893,
  "running": true,
  "stop_file": false
 }
