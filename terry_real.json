@@ -1,6 +1,6 @@
 {
- "generated": 1793686035.2057526,
- "generated_et": "2026-11-03 01:07:15 ET",
+ "generated": 1793686220.7988987,
+ "generated_et": "2026-11-03 01:10:21 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 8.37391,
-  "buying_power": 5.78391,
-  "in_positions": 2.59
+  "buying_power": 8.37391,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -425,29 +425,28 @@
   ]
  ],
  "totals": {
-  "trades": 69,
-  "wins": 53,
-  "win_pct": 76.8,
-  "gross_pnl": 1.9787,
-  "fees": 2.29,
-  "net_pnl": -0.3113
+  "trades": 70,
+  "wins": 54,
+  "win_pct": 77.1,
+  "gross_pnl": 2.6262,
+  "fees": 2.32,
+  "net_pnl": 0.3062
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": -0.7991,
-  "trades": 12,
-  "wins": 9,
+  "pnl": -0.1816,
+  "trades": 13,
+  "wins": 10,
   "breakeven_pct": 77,
-  "cap_left": 19.2,
+  "cap_left": 19.82,
   "cap_hit": false
  },
  "counts": {
   "saltada": 42,
   "error": 2,
-  "gano": 53,
+  "gano": 54,
   "nofill": 32,
-  "perdio": 16,
-  "abierta": 1
+  "perdio": 16
  },
  "equity": [
   [
@@ -794,6 +793,11 @@
    1793685734,
    -0.3113,
    "0600z"
+  ],
+  [
+   1793685990,
+   0.3062,
+   "0605z"
   ]
  ],
  "calls": [
@@ -808,7 +812,7 @@
    "precio": 0.75,
    "qty": 2.59,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.6175,
    "lat": {
     "llamada": 0,
     "envio": 138,
@@ -816,11 +820,11 @@
    },
    "order_id": "DG3DB7XG12TT",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9725,
    "pct_bal": 25.4,
-   "pct_gan": null,
+   "pct_gan": 31.3,
    "bal_entrada": 7.7564
   },
   {
@@ -1055,7 +1059,7 @@
    "costo": 1.9722,
    "pct_bal": 36.5,
    "pct_gan": -100.0,
-   "bal_entrada": 5.3983
+   "bal_entrada": 5.39831
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0515z",
@@ -4424,35 +4428,8 @@
   "envio": 134,
   "bolsa": 222
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0605z",
-   "ronda": "0605z",
-   "hora": "01:06:30",
-   "day": "2026-11-03",
-   "ts": 1793685990.4170768,
-   "side": "down",
-   "prob": 0.7437,
-   "precio": 0.75,
-   "qty": 2.59,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 138,
-    "bolsa": 189
-   },
-   "order_id": "DG3DB7XG12TT",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9725,
-   "pct_bal": 25.4,
-   "pct_gan": null,
-   "bal_entrada": 7.7564
-  }
- ],
- "heartbeat": 1793686029.962096,
+ "open": [],
+ "heartbeat": 1793686210.5306828,
  "running": true,
  "stop_file": false
 }
