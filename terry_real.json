@@ -1,6 +1,6 @@
 {
- "generated": 1793695541.4513757,
- "generated_et": "2026-11-03 03:45:42 ET",
+ "generated": 1793695665.9346864,
+ "generated_et": "2026-11-03 03:47:46 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 13.82851,
-  "buying_power": 13.82851,
+  "current": 11.84451,
+  "buying_power": 11.84451,
   "in_positions": 0
  },
  "balance_err": null,
@@ -522,6 +522,10 @@
   [
    1793695295,
    13.82851
+  ],
+  [
+   1793695666,
+   11.84451
   ]
  ],
  "totals": {
@@ -546,7 +550,8 @@
   "error": 2,
   "gano": 69,
   "nofill": 33,
-  "perdio": 18
+  "perdio": 18,
+  "abierta": 1
  },
  "equity": [
   [
@@ -987,6 +992,32 @@
  ],
  "calls": [
   {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0845z",
+   "ronda": "0845z",
+   "hora": "03:46:46",
+   "day": "2026-11-03",
+   "ts": 1793695606.2771797,
+   "side": "up",
+   "prob": 0.7142,
+   "precio": 0.72,
+   "qty": 2.7,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 149,
+    "bolsa": 217
+   },
+   "order_id": "DG5PPW8G13CX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.984,
+   "pct_bal": 14.3,
+   "pct_gan": null,
+   "bal_entrada": 13.8285
+  },
+  {
    "slug": "cpc-btc-updown-5m-2026-11-03-0840z",
    "ronda": "0840z",
    "hora": "03:41:32",
@@ -1424,7 +1455,7 @@
    "costo": 1.9818,
    "pct_bal": 22.5,
    "pct_gan": 34.2,
-   "bal_entrada": 8.8018
+   "bal_entrada": 8.80181
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0710z",
@@ -5341,12 +5372,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 988,
+  "llamada": 980,
   "envio": 133,
   "bolsa": 213
  },
- "open": [],
- "heartbeat": 1793695524.2698739,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0845z",
+   "ronda": "0845z",
+   "hora": "03:46:46",
+   "day": "2026-11-03",
+   "ts": 1793695606.2771797,
+   "side": "up",
+   "prob": 0.7142,
+   "precio": 0.72,
+   "qty": 2.7,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 149,
+    "bolsa": 217
+   },
+   "order_id": "DG5PPW8G13CX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.984,
+   "pct_bal": 14.3,
+   "pct_gan": null,
+   "bal_entrada": 13.8285
+  }
+ ],
+ "heartbeat": 1793695664.6071646,
  "running": true,
  "stop_file": false
 }
