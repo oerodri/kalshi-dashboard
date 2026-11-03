@@ -1,6 +1,6 @@
 {
- "generated": 1793690278.4809654,
- "generated_et": "2026-11-03 02:17:59 ET",
+ "generated": 1793690468.0820544,
+ "generated_et": "2026-11-03 02:21:08 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 6.82001,
-  "buying_power": 6.82001,
+  "current": 9.48001,
+  "buying_power": 9.48001,
   "in_positions": 0
  },
  "balance_err": null,
@@ -470,21 +470,25 @@
   [
    1793690215,
    6.82001
+  ],
+  [
+   1793690468,
+   9.48001
   ]
  ],
  "totals": {
-  "trades": 77,
-  "wins": 59,
-  "win_pct": 76.6,
-  "gross_pnl": 3.1591,
-  "fees": 2.52,
-  "net_pnl": 0.6391
+  "trades": 78,
+  "wins": 60,
+  "win_pct": 76.9,
+  "gross_pnl": 3.8773,
+  "fees": 2.56,
+  "net_pnl": 1.3173
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 0.1513,
-  "trades": 20,
-  "wins": 15,
+  "pnl": 0.8295,
+  "trades": 21,
+  "wins": 16,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -492,10 +496,9 @@
  "counts": {
   "saltada": 47,
   "error": 2,
-  "gano": 59,
+  "gano": 60,
   "nofill": 32,
-  "perdio": 18,
-  "abierta": 1
+  "perdio": 18
  },
  "equity": [
   [
@@ -882,6 +885,11 @@
    1793689904,
    0.6391,
    "0710z"
+  ],
+  [
+   1793690215,
+   1.3173,
+   "0715z"
   ]
  ],
  "calls": [
@@ -896,7 +904,7 @@
    "precio": 0.73,
    "qty": 2.66,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.6782,
    "lat": {
     "llamada": 0,
     "envio": 127,
@@ -904,11 +912,11 @@
    },
    "order_id": "DG4DJK1013D7",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9818,
    "pct_bal": 22.5,
-   "pct_gan": null,
+   "pct_gan": 34.2,
    "bal_entrada": 8.8018
   },
   {
@@ -1253,7 +1261,7 @@
    "costo": 1.8404,
    "pct_bal": 24.9,
    "pct_gan": 20.6,
-   "bal_entrada": 7.3768
+   "bal_entrada": 7.37681
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0555z",
@@ -4830,35 +4838,8 @@
   "envio": 134,
   "bolsa": 219
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0715z",
-   "ronda": "0715z",
-   "hora": "02:16:54",
-   "day": "2026-11-03",
-   "ts": 1793690214.858033,
-   "side": "up",
-   "prob": 0.7358,
-   "precio": 0.73,
-   "qty": 2.66,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 127,
-    "bolsa": 149
-   },
-   "order_id": "DG4DJK1013D7",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9818,
-   "pct_bal": 22.5,
-   "pct_gan": null,
-   "bal_entrada": 8.8018
-  }
- ],
- "heartbeat": 1793690276.5077925,
+ "open": [],
+ "heartbeat": 1793690456.6374574,
  "running": true,
  "stop_file": false
 }
