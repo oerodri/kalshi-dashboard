@@ -1,6 +1,6 @@
 {
- "generated": 1793719674.598611,
- "generated_et": "2026-11-03 10:27:55 ET",
+ "generated": 1793719862.0549004,
+ "generated_et": "2026-11-03 10:31:02 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 15.18041,
+  "current": 12.52041,
   "buying_power": 12.52041,
-  "in_positions": 2.66
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -934,20 +934,24 @@
   [
    1793719675,
    15.18041
+  ],
+  [
+   1793719862,
+   12.52041
   ]
  ],
  "totals": {
-  "trades": 150,
+  "trades": 151,
   "wins": 119,
-  "win_pct": 79.3,
-  "gross_pnl": 9.181,
-  "fees": 4.75,
-  "net_pnl": 4.431
+  "win_pct": 78.8,
+  "gross_pnl": 7.2392,
+  "fees": 4.79,
+  "net_pnl": 2.4492
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 3.9432,
-  "trades": 93,
+  "pnl": 1.9614,
+  "trades": 94,
   "wins": 75,
   "breakeven_pct": 77,
   "cap_left": 20.0,
@@ -958,8 +962,7 @@
   "error": 2,
   "gano": 119,
   "nofill": 39,
-  "perdio": 31,
-  "abierta": 1
+  "perdio": 32
  },
  "equity": [
   [
@@ -1711,6 +1714,11 @@
    1793719291,
    4.431,
    "1520z"
+  ],
+  [
+   1793719659,
+   2.4492,
+   "1525z"
   ]
  ],
  "calls": [
@@ -1725,7 +1733,7 @@
    "precio": 0.73,
    "qty": 2.66,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": -1.9818,
    "lat": {
     "llamada": 0,
     "envio": 127,
@@ -1733,11 +1741,11 @@
    },
    "order_id": "DGBE73Z013D1",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 1.9818,
    "pct_bal": 13.7,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 14.5022
   },
   {
@@ -1998,7 +2006,7 @@
    "costo": 1.9436,
    "pct_bal": 16.8,
    "pct_gan": 17.8,
-   "bal_entrada": 11.5668
+   "bal_entrada": 11.56681
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1430z",
@@ -6760,35 +6768,8 @@
   "envio": 133,
   "bolsa": 194
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1525z",
-   "ronda": "1525z",
-   "hora": "10:27:39",
-   "day": "2026-11-03",
-   "ts": 1793719659.022101,
-   "side": "down",
-   "prob": 0.7147,
-   "precio": 0.73,
-   "qty": 2.66,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 127,
-    "bolsa": 146
-   },
-   "order_id": "DGBE73Z013D1",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9818,
-   "pct_bal": 13.7,
-   "pct_gan": null,
-   "bal_entrada": 14.5022
-  }
- ],
- "heartbeat": 1793719665.0141964,
+ "open": [],
+ "heartbeat": 1793719845.160352,
  "running": true,
  "stop_file": false
 }
