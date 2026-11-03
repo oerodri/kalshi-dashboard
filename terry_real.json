@@ -1,6 +1,6 @@
 {
- "generated": 1793730622.150023,
- "generated_et": "2026-11-03 13:30:23 ET",
+ "generated": 1793731017.866613,
+ "generated_et": "2026-11-03 13:36:58 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 9.38291,
-  "buying_power": 9.38291,
+  "current": 7.34491,
+  "buying_power": 7.34491,
   "in_positions": 0
  },
  "balance_err": null,
@@ -1122,6 +1122,10 @@
   [
    1793730491,
    9.38291
+  ],
+  [
+   1793731018,
+   7.34491
   ]
  ],
  "totals": {
@@ -1146,7 +1150,8 @@
   "error": 2,
   "gano": 141,
   "nofill": 41,
-  "perdio": 38
+  "perdio": 38,
+  "abierta": 1
  },
  "equity": [
   [
@@ -2046,6 +2051,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1835z",
+   "ronda": "1835z",
+   "hora": "13:36:30",
+   "day": "2026-11-03",
+   "ts": 1793730990.9365401,
+   "side": "up",
+   "prob": 0.7217,
+   "precio": 0.74,
+   "qty": 2.7,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 128,
+    "bolsa": 127
+   },
+   "order_id": "DGE4NPK013CX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.038,
+   "pct_bal": 21.7,
+   "pct_gan": null,
+   "bal_entrada": 9.3829
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1825z",
    "ronda": "1825z",
@@ -7099,37 +7130,42 @@
    "pct_bal": 13.1,
    "pct_gan": -100.0,
    "bal_entrada": 15.20141
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0045z",
-   "ronda": "0045z",
-   "hora": "19:47:04",
-   "day": "2026-11-02",
-   "ts": 1793666824.07673,
-   "side": "up",
-   "prob": 0.6596,
-   "precio": null,
-   "qty": null,
-   "fee": null,
-   "pnl": null,
-   "lat": null,
-   "order_id": null,
-   "aviso": null,
-   "out": "saltada",
-   "motivo": "prob 0.6596<0.66",
-   "costo": null,
-   "pct_bal": null,
-   "pct_gan": null,
-   "bal_entrada": null
   }
  ],
  "lat_avg": {
-  "llamada": 563,
+  "llamada": 560,
   "envio": 134,
   "bolsa": 189
  },
- "open": [],
- "heartbeat": 1793730605.5035355,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1835z",
+   "ronda": "1835z",
+   "hora": "13:36:30",
+   "day": "2026-11-03",
+   "ts": 1793730990.9365401,
+   "side": "up",
+   "prob": 0.7217,
+   "precio": 0.74,
+   "qty": 2.7,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 128,
+    "bolsa": 127
+   },
+   "order_id": "DGE4NPK013CX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.038,
+   "pct_bal": 21.7,
+   "pct_gan": null,
+   "bal_entrada": 9.3829
+  }
+ ],
+ "heartbeat": 1793731011.8874047,
  "running": true,
  "stop_file": false
 }
