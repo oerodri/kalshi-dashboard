@@ -1,6 +1,6 @@
 {
- "generated": 1793704958.3764226,
- "generated_et": "2026-11-03 06:22:39 ET",
+ "generated": 1793705143.928066,
+ "generated_et": "2026-11-03 06:25:44 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 14.57211,
-  "buying_power": 12.35211,
-  "in_positions": 2.22
+  "buying_power": 14.57211,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -693,18 +693,18 @@
   ]
  ],
  "totals": {
-  "trades": 110,
-  "wins": 87,
-  "win_pct": 79.1,
-  "gross_pnl": 7.8448,
-  "fees": 3.55,
-  "net_pnl": 4.2948
+  "trades": 111,
+  "wins": 88,
+  "win_pct": 79.3,
+  "gross_pnl": 8.089,
+  "fees": 3.57,
+  "net_pnl": 4.519
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 3.807,
-  "trades": 53,
-  "wins": 43,
+  "pnl": 4.0312,
+  "trades": 54,
+  "wins": 44,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -712,10 +712,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 87,
+  "gano": 88,
   "nofill": 37,
-  "perdio": 23,
-  "abierta": 1
+  "perdio": 23
  },
  "equity": [
   [
@@ -1267,6 +1266,11 @@
    1793704594,
    4.2948,
    "1115z"
+  ],
+  [
+   1793704950,
+   4.519,
+   "1120z"
   ]
  ],
  "calls": [
@@ -1281,7 +1285,7 @@
    "precio": 0.89,
    "qty": 2.22,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.2242,
    "lat": {
     "llamada": 0,
     "envio": 153,
@@ -1289,11 +1293,11 @@
    },
    "order_id": "DG7Y014013D1",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9958,
    "pct_bal": 13.9,
-   "pct_gan": null,
+   "pct_gan": 11.2,
    "bal_entrada": 14.3479
   },
   {
@@ -6261,35 +6265,8 @@
   "envio": 133,
   "bolsa": 204
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1120z",
-   "ronda": "1120z",
-   "hora": "06:22:29",
-   "day": "2026-11-03",
-   "ts": 1793704949.9416459,
-   "side": "down",
-   "prob": 0.8779,
-   "precio": 0.89,
-   "qty": 2.22,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 153,
-    "bolsa": 129
-   },
-   "order_id": "DG7Y014013D1",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9958,
-   "pct_bal": 13.9,
-   "pct_gan": null,
-   "bal_entrada": 14.3479
-  }
- ],
- "heartbeat": 1793704951.444388,
+ "open": [],
+ "heartbeat": 1793705124.512013,
  "running": true,
  "stop_file": false
 }
