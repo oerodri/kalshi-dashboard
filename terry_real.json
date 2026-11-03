@@ -1,6 +1,6 @@
 {
- "generated": 1793679192.6567156,
- "generated_et": "2026-11-02 23:13:13 ET",
+ "generated": 1793679500.3132842,
+ "generated_et": "2026-11-02 23:18:21 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 12.00061,
-  "buying_power": 12.00061,
+  "current": 10.00231,
+  "buying_power": 10.00231,
   "in_positions": 0
  },
  "balance_err": null,
@@ -314,6 +314,10 @@
   [
    1793679068,
    12.00061
+  ],
+  [
+   1793679500,
+   10.00231
   ]
  ],
  "totals": {
@@ -338,7 +342,8 @@
   "error": 2,
   "gano": 39,
   "nofill": 32,
-  "perdio": 12
+  "perdio": 12,
+  "abierta": 1
  },
  "equity": [
   [
@@ -598,6 +603,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0415z",
+   "ronda": "0415z",
+   "hora": "23:17:29",
+   "day": "2026-11-02",
+   "ts": 1793679449.6310427,
+   "side": "up",
+   "prob": 0.7834,
+   "precio": 0.81,
+   "qty": 2.43,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 123,
+    "bolsa": 139
+   },
+   "order_id": "DG1VEBE012VP",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9983,
+   "pct_bal": 16.7,
+   "pct_gan": null,
+   "bal_entrada": 12.0006
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0410z",
    "ronda": "0410z",
@@ -1078,7 +1109,7 @@
    "costo": 2.0012,
    "pct_bal": 18.7,
    "pct_gan": 27.9,
-   "bal_entrada": 10.6891
+   "bal_entrada": 10.68911
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0235z",
@@ -3639,12 +3670,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1195,
+  "llamada": 1180,
   "envio": 134,
-  "bolsa": 228
+  "bolsa": 227
  },
- "open": [],
- "heartbeat": 1793679175.7772853,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0415z",
+   "ronda": "0415z",
+   "hora": "23:17:29",
+   "day": "2026-11-02",
+   "ts": 1793679449.6310427,
+   "side": "up",
+   "prob": 0.7834,
+   "precio": 0.81,
+   "qty": 2.43,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 123,
+    "bolsa": 139
+   },
+   "order_id": "DG1VEBE012VP",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9983,
+   "pct_bal": 16.7,
+   "pct_gan": null,
+   "bal_entrada": 12.0006
+  }
+ ],
+ "heartbeat": 1793679496.1873496,
  "running": true,
  "stop_file": false
 }
