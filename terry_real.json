@@ -1,6 +1,6 @@
 {
- "generated": 1793679068.0984037,
- "generated_et": "2026-11-02 23:11:08 ET",
+ "generated": 1793679192.6567156,
+ "generated_et": "2026-11-02 23:13:13 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -337,7 +337,7 @@
   "saltada": 38,
   "error": 2,
   "gano": 39,
-  "nofill": 31,
+  "nofill": 32,
   "perdio": 12
  },
  "equity": [
@@ -598,6 +598,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0410z",
+   "ronda": "0410z",
+   "hora": "23:12:29",
+   "day": "2026-11-02",
+   "ts": 1793679149.6991856,
+   "side": "up",
+   "prob": 0.8081,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 118,
+    "bolsa": 150
+   },
+   "order_id": "DG1S548012VP",
+   "aviso": null,
+   "out": "nofill",
+   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0405z",
    "ronda": "0405z",
@@ -3613,12 +3639,12 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1209,
+  "llamada": 1195,
   "envio": 134,
-  "bolsa": 229
+  "bolsa": 228
  },
  "open": [],
- "heartbeat": 1793679055.7094212,
+ "heartbeat": 1793679175.7772853,
  "running": true,
  "stop_file": false
 }
