@@ -1,6 +1,6 @@
 {
- "generated": 1793734601.4501848,
- "generated_et": "2026-11-03 14:36:42 ET",
+ "generated": 1793734875.0833848,
+ "generated_et": "2026-11-03 14:41:15 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 0.33971,
-  "buying_power": 0.33971,
+  "current": 2.68971,
+  "buying_power": 2.68971,
   "in_positions": 0
  },
  "balance_err": null,
@@ -1170,21 +1170,25 @@
   [
    1793734601,
    0.33971
+  ],
+  [
+   1793734875,
+   2.68971
   ]
  ],
  "totals": {
-  "trades": 187,
-  "wins": 147,
-  "win_pct": 78.6,
-  "gross_pnl": 6.6074,
-  "fees": 5.83,
-  "net_pnl": 0.7774
+  "trades": 188,
+  "wins": 148,
+  "win_pct": 78.7,
+  "gross_pnl": 7.4769,
+  "fees": 5.87,
+  "net_pnl": 1.6069
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 0.2896,
-  "trades": 130,
-  "wins": 103,
+  "pnl": 1.1191,
+  "trades": 131,
+  "wins": 104,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -1192,10 +1196,9 @@
  "counts": {
   "saltada": 59,
   "error": 2,
-  "gano": 147,
+  "gano": 148,
   "nofill": 44,
-  "perdio": 40,
-  "abierta": 1
+  "perdio": 40
  },
  "equity": [
   [
@@ -2132,6 +2135,11 @@
    1793734008,
    0.7774,
    "1925z"
+  ],
+  [
+   1793734595,
+   1.6069,
+   "1935z"
   ]
  ],
  "calls": [
@@ -2146,7 +2154,7 @@
    "precio": 0.63,
    "qty": 2.35,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.8295,
    "lat": {
     "llamada": 0,
     "envio": 141,
@@ -2154,11 +2162,11 @@
    },
    "order_id": "DGF05K9G13CT",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.5205,
    "pct_bal": 81.7,
-   "pct_gan": null,
+   "pct_gan": 54.6,
    "bal_entrada": 1.8602
   },
   {
@@ -7233,35 +7241,8 @@
   "envio": 134,
   "bolsa": 193
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1935z",
-   "ronda": "1935z",
-   "hora": "14:36:34",
-   "day": "2026-11-03",
-   "ts": 1793734594.6269555,
-   "side": "up",
-   "prob": 0.7127,
-   "precio": 0.63,
-   "qty": 2.35,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 141,
-    "bolsa": 474
-   },
-   "order_id": "DGF05K9G13CT",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.5205,
-   "pct_bal": 81.7,
-   "pct_gan": null,
-   "bal_entrada": 1.8602
-  }
- ],
- "heartbeat": 1793734595.905115,
+ "open": [],
+ "heartbeat": 1793734864.9699934,
  "running": true,
  "stop_file": false
 }
