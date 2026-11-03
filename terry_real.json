@@ -1,6 +1,6 @@
 {
- "generated": 1793720739.158996,
- "generated_et": "2026-11-03 10:45:39 ET",
+ "generated": 1793720803.1793377,
+ "generated_et": "2026-11-03 10:46:43 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 14.83691,
-  "buying_power": 14.83691,
+  "current": 12.86641,
+  "buying_power": 12.86641,
   "in_positions": 0
  },
  "balance_err": null,
@@ -962,6 +962,10 @@
   [
    1793720739,
    14.83691
+  ],
+  [
+   1793720803,
+   12.86641
   ]
  ],
  "totals": {
@@ -986,7 +990,8 @@
   "error": 2,
   "gano": 122,
   "nofill": 39,
-  "perdio": 32
+  "perdio": 32,
+  "abierta": 1
  },
  "equity": [
   [
@@ -1761,6 +1766,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1545z",
+   "ronda": "1545z",
+   "hora": "10:46:31",
+   "day": "2026-11-03",
+   "ts": 1793720791.0132465,
+   "side": "up",
+   "prob": 0.8325,
+   "precio": 0.83,
+   "qty": 2.35,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 127,
+    "bolsa": 138
+   },
+   "order_id": "DGBPVFJG13D7",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9705,
+   "pct_bal": 13.3,
+   "pct_gan": null,
+   "bal_entrada": 14.8369
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1540z",
    "ronda": "1540z",
@@ -6774,41 +6805,42 @@
    "pct_bal": 18.5,
    "pct_gan": 44.2,
    "bal_entrada": 11.03681
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2210z",
-   "ronda": "2210z",
-   "hora": "17:12:30",
-   "day": "2026-11-02",
-   "ts": 1793657550.5085413,
-   "side": "up",
-   "prob": 0.7197,
-   "precio": 0.69,
-   "qty": 2.89,
-   "fee": 0.04,
-   "pnl": -2.0341,
-   "lat": {
-    "llamada": 0,
-    "envio": 150,
-    "bolsa": 366
-   },
-   "order_id": "DFWMBY5G52WP",
-   "aviso": null,
-   "out": "perdio",
-   "motivo": "Liquidada",
-   "costo": 2.0341,
-   "pct_bal": 15.6,
-   "pct_gan": -100.0,
-   "bal_entrada": 13.07091
   }
  ],
  "lat_avg": {
-  "llamada": 640,
+  "llamada": 637,
   "envio": 133,
   "bolsa": 193
  },
- "open": [],
- "heartbeat": 1793720726.7363727,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1545z",
+   "ronda": "1545z",
+   "hora": "10:46:31",
+   "day": "2026-11-03",
+   "ts": 1793720791.0132465,
+   "side": "up",
+   "prob": 0.8325,
+   "precio": 0.83,
+   "qty": 2.35,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 127,
+    "bolsa": 138
+   },
+   "order_id": "DGBPVFJG13D7",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9705,
+   "pct_bal": 13.3,
+   "pct_gan": null,
+   "bal_entrada": 14.8369
+  }
+ ],
+ "heartbeat": 1793720791.9299903,
  "running": true,
  "stop_file": false
 }
