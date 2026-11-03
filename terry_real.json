@@ -1,6 +1,6 @@
 {
- "generated": 1793684852.2960036,
- "generated_et": "2026-11-03 00:47:33 ET",
+ "generated": 1793685037.8403296,
+ "generated_et": "2026-11-03 00:50:38 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 6.38761,
-  "buying_power": 4.16761,
-  "in_positions": 2.22
+  "buying_power": 6.38761,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -405,29 +405,28 @@
   ]
  ],
  "totals": {
-  "trades": 65,
-  "wins": 50,
-  "win_pct": 76.9,
-  "gross_pnl": 2.3518,
-  "fees": 2.19,
-  "net_pnl": 0.1618
+  "trades": 66,
+  "wins": 51,
+  "win_pct": 77.3,
+  "gross_pnl": 2.6182,
+  "fees": 2.21,
+  "net_pnl": 0.4082
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": -0.326,
-  "trades": 8,
-  "wins": 6,
+  "pnl": -0.0796,
+  "trades": 9,
+  "wins": 7,
   "breakeven_pct": 77,
-  "cap_left": 19.67,
+  "cap_left": 19.92,
   "cap_hit": false
  },
  "counts": {
   "saltada": 42,
   "error": 2,
-  "gano": 50,
+  "gano": 51,
   "nofill": 32,
-  "perdio": 15,
-  "abierta": 1
+  "perdio": 15
  },
  "equity": [
   [
@@ -754,6 +753,11 @@
    1793684490,
    0.1618,
    "0540z"
+  ],
+  [
+   1793684850,
+   0.4082,
+   "0545z"
   ]
  ],
  "calls": [
@@ -768,7 +772,7 @@
    "precio": 0.88,
    "qty": 2.22,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.2464,
    "lat": {
     "llamada": 0,
     "envio": 142,
@@ -776,11 +780,11 @@
    },
    "order_id": "DG34MQ3012VC",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9736,
    "pct_bal": 32.1,
-   "pct_gan": null,
+   "pct_gan": 12.5,
    "bal_entrada": 6.1412
   },
   {
@@ -4280,35 +4284,8 @@
   "envio": 134,
   "bolsa": 224
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0545z",
-   "ronda": "0545z",
-   "hora": "00:47:29",
-   "day": "2026-11-03",
-   "ts": 1793684849.6183522,
-   "side": "down",
-   "prob": 0.8655,
-   "precio": 0.88,
-   "qty": 2.22,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 142,
-    "bolsa": 144
-   },
-   "order_id": "DG34MQ3012VC",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9736,
-   "pct_bal": 32.1,
-   "pct_gan": null,
-   "bal_entrada": 6.1412
-  }
- ],
- "heartbeat": 1793684850.5552042,
+ "open": [],
+ "heartbeat": 1793685027.9818277,
  "running": true,
  "stop_file": false
 }
