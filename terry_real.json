@@ -1,6 +1,6 @@
 {
- "generated": 1793737255.8741846,
- "generated_et": "2026-11-03 15:20:56 ET",
+ "generated": 1793737342.642052,
+ "generated_et": "2026-11-03 15:22:23 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -1217,7 +1217,7 @@
   "saltada": 61,
   "error": 2,
   "gano": 151,
-  "nofill": 46,
+  "nofill": 47,
   "perdio": 41
  },
  "equity": [
@@ -2183,6 +2183,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-2020z",
+   "ronda": "2020z",
+   "hora": "15:21:55",
+   "day": "2026-11-03",
+   "ts": 1793737315.093326,
+   "side": "up",
+   "prob": 0.7918,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 134,
+    "bolsa": 187
+   },
+   "order_id": "DGFMXPPG53D3",
+   "aviso": null,
+   "out": "nofill",
+   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2015z",
    "ronda": "2015z",
@@ -7252,41 +7278,15 @@
    "pct_bal": null,
    "pct_gan": null,
    "bal_entrada": null
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0225z",
-   "ronda": "0225z",
-   "hora": "21:27:18",
-   "day": "2026-11-02",
-   "ts": 1793672838.0422957,
-   "side": "up",
-   "prob": 0.8337,
-   "precio": null,
-   "qty": null,
-   "fee": null,
-   "pnl": null,
-   "lat": {
-    "llamada": 46,
-    "envio": 132,
-    "bolsa": 222
-   },
-   "order_id": "DG09070G32TT",
-   "aviso": null,
-   "out": "nofill",
-   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)",
-   "costo": null,
-   "pct_bal": null,
-   "pct_gan": null,
-   "bal_entrada": null
   }
  ],
  "lat_avg": {
-  "llamada": 520,
+  "llamada": 518,
   "envio": 134,
   "bolsa": 192
  },
  "open": [],
- "heartbeat": 1793737248.2525997,
+ "heartbeat": 1793737328.321404,
  "running": true,
  "stop_file": false
 }
