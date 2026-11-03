@@ -1,6 +1,6 @@
 {
- "generated": 1793729799.4944165,
- "generated_et": "2026-11-03 13:16:40 ET",
+ "generated": 1793730066.1777349,
+ "generated_et": "2026-11-03 13:21:07 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 10.61821,
-  "buying_power": 7.88821,
-  "in_positions": 2.73
+  "buying_power": 10.61821,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -1113,18 +1113,18 @@
   ]
  ],
  "totals": {
-  "trades": 176,
-  "wins": 139,
-  "win_pct": 79.0,
-  "gross_pnl": 9.4341,
-  "fees": 5.56,
-  "net_pnl": 3.8741
+  "trades": 177,
+  "wins": 140,
+  "win_pct": 79.1,
+  "gross_pnl": 10.2258,
+  "fees": 5.6,
+  "net_pnl": 4.6258
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 3.3863,
-  "trades": 119,
-  "wins": 95,
+  "pnl": 4.138,
+  "trades": 120,
+  "wins": 96,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -1132,10 +1132,9 @@
  "counts": {
   "saltada": 59,
   "error": 2,
-  "gano": 139,
+  "gano": 140,
   "nofill": 41,
-  "perdio": 37,
-  "abierta": 1
+  "perdio": 37
  },
  "equity": [
   [
@@ -2017,6 +2016,11 @@
    1793729195,
    3.8741,
    "1805z"
+  ],
+  [
+   1793729790,
+   4.6258,
+   "1815z"
   ]
  ],
  "calls": [
@@ -2031,7 +2035,7 @@
    "precio": 0.71,
    "qty": 2.73,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.7517,
    "lat": {
     "llamada": 0,
     "envio": 123,
@@ -2039,11 +2043,11 @@
    },
    "order_id": "DGDVGF9G33D7",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9783,
    "pct_bal": 20.1,
-   "pct_gan": null,
+   "pct_gan": 38.0,
    "bal_entrada": 9.8665
   },
   {
@@ -7098,35 +7102,8 @@
   "envio": 134,
   "bolsa": 189
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1815z",
-   "ronda": "1815z",
-   "hora": "13:16:29",
-   "day": "2026-11-03",
-   "ts": 1793729789.829766,
-   "side": "down",
-   "prob": 0.7274,
-   "precio": 0.71,
-   "qty": 2.73,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 123,
-    "bolsa": 181
-   },
-   "order_id": "DGDVGF9G33D7",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9783,
-   "pct_bal": 20.1,
-   "pct_gan": null,
-   "bal_entrada": 9.8665
-  }
- ],
- "heartbeat": 1793729798.9103405,
+ "open": [],
+ "heartbeat": 1793730059.1503718,
  "running": true,
  "stop_file": false
 }
