@@ -1,6 +1,6 @@
 {
- "generated": 1793721307.331829,
- "generated_et": "2026-11-03 10:55:08 ET",
+ "generated": 1793721432.9985974,
+ "generated_et": "2026-11-03 10:57:13 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 9.26861,
-  "buying_power": 9.26861,
+  "current": 7.31081,
+  "buying_power": 7.31081,
   "in_positions": 0
  },
  "balance_err": null,
@@ -982,20 +982,24 @@
   [
    1793721307,
    9.26861
+  ],
+  [
+   1793721433,
+   7.31081
   ]
  ],
  "totals": {
-  "trades": 155,
+  "trades": 156,
   "wins": 123,
-  "win_pct": 79.4,
-  "gross_pnl": 10.0552,
-  "fees": 4.92,
-  "net_pnl": 5.1352
+  "win_pct": 78.8,
+  "gross_pnl": 8.1118,
+  "fees": 4.95,
+  "net_pnl": 3.1618
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 4.6474,
-  "trades": 98,
+  "pnl": 2.674,
+  "trades": 99,
   "wins": 79,
   "breakeven_pct": 77,
   "cap_left": 20.0,
@@ -1006,7 +1010,7 @@
   "error": 2,
   "gano": 123,
   "nofill": 39,
-  "perdio": 32,
+  "perdio": 33,
   "abierta": 1
  },
  "equity": [
@@ -1784,9 +1788,40 @@
    1793720791,
    5.1352,
    "1545z"
+  ],
+  [
+   1793721090,
+   3.1618,
+   "1550z"
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1555z",
+   "ronda": "1555z",
+   "hora": "10:56:29",
+   "day": "2026-11-03",
+   "ts": 1793721389.4454067,
+   "side": "up",
+   "prob": 0.8345,
+   "precio": 0.81,
+   "qty": 2.38,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 144,
+    "bolsa": 119
+   },
+   "order_id": "DGBVDJTG13D8",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9578,
+   "pct_bal": 21.1,
+   "pct_gan": null,
+   "bal_entrada": 9.2686
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1550z",
    "ronda": "1550z",
@@ -1798,7 +1833,7 @@
    "precio": 0.79,
    "qty": 2.46,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": -1.9734,
    "lat": {
     "llamada": 0,
     "envio": 142,
@@ -1806,11 +1841,11 @@
    },
    "order_id": "DGBS4E7013CX",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 1.9734,
    "pct_bal": 13.0,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 15.2164
   },
   {
@@ -6804,64 +6839,42 @@
    "pct_bal": null,
    "pct_gan": null,
    "bal_entrada": null
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2220z",
-   "ronda": "2220z",
-   "hora": "17:22:30",
-   "day": "2026-11-02",
-   "ts": 1793658150.198731,
-   "side": "down",
-   "prob": 0.8703,
-   "precio": null,
-   "qty": null,
-   "fee": null,
-   "pnl": null,
-   "lat": null,
-   "order_id": null,
-   "aviso": null,
-   "out": "saltada",
-   "motivo": "ask 0.93 > max 0.9",
-   "costo": null,
-   "pct_bal": null,
-   "pct_gan": null,
-   "bal_entrada": null
   }
  ],
  "lat_avg": {
-  "llamada": 634,
+  "llamada": 631,
   "envio": 133,
-  "bolsa": 193
+  "bolsa": 192
  },
  "open": [
   {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1550z",
-   "ronda": "1550z",
-   "hora": "10:51:29",
+   "slug": "cpc-btc-updown-5m-2026-11-03-1555z",
+   "ronda": "1555z",
+   "hora": "10:56:29",
    "day": "2026-11-03",
-   "ts": 1793721089.8394444,
-   "side": "down",
-   "prob": 0.7924,
-   "precio": 0.79,
-   "qty": 2.46,
+   "ts": 1793721389.4454067,
+   "side": "up",
+   "prob": 0.8345,
+   "precio": 0.81,
+   "qty": 2.38,
    "fee": 0.03,
    "pnl": null,
    "lat": {
     "llamada": 0,
-    "envio": 142,
-    "bolsa": 129
+    "envio": 144,
+    "bolsa": 119
    },
-   "order_id": "DGBS4E7013CX",
+   "order_id": "DGBVDJTG13D8",
    "aviso": null,
    "out": "abierta",
    "motivo": "Esperando liquidación",
-   "costo": 1.9734,
-   "pct_bal": 13.0,
+   "costo": 1.9578,
+   "pct_bal": 21.1,
    "pct_gan": null,
-   "bal_entrada": 15.2164
+   "bal_entrada": 9.2686
   }
  ],
- "heartbeat": 1793721303.9698114,
+ "heartbeat": 1793721429.2076838,
  "running": true,
  "stop_file": false
 }
