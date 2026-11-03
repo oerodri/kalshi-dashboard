@@ -1,6 +1,6 @@
 {
- "generated": 1793722621.8282454,
- "generated_et": "2026-11-03 11:17:02 ET",
+ "generated": 1793722869.131034,
+ "generated_et": "2026-11-03 11:21:09 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 8.41881,
-  "buying_power": 6.01881,
-  "in_positions": 2.4
+  "buying_power": 8.41881,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -1021,29 +1021,28 @@
   ]
  ],
  "totals": {
-  "trades": 160,
-  "wins": 125,
-  "win_pct": 78.1,
-  "gross_pnl": 5.3104,
-  "fees": 5.07,
-  "net_pnl": 0.2404
+  "trades": 161,
+  "wins": 126,
+  "win_pct": 78.3,
+  "gross_pnl": 5.7904,
+  "fees": 5.1,
+  "net_pnl": 0.6904
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": -0.2474,
-  "trades": 103,
-  "wins": 81,
+  "pnl": 0.2026,
+  "trades": 104,
+  "wins": 82,
   "breakeven_pct": 77,
-  "cap_left": 19.75,
+  "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 125,
+  "gano": 126,
   "nofill": 39,
-  "perdio": 35,
-  "abierta": 1
+  "perdio": 35
  },
  "equity": [
   [
@@ -1845,6 +1844,11 @@
    1793722290,
    0.2404,
    "1610z"
+  ],
+  [
+   1793722594,
+   0.6904,
+   "1615z"
   ]
  ],
  "calls": [
@@ -1859,7 +1863,7 @@
    "precio": 0.8,
    "qty": 2.4,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.45,
    "lat": {
     "llamada": 0,
     "envio": 131,
@@ -1867,11 +1871,11 @@
    },
    "order_id": "DGC4KKG013D3",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.95,
    "pct_bal": 24.5,
-   "pct_gan": null,
+   "pct_gan": 23.1,
    "bal_entrada": 7.9688
   },
   {
@@ -6898,35 +6902,8 @@
   "envio": 133,
   "bolsa": 192
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1615z",
-   "ronda": "1615z",
-   "hora": "11:16:33",
-   "day": "2026-11-03",
-   "ts": 1793722593.729,
-   "side": "down",
-   "prob": 0.777,
-   "precio": 0.8,
-   "qty": 2.4,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 131,
-    "bolsa": 155
-   },
-   "order_id": "DGC4KKG013D3",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.95,
-   "pct_bal": 24.5,
-   "pct_gan": null,
-   "bal_entrada": 7.9688
-  }
- ],
- "heartbeat": 1793722612.9302669,
+ "open": [],
+ "heartbeat": 1793722856.0861785,
  "running": true,
  "stop_file": false
 }
