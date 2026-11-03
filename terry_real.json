@@ -1,6 +1,6 @@
 {
- "generated": 1793714248.473579,
- "generated_et": "2026-11-03 08:57:29 ET",
+ "generated": 1793714435.0838277,
+ "generated_et": "2026-11-03 09:00:35 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 15.61601,
+  "current": 13.02601,
   "buying_power": 13.02601,
-  "in_positions": 2.59
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -826,20 +826,24 @@
   [
    1793714248,
    15.61601
+  ],
+  [
+   1793714435,
+   13.02601
   ]
  ],
  "totals": {
-  "trades": 133,
+  "trades": 134,
   "wins": 106,
-  "win_pct": 79.7,
-  "gross_pnl": 9.1454,
-  "fees": 4.2,
-  "net_pnl": 4.9454
+  "win_pct": 79.1,
+  "gross_pnl": 7.2029,
+  "fees": 4.23,
+  "net_pnl": 2.9729
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 4.4576,
-  "trades": 76,
+  "pnl": 2.4851,
+  "trades": 77,
   "wins": 62,
   "breakeven_pct": 77,
   "cap_left": 20.0,
@@ -850,8 +854,7 @@
   "error": 2,
   "gano": 106,
   "nofill": 38,
-  "perdio": 27,
-  "abierta": 1
+  "perdio": 28
  },
  "equity": [
   [
@@ -1518,6 +1521,11 @@
    1793713911,
    4.9454,
    "1350z"
+  ],
+  [
+   1793714204,
+   2.9729,
+   "1355z"
   ]
  ],
  "calls": [
@@ -1532,7 +1540,7 @@
    "precio": 0.75,
    "qty": 2.59,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": -1.9725,
    "lat": {
     "llamada": 0,
     "envio": 131,
@@ -1540,11 +1548,11 @@
    },
    "order_id": "DGA4KAE013D5",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 1.9725,
    "pct_bal": 13.2,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 14.9985
   },
   {
@@ -6539,35 +6547,8 @@
   "envio": 133,
   "bolsa": 198
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1355z",
-   "ronda": "1355z",
-   "hora": "08:56:44",
-   "day": "2026-11-03",
-   "ts": 1793714204.005277,
-   "side": "down",
-   "prob": 0.7321,
-   "precio": 0.75,
-   "qty": 2.59,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 131,
-    "bolsa": 126
-   },
-   "order_id": "DGA4KAE013D5",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9725,
-   "pct_bal": 13.2,
-   "pct_gan": null,
-   "bal_entrada": 14.9985
-  }
- ],
- "heartbeat": 1793714238.3143349,
+ "open": [],
+ "heartbeat": 1793714418.7796316,
  "running": true,
  "stop_file": false
 }
