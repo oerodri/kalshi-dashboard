@@ -1,6 +1,6 @@
 {
- "generated": 1793737004.9794383,
- "generated_et": "2026-11-03 15:16:45 ET",
+ "generated": 1793737255.8741846,
+ "generated_et": "2026-11-03 15:20:56 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 0.17561,
-  "buying_power": 0.17561,
+  "current": 1.80561,
+  "buying_power": 1.80561,
   "in_positions": 0
  },
  "balance_err": null,
@@ -1190,32 +1190,35 @@
   [
    1793737005,
    0.17561
+  ],
+  [
+   1793737256,
+   1.80561
   ]
  ],
  "totals": {
-  "trades": 191,
-  "wins": 150,
-  "win_pct": 78.5,
-  "gross_pnl": 6.192,
-  "fees": 5.94,
-  "net_pnl": 0.252
+  "trades": 192,
+  "wins": 151,
+  "win_pct": 78.6,
+  "gross_pnl": 6.681,
+  "fees": 5.96,
+  "net_pnl": 0.721
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": -0.2358,
-  "trades": 134,
-  "wins": 106,
+  "pnl": 0.2332,
+  "trades": 135,
+  "wins": 107,
   "breakeven_pct": 77,
-  "cap_left": 19.76,
+  "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
   "saltada": 61,
   "error": 2,
-  "gano": 150,
+  "gano": 151,
   "nofill": 46,
-  "perdio": 41,
-  "abierta": 1
+  "perdio": 41
  },
  "equity": [
   [
@@ -2172,6 +2175,11 @@
    1793736691,
    0.252,
    "2010z"
+  ],
+  [
+   1793737003,
+   0.721,
+   "2015z"
   ]
  ],
  "calls": [
@@ -2186,7 +2194,7 @@
    "precio": 0.7,
    "qty": 1.63,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.469,
    "lat": {
     "llamada": 0,
     "envio": 137,
@@ -2194,11 +2202,11 @@
    },
    "order_id": "DGFJHE4G13D6",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.161,
    "pct_bal": 86.9,
-   "pct_gan": null,
+   "pct_gan": 40.4,
    "bal_entrada": 1.3366
   },
   {
@@ -7277,35 +7285,8 @@
   "envio": 134,
   "bolsa": 192
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-2015z",
-   "ronda": "2015z",
-   "hora": "15:16:42",
-   "day": "2026-11-03",
-   "ts": 1793737002.6863172,
-   "side": "up",
-   "prob": 0.7317,
-   "precio": 0.7,
-   "qty": 1.63,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 137,
-    "bolsa": 199
-   },
-   "order_id": "DGFJHE4G13D6",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.161,
-   "pct_bal": 86.9,
-   "pct_gan": null,
-   "bal_entrada": 1.3366
-  }
- ],
- "heartbeat": 1793737003.6774023,
+ "open": [],
+ "heartbeat": 1793737248.2525997,
  "running": true,
  "stop_file": false
 }
