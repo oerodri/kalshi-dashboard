@@ -1,6 +1,6 @@
 {
- "generated": 1793705520.8213162,
- "generated_et": "2026-11-03 06:32:01 ET",
+ "generated": 1793705767.369405,
+ "generated_et": "2026-11-03 06:36:08 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 15.20101,
-  "buying_power": 12.88101,
-  "in_positions": 2.32
+  "buying_power": 15.20101,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -705,18 +705,18 @@
   ]
  ],
  "totals": {
-  "trades": 112,
-  "wins": 89,
-  "win_pct": 79.5,
-  "gross_pnl": 8.3867,
-  "fees": 3.59,
-  "net_pnl": 4.7967
+  "trades": 113,
+  "wins": 90,
+  "win_pct": 79.6,
+  "gross_pnl": 8.7579,
+  "fees": 3.61,
+  "net_pnl": 5.1479
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 4.3089,
-  "trades": 55,
-  "wins": 45,
+  "pnl": 4.6601,
+  "trades": 56,
+  "wins": 46,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -724,10 +724,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 89,
+  "gano": 90,
   "nofill": 37,
-  "perdio": 23,
-  "abierta": 1
+  "perdio": 23
  },
  "equity": [
   [
@@ -1289,6 +1288,11 @@
    1793705195,
    4.7967,
    "1125z"
+  ],
+  [
+   1793705495,
+   5.1479,
+   "1130z"
   ]
  ],
  "calls": [
@@ -1303,7 +1307,7 @@
    "precio": 0.84,
    "qty": 2.32,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.3512,
    "lat": {
     "llamada": 0,
     "envio": 127,
@@ -1311,11 +1315,11 @@
    },
    "order_id": "DG82549013D1",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9688,
    "pct_bal": 13.3,
-   "pct_gan": null,
+   "pct_gan": 17.8,
    "bal_entrada": 14.8498
   },
   {
@@ -1550,7 +1554,7 @@
    "costo": 2.0034,
    "pct_bal": 13.0,
    "pct_gan": 26.3,
-   "bal_entrada": 15.4682
+   "bal_entrada": 15.46821
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1035z",
@@ -6282,35 +6286,8 @@
   "envio": 134,
   "bolsa": 203
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1130z",
-   "ronda": "1130z",
-   "hora": "06:31:35",
-   "day": "2026-11-03",
-   "ts": 1793705495.1350849,
-   "side": "down",
-   "prob": 0.841,
-   "precio": 0.84,
-   "qty": 2.32,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 127,
-    "bolsa": 133
-   },
-   "order_id": "DG82549013D1",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9688,
-   "pct_bal": 13.3,
-   "pct_gan": null,
-   "bal_entrada": 14.8498
-  }
- ],
- "heartbeat": 1793705505.0406942,
+ "open": [],
+ "heartbeat": 1793705765.4282868,
  "running": true,
  "stop_file": false
 }
