@@ -1,6 +1,6 @@
 {
- "generated": 1793682663.2887197,
- "generated_et": "2026-11-03 00:11:04 ET",
+ "generated": 1793682849.33549,
+ "generated_et": "2026-11-03 00:14:10 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 18.26771,
-  "buying_power": 18.26771,
+  "current": 0.41161,
+  "buying_power": 0.41161,
   "in_positions": 0
  },
  "balance_err": null,
@@ -350,6 +350,10 @@
   [
    1793682600,
    18.26771
+  ],
+  [
+   1793682849,
+   0.41161
   ]
  ],
  "totals": {
@@ -374,7 +378,8 @@
   "error": 2,
   "gano": 45,
   "nofill": 32,
-  "perdio": 13
+  "perdio": 13,
+  "abierta": 1
  },
  "equity": [
   [
@@ -670,6 +675,32 @@
  ],
  "calls": [
   {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0510z",
+   "ronda": "0510z",
+   "hora": "00:13:09",
+   "day": "2026-11-03",
+   "ts": 1793682789.3695378,
+   "side": "up",
+   "prob": 0.7033,
+   "precio": 0.83,
+   "qty": 2.35,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 156,
+    "bolsa": 141
+   },
+   "order_id": "DG2MXQF012WP",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9705,
+   "pct_bal": 23.9,
+   "pct_gan": null,
+   "bal_entrada": 8.2541
+  },
+  {
    "slug": "cpc-btc-updown-5m-2026-11-03-0505z",
    "ronda": "0505z",
    "hora": "00:06:33",
@@ -937,7 +968,7 @@
    "costo": 1.9983,
    "pct_bal": 16.7,
    "pct_gan": -100.0,
-   "bal_entrada": 12.0006
+   "bal_entrada": 12.00061
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0410z",
@@ -989,7 +1020,7 @@
    "costo": 1.957,
    "pct_bal": 17.4,
    "pct_gan": 38.0,
-   "bal_entrada": 11.2576
+   "bal_entrada": 11.25761
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0400z",
@@ -3980,12 +4011,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1102,
+  "llamada": 1090,
   "envio": 134,
-  "bolsa": 232
+  "bolsa": 231
  },
- "open": [],
- "heartbeat": 1793682644.2254977,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0510z",
+   "ronda": "0510z",
+   "hora": "00:13:09",
+   "day": "2026-11-03",
+   "ts": 1793682789.3695378,
+   "side": "up",
+   "prob": 0.7033,
+   "precio": 0.83,
+   "qty": 2.35,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 156,
+    "bolsa": 141
+   },
+   "order_id": "DG2MXQF012WP",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9705,
+   "pct_bal": 23.9,
+   "pct_gan": null,
+   "bal_entrada": 8.2541
+  }
+ ],
+ "heartbeat": 1793682844.3591247,
  "running": true,
  "stop_file": false
 }
