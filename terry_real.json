@@ -1,6 +1,6 @@
 {
- "generated": 1793705934.0739975,
- "generated_et": "2026-11-03 06:38:54 ET",
+ "generated": 1793706502.1803215,
+ "generated_et": "2026-11-03 06:48:22 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 15.20101,
-  "buying_power": 15.20101,
+  "current": 13.22291,
+  "buying_power": 13.22291,
   "in_positions": 0
  },
  "balance_err": null,
@@ -702,6 +702,10 @@
   [
    1793705521,
    15.20101
+  ],
+  [
+   1793706502,
+   13.22291
   ]
  ],
  "totals": {
@@ -726,7 +730,8 @@
   "error": 2,
   "gano": 90,
   "nofill": 37,
-  "perdio": 23
+  "perdio": 23,
+  "abierta": 1
  },
  "equity": [
   [
@@ -1296,6 +1301,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1145z",
+   "ronda": "1145z",
+   "hora": "06:47:42",
+   "day": "2026-11-03",
+   "ts": 1793706462.8190398,
+   "side": "up",
+   "prob": 0.7657,
+   "precio": 0.77,
+   "qty": 2.53,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 124,
+    "bolsa": 182
+   },
+   "order_id": "DG89HCNG13CT",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9781,
+   "pct_bal": 13.0,
+   "pct_gan": null,
+   "bal_entrada": 15.201
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1130z",
    "ronda": "1130z",
@@ -6257,37 +6288,42 @@
    "pct_bal": null,
    "pct_gan": null,
    "bal_entrada": null
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-1835z",
-   "ronda": "1835z",
-   "hora": "13:37:28",
-   "day": "2026-11-02",
-   "ts": 1793644648.3355162,
-   "side": "up",
-   "prob": 0.9649,
-   "precio": null,
-   "qty": null,
-   "fee": null,
-   "pnl": null,
-   "lat": null,
-   "order_id": null,
-   "aviso": null,
-   "out": "saltada",
-   "motivo": "ask 0.97 > max 0.9",
-   "costo": null,
-   "pct_bal": null,
-   "pct_gan": null,
-   "bal_entrada": null
   }
  ],
  "lat_avg": {
-  "llamada": 797,
-  "envio": 134,
-  "bolsa": 203
+  "llamada": 792,
+  "envio": 133,
+  "bolsa": 202
  },
- "open": [],
- "heartbeat": 1793705926.3091497,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1145z",
+   "ronda": "1145z",
+   "hora": "06:47:42",
+   "day": "2026-11-03",
+   "ts": 1793706462.8190398,
+   "side": "up",
+   "prob": 0.7657,
+   "precio": 0.77,
+   "qty": 2.53,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 124,
+    "bolsa": 182
+   },
+   "order_id": "DG89HCNG13CT",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9781,
+   "pct_bal": 13.0,
+   "pct_gan": null,
+   "bal_entrada": 15.201
+  }
+ ],
+ "heartbeat": 1793706486.6953418,
  "running": true,
  "stop_file": false
 }
