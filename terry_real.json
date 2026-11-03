@@ -1,6 +1,6 @@
 {
- "generated": 1793685415.0207028,
- "generated_et": "2026-11-03 00:56:55 ET",
+ "generated": 1793685661.4916787,
+ "generated_et": "2026-11-03 01:01:02 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 7.37681,
-  "buying_power": 4.94681,
-  "in_positions": 2.43
+  "buying_power": 7.37681,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -417,18 +417,18 @@
   ]
  ],
  "totals": {
-  "trades": 67,
-  "wins": 52,
-  "win_pct": 77.6,
-  "gross_pnl": 3.1814,
-  "fees": 2.24,
-  "net_pnl": 0.9414
+  "trades": 68,
+  "wins": 53,
+  "win_pct": 77.9,
+  "gross_pnl": 3.6674,
+  "fees": 2.27,
+  "net_pnl": 1.3974
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 0.4536,
-  "trades": 10,
-  "wins": 8,
+  "pnl": 0.9096,
+  "trades": 11,
+  "wins": 9,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -436,10 +436,9 @@
  "counts": {
   "saltada": 42,
   "error": 2,
-  "gano": 52,
+  "gano": 53,
   "nofill": 32,
-  "perdio": 15,
-  "abierta": 1
+  "perdio": 15
  },
  "equity": [
   [
@@ -776,6 +775,11 @@
    1793685136,
    0.9414,
    "0550z"
+  ],
+  [
+   1793685406,
+   1.3974,
+   "0555z"
   ]
  ],
  "calls": [
@@ -790,7 +794,7 @@
    "precio": 0.8,
    "qty": 2.43,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.456,
    "lat": {
     "llamada": 0,
     "envio": 135,
@@ -798,11 +802,11 @@
    },
    "order_id": "DG38WHX012WP",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.974,
    "pct_bal": 28.5,
-   "pct_gan": null,
+   "pct_gan": 23.1,
    "bal_entrada": 6.9208
   },
   {
@@ -4354,35 +4358,8 @@
   "envio": 134,
   "bolsa": 223
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0555z",
-   "ronda": "0555z",
-   "hora": "00:56:45",
-   "day": "2026-11-03",
-   "ts": 1793685405.9569402,
-   "side": "down",
-   "prob": 0.7442,
-   "precio": 0.8,
-   "qty": 2.43,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 135,
-    "bolsa": 223
-   },
-   "order_id": "DG38WHX012WP",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.974,
-   "pct_bal": 28.5,
-   "pct_gan": null,
-   "bal_entrada": 6.9208
-  }
- ],
- "heartbeat": 1793685408.5006886,
+ "open": [],
+ "heartbeat": 1793685648.8635054,
  "running": true,
  "stop_file": false
 }
