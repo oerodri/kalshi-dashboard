@@ -1,6 +1,6 @@
 {
- "generated": 1793693313.9320765,
- "generated_et": "2026-11-03 03:08:34 ET",
+ "generated": 1793693439.1638582,
+ "generated_et": "2026-11-03 03:10:39 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 9.53311,
-  "buying_power": 9.53311,
+  "current": 12.06311,
+  "buying_power": 12.06311,
   "in_positions": 0
  },
  "balance_err": null,
@@ -506,21 +506,25 @@
   [
    1793693314,
    9.53311
+  ],
+  [
+   1793693439,
+   12.06311
   ]
  ],
  "totals": {
-  "trades": 83,
-  "wins": 65,
-  "win_pct": 78.3,
-  "gross_pnl": 4.1885,
-  "fees": 2.68,
-  "net_pnl": 1.5085
+  "trades": 84,
+  "wins": 66,
+  "win_pct": 78.6,
+  "gross_pnl": 4.7198,
+  "fees": 2.71,
+  "net_pnl": 2.0098
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 1.0207,
-  "trades": 26,
-  "wins": 21,
+  "pnl": 1.522,
+  "trades": 27,
+  "wins": 22,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -528,10 +532,9 @@
  "counts": {
   "saltada": 51,
   "error": 2,
-  "gano": 65,
+  "gano": 66,
   "nofill": 32,
-  "perdio": 18,
-  "abierta": 1
+  "perdio": 18
  },
  "equity": [
   [
@@ -948,6 +951,11 @@
    1793692922,
    1.5085,
    "0800z"
+  ],
+  [
+   1793693280,
+   2.0098,
+   "0805z"
   ]
  ],
  "calls": [
@@ -962,7 +970,7 @@
    "precio": 0.79,
    "qty": 2.53,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.5013,
    "lat": {
     "llamada": 0,
     "envio": 137,
@@ -970,11 +978,11 @@
    },
    "order_id": "DG54YVW013CX",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.0287,
    "pct_bal": 17.5,
-   "pct_gan": null,
+   "pct_gan": 24.7,
    "bal_entrada": 11.5618
   },
   {
@@ -5140,35 +5148,8 @@
   "envio": 133,
   "bolsa": 215
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0805z",
-   "ronda": "0805z",
-   "hora": "03:07:59",
-   "day": "2026-11-03",
-   "ts": 1793693279.7616625,
-   "side": "up",
-   "prob": 0.7677,
-   "precio": 0.79,
-   "qty": 2.53,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 137,
-    "bolsa": 168
-   },
-   "order_id": "DG54YVW013CX",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0287,
-   "pct_bal": 17.5,
-   "pct_gan": null,
-   "bal_entrada": 11.5618
-  }
- ],
- "heartbeat": 1793693301.8357255,
+ "open": [],
+ "heartbeat": 1793693421.9162855,
  "running": true,
  "stop_file": false
 }
