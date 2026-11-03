@@ -1,6 +1,6 @@
 {
- "generated": 1793677113.5162334,
- "generated_et": "2026-11-02 22:38:34 ET",
+ "generated": 1793677331.2279909,
+ "generated_et": "2026-11-02 22:42:12 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 12.72231,
-  "buying_power": 12.72231,
-  "in_positions": 0
+  "current": 13.15401,
+  "buying_power": 10.72401,
+  "in_positions": 2.43
  },
  "balance_err": null,
  "balance_hist": [
@@ -294,6 +294,10 @@
   [
    1793676715,
    12.72231
+  ],
+  [
+   1793677331,
+   13.15401
   ]
  ],
  "totals": {
@@ -315,7 +319,8 @@
   "error": 2,
   "gano": 37,
   "nofill": 29,
-  "perdio": 11
+  "perdio": 11,
+  "abierta": 1
  },
  "equity": [
   [
@@ -560,6 +565,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0340z",
+   "ronda": "0340z",
+   "hora": "22:41:40",
+   "day": "2026-11-02",
+   "ts": 1793677300.4950435,
+   "side": "down",
+   "prob": 0.8048,
+   "precio": 0.81,
+   "qty": 2.43,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 123,
+    "bolsa": 134
+   },
+   "order_id": "DG1B1N8012VC",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9983,
+   "pct_bal": 15.7,
+   "pct_gan": null,
+   "bal_entrada": 12.7223
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0335z",
    "ronda": "0335z",
@@ -1110,7 +1141,7 @@
    "costo": 2.038,
    "pct_bal": 17.4,
    "pct_gan": 32.5,
-   "bal_entrada": 11.6979
+   "bal_entrada": 11.69791
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0145z",
@@ -3423,12 +3454,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1285,
+  "llamada": 1269,
   "envio": 134,
-  "bolsa": 215
+  "bolsa": 214
  },
- "open": [],
- "heartbeat": 1793677113.7663655,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0340z",
+   "ronda": "0340z",
+   "hora": "22:41:40",
+   "day": "2026-11-02",
+   "ts": 1793677300.4950435,
+   "side": "down",
+   "prob": 0.8048,
+   "precio": 0.81,
+   "qty": 2.43,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 123,
+    "bolsa": 134
+   },
+   "order_id": "DG1B1N8012VC",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9983,
+   "pct_bal": 15.7,
+   "pct_gan": null,
+   "bal_entrada": 12.7223
+  }
+ ],
+ "heartbeat": 1793677313.8992567,
  "running": true,
  "stop_file": false
 }
