@@ -1,6 +1,6 @@
 {
- "generated": 1793699817.4165032,
- "generated_et": "2026-11-03 04:56:58 ET",
+ "generated": 1793700064.1041887,
+ "generated_et": "2026-11-03 05:01:05 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 12.67561,
-  "buying_power": 12.67561,
+  "current": 15.30561,
+  "buying_power": 15.30561,
   "in_positions": 0
  },
  "balance_err": null,
@@ -602,21 +602,25 @@
   [
    1793699817,
    12.67561
+  ],
+  [
+   1793700064,
+   15.30561
   ]
  ],
  "totals": {
-  "trades": 97,
-  "wins": 77,
-  "win_pct": 79.4,
-  "gross_pnl": 7.7285,
-  "fees": 3.12,
-  "net_pnl": 4.6085
+  "trades": 98,
+  "wins": 78,
+  "win_pct": 79.6,
+  "gross_pnl": 8.4123,
+  "fees": 3.16,
+  "net_pnl": 5.2523
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 4.1207,
-  "trades": 40,
-  "wins": 33,
+  "pnl": 4.7645,
+  "trades": 41,
+  "wins": 34,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -624,10 +628,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 77,
+  "gano": 78,
   "nofill": 35,
-  "perdio": 20,
-  "abierta": 1
+  "perdio": 20
  },
  "equity": [
   [
@@ -1114,6 +1117,11 @@
    1793699558,
    4.6085,
    "0950z"
+  ],
+  [
+   1793699807,
+   5.2523,
+   "0955z"
   ]
  ],
  "calls": [
@@ -1128,7 +1136,7 @@
    "precio": 0.74,
    "qty": 2.63,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.6438,
    "lat": {
     "llamada": 16,
     "envio": 146,
@@ -1136,11 +1144,11 @@
    },
    "order_id": "DG6PRF5013D6",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9862,
    "pct_bal": 13.5,
-   "pct_gan": null,
+   "pct_gan": 32.4,
    "bal_entrada": 14.6618
   },
   {
@@ -1449,7 +1457,7 @@
    "costo": 1.979,
    "pct_bal": 13.6,
    "pct_gan": 40.0,
-   "bal_entrada": 14.5445
+   "bal_entrada": 14.54451
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0845z",
@@ -5836,35 +5844,8 @@
   "envio": 133,
   "bolsa": 208
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0955z",
-   "ronda": "0955z",
-   "hora": "04:56:47",
-   "day": "2026-11-03",
-   "ts": 1793699807.179706,
-   "side": "up",
-   "prob": 0.7366,
-   "precio": 0.74,
-   "qty": 2.63,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 16,
-    "envio": 146,
-    "bolsa": 126
-   },
-   "order_id": "DG6PRF5013D6",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9862,
-   "pct_bal": 13.5,
-   "pct_gan": null,
-   "bal_entrada": 14.6618
-  }
- ],
- "heartbeat": 1793699810.5038602,
+ "open": [],
+ "heartbeat": 1793700050.9184852,
  "running": true,
  "stop_file": false
 }
