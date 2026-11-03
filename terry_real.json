@@ -1,6 +1,6 @@
 {
- "generated": 1793715122.371336,
- "generated_et": "2026-11-03 09:12:03 ET",
+ "generated": 1793715369.2436419,
+ "generated_et": "2026-11-03 09:16:10 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 12.67391,
+  "current": 9.86391,
   "buying_power": 9.86391,
-  "in_positions": 2.81
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -846,23 +846,27 @@
   [
    1793715122,
    12.67391
+  ],
+  [
+   1793715369,
+   9.86391
   ]
  ],
  "totals": {
-  "trades": 136,
+  "trades": 137,
   "wins": 107,
-  "win_pct": 78.7,
-  "gross_pnl": 6.1367,
-  "fees": 4.3,
-  "net_pnl": 1.8367
+  "win_pct": 78.1,
+  "gross_pnl": 4.1416,
+  "fees": 4.34,
+  "net_pnl": -0.1984
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 1.3489,
-  "trades": 79,
+  "pnl": -0.6862,
+  "trades": 80,
   "wins": 63,
   "breakeven_pct": 77,
-  "cap_left": 20.0,
+  "cap_left": 19.31,
   "cap_hit": false
  },
  "counts": {
@@ -870,8 +874,7 @@
   "error": 2,
   "gano": 107,
   "nofill": 38,
-  "perdio": 29,
-  "abierta": 1
+  "perdio": 30
  },
  "equity": [
   [
@@ -1553,6 +1556,11 @@
    1793714850,
    1.8367,
    "1405z"
+  ],
+  [
+   1793715116,
+   -0.1984,
+   "1410z"
   ]
  ],
  "calls": [
@@ -1567,7 +1575,7 @@
    "precio": 0.71,
    "qty": 2.81,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": -2.0351,
    "lat": {
     "llamada": 0,
     "envio": 131,
@@ -1575,11 +1583,11 @@
    },
    "order_id": "DGABHW7013D8",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 2.0351,
    "pct_bal": 17.1,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 11.899
   },
   {
@@ -1799,7 +1807,7 @@
    "side": "up",
    "prob": 0.7004,
    "precio": 0.81,
-   "qty": 2.43,
+   "qty": 1.54,
    "fee": 0.03,
    "pnl": 0.4406,
    "lat": {
@@ -1811,10 +1819,10 @@
    "aviso": null,
    "out": "gano",
    "motivo": "Liquidada",
-   "costo": 1.9983,
-   "pct_bal": 11.7,
-   "pct_gan": 22.0,
-   "bal_entrada": 17.1374
+   "costo": 1.2774,
+   "pct_bal": 7.8,
+   "pct_gan": 34.5,
+   "bal_entrada": 16.4154
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1305z",
@@ -6582,35 +6590,8 @@
   "envio": 133,
   "bolsa": 197
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1410z",
-   "ronda": "1410z",
-   "hora": "09:11:55",
-   "day": "2026-11-03",
-   "ts": 1793715115.604196,
-   "side": "down",
-   "prob": 0.7012,
-   "precio": 0.71,
-   "qty": 2.81,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 131,
-    "bolsa": 115
-   },
-   "order_id": "DGABHW7013D8",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0351,
-   "pct_bal": 17.1,
-   "pct_gan": null,
-   "bal_entrada": 11.899
-  }
- ],
- "heartbeat": 1793715119.815134,
+ "open": [],
+ "heartbeat": 1793715360.2286117,
  "running": true,
  "stop_file": false
 }
