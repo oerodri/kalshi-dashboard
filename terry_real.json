@@ -1,6 +1,6 @@
 {
- "generated": 1793715618.4796944,
- "generated_et": "2026-11-03 09:20:19 ET",
+ "generated": 1793715804.211616,
+ "generated_et": "2026-11-03 09:23:25 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 10.08811,
-  "buying_power": 10.08811,
+  "current": 8.12821,
+  "buying_power": 8.12821,
   "in_positions": 0
  },
  "balance_err": null,
@@ -854,6 +854,10 @@
   [
    1793715433,
    10.08811
+  ],
+  [
+   1793715804,
+   8.12821
   ]
  ],
  "totals": {
@@ -878,7 +882,8 @@
   "error": 2,
   "gano": 108,
   "nofill": 38,
-  "perdio": 30
+  "perdio": 30,
+  "abierta": 1
  },
  "equity": [
   [
@@ -1574,6 +1579,32 @@
  ],
  "calls": [
   {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1420z",
+   "ronda": "1420z",
+   "hora": "09:22:50",
+   "day": "2026-11-03",
+   "ts": 1793715770.13913,
+   "side": "up",
+   "prob": 0.7014,
+   "precio": 0.73,
+   "qty": 2.63,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 133,
+    "envio": 143,
+    "bolsa": 124
+   },
+   "order_id": "DGAGHNY013CZ",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9599,
+   "pct_bal": 19.4,
+   "pct_gan": null,
+   "bal_entrada": 10.0881
+  },
+  {
    "slug": "cpc-btc-updown-5m-2026-11-03-1415z",
    "ronda": "1415z",
    "hora": "09:16:35",
@@ -1831,7 +1862,7 @@
    "costo": 1.9722,
    "pct_bal": 11.2,
    "pct_gan": 15.1,
-   "bal_entrada": 17.578
+   "bal_entrada": 17.57801
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1310z",
@@ -6566,41 +6597,42 @@
    "pct_bal": null,
    "pct_gan": null,
    "bal_entrada": null
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2045z",
-   "ronda": "2045z",
-   "hora": "15:46:30",
-   "day": "2026-11-02",
-   "ts": 1793652390.71619,
-   "side": "up",
-   "prob": 0.8423,
-   "precio": 0.87,
-   "qty": 2.24,
-   "fee": 0.02,
-   "pnl": 0.2712,
-   "lat": {
-    "llamada": 0,
-    "envio": 131,
-    "bolsa": 135
-   },
-   "order_id": "DFVD057G12VC",
-   "aviso": null,
-   "out": "gano",
-   "motivo": "Liquidada",
-   "costo": 1.9688,
-   "pct_bal": 15.7,
-   "pct_gan": 13.8,
-   "bal_entrada": 12.53951
   }
  ],
  "lat_avg": {
-  "llamada": 694,
+  "llamada": 691,
   "envio": 133,
   "bolsa": 197
  },
- "open": [],
- "heartbeat": 1793715615.2225106,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1420z",
+   "ronda": "1420z",
+   "hora": "09:22:50",
+   "day": "2026-11-03",
+   "ts": 1793715770.13913,
+   "side": "up",
+   "prob": 0.7014,
+   "precio": 0.73,
+   "qty": 2.63,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 133,
+    "envio": 143,
+    "bolsa": 124
+   },
+   "order_id": "DGAGHNY013CZ",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9599,
+   "pct_bal": 19.4,
+   "pct_gan": null,
+   "bal_entrada": 10.0881
+  }
+ ],
+ "heartbeat": 1793715795.6177545,
  "running": true,
  "stop_file": false
 }
