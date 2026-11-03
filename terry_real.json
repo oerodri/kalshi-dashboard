@@ -1,6 +1,6 @@
 {
- "generated": 1793709481.3139274,
- "generated_et": "2026-11-03 07:38:02 ET",
+ "generated": 1793709666.890299,
+ "generated_et": "2026-11-03 07:41:07 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 14.33551,
-  "buying_power": 14.33551,
+  "current": 16.96551,
+  "buying_power": 16.96551,
   "in_positions": 0
  },
  "balance_err": null,
@@ -758,21 +758,25 @@
   [
    1793709481,
    14.33551
+  ],
+  [
+   1793709667,
+   16.96551
   ]
  ],
  "totals": {
-  "trades": 120,
-  "wins": 96,
-  "win_pct": 80.0,
-  "gross_pnl": 10.0786,
-  "fees": 3.81,
-  "net_pnl": 6.2686
+  "trades": 121,
+  "wins": 97,
+  "win_pct": 80.2,
+  "gross_pnl": 10.7624,
+  "fees": 3.85,
+  "net_pnl": 6.9124
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 5.7808,
-  "trades": 63,
-  "wins": 52,
+  "pnl": 6.4246,
+  "trades": 64,
+  "wins": 53,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -780,10 +784,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 96,
+  "gano": 97,
   "nofill": 38,
-  "perdio": 24,
-  "abierta": 1
+  "perdio": 24
  },
  "equity": [
   [
@@ -1385,6 +1388,11 @@
    1793709101,
    6.2686,
    "1230z"
+  ],
+  [
+   1793709432,
+   6.9124,
+   "1235z"
   ]
  ],
  "calls": [
@@ -1399,7 +1407,7 @@
    "precio": 0.74,
    "qty": 2.63,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.6438,
    "lat": {
     "llamada": 0,
     "envio": 128,
@@ -1407,11 +1415,11 @@
    },
    "order_id": "DG906BR013CT",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9862,
    "pct_bal": 12.2,
-   "pct_gan": null,
+   "pct_gan": 32.4,
    "bal_entrada": 16.3217
   },
   {
@@ -6390,35 +6398,8 @@
   "envio": 133,
   "bolsa": 200
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1235z",
-   "ronda": "1235z",
-   "hora": "07:37:12",
-   "day": "2026-11-03",
-   "ts": 1793709432.338583,
-   "side": "up",
-   "prob": 0.7201,
-   "precio": 0.74,
-   "qty": 2.63,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 128,
-    "bolsa": 134
-   },
-   "order_id": "DG906BR013CT",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9862,
-   "pct_bal": 12.2,
-   "pct_gan": null,
-   "bal_entrada": 16.3217
-  }
- ],
- "heartbeat": 1793709470.7557206,
+ "open": [],
+ "heartbeat": 1793709650.8891945,
  "running": true,
  "stop_file": false
 }
