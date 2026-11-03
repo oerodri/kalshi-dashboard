@@ -1,6 +1,6 @@
 {
- "generated": 1793685037.8403296,
- "generated_et": "2026-11-03 00:50:38 ET",
+ "generated": 1793685162.3071427,
+ "generated_et": "2026-11-03 00:52:43 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 6.38761,
-  "buying_power": 6.38761,
+  "current": 4.36081,
+  "buying_power": 4.36081,
   "in_positions": 0
  },
  "balance_err": null,
@@ -402,6 +402,10 @@
   [
    1793684852,
    6.38761
+  ],
+  [
+   1793685162,
+   4.36081
   ]
  ],
  "totals": {
@@ -426,7 +430,8 @@
   "error": 2,
   "gano": 51,
   "nofill": 32,
-  "perdio": 15
+  "perdio": 15,
+  "abierta": 1
  },
  "equity": [
   [
@@ -762,6 +767,32 @@
  ],
  "calls": [
   {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0550z",
+   "ronda": "0550z",
+   "hora": "00:52:16",
+   "day": "2026-11-03",
+   "ts": 1793685136.0304866,
+   "side": "up",
+   "prob": 0.7603,
+   "precio": 0.78,
+   "qty": 2.56,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 131,
+    "bolsa": 125
+   },
+   "order_id": "DG36TMF012W4",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0268,
+   "pct_bal": 31.7,
+   "pct_gan": null,
+   "bal_entrada": 6.3876
+  },
+  {
    "slug": "cpc-btc-updown-5m-2026-11-03-0545z",
    "ronda": "0545z",
    "hora": "00:47:29",
@@ -965,9 +996,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 1.9705,
-   "pct_bal": 23.9,
+   "pct_bal": 10.8,
    "pct_gan": 6.0,
-   "bal_entrada": 8.2541
+   "bal_entrada": 18.26771
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0505z",
@@ -4280,12 +4311,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1012,
+  "llamada": 1002,
   "envio": 134,
-  "bolsa": 224
+  "bolsa": 223
  },
- "open": [],
- "heartbeat": 1793685027.9818277,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0550z",
+   "ronda": "0550z",
+   "hora": "00:52:16",
+   "day": "2026-11-03",
+   "ts": 1793685136.0304866,
+   "side": "up",
+   "prob": 0.7603,
+   "precio": 0.78,
+   "qty": 2.56,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 131,
+    "bolsa": 125
+   },
+   "order_id": "DG36TMF012W4",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0268,
+   "pct_bal": 31.7,
+   "pct_gan": null,
+   "bal_entrada": 6.3876
+  }
+ ],
+ "heartbeat": 1793685148.074056,
  "running": true,
  "stop_file": false
 }
