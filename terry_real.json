@@ -1,6 +1,6 @@
 {
- "generated": 1793743815.1076634,
- "generated_et": "2026-11-03 17:10:15 ET",
+ "generated": 1793744003.575617,
+ "generated_et": "2026-11-03 17:13:24 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 0.18601,
-  "buying_power": 0.18601,
-  "in_positions": 0
+  "current": 0.23001,
+  "buying_power": 0.03001,
+  "in_positions": 0.2
  },
  "balance_err": null,
  "balance_hist": [
@@ -1310,6 +1310,10 @@
   [
    1793743628,
    0.18601
+  ],
+  [
+   1793744004,
+   0.23001
   ]
  ],
  "totals": {
@@ -1334,7 +1338,8 @@
   "error": 2,
   "gano": 168,
   "nofill": 47,
-  "perdio": 44
+  "perdio": 44,
+  "abierta": 1
  },
  "equity": [
   [
@@ -2400,6 +2405,32 @@
  ],
  "calls": [
   {
+   "slug": "cpc-btc-updown-5m-2026-11-03-2210z",
+   "ronda": "2210z",
+   "hora": "17:13:05",
+   "day": "2026-11-03",
+   "ts": 1793743985.0838432,
+   "side": "down",
+   "prob": 0.7007,
+   "precio": 0.78,
+   "qty": 0.2,
+   "fee": 0.0,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 131,
+    "bolsa": 178
+   },
+   "order_id": "DGH7T42013D6",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 0.156,
+   "pct_bal": 83.9,
+   "pct_gan": null,
+   "bal_entrada": 0.186
+  },
+  {
    "slug": "cpc-btc-updown-5m-2026-11-03-2205z",
    "ronda": "2205z",
    "hora": "17:06:29",
@@ -2655,9 +2686,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.1764,
-   "pct_bal": 16.3,
+   "pct_bal": 79.1,
    "pct_gan": 19.0,
-   "bal_entrada": 1.0802
+   "bal_entrada": 0.22311
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2115z",
@@ -7476,41 +7507,42 @@
    "pct_bal": 16.3,
    "pct_gan": 54.8,
    "bal_entrada": 10.00231
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0415z",
-   "ronda": "0415z",
-   "hora": "23:17:29",
-   "day": "2026-11-02",
-   "ts": 1793679449.6310427,
-   "side": "up",
-   "prob": 0.7834,
-   "precio": 0.81,
-   "qty": 2.43,
-   "fee": 0.03,
-   "pnl": -1.9983,
-   "lat": {
-    "llamada": 0,
-    "envio": 123,
-    "bolsa": 139
-   },
-   "order_id": "DG1VEBE012VP",
-   "aviso": null,
-   "out": "perdio",
-   "motivo": "Liquidada",
-   "costo": 1.9983,
-   "pct_bal": 16.7,
-   "pct_gan": -100.0,
-   "bal_entrada": 12.00061
   }
  ],
  "lat_avg": {
-  "llamada": 478,
+  "llamada": 476,
   "envio": 134,
   "bolsa": 190
  },
- "open": [],
- "heartbeat": 1793743815.5341442,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-2210z",
+   "ronda": "2210z",
+   "hora": "17:13:05",
+   "day": "2026-11-03",
+   "ts": 1793743985.0838432,
+   "side": "down",
+   "prob": 0.7007,
+   "precio": 0.78,
+   "qty": 0.2,
+   "fee": 0.0,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 131,
+    "bolsa": 178
+   },
+   "order_id": "DGH7T42013D6",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 0.156,
+   "pct_bal": 83.9,
+   "pct_gan": null,
+   "bal_entrada": 0.186
+  }
+ ],
+ "heartbeat": 1793743997.1306183,
  "running": true,
  "stop_file": false
 }
