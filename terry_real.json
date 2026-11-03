@@ -1,6 +1,6 @@
 {
- "generated": 1793676715.0408823,
- "generated_et": "2026-11-02 22:31:55 ET",
+ "generated": 1793677023.5213559,
+ "generated_et": "2026-11-02 22:37:04 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 12.72231,
-  "buying_power": 9.95231,
-  "in_positions": 2.77
+  "buying_power": 12.72231,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -297,26 +297,25 @@
   ]
  ],
  "totals": {
-  "trades": 47,
-  "wins": 36,
-  "win_pct": 76.6,
-  "gross_pnl": 1.4906,
-  "fees": 1.62,
-  "net_pnl": -0.1294
+  "trades": 48,
+  "wins": 37,
+  "win_pct": 77.1,
+  "gross_pnl": 2.3493,
+  "fees": 1.66,
+  "net_pnl": 0.6893
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": -0.1294,
-  "cap_left": 19.87,
+  "pnl": 0.6893,
+  "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
-  "saltada": 36,
+  "saltada": 37,
   "error": 2,
-  "gano": 36,
+  "gano": 37,
   "nofill": 29,
-  "perdio": 11,
-  "abierta": 1
+  "perdio": 11
  },
  "equity": [
   [
@@ -553,9 +552,36 @@
    1793676108,
    -0.1294,
    "0320z"
+  ],
+  [
+   1793676704,
+   0.6893,
+   "0330z"
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0335z",
+   "ronda": "0335z",
+   "hora": "22:37:02",
+   "day": "2026-11-02",
+   "ts": 1793677022.3769617,
+   "side": "down",
+   "prob": 0.9313,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": null,
+   "order_id": null,
+   "aviso": null,
+   "out": "saltada",
+   "motivo": "ask 0.92 > max 0.9",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0330z",
    "ronda": "0330z",
@@ -567,7 +593,7 @@
    "precio": 0.69,
    "qty": 2.77,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.8187,
    "lat": {
     "llamada": 0,
     "envio": 151,
@@ -575,11 +601,11 @@
    },
    "order_id": "DG16G7B012TT",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9513,
    "pct_bal": 16.4,
-   "pct_gan": null,
+   "pct_gan": 42.0,
    "bal_entrada": 11.9036
   },
   {
@@ -3401,35 +3427,8 @@
   "envio": 134,
   "bolsa": 215
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0330z",
-   "ronda": "0330z",
-   "hora": "22:31:44",
-   "day": "2026-11-02",
-   "ts": 1793676704.1878347,
-   "side": "down",
-   "prob": 0.7004,
-   "precio": 0.69,
-   "qty": 2.77,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 151,
-    "bolsa": 735
-   },
-   "order_id": "DG16G7B012TT",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9513,
-   "pct_bal": 16.4,
-   "pct_gan": null,
-   "bal_entrada": 11.9036
-  }
- ],
- "heartbeat": 1793676712.7997591,
+ "open": [],
+ "heartbeat": 1793677022.5051935,
  "running": true,
  "stop_file": false
 }
