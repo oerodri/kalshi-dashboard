@@ -1,6 +1,6 @@
 {
- "generated": 1793692074.2553515,
- "generated_et": "2026-11-03 02:47:55 ET",
+ "generated": 1793692259.721941,
+ "generated_et": "2026-11-03 02:51:00 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 7.91311,
-  "buying_power": 7.91311,
+  "current": 10.15311,
+  "buying_power": 10.15311,
   "in_positions": 0
  },
  "balance_err": null,
@@ -486,21 +486,25 @@
   [
    1793692074,
    7.91311
+  ],
+  [
+   1793692260,
+   10.15311
   ]
  ],
  "totals": {
-  "trades": 79,
-  "wins": 61,
-  "win_pct": 77.2,
-  "gross_pnl": 4.2768,
-  "fees": 2.58,
-  "net_pnl": 1.6968
+  "trades": 80,
+  "wins": 62,
+  "win_pct": 77.5,
+  "gross_pnl": 4.5904,
+  "fees": 2.6,
+  "net_pnl": 1.9904
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 1.209,
-  "trades": 22,
-  "wins": 17,
+  "pnl": 1.5026,
+  "trades": 23,
+  "wins": 18,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -508,10 +512,9 @@
  "counts": {
   "saltada": 51,
   "error": 2,
-  "gano": 61,
+  "gano": 62,
   "nofill": 32,
-  "perdio": 18,
-  "abierta": 1
+  "perdio": 18
  },
  "equity": [
   [
@@ -908,6 +911,11 @@
    1793691789,
    1.6968,
    "0740z"
+  ],
+  [
+   1793692068,
+   1.9904,
+   "0745z"
   ]
  ],
  "calls": [
@@ -922,7 +930,7 @@
    "precio": 0.86,
    "qty": 2.24,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.2936,
    "lat": {
     "llamada": 0,
     "envio": 111,
@@ -930,11 +938,11 @@
    },
    "order_id": "DG4VQ19G13CX",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9464,
    "pct_bal": 19.7,
-   "pct_gan": null,
+   "pct_gan": 15.1,
    "bal_entrada": 9.8595
   },
   {
@@ -1367,7 +1375,7 @@
    "costo": 1.8978,
    "pct_bal": 22.7,
    "pct_gan": 20.7,
-   "bal_entrada": 8.3739
+   "bal_entrada": 8.37391
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0605z",
@@ -4996,35 +5004,8 @@
   "envio": 133,
   "bolsa": 218
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0745z",
-   "ronda": "0745z",
-   "hora": "02:47:48",
-   "day": "2026-11-03",
-   "ts": 1793692068.1125107,
-   "side": "up",
-   "prob": 0.9037,
-   "precio": 0.86,
-   "qty": 2.24,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 111,
-    "bolsa": 123
-   },
-   "order_id": "DG4VQ19G13CX",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9464,
-   "pct_bal": 19.7,
-   "pct_gan": null,
-   "bal_entrada": 9.8595
-  }
- ],
- "heartbeat": 1793692069.0569708,
+ "open": [],
+ "heartbeat": 1793692259.0854788,
  "running": true,
  "stop_file": false
 }
