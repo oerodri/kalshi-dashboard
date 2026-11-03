@@ -1,6 +1,6 @@
 {
- "generated": 1793699568.4626224,
- "generated_et": "2026-11-03 04:52:49 ET",
+ "generated": 1793699753.9897723,
+ "generated_et": "2026-11-03 04:55:54 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 17.25181,
+  "current": 14.66181,
   "buying_power": 14.66181,
-  "in_positions": 2.59
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -594,20 +594,24 @@
   [
    1793699568,
    17.25181
+  ],
+  [
+   1793699754,
+   14.66181
   ]
  ],
  "totals": {
-  "trades": 96,
+  "trades": 97,
   "wins": 77,
-  "win_pct": 80.2,
-  "gross_pnl": 9.6969,
-  "fees": 3.09,
-  "net_pnl": 6.6069
+  "win_pct": 79.4,
+  "gross_pnl": 7.7285,
+  "fees": 3.12,
+  "net_pnl": 4.6085
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 6.1191,
-  "trades": 39,
+  "pnl": 4.1207,
+  "trades": 40,
   "wins": 33,
   "breakeven_pct": 77,
   "cap_left": 20.0,
@@ -618,8 +622,7 @@
   "error": 2,
   "gano": 77,
   "nofill": 35,
-  "perdio": 19,
-  "abierta": 1
+  "perdio": 20
  },
  "equity": [
   [
@@ -1101,6 +1104,11 @@
    1793699194,
    6.6069,
    "0945z"
+  ],
+  [
+   1793699558,
+   4.6085,
+   "0950z"
   ]
  ],
  "calls": [
@@ -1115,7 +1123,7 @@
    "precio": 0.76,
    "qty": 2.59,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": -1.9984,
    "lat": {
     "llamada": 0,
     "envio": 132,
@@ -1123,11 +1131,11 @@
    },
    "order_id": "DG6MVJDG13D8",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 1.9984,
    "pct_bal": 12.0,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 16.6602
   },
   {
@@ -1436,7 +1444,7 @@
    "costo": 1.984,
    "pct_bal": 14.3,
    "pct_gan": 36.1,
-   "bal_entrada": 13.8285
+   "bal_entrada": 13.82851
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0840z",
@@ -5797,35 +5805,8 @@
   "envio": 133,
   "bolsa": 209
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0950z",
-   "ronda": "0950z",
-   "hora": "04:52:37",
-   "day": "2026-11-03",
-   "ts": 1793699557.7309253,
-   "side": "down",
-   "prob": 0.7298,
-   "precio": 0.76,
-   "qty": 2.59,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 132,
-    "bolsa": 151
-   },
-   "order_id": "DG6MVJDG13D8",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9984,
-   "pct_bal": 12.0,
-   "pct_gan": null,
-   "bal_entrada": 16.6602
-  }
- ],
- "heartbeat": 1793699558.6573308,
+ "open": [],
+ "heartbeat": 1793699750.4745395,
  "running": true,
  "stop_file": false
 }
