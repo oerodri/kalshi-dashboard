@@ -1,6 +1,6 @@
 {
- "generated": 1793713066.9948614,
- "generated_et": "2026-11-03 08:37:47 ET",
+ "generated": 1793713252.8662608,
+ "generated_et": "2026-11-03 08:40:53 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 18.30751,
-  "buying_power": 15.87751,
-  "in_positions": 2.43
+  "buying_power": 18.30751,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -813,18 +813,18 @@
   ]
  ],
  "totals": {
-  "trades": 129,
-  "wins": 104,
-  "win_pct": 80.6,
-  "gross_pnl": 11.8927,
-  "fees": 4.07,
-  "net_pnl": 7.8227
+  "trades": 130,
+  "wins": 105,
+  "win_pct": 80.8,
+  "gross_pnl": 12.3544,
+  "fees": 4.1,
+  "net_pnl": 8.2544
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 7.3349,
-  "trades": 72,
-  "wins": 60,
+  "pnl": 7.7666,
+  "trades": 73,
+  "wins": 61,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -832,10 +832,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 104,
+  "gano": 105,
   "nofill": 38,
-  "perdio": 25,
-  "abierta": 1
+  "perdio": 25
  },
  "equity": [
   [
@@ -1482,6 +1481,11 @@
    1793712150,
    7.8227,
    "1320z"
+  ],
+  [
+   1793713039,
+   8.2544,
+   "1335z"
   ]
  ],
  "calls": [
@@ -1496,7 +1500,7 @@
    "precio": 0.81,
    "qty": 2.43,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.4317,
    "lat": {
     "llamada": 0,
     "envio": 133,
@@ -1504,11 +1508,11 @@
    },
    "order_id": "DG9VPZZ013D3",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9983,
    "pct_bal": 11.2,
-   "pct_gan": null,
+   "pct_gan": 21.6,
    "bal_entrada": 17.8758
   },
   {
@@ -6499,35 +6503,8 @@
   "envio": 133,
   "bolsa": 197
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1335z",
-   "ronda": "1335z",
-   "hora": "08:37:19",
-   "day": "2026-11-03",
-   "ts": 1793713039.3369913,
-   "side": "down",
-   "prob": 0.7925,
-   "precio": 0.81,
-   "qty": 2.43,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 133,
-    "bolsa": 192
-   },
-   "order_id": "DG9VPZZ013D3",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9983,
-   "pct_bal": 11.2,
-   "pct_gan": null,
-   "bal_entrada": 17.8758
-  }
- ],
- "heartbeat": 1793713056.7083223,
+ "open": [],
+ "heartbeat": 1793713236.854297,
  "running": true,
  "stop_file": false
 }
