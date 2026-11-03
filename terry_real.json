@@ -1,6 +1,6 @@
 {
- "generated": 1793694860.1624064,
- "generated_et": "2026-11-03 03:34:20 ET",
+ "generated": 1793695046.0196342,
+ "generated_et": "2026-11-03 03:37:26 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 12.49481,
-  "buying_power": 12.49481,
-  "in_positions": 0
+  "current": 13.05361,
+  "buying_power": 10.49361,
+  "in_positions": 2.56
  },
  "balance_err": null,
  "balance_hist": [
@@ -514,6 +514,10 @@
   [
    1793693926,
    12.49481
+  ],
+  [
+   1793695046,
+   13.05361
   ]
  ],
  "totals": {
@@ -538,7 +542,8 @@
   "error": 2,
   "gano": 67,
   "nofill": 33,
-  "perdio": 18
+  "perdio": 18,
+  "abierta": 1
  },
  "equity": [
   [
@@ -968,6 +973,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0835z",
+   "ronda": "0835z",
+   "hora": "03:36:37",
+   "day": "2026-11-03",
+   "ts": 1793694997.2412004,
+   "side": "down",
+   "prob": 0.7508,
+   "precio": 0.77,
+   "qty": 2.56,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 128,
+    "bolsa": 134
+   },
+   "order_id": "DG5J25BG13D3",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0012,
+   "pct_bal": 16.0,
+   "pct_gan": null,
+   "bal_entrada": 12.4948
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0830z",
    "ronda": "0830z",
@@ -1406,7 +1437,7 @@
    "costo": 1.9716,
    "pct_bal": 15.6,
    "pct_gan": -100.0,
-   "bal_entrada": 12.6462
+   "bal_entrada": 12.64621
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0655z",
@@ -5271,12 +5302,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1005,
+  "llamada": 997,
   "envio": 133,
-  "bolsa": 214
+  "bolsa": 213
  },
- "open": [],
- "heartbeat": 1793694843.583548,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0835z",
+   "ronda": "0835z",
+   "hora": "03:36:37",
+   "day": "2026-11-03",
+   "ts": 1793694997.2412004,
+   "side": "down",
+   "prob": 0.7508,
+   "precio": 0.77,
+   "qty": 2.56,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 128,
+    "bolsa": 134
+   },
+   "order_id": "DG5J25BG13D3",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0012,
+   "pct_bal": 16.0,
+   "pct_gan": null,
+   "bal_entrada": 12.4948
+  }
+ ],
+ "heartbeat": 1793695043.716938,
  "running": true,
  "stop_file": false
 }
