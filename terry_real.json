@@ -1,6 +1,6 @@
 {
- "generated": 1793732507.4047039,
- "generated_et": "2026-11-03 14:01:48 ET",
+ "generated": 1793732756.4318197,
+ "generated_et": "2026-11-03 14:05:57 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 3.87031,
+  "current": 1.02031,
   "buying_power": 1.02031,
-  "in_positions": 2.85
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -1142,23 +1142,27 @@
   [
    1793732507,
    3.87031
+  ],
+  [
+   1793732756,
+   1.02031
   ]
  ],
  "totals": {
-  "trades": 182,
+  "trades": 183,
   "wins": 143,
-  "win_pct": 78.6,
-  "gross_pnl": 7.6019,
-  "fees": 5.74,
-  "net_pnl": 1.8619
+  "win_pct": 78.1,
+  "gross_pnl": 5.7209,
+  "fees": 5.78,
+  "net_pnl": -0.0591
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 1.3741,
-  "trades": 125,
+  "pnl": -0.5469,
+  "trades": 126,
   "wins": 99,
   "breakeven_pct": 77,
-  "cap_left": 20.0,
+  "cap_left": 19.45,
   "cap_hit": false
  },
  "counts": {
@@ -1166,8 +1170,7 @@
   "error": 2,
   "gano": 143,
   "nofill": 42,
-  "perdio": 39,
-  "abierta": 1
+  "perdio": 40
  },
  "equity": [
   [
@@ -2079,6 +2082,11 @@
    1793732190,
    1.8619,
    "1855z"
+  ],
+  [
+   1793732489,
+   -0.0591,
+   "1900z"
   ]
  ],
  "calls": [
@@ -2093,7 +2101,7 @@
    "precio": 0.66,
    "qty": 2.85,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": -1.921,
    "lat": {
     "llamada": 0,
     "envio": 136,
@@ -2101,11 +2109,11 @@
    },
    "order_id": "DGEG3HWG13CT",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 1.921,
    "pct_bal": 65.3,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 2.9413
   },
   {
@@ -2366,7 +2374,7 @@
    "costo": 1.9275,
    "pct_bal": 21.7,
    "pct_gan": 31.3,
-   "bal_entrada": 8.8845
+   "bal_entrada": 8.88451
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1750z",
@@ -7172,35 +7180,8 @@
   "envio": 134,
   "bolsa": 189
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1900z",
-   "ronda": "1900z",
-   "hora": "14:01:29",
-   "day": "2026-11-03",
-   "ts": 1793732489.4405189,
-   "side": "down",
-   "prob": 0.7083,
-   "precio": 0.66,
-   "qty": 2.85,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 136,
-    "bolsa": 146
-   },
-   "order_id": "DGEG3HWG13CT",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.921,
-   "pct_bal": 65.3,
-   "pct_gan": null,
-   "bal_entrada": 2.9413
-  }
- ],
- "heartbeat": 1793732495.3709393,
+ "open": [],
+ "heartbeat": 1793732756.645768,
  "running": true,
  "stop_file": false
 }
