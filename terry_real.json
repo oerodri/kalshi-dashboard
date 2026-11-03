@@ -1,6 +1,6 @@
 {
- "generated": 1793730490.9409163,
- "generated_et": "2026-11-03 13:28:12 ET",
+ "generated": 1793730622.150023,
+ "generated_et": "2026-11-03 13:30:23 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 9.38291,
-  "buying_power": 6.72291,
-  "in_positions": 2.66
+  "buying_power": 9.38291,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -1125,18 +1125,18 @@
   ]
  ],
  "totals": {
-  "trades": 178,
-  "wins": 140,
-  "win_pct": 78.7,
-  "gross_pnl": 8.2625,
-  "fees": 5.63,
-  "net_pnl": 2.6325
+  "trades": 179,
+  "wins": 141,
+  "win_pct": 78.8,
+  "gross_pnl": 9.0605,
+  "fees": 5.67,
+  "net_pnl": 3.3905
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 2.1447,
-  "trades": 121,
-  "wins": 96,
+  "pnl": 2.9027,
+  "trades": 122,
+  "wins": 97,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -1144,10 +1144,9 @@
  "counts": {
   "saltada": 59,
   "error": 2,
-  "gano": 140,
+  "gano": 141,
   "nofill": 41,
-  "perdio": 38,
-  "abierta": 1
+  "perdio": 38
  },
  "equity": [
   [
@@ -2039,6 +2038,11 @@
    1793730091,
    2.6325,
    "1820z"
+  ],
+  [
+   1793730434,
+   3.3905,
+   "1825z"
   ]
  ],
  "calls": [
@@ -2053,7 +2057,7 @@
    "precio": 0.7,
    "qty": 2.66,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.758,
    "lat": {
     "llamada": 0,
     "envio": 137,
@@ -2061,11 +2065,11 @@
    },
    "order_id": "DGE0DPQ0D3D1",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.902,
    "pct_bal": 22.1,
-   "pct_gan": null,
+   "pct_gan": 39.9,
    "bal_entrada": 8.6249
   },
   {
@@ -2348,7 +2352,7 @@
    "costo": 2.0052,
    "pct_bal": 18.0,
    "pct_gan": -100.0,
-   "bal_entrada": 11.1332
+   "bal_entrada": 11.13321
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1720z",
@@ -7124,35 +7128,8 @@
   "envio": 134,
   "bolsa": 189
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1825z",
-   "ronda": "1825z",
-   "hora": "13:27:13",
-   "day": "2026-11-03",
-   "ts": 1793730433.8578784,
-   "side": "down",
-   "prob": 0.7509,
-   "precio": 0.7,
-   "qty": 2.66,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 137,
-    "bolsa": 161
-   },
-   "order_id": "DGE0DPQ0D3D1",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.902,
-   "pct_bal": 22.1,
-   "pct_gan": null,
-   "bal_entrada": 8.6249
-  }
- ],
- "heartbeat": 1793730485.3894093,
+ "open": [],
+ "heartbeat": 1793730605.5035355,
  "running": true,
  "stop_file": false
 }
