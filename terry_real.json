@@ -1,6 +1,6 @@
 {
- "generated": 1793748672.7581847,
- "generated_et": "2026-11-03 18:31:13 ET",
+ "generated": 1793748797.3204677,
+ "generated_et": "2026-11-03 18:33:18 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -1409,7 +1409,7 @@
   "saltada": 62,
   "error": 2,
   "gano": 178,
-  "nofill": 47,
+  "nofill": 48,
   "perdio": 47
  },
  "equity": [
@@ -2540,6 +2540,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-2330z",
+   "ronda": "2330z",
+   "hora": "18:32:29",
+   "day": "2026-11-03",
+   "ts": 1793748749.578483,
+   "side": "down",
+   "prob": 0.7017,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 147,
+    "bolsa": 152
+   },
+   "order_id": "DGJC5AP013D3",
+   "aviso": null,
+   "out": "nofill",
+   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2325z",
    "ronda": "2325z",
@@ -7633,41 +7659,15 @@
    "pct_bal": 58.5,
    "pct_gan": 36.1,
    "bal_entrada": 3.42611
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0520z",
-   "ronda": "0520z",
-   "hora": "00:23:00",
-   "day": "2026-11-03",
-   "ts": 1793683380.655981,
-   "side": "down",
-   "prob": 0.8396,
-   "precio": 0.86,
-   "qty": 2.27,
-   "fee": 0.02,
-   "pnl": -1.9722,
-   "lat": {
-    "llamada": 0,
-    "envio": 153,
-    "bolsa": 114
-   },
-   "order_id": "DG2SE2N012WQ",
-   "aviso": null,
-   "out": "perdio",
-   "motivo": "Liquidada",
-   "costo": 1.9722,
-   "pct_bal": 36.5,
-   "pct_gan": -100.0,
-   "bal_entrada": 5.39831
   }
  ],
  "lat_avg": {
-  "llamada": 455,
-  "envio": 133,
+  "llamada": 453,
+  "envio": 134,
   "bolsa": 192
  },
  "open": [],
- "heartbeat": 1793748657.0332682,
+ "heartbeat": 1793748778.109671,
  "running": true,
  "stop_file": false
 }
