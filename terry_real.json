@@ -1,6 +1,6 @@
 {
- "generated": 1793709915.8754513,
- "generated_et": "2026-11-03 07:45:16 ET",
+ "generated": 1793710040.417498,
+ "generated_et": "2026-11-03 07:47:21 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 17.38771,
-  "buying_power": 17.38771,
+  "current": 15.44071,
+  "buying_power": 15.44071,
   "in_positions": 0
  },
  "balance_err": null,
@@ -766,6 +766,10 @@
   [
    1793709730,
    17.38771
+  ],
+  [
+   1793710040,
+   15.44071
   ]
  ],
  "totals": {
@@ -790,7 +794,8 @@
   "error": 2,
   "gano": 98,
   "nofill": 38,
-  "perdio": 24
+  "perdio": 24,
+  "abierta": 1
  },
  "equity": [
   [
@@ -1406,6 +1411,32 @@
  ],
  "calls": [
   {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1245z",
+   "ronda": "1245z",
+   "hora": "07:46:41",
+   "day": "2026-11-03",
+   "ts": 1793710001.9978404,
+   "side": "up",
+   "prob": 0.834,
+   "precio": 0.82,
+   "qty": 2.35,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 138,
+    "bolsa": 128
+   },
+   "order_id": "DG94HE8013D5",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.947,
+   "pct_bal": 11.2,
+   "pct_gan": null,
+   "bal_entrada": 17.3877
+  },
+  {
    "slug": "cpc-btc-updown-5m-2026-11-03-1240z",
    "ronda": "1240z",
    "hora": "07:41:30",
@@ -1689,7 +1720,7 @@
    "costo": 1.9688,
    "pct_bal": 13.3,
    "pct_gan": 17.8,
-   "bal_entrada": 14.8498
+   "bal_entrada": 14.84981
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1125z",
@@ -6382,37 +6413,42 @@
    "pct_bal": 17.2,
    "pct_gan": 17.9,
    "bal_entrada": 11.71171
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-1925z",
-   "ronda": "1925z",
-   "hora": "14:26:51",
-   "day": "2026-11-02",
-   "ts": 1793647611.719068,
-   "side": "down",
-   "prob": 0.9518,
-   "precio": null,
-   "qty": null,
-   "fee": null,
-   "pnl": null,
-   "lat": null,
-   "order_id": null,
-   "aviso": null,
-   "out": "saltada",
-   "motivo": "ask 0.94 > max 0.9",
-   "costo": null,
-   "pct_bal": null,
-   "pct_gan": null,
-   "bal_entrada": null
   }
  ],
  "lat_avg": {
-  "llamada": 749,
+  "llamada": 744,
   "envio": 133,
-  "bolsa": 200
+  "bolsa": 199
  },
- "open": [],
- "heartbeat": 1793709912.1347115,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1245z",
+   "ronda": "1245z",
+   "hora": "07:46:41",
+   "day": "2026-11-03",
+   "ts": 1793710001.9978404,
+   "side": "up",
+   "prob": 0.834,
+   "precio": 0.82,
+   "qty": 2.35,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 138,
+    "bolsa": 128
+   },
+   "order_id": "DG94HE8013D5",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.947,
+   "pct_bal": 11.2,
+   "pct_gan": null,
+   "bal_entrada": 17.3877
+  }
+ ],
+ "heartbeat": 1793710032.4300385,
  "running": true,
  "stop_file": false
 }
