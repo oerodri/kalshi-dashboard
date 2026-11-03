@@ -1,6 +1,6 @@
 {
- "generated": 1793733037.2108002,
- "generated_et": "2026-11-03 14:10:38 ET",
+ "generated": 1793733167.8713255,
+ "generated_et": "2026-11-03 14:12:48 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 1.18471,
-  "buying_power": 1.18471,
-  "in_positions": 0
+  "current": 1.30781,
+  "buying_power": 0.09781,
+  "in_positions": 1.21
  },
  "balance_err": null,
  "balance_hist": [
@@ -1150,6 +1150,10 @@
   [
    1793732825,
    1.18471
+  ],
+  [
+   1793733168,
+   1.30781
   ]
  ],
  "totals": {
@@ -1174,7 +1178,8 @@
   "error": 2,
   "gano": 144,
   "nofill": 42,
-  "perdio": 40
+  "perdio": 40,
+  "abierta": 1
  },
  "equity": [
   [
@@ -2099,6 +2104,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1910z",
+   "ronda": "1910z",
+   "hora": "14:12:18",
+   "day": "2026-11-03",
+   "ts": 1793733138.0947254,
+   "side": "down",
+   "prob": 0.871,
+   "precio": 0.89,
+   "qty": 1.21,
+   "fee": 0.01,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 144,
+    "bolsa": 176
+   },
+   "order_id": "DGEN1XTG13CX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.0869,
+   "pct_bal": 91.7,
+   "pct_gan": null,
+   "bal_entrada": 1.1847
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1905z",
    "ronda": "1905z",
@@ -7164,37 +7195,42 @@
    "pct_bal": null,
    "pct_gan": null,
    "bal_entrada": null
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0115z",
-   "ronda": "0115z",
-   "hora": "20:18:18",
-   "day": "2026-11-02",
-   "ts": 1793668698.3493798,
-   "side": "up",
-   "prob": 0.6503,
-   "precio": null,
-   "qty": null,
-   "fee": null,
-   "pnl": null,
-   "lat": null,
-   "order_id": null,
-   "aviso": null,
-   "out": "saltada",
-   "motivo": "prob 0.6503<0.66",
-   "costo": null,
-   "pct_bal": null,
-   "pct_gan": null,
-   "bal_entrada": null
   }
  ],
  "lat_avg": {
-  "llamada": 548,
+  "llamada": 545,
   "envio": 134,
-  "bolsa": 189
+  "bolsa": 188
  },
- "open": [],
- "heartbeat": 1793733037.343716,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1910z",
+   "ronda": "1910z",
+   "hora": "14:12:18",
+   "day": "2026-11-03",
+   "ts": 1793733138.0947254,
+   "side": "down",
+   "prob": 0.871,
+   "precio": 0.89,
+   "qty": 1.21,
+   "fee": 0.01,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 144,
+    "bolsa": 176
+   },
+   "order_id": "DGEN1XTG13CX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.0869,
+   "pct_bal": 91.7,
+   "pct_gan": null,
+   "bal_entrada": 1.1847
+  }
+ ],
+ "heartbeat": 1793733157.6989884,
  "running": true,
  "stop_file": false
 }
