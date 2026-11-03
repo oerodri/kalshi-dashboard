@@ -1,6 +1,6 @@
 {
- "generated": 1793722310.4467256,
- "generated_et": "2026-11-03 11:11:51 ET",
+ "generated": 1793722557.6997294,
+ "generated_et": "2026-11-03 11:15:58 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 10.36881,
+  "current": 7.96881,
   "buying_power": 7.96881,
-  "in_positions": 2.4
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -1010,23 +1010,27 @@
   [
    1793722310,
    10.36881
+  ],
+  [
+   1793722558,
+   7.96881
   ]
  ],
  "totals": {
-  "trades": 159,
+  "trades": 160,
   "wins": 125,
-  "win_pct": 78.6,
-  "gross_pnl": 7.2544,
-  "fees": 5.04,
-  "net_pnl": 2.2144
+  "win_pct": 78.1,
+  "gross_pnl": 5.3104,
+  "fees": 5.07,
+  "net_pnl": 0.2404
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 1.7266,
-  "trades": 102,
+  "pnl": -0.2474,
+  "trades": 103,
   "wins": 81,
   "breakeven_pct": 77,
-  "cap_left": 20.0,
+  "cap_left": 19.75,
   "cap_hit": false
  },
  "counts": {
@@ -1034,8 +1038,7 @@
   "error": 2,
   "gano": 125,
   "nofill": 39,
-  "perdio": 34,
-  "abierta": 1
+  "perdio": 35
  },
  "equity": [
   [
@@ -1832,6 +1835,11 @@
    1793722014,
    2.2144,
    "1605z"
+  ],
+  [
+   1793722290,
+   0.2404,
+   "1610z"
   ]
  ],
  "calls": [
@@ -1846,7 +1854,7 @@
    "precio": 0.81,
    "qty": 2.4,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": -1.974,
    "lat": {
     "llamada": 0,
     "envio": 149,
@@ -1854,11 +1862,11 @@
    },
    "order_id": "DGC29AW013CT",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 1.974,
    "pct_bal": 19.9,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 9.9428
   },
   {
@@ -6885,35 +6893,8 @@
   "envio": 133,
   "bolsa": 192
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1610z",
-   "ronda": "1610z",
-   "hora": "11:11:29",
-   "day": "2026-11-03",
-   "ts": 1793722289.529251,
-   "side": "down",
-   "prob": 0.8192,
-   "precio": 0.81,
-   "qty": 2.4,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 149,
-    "bolsa": 130
-   },
-   "order_id": "DGC29AW013CT",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.974,
-   "pct_bal": 19.9,
-   "pct_gan": null,
-   "bal_entrada": 9.9428
-  }
- ],
- "heartbeat": 1793722291.1082892,
+ "open": [],
+ "heartbeat": 1793722552.8702118,
  "running": true,
  "stop_file": false
 }
