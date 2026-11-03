@@ -1,6 +1,6 @@
 {
- "generated": 1793704648.1407142,
- "generated_et": "2026-11-03 06:17:28 ET",
+ "generated": 1793704833.6606376,
+ "generated_et": "2026-11-03 06:20:34 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -689,17 +689,17 @@
   ]
  ],
  "totals": {
-  "trades": 109,
+  "trades": 110,
   "wins": 87,
-  "win_pct": 79.8,
-  "gross_pnl": 9.7831,
-  "fees": 3.51,
-  "net_pnl": 6.2731
+  "win_pct": 79.1,
+  "gross_pnl": 7.8448,
+  "fees": 3.55,
+  "net_pnl": 4.2948
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 5.7853,
-  "trades": 52,
+  "pnl": 3.807,
+  "trades": 53,
   "wins": 43,
   "breakeven_pct": 77,
   "cap_left": 20.0,
@@ -710,8 +710,7 @@
   "error": 2,
   "gano": 87,
   "nofill": 37,
-  "perdio": 22,
-  "abierta": 1
+  "perdio": 23
  },
  "equity": [
   [
@@ -1258,6 +1257,11 @@
    1793704350,
    6.2731,
    "1110z"
+  ],
+  [
+   1793704594,
+   4.2948,
+   "1115z"
   ]
  ],
  "calls": [
@@ -1272,7 +1276,7 @@
    "precio": 0.71,
    "qty": 2.73,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": -1.9783,
    "lat": {
     "llamada": 0,
     "envio": 147,
@@ -1280,11 +1284,11 @@
    },
    "order_id": "DG7V918G13D8",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 1.9783,
    "pct_bal": 12.1,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 16.3262
   },
   {
@@ -6252,35 +6256,8 @@
   "envio": 133,
   "bolsa": 204
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1115z",
-   "ronda": "1115z",
-   "hora": "06:16:33",
-   "day": "2026-11-03",
-   "ts": 1793704593.5625458,
-   "side": "up",
-   "prob": 0.7015,
-   "precio": 0.71,
-   "qty": 2.73,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 147,
-    "bolsa": 181
-   },
-   "order_id": "DG7V918G13D8",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9783,
-   "pct_bal": 12.1,
-   "pct_gan": null,
-   "bal_entrada": 16.3262
-  }
- ],
- "heartbeat": 1793704643.1336343,
+ "open": [],
+ "heartbeat": 1793704823.5483088,
  "running": true,
  "stop_file": false
 }
