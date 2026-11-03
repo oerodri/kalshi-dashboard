@@ -1,6 +1,6 @@
 {
- "generated": 1793708302.5375853,
- "generated_et": "2026-11-03 07:18:23 ET",
+ "generated": 1793708427.1324527,
+ "generated_et": "2026-11-03 07:20:27 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 15.57761,
-  "buying_power": 15.57761,
+  "current": 17.79761,
+  "buying_power": 17.79761,
   "in_positions": 0
  },
  "balance_err": null,
@@ -734,21 +734,25 @@
   [
    1793708303,
    15.57761
+  ],
+  [
+   1793708427,
+   17.79761
   ]
  ],
  "totals": {
-  "trades": 117,
-  "wins": 94,
-  "win_pct": 80.3,
-  "gross_pnl": 11.2725,
-  "fees": 3.74,
-  "net_pnl": 7.5325
+  "trades": 118,
+  "wins": 95,
+  "win_pct": 80.5,
+  "gross_pnl": 11.4945,
+  "fees": 3.75,
+  "net_pnl": 7.7445
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 7.0447,
-  "trades": 60,
-  "wins": 50,
+  "pnl": 7.2567,
+  "trades": 61,
+  "wins": 51,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -756,10 +760,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 94,
+  "gano": 95,
   "nofill": 38,
-  "perdio": 23,
-  "abierta": 1
+  "perdio": 23
  },
  "equity": [
   [
@@ -1346,6 +1349,11 @@
    1793707650,
    7.5325,
    "1205z"
+  ],
+  [
+   1793708251,
+   7.7445,
+   "1215z"
   ]
  ],
  "calls": [
@@ -1360,7 +1368,7 @@
    "precio": 0.9,
    "qty": 2.22,
    "fee": 0.01,
-   "pnl": null,
+   "pnl": 0.212,
    "lat": {
     "llamada": 295,
     "envio": 144,
@@ -1368,11 +1376,11 @@
    },
    "order_id": "DG8Q5YZ013CT",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.008,
    "pct_bal": 11.4,
-   "pct_gan": null,
+   "pct_gan": 10.6,
    "bal_entrada": 17.5856
   },
   {
@@ -1633,7 +1641,7 @@
    "costo": 1.9242,
    "pct_bal": 12.2,
    "pct_gan": 27.8,
-   "bal_entrada": 15.7904
+   "bal_entrada": 15.79041
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1105z",
@@ -6351,35 +6359,8 @@
   "envio": 133,
   "bolsa": 200
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1215z",
-   "ronda": "1215z",
-   "hora": "07:17:31",
-   "day": "2026-11-03",
-   "ts": 1793708251.0541036,
-   "side": "up",
-   "prob": 0.8345,
-   "precio": 0.9,
-   "qty": 2.22,
-   "fee": 0.01,
-   "pnl": null,
-   "lat": {
-    "llamada": 295,
-    "envio": 144,
-    "bolsa": 120
-   },
-   "order_id": "DG8Q5YZ013CT",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.008,
-   "pct_bal": 11.4,
-   "pct_gan": null,
-   "bal_entrada": 17.5856
-  }
- ],
- "heartbeat": 1793708288.966488,
+ "open": [],
+ "heartbeat": 1793708409.0695517,
  "running": true,
  "stop_file": false
 }
