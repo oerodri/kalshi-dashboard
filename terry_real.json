@@ -1,6 +1,6 @@
 {
- "generated": 1793686345.270922,
- "generated_et": "2026-11-03 01:12:26 ET",
+ "generated": 1793686530.6645885,
+ "generated_et": "2026-11-03 01:15:31 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 8.76611,
-  "buying_power": 6.47611,
-  "in_positions": 2.29
+  "buying_power": 8.76611,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -429,29 +429,28 @@
   ]
  ],
  "totals": {
-  "trades": 70,
-  "wins": 54,
-  "win_pct": 77.1,
-  "gross_pnl": 2.6262,
-  "fees": 2.32,
-  "net_pnl": 0.3062
+  "trades": 71,
+  "wins": 55,
+  "win_pct": 77.5,
+  "gross_pnl": 3.0384,
+  "fees": 2.34,
+  "net_pnl": 0.6984
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": -0.1816,
-  "trades": 13,
-  "wins": 10,
+  "pnl": 0.2106,
+  "trades": 14,
+  "wins": 11,
   "breakeven_pct": 77,
-  "cap_left": 19.82,
+  "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
   "saltada": 42,
   "error": 2,
-  "gano": 54,
+  "gano": 55,
   "nofill": 32,
-  "perdio": 16,
-  "abierta": 1
+  "perdio": 16
  },
  "equity": [
   [
@@ -803,6 +802,11 @@
    1793685990,
    0.3062,
    "0605z"
+  ],
+  [
+   1793686313,
+   0.6984,
+   "0610z"
   ]
  ],
  "calls": [
@@ -817,7 +821,7 @@
    "precio": 0.82,
    "qty": 2.29,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.3922,
    "lat": {
     "llamada": 0,
     "envio": 125,
@@ -825,11 +829,11 @@
    },
    "order_id": "DG3FSY7012VP",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.8978,
    "pct_bal": 22.7,
-   "pct_gan": null,
+   "pct_gan": 20.7,
    "bal_entrada": 8.3739
   },
   {
@@ -1064,7 +1068,7 @@
    "costo": 2.0056,
    "pct_bal": 58.5,
    "pct_gan": 45.8,
-   "bal_entrada": 3.4261
+   "bal_entrada": 3.42611
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0520z",
@@ -4459,35 +4463,8 @@
   "envio": 134,
   "bolsa": 222
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0610z",
-   "ronda": "0610z",
-   "hora": "01:11:52",
-   "day": "2026-11-03",
-   "ts": 1793686312.8091393,
-   "side": "down",
-   "prob": 0.7967,
-   "precio": 0.82,
-   "qty": 2.29,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 125,
-    "bolsa": 151
-   },
-   "order_id": "DG3FSY7012VP",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.8978,
-   "pct_bal": 22.7,
-   "pct_gan": null,
-   "bal_entrada": 8.3739
-  }
- ],
- "heartbeat": 1793686330.860519,
+ "open": [],
+ "heartbeat": 1793686530.9874952,
  "running": true,
  "stop_file": false
 }
