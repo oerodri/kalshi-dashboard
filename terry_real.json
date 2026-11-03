@@ -1,6 +1,6 @@
 {
- "generated": 1793738823.3809814,
- "generated_et": "2026-11-03 15:47:04 ET",
+ "generated": 1793739015.9655592,
+ "generated_et": "2026-11-03 15:50:16 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 0.06611,
-  "buying_power": 0.06611,
+  "current": 0.82611,
+  "buying_power": 0.82611,
   "in_positions": 0
  },
  "balance_err": null,
@@ -1218,32 +1218,35 @@
   [
    1793738823,
    0.06611
+  ],
+  [
+   1793739016,
+   0.82611
   ]
  ],
  "totals": {
-  "trades": 196,
-  "wins": 154,
-  "win_pct": 78.6,
-  "gross_pnl": 5.5411,
-  "fees": 6.01,
-  "net_pnl": -0.4689
+  "trades": 197,
+  "wins": 155,
+  "win_pct": 78.7,
+  "gross_pnl": 5.7615,
+  "fees": 6.02,
+  "net_pnl": -0.2585
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": -0.9567,
-  "trades": 139,
-  "wins": 110,
+  "pnl": -0.7463,
+  "trades": 140,
+  "wins": 111,
   "breakeven_pct": 77,
-  "cap_left": 19.04,
+  "cap_left": 19.25,
   "cap_hit": false
  },
  "counts": {
   "saltada": 61,
   "error": 2,
-  "gano": 154,
+  "gano": 155,
   "nofill": 47,
-  "perdio": 42,
-  "abierta": 1
+  "perdio": 42
  },
  "equity": [
   [
@@ -2225,6 +2228,11 @@
    1793738529,
    -0.4689,
    "2040z"
+  ],
+  [
+   1793738802,
+   -0.2585,
+   "2045z"
   ]
  ],
  "calls": [
@@ -2239,7 +2247,7 @@
    "precio": 0.71,
    "qty": 0.76,
    "fee": 0.01,
-   "pnl": null,
+   "pnl": 0.2104,
    "lat": {
     "llamada": 0,
     "envio": 125,
@@ -2247,11 +2255,11 @@
    },
    "order_id": "DGG08RFG13CZ",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 0.5496,
    "pct_bal": 89.3,
-   "pct_gan": null,
+   "pct_gan": 38.3,
    "bal_entrada": 0.6157
   },
   {
@@ -7330,35 +7338,8 @@
   "envio": 134,
   "bolsa": 191
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-2045z",
-   "ronda": "2045z",
-   "hora": "15:46:42",
-   "day": "2026-11-03",
-   "ts": 1793738802.1593666,
-   "side": "up",
-   "prob": 0.7249,
-   "precio": 0.71,
-   "qty": 0.76,
-   "fee": 0.01,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 125,
-    "bolsa": 201
-   },
-   "order_id": "DGG08RFG13CZ",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 0.5496,
-   "pct_bal": 89.3,
-   "pct_gan": null,
-   "bal_entrada": 0.6157
-  }
- ],
- "heartbeat": 1793738812.064758,
+ "open": [],
+ "heartbeat": 1793739012.981221,
  "running": true,
  "stop_file": false
 }
