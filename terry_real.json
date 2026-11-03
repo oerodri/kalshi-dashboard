@@ -1,6 +1,6 @@
 {
- "generated": 1793685349.589382,
- "generated_et": "2026-11-03 00:55:50 ET",
+ "generated": 1793685415.0207028,
+ "generated_et": "2026-11-03 00:56:55 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 6.92081,
-  "buying_power": 6.92081,
-  "in_positions": 0
+  "current": 7.37681,
+  "buying_power": 4.94681,
+  "in_positions": 2.43
  },
  "balance_err": null,
  "balance_hist": [
@@ -410,6 +410,10 @@
   [
    1793685350,
    6.92081
+  ],
+  [
+   1793685415,
+   7.37681
   ]
  ],
  "totals": {
@@ -434,7 +438,8 @@
   "error": 2,
   "gano": 52,
   "nofill": 32,
-  "perdio": 15
+  "perdio": 15,
+  "abierta": 1
  },
  "equity": [
   [
@@ -774,6 +779,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0555z",
+   "ronda": "0555z",
+   "hora": "00:56:45",
+   "day": "2026-11-03",
+   "ts": 1793685405.9569402,
+   "side": "down",
+   "prob": 0.7442,
+   "precio": 0.8,
+   "qty": 2.43,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 135,
+    "bolsa": 223
+   },
+   "order_id": "DG38WHX012WP",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.974,
+   "pct_bal": 28.5,
+   "pct_gan": null,
+   "bal_entrada": 6.9208
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0550z",
    "ronda": "0550z",
@@ -4319,12 +4350,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1002,
+  "llamada": 992,
   "envio": 134,
   "bolsa": 223
  },
- "open": [],
- "heartbeat": 1793685348.4680276,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0555z",
+   "ronda": "0555z",
+   "hora": "00:56:45",
+   "day": "2026-11-03",
+   "ts": 1793685405.9569402,
+   "side": "down",
+   "prob": 0.7442,
+   "precio": 0.8,
+   "qty": 2.43,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 135,
+    "bolsa": 223
+   },
+   "order_id": "DG38WHX012WP",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.974,
+   "pct_bal": 28.5,
+   "pct_gan": null,
+   "bal_entrada": 6.9208
+  }
+ ],
+ "heartbeat": 1793685408.5006886,
  "running": true,
  "stop_file": false
 }
