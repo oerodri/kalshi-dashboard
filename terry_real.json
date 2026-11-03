@@ -1,6 +1,6 @@
 {
- "generated": 1793704088.2434664,
- "generated_et": "2026-11-03 06:08:09 ET",
+ "generated": 1793704273.772347,
+ "generated_et": "2026-11-03 06:11:14 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 13.09041,
-  "buying_power": 13.09041,
+  "current": 15.79041,
+  "buying_power": 15.79041,
   "in_positions": 0
  },
  "balance_err": null,
@@ -670,21 +670,25 @@
   [
    1793704088,
    13.09041
+  ],
+  [
+   1793704274,
+   15.79041
   ]
  ],
  "totals": {
-  "trades": 107,
-  "wins": 85,
-  "win_pct": 79.4,
-  "gross_pnl": 8.5153,
-  "fees": 3.44,
-  "net_pnl": 5.0753
+  "trades": 108,
+  "wins": 86,
+  "win_pct": 79.6,
+  "gross_pnl": 9.2173,
+  "fees": 3.48,
+  "net_pnl": 5.7373
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 4.5875,
-  "trades": 50,
-  "wins": 41,
+  "pnl": 5.2495,
+  "trades": 51,
+  "wins": 42,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -692,10 +696,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 85,
+  "gano": 86,
   "nofill": 37,
-  "perdio": 22,
-  "abierta": 1
+  "perdio": 22
  },
  "equity": [
   [
@@ -1232,6 +1235,11 @@
    1793703719,
    5.0753,
    "1100z"
+  ],
+  [
+   1793704045,
+   5.7373,
+   "1105z"
   ]
  ],
  "calls": [
@@ -1246,7 +1254,7 @@
    "precio": 0.74,
    "qty": 2.7,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.662,
    "lat": {
     "llamada": 0,
     "envio": 144,
@@ -1254,11 +1262,11 @@
    },
    "order_id": "DG7Q360G13D9",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.038,
    "pct_bal": 13.5,
-   "pct_gan": null,
+   "pct_gan": 32.5,
    "bal_entrada": 15.1284
   },
   {
@@ -1493,7 +1501,7 @@
    "costo": 1.9862,
    "pct_bal": 13.0,
    "pct_gan": 32.4,
-   "bal_entrada": 15.3056
+   "bal_entrada": 15.30561
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1005z",
@@ -6222,35 +6230,8 @@
   "envio": 133,
   "bolsa": 205
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1105z",
-   "ronda": "1105z",
-   "hora": "06:07:25",
-   "day": "2026-11-03",
-   "ts": 1793704045.3742056,
-   "side": "up",
-   "prob": 0.7513,
-   "precio": 0.74,
-   "qty": 2.7,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 144,
-    "bolsa": 116
-   },
-   "order_id": "DG7Q360G13D9",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.038,
-   "pct_bal": 13.5,
-   "pct_gan": null,
-   "bal_entrada": 15.1284
-  }
- ],
- "heartbeat": 1793704082.0238736,
+ "open": [],
+ "heartbeat": 1793704262.1721933,
  "running": true,
  "stop_file": false
 }
