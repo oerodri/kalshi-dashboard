@@ -1,6 +1,6 @@
 {
- "generated": 1793720241.6476815,
- "generated_et": "2026-11-03 10:37:22 ET",
+ "generated": 1793720427.6483855,
+ "generated_et": "2026-11-03 10:40:28 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 11.62611,
-  "buying_power": 11.62611,
+  "current": 14.47611,
+  "buying_power": 14.47611,
   "in_positions": 0
  },
  "balance_err": null,
@@ -950,21 +950,25 @@
   [
    1793720242,
    11.62611
+  ],
+  [
+   1793720428,
+   14.47611
   ]
  ],
  "totals": {
-  "trades": 152,
-  "wins": 120,
-  "win_pct": 78.9,
-  "gross_pnl": 8.3444,
-  "fees": 4.84,
-  "net_pnl": 3.5044
+  "trades": 153,
+  "wins": 121,
+  "win_pct": 79.1,
+  "gross_pnl": 9.2849,
+  "fees": 4.88,
+  "net_pnl": 4.4049
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 3.0166,
-  "trades": 95,
-  "wins": 76,
+  "pnl": 3.9171,
+  "trades": 96,
+  "wins": 77,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -972,10 +976,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 120,
+  "gano": 121,
   "nofill": 39,
-  "perdio": 32,
-  "abierta": 1
+  "perdio": 32
  },
  "equity": [
   [
@@ -1737,6 +1740,11 @@
    1793719902,
    3.5044,
    "1530z"
+  ],
+  [
+   1793720225,
+   4.4049,
+   "1535z"
   ]
  ],
  "calls": [
@@ -1751,7 +1759,7 @@
    "precio": 0.67,
    "qty": 2.85,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.9005,
    "lat": {
     "llamada": 0,
     "envio": 129,
@@ -1759,11 +1767,11 @@
    },
    "order_id": "DGBJH80G13D5",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9495,
    "pct_bal": 14.4,
-   "pct_gan": null,
+   "pct_gan": 46.2,
    "bal_entrada": 13.5756
   },
   {
@@ -1998,7 +2006,7 @@
    "costo": 1.8959,
    "pct_bal": 14.9,
    "pct_gan": 46.1,
-   "bal_entrada": 12.7042
+   "bal_entrada": 12.70421
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1445z",
@@ -6786,35 +6794,8 @@
   "envio": 133,
   "bolsa": 193
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1535z",
-   "ronda": "1535z",
-   "hora": "10:37:04",
-   "day": "2026-11-03",
-   "ts": 1793720224.7616687,
-   "side": "up",
-   "prob": 0.7016,
-   "precio": 0.67,
-   "qty": 2.85,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 129,
-    "bolsa": 170
-   },
-   "order_id": "DGBJH80G13D5",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9495,
-   "pct_bal": 14.4,
-   "pct_gan": null,
-   "bal_entrada": 13.5756
-  }
- ],
- "heartbeat": 1793720225.8104124,
+ "open": [],
+ "heartbeat": 1793720426.263039,
  "running": true,
  "stop_file": false
 }
