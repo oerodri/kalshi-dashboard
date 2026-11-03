@@ -1,6 +1,6 @@
 {
- "generated": 1793677950.554766,
- "generated_et": "2026-11-02 22:52:31 ET",
+ "generated": 1793678136.0045223,
+ "generated_et": "2026-11-02 22:55:36 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 13.98761,
+  "current": 11.25761,
   "buying_power": 11.25761,
-  "in_positions": 2.73
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -302,20 +302,24 @@
   [
    1793677951,
    13.98761
+  ],
+  [
+   1793678136,
+   11.25761
   ]
  ],
  "totals": {
-  "trades": 49,
+  "trades": 50,
   "wins": 38,
-  "win_pct": 77.6,
-  "gross_pnl": 2.811,
-  "fees": 1.69,
-  "net_pnl": 1.121
+  "win_pct": 76.0,
+  "gross_pnl": 0.9546,
+  "fees": 1.73,
+  "net_pnl": -0.7754
  },
  "today": {
   "day": "2026-11-02",
-  "pnl": 1.121,
-  "cap_left": 20.0,
+  "pnl": -0.7754,
+  "cap_left": 19.22,
   "cap_hit": false
  },
  "counts": {
@@ -323,8 +327,7 @@
   "error": 2,
   "gano": 38,
   "nofill": 30,
-  "perdio": 11,
-  "abierta": 1
+  "perdio": 12
  },
  "equity": [
   [
@@ -571,6 +574,11 @@
    1793677300,
    1.121,
    "0340z"
+  ],
+  [
+   1793677932,
+   -0.7754,
+   "0350z"
   ]
  ],
  "calls": [
@@ -585,7 +593,7 @@
    "precio": 0.68,
    "qty": 2.73,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": -1.8964,
    "lat": {
     "llamada": 0,
     "envio": 143,
@@ -593,11 +601,11 @@
    },
    "order_id": "DG1FVTQ072VC",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 1.8964,
    "pct_bal": 14.4,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 13.154
   },
   {
@@ -3519,35 +3527,8 @@
   "envio": 134,
   "bolsa": 212
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0350z",
-   "ronda": "0350z",
-   "hora": "22:52:11",
-   "day": "2026-11-02",
-   "ts": 1793677931.8999279,
-   "side": "down",
-   "prob": 0.7318,
-   "precio": 0.68,
-   "qty": 2.73,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 143,
-    "bolsa": 194
-   },
-   "order_id": "DG1FVTQ072VC",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.8964,
-   "pct_bal": 14.4,
-   "pct_gan": null,
-   "bal_entrada": 13.154
-  }
- ],
- "heartbeat": 1793677934.6339972,
+ "open": [],
+ "heartbeat": 1793678134.7707949,
  "running": true,
  "stop_file": false
 }
