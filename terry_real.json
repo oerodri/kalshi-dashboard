@@ -1,6 +1,6 @@
 {
- "generated": 1793711220.7392855,
- "generated_et": "2026-11-03 08:07:01 ET",
+ "generated": 1793711467.4930298,
+ "generated_et": "2026-11-03 08:11:08 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -797,17 +797,17 @@
   ]
  ],
  "totals": {
-  "trades": 126,
+  "trades": 127,
   "wins": 102,
-  "win_pct": 81.0,
-  "gross_pnl": 13.0701,
-  "fees": 3.99,
-  "net_pnl": 9.0801
+  "win_pct": 80.3,
+  "gross_pnl": 11.1043,
+  "fees": 4.02,
+  "net_pnl": 7.0843
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 8.5923,
-  "trades": 69,
+  "pnl": 6.5965,
+  "trades": 70,
   "wins": 58,
   "breakeven_pct": 77,
   "cap_left": 20.0,
@@ -818,8 +818,7 @@
   "error": 2,
   "gano": 102,
   "nofill": 38,
-  "perdio": 24,
-  "abierta": 1
+  "perdio": 25
  },
  "equity": [
   [
@@ -1451,6 +1450,11 @@
    1793710940,
    9.0801,
    "1300z"
+  ],
+  [
+   1793711206,
+   7.0843,
+   "1305z"
   ]
  ],
  "calls": [
@@ -1465,7 +1469,7 @@
    "precio": 0.79,
    "qty": 2.5,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": -1.9958,
    "lat": {
     "llamada": 0,
     "envio": 140,
@@ -1473,11 +1477,11 @@
    },
    "order_id": "DG9DQB9G13CT",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 2.005,
    "pct_bal": 10.5,
-   "pct_gan": null,
+   "pct_gan": -99.5,
    "bal_entrada": 19.1332
   },
   {
@@ -1712,7 +1716,7 @@
    "costo": 2.008,
    "pct_bal": 11.4,
    "pct_gan": 10.6,
-   "bal_entrada": 17.5856
+   "bal_entrada": 17.58561
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1210z",
@@ -6464,35 +6468,8 @@
   "envio": 133,
   "bolsa": 198
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1305z",
-   "ronda": "1305z",
-   "hora": "08:06:45",
-   "day": "2026-11-03",
-   "ts": 1793711205.814202,
-   "side": "up",
-   "prob": 0.7014,
-   "precio": 0.79,
-   "qty": 2.5,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 140,
-    "bolsa": 153
-   },
-   "order_id": "DG9DQB9G13CT",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.005,
-   "pct_bal": 10.5,
-   "pct_gan": null,
-   "bal_entrada": 19.1332
-  }
- ],
- "heartbeat": 1793711213.9931982,
+ "open": [],
+ "heartbeat": 1793711454.3657248,
  "running": true,
  "stop_file": false
 }
