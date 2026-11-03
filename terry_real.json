@@ -1,6 +1,6 @@
 {
- "generated": 1793717237.091079,
- "generated_et": "2026-11-03 09:47:17 ET",
+ "generated": 1793717422.7865067,
+ "generated_et": "2026-11-03 09:50:23 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 9.93421,
-  "buying_power": 9.93421,
+  "current": 12.70421,
+  "buying_power": 12.70421,
   "in_positions": 0
  },
  "balance_err": null,
@@ -886,21 +886,25 @@
   [
    1793717237,
    9.93421
+  ],
+  [
+   1793717423,
+   12.70421
   ]
  ],
  "totals": {
-  "trades": 142,
-  "wins": 112,
-  "win_pct": 78.9,
-  "gross_pnl": 6.312,
-  "fees": 4.47,
-  "net_pnl": 1.842
+  "trades": 143,
+  "wins": 113,
+  "win_pct": 79.0,
+  "gross_pnl": 7.143,
+  "fees": 4.51,
+  "net_pnl": 2.633
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 1.3542,
-  "trades": 85,
-  "wins": 68,
+  "pnl": 2.1452,
+  "trades": 86,
+  "wins": 69,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -908,10 +912,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 112,
+  "gano": 113,
   "nofill": 39,
-  "perdio": 30,
-  "abierta": 1
+  "perdio": 30
  },
  "equity": [
   [
@@ -1623,6 +1626,11 @@
    1793716590,
    1.842,
    "1435z"
+  ],
+  [
+   1793717189,
+   2.633,
+   "1445z"
   ]
  ],
  "calls": [
@@ -1637,7 +1645,7 @@
    "precio": 0.7,
    "qty": 2.77,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.791,
    "lat": {
     "llamada": 0,
     "envio": 133,
@@ -1645,11 +1653,11 @@
    },
    "order_id": "DGAVC6KG33CT",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.979,
    "pct_bal": 16.6,
-   "pct_gan": null,
+   "pct_gan": 40.0,
    "bal_entrada": 11.9132
   },
   {
@@ -6664,35 +6672,8 @@
   "envio": 133,
   "bolsa": 195
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1445z",
-   "ronda": "1445z",
-   "hora": "09:46:29",
-   "day": "2026-11-03",
-   "ts": 1793717189.4774709,
-   "side": "up",
-   "prob": 0.731,
-   "precio": 0.7,
-   "qty": 2.77,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 133,
-    "bolsa": 144
-   },
-   "order_id": "DGAVC6KG33CT",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.979,
-   "pct_bal": 16.6,
-   "pct_gan": null,
-   "bal_entrada": 11.9132
-  }
- ],
- "heartbeat": 1793717218.853411,
+ "open": [],
+ "heartbeat": 1793717419.0101538,
  "running": true,
  "stop_file": false
 }
