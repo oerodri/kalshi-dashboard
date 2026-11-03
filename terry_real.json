@@ -1,6 +1,6 @@
 {
- "generated": 1793682849.33549,
- "generated_et": "2026-11-03 00:14:10 ET",
+ "generated": 1793682912.9033787,
+ "generated_et": "2026-11-03 00:15:13 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 0.41161,
-  "buying_power": 0.41161,
+  "current": 7.36991,
+  "buying_power": 7.36991,
   "in_positions": 0
  },
  "balance_err": null,
@@ -354,6 +354,10 @@
   [
    1793682849,
    0.41161
+  ],
+  [
+   1793682913,
+   7.36991
   ]
  ],
  "totals": {
@@ -696,9 +700,9 @@
    "out": "abierta",
    "motivo": "Esperando liquidación",
    "costo": 1.9705,
-   "pct_bal": 23.9,
+   "pct_bal": 13.0,
    "pct_gan": null,
-   "bal_entrada": 8.2541
+   "bal_entrada": 15.1441
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0505z",
@@ -744,9 +748,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 2.0351,
-   "pct_bal": 16.3,
+   "pct_bal": 10.5,
    "pct_gan": 122.9,
-   "bal_entrada": 12.5208
+   "bal_entrada": 19.4108
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0455z",
@@ -770,9 +774,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 1.974,
-   "pct_bal": 20.1,
+   "pct_bal": 11.8,
    "pct_gan": 23.1,
-   "bal_entrada": 9.8448
+   "bal_entrada": 16.7348
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0450z",
@@ -796,9 +800,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 1.9958,
-   "pct_bal": 16.9,
+   "pct_bal": 10.7,
    "pct_gan": 11.2,
-   "bal_entrada": 11.8406
+   "bal_entrada": 18.7306
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0445z",
@@ -822,9 +826,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 1.9578,
-   "pct_bal": 17.1,
+   "pct_bal": 10.7,
    "pct_gan": 21.6,
-   "bal_entrada": 11.4184
+   "bal_entrada": 18.3084
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0440z",
@@ -870,9 +874,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 1.98,
-   "pct_bal": 18.2,
+   "pct_bal": 11.1,
    "pct_gan": 26.3,
-   "bal_entrada": 10.8984
+   "bal_entrada": 17.7884
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0430z",
@@ -942,7 +946,7 @@
    "costo": 1.6339,
    "pct_bal": 16.3,
    "pct_gan": 54.8,
-   "bal_entrada": 10.0023
+   "bal_entrada": 10.00231
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0415z",
@@ -4038,12 +4042,12 @@
    "out": "abierta",
    "motivo": "Esperando liquidación",
    "costo": 1.9705,
-   "pct_bal": 23.9,
+   "pct_bal": 13.0,
    "pct_gan": null,
-   "bal_entrada": 8.2541
+   "bal_entrada": 15.1441
   }
  ],
- "heartbeat": 1793682844.3591247,
+ "heartbeat": 1793682904.4145446,
  "running": true,
  "stop_file": false
 }
