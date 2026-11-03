@@ -1,6 +1,6 @@
 {
- "generated": 1793722557.6997294,
- "generated_et": "2026-11-03 11:15:58 ET",
+ "generated": 1793722621.8282454,
+ "generated_et": "2026-11-03 11:17:02 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 7.96881,
-  "buying_power": 7.96881,
-  "in_positions": 0
+  "current": 8.41881,
+  "buying_power": 6.01881,
+  "in_positions": 2.4
  },
  "balance_err": null,
  "balance_hist": [
@@ -1014,6 +1014,10 @@
   [
    1793722558,
    7.96881
+  ],
+  [
+   1793722622,
+   8.41881
   ]
  ],
  "totals": {
@@ -1038,7 +1042,8 @@
   "error": 2,
   "gano": 125,
   "nofill": 39,
-  "perdio": 35
+  "perdio": 35,
+  "abierta": 1
  },
  "equity": [
   [
@@ -1844,6 +1849,32 @@
  ],
  "calls": [
   {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1615z",
+   "ronda": "1615z",
+   "hora": "11:16:33",
+   "day": "2026-11-03",
+   "ts": 1793722593.729,
+   "side": "down",
+   "prob": 0.777,
+   "precio": 0.8,
+   "qty": 2.4,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 131,
+    "bolsa": 155
+   },
+   "order_id": "DGC4KKG013D3",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.95,
+   "pct_bal": 24.5,
+   "pct_gan": null,
+   "bal_entrada": 7.9688
+  },
+  {
    "slug": "cpc-btc-updown-5m-2026-11-03-1610z",
    "ronda": "1610z",
    "hora": "11:11:29",
@@ -2075,7 +2106,7 @@
    "costo": 2.0148,
    "pct_bal": 16.1,
    "pct_gan": 52.4,
-   "bal_entrada": 12.5204
+   "bal_entrada": 12.52041
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1525z",
@@ -6860,41 +6891,42 @@
    "pct_bal": null,
    "pct_gan": null,
    "bal_entrada": null
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2240z",
-   "ronda": "2240z",
-   "hora": "17:42:16",
-   "day": "2026-11-02",
-   "ts": 1793659336.9117565,
-   "side": "up",
-   "prob": 0.7214,
-   "precio": 0.71,
-   "qty": 2.81,
-   "fee": 0.04,
-   "pnl": 0.7749,
-   "lat": {
-    "llamada": 197,
-    "envio": 134,
-    "bolsa": 181
-   },
-   "order_id": "DFX200WG12WQ",
-   "aviso": null,
-   "out": "gano",
-   "motivo": "Liquidada",
-   "costo": 2.0351,
-   "pct_bal": 16.7,
-   "pct_gan": 38.1,
-   "bal_entrada": 12.21531
   }
  ],
  "lat_avg": {
-  "llamada": 621,
+  "llamada": 618,
   "envio": 133,
   "bolsa": 192
  },
- "open": [],
- "heartbeat": 1793722552.8702118,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1615z",
+   "ronda": "1615z",
+   "hora": "11:16:33",
+   "day": "2026-11-03",
+   "ts": 1793722593.729,
+   "side": "down",
+   "prob": 0.777,
+   "precio": 0.8,
+   "qty": 2.4,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 131,
+    "bolsa": 155
+   },
+   "order_id": "DGC4KKG013D3",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.95,
+   "pct_bal": 24.5,
+   "pct_gan": null,
+   "bal_entrada": 7.9688
+  }
+ ],
+ "heartbeat": 1793722612.9302669,
  "running": true,
  "stop_file": false
 }
