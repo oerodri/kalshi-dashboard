@@ -1,6 +1,6 @@
 {
- "generated": 1793734021.9022202,
- "generated_et": "2026-11-03 14:27:02 ET",
+ "generated": 1793734235.315466,
+ "generated_et": "2026-11-03 14:30:36 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 1.86021,
-  "buying_power": 0.12021,
-  "in_positions": 1.74
+  "buying_power": 1.86021,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -1169,29 +1169,28 @@
   ]
  ],
  "totals": {
-  "trades": 186,
-  "wins": 146,
-  "win_pct": 78.5,
-  "gross_pnl": 6.1758,
-  "fees": 5.81,
-  "net_pnl": 0.3658
+  "trades": 187,
+  "wins": 147,
+  "win_pct": 78.6,
+  "gross_pnl": 6.6074,
+  "fees": 5.83,
+  "net_pnl": 0.7774
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": -0.122,
-  "trades": 129,
-  "wins": 102,
+  "pnl": 0.2896,
+  "trades": 130,
+  "wins": 103,
   "breakeven_pct": 77,
-  "cap_left": 19.88,
+  "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
   "saltada": 59,
   "error": 2,
-  "gano": 146,
+  "gano": 147,
   "nofill": 43,
-  "perdio": 40,
-  "abierta": 1
+  "perdio": 40
  },
  "equity": [
   [
@@ -2081,48 +2080,53 @@
   ],
   [
    1793730091,
-   2.6325,
+   2.6291,
    "1820z"
   ],
   [
    1793730434,
-   3.3905,
+   3.3871,
    "1825z"
   ],
   [
    1793730991,
-   1.3525,
+   1.3491,
    "1835z"
   ],
   [
    1793731381,
-   1.5907,
+   1.5873,
    "1840z"
   ],
   [
    1793732190,
-   1.8619,
+   1.8585,
    "1855z"
   ],
   [
    1793732489,
-   -0.0591,
+   -0.0625,
    "1900z"
   ],
   [
    1793732807,
-   0.1053,
+   0.1019,
    "1905z"
   ],
   [
    1793733138,
-   0.2284,
+   0.225,
    "1910z"
   ],
   [
    1793733773,
-   0.3658,
+   0.3624,
    "1920z"
+  ],
+  [
+   1793734008,
+   0.7774,
+   "1925z"
   ]
  ],
  "calls": [
@@ -2137,7 +2141,7 @@
    "precio": 0.75,
    "qty": 1.74,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.415,
    "lat": {
     "llamada": 0,
     "envio": 132,
@@ -2145,11 +2149,11 @@
    },
    "order_id": "DGEVPDVG13D6",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.325,
    "pct_bal": 91.7,
-   "pct_gan": null,
+   "pct_gan": 31.3,
    "bal_entrada": 1.4452
   },
   {
@@ -2423,7 +2427,7 @@
    "precio": 0.71,
    "qty": 2.77,
    "fee": 0.03,
-   "pnl": -1.9933,
+   "pnl": -1.9967,
    "lat": {
     "llamada": 0,
     "envio": 131,
@@ -2435,7 +2439,7 @@
    "motivo": "Liquidada",
    "costo": 1.9967,
    "pct_bal": 18.8,
-   "pct_gan": -99.8,
+   "pct_gan": -100.0,
    "bal_entrada": 10.61821
   },
   {
@@ -7224,35 +7228,8 @@
   "envio": 134,
   "bolsa": 192
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1925z",
-   "ronda": "1925z",
-   "hora": "14:26:48",
-   "day": "2026-11-03",
-   "ts": 1793734008.4845862,
-   "side": "down",
-   "prob": 0.761,
-   "precio": 0.75,
-   "qty": 1.74,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 132,
-    "bolsa": 202
-   },
-   "order_id": "DGEVPDVG13D6",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.325,
-   "pct_bal": 91.7,
-   "pct_gan": null,
-   "bal_entrada": 1.4452
-  }
- ],
- "heartbeat": 1793734020.0198987,
+ "open": [],
+ "heartbeat": 1793734220.4393976,
  "running": true,
  "stop_file": false
 }
