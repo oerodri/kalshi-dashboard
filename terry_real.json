@@ -1,6 +1,6 @@
 {
- "generated": 1793679624.9205532,
- "generated_et": "2026-11-02 23:20:25 ET",
+ "generated": 1793679749.3739526,
+ "generated_et": "2026-11-02 23:22:30 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 10.00231,
-  "buying_power": 10.00231,
-  "in_positions": 0
+  "current": 10.89841,
+  "buying_power": 8.36841,
+  "in_positions": 2.53
  },
  "balance_err": null,
  "balance_hist": [
@@ -318,6 +318,10 @@
   [
    1793679500,
    10.00231
+  ],
+  [
+   1793679749,
+   10.89841
   ]
  ],
  "totals": {
@@ -342,7 +346,8 @@
   "error": 2,
   "gano": 39,
   "nofill": 32,
-  "perdio": 13
+  "perdio": 13,
+  "abierta": 1
  },
  "equity": [
   [
@@ -607,6 +612,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0420z",
+   "ronda": "0420z",
+   "hora": "23:21:40",
+   "day": "2026-11-02",
+   "ts": 1793679700.1828382,
+   "side": "down",
+   "prob": 0.7696,
+   "precio": 0.63,
+   "qty": 2.53,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 126,
+    "bolsa": 162
+   },
+   "order_id": "DG1XBH2012VC",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.6339,
+   "pct_bal": 16.3,
+   "pct_gan": null,
+   "bal_entrada": 10.0023
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0415z",
    "ronda": "0415z",
@@ -1087,7 +1118,7 @@
    "costo": 2.0344,
    "pct_bal": 18.1,
    "pct_gan": 36.2,
-   "bal_entrada": 11.2479
+   "bal_entrada": 11.24791
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0240z",
@@ -3674,12 +3705,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1180,
+  "llamada": 1166,
   "envio": 134,
-  "bolsa": 227
+  "bolsa": 226
  },
- "open": [],
- "heartbeat": 1793679616.278612,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0420z",
+   "ronda": "0420z",
+   "hora": "23:21:40",
+   "day": "2026-11-02",
+   "ts": 1793679700.1828382,
+   "side": "down",
+   "prob": 0.7696,
+   "precio": 0.63,
+   "qty": 2.53,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 126,
+    "bolsa": 162
+   },
+   "order_id": "DG1XBH2012VC",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.6339,
+   "pct_bal": 16.3,
+   "pct_gan": null,
+   "bal_entrada": 10.0023
+  }
+ ],
+ "heartbeat": 1793679736.3655634,
  "running": true,
  "stop_file": false
 }
