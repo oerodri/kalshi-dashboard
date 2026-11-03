@@ -1,6 +1,6 @@
 {
- "generated": 1793716865.5743344,
- "generated_et": "2026-11-03 09:41:06 ET",
+ "generated": 1793716929.3771987,
+ "generated_et": "2026-11-03 09:42:10 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -905,7 +905,7 @@
   "saltada": 55,
   "error": 2,
   "gano": 112,
-  "nofill": 38,
+  "nofill": 39,
   "perdio": 30
  },
  "equity": [
@@ -1621,6 +1621,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1440z",
+   "ronda": "1440z",
+   "hora": "09:41:54",
+   "day": "2026-11-03",
+   "ts": 1793716914.7174451,
+   "side": "up",
+   "prob": 0.7026,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 130,
+    "bolsa": 124
+   },
+   "order_id": "DGAS93W013CX",
+   "aviso": null,
+   "out": "nofill",
+   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1435z",
    "ronda": "1435z",
@@ -6626,37 +6652,15 @@
    "pct_bal": 18.8,
    "pct_gan": 20.7,
    "bal_entrada": 10.71071
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2105z",
-   "ronda": "2105z",
-   "hora": "16:07:31",
-   "day": "2026-11-02",
-   "ts": 1793653651.6914017,
-   "side": "up",
-   "prob": 0.9635,
-   "precio": null,
-   "qty": null,
-   "fee": null,
-   "pnl": null,
-   "lat": null,
-   "order_id": null,
-   "aviso": null,
-   "out": "saltada",
-   "motivo": "ask 0.97 > max 0.9",
-   "costo": null,
-   "pct_bal": null,
-   "pct_gan": null,
-   "bal_entrada": null
   }
  ],
  "lat_avg": {
-  "llamada": 680,
+  "llamada": 676,
   "envio": 133,
-  "bolsa": 196
+  "bolsa": 195
  },
  "open": [],
- "heartbeat": 1793716857.1554127,
+ "heartbeat": 1793716918.4186518,
  "running": true,
  "stop_file": false
 }
