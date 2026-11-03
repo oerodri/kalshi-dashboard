@@ -1,6 +1,6 @@
 {
- "generated": 1793684541.7083833,
- "generated_et": "2026-11-03 00:42:22 ET",
+ "generated": 1793684727.123165,
+ "generated_et": "2026-11-03 00:45:28 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 3.61121,
-  "buying_power": 3.61121,
+  "current": 6.14121,
+  "buying_power": 6.14121,
   "in_positions": 0
  },
  "balance_err": null,
@@ -394,32 +394,35 @@
   [
    1793684542,
    3.61121
+  ],
+  [
+   1793684727,
+   6.14121
   ]
  ],
  "totals": {
-  "trades": 64,
-  "wins": 49,
-  "win_pct": 76.6,
-  "gross_pnl": 1.7699,
-  "fees": 2.16,
-  "net_pnl": -0.3901
+  "trades": 65,
+  "wins": 50,
+  "win_pct": 76.9,
+  "gross_pnl": 2.3518,
+  "fees": 2.19,
+  "net_pnl": 0.1618
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": -0.8779,
-  "trades": 7,
-  "wins": 5,
+  "pnl": -0.326,
+  "trades": 8,
+  "wins": 6,
   "breakeven_pct": 77,
-  "cap_left": 19.12,
+  "cap_left": 19.67,
   "cap_hit": false
  },
  "counts": {
   "saltada": 42,
   "error": 2,
-  "gano": 49,
+  "gano": 50,
   "nofill": 32,
-  "perdio": 15,
-  "abierta": 1
+  "perdio": 15
  },
  "equity": [
   [
@@ -741,6 +744,11 @@
    1793684190,
    -0.3901,
    "0535z"
+  ],
+  [
+   1793684490,
+   0.1618,
+   "0540z"
   ]
  ],
  "calls": [
@@ -755,7 +763,7 @@
    "precio": 0.77,
    "qty": 2.53,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.5519,
    "lat": {
     "llamada": 0,
     "envio": 133,
@@ -763,11 +771,11 @@
    },
    "order_id": "DG31WTQGF2WK",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9781,
    "pct_bal": 35.4,
-   "pct_gan": null,
+   "pct_gan": 27.9,
    "bal_entrada": 5.5893
   },
   {
@@ -4241,35 +4249,8 @@
   "envio": 134,
   "bolsa": 225
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0540z",
-   "ronda": "0540z",
-   "hora": "00:41:29",
-   "day": "2026-11-03",
-   "ts": 1793684489.6705098,
-   "side": "up",
-   "prob": 0.7928,
-   "precio": 0.77,
-   "qty": 2.53,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 133,
-    "bolsa": 117
-   },
-   "order_id": "DG31WTQGF2WK",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9781,
-   "pct_bal": 35.4,
-   "pct_gan": null,
-   "bal_entrada": 5.5893
-  }
- ],
- "heartbeat": 1793684526.8272524,
+ "open": [],
+ "heartbeat": 1793684726.9590285,
  "running": true,
  "stop_file": false
 }
