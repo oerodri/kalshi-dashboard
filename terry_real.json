@@ -1,6 +1,6 @@
 {
- "generated": 1793701671.7766995,
- "generated_et": "2026-11-03 05:27:52 ET",
+ "generated": 1793701857.3634355,
+ "generated_et": "2026-11-03 05:30:58 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 16.91101,
+  "current": 14.48101,
   "buying_power": 14.48101,
-  "in_positions": 2.43
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -622,20 +622,24 @@
   [
    1793701672,
    16.91101
+  ],
+  [
+   1793701857,
+   14.48101
   ]
  ],
  "totals": {
-  "trades": 100,
+  "trades": 101,
   "wins": 80,
-  "win_pct": 80.0,
-  "gross_pnl": 9.5245,
-  "fees": 3.22,
-  "net_pnl": 6.3045
+  "win_pct": 79.2,
+  "gross_pnl": 7.6777,
+  "fees": 3.25,
+  "net_pnl": 4.4277
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 5.8167,
-  "trades": 43,
+  "pnl": 3.9399,
+  "trades": 44,
   "wins": 36,
   "breakeven_pct": 77,
   "cap_left": 20.0,
@@ -646,8 +650,7 @@
   "error": 2,
   "gano": 80,
   "nofill": 37,
-  "perdio": 20,
-  "abierta": 1
+  "perdio": 21
  },
  "equity": [
   [
@@ -1149,6 +1152,11 @@
    1793700996,
    6.3045,
    "1015z"
+  ],
+  [
+   1793701612,
+   4.4277,
+   "1025z"
   ]
  ],
  "calls": [
@@ -1163,7 +1171,7 @@
    "precio": 0.76,
    "qty": 2.43,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": -1.8768,
    "lat": {
     "llamada": 0,
     "envio": 118,
@@ -1171,11 +1179,11 @@
    },
    "order_id": "DG74H4V053D3",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 1.8768,
    "pct_bal": 11.5,
-   "pct_gan": null,
+   "pct_gan": -100.0,
    "bal_entrada": 16.3578
   },
   {
@@ -1510,7 +1518,7 @@
    "costo": 1.9716,
    "pct_bal": 11.9,
    "pct_gan": 20.7,
-   "bal_entrada": 16.5633
+   "bal_entrada": 16.56331
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0910z",
@@ -6001,35 +6009,8 @@
   "envio": 133,
   "bolsa": 207
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1025z",
-   "ronda": "1025z",
-   "hora": "05:26:52",
-   "day": "2026-11-03",
-   "ts": 1793701612.2140155,
-   "side": "down",
-   "prob": 0.8023,
-   "precio": 0.76,
-   "qty": 2.43,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 118,
-    "bolsa": 132
-   },
-   "order_id": "DG74H4V053D3",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.8768,
-   "pct_bal": 11.5,
-   "pct_gan": null,
-   "bal_entrada": 16.3578
-  }
- ],
- "heartbeat": 1793701658.350703,
+ "open": [],
+ "heartbeat": 1793701838.4795554,
  "running": true,
  "stop_file": false
 }
