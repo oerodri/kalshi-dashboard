@@ -1,6 +1,6 @@
 {
- "generated": 1793711652.9898243,
- "generated_et": "2026-11-03 08:14:13 ET",
+ "generated": 1793711716.4352174,
+ "generated_et": "2026-11-03 08:15:17 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 15.14801,
-  "buying_power": 15.14801,
+  "current": 17.57801,
+  "buying_power": 17.57801,
   "in_positions": 0
  },
  "balance_err": null,
@@ -798,21 +798,25 @@
   [
    1793711653,
    15.14801
+  ],
+  [
+   1793711716,
+   17.57801
   ]
  ],
  "totals": {
-  "trades": 127,
-  "wins": 102,
-  "win_pct": 80.3,
-  "gross_pnl": 11.1043,
-  "fees": 4.02,
-  "net_pnl": 7.0843
+  "trades": 128,
+  "wins": 103,
+  "win_pct": 80.5,
+  "gross_pnl": 11.5749,
+  "fees": 4.05,
+  "net_pnl": 7.5249
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 6.5965,
-  "trades": 70,
-  "wins": 58,
+  "pnl": 7.0371,
+  "trades": 71,
+  "wins": 59,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -820,10 +824,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 102,
+  "gano": 103,
   "nofill": 38,
-  "perdio": 25,
-  "abierta": 1
+  "perdio": 25
  },
  "equity": [
   [
@@ -1460,6 +1463,11 @@
    1793711206,
    7.0843,
    "1305z"
+  ],
+  [
+   1793711634,
+   7.5249,
+   "1310z"
   ]
  ],
  "calls": [
@@ -1474,7 +1482,7 @@
    "precio": 0.81,
    "qty": 2.43,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.4406,
    "lat": {
     "llamada": 0,
     "envio": 139,
@@ -1482,11 +1490,11 @@
    },
    "order_id": "DG9GZV2013D8",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9983,
    "pct_bal": 11.7,
-   "pct_gan": null,
+   "pct_gan": 22.0,
    "bal_entrada": 17.1374
   },
   {
@@ -6477,35 +6485,8 @@
   "envio": 133,
   "bolsa": 198
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1310z",
-   "ronda": "1310z",
-   "hora": "08:13:53",
-   "day": "2026-11-03",
-   "ts": 1793711633.8555043,
-   "side": "up",
-   "prob": 0.7004,
-   "precio": 0.81,
-   "qty": 2.43,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 139,
-    "bolsa": 114
-   },
-   "order_id": "DG9GZV2013D8",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9983,
-   "pct_bal": 11.7,
-   "pct_gan": null,
-   "bal_entrada": 17.1374
-  }
- ],
- "heartbeat": 1793711634.7905438,
+ "open": [],
+ "heartbeat": 1793711714.8583615,
  "running": true,
  "stop_file": false
 }
