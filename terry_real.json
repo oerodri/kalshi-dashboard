@@ -1,6 +1,6 @@
 {
- "generated": 1793689503.0381799,
- "generated_et": "2026-11-03 02:07:10 ET",
+ "generated": 1793689691.3272471,
+ "generated_et": "2026-11-03 02:09:37 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,7 +9,7 @@
   "max_entry_price": 0.9
  },
  "balance": null,
- "balance_err": "APITimeoutError",
+ "balance_err": "APIConnectionError",
  "balance_hist": [
   [
    1793644189,
@@ -4780,7 +4780,7 @@
    "bal_entrada": 12.64621
   }
  ],
- "heartbeat": 1793689630.4709048,
+ "heartbeat": 1793689775.7621076,
  "running": true,
  "stop_file": false
 }
