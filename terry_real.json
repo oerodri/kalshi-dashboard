@@ -1,6 +1,6 @@
 {
- "generated": 1793664035.5505319,
- "generated_et": "2026-11-02 19:00:36 ET",
+ "generated": 1793664160.0984745,
+ "generated_et": "2026-11-02 19:02:40 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 14.41041,
-  "buying_power": 14.41041,
-  "in_positions": 0
+  "current": 15.20141,
+  "buying_power": 12.43141,
+  "in_positions": 2.77
  },
  "balance_err": null,
  "balance_hist": [
@@ -218,6 +218,10 @@
   [
    1793664036,
    14.41041
+  ],
+  [
+   1793664160,
+   15.20141
   ]
  ],
  "totals": {
@@ -239,7 +243,8 @@
   "error": 2,
   "gano": 27,
   "nofill": 15,
-  "perdio": 7
+  "perdio": 7,
+  "abierta": 1
  },
  "equity": [
   [
@@ -414,6 +419,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0000z",
+   "ronda": "0000z",
+   "hora": "19:01:49",
+   "day": "2026-11-02",
+   "ts": 1793664109.6699195,
+   "side": "down",
+   "prob": 0.6904,
+   "precio": 0.7,
+   "qty": 2.77,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 117,
+    "bolsa": 139
+   },
+   "order_id": "DFY6D7Q012VP",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.979,
+   "pct_bal": 13.7,
+   "pct_gan": null,
+   "bal_entrada": 14.4104
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2355z",
    "ronda": "2355z",
@@ -934,7 +965,7 @@
    "costo": 2.0392,
    "pct_bal": 18.5,
    "pct_gan": 44.2,
-   "bal_entrada": 11.0368
+   "bal_entrada": 11.03681
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2210z",
@@ -2197,12 +2228,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1215,
+  "llamada": 1191,
   "envio": 135,
-  "bolsa": 210
+  "bolsa": 208
  },
- "open": [],
- "heartbeat": 1793664026.7319849,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0000z",
+   "ronda": "0000z",
+   "hora": "19:01:49",
+   "day": "2026-11-02",
+   "ts": 1793664109.6699195,
+   "side": "down",
+   "prob": 0.6904,
+   "precio": 0.7,
+   "qty": 2.77,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 117,
+    "bolsa": 139
+   },
+   "order_id": "DFY6D7Q012VP",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.979,
+   "pct_bal": 13.7,
+   "pct_gan": null,
+   "bal_entrada": 14.4104
+  }
+ ],
+ "heartbeat": 1793664146.7960794,
  "running": true,
  "stop_file": false
 }
