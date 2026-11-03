@@ -1,6 +1,6 @@
 {
- "generated": 1793727817.0360525,
- "generated_et": "2026-11-03 12:43:37 ET",
+ "generated": 1793727947.6368628,
+ "generated_et": "2026-11-03 12:45:48 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 7.67331,
-  "buying_power": 5.29331,
-  "in_positions": 2.38
+  "buying_power": 7.67331,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -1085,18 +1085,18 @@
   ]
  ],
  "totals": {
-  "trades": 171,
-  "wins": 134,
-  "win_pct": 78.4,
-  "gross_pnl": 6.6787,
-  "fees": 5.42,
-  "net_pnl": 1.2587
+  "trades": 172,
+  "wins": 135,
+  "win_pct": 78.5,
+  "gross_pnl": 7.1309,
+  "fees": 5.45,
+  "net_pnl": 1.6809
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 0.7709,
-  "trades": 114,
-  "wins": 90,
+  "pnl": 1.1931,
+  "trades": 115,
+  "wins": 91,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -1104,10 +1104,9 @@
  "counts": {
   "saltada": 59,
   "error": 2,
-  "gano": 134,
+  "gano": 135,
   "nofill": 40,
-  "perdio": 37,
-  "abierta": 1
+  "perdio": 37
  },
  "equity": [
   [
@@ -1964,6 +1963,11 @@
    1793727104,
    1.2587,
    "1730z"
+  ],
+  [
+   1793727756,
+   1.6809,
+   "1740z"
   ]
  ],
  "calls": [
@@ -1978,7 +1982,7 @@
    "precio": 0.81,
    "qty": 2.38,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.4222,
    "lat": {
     "llamada": 0,
     "envio": 135,
@@ -1986,11 +1990,11 @@
    },
    "order_id": "DGDBZZ7G13D3",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9578,
    "pct_bal": 27.0,
-   "pct_gan": null,
+   "pct_gan": 21.6,
    "bal_entrada": 7.2511
   },
   {
@@ -7021,35 +7025,8 @@
   "envio": 133,
   "bolsa": 190
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1740z",
-   "ronda": "1740z",
-   "hora": "12:42:36",
-   "day": "2026-11-03",
-   "ts": 1793727756.1149035,
-   "side": "down",
-   "prob": 0.797,
-   "precio": 0.81,
-   "qty": 2.38,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 135,
-    "bolsa": 289
-   },
-   "order_id": "DGDBZZ7G13D3",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9578,
-   "pct_bal": 27.0,
-   "pct_gan": null,
-   "bal_entrada": 7.2511
-  }
- ],
- "heartbeat": 1793727814.840538,
+ "open": [],
+ "heartbeat": 1793727934.9374928,
  "running": true,
  "stop_file": false
 }
