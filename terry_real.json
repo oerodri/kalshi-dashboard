@@ -1,6 +1,6 @@
 {
- "generated": 1793738545.8080244,
- "generated_et": "2026-11-03 15:42:26 ET",
+ "generated": 1793738746.0728507,
+ "generated_et": "2026-11-03 15:45:46 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 0.61571,
-  "buying_power": 0.04571,
-  "in_positions": 0.57
+  "buying_power": 0.61571,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -1217,29 +1217,28 @@
   ]
  ],
  "totals": {
-  "trades": 195,
-  "wins": 153,
-  "win_pct": 78.5,
-  "gross_pnl": 5.3872,
-  "fees": 6.0,
-  "net_pnl": -0.6128
+  "trades": 196,
+  "wins": 154,
+  "win_pct": 78.6,
+  "gross_pnl": 5.5411,
+  "fees": 6.01,
+  "net_pnl": -0.4689
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": -1.1006,
-  "trades": 138,
-  "wins": 109,
+  "pnl": -0.9567,
+  "trades": 139,
+  "wins": 110,
   "breakeven_pct": 77,
-  "cap_left": 18.9,
+  "cap_left": 19.04,
   "cap_hit": false
  },
  "counts": {
   "saltada": 61,
   "error": 2,
-  "gano": 153,
+  "gano": 154,
   "nofill": 47,
-  "perdio": 42,
-  "abierta": 1
+  "perdio": 42
  },
  "equity": [
   [
@@ -2216,6 +2215,11 @@
    1793738222,
    -0.6128,
    "2035z"
+  ],
+  [
+   1793738529,
+   -0.4689,
+   "2040z"
   ]
  ],
  "calls": [
@@ -2230,7 +2234,7 @@
    "precio": 0.73,
    "qty": 0.57,
    "fee": 0.01,
-   "pnl": null,
+   "pnl": 0.1439,
    "lat": {
     "llamada": 0,
     "envio": 130,
@@ -2238,11 +2242,11 @@
    },
    "order_id": "DGFY633013D7",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 0.4261,
    "pct_bal": 90.3,
-   "pct_gan": null,
+   "pct_gan": 33.8,
    "bal_entrada": 0.4718
   },
   {
@@ -7321,35 +7325,8 @@
   "envio": 134,
   "bolsa": 191
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-2040z",
-   "ronda": "2040z",
-   "hora": "15:42:09",
-   "day": "2026-11-03",
-   "ts": 1793738529.152234,
-   "side": "down",
-   "prob": 0.7331,
-   "precio": 0.73,
-   "qty": 0.57,
-   "fee": 0.01,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 130,
-    "bolsa": 128
-   },
-   "order_id": "DGFY633013D7",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 0.4261,
-   "pct_bal": 90.3,
-   "pct_gan": null,
-   "bal_entrada": 0.4718
-  }
- ],
- "heartbeat": 1793738531.0970325,
+ "open": [],
+ "heartbeat": 1793738731.9944775,
  "running": true,
  "stop_file": false
 }
