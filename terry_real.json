@@ -1,6 +1,6 @@
 {
- "generated": 1793728677.332137,
- "generated_et": "2026-11-03 12:57:58 ET",
+ "generated": 1793728873.2181683,
+ "generated_et": "2026-11-03 13:01:14 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 9.48701,
-  "buying_power": 6.95701,
-  "in_positions": 2.53
+  "buying_power": 9.48701,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -1101,18 +1101,18 @@
   ]
  ],
  "totals": {
-  "trades": 174,
-  "wins": 137,
-  "win_pct": 78.7,
-  "gross_pnl": 8.4021,
-  "fees": 5.51,
-  "net_pnl": 2.8921
+  "trades": 175,
+  "wins": 138,
+  "win_pct": 78.9,
+  "gross_pnl": 9.0346,
+  "fees": 5.54,
+  "net_pnl": 3.4946
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 2.4043,
-  "trades": 117,
-  "wins": 93,
+  "pnl": 3.0068,
+  "trades": 118,
+  "wins": 94,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -1120,10 +1120,9 @@
  "counts": {
   "saltada": 59,
   "error": 2,
-  "gano": 137,
+  "gano": 138,
   "nofill": 40,
-  "perdio": 37,
-  "abierta": 1
+  "perdio": 37
  },
  "equity": [
   [
@@ -1995,6 +1994,11 @@
    1793728369,
    2.8921,
    "1750z"
+  ],
+  [
+   1793728650,
+   3.4946,
+   "1755z"
   ]
  ],
  "calls": [
@@ -2009,7 +2013,7 @@
    "precio": 0.75,
    "qty": 2.53,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.6025,
    "lat": {
     "llamada": 0,
     "envio": 148,
@@ -2017,11 +2021,11 @@
    },
    "order_id": "DGDJT2MG13D1",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9275,
    "pct_bal": 21.7,
-   "pct_gan": null,
+   "pct_gan": 31.3,
    "bal_entrada": 8.8845
   },
   {
@@ -7064,35 +7068,8 @@
   "envio": 134,
   "bolsa": 189
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1755z",
-   "ronda": "1755z",
-   "hora": "12:57:29",
-   "day": "2026-11-03",
-   "ts": 1793728649.5185878,
-   "side": "down",
-   "prob": 0.7439,
-   "precio": 0.75,
-   "qty": 2.53,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 148,
-    "bolsa": 159
-   },
-   "order_id": "DGDJT2MG13D1",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9275,
-   "pct_bal": 21.7,
-   "pct_gan": null,
-   "bal_entrada": 8.8845
-  }
- ],
- "heartbeat": 1793728677.290544,
+ "open": [],
+ "heartbeat": 1793728857.6658719,
  "running": true,
  "stop_file": false
 }
