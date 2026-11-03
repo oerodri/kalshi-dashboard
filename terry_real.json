@@ -1,6 +1,6 @@
 {
- "generated": 1793682164.7006464,
- "generated_et": "2026-11-03 00:02:45 ET",
+ "generated": 1793682350.7732568,
+ "generated_et": "2026-11-03 00:05:51 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 14.92221,
-  "buying_power": 0.60221,
-  "in_positions": 14.32
+  "buying_power": 14.92221,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -349,18 +349,18 @@
   ]
  ],
  "totals": {
-  "trades": 57,
-  "wins": 44,
-  "win_pct": 77.2,
-  "gross_pnl": 2.4378,
-  "fees": 1.95,
-  "net_pnl": 0.4878
+  "trades": 58,
+  "wins": 45,
+  "win_pct": 77.6,
+  "gross_pnl": 4.9792,
+  "fees": 1.99,
+  "net_pnl": 2.9892
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 0,
-  "trades": 0,
-  "wins": 0,
+  "pnl": 2.5014,
+  "trades": 1,
+  "wins": 1,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -368,10 +368,9 @@
  "counts": {
   "saltada": 41,
   "error": 2,
-  "gano": 44,
+  "gano": 45,
   "nofill": 32,
-  "perdio": 13,
-  "abierta": 1
+  "perdio": 13
  },
  "equity": [
   [
@@ -658,6 +657,11 @@
    1793681799,
    0.4878,
    "0455z"
+  ],
+  [
+   1793682108,
+   2.9892,
+   "0500z"
   ]
  ],
  "calls": [
@@ -672,7 +676,7 @@
    "precio": 0.71,
    "qty": 2.81,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 2.5014,
    "lat": {
     "llamada": 0,
     "envio": 150,
@@ -680,11 +684,11 @@
    },
    "order_id": "DG2FQAQ012WQ",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.0351,
    "pct_bal": 16.3,
-   "pct_gan": null,
+   "pct_gan": 122.9,
    "bal_entrada": 12.5208
   },
   {
@@ -1085,7 +1089,7 @@
    "costo": 1.9983,
    "pct_bal": 15.7,
    "pct_gan": 21.6,
-   "bal_entrada": 12.7223
+   "bal_entrada": 12.72231
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0335z",
@@ -3954,35 +3958,8 @@
   "envio": 134,
   "bolsa": 232
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0500z",
-   "ronda": "0500z",
-   "hora": "00:01:47",
-   "day": "2026-11-03",
-   "ts": 1793682107.8078465,
-   "side": "down",
-   "prob": 0.7871,
-   "precio": 0.71,
-   "qty": 2.81,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 150,
-    "bolsa": 162
-   },
-   "order_id": "DG2FQAQ012WQ",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0351,
-   "pct_bal": 16.3,
-   "pct_gan": null,
-   "bal_entrada": 12.5208
-  }
- ],
- "heartbeat": 1793682163.7340603,
+ "open": [],
+ "heartbeat": 1793682343.855802,
  "running": true,
  "stop_file": false
 }
