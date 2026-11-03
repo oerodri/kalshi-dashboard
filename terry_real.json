@@ -1,6 +1,6 @@
 {
- "generated": 1793670209.034016,
- "generated_et": "2026-11-02 20:43:29 ET",
+ "generated": 1793670394.5977485,
+ "generated_et": "2026-11-02 20:46:35 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 11.19661,
-  "buying_power": 11.19661,
+  "current": 9.16791,
+  "buying_power": 9.16791,
   "in_positions": 0
  },
  "balance_err": null,
@@ -234,6 +234,10 @@
   [
    1793667617,
    11.19661
+  ],
+  [
+   1793670395,
+   9.16791
   ]
  ],
  "totals": {
@@ -255,7 +259,8 @@
   "error": 2,
   "gano": 28,
   "nofill": 22,
-  "perdio": 9
+  "perdio": 9,
+  "abierta": 1
  },
  "equity": [
   [
@@ -445,6 +450,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0145z",
+   "ronda": "0145z",
+   "hora": "20:46:31",
+   "day": "2026-11-02",
+   "ts": 1793670391.6523385,
+   "side": "up",
+   "prob": 0.7862,
+   "precio": 0.79,
+   "qty": 2.53,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 1660,
+    "envio": 95,
+    "bolsa": 118
+   },
+   "order_id": "DFZPAXEGB2TT",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0287,
+   "pct_bal": 18.1,
+   "pct_gan": null,
+   "bal_entrada": 11.1966
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0140z",
    "ronda": "0140z",
@@ -1252,7 +1283,7 @@
    "side": "down",
    "prob": 0.6723,
    "precio": 0.64,
-   "qty": 3.03,
+   "qty": 3.02,
    "fee": 0.05,
    "pnl": -1.9891,
    "lat": {
@@ -1264,10 +1295,10 @@
    "aviso": null,
    "out": "perdio",
    "motivo": "Liquidada",
-   "costo": 1.9892,
+   "costo": 1.9828,
    "pct_bal": 15.3,
-   "pct_gan": -100.0,
-   "bal_entrada": 12.9902
+   "pct_gan": -100.3,
+   "bal_entrada": 12.9839
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2250z",
@@ -2730,12 +2761,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1502,
+  "llamada": 1505,
   "envio": 134,
-  "bolsa": 222
+  "bolsa": 221
  },
- "open": [],
- "heartbeat": 1793670198.7697968,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0145z",
+   "ronda": "0145z",
+   "hora": "20:46:31",
+   "day": "2026-11-02",
+   "ts": 1793670391.6523385,
+   "side": "up",
+   "prob": 0.7862,
+   "precio": 0.79,
+   "qty": 2.53,
+   "fee": 0.03,
+   "pnl": null,
+   "lat": {
+    "llamada": 1660,
+    "envio": 95,
+    "bolsa": 118
+   },
+   "order_id": "DFZPAXEGB2TT",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0287,
+   "pct_bal": 18.1,
+   "pct_gan": null,
+   "bal_entrada": 11.1966
+  }
+ ],
+ "heartbeat": 1793670393.0709012,
  "running": true,
  "stop_file": false
 }
