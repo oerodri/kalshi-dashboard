@@ -1,6 +1,6 @@
 {
- "generated": 1793716618.9440422,
- "generated_et": "2026-11-03 09:36:59 ET",
+ "generated": 1793716865.5743344,
+ "generated_et": "2026-11-03 09:41:06 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 9.62321,
-  "buying_power": 9.62321,
+  "current": 11.91321,
+  "buying_power": 11.91321,
   "in_positions": 0
  },
  "balance_err": null,
@@ -878,21 +878,25 @@
   [
    1793716619,
    9.62321
+  ],
+  [
+   1793716866,
+   11.91321
   ]
  ],
  "totals": {
-  "trades": 141,
-  "wins": 111,
-  "win_pct": 78.7,
-  "gross_pnl": 5.9456,
-  "fees": 4.45,
-  "net_pnl": 1.4956
+  "trades": 142,
+  "wins": 112,
+  "win_pct": 78.9,
+  "gross_pnl": 6.312,
+  "fees": 4.47,
+  "net_pnl": 1.842
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 1.0078,
-  "trades": 84,
-  "wins": 67,
+  "pnl": 1.3542,
+  "trades": 85,
+  "wins": 68,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -900,10 +904,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 111,
+  "gano": 112,
   "nofill": 38,
-  "perdio": 30,
-  "abierta": 1
+  "perdio": 30
  },
  "equity": [
   [
@@ -1610,6 +1613,11 @@
    1793716305,
    1.4956,
    "1430z"
+  ],
+  [
+   1793716590,
+   1.842,
+   "1435z"
   ]
  ],
  "calls": [
@@ -1624,7 +1632,7 @@
    "precio": 0.84,
    "qty": 2.29,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.3464,
    "lat": {
     "llamada": 0,
     "envio": 131,
@@ -1632,11 +1640,11 @@
    },
    "order_id": "DGAPSREG13CT",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9436,
    "pct_bal": 16.8,
-   "pct_gan": null,
+   "pct_gan": 17.8,
    "bal_entrada": 11.5668
   },
   {
@@ -6647,35 +6655,8 @@
   "envio": 133,
   "bolsa": 196
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1435z",
-   "ronda": "1435z",
-   "hora": "09:36:29",
-   "day": "2026-11-03",
-   "ts": 1793716589.6127908,
-   "side": "up",
-   "prob": 0.8736,
-   "precio": 0.84,
-   "qty": 2.29,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 131,
-    "bolsa": 183
-   },
-   "order_id": "DGAPSREG13CT",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9436,
-   "pct_bal": 16.8,
-   "pct_gan": null,
-   "bal_entrada": 11.5668
-  }
- ],
- "heartbeat": 1793716616.736395,
+ "open": [],
+ "heartbeat": 1793716857.1554127,
  "running": true,
  "stop_file": false
 }
