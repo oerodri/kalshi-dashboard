@@ -1,6 +1,6 @@
 {
- "generated": 1793715369.2436419,
- "generated_et": "2026-11-03 09:16:10 ET",
+ "generated": 1793715432.8816686,
+ "generated_et": "2026-11-03 09:17:13 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 9.86391,
-  "buying_power": 9.86391,
-  "in_positions": 0
+  "current": 10.08811,
+  "buying_power": 7.86811,
+  "in_positions": 2.22
  },
  "balance_err": null,
  "balance_hist": [
@@ -850,6 +850,10 @@
   [
    1793715369,
    9.86391
+  ],
+  [
+   1793715433,
+   10.08811
   ]
  ],
  "totals": {
@@ -874,7 +878,8 @@
   "error": 2,
   "gano": 107,
   "nofill": 38,
-  "perdio": 30
+  "perdio": 30,
+  "abierta": 1
  },
  "equity": [
   [
@@ -1565,6 +1570,32 @@
  ],
  "calls": [
   {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1415z",
+   "ronda": "1415z",
+   "hora": "09:16:35",
+   "day": "2026-11-03",
+   "ts": 1793715395.1880813,
+   "side": "down",
+   "prob": 0.8805,
+   "precio": 0.89,
+   "qty": 2.22,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 2382,
+    "envio": 119,
+    "bolsa": 179
+   },
+   "order_id": "DGADP4W013D9",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9958,
+   "pct_bal": 20.2,
+   "pct_gan": null,
+   "bal_entrada": 9.8639
+  },
+  {
    "slug": "cpc-btc-updown-5m-2026-11-03-1410z",
    "ronda": "1410z",
    "hora": "09:11:55",
@@ -1807,7 +1838,7 @@
    "side": "up",
    "prob": 0.7004,
    "precio": 0.81,
-   "qty": 1.54,
+   "qty": 2.43,
    "fee": 0.03,
    "pnl": 0.4406,
    "lat": {
@@ -1819,10 +1850,10 @@
    "aviso": null,
    "out": "gano",
    "motivo": "Liquidada",
-   "costo": 1.2774,
-   "pct_bal": 7.8,
-   "pct_gan": 34.5,
-   "bal_entrada": 16.4154
+   "costo": 1.9983,
+   "pct_bal": 11.7,
+   "pct_gan": 22.0,
+   "bal_entrada": 17.13741
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1305z",
@@ -6557,41 +6588,42 @@
    "pct_bal": 15.7,
    "pct_gan": 13.8,
    "bal_entrada": 12.53951
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2040z",
-   "ronda": "2040z",
-   "hora": "15:41:42",
-   "day": "2026-11-02",
-   "ts": 1793652102.319929,
-   "side": "down",
-   "prob": 0.8029,
-   "precio": 0.81,
-   "qty": 2.46,
-   "fee": 0.03,
-   "pnl": -2.0226,
-   "lat": {
-    "llamada": 7998,
-    "envio": 124,
-    "bolsa": 128
-   },
-   "order_id": "DFVASR1G12W4",
-   "aviso": null,
-   "out": "perdio",
-   "motivo": "Liquidada",
-   "costo": 2.0226,
-   "pct_bal": 13.9,
-   "pct_gan": -100.0,
-   "bal_entrada": 14.56211
   }
  ],
  "lat_avg": {
-  "llamada": 685,
+  "llamada": 694,
   "envio": 133,
   "bolsa": 197
  },
- "open": [],
- "heartbeat": 1793715360.2286117,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1415z",
+   "ronda": "1415z",
+   "hora": "09:16:35",
+   "day": "2026-11-03",
+   "ts": 1793715395.1880813,
+   "side": "down",
+   "prob": 0.8805,
+   "precio": 0.89,
+   "qty": 2.22,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 2382,
+    "envio": 119,
+    "bolsa": 179
+   },
+   "order_id": "DGADP4W013D9",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9958,
+   "pct_bal": 20.2,
+   "pct_gan": null,
+   "bal_entrada": 9.8639
+  }
+ ],
+ "heartbeat": 1793715414.6473036,
  "running": true,
  "stop_file": false
 }
