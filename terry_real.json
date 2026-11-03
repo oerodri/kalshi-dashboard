@@ -1,6 +1,6 @@
 {
- "generated": 1793702602.3662703,
- "generated_et": "2026-11-03 05:43:23 ET",
+ "generated": 1793702726.9532714,
+ "generated_et": "2026-11-03 05:45:28 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 13.46481,
-  "buying_power": 13.46481,
+  "current": 15.99481,
+  "buying_power": 15.99481,
   "in_positions": 0
  },
  "balance_err": null,
@@ -642,21 +642,25 @@
   [
    1793702602,
    13.46481
+  ],
+  [
+   1793702727,
+   15.99481
   ]
  ],
  "totals": {
-  "trades": 103,
-  "wins": 82,
-  "win_pct": 79.6,
-  "gross_pnl": 8.7251,
-  "fees": 3.31,
-  "net_pnl": 5.4151
+  "trades": 104,
+  "wins": 83,
+  "win_pct": 79.8,
+  "gross_pnl": 9.2817,
+  "fees": 3.34,
+  "net_pnl": 5.9417
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 4.9273,
-  "trades": 46,
-  "wins": 38,
+  "pnl": 5.4539,
+  "trades": 47,
+  "wins": 39,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -664,10 +668,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 82,
+  "gano": 83,
   "nofill": 37,
-  "perdio": 21,
-  "abierta": 1
+  "perdio": 21
  },
  "equity": [
   [
@@ -1184,6 +1187,11 @@
    1793702254,
    5.4151,
    "1035z"
+  ],
+  [
+   1793702556,
+   5.9417,
+   "1040z"
   ]
  ],
  "calls": [
@@ -1198,7 +1206,7 @@
    "precio": 0.78,
    "qty": 2.53,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.5266,
    "lat": {
     "llamada": 0,
     "envio": 133,
@@ -1206,11 +1214,11 @@
    },
    "order_id": "DG7BQF2013D1",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.0034,
    "pct_bal": 13.0,
-   "pct_gan": null,
+   "pct_gan": 26.3,
    "bal_entrada": 15.4682
   },
   {
@@ -1497,7 +1505,7 @@
    "costo": 1.9725,
    "pct_bal": 11.0,
    "pct_gan": -100.0,
-   "bal_entrada": 17.9167
+   "bal_entrada": 17.91671
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0935z",
@@ -6114,35 +6122,8 @@
   "envio": 133,
   "bolsa": 206
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1040z",
-   "ronda": "1040z",
-   "hora": "05:42:35",
-   "day": "2026-11-03",
-   "ts": 1793702555.580402,
-   "side": "up",
-   "prob": 0.7141,
-   "precio": 0.78,
-   "qty": 2.53,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 133,
-    "bolsa": 155
-   },
-   "order_id": "DG7BQF2013D1",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.0034,
-   "pct_bal": 13.0,
-   "pct_gan": null,
-   "bal_entrada": 15.4682
-  }
- ],
- "heartbeat": 1793702599.9144754,
+ "open": [],
+ "heartbeat": 1793702720.0157259,
  "running": true,
  "stop_file": false
 }
