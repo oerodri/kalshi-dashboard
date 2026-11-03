@@ -1,6 +1,6 @@
 {
- "generated": 1793739747.4620657,
- "generated_et": "2026-11-03 16:02:28 ET",
+ "generated": 1793739933.9404824,
+ "generated_et": "2026-11-03 16:05:34 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 1.89771,
-  "buying_power": 0.17771,
-  "in_positions": 1.72
+  "buying_power": 1.89771,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -1245,29 +1245,28 @@
   ]
  ],
  "totals": {
-  "trades": 199,
-  "wins": 157,
-  "win_pct": 78.9,
-  "gross_pnl": 6.4015,
-  "fees": 6.05,
-  "net_pnl": 0.3515
+  "trades": 200,
+  "wins": 158,
+  "win_pct": 79.0,
+  "gross_pnl": 6.8831,
+  "fees": 6.07,
+  "net_pnl": 0.8131
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": -0.1363,
-  "trades": 142,
-  "wins": 113,
+  "pnl": 0.3253,
+  "trades": 143,
+  "wins": 114,
   "breakeven_pct": 77,
-  "cap_left": 19.86,
+  "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
   "saltada": 61,
   "error": 2,
-  "gano": 157,
+  "gano": 158,
   "nofill": 47,
-  "perdio": 42,
-  "abierta": 1
+  "perdio": 42
  },
  "equity": [
   [
@@ -2264,6 +2263,11 @@
    1793739409,
    0.3515,
    "2055z"
+  ],
+  [
+   1793739704,
+   0.8131,
+   "2100z"
   ]
  ],
  "calls": [
@@ -2278,7 +2282,7 @@
    "precio": 0.72,
    "qty": 1.72,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.4616,
    "lat": {
     "llamada": 0,
     "envio": 145,
@@ -2286,11 +2290,11 @@
    },
    "order_id": "DGG74Z3G13D1",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.2584,
    "pct_bal": 87.6,
-   "pct_gan": null,
+   "pct_gan": 36.7,
    "bal_entrada": 1.4361
   },
   {
@@ -7373,35 +7377,8 @@
   "envio": 134,
   "bolsa": 191
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-2100z",
-   "ronda": "2100z",
-   "hora": "16:01:44",
-   "day": "2026-11-03",
-   "ts": 1793739704.1430423,
-   "side": "down",
-   "prob": 0.7233,
-   "precio": 0.72,
-   "qty": 1.72,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 145,
-    "bolsa": 163
-   },
-   "order_id": "DGG74Z3G13D1",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.2584,
-   "pct_bal": 87.6,
-   "pct_gan": null,
-   "bal_entrada": 1.4361
-  }
- ],
- "heartbeat": 1793739734.77666,
+ "open": [],
+ "heartbeat": 1793739915.1844277,
  "running": true,
  "stop_file": false
 }
