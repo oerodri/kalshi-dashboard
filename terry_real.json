@@ -1,6 +1,6 @@
 {
- "generated": 1793719112.8995187,
- "generated_et": "2026-11-03 10:18:33 ET",
+ "generated": 1793719237.7354593,
+ "generated_et": "2026-11-03 10:20:38 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 14.05221,
-  "buying_power": 11.35221,
-  "in_positions": 2.7
+  "buying_power": 14.05221,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -925,18 +925,18 @@
   ]
  ],
  "totals": {
-  "trades": 148,
-  "wins": 117,
-  "win_pct": 79.1,
-  "gross_pnl": 7.972,
-  "fees": 4.68,
-  "net_pnl": 3.292
+  "trades": 149,
+  "wins": 118,
+  "win_pct": 79.2,
+  "gross_pnl": 8.701,
+  "fees": 4.72,
+  "net_pnl": 3.981
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 2.8042,
-  "trades": 91,
-  "wins": 73,
+  "pnl": 3.4932,
+  "trades": 92,
+  "wins": 74,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -944,10 +944,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 117,
+  "gano": 118,
   "nofill": 39,
-  "perdio": 31,
-  "abierta": 1
+  "perdio": 31
  },
  "equity": [
   [
@@ -1689,6 +1688,11 @@
    1793718690,
    3.292,
    "1510z"
+  ],
+  [
+   1793719071,
+   3.981,
+   "1515z"
   ]
  ],
  "calls": [
@@ -1703,7 +1707,7 @@
    "precio": 0.73,
    "qty": 2.7,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.689,
    "lat": {
     "llamada": 0,
     "envio": 128,
@@ -1711,11 +1715,11 @@
    },
    "order_id": "DGB9QNBG13CZ",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 2.011,
    "pct_bal": 15.0,
-   "pct_gan": null,
+   "pct_gan": 34.3,
    "bal_entrada": 13.3632
   },
   {
@@ -1976,7 +1980,7 @@
    "costo": 1.9756,
    "pct_bal": 18.4,
    "pct_gan": 29.6,
-   "bal_entrada": 10.7582
+   "bal_entrada": 10.75821
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1420z",
@@ -6738,35 +6742,8 @@
   "envio": 133,
   "bolsa": 194
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1515z",
-   "ronda": "1515z",
-   "hora": "10:17:51",
-   "day": "2026-11-03",
-   "ts": 1793719071.4564526,
-   "side": "down",
-   "prob": 0.7013,
-   "precio": 0.73,
-   "qty": 2.7,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 128,
-    "bolsa": 116
-   },
-   "order_id": "DGB9QNBG13CZ",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 2.011,
-   "pct_bal": 15.0,
-   "pct_gan": null,
-   "bal_entrada": 13.3632
-  }
- ],
- "heartbeat": 1793719103.99716,
+ "open": [],
+ "heartbeat": 1793719224.0881824,
  "running": true,
  "stop_file": false
 }
