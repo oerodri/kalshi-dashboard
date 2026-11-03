@@ -1,6 +1,6 @@
 {
- "generated": 1793723245.7321477,
- "generated_et": "2026-11-03 11:27:26 ET",
+ "generated": 1793723433.2024336,
+ "generated_et": "2026-11-03 11:30:34 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 6.78821,
-  "buying_power": 6.78821,
+  "current": 9.44821,
+  "buying_power": 9.44821,
   "in_positions": 0
  },
  "balance_err": null,
@@ -1026,21 +1026,25 @@
   [
    1793723246,
    6.78821
+  ],
+  [
+   1793723433,
+   9.44821
   ]
  ],
  "totals": {
-  "trades": 162,
-  "wins": 127,
-  "win_pct": 78.4,
-  "gross_pnl": 6.1616,
-  "fees": 5.12,
-  "net_pnl": 1.0416
+  "trades": 163,
+  "wins": 128,
+  "win_pct": 78.5,
+  "gross_pnl": 6.8798,
+  "fees": 5.16,
+  "net_pnl": 1.7198
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 0.5538,
-  "trades": 105,
-  "wins": 83,
+  "pnl": 1.232,
+  "trades": 106,
+  "wins": 84,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -1048,10 +1052,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 127,
+  "gano": 128,
   "nofill": 39,
-  "perdio": 35,
-  "abierta": 1
+  "perdio": 35
  },
  "equity": [
   [
@@ -1863,6 +1866,11 @@
    1793722890,
    1.0416,
    "1620z"
+  ],
+  [
+   1793723224,
+   1.7198,
+   "1625z"
   ]
  ],
  "calls": [
@@ -1877,7 +1885,7 @@
    "precio": 0.73,
    "qty": 2.66,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.6782,
    "lat": {
     "llamada": 173,
     "envio": 157,
@@ -1885,11 +1893,11 @@
    },
    "order_id": "DGC9DEZ013D5",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9818,
    "pct_bal": 22.6,
-   "pct_gan": null,
+   "pct_gan": 34.2,
    "bal_entrada": 8.77
   },
   {
@@ -6920,35 +6928,8 @@
   "envio": 133,
   "bolsa": 191
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1625z",
-   "ronda": "1625z",
-   "hora": "11:27:03",
-   "day": "2026-11-03",
-   "ts": 1793723223.9298534,
-   "side": "up",
-   "prob": 0.7444,
-   "precio": 0.73,
-   "qty": 2.66,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 173,
-    "envio": 157,
-    "bolsa": 135
-   },
-   "order_id": "DGC9DEZ013D5",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9818,
-   "pct_bal": 22.6,
-   "pct_gan": null,
-   "bal_entrada": 8.77
-  }
- ],
- "heartbeat": 1793723243.943839,
+ "open": [],
+ "heartbeat": 1793723424.1130009,
  "running": true,
  "stop_file": false
 }
