@@ -1,6 +1,6 @@
 {
- "generated": 1793685786.1216536,
- "generated_et": "2026-11-03 01:03:06 ET",
+ "generated": 1793685971.7936287,
+ "generated_et": "2026-11-03 01:06:12 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 7.75641,
-  "buying_power": 5.53641,
-  "in_positions": 2.22
+  "buying_power": 7.75641,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -421,29 +421,28 @@
   ]
  ],
  "totals": {
-  "trades": 68,
-  "wins": 52,
-  "win_pct": 76.5,
-  "gross_pnl": 1.5791,
-  "fees": 2.27,
-  "net_pnl": -0.6909
+  "trades": 69,
+  "wins": 53,
+  "win_pct": 76.8,
+  "gross_pnl": 1.9787,
+  "fees": 2.29,
+  "net_pnl": -0.3113
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": -1.1787,
-  "trades": 11,
-  "wins": 8,
+  "pnl": -0.7991,
+  "trades": 12,
+  "wins": 9,
   "breakeven_pct": 77,
-  "cap_left": 18.82,
+  "cap_left": 19.2,
   "cap_hit": false
  },
  "counts": {
   "saltada": 42,
   "error": 2,
-  "gano": 52,
+  "gano": 53,
   "nofill": 32,
-  "perdio": 16,
-  "abierta": 1
+  "perdio": 16
  },
  "equity": [
   [
@@ -785,6 +784,11 @@
    1793685406,
    -0.6909,
    "0555z"
+  ],
+  [
+   1793685734,
+   -0.3113,
+   "0600z"
   ]
  ],
  "calls": [
@@ -799,7 +803,7 @@
    "precio": 0.82,
    "qty": 2.22,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": 0.3796,
    "lat": {
     "llamada": 0,
     "envio": 129,
@@ -807,11 +811,11 @@
    },
    "order_id": "DG3BCJG012VX",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.8404,
    "pct_bal": 24.9,
-   "pct_gan": null,
+   "pct_gan": 20.6,
    "bal_entrada": 7.3768
   },
   {
@@ -1046,7 +1050,7 @@
    "costo": 1.9716,
    "pct_bal": 26.8,
    "pct_gan": -100.0,
-   "bal_entrada": 7.3699
+   "bal_entrada": 7.36991
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0510z",
@@ -4389,35 +4393,8 @@
   "envio": 134,
   "bolsa": 223
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0600z",
-   "ronda": "0600z",
-   "hora": "01:02:13",
-   "day": "2026-11-03",
-   "ts": 1793685733.7383308,
-   "side": "down",
-   "prob": 0.8424,
-   "precio": 0.82,
-   "qty": 2.22,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 129,
-    "bolsa": 183
-   },
-   "order_id": "DG3BCJG012VX",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.8404,
-   "pct_bal": 24.9,
-   "pct_gan": null,
-   "bal_entrada": 7.3768
-  }
- ],
- "heartbeat": 1793685769.7963576,
+ "open": [],
+ "heartbeat": 1793685969.9168463,
  "running": true,
  "stop_file": false
 }
