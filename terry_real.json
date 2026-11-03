@@ -1,6 +1,6 @@
 {
- "generated": 1793698266.7658777,
- "generated_et": "2026-11-03 04:31:07 ET",
+ "generated": 1793698391.5282774,
+ "generated_et": "2026-11-03 04:33:12 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 17.58171,
-  "buying_power": 17.58171,
+  "current": 15.69671,
+  "buying_power": 15.69671,
   "in_positions": 0
  },
  "balance_err": null,
@@ -570,6 +570,10 @@
   [
    1793698267,
    17.58171
+  ],
+  [
+   1793698392,
+   15.69671
   ]
  ],
  "totals": {
@@ -594,7 +598,8 @@
   "error": 2,
   "gano": 75,
   "nofill": 35,
-  "perdio": 18
+  "perdio": 18,
+  "abierta": 1
  },
  "equity": [
   [
@@ -1065,6 +1070,32 @@
  ],
  "calls": [
   {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0930z",
+   "ronda": "0930z",
+   "hora": "04:32:48",
+   "day": "2026-11-03",
+   "ts": 1793698368.8298404,
+   "side": "up",
+   "prob": 0.8582,
+   "precio": 0.84,
+   "qty": 2.22,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 145,
+    "bolsa": 131
+   },
+   "order_id": "DG6BSA2013CT",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.8848,
+   "pct_bal": 10.7,
+   "pct_gan": null,
+   "bal_entrada": 17.5817
+  },
+  {
    "slug": "cpc-btc-updown-5m-2026-11-03-0925z",
    "ronda": "0925z",
    "hora": "04:26:52",
@@ -1466,7 +1497,7 @@
    "costo": 2.0287,
    "pct_bal": 17.5,
    "pct_gan": 24.7,
-   "bal_entrada": 11.5618
+   "bal_entrada": 11.56181
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0800z",
@@ -5627,12 +5658,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 931,
+  "llamada": 923,
   "envio": 133,
-  "bolsa": 211
+  "bolsa": 210
  },
- "open": [],
- "heartbeat": 1793698247.9129574,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0930z",
+   "ronda": "0930z",
+   "hora": "04:32:48",
+   "day": "2026-11-03",
+   "ts": 1793698368.8298404,
+   "side": "up",
+   "prob": 0.8582,
+   "precio": 0.84,
+   "qty": 2.22,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 145,
+    "bolsa": 131
+   },
+   "order_id": "DG6BSA2013CT",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.8848,
+   "pct_bal": 10.7,
+   "pct_gan": null,
+   "bal_entrada": 17.5817
+  }
+ ],
+ "heartbeat": 1793698388.7984667,
  "running": true,
  "stop_file": false
 }
