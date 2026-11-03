@@ -1,6 +1,6 @@
 {
- "generated": 1793714498.6411796,
- "generated_et": "2026-11-03 09:01:39 ET",
+ "generated": 1793714745.844154,
+ "generated_et": "2026-11-03 09:05:46 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 13.87241,
-  "buying_power": 11.10241,
-  "in_positions": 2.77
+  "buying_power": 13.87241,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -837,18 +837,18 @@
   ]
  ],
  "totals": {
-  "trades": 134,
-  "wins": 106,
-  "win_pct": 79.1,
-  "gross_pnl": 7.2029,
-  "fees": 4.23,
-  "net_pnl": 2.9729
+  "trades": 135,
+  "wins": 107,
+  "win_pct": 79.3,
+  "gross_pnl": 8.0893,
+  "fees": 4.27,
+  "net_pnl": 3.8193
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 2.4851,
-  "trades": 77,
-  "wins": 62,
+  "pnl": 3.3315,
+  "trades": 78,
+  "wins": 63,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -856,10 +856,9 @@
  "counts": {
   "saltada": 55,
   "error": 2,
-  "gano": 106,
+  "gano": 107,
   "nofill": 38,
-  "perdio": 28,
-  "abierta": 1
+  "perdio": 28
  },
  "equity": [
   [
@@ -1531,6 +1530,11 @@
    1793714204,
    2.9729,
    "1355z"
+  ],
+  [
+   1793714494,
+   3.8193,
+   "1400z"
   ]
  ],
  "calls": [
@@ -1545,7 +1549,7 @@
    "precio": 0.68,
    "qty": 2.77,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.8464,
    "lat": {
     "llamada": 0,
     "envio": 147,
@@ -1553,11 +1557,11 @@
    },
    "order_id": "DGA6T2N013D5",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.9236,
    "pct_bal": 14.8,
-   "pct_gan": null,
+   "pct_gan": 44.0,
    "bal_entrada": 13.026
   },
   {
@@ -6556,35 +6560,8 @@
   "envio": 133,
   "bolsa": 198
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1400z",
-   "ronda": "1400z",
-   "hora": "09:01:33",
-   "day": "2026-11-03",
-   "ts": 1793714493.7729268,
-   "side": "down",
-   "prob": 0.7023,
-   "precio": 0.68,
-   "qty": 2.77,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 147,
-    "bolsa": 165
-   },
-   "order_id": "DGA6T2N013D5",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9236,
-   "pct_bal": 14.8,
-   "pct_gan": null,
-   "bal_entrada": 13.026
-  }
- ],
- "heartbeat": 1793714498.840494,
+ "open": [],
+ "heartbeat": 1793714739.2360976,
  "running": true,
  "stop_file": false
 }
