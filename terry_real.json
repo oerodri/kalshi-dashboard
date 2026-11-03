@@ -1,6 +1,6 @@
 {
- "generated": 1793673980.514237,
- "generated_et": "2026-11-02 21:46:21 ET",
+ "generated": 1793674044.0849514,
+ "generated_et": "2026-11-02 21:47:24 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 11.24791,
-  "buying_power": 11.24791,
-  "in_positions": 0
+  "current": 11.98351,
+  "buying_power": 9.21351,
+  "in_positions": 2.77
  },
  "balance_err": null,
  "balance_hist": [
@@ -262,6 +262,10 @@
   [
    1793673734,
    11.24791
+  ],
+  [
+   1793674044,
+   11.98351
   ]
  ],
  "totals": {
@@ -283,7 +287,8 @@
   "error": 2,
   "gano": 32,
   "nofill": 26,
-  "perdio": 10
+  "perdio": 10,
+  "abierta": 1
  },
  "equity": [
   [
@@ -498,6 +503,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0245z",
+   "ronda": "0245z",
+   "hora": "21:46:53",
+   "day": "2026-11-02",
+   "ts": 1793674013.0730143,
+   "side": "down",
+   "prob": 0.7006,
+   "precio": 0.72,
+   "qty": 2.77,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 130,
+    "bolsa": 125
+   },
+   "order_id": "DG0HZ25G12VP",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0344,
+   "pct_bal": 18.1,
+   "pct_gan": null,
+   "bal_entrada": 11.2479
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0240z",
    "ronda": "0240z",
@@ -1398,7 +1429,7 @@
    "costo": 2.0123,
    "pct_bal": 15.2,
    "pct_gan": 13.8,
-   "bal_entrada": 13.1993
+   "bal_entrada": 13.19931
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-02-2335z",
@@ -3083,12 +3114,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 1401,
+  "llamada": 1381,
   "envio": 134,
-  "bolsa": 214
+  "bolsa": 213
  },
- "open": [],
- "heartbeat": 1793673963.157196,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0245z",
+   "ronda": "0245z",
+   "hora": "21:46:53",
+   "day": "2026-11-02",
+   "ts": 1793674013.0730143,
+   "side": "down",
+   "prob": 0.7006,
+   "precio": 0.72,
+   "qty": 2.77,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 130,
+    "bolsa": 125
+   },
+   "order_id": "DG0HZ25G12VP",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0344,
+   "pct_bal": 18.1,
+   "pct_gan": null,
+   "bal_entrada": 11.2479
+  }
+ ],
+ "heartbeat": 1793674043.2147577,
  "running": true,
  "stop_file": false
 }
