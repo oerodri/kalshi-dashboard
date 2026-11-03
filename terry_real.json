@@ -1,6 +1,6 @@
 {
- "generated": 1793695231.5175822,
- "generated_et": "2026-11-03 03:40:32 ET",
+ "generated": 1793695294.9946108,
+ "generated_et": "2026-11-03 03:41:35 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 13.05361,
-  "buying_power": 13.05361,
-  "in_positions": 0
+  "current": 13.82851,
+  "buying_power": 11.01851,
+  "in_positions": 2.81
  },
  "balance_err": null,
  "balance_hist": [
@@ -518,6 +518,10 @@
   [
    1793695046,
    13.05361
+  ],
+  [
+   1793695295,
+   13.82851
   ]
  ],
  "totals": {
@@ -542,7 +546,8 @@
   "error": 2,
   "gano": 68,
   "nofill": 33,
-  "perdio": 18
+  "perdio": 18,
+  "abierta": 1
  },
  "equity": [
   [
@@ -977,6 +982,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0840z",
+   "ronda": "0840z",
+   "hora": "03:41:32",
+   "day": "2026-11-03",
+   "ts": 1793695292.2069085,
+   "side": "down",
+   "prob": 0.7029,
+   "precio": 0.71,
+   "qty": 2.81,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 128,
+    "bolsa": 152
+   },
+   "order_id": "DG5MA5XG13CX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0351,
+   "pct_bal": 15.6,
+   "pct_gan": null,
+   "bal_entrada": 13.0536
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0835z",
    "ronda": "0835z",
@@ -1415,7 +1446,7 @@
    "costo": 1.8728,
    "pct_bal": 17.5,
    "pct_gan": -100.0,
-   "bal_entrada": 10.6746
+   "bal_entrada": 10.67461
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0700z",
@@ -5306,12 +5337,39 @@
   }
  ],
  "lat_avg": {
-  "llamada": 997,
+  "llamada": 988,
   "envio": 133,
   "bolsa": 213
  },
- "open": [],
- "heartbeat": 1793695223.8362122,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-0840z",
+   "ronda": "0840z",
+   "hora": "03:41:32",
+   "day": "2026-11-03",
+   "ts": 1793695292.2069085,
+   "side": "down",
+   "prob": 0.7029,
+   "precio": 0.71,
+   "qty": 2.81,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 128,
+    "bolsa": 152
+   },
+   "order_id": "DG5MA5XG13CX",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 2.0351,
+   "pct_bal": 15.6,
+   "pct_gan": null,
+   "bal_entrada": 13.0536
+  }
+ ],
+ "heartbeat": 1793695293.1742473,
  "running": true,
  "stop_file": false
 }
