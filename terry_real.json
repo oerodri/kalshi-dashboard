@@ -1,6 +1,6 @@
 {
- "generated": 1793689838.015776,
- "generated_et": "2026-11-03 02:10:39 ET",
+ "generated": 1793689900.1924186,
+ "generated_et": "2026-11-03 02:11:41 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -8,8 +8,12 @@
   "min_prob": 0.66,
   "max_entry_price": 0.9
  },
- "balance": null,
- "balance_err": "APIConnectionError",
+ "balance": {
+  "current": 10.67461,
+  "buying_power": 10.67461,
+  "in_positions": 0
+ },
+ "balance_err": null,
  "balance_hist": [
   [
    1793644189,
@@ -457,17 +461,17 @@
   ]
  ],
  "totals": {
-  "trades": 75,
+  "trades": 76,
   "wins": 59,
-  "win_pct": 78.7,
-  "gross_pnl": 5.0429,
-  "fees": 2.45,
-  "net_pnl": 2.5929
+  "win_pct": 77.6,
+  "gross_pnl": 4.9819,
+  "fees": 2.47,
+  "net_pnl": 2.5119
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 2.1051,
-  "trades": 18,
+  "pnl": 2.0241,
+  "trades": 19,
   "wins": 15,
   "breakeven_pct": 77,
   "cap_left": 20.0,
@@ -478,8 +482,7 @@
   "error": 2,
   "gano": 59,
   "nofill": 32,
-  "perdio": 16,
-  "abierta": 1
+  "perdio": 17
  },
  "equity": [
   [
@@ -839,23 +842,28 @@
   ],
   [
    1793686940,
-   1.0878,
+   2.9784,
    "0620z"
   ],
   [
    1793687190,
-   1.3856,
+   3.2762,
    "0625z"
   ],
   [
    1793687802,
-   2.2993,
+   4.1899,
    "0635z"
   ],
   [
    1793689115,
-   2.5929,
+   4.4835,
    "0655z"
+  ],
+  [
+   1793689290,
+   2.5119,
+   "0700z"
   ]
  ],
  "calls": [
@@ -870,7 +878,7 @@
    "precio": 0.82,
    "qty": 2.38,
    "fee": 0.02,
-   "pnl": null,
+   "pnl": -1.9716,
    "lat": {
     "llamada": 0,
     "envio": 103,
@@ -878,12 +886,12 @@
    },
    "order_id": "DG46GP0013CX",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "perdio",
+   "motivo": "Liquidada",
    "costo": 1.9716,
    "pct_bal": 15.6,
-   "pct_gan": null,
-   "bal_entrada": 12.64621
+   "pct_gan": -100.0,
+   "bal_entrada": 12.6462
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0655z",
@@ -909,7 +917,7 @@
    "costo": 1.9464,
    "pct_bal": 15.8,
    "pct_gan": 15.1,
-   "bal_entrada": 12.35261
+   "bal_entrada": 12.3526
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0650z",
@@ -1001,7 +1009,7 @@
    "costo": 1.9763,
    "pct_bal": 17.3,
    "pct_gan": 46.2,
-   "bal_entrada": 11.43891
+   "bal_entrada": 11.4389
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0630z",
@@ -1049,7 +1057,7 @@
    "costo": 1.9722,
    "pct_bal": 17.7,
    "pct_gan": 15.1,
-   "bal_entrada": 11.14111
+   "bal_entrada": 11.1411
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0620z",
@@ -1062,7 +1070,7 @@
    "precio": 0.76,
    "qty": 2.56,
    "fee": 0.03,
-   "pnl": 0.5844,
+   "pnl": 2.475,
    "lat": {
     "llamada": 19371,
     "envio": 140,
@@ -1074,8 +1082,8 @@
    "motivo": "Liquidada",
    "costo": 1.9756,
    "pct_bal": 22.5,
-   "pct_gan": 29.6,
-   "bal_entrada": 8.76611
+   "pct_gan": 125.3,
+   "bal_entrada": 8.7661
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0615z",
@@ -1123,7 +1131,7 @@
    "costo": 1.8978,
    "pct_bal": 22.7,
    "pct_gan": 20.7,
-   "bal_entrada": 8.37391
+   "bal_entrada": 8.3739
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0605z",
@@ -1149,7 +1157,7 @@
    "costo": 1.9725,
    "pct_bal": 25.4,
    "pct_gan": 31.3,
-   "bal_entrada": 7.75641
+   "bal_entrada": 7.7564
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0600z",
@@ -1175,7 +1183,7 @@
    "costo": 1.8404,
    "pct_bal": 24.9,
    "pct_gan": 20.6,
-   "bal_entrada": 7.37681
+   "bal_entrada": 7.3768
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0555z",
@@ -1201,7 +1209,7 @@
    "costo": 1.974,
    "pct_bal": 28.5,
    "pct_gan": 23.1,
-   "bal_entrada": 6.92081
+   "bal_entrada": 6.9208
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-0550z",
@@ -4752,35 +4760,8 @@
   "envio": 134,
   "bolsa": 219
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0700z",
-   "ronda": "0700z",
-   "hora": "02:01:29",
-   "day": "2026-11-03",
-   "ts": 1793689289.5620635,
-   "side": "up",
-   "prob": 0.8434,
-   "precio": 0.82,
-   "qty": 2.38,
-   "fee": 0.02,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 103,
-    "bolsa": 153
-   },
-   "order_id": "DG46GP0013CX",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.9716,
-   "pct_bal": 15.6,
-   "pct_gan": null,
-   "bal_entrada": 12.64621
-  }
- ],
- "heartbeat": 1793689835.8749673,
+ "open": [],
+ "heartbeat": 1793689895.9561903,
  "running": true,
  "stop_file": false
 }
