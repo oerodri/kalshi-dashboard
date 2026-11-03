@@ -1,6 +1,6 @@
 {
- "generated": 1793698019.9785159,
- "generated_et": "2026-11-03 04:27:00 ET",
+ "generated": 1793698266.7658777,
+ "generated_et": "2026-11-03 04:31:07 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 15.02171,
-  "buying_power": 15.02171,
+  "current": 17.58171,
+  "buying_power": 17.58171,
   "in_positions": 0
  },
  "balance_err": null,
@@ -566,21 +566,25 @@
   [
    1793698020,
    15.02171
+  ],
+  [
+   1793698267,
+   17.58171
   ]
  ],
  "totals": {
-  "trades": 92,
-  "wins": 74,
-  "win_pct": 80.4,
-  "gross_pnl": 9.8884,
-  "fees": 2.97,
-  "net_pnl": 6.9184
+  "trades": 93,
+  "wins": 75,
+  "win_pct": 80.6,
+  "gross_pnl": 10.5284,
+  "fees": 3.0,
+  "net_pnl": 7.5284
  },
  "today": {
   "day": "2026-11-03",
-  "pnl": 6.4306,
-  "trades": 35,
-  "wins": 30,
+  "pnl": 7.0406,
+  "trades": 36,
+  "wins": 31,
   "breakeven_pct": 77,
   "cap_left": 20.0,
   "cap_hit": false
@@ -588,10 +592,9 @@
  "counts": {
   "saltada": 54,
   "error": 2,
-  "gano": 74,
+  "gano": 75,
   "nofill": 35,
-  "perdio": 18,
-  "abierta": 1
+  "perdio": 18
  },
  "equity": [
   [
@@ -1053,6 +1056,11 @@
    1793697450,
    6.9184,
    "0915z"
+  ],
+  [
+   1793698012,
+   7.5284,
+   "0925z"
   ]
  ],
  "calls": [
@@ -1067,7 +1075,7 @@
    "precio": 0.75,
    "qty": 2.56,
    "fee": 0.03,
-   "pnl": null,
+   "pnl": 0.61,
    "lat": {
     "llamada": 0,
     "envio": 146,
@@ -1075,11 +1083,11 @@
    },
    "order_id": "DG6928N013D9",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 1.95,
    "pct_bal": 11.5,
-   "pct_gan": null,
+   "pct_gan": 31.3,
    "bal_entrada": 16.9717
   },
   {
@@ -5623,35 +5631,8 @@
   "envio": 133,
   "bolsa": 211
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0925z",
-   "ronda": "0925z",
-   "hora": "04:26:52",
-   "day": "2026-11-03",
-   "ts": 1793698012.2706418,
-   "side": "up",
-   "prob": 0.7397,
-   "precio": 0.75,
-   "qty": 2.56,
-   "fee": 0.03,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 146,
-    "bolsa": 158
-   },
-   "order_id": "DG6928N013D9",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 1.95,
-   "pct_bal": 11.5,
-   "pct_gan": null,
-   "bal_entrada": 16.9717
-  }
- ],
- "heartbeat": 1793698013.7816634,
+ "open": [],
+ "heartbeat": 1793698247.9129574,
  "running": true,
  "stop_file": false
 }
