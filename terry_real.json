@@ -1,6 +1,6 @@
 {
- "generated": 1793716555.089429,
- "generated_et": "2026-11-03 09:35:55 ET",
+ "generated": 1793716618.9440422,
+ "generated_et": "2026-11-03 09:36:59 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 11.56681,
-  "buying_power": 11.56681,
+  "current": 9.62321,
+  "buying_power": 9.62321,
   "in_positions": 0
  },
  "balance_err": null,
@@ -874,6 +874,10 @@
   [
    1793716555,
    11.56681
+  ],
+  [
+   1793716619,
+   9.62321
   ]
  ],
  "totals": {
@@ -898,7 +902,8 @@
   "error": 2,
   "gano": 111,
   "nofill": 38,
-  "perdio": 30
+  "perdio": 30,
+  "abierta": 1
  },
  "equity": [
   [
@@ -1609,6 +1614,32 @@
  ],
  "calls": [
   {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1435z",
+   "ronda": "1435z",
+   "hora": "09:36:29",
+   "day": "2026-11-03",
+   "ts": 1793716589.6127908,
+   "side": "up",
+   "prob": 0.8736,
+   "precio": 0.84,
+   "qty": 2.29,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 131,
+    "bolsa": 183
+   },
+   "order_id": "DGAPSREG13CT",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9436,
+   "pct_bal": 16.8,
+   "pct_gan": null,
+   "bal_entrada": 11.5668
+  },
+  {
    "slug": "cpc-btc-updown-5m-2026-11-03-1430z",
    "ronda": "1430z",
    "hora": "09:31:45",
@@ -1866,7 +1897,7 @@
    "costo": 1.9688,
    "pct_bal": 12.1,
    "pct_gan": -100.0,
-   "bal_entrada": 16.3235
+   "bal_entrada": 16.32351
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-1340z",
@@ -6609,41 +6640,42 @@
    "pct_bal": null,
    "pct_gan": null,
    "bal_entrada": null
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-02-2100z",
-   "ronda": "2100z",
-   "hora": "16:02:09",
-   "day": "2026-11-02",
-   "ts": 1793653329.986504,
-   "side": "down",
-   "prob": 0.7309,
-   "precio": 0.25,
-   "qty": 8.0,
-   "fee": 0.1,
-   "pnl": -2.1,
-   "lat": {
-    "llamada": 3040,
-    "envio": 139,
-    "bolsa": 149
-   },
-   "order_id": "DFVM5FEG52VX",
-   "aviso": null,
-   "out": "perdio",
-   "motivo": "Liquidada",
-   "costo": 2.1,
-   "pct_bal": 16.4,
-   "pct_gan": -100.0,
-   "bal_entrada": 12.81071
   }
  ],
  "lat_avg": {
-  "llamada": 683,
+  "llamada": 680,
   "envio": 133,
   "bolsa": 196
  },
- "open": [],
- "heartbeat": 1793716536.6696837,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-03-1435z",
+   "ronda": "1435z",
+   "hora": "09:36:29",
+   "day": "2026-11-03",
+   "ts": 1793716589.6127908,
+   "side": "up",
+   "prob": 0.8736,
+   "precio": 0.84,
+   "qty": 2.29,
+   "fee": 0.02,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 131,
+    "bolsa": 183
+   },
+   "order_id": "DGAPSREG13CT",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 1.9436,
+   "pct_bal": 16.8,
+   "pct_gan": null,
+   "bal_entrada": 11.5668
+  }
+ ],
+ "heartbeat": 1793716616.736395,
  "running": true,
  "stop_file": false
 }
