@@ -1,6 +1,6 @@
 {
- "generated": 1793763569.1450875,
- "generated_et": "2026-11-03 22:39:30 ET",
+ "generated": 1793763754.7008142,
+ "generated_et": "2026-11-03 22:42:35 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -1409,7 +1409,7 @@
   "saltada": 66,
   "error": 2,
   "gano": 178,
-  "nofill": 88,
+  "nofill": 89,
   "perdio": 47
  },
  "equity": [
@@ -2540,6 +2540,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-04-0340z",
+   "ronda": "0340z",
+   "hora": "22:42:23",
+   "day": "2026-11-03",
+   "ts": 1793763743.6967828,
+   "side": "down",
+   "prob": 0.7158,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 129,
+    "bolsa": 147
+   },
+   "order_id": "DGNYJ0A013D1",
+   "aviso": null,
+   "out": "nofill",
+   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-04-0335z",
    "ronda": "0335z",
@@ -7665,41 +7691,15 @@
    "pct_bal": null,
    "pct_gan": null,
    "bal_entrada": null
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0915z",
-   "ronda": "0915z",
-   "hora": "04:17:30",
-   "day": "2026-11-03",
-   "ts": 1793697450.405742,
-   "side": "up",
-   "prob": 0.794,
-   "precio": 0.82,
-   "qty": 2.38,
-   "fee": 0.02,
-   "pnl": 0.4084,
-   "lat": {
-    "llamada": 404,
-    "envio": 127,
-    "bolsa": 191
-   },
-   "order_id": "DG64S35G13CX",
-   "aviso": null,
-   "out": "gano",
-   "motivo": "Liquidada",
-   "costo": 1.9716,
-   "pct_bal": 11.9,
-   "pct_gan": 20.7,
-   "bal_entrada": 16.56331
   }
  ],
  "lat_avg": {
-  "llamada": 395,
+  "llamada": 394,
   "envio": 133,
   "bolsa": 189
  },
  "open": [],
- "heartbeat": 1793763561.0879116,
+ "heartbeat": 1793763747.389477,
  "running": true,
  "stop_file": false
 }
