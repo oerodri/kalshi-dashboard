@@ -1,6 +1,6 @@
 {
- "generated": 1793756364.872063,
- "generated_et": "2026-11-03 20:39:25 ET",
+ "generated": 1793756552.656103,
+ "generated_et": "2026-11-03 20:42:33 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -1409,7 +1409,7 @@
   "saltada": 65,
   "error": 2,
   "gano": 178,
-  "nofill": 67,
+  "nofill": 68,
   "perdio": 47
  },
  "equity": [
@@ -2540,6 +2540,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-04-0140z",
+   "ronda": "0140z",
+   "hora": "20:42:27",
+   "day": "2026-11-03",
+   "ts": 1793756547.6141472,
+   "side": "up",
+   "prob": 0.714,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 147,
+    "bolsa": 143
+   },
+   "order_id": "DGM7N4X013CT",
+   "aviso": null,
+   "out": "nofill",
+   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-04-0135z",
    "ronda": "0135z",
@@ -7645,37 +7671,15 @@
    "pct_bal": null,
    "pct_gan": null,
    "bal_entrada": null
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0720z",
-   "ronda": "0720z",
-   "hora": "02:22:30",
-   "day": "2026-11-03",
-   "ts": 1793690550.1041546,
-   "side": "up",
-   "prob": 0.9759,
-   "precio": null,
-   "qty": null,
-   "fee": null,
-   "pnl": null,
-   "lat": null,
-   "order_id": null,
-   "aviso": null,
-   "out": "saltada",
-   "motivo": "ask 0.98 > max 0.9",
-   "costo": null,
-   "pct_bal": null,
-   "pct_gan": null,
-   "bal_entrada": null
   }
  ],
  "lat_avg": {
-  "llamada": 424,
+  "llamada": 422,
   "envio": 133,
-  "bolsa": 190
+  "bolsa": 189
  },
  "open": [],
- "heartbeat": 1793756347.1038568,
+ "heartbeat": 1793756551.3531773,
  "running": true,
  "stop_file": false
 }
