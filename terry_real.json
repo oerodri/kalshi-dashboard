@@ -1,6 +1,6 @@
 {
- "generated": 1793834174.49085,
- "generated_et": "2026-11-04 18:16:15 ET",
+ "generated": 1793834298.978465,
+ "generated_et": "2026-11-04 18:18:19 ET",
  "mode": "real",
  "config": {
   "size_usd": 5,
@@ -1414,7 +1414,7 @@
   "cap_hit": false
  },
  "counts": {
-  "saltada": 76,
+  "saltada": 77,
   "error": 2,
   "gano": 178,
   "nofill": 148,
@@ -2548,6 +2548,28 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-04-2315z",
+   "ronda": "2315z",
+   "hora": "18:17:51",
+   "day": "2026-11-04",
+   "ts": 1793834271.5438573,
+   "side": "down",
+   "prob": 0.7144,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": null,
+   "order_id": null,
+   "aviso": null,
+   "out": "saltada",
+   "motivo": "edge -0.076<0.03",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-04-2310z",
    "ronda": "2310z",
@@ -7637,32 +7659,6 @@
    "pct_bal": 21.1,
    "pct_gan": -100.0,
    "bal_entrada": 9.26861
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1550z",
-   "ronda": "1550z",
-   "hora": "10:51:29",
-   "day": "2026-11-03",
-   "ts": 1793721089.8394444,
-   "side": "down",
-   "prob": 0.7924,
-   "precio": 0.79,
-   "qty": 2.46,
-   "fee": 0.03,
-   "pnl": -1.9734,
-   "lat": {
-    "llamada": 0,
-    "envio": 142,
-    "bolsa": 129
-   },
-   "order_id": "DGBS4E7013CX",
-   "aviso": null,
-   "out": "perdio",
-   "motivo": "Liquidada",
-   "costo": 1.9734,
-   "pct_bal": 13.0,
-   "pct_gan": -100.0,
-   "bal_entrada": 15.21641
   }
  ],
  "lat_avg": {
@@ -7671,7 +7667,7 @@
   "bolsa": 184
  },
  "open": [],
- "heartbeat": 1793834172.7555065,
+ "heartbeat": 1793834291.8302112,
  "running": true,
  "stop_file": false
 }
