@@ -1,10 +1,10 @@
 {
- "generated": 1793834049.9287097,
- "generated_et": "2026-11-04 18:14:10 ET",
+ "generated": 1793834174.49085,
+ "generated_et": "2026-11-04 18:16:15 ET",
  "mode": "real",
  "config": {
   "size_usd": 5,
-  "daily_loss_cap_usd": 20.0,
+  "daily_loss_cap_usd": 10.0,
   "min_prob": 0.66,
   "max_entry_price": 0.9
  },
@@ -1410,7 +1410,7 @@
   "trades": 0,
   "wins": 0,
   "breakeven_pct": 77,
-  "cap_left": 20.0,
+  "cap_left": 10.0,
   "cap_hit": false
  },
  "counts": {
@@ -7671,7 +7671,7 @@
   "bolsa": 184
  },
  "open": [],
- "heartbeat": 1793834039.8722458,
+ "heartbeat": 1793834172.7555065,
  "running": true,
  "stop_file": false
 }
