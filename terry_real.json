@@ -1,6 +1,6 @@
 {
- "generated": 1793782033.6507266,
- "generated_et": "2026-11-04 03:47:14 ET",
+ "generated": 1793782341.3297372,
+ "generated_et": "2026-11-04 03:52:22 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -1409,7 +1409,7 @@
   "saltada": 71,
   "error": 2,
   "gano": 178,
-  "nofill": 138,
+  "nofill": 139,
   "perdio": 47
  },
  "equity": [
@@ -2540,6 +2540,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-04-0850z",
+   "ronda": "0850z",
+   "hora": "03:51:41",
+   "day": "2026-11-04",
+   "ts": 1793782301.7103903,
+   "side": "down",
+   "prob": 0.7004,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 136,
+    "bolsa": 121
+   },
+   "order_id": "DGTC4RZG13D3",
+   "aviso": null,
+   "out": "nofill",
+   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-04-0845z",
    "ronda": "0845z",
@@ -7649,41 +7675,15 @@
    "pct_bal": null,
    "pct_gan": null,
    "bal_entrada": null
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1435z",
-   "ronda": "1435z",
-   "hora": "09:36:29",
-   "day": "2026-11-03",
-   "ts": 1793716589.6127908,
-   "side": "up",
-   "prob": 0.8736,
-   "precio": 0.84,
-   "qty": 2.29,
-   "fee": 0.02,
-   "pnl": 0.3464,
-   "lat": {
-    "llamada": 0,
-    "envio": 131,
-    "bolsa": 183
-   },
-   "order_id": "DGAPSREG13CT",
-   "aviso": null,
-   "out": "gano",
-   "motivo": "Liquidada",
-   "costo": 1.9436,
-   "pct_bal": 16.8,
-   "pct_gan": 17.8,
-   "bal_entrada": 11.56681
   }
  ],
  "lat_avg": {
-  "llamada": 342,
+  "llamada": 341,
   "envio": 133,
   "bolsa": 184
  },
  "open": [],
- "heartbeat": 1793782033.478294,
+ "heartbeat": 1793782333.790695,
  "running": true,
  "stop_file": false
 }
