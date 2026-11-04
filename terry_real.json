@@ -1,6 +1,6 @@
 {
- "generated": 1793764431.040741,
- "generated_et": "2026-11-03 22:53:51 ET",
+ "generated": 1793764618.0439394,
+ "generated_et": "2026-11-03 22:56:59 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -1409,7 +1409,7 @@
   "saltada": 66,
   "error": 2,
   "gano": 178,
-  "nofill": 91,
+  "nofill": 92,
   "perdio": 47
  },
  "equity": [
@@ -2540,6 +2540,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-04-0355z",
+   "ronda": "0355z",
+   "hora": "22:56:50",
+   "day": "2026-11-03",
+   "ts": 1793764610.5820959,
+   "side": "up",
+   "prob": 0.8525,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 109,
+    "bolsa": 161
+   },
+   "order_id": "DGP55MTG13D3",
+   "aviso": null,
+   "out": "nofill",
+   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-04-0350z",
    "ronda": "0350z",
@@ -7665,41 +7691,15 @@
    "pct_bal": null,
    "pct_gan": null,
    "bal_entrada": null
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0930z",
-   "ronda": "0930z",
-   "hora": "04:32:48",
-   "day": "2026-11-03",
-   "ts": 1793698368.8298404,
-   "side": "up",
-   "prob": 0.8582,
-   "precio": 0.84,
-   "qty": 2.22,
-   "fee": 0.02,
-   "pnl": 0.3352,
-   "lat": {
-    "llamada": 0,
-    "envio": 145,
-    "bolsa": 131
-   },
-   "order_id": "DG6BSA2013CT",
-   "aviso": null,
-   "out": "gano",
-   "motivo": "Liquidada",
-   "costo": 1.8848,
-   "pct_bal": 10.7,
-   "pct_gan": 17.8,
-   "bal_entrada": 17.58171
   }
  ],
  "lat_avg": {
-  "llamada": 393,
+  "llamada": 392,
   "envio": 133,
   "bolsa": 189
  },
  "open": [],
- "heartbeat": 1793764422.066763,
+ "heartbeat": 1793764614.296161,
  "running": true,
  "stop_file": false
 }
