@@ -1,6 +1,6 @@
 {
- "generated": 1793833810.7061148,
- "generated_et": "2026-11-04 18:10:11 ET",
+ "generated": 1793834049.9287097,
+ "generated_et": "2026-11-04 18:14:10 ET",
  "mode": "real",
  "config": {
   "size_usd": 5,
@@ -1414,7 +1414,7 @@
   "cap_hit": false
  },
  "counts": {
-  "saltada": 75,
+  "saltada": 76,
   "error": 2,
   "gano": 178,
   "nofill": 148,
@@ -2548,6 +2548,28 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-04-2310z",
+   "ronda": "2310z",
+   "hora": "18:13:59",
+   "day": "2026-11-04",
+   "ts": 1793834039.85652,
+   "side": "down",
+   "prob": 0.7176,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": null,
+   "order_id": null,
+   "aviso": null,
+   "out": "saltada",
+   "motivo": "Llamada de Terry muy vieja (>45 s)",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-04-0955z",
    "ronda": "0955z",
@@ -7641,32 +7663,6 @@
    "pct_bal": 13.0,
    "pct_gan": -100.0,
    "bal_entrada": 15.21641
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1545z",
-   "ronda": "1545z",
-   "hora": "10:46:31",
-   "day": "2026-11-03",
-   "ts": 1793720791.0132465,
-   "side": "up",
-   "prob": 0.8325,
-   "precio": 0.83,
-   "qty": 2.35,
-   "fee": 0.02,
-   "pnl": 0.3795,
-   "lat": {
-    "llamada": 0,
-    "envio": 127,
-    "bolsa": 138
-   },
-   "order_id": "DGBPVFJG13D7",
-   "aviso": null,
-   "out": "gano",
-   "motivo": "Liquidada",
-   "costo": 1.9705,
-   "pct_bal": 13.3,
-   "pct_gan": 19.3,
-   "bal_entrada": 14.83691
   }
  ],
  "lat_avg": {
@@ -7675,7 +7671,7 @@
   "bolsa": 184
  },
  "open": [],
- "heartbeat": 1793786487.5639234,
+ "heartbeat": 1793834039.8722458,
  "running": true,
  "stop_file": false
 }
