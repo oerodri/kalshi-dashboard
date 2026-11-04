@@ -1,6 +1,6 @@
 {
- "generated": 1793832009.7941172,
- "generated_et": "2026-11-04 17:40:10 ET",
+ "generated": 1793832581.6611197,
+ "generated_et": "2026-11-04 17:49:42 ET",
  "mode": "real",
  "config": {
   "size_usd": 5,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 10.01651,
-  "buying_power": 10.01651,
+  "current": 30.01651,
+  "buying_power": 30.01651,
   "in_positions": 0
  },
  "balance_err": null,
@@ -1390,6 +1390,10 @@
   [
    1793823357,
    10.01651
+  ],
+  [
+   1793832582,
+   30.01651
   ]
  ],
  "totals": {
@@ -5478,9 +5482,9 @@
    "out": "perdio",
    "motivo": "Liquidada",
    "costo": 0.0154,
-   "pct_bal": 0.2,
+   "pct_bal": 0.1,
    "pct_gan": -100.0,
-   "bal_entrada": 10.0473
+   "bal_entrada": 30.0473
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2320z",
@@ -5504,9 +5508,9 @@
    "out": "perdio",
    "motivo": "Liquidada",
    "costo": 0.072,
-   "pct_bal": 0.7,
+   "pct_bal": 0.2,
    "pct_gan": -100.0,
-   "bal_entrada": 10.1913
+   "bal_entrada": 30.1913
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2315z",
@@ -5530,9 +5534,9 @@
    "out": "perdio",
    "motivo": "Liquidada",
    "costo": 1.1296,
-   "pct_bal": 10.0,
+   "pct_bal": 3.6,
    "pct_gan": -100.0,
-   "bal_entrada": 11.3209
+   "bal_entrada": 31.3209
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2310z",
@@ -5556,9 +5560,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.865,
-   "pct_bal": 7.8,
+   "pct_bal": 2.8,
    "pct_gan": 31.8,
-   "bal_entrada": 11.0459
+   "bal_entrada": 31.0459
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2305z",
@@ -5582,9 +5586,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.685,
-   "pct_bal": 6.3,
+   "pct_bal": 2.2,
    "pct_gan": 31.4,
-   "bal_entrada": 10.8309
+   "bal_entrada": 30.8309
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2300z",
@@ -5608,9 +5612,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.52,
-   "pct_bal": 4.9,
+   "pct_bal": 1.7,
    "pct_gan": 30.8,
-   "bal_entrada": 10.6709
+   "bal_entrada": 30.6709
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2255z",
@@ -5634,9 +5638,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.4208,
-   "pct_bal": 4.0,
+   "pct_bal": 1.4,
    "pct_gan": 23.6,
-   "bal_entrada": 10.5717
+   "bal_entrada": 30.5717
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2245z",
@@ -5660,9 +5664,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.3312,
-   "pct_bal": 3.2,
+   "pct_bal": 1.1,
    "pct_gan": 32.9,
-   "bal_entrada": 10.4629
+   "bal_entrada": 30.4629
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2240z",
@@ -5686,9 +5690,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.2706,
-   "pct_bal": 2.5,
+   "pct_bal": 0.9,
    "pct_gan": 22.0,
-   "bal_entrada": 10.6741
+   "bal_entrada": 30.6741
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2230z",
@@ -5712,9 +5716,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.2403,
-   "pct_bal": 2.2,
+   "pct_bal": 83.9,
    "pct_gan": 12.4,
-   "bal_entrada": 10.8847
+   "bal_entrada": 0.28641
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2225z",
