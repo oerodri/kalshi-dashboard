@@ -1,6 +1,6 @@
 {
- "generated": 1793773914.6141284,
- "generated_et": "2026-11-04 01:31:55 ET",
+ "generated": 1793774222.3108866,
+ "generated_et": "2026-11-04 01:37:03 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -1409,7 +1409,7 @@
   "saltada": 69,
   "error": 2,
   "gano": 178,
-  "nofill": 117,
+  "nofill": 118,
   "perdio": 47
  },
  "equity": [
@@ -2540,6 +2540,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-04-0635z",
+   "ronda": "0635z",
+   "hora": "01:36:38",
+   "day": "2026-11-04",
+   "ts": 1793774198.70546,
+   "side": "down",
+   "prob": 0.7016,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 132,
+    "bolsa": 141
+   },
+   "order_id": "DGREAG7013CX",
+   "aviso": null,
+   "out": "nofill",
+   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-04-0630z",
    "ronda": "0630z",
@@ -7657,41 +7683,15 @@
    "pct_bal": 10.9,
    "pct_gan": -100.0,
    "bal_entrada": 18.32421
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1225z",
-   "ronda": "1225z",
-   "hora": "07:28:43",
-   "day": "2026-11-03",
-   "ts": 1793708923.7546885,
-   "side": "up",
-   "prob": 0.7699,
-   "precio": 0.78,
-   "qty": 2.53,
-   "fee": 0.03,
-   "pnl": 0.5266,
-   "lat": {
-    "llamada": 0,
-    "envio": 132,
-    "bolsa": 184
-   },
-   "order_id": "DG8WA6V013D9",
-   "aviso": null,
-   "out": "gano",
-   "motivo": "Liquidada",
-   "costo": 2.0034,
-   "pct_bal": 11.3,
-   "pct_gan": 26.3,
-   "bal_entrada": 17.79761
   }
  ],
  "lat_avg": {
-  "llamada": 363,
+  "llamada": 362,
   "envio": 133,
   "bolsa": 186
  },
  "open": [],
- "heartbeat": 1793773914.1506119,
+ "heartbeat": 1793774218.6471393,
  "running": true,
  "stop_file": false
 }
