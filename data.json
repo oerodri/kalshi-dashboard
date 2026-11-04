@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T22:59:30.293828-05:00",
+ "actualizado": "2026-11-03T23:09:30.592943-05:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -16,7 +16,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-11-03T22:59:08.314766-05:00"
+   "ultimo_latido": "2026-11-03T23:09:09.768520-05:00"
   },
   {
    "id": "clima_v2",
@@ -32,6 +32,13 @@
     {
      "fecha": "2026-11-04T03:00:06.976182+00:00",
      "mercado": "KXHIGHMIA-26NOV04-B81.5",
+     "lado": "no",
+     "precio": 0.95,
+     "contratos": 20
+    },
+    {
+     "fecha": "2026-11-04T04:00:08.589276+00:00",
+     "mercado": "KXHIGHCHI-26NOV04-B69.5",
      "lado": "no",
      "precio": 0.95,
      "contratos": 20
@@ -132,7 +139,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-03T22:59:08.314766-05:00"
+   "ultimo_latido": "2026-11-03T23:09:09.768520-05:00"
   },
   {
    "id": "v2_1",
@@ -802,7 +809,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-03T22:59:29.827854-05:00"
+   "ultimo_latido": "2026-11-03T23:09:30.565873-05:00"
   }
  ]
 }
