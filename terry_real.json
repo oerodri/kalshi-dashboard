@@ -1,6 +1,6 @@
 {
- "generated": 1793759013.097173,
- "generated_et": "2026-11-03 21:23:33 ET",
+ "generated": 1793759198.7016847,
+ "generated_et": "2026-11-03 21:26:39 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -1409,7 +1409,7 @@
   "saltada": 65,
   "error": 2,
   "gano": 178,
-  "nofill": 75,
+  "nofill": 76,
   "perdio": 47
  },
  "equity": [
@@ -2540,6 +2540,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-04-0225z",
+   "ronda": "0225z",
+   "hora": "21:26:29",
+   "day": "2026-11-03",
+   "ts": 1793759189.381003,
+   "side": "down",
+   "prob": 0.7912,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 106,
+    "bolsa": 123
+   },
+   "order_id": "DGMVT39013D1",
+   "aviso": null,
+   "out": "nofill",
+   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-04-0220z",
    "ronda": "0220z",
@@ -7657,41 +7683,15 @@
    "pct_bal": 17.5,
    "pct_gan": 24.7,
    "bal_entrada": 11.56181
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0800z",
-   "ronda": "0800z",
-   "hora": "03:02:01",
-   "day": "2026-11-03",
-   "ts": 1793692921.6622655,
-   "side": "down",
-   "prob": 0.8813,
-   "precio": 0.88,
-   "qty": 2.22,
-   "fee": 0.02,
-   "pnl": 0.2464,
-   "lat": {
-    "llamada": 0,
-    "envio": 122,
-    "bolsa": 117
-   },
-   "order_id": "DG527DNG13CX",
-   "aviso": null,
-   "out": "gano",
-   "motivo": "Liquidada",
-   "costo": 1.9736,
-   "pct_bal": 17.4,
-   "pct_gan": 12.5,
-   "bal_entrada": 11.31541
   }
  ],
  "lat_avg": {
-  "llamada": 413,
+  "llamada": 411,
   "envio": 133,
-  "bolsa": 189
+  "bolsa": 188
  },
  "open": [],
- "heartbeat": 1793758996.038104,
+ "heartbeat": 1793759196.2395253,
  "running": true,
  "stop_file": false
 }
