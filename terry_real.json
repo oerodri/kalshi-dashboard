@@ -1,6 +1,6 @@
 {
- "generated": 1793779781.5614114,
- "generated_et": "2026-11-04 03:09:42 ET",
+ "generated": 1793779999.644311,
+ "generated_et": "2026-11-04 03:13:20 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -1409,7 +1409,7 @@
   "saltada": 69,
   "error": 2,
   "gano": 178,
-  "nofill": 132,
+  "nofill": 133,
   "perdio": 47
  },
  "equity": [
@@ -2540,6 +2540,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-04-0810z",
+   "ronda": "0810z",
+   "hora": "03:13:03",
+   "day": "2026-11-04",
+   "ts": 1793779983.8396478,
+   "side": "down",
+   "prob": 0.7084,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 132,
+    "bolsa": 152
+   },
+   "order_id": "DGSTEWS013CZ",
+   "aviso": null,
+   "out": "nofill",
+   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-04-0800z",
    "ronda": "0800z",
@@ -7657,41 +7683,15 @@
    "pct_bal": 14.8,
    "pct_gan": 44.0,
    "bal_entrada": 13.02601
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1355z",
-   "ronda": "1355z",
-   "hora": "08:56:44",
-   "day": "2026-11-03",
-   "ts": 1793714204.005277,
-   "side": "down",
-   "prob": 0.7321,
-   "precio": 0.75,
-   "qty": 2.59,
-   "fee": 0.03,
-   "pnl": -1.9725,
-   "lat": {
-    "llamada": 0,
-    "envio": 131,
-    "bolsa": 126
-   },
-   "order_id": "DGA4KAE013D5",
-   "aviso": null,
-   "out": "perdio",
-   "motivo": "Liquidada",
-   "costo": 1.9725,
-   "pct_bal": 13.2,
-   "pct_gan": -100.0,
-   "bal_entrada": 14.99851
   }
  ],
  "lat_avg": {
-  "llamada": 348,
+  "llamada": 347,
   "envio": 133,
   "bolsa": 185
  },
  "open": [],
- "heartbeat": 1793779765.1000576,
+ "heartbeat": 1793779987.5873513,
  "running": true,
  "stop_file": false
 }
