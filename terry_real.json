@@ -1,6 +1,6 @@
 {
- "generated": 1793758766.378337,
- "generated_et": "2026-11-03 21:19:28 ET",
+ "generated": 1793759013.097173,
+ "generated_et": "2026-11-03 21:23:33 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -1409,7 +1409,7 @@
   "saltada": 65,
   "error": 2,
   "gano": 178,
-  "nofill": 74,
+  "nofill": 75,
   "perdio": 47
  },
  "equity": [
@@ -2540,6 +2540,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-04-0220z",
+   "ronda": "0220z",
+   "hora": "21:23:06",
+   "day": "2026-11-03",
+   "ts": 1793758986.921413,
+   "side": "down",
+   "prob": 0.7187,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 133,
+    "bolsa": 189
+   },
+   "order_id": "DGMT8P8G13D6",
+   "aviso": null,
+   "out": "nofill",
+   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-04-0215z",
    "ronda": "0215z",
@@ -7657,41 +7683,15 @@
    "pct_bal": 17.4,
    "pct_gan": 12.5,
    "bal_entrada": 11.31541
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0755z",
-   "ronda": "0755z",
-   "hora": "02:57:59",
-   "day": "2026-11-03",
-   "ts": 1793692679.6248991,
-   "side": "down",
-   "prob": 0.7005,
-   "precio": 0.69,
-   "qty": 2.73,
-   "fee": 0.04,
-   "pnl": 0.8063,
-   "lat": {
-    "llamada": 0,
-    "envio": 143,
-    "bolsa": 121
-   },
-   "order_id": "DG50CAZ013CZ",
-   "aviso": null,
-   "out": "gano",
-   "motivo": "Liquidada",
-   "costo": 1.9237,
-   "pct_bal": 18.3,
-   "pct_gan": 41.9,
-   "bal_entrada": 10.50911
   }
  ],
  "lat_avg": {
-  "llamada": 414,
+  "llamada": 413,
   "envio": 133,
   "bolsa": 189
  },
  "open": [],
- "heartbeat": 1793758755.7888243,
+ "heartbeat": 1793758996.038104,
  "running": true,
  "stop_file": false
 }
