@@ -1,6 +1,6 @@
 {
- "generated": 1793769792.038349,
- "generated_et": "2026-11-04 00:23:12 ET",
+ "generated": 1793770038.720851,
+ "generated_et": "2026-11-04 00:27:19 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -1409,7 +1409,7 @@
   "saltada": 68,
   "error": 2,
   "gano": 178,
-  "nofill": 106,
+  "nofill": 107,
   "perdio": 47
  },
  "equity": [
@@ -2540,6 +2540,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-04-0525z",
+   "ronda": "0525z",
+   "hora": "00:27:11",
+   "day": "2026-11-04",
+   "ts": 1793770031.5045614,
+   "side": "down",
+   "prob": 0.8111,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 126,
+    "bolsa": 185
+   },
+   "order_id": "DGQEH42G13CT",
+   "aviso": null,
+   "out": "nofill",
+   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-04-0520z",
    "ronda": "0520z",
@@ -7661,41 +7687,15 @@
    "pct_bal": 12.2,
    "pct_gan": 27.8,
    "bal_entrada": 15.79041
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-1105z",
-   "ronda": "1105z",
-   "hora": "06:07:25",
-   "day": "2026-11-03",
-   "ts": 1793704045.3742056,
-   "side": "up",
-   "prob": 0.7513,
-   "precio": 0.74,
-   "qty": 2.7,
-   "fee": 0.04,
-   "pnl": 0.662,
-   "lat": {
-    "llamada": 0,
-    "envio": 144,
-    "bolsa": 116
-   },
-   "order_id": "DG7Q360G13D9",
-   "aviso": null,
-   "out": "gano",
-   "motivo": "Liquidada",
-   "costo": 2.038,
-   "pct_bal": 13.5,
-   "pct_gan": 32.5,
-   "bal_entrada": 15.12841
   }
  ],
  "lat_avg": {
-  "llamada": 375,
+  "llamada": 374,
   "envio": 133,
   "bolsa": 187
  },
  "open": [],
- "heartbeat": 1793769788.8837342,
+ "heartbeat": 1793770035.2352114,
  "running": true,
  "stop_file": false
 }
