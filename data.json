@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T03:39:40.945887-05:00",
+ "actualizado": "2026-11-04T03:49:40.805153-05:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -16,7 +16,7 @@
    "equity": [],
    "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-11-04T03:39:17.880808-05:00"
+   "ultimo_latido": "2026-11-04T03:49:18.134581-05:00"
   },
   {
    "id": "clima_v2",
@@ -139,7 +139,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-04T03:39:17.880808-05:00"
+   "ultimo_latido": "2026-11-04T03:49:18.134581-05:00"
   },
   {
    "id": "v2_1",
@@ -257,19 +257,19 @@
    "id": "v4b_10usd",
    "nombre": "BTC 15 min KXBTC15M v4b balanceado 78-85, z>=0.75, min 3-10 (~$10 por trade, inicio $500)",
    "inicial": 500.0,
-   "saldo": 475.48,
-   "pnl": -24.52,
-   "trades": 39,
-   "ganadas": 30,
-   "winrate": 76.9,
+   "saldo": 477.24,
+   "pnl": -22.76,
+   "trades": 40,
+   "ganadas": 31,
+   "winrate": 77.5,
    "drawdown_max_pct": 6.39,
    "abiertas": [
     {
-     "fecha": "2026-11-04T03:36:03.655694-05:00",
-     "mercado": "KXBTC15M-26NOV040345-45",
+     "fecha": "2026-11-04T03:48:03.855838-05:00",
+     "mercado": "KXBTC15M-26NOV040400-00",
      "lado": "UP",
-     "precio": 0.83,
-     "contratos": 11
+     "precio": 0.81,
+     "contratos": 12
     }
    ],
    "equity": [
@@ -428,6 +428,10 @@
     {
      "t": "2026-11-04T02:53:03.727107-05:00",
      "v": 475.48
+    },
+    {
+     "t": "2026-11-04T03:36:03.655694-05:00",
+     "v": 477.24
     }
    ],
    "operaciones": [
@@ -859,10 +863,21 @@
      "gano": true,
      "pnl": 2.03,
      "saldo": 475.48
+    },
+    {
+     "fecha": "2026-11-04T03:36:03.655694-05:00",
+     "mercado": "KXBTC15M-26NOV040345-45",
+     "lado": "UP",
+     "precio": 0.83,
+     "contratos": 11,
+     "resultado": "yes",
+     "gano": true,
+     "pnl": 1.76,
+     "saldo": 477.24
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-04T03:39:39.169631-05:00"
+   "ultimo_latido": "2026-11-04T03:49:40.107676-05:00"
   }
  ]
 }
