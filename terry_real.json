@@ -1,6 +1,6 @@
 {
- "generated": 1793751561.5655847,
- "generated_et": "2026-11-03 19:19:22 ET",
+ "generated": 1793751749.9209862,
+ "generated_et": "2026-11-03 19:22:30 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -1409,7 +1409,7 @@
   "saltada": 64,
   "error": 2,
   "gano": 178,
-  "nofill": 53,
+  "nofill": 54,
   "perdio": 47
  },
  "equity": [
@@ -2540,6 +2540,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-04-0020z",
+   "ronda": "0020z",
+   "hora": "19:21:34",
+   "day": "2026-11-03",
+   "ts": 1793751694.9010038,
+   "side": "down",
+   "prob": 0.7932,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 104,
+    "bolsa": 206
+   },
+   "order_id": "DGK2MD5013CX",
+   "aviso": null,
+   "out": "nofill",
+   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-04-0015z",
    "ronda": "0015z",
@@ -7625,41 +7651,15 @@
    "pct_bal": 25.4,
    "pct_gan": 31.3,
    "bal_entrada": 7.75641
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0600z",
-   "ronda": "0600z",
-   "hora": "01:02:13",
-   "day": "2026-11-03",
-   "ts": 1793685733.7383308,
-   "side": "down",
-   "prob": 0.8424,
-   "precio": 0.82,
-   "qty": 2.22,
-   "fee": 0.02,
-   "pnl": 0.3796,
-   "lat": {
-    "llamada": 0,
-    "envio": 129,
-    "bolsa": 183
-   },
-   "order_id": "DG3BCJG012VX",
-   "aviso": null,
-   "out": "gano",
-   "motivo": "Liquidada",
-   "costo": 1.8404,
-   "pct_bal": 24.9,
-   "pct_gan": 20.6,
-   "bal_entrada": 7.37681
   }
  ],
  "lat_avg": {
-  "llamada": 445,
+  "llamada": 444,
   "envio": 133,
   "bolsa": 191
  },
  "open": [],
- "heartbeat": 1793751562.0500937,
+ "heartbeat": 1793751742.2408526,
  "running": true,
  "stop_file": false
 }
