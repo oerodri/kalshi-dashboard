@@ -1,6 +1,6 @@
 {
- "generated": 1793768373.1545796,
- "generated_et": "2026-11-03 23:59:33 ET",
+ "generated": 1793768436.7162263,
+ "generated_et": "2026-11-04 00:00:37 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -1397,12 +1397,12 @@
   "net_pnl": -1.0996
  },
  "today": {
-  "day": "2026-11-03",
-  "pnl": -1.5874,
-  "trades": 168,
-  "wins": 134,
+  "day": "2026-11-04",
+  "pnl": 0,
+  "trades": 0,
+  "wins": 0,
   "breakeven_pct": 77,
-  "cap_left": 18.41,
+  "cap_left": 20.0,
   "cap_hit": false
  },
  "counts": {
@@ -7699,7 +7699,7 @@
   "bolsa": 188
  },
  "open": [],
- "heartbeat": 1793768366.488419,
+ "heartbeat": 1793768426.5673232,
  "running": true,
  "stop_file": false
 }
