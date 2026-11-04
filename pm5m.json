@@ -1,23 +1,24 @@
 {
-"actualizado": "2026-11-04 13:22 ET",
+"actualizado": "2026-11-04 13:25 ET",
 "bots": [
 {
 "nombre": "Polymarket A",
-"balance": 486.65,
-"pnl": -13.35,
-"trades": 131,
-"winrate": 81.7,
+"balance": 488.57,
+"pnl": -11.43,
+"trades": 132,
+"winrate": 81.8,
 "perdidas_hoy": 2,
 "max_dd": 14.2,
-"abiertas": [
+"abiertas": [],
+"ultimas": [
 {
-"t": "13:15",
+"t": "11-04 13:25",
+"ep": 1793816100,
 "lado": "Down",
 "precio": 83.0,
-"acciones": 12.05
-}
-],
-"ultimas": [
+"gano": true,
+"pnl": 1.93
+},
 {
 "t": "11-04 09:27",
 "ep": 1793802000,
@@ -89,18 +90,10 @@
 "precio": 81.0,
 "gano": true,
 "pnl": 2.21
-},
-{
-"t": "11-04 04:13",
-"ep": 1793783100,
-"lado": "Down",
-"precio": 82.0,
-"gano": true,
-"pnl": 2.07
 }
 ],
-"pnl_hoy": 7.64,
-"trades_hoy": 15,
+"pnl_hoy": 9.57,
+"trades_hoy": 16,
 "equity": [
 500,
 502.24,
@@ -233,26 +226,28 @@
 480.14,
 482.36,
 484.72,
-486.65
+486.65,
+488.57
 ]
 },
 {
 "nombre": "Polymarket B",
-"balance": 433.31,
-"pnl": -66.69,
-"trades": 93,
-"winrate": 78.5,
+"balance": 435.24,
+"pnl": -64.76,
+"trades": 94,
+"winrate": 78.7,
 "perdidas_hoy": 3,
 "max_dd": 15.8,
-"abiertas": [
+"abiertas": [],
+"ultimas": [
 {
-"t": "13:15",
+"t": "11-04 13:25",
+"ep": 1793816100,
 "lado": "Down",
 "precio": 83.0,
-"acciones": 12.05
-}
-],
-"ultimas": [
+"gano": true,
+"pnl": 1.93
+},
 {
 "t": "11-04 13:04",
 "ep": 1793814900,
@@ -324,18 +319,10 @@
 "precio": 83.0,
 "gano": true,
 "pnl": 1.93
-},
-{
-"t": "11-03 18:34",
-"ep": 1793748300,
-"lado": "Up",
-"precio": 84.6,
-"gano": false,
-"pnl": -10.11
 }
 ],
-"pnl_hoy": -21.11,
-"trades_hoy": 8,
+"pnl_hoy": -19.18,
+"trades_hoy": 9,
 "equity": [
 500,
 501.79,
@@ -430,26 +417,28 @@
 439.69,
 429.59,
 431.38,
-433.31
+433.31,
+435.24
 ]
 },
 {
 "nombre": "Polymarket C",
-"balance": 524.66,
-"pnl": 24.66,
-"trades": 84,
+"balance": 526.06,
+"pnl": 26.06,
+"trades": 85,
 "winrate": 92.9,
 "perdidas_hoy": 1,
 "max_dd": 3.7,
-"abiertas": [
+"abiertas": [],
+"ultimas": [
 {
-"t": "13:15",
+"t": "11-04 13:25",
+"ep": 1793816100,
 "lado": "Down",
 "precio": 87.0,
-"acciones": 11.49
-}
-],
-"ultimas": [
+"gano": true,
+"pnl": 1.4
+},
 {
 "t": "11-04 13:04",
 "ep": 1793814900,
@@ -521,18 +510,10 @@
 "precio": 91.0,
 "gano": true,
 "pnl": 0.93
-},
-{
-"t": "11-04 02:26",
-"ep": 1793776500,
-"lado": "Up",
-"precio": 88.0,
-"gano": true,
-"pnl": 1.28
 }
 ],
-"pnl_hoy": 1.01,
-"trades_hoy": 11,
+"pnl_hoy": 2.41,
+"trades_hoy": 12,
 "equity": [
 500,
 501.4,
@@ -618,26 +599,28 @@
 521.27,
 522.68,
 524.06,
-524.66
+524.66,
+526.06
 ]
 },
 {
 "nombre": "Polymarket C2",
-"balance": 513.45,
-"pnl": 13.45,
-"trades": 91,
-"winrate": 92.3,
+"balance": 514.85,
+"pnl": 14.85,
+"trades": 92,
+"winrate": 92.4,
 "perdidas_hoy": 1,
 "max_dd": 3.8,
-"abiertas": [
+"abiertas": [],
+"ultimas": [
 {
-"t": "13:15",
+"t": "11-04 13:25",
+"ep": 1793816100,
 "lado": "Down",
 "precio": 87.0,
-"acciones": 11.49
-}
-],
-"ultimas": [
+"gano": true,
+"pnl": 1.4
+},
 {
 "t": "11-04 13:04",
 "ep": 1793814900,
@@ -709,18 +692,10 @@
 "precio": 89.0,
 "gano": true,
 "pnl": 1.16
-},
-{
-"t": "11-04 03:36",
-"ep": 1793780700,
-"lado": "Up",
-"precio": 92.0,
-"gano": true,
-"pnl": 0.81
 }
 ],
-"pnl_hoy": 0.74,
-"trades_hoy": 13,
+"pnl_hoy": 2.14,
+"trades_hoy": 14,
 "equity": [
 500,
 500.29,
@@ -813,26 +788,28 @@
 510.25,
 511.66,
 513.06,
-513.45
+513.45,
+514.85
 ]
 },
 {
 "nombre": "Polymarket D",
-"balance": 498.83,
-"pnl": -1.17,
-"trades": 81,
-"winrate": 92.6,
+"balance": 499.54,
+"pnl": -0.46,
+"trades": 82,
+"winrate": 92.7,
 "perdidas_hoy": 0,
 "max_dd": 5.1,
-"abiertas": [
+"abiertas": [],
+"ultimas": [
 {
-"t": "13:15",
+"t": "11-04 13:25",
+"ep": 1793816100,
 "lado": "Down",
 "precio": 93.0,
-"acciones": 10.75
-}
-],
-"ultimas": [
+"gano": true,
+"pnl": 0.7
+},
 {
 "t": "11-04 13:04",
 "ep": 1793814900,
@@ -904,18 +881,10 @@
 "precio": 93.0,
 "gano": true,
 "pnl": 0.7
-},
-{
-"t": "11-04 02:26",
-"ep": 1793776500,
-"lado": "Up",
-"precio": 88.0,
-"gano": true,
-"pnl": 1.28
 }
 ],
-"pnl_hoy": 7.95,
-"trades_hoy": 11,
+"pnl_hoy": 8.65,
+"trades_hoy": 12,
 "equity": [
 500,
 500.29,
@@ -998,26 +967,28 @@
 496.35,
 497.17,
 498.45,
-498.83
+498.83,
+499.54
 ]
 },
 {
 "nombre": "Polymarket E",
-"balance": 501.19,
-"pnl": 1.19,
-"trades": 52,
-"winrate": 90.4,
+"balance": 502.59,
+"pnl": 2.59,
+"trades": 53,
+"winrate": 90.6,
 "perdidas_hoy": 1,
 "max_dd": 4.8,
-"abiertas": [
+"abiertas": [],
+"ultimas": [
 {
-"t": "13:15",
+"t": "11-04 13:25",
+"ep": 1793816100,
 "lado": "Down",
 "precio": 87.0,
-"acciones": 11.49
-}
-],
-"ultimas": [
+"gano": true,
+"pnl": 1.4
+},
 {
 "t": "11-04 13:04",
 "ep": 1793814900,
@@ -1089,18 +1060,10 @@
 "precio": 90.0,
 "gano": true,
 "pnl": 1.04
-},
-{
-"t": "11-03 17:00",
-"ep": 1793742600,
-"lado": "Down",
-"precio": 95.0,
-"gano": true,
-"pnl": 0.49
 }
 ],
-"pnl_hoy": -3.89,
-"trades_hoy": 7,
+"pnl_hoy": -2.49,
+"trades_hoy": 8,
 "equity": [
 500,
 500.29,
@@ -1154,7 +1117,8 @@
 498.58,
 499.98,
 500.8,
-501.19
+501.19,
+502.59
 ]
 },
 {
