@@ -1,6 +1,6 @@
 {
- "generated": 1793752980.2953377,
- "generated_et": "2026-11-03 19:43:01 ET",
+ "generated": 1793753226.9116204,
+ "generated_et": "2026-11-03 19:47:07 ET",
  "mode": "real",
  "config": {
   "size_usd": 2.0,
@@ -1409,7 +1409,7 @@
   "saltada": 65,
   "error": 2,
   "gano": 178,
-  "nofill": 56,
+  "nofill": 57,
   "perdio": 47
  },
  "equity": [
@@ -2540,6 +2540,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-04-0045z",
+   "ronda": "0045z",
+   "hora": "19:46:33",
+   "day": "2026-11-03",
+   "ts": 1793753193.245358,
+   "side": "up",
+   "prob": 0.7124,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": {
+    "llamada": 0,
+    "envio": 114,
+    "bolsa": 122
+   },
+   "order_id": "DGKE26DG13D1",
+   "aviso": null,
+   "out": "nofill",
+   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-04-0040z",
    "ronda": "0040z",
@@ -7625,41 +7651,15 @@
    "pct_bal": 17.7,
    "pct_gan": 15.1,
    "bal_entrada": 11.14111
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-0620z",
-   "ronda": "0620z",
-   "hora": "01:22:20",
-   "day": "2026-11-03",
-   "ts": 1793686940.3327022,
-   "side": "up",
-   "prob": 0.7262,
-   "precio": 0.76,
-   "qty": 2.56,
-   "fee": 0.03,
-   "pnl": 0.5844,
-   "lat": {
-    "llamada": 19371,
-    "envio": 140,
-    "bolsa": 188
-   },
-   "order_id": "DG3MK55G12WK",
-   "aviso": null,
-   "out": "gano",
-   "motivo": "Liquidada",
-   "costo": 1.9756,
-   "pct_bal": 22.5,
-   "pct_gan": 29.6,
-   "bal_entrada": 8.76611
   }
  ],
  "lat_avg": {
-  "llamada": 441,
+  "llamada": 439,
   "envio": 133,
   "bolsa": 191
  },
  "open": [],
- "heartbeat": 1793752977.1588647,
+ "heartbeat": 1793753223.7945237,
  "running": true,
  "stop_file": false
 }
