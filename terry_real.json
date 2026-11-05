@@ -1,6 +1,6 @@
 {
- "generated": 1793872331.0479076,
- "generated_et": "2026-11-05 04:52:11 ET",
+ "generated": 1793872638.7204807,
+ "generated_et": "2026-11-05 04:57:19 ET",
  "mode": "real",
  "config": {
   "size_usd": 5,
@@ -1418,7 +1418,7 @@
   "cap_hit": false
  },
  "counts": {
-  "saltada": 140,
+  "saltada": 141,
   "error": 2,
   "gano": 178,
   "nofill": 148,
@@ -2552,6 +2552,28 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-05-0955z",
+   "ronda": "0955z",
+   "hora": "04:56:41",
+   "day": "2026-11-05",
+   "ts": 1793872601.5401125,
+   "side": "up",
+   "prob": 0.7063,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": null,
+   "order_id": null,
+   "aviso": null,
+   "out": "saltada",
+   "motivo": "edge 0.026<0.03",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-05-0950z",
    "ronda": "0950z",
@@ -7413,32 +7435,6 @@
    "pct_bal": 65.9,
    "pct_gan": 40.7,
    "bal_entrada": 0.04251
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-03-2130z",
-   "ronda": "2130z",
-   "hora": "16:31:31",
-   "day": "2026-11-03",
-   "ts": 1793741491.5251384,
-   "side": "up",
-   "prob": 0.8706,
-   "precio": 0.86,
-   "qty": 0.02,
-   "fee": 0.0,
-   "pnl": 0.0026,
-   "lat": {
-    "llamada": 0,
-    "envio": 130,
-    "bolsa": 126
-   },
-   "order_id": "DGGMSAN013D9",
-   "aviso": null,
-   "out": "gano",
-   "motivo": "Liquidada",
-   "costo": 0.0172,
-   "pct_bal": 43.3,
-   "pct_gan": 15.1,
-   "bal_entrada": 0.03971
   }
  ],
  "lat_avg": {
@@ -7447,7 +7443,7 @@
   "bolsa": 184
  },
  "open": [],
- "heartbeat": 1793872324.9019449,
+ "heartbeat": 1793872625.2946327,
  "running": true,
  "stop_file": false
 }
