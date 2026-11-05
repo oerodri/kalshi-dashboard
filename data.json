@@ -1,69 +1,57 @@
 {
- "actualizado": "2026-11-05T07:10:40.178277-05:00",
+ "actualizado": "2026-11-05T07:20:40.453540-05:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
    "id": "clima",
    "nombre": "Clima (NO 85–95¢, modelo >97%)",
    "inicial": 500.0,
-   "saldo": 500.0,
-   "pnl": 0.0,
-   "trades": 0,
-   "ganadas": 0,
-   "winrate": null,
+   "saldo": 500.65,
+   "pnl": 0.65,
+   "trades": 1,
+   "ganadas": 1,
+   "winrate": 100.0,
    "drawdown_max_pct": 0,
-   "abiertas": [
+   "abiertas": [],
+   "equity": [
+    {
+     "t": "2026-11-04T15:00:04.511983+00:00",
+     "v": 500.65
+    }
+   ],
+   "operaciones": [
     {
      "fecha": "2026-11-04T15:00:04.511983+00:00",
      "mercado": "KXHIGHMIA-26NOV04-T81",
      "lado": "no",
      "precio": 0.93,
-     "contratos": 10
+     "contratos": 10.0,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 0.65,
+     "saldo": 500.65
     }
    ],
-   "equity": [],
-   "operaciones": [],
    "activo": true,
-   "ultimo_latido": "2026-11-05T07:10:12.270284-05:00"
+   "ultimo_latido": "2026-11-05T07:20:12.988408-05:00"
   },
   {
    "id": "clima_v2",
    "nombre": "Clima v2 (NO 85–95¢, modelo >90%)",
    "inicial": 500.0,
-   "saldo": 486.53,
-   "pnl": -13.47,
-   "trades": 6,
-   "ganadas": 5,
-   "winrate": 83.3,
+   "saldo": 489.17,
+   "pnl": -10.83,
+   "trades": 9,
+   "ganadas": 8,
+   "winrate": 88.9,
    "drawdown_max_pct": 3.89,
    "abiertas": [
-    {
-     "fecha": "2026-11-04T03:00:06.976182+00:00",
-     "mercado": "KXHIGHMIA-26NOV04-B81.5",
-     "lado": "no",
-     "precio": 0.95,
-     "contratos": 20
-    },
     {
      "fecha": "2026-11-04T04:00:08.589276+00:00",
      "mercado": "KXHIGHCHI-26NOV04-B69.5",
      "lado": "no",
      "precio": 0.95,
      "contratos": 20
-    },
-    {
-     "fecha": "2026-11-04T15:00:02.647581+00:00",
-     "mercado": "KXHIGHNY-26NOV04-T70",
-     "lado": "no",
-     "precio": 0.95,
-     "contratos": 20
-    },
-    {
-     "fecha": "2026-11-04T15:00:04.511983+00:00",
-     "mercado": "KXHIGHMIA-26NOV04-T81",
-     "lado": "no",
-     "precio": 0.93,
-     "contratos": 12
     },
     {
      "fecha": "2026-11-05T05:00:06.618406+00:00",
@@ -97,6 +85,18 @@
     {
      "t": "2026-11-02T03:00:03.430286+00:00",
      "v": 486.53
+    },
+    {
+     "t": "2026-11-04T03:00:06.976182+00:00",
+     "v": 487.46
+    },
+    {
+     "t": "2026-11-04T15:00:02.647581+00:00",
+     "v": 488.39
+    },
+    {
+     "t": "2026-11-04T15:00:04.511983+00:00",
+     "v": 489.17
     }
    ],
    "operaciones": [
@@ -165,10 +165,43 @@
      "gano": true,
      "pnl": 0.13,
      "saldo": 486.53
+    },
+    {
+     "fecha": "2026-11-04T03:00:06.976182+00:00",
+     "mercado": "KXHIGHMIA-26NOV04-B81.5",
+     "lado": "no",
+     "precio": 0.95,
+     "contratos": 20.0,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 0.93,
+     "saldo": 487.46
+    },
+    {
+     "fecha": "2026-11-04T15:00:02.647581+00:00",
+     "mercado": "KXHIGHNY-26NOV04-T70",
+     "lado": "no",
+     "precio": 0.95,
+     "contratos": 20.0,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 0.93,
+     "saldo": 488.39
+    },
+    {
+     "fecha": "2026-11-04T15:00:04.511983+00:00",
+     "mercado": "KXHIGHMIA-26NOV04-T81",
+     "lado": "no",
+     "precio": 0.93,
+     "contratos": 12.0,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 0.78,
+     "saldo": 489.17
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-05T07:10:12.270284-05:00"
+   "ultimo_latido": "2026-11-05T07:20:12.988408-05:00"
   },
   {
    "id": "v2_1",
@@ -1153,7 +1186,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-05T07:10:39.814946-05:00"
+   "ultimo_latido": "2026-11-05T07:20:39.467176-05:00"
   }
  ]
 }
