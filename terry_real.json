@@ -1,11 +1,11 @@
 {
- "generated": 1793875836.4075613,
- "generated_et": "2026-11-05 05:50:37 ET",
+ "generated": 1793876023.8481271,
+ "generated_et": "2026-11-05 05:53:44 ET",
  "mode": "real",
  "config": {
   "size_usd": 5,
   "daily_loss_cap_usd": 10.0,
-  "min_prob": 0.66,
+  "min_prob": 0.6,
   "max_entry_price": 0.9
  },
  "balance": {
@@ -7411,7 +7411,7 @@
   "bolsa": 184
  },
  "open": [],
- "heartbeat": 1793875830.5530407,
+ "heartbeat": 1793876010.7769043,
  "running": true,
  "stop_file": false
 }
