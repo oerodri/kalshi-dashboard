@@ -1,6 +1,6 @@
 {
- "generated": 1793919881.453277,
- "generated_et": "2026-11-05 18:04:42 ET",
+ "generated": 1793920128.1156619,
+ "generated_et": "2026-11-05 18:08:48 ET",
  "mode": "real",
  "config": {
   "size_usd": 5,
@@ -1418,7 +1418,7 @@
   "cap_hit": false
  },
  "counts": {
-  "saltada": 252,
+  "saltada": 253,
   "error": 2,
   "gano": 178,
   "nofill": 149,
@@ -2552,6 +2552,28 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-05-2305z",
+   "ronda": "2305z",
+   "hora": "18:08:08",
+   "day": "2026-11-05",
+   "ts": 1793920088.3483334,
+   "side": "down",
+   "prob": 0.7031,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": null,
+   "order_id": null,
+   "aviso": null,
+   "out": "saltada",
+   "motivo": "gap ask 0.79 vs terry 0.73",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-05-2300z",
    "ronda": "2300z",
@@ -6993,32 +7015,6 @@
    "pct_bal": null,
    "pct_gan": null,
    "bal_entrada": null
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-04-0810z",
-   "ronda": "0810z",
-   "hora": "03:13:03",
-   "day": "2026-11-04",
-   "ts": 1793779983.8396478,
-   "side": "down",
-   "prob": 0.7084,
-   "precio": null,
-   "qty": null,
-   "fee": null,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 132,
-    "bolsa": 152
-   },
-   "order_id": "DGSTEWS013CZ",
-   "aviso": null,
-   "out": "nofill",
-   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)",
-   "costo": null,
-   "pct_bal": null,
-   "pct_gan": null,
-   "bal_entrada": null
   }
  ],
  "lat_avg": {
@@ -7027,7 +7023,7 @@
   "bolsa": 184
  },
  "open": [],
- "heartbeat": 1793919865.0167873,
+ "heartbeat": 1793920125.3832233,
  "running": true,
  "stop_file": false
 }
