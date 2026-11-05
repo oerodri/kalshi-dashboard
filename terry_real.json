@@ -1,6 +1,6 @@
 {
- "generated": 1793863341.4617796,
- "generated_et": "2026-11-05 02:22:22 ET",
+ "generated": 1793863527.1345274,
+ "generated_et": "2026-11-05 02:25:27 ET",
  "mode": "real",
  "config": {
   "size_usd": 5,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 30.01651,
-  "buying_power": 30.01651,
+  "current": 32.69501,
+  "buying_power": 32.69501,
   "in_positions": 0
  },
  "balance_err": null,
@@ -1394,15 +1394,19 @@
   [
    1793832582,
    30.01651
+  ],
+  [
+   1793863527,
+   32.69501
   ]
  ],
  "totals": {
   "trades": 225,
   "wins": 178,
   "win_pct": 79.1,
-  "gross_pnl": 5.0704,
+  "gross_pnl": 5.0652,
   "fees": 6.17,
-  "net_pnl": -1.0996
+  "net_pnl": -1.1048
  },
  "today": {
   "day": "2026-11-05",
@@ -2498,52 +2502,52 @@
   ],
   [
    1793745154,
-   -0.8,
+   -0.8018,
    "2230z"
   ],
   [
    1793745780,
-   -0.7406,
+   -0.7458,
    "2240z"
   ],
   [
    1793746082,
-   -0.6318,
+   -0.637,
    "2245z"
   ],
   [
    1793746649,
-   -0.5326,
+   -0.5378,
    "2255z"
   ],
   [
    1793746937,
-   -0.3726,
+   -0.3778,
    "2300z"
   ],
   [
    1793747298,
-   -0.1576,
+   -0.1628,
    "2305z"
   ],
   [
    1793747531,
-   0.1174,
+   0.1122,
    "2310z"
   ],
   [
    1793747813,
-   -1.0122,
+   -1.0174,
    "2315z"
   ],
   [
    1793748121,
-   -1.0842,
+   -1.0894,
    "2320z"
   ],
   [
    1793748440,
-   -1.0996,
+   -1.1048,
    "2325z"
   ]
  ],
@@ -6448,9 +6452,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.52,
-   "pct_bal": 1.7,
+   "pct_bal": 89.1,
    "pct_gan": 30.8,
-   "bal_entrada": 30.6709
+   "bal_entrada": 0.58351
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2255z",
@@ -6474,9 +6478,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.4208,
-   "pct_bal": 1.4,
+   "pct_bal": 86.9,
    "pct_gan": 23.6,
-   "bal_entrada": 30.5717
+   "bal_entrada": 0.48431
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2245z",
@@ -6500,9 +6504,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.3312,
-   "pct_bal": 1.1,
+   "pct_bal": 88.2,
    "pct_gan": 32.9,
-   "bal_entrada": 30.4629
+   "bal_entrada": 0.37551
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2240z",
@@ -6515,7 +6519,7 @@
    "precio": 0.82,
    "qty": 0.33,
    "fee": 0.0,
-   "pnl": 0.0594,
+   "pnl": 0.056,
    "lat": {
     "llamada": 0,
     "envio": 133,
@@ -6526,9 +6530,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.2706,
-   "pct_bal": 0.9,
-   "pct_gan": 22.0,
-   "bal_entrada": 30.6741
+   "pct_bal": 85.6,
+   "pct_gan": 20.7,
+   "bal_entrada": 0.31611
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2230z",
@@ -6541,7 +6545,7 @@
    "precio": 0.89,
    "qty": 0.27,
    "fee": 0.0,
-   "pnl": 0.0297,
+   "pnl": 0.0279,
    "lat": {
     "llamada": 0,
     "envio": 130,
@@ -6553,7 +6557,7 @@
    "motivo": "Liquidada",
    "costo": 0.2403,
    "pct_bal": 83.9,
-   "pct_gan": 12.4,
+   "pct_gan": 11.6,
    "bal_entrada": 0.28641
   },
   {
@@ -7539,7 +7543,7 @@
   "bolsa": 184
  },
  "open": [],
- "heartbeat": 1793863333.4238474,
+ "heartbeat": 1793863513.6910715,
  "running": true,
  "stop_file": false
 }
