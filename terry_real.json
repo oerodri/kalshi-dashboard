@@ -1,6 +1,6 @@
 {
- "generated": 1793908607.238078,
- "generated_et": "2026-11-05 14:56:48 ET",
+ "generated": 1793908916.4852538,
+ "generated_et": "2026-11-05 15:01:57 ET",
  "mode": "real",
  "config": {
   "size_usd": 5,
@@ -1418,7 +1418,7 @@
   "cap_hit": false
  },
  "counts": {
-  "saltada": 217,
+  "saltada": 218,
   "error": 2,
   "gano": 178,
   "nofill": 149,
@@ -2552,6 +2552,28 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-05-2000z",
+   "ronda": "2000z",
+   "hora": "15:01:30",
+   "day": "2026-11-05",
+   "ts": 1793908890.8276672,
+   "side": "down",
+   "prob": 0.7765,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": null,
+   "order_id": null,
+   "aviso": null,
+   "out": "saltada",
+   "motivo": "horario 12-18 ET",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-05-1955z",
    "ronda": "1955z",
@@ -7125,32 +7147,6 @@
    "pct_bal": null,
    "pct_gan": null,
    "bal_entrada": null
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-04-0445z",
-   "ronda": "0445z",
-   "hora": "23:46:30",
-   "day": "2026-11-03",
-   "ts": 1793767590.8203819,
-   "side": "up",
-   "prob": 0.7002,
-   "precio": null,
-   "qty": null,
-   "fee": null,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 142,
-    "bolsa": 135
-   },
-   "order_id": "DGPVX81G13D6",
-   "aviso": null,
-   "out": "nofill",
-   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)",
-   "costo": null,
-   "pct_bal": null,
-   "pct_gan": null,
-   "bal_entrada": null
   }
  ],
  "lat_avg": {
@@ -7159,7 +7155,7 @@
   "bolsa": 184
  },
  "open": [],
- "heartbeat": 1793908593.1095169,
+ "heartbeat": 1793908909.5607817,
  "running": true,
  "stop_file": false
 }
