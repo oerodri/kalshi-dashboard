@@ -1,6 +1,6 @@
 {
- "generated": 1793877038.2824514,
- "generated_et": "2026-11-05 06:10:39 ET",
+ "generated": 1793877680.1896708,
+ "generated_et": "2026-11-05 06:21:33 ET",
  "mode": "real",
  "config": {
   "size_usd": 5,
@@ -7314,9 +7314,9 @@
    "out": "gano",
    "motivo": "Liquidada",
    "costo": 0.52,
-   "pct_bal": 89.1,
+   "pct_bal": 1.7,
    "pct_gan": 30.8,
-   "bal_entrada": 0.58351
+   "bal_entrada": 30.6709
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-03-2255z",
@@ -7403,7 +7403,7 @@
   "bolsa": 184
  },
  "open": [],
- "heartbeat": 1793877031.0862463,
+ "heartbeat": 1793877691.9530184,
  "running": true,
  "stop_file": false
 }
