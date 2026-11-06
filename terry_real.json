@@ -1,6 +1,6 @@
 {
- "generated": 1793937079.3814206,
- "generated_et": "2026-11-05 22:51:20 ET",
+ "generated": 1793937234.282325,
+ "generated_et": "2026-11-05 22:53:55 ET",
  "mode": "real",
  "config": {
   "size_usd": 5,
@@ -1446,7 +1446,7 @@
   "cap_hit": false
  },
  "counts": {
-  "saltada": 301,
+  "saltada": 302,
   "error": 2,
   "gano": 179,
   "nofill": 150,
@@ -2590,6 +2590,28 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-06-0350z",
+   "ronda": "0350z",
+   "hora": "22:52:30",
+   "day": "2026-11-05",
+   "ts": 1793937150.0157082,
+   "side": "down",
+   "prob": 0.7817,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": null,
+   "order_id": null,
+   "aviso": null,
+   "out": "saltada",
+   "motivo": "edge -0.028<0.02",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-06-0345z",
    "ronda": "0345z",
@@ -6983,28 +7005,6 @@
    "pct_bal": null,
    "pct_gan": null,
    "bal_entrada": null
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-05-0640z",
-   "ronda": "0640z",
-   "hora": "01:41:32",
-   "day": "2026-11-05",
-   "ts": 1793860892.4909854,
-   "side": "up",
-   "prob": 0.7751,
-   "precio": null,
-   "qty": null,
-   "fee": null,
-   "pnl": null,
-   "lat": null,
-   "order_id": null,
-   "aviso": null,
-   "out": "saltada",
-   "motivo": "edge 0.015<0.03",
-   "costo": null,
-   "pct_bal": null,
-   "pct_gan": null,
-   "bal_entrada": null
   }
  ],
  "lat_avg": {
@@ -7013,7 +7013,7 @@
   "bolsa": 185
  },
  "open": [],
- "heartbeat": 1793937070.3237803,
+ "heartbeat": 1793937230.5500045,
  "running": true,
  "stop_file": false
 }
