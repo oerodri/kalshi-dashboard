@@ -1,6 +1,6 @@
 {
- "generated": 1793946723.7234995,
- "generated_et": "2026-11-06 01:32:04 ET",
+ "generated": 1793947032.6426308,
+ "generated_et": "2026-11-06 01:37:13 ET",
  "mode": "real",
  "config": {
   "size_usd": 5,
@@ -9,8 +9,8 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 8.71081,
-  "buying_power": 8.71081,
+  "current": 3.94841,
+  "buying_power": 3.94841,
   "in_positions": 0
  },
  "balance_err": null,
@@ -1430,6 +1430,10 @@
   [
    1793937420,
    8.71081
+  ],
+  [
+   1793947033,
+   3.94841
   ]
  ],
  "totals": {
@@ -1454,7 +1458,8 @@
   "error": 2,
   "gano": 180,
   "nofill": 150,
-  "perdio": 48
+  "perdio": 48,
+  "abierta": 1
  },
  "equity": [
   [
@@ -2599,6 +2604,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-06-0635z",
+   "ronda": "0635z",
+   "hora": "01:36:30",
+   "day": "2026-11-06",
+   "ts": 1793946990.6632757,
+   "side": "up",
+   "prob": 0.8607,
+   "precio": 0.84,
+   "qty": 5.61,
+   "fee": 0.05,
+   "pnl": null,
+   "lat": {
+    "llamada": 746,
+    "envio": 137,
+    "bolsa": 184
+   },
+   "order_id": "DJ1MKW2013ZD",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 4.7624,
+   "pct_bal": 54.7,
+   "pct_gan": null,
+   "bal_entrada": 8.7108
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-06-0630z",
    "ronda": "0630z",
@@ -6996,37 +7027,42 @@
    "pct_bal": null,
    "pct_gan": null,
    "bal_entrada": null
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-05-0925z",
-   "ronda": "0925z",
-   "hora": "04:26:33",
-   "day": "2026-11-05",
-   "ts": 1793870793.1790643,
-   "side": "up",
-   "prob": 0.7276,
-   "precio": null,
-   "qty": null,
-   "fee": null,
-   "pnl": null,
-   "lat": null,
-   "order_id": null,
-   "aviso": null,
-   "out": "saltada",
-   "motivo": "edge -0.012<0.03",
-   "costo": null,
-   "pct_bal": null,
-   "pct_gan": null,
-   "bal_entrada": null
   }
  ],
  "lat_avg": {
-  "llamada": 334,
+  "llamada": 335,
   "envio": 133,
   "bolsa": 185
  },
- "open": [],
- "heartbeat": 1793946707.6481206,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-06-0635z",
+   "ronda": "0635z",
+   "hora": "01:36:30",
+   "day": "2026-11-06",
+   "ts": 1793946990.6632757,
+   "side": "up",
+   "prob": 0.8607,
+   "precio": 0.84,
+   "qty": 5.61,
+   "fee": 0.05,
+   "pnl": null,
+   "lat": {
+    "llamada": 746,
+    "envio": 137,
+    "bolsa": 184
+   },
+   "order_id": "DJ1MKW2013ZD",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 4.7624,
+   "pct_bal": 54.7,
+   "pct_gan": null,
+   "bal_entrada": 8.7108
+  }
+ ],
+ "heartbeat": 1793947025.4946876,
  "running": true,
  "stop_file": false
 }
