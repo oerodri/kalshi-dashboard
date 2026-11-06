@@ -399,6 +399,57 @@ test('una señal que ya vino en el snapshot no se reemplaza', async () => {
   assert.equal(stale.receiptMs, receipt);
 });
 
+test('a los 4 s y al cerrar el canal se bloquea la señal sin mover el recibo', async () => {
+  const receipt = Date.parse('2026-11-06T16:41:00.000Z');
+  let now = receipt + 500;
+  const session = createSession();
+  const body = {
+    markets: [{
+      ticker: 'KXWTI-26NOV0614-T90.49',
+      event_ticker: 'KXWTI-26NOV0614',
+      strike: 90.49,
+      close_time: '2026-11-06T21:00:00Z',
+      yes_bid: '0.5000',
+      yes_ask: '0.5200',
+      bid_qty: '100',
+      ask_qty: '100',
+      receipt_utc: new Date(receipt).toISOString(),
+      signal: { state: 'Condición cumplida (sin validar)', reason: 'desde el origen', family: 'legacy_yes_dip_3c', label: 'LEGACY' },
+      bilateral: { state: 'Candidato observado (sin validar)', reason: 'desde el origen', validation: { status: 'Exploratorio · no validado', hit_rate_display: 'Sin muestra suficiente' } },
+      economics_if_both_fill: { net: '0.14', gross: '0.50', fee_in: '0.18', fee_out: '0.18', premium: '5.00' },
+    }],
+  };
+  class Socket {
+    constructor() { Socket.last = this; }
+    close() { if (this.onclose) this.onclose(); }
+  }
+  startRadar({
+    now: () => now,
+    snapshotUrl: 'https://wti-radar-snapshot.oerodri-radar.workers.dev/snapshot',
+    liveUrl: 'wss://wti-radar-snapshot.oerodri-radar.workers.dev/live',
+    session,
+    WebSocket: Socket,
+    fetch: async () => json(body),
+    setInterval: () => 1,
+    clearInterval() {},
+    render() { return null; },
+  });
+  for (let i = 0; i < 6; i++) await Promise.resolve();
+  const live = session.view(now);
+  assert.equal(live.stale, false);
+  assert.equal(live.markets[0].legacy.state, 'Condición cumplida (sin validar)');
+  assert.equal(session.view(receipt + 4000).markets[0].legacy.state, 'Bloqueada');
+  assert.equal(session.view(receipt + 4000).markets[0].bilateral.state, 'Bloqueada');
+  assert.equal(session.view(receipt + 4000).receiptMs, receipt);
+  now = receipt + 800;
+  Socket.last.onclose();
+  const closed = session.view(now);
+  assert.equal(closed.stale, true);
+  assert.equal(closed.markets[0].legacy.state, 'Bloqueada');
+  assert.equal(closed.markets[0].econ, null);
+  assert.equal(closed.receiptMs, receipt);
+});
+
 test('el panel y el enlace conservan el resto del dashboard', () => {
   const dash = fs.readFileSync(new URL('../../index.html', import.meta.url), 'utf8');
   const page = fs.readFileSync(new URL('../index.html', import.meta.url), 'utf8');

@@ -54,7 +54,12 @@ export function startRadar(env) {
         const last = market.points[market.points.length - 1];
         return last && (min == null || last.receipt_ms < min) ? last.receipt_ms : min;
       }, null);
-      if (known != null && incoming != null && incoming <= known) return;
+      if (known != null && incoming != null && incoming < known) return;
+      if (known != null && incoming != null && incoming === known) {
+        session.markReachable(now);
+        paint();
+        return;
+      }
       session.replaceFromSnapshot({ markets: parsed.markets, attemptMs: now });
       paint();
     } catch {
@@ -83,8 +88,15 @@ export function startRadar(env) {
       socket = new WS(live);
       socket.onmessage = (ev) => { void applyMessage(ev.data); };
       socket.onopen = () => stopFallback();
-      socket.onclose = () => startFallback();
-      socket.onerror = () => {};
+      socket.onclose = () => {
+        session.markUnreachable(env.now());
+        paint();
+        startFallback();
+      };
+      socket.onerror = () => {
+        session.markUnreachable(env.now());
+        paint();
+      };
     } catch {
       startFallback();
     }

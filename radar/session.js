@@ -62,6 +62,16 @@ export function createSession() {
       lastError = String((err && err.message) || err || 'error');
       lastAttemptMs = attemptMs;
     },
+    markUnreachable(attemptMs) {
+      lastRoundOk = false;
+      lastError = 'canal cerrado';
+      lastAttemptMs = attemptMs;
+    },
+    markReachable(attemptMs) {
+      lastRoundOk = true;
+      lastError = '';
+      lastAttemptMs = attemptMs;
+    },
     commit({ selection: sel, updates, attemptMs, seriesInfo: info }) {
       inFlight = false;
       lastRoundOk = true;
