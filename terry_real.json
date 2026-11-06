@@ -1,6 +1,6 @@
 {
- "generated": 1793924503.7643788,
- "generated_et": "2026-11-05 19:21:44 ET",
+ "generated": 1793924872.56214,
+ "generated_et": "2026-11-05 19:27:53 ET",
  "mode": "real",
  "config": {
   "size_usd": 5,
@@ -1422,7 +1422,7 @@
   "cap_hit": false
  },
  "counts": {
-  "saltada": 266,
+  "saltada": 267,
   "error": 2,
   "gano": 178,
   "nofill": 149,
@@ -2561,6 +2561,28 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-06-0025z",
+   "ronda": "0025z",
+   "hora": "19:27:01",
+   "day": "2026-11-05",
+   "ts": 1793924821.7606242,
+   "side": "up",
+   "prob": 0.7221,
+   "precio": null,
+   "qty": null,
+   "fee": null,
+   "pnl": null,
+   "lat": null,
+   "order_id": null,
+   "aviso": null,
+   "out": "saltada",
+   "motivo": "edge 0.002<0.02",
+   "costo": null,
+   "pct_bal": null,
+   "pct_gan": null,
+   "bal_entrada": null
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-06-0020z",
    "ronda": "0020z",
@@ -6954,32 +6976,6 @@
    "pct_bal": null,
    "pct_gan": null,
    "bal_entrada": null
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-04-0925z",
-   "ronda": "0925z",
-   "hora": "04:26:42",
-   "day": "2026-11-04",
-   "ts": 1793784402.2176225,
-   "side": "up",
-   "prob": 0.8735,
-   "precio": null,
-   "qty": null,
-   "fee": null,
-   "pnl": null,
-   "lat": {
-    "llamada": 0,
-    "envio": 127,
-    "bolsa": 243
-   },
-   "order_id": "DGTW5M3013D8",
-   "aviso": null,
-   "out": "nofill",
-   "motivo": "No se llenó: el precio se movió antes de llegar (IOC)",
-   "costo": null,
-   "pct_bal": null,
-   "pct_gan": null,
-   "bal_entrada": null
   }
  ],
  "lat_avg": {
@@ -6988,7 +6984,7 @@
   "bolsa": 185
  },
  "open": [],
- "heartbeat": 1793924494.012841,
+ "heartbeat": 1793924872.5421057,
  "running": true,
  "stop_file": false
 }
