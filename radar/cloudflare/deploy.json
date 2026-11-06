@@ -1,0 +1,91 @@
+{
+  "account_id": "30f8b8a4671fd3352e6a36725a1d40d5",
+  "script_name": "wti-radar-snapshot",
+  "deployed": false,
+  "previous_deploy_id": "21207bf22e7f4834b55e370292e8c85d",
+  "this_artifact_uploaded": false,
+  "transport_of_box_ingest_validated": false,
+  "workers_dev_hostname": null,
+  "snapshot_url_in_repo": "",
+  "workers_dev": {
+    "observed": "no subdomain; initialize returns 404 until PUT",
+    "initialize": {
+      "method": "PUT",
+      "url": "https://api.cloudflare.com/client/v4/accounts/30f8b8a4671fd3352e6a36725a1d40d5/workers/subdomain",
+      "json": { "subdomain": "<parent-chooses>" }
+    },
+    "enable_script": {
+      "method": "POST",
+      "url": "https://api.cloudflare.com/client/v4/accounts/30f8b8a4671fd3352e6a36725a1d40d5/workers/scripts/wti-radar-snapshot/subdomain",
+      "json": { "enabled": true }
+    }
+  },
+  "upload": {
+    "method": "PUT",
+    "url": "https://api.cloudflare.com/client/v4/accounts/30f8b8a4671fd3352e6a36725a1d40d5/workers/scripts/wti-radar-snapshot",
+    "content_type": "multipart/form-data",
+    "parts": [
+      { "name": "metadata", "content_type": "application/json", "file": "metadata.first.json" },
+      { "name": "worker.js", "filename": "worker.js", "content_type": "application/javascript+module", "file": "worker.js" }
+    ],
+    "later_uploads_use": "metadata.next.json"
+  },
+  "secret_binding": {
+    "name": "INGEST_TOKEN",
+    "type": "secret_text",
+    "do_not_put_value_in_repo_or_artifact": true,
+    "method": "PUT",
+    "url": "https://api.cloudflare.com/client/v4/accounts/30f8b8a4671fd3352e6a36725a1d40d5/workers/scripts/wti-radar-snapshot/secrets",
+    "json_shape": { "name": "INGEST_TOKEN", "text": "<parent-generates-locally>", "type": "secret_text" }
+  },
+  "durable_object": {
+    "binding": "RADAR",
+    "class_name": "RadarSnapshot",
+    "storage": "sqlite",
+    "instance": "idFromName('wti')",
+    "writes_per_accepted_ingest": 1,
+    "writes_per_get": 0,
+    "writes_per_replay_or_reject": 0
+  },
+  "free_tier_account_wide": {
+    "worker_requests_per_day": 100000,
+    "durable_object_requests_per_day": 100000,
+    "sqlite_rows_written_per_day": 100000,
+    "duration_gb_s_per_day": 13000,
+    "reset": "00:00 UTC",
+    "over_request_error": "1027",
+    "ingress_1_5s": 57600,
+    "viewer_http_1hz_8h": 28800,
+    "ingress_plus_8h_1hz_before_retries": 86400,
+    "ingress_plus_24h_1hz": 144000,
+    "full_day_1hz_fits": false,
+    "viewer_transport": "hibernating WebSocket /live; UI 1s is local; outgoing pushes are not request-billed",
+    "http_fallback_if_socket_down_ms": 5000,
+    "one_fallback_viewer_plus_ingress": 74880,
+    "paid_plan": "not enabled; billing status was 403; this artifact does not upgrade"
+  },
+  "endpoints": {
+    "GET /snapshot": "public observation, Cache-Control no-store",
+    "GET /health": "receipt and stale flag only, no counter write",
+    "GET /live": "websocket upgrade",
+    "POST /ingest": "Authorization Bearer INGEST_TOKEN; body is the local /api/snapshot"
+  },
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 0.01,
+    "logs_and_traces": true,
+    "never_log_ingest_token": true
+  },
+  "pusher": {
+    "file": "push_snapshot.py",
+    "source": "http://127.0.0.1:8771/api/snapshot",
+    "interval_sec": 1.5,
+    "user_agent": "WTI-Radar-Publisher/1.0",
+    "does_not_call_kalshi": true,
+    "env": ["RADAR_BRIDGE_URL", "RADAR_INGEST_TOKEN"]
+  },
+  "public_urls_not_yet_carrying_books": {
+    "snapshot": "https://wti-radar-snapshot.oerodri-radar.workers.dev/snapshot",
+    "live": "wss://wti-radar-snapshot.oerodri-radar.workers.dev/live"
+  }
+}
