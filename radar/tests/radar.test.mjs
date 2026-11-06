@@ -3,11 +3,12 @@ import fs from 'node:fs';
 import test from 'node:test';
 import { createBilateralEngine, displayStatus, safeMetric } from '../bilateral.js';
 import { CANDIDATES } from '../candidates.js';
-import { explainFetchError, parseOrderbook, pollOnce, selectMarkets } from '../kalshi.js';
+import { parseOrderbook, selectMarkets } from '../kalshi.js';
 import { roundTrip, suggestedQty } from '../money.js';
 import { renderMarkets } from '../render.js';
 import { createSession, STALE_SEC } from '../session.js';
 import { createLegacyEngine } from '../signals.js';
+import { allowedSnapshotUrl, explainFetchError, pollSnapshot } from '../snapshot.js';
 import { fmtCloseET, fmtDataET, fmtNowET } from '../timefmt.js';
 import { BOOK_INTERVAL_MS, startRadar, UI_INTERVAL_MS } from '../app.js';
 
@@ -186,55 +187,52 @@ function json(obj, status = 200) {
   return { ok: status >= 200 && status < 300, status, async json() { return obj; } };
 }
 
-function marketList() {
+function observation(receiptMs, bid, ask) {
+  const iso = new Date(receiptMs).toISOString();
   return {
-    cursor: '',
     markets: [{
       ticker: 'KXWTI-26NOV0614-T90.49',
       event_ticker: 'KXWTI-26NOV0614',
-      floor_strike: 90.49,
-      title: 'WTI above 90.49',
+      strike: 90.49,
       close_time: '2026-11-06T19:30:00Z',
-      status: 'active',
-      yes_bid_dollars: '0.5000',
-      yes_ask_dollars: '0.5200',
+      yes_bid: bid,
+      yes_ask: ask,
+      bid_qty: '100',
+      ask_qty: '100',
+      yes_levels: 4,
+      no_levels: 5,
+      receipt_utc: iso,
+      series: [
+        { receipt_utc: new Date(receiptMs - 1500).toISOString(), bid, ask, bid_qty: 100, ask_qty: 100 },
+        { receipt_utc: iso, bid, ask, bid_qty: 100, ask_qty: 100 },
+      ],
     }],
   };
 }
 
-function book(bid, qty, noBid) {
-  return {
-    orderbook_fp: {
-      yes_dollars: [['0.0100', '5.00'], [bid, qty]],
-      no_dollars: [['0.0100', '5.00'], [noBid, '100.00']],
-    },
-  };
-}
-
-test('una vuelta buena avanza el libro; el redibujo y el fallo no', async () => {
-  let t = Date.parse('2026-11-06T15:00:00.000Z');
-  let books = 0;
+test('el puente usa el recibo original; un redibujo o un fallo no lo adelanta', async () => {
+  const base = Date.parse('2026-11-06T15:00:00.000Z');
+  const now = base + 2000;
+  const firstReceipt = base + 1500;
+  const secondReceipt = base + 1800;
+  let round = 0;
   const urls = [];
   const session = createSession();
   const env = {
-    now: () => t,
+    now: () => now,
+    snapshotUrl: 'https://bridge.example/snapshot',
     fetch: async (url) => {
       urls.push(url);
-      t += 25;
-      if (url.includes('/orderbook')) {
-        books += 1;
-        if (books >= 3) throw new TypeError('Failed to fetch');
-        if (books === 1) return json(book('0.5000', '100.00', '0.4800'));
-        return json(book('0.5100', '80.00', '0.4700'));
-      }
-      if (url.includes('/series/')) return json({ series: { fee_type: 'quadratic', fee_multiplier: 1 } });
-      if (url.includes('series_ticker=KXWTI')) return json(marketList());
-      throw new Error(url);
+      round += 1;
+      if (round === 1) return json(observation(firstReceipt, '0.5000', '0.5200'));
+      if (round === 2) return json(observation(firstReceipt, '0.5000', '0.5200'));
+      if (round === 3) return json(observation(secondReceipt, '0.5100', '0.5300'));
+      throw new TypeError('Failed to fetch');
     },
   };
-  const first = await pollOnce(session, env);
+  const first = await pollSnapshot(session, env);
   assert.equal(first.ok, true);
-  const afterFirst = session.view(t);
+  const afterFirst = session.view(now);
   assert.equal(afterFirst.banner, 'DATOS FRESCOS');
   assert.equal(afterFirst.markets[0].bidText, '0.5000');
   assert.equal(afterFirst.markets[0].askText, '0.5200');
@@ -244,57 +242,65 @@ test('una vuelta buena avanza el libro; el redibujo y el fallo no', async () => 
   assert.equal(afterFirst.markets[0].stopEcon.net, '-0.66');
   assert.equal(afterFirst.markets[0].econ.net, roundTrip(5000, 5500, 10).net);
   assert.equal(afterFirst.markets[0].stopEcon.net, roundTrip(5000, 4700, 10).net);
-  assert.match(afterFirst.feeLine, /fee_multiplier=1/);
+  assert.equal(afterFirst.receiptMs, firstReceipt);
+  assert.notEqual(afterFirst.receiptMs, now);
+  assert.equal(afterFirst.markets[0].series.length, 2);
   assert.match(afterFirst.interfaceText, /a\. m\. EST/);
-  assert.match(afterFirst.markets[0].receiptText, /a\. m\. EST/);
-  const receipt = afterFirst.receiptMs;
-  const cardReceipt = afterFirst.markets[0].receiptMs;
-  assert.ok(cardReceipt < afterFirst.attemptMs);
-  session.noteUiTick(t + 1000);
-  const redraw = session.view(t + 1000);
-  assert.equal(redraw.receiptMs, receipt);
-  assert.equal(redraw.markets[0].receiptMs, cardReceipt);
-  assert.equal(redraw.markets[0].bidText, '0.5000');
+  session.noteUiTick(now + 1000);
+  const redraw = session.view(now + 1000);
+  assert.equal(redraw.receiptMs, firstReceipt);
   assert.equal(redraw.banner, 'DATOS FRESCOS');
-  assert.equal(redraw.uiTicks, 1);
-  assert.equal(session.view(cardReceipt + 4000).stale, false);
-  assert.equal(session.view(cardReceipt + 4001).stale, true);
-  assert.equal(session.view(cardReceipt + 4001).markets[0].econ, null);
-  assert.equal(session.view(cardReceipt + 4001).markets[0].legacy.state, 'Bloqueada');
+  assert.equal(session.view(firstReceipt + 4000).stale, false);
+  assert.equal(session.view(firstReceipt + 4001).stale, true);
+  assert.equal(session.view(firstReceipt + 4001).markets[0].econ, null);
+  assert.equal(session.view(firstReceipt + 4001).markets[0].legacy.state, 'Bloqueada');
 
-  const second = await pollOnce(session, env);
-  assert.equal(second.ok, true);
-  const moved = session.view(t);
-  assert.equal(moved.markets[0].bidText, '0.5100');
-  assert.notEqual(moved.markets[0].receiptMs, cardReceipt);
-  assert.equal(moved.banner, 'DATOS FRESCOS');
-  assert.equal(urls.filter((u) => u.includes('series_ticker=KXWTI')).length, 1);
-  const kept = moved.receiptMs;
+  const repeat = await pollSnapshot(session, env);
+  assert.equal(repeat.ok, true);
+  assert.equal(session.view(now).receiptMs, firstReceipt);
+  assert.equal(session.view(now).markets[0].series.length, 2);
 
-  const third = await pollOnce(session, env);
+  const moved = await pollSnapshot(session, env);
+  assert.equal(moved.ok, true);
+  const next = session.view(now);
+  assert.equal(next.receiptMs, secondReceipt);
+  assert.equal(next.markets[0].bidText, '0.5100');
+  assert.equal(next.banner, 'DATOS FRESCOS');
+
+  const old = await pollSnapshot(createSession(), {
+    now: () => now,
+    snapshotUrl: 'https://bridge.example/snapshot',
+    fetch: async () => json(observation(now - 10000, '0.5000', '0.5200')),
+  });
+  assert.equal(old.ok, true);
+  assert.equal(old.ok && true, true);
+  const staleView = createSession();
+  await pollSnapshot(staleView, {
+    now: () => now,
+    snapshotUrl: 'https://bridge.example/snapshot',
+    fetch: async () => json(observation(now - 10000, '0.5000', '0.5200')),
+  });
+  assert.equal(staleView.view(now).banner, 'DATOS ATRASADOS');
+  assert.equal(staleView.view(now).markets[0].econ, null);
+
+  const third = await pollSnapshot(session, env);
   assert.equal(third.ok, false);
-  const failed = session.view(t);
+  const failed = session.view(now);
   assert.equal(failed.banner, 'DATOS ATRASADOS');
-  assert.equal(failed.stale, true);
-  assert.equal(failed.receiptMs, kept);
-  assert.notEqual(failed.attemptMs, kept);
-  assert.equal(failed.markets[0].bidText, '0.5100');
+  assert.equal(failed.receiptMs, secondReceipt);
   assert.equal(failed.markets[0].econ, null);
-  assert.equal(failed.markets[0].stopEcon, null);
   assert.equal(failed.markets[0].sizeText, 'bloqueado');
   assert.equal(failed.markets[0].legacy.state, 'Bloqueada');
-  assert.match(failed.reason, /403/);
-  assert.match(failed.reason, /GitHub Pages/);
+  assert.match(failed.reason, /no se marca como fresco/);
+  assert.deepEqual(urls, Array(4).fill('https://bridge.example/snapshot'));
   const html = renderMarkets(failed);
   assert.match(html, /Exploratorio · no validado/);
   assert.match(html, /Sin muestra suficiente/);
   assert.doesNotMatch(html, /neto /);
   assert.doesNotMatch(html, /\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d+)?Z/);
-  const freshHtml = renderMarkets(moved);
-  assert.match(freshHtml, /neto 0\.14|neto 0\.1/);
-  assert.match(freshHtml, new RegExp(`neto ${moved.markets[0].econ.net}`));
-  assert.match(freshHtml, new RegExp(`comisiones ${moved.markets[0].econ.fee_in}\\+${moved.markets[0].econ.fee_out}`));
-  assert.doesNotMatch(freshHtml, /\d{4}-\d{2}-\d{2}T/);
+  const freshHtml = renderMarkets(next);
+  assert.match(freshHtml, new RegExp(`neto ${next.markets[0].econ.net}`));
+  assert.match(freshHtml, new RegExp(`comisiones ${next.markets[0].econ.fee_in}\\+${next.markets[0].econ.fee_out}`));
 });
 
 test('no hay peticiones solapadas y un redibujo no pide libros', async () => {
@@ -302,19 +308,37 @@ test('no hay peticiones solapadas y un redibujo no pide libros', async () => {
   const gate = new Promise((resolve, reject) => { release = reject; });
   const session = createSession();
   let calls = 0;
-  const first = pollOnce(session, {
+  const quiet = createSession();
+  let quietCalls = 0;
+  const missing = await pollSnapshot(quiet, {
+    now: () => 1,
+    snapshotUrl: '',
+    fetch: () => { quietCalls += 1; return gate; },
+  });
+  assert.equal(missing.ok, false);
+  assert.equal(quietCalls, 0);
+  assert.equal(quiet.view(1).banner, 'DATOS ATRASADOS');
+  assert.equal(allowedSnapshotUrl('https://external-api.kalshi.com/trade-api/v2/markets'), '');
+  assert.equal(allowedSnapshotUrl('http://10.0.0.8/snapshot'), '');
+  assert.match(allowedSnapshotUrl('http://127.0.0.1:8780/snapshot'), /127\.0\.0\.1:8780/);
+
+  const first = pollSnapshot(session, {
     now: () => 1_700_000_000_000,
-    bases: ['https://example.test/v2', 'https://second.test/v2'],
+    snapshotUrl: 'https://bridge.example/snapshot',
     fetch: () => { calls += 1; return gate; },
   });
-  const second = await pollOnce(session, { now: () => 1, fetch: () => { calls += 1; return gate; } });
+  const second = await pollSnapshot(session, {
+    now: () => 1,
+    snapshotUrl: 'https://bridge.example/snapshot',
+    fetch: () => { calls += 1; return gate; },
+  });
   assert.equal(second.skipped, true);
   assert.equal(calls, 1);
   release(new TypeError('Failed to fetch'));
   const done = await first;
   assert.equal(done.ok, false);
   assert.equal(session.view(1).banner, 'DATOS ATRASADOS');
-  assert.equal(explainFetchError('Failed to fetch').includes('403'), true);
+  assert.match(explainFetchError('Failed to fetch'), /no se marca como fresco/);
 
   const intervals = [];
   let fetches = 0;
@@ -323,6 +347,7 @@ test('no hay peticiones solapadas y un redibujo no pide libros', async () => {
   const banners = [];
   startRadar({
     now: () => Date.parse('2026-11-06T15:10:00Z'),
+    snapshotUrl: 'https://bridge.example/snapshot',
     session: createSession(),
     fetch: () => { fetches += 1; return hold; },
     setInterval: (fn, ms) => { intervals.push({ fn, ms }); return intervals.length; },
@@ -359,5 +384,10 @@ test('el panel y el enlace conservan el resto del dashboard', () => {
   assert.doesNotMatch(page, /\/portfolio|api-key|KALSHI-ACCESS/i);
   assert.match(app, /if \(polling\) return/);
   assert.match(app, /UI_INTERVAL_MS/);
-  assert.doesNotMatch(app, /noteUiTick[\s\S]{0,80}pollOnce/);
+  assert.match(app, /pollSnapshot/);
+  assert.doesNotMatch(app, /external-api\.kalshi\.com|api\.elections\.kalshi\.com/);
+  const endpoint = JSON.parse(fs.readFileSync(new URL('../endpoint.json', import.meta.url), 'utf8'));
+  assert.equal(endpoint.snapshotUrl, '');
+  const bridge = fs.readFileSync(new URL('../bridge/serve_snapshot.py', import.meta.url), 'utf8');
+  assert.doesNotMatch(bridge, /external-api\.kalshi\.com|api\.elections\.kalshi\.com/);
 });

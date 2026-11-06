@@ -1,5 +1,5 @@
 import { createBilateralEngine } from './bilateral.js';
-import { explainFetchError } from './kalshi.js';
+import { explainFetchError } from './snapshot.js';
 import { formatTicks4, roundTrip, suggestedQty } from './money.js';
 import { createLegacyEngine } from './signals.js';
 import { fmtCloseET, fmtDataET, fmtNowET } from './timefmt.js';
@@ -95,6 +95,16 @@ export function createSession() {
     markSeriesAttempt(nowMs) {
       nextSeriesMs = nowMs + SERIES_MS;
     },
+    replaceFromSnapshot({ markets, attemptMs }) {
+      inFlight = false;
+      lastRoundOk = true;
+      lastError = '';
+      lastAttemptMs = attemptMs;
+      selection = markets.map((market) => market.meta);
+      for (const market of markets) {
+        books.set(market.meta.ticker, market.points.slice(-2000));
+      }
+    },
     currentSelection() {
       return selection;
     },
@@ -108,7 +118,7 @@ export function createSession() {
       let reason;
       if (!lastRoundOk) reason = lastError ? explainFetchError(lastError) : 'Todavía no llegó un libro. No se marca como fresco.';
       else if (stale) reason = `El último libro bueno tiene ${ageSec.toFixed(1)} s. El umbral es ${STALE_SEC} s.`;
-      else reason = 'Llegó un libro nuevo desde la API. La edad cuenta desde esa recepción, no desde el redibujo.';
+      else reason = 'Llegó una observación del puente. La edad es la hora de recepción original, no la de esta descarga.';
       const dataOk = !stale;
       const markets = selection.map((meta) => {
         const series = books.get(meta.ticker) || [];

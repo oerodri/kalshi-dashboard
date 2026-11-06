@@ -1,6 +1,6 @@
-import { pollOnce } from './kalshi.js';
 import { applyView, drawCharts } from './render.js';
 import { createSession } from './session.js';
+import { allowedSnapshotUrl, pollSnapshot } from './snapshot.js';
 
 export const UI_INTERVAL_MS = 1000;
 export const BOOK_INTERVAL_MS = 1500;
@@ -24,7 +24,7 @@ export function startRadar(env) {
     if (polling) return;
     polling = true;
     try {
-      await pollOnce(session, env);
+      await pollSnapshot(session, env);
       paint();
     } finally {
       polling = false;
@@ -46,8 +46,21 @@ export function startRadar(env) {
   };
 }
 
+async function loadSnapshotUrl() {
+  try {
+    const res = await fetch(new URL('./endpoint.json', import.meta.url), { cache: 'no-store' });
+    if (!res.ok) return '';
+    const data = await res.json();
+    return allowedSnapshotUrl(data && data.snapshotUrl);
+  } catch {
+    return '';
+  }
+}
+
 if (typeof document !== 'undefined' && document.getElementById('banner')) {
+  const snapshotUrl = await loadSnapshotUrl();
   startRadar({
+    snapshotUrl,
     now: () => Date.now(),
     fetch: (url, init) => globalThis.fetch(url, init),
     setInterval: (fn, ms) => globalThis.setInterval(fn, ms),
