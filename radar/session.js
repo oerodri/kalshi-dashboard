@@ -124,19 +124,30 @@ export function createSession() {
         const series = books.get(meta.ticker) || [];
         const last = series[series.length - 1] || null;
         const points = series.map(enginePoint);
-        const leg = legacy.evaluate(meta.ticker, points, meta.close_time, nowMs, dataOk && !!last);
-        const all = bilateral.evaluate(meta.ticker, points, meta.close_time, nowMs, dataOk && !!last);
-        const primary = pickPrimary(all);
+        const given = meta.presentation || {};
+        const leg = given.signal
+          ? given.signal
+          : legacy.evaluate(meta.ticker, points, meta.close_time, nowMs, dataOk && !!last);
+        const all = given.bilateral
+          ? (given.bilateral.all || [given.bilateral])
+          : bilateral.evaluate(meta.ticker, points, meta.close_time, nowMs, dataOk && !!last);
+        const primary = given.bilateral || pickPrimary(all);
         let qty = 0;
         let econ = null;
         let stopEcon = null;
-        if (dataOk && last && last.bid_ticks != null && last.bid_qty != null) {
+        if (dataOk && given.econ) {
+          econ = given.econ;
+          stopEcon = given.stopEcon;
+          qty = given.size && given.size.qty != null ? given.size.qty : 0;
+        } else if (dataOk && last && last.bid_ticks != null && last.bid_qty != null) {
           qty = suggestedQty(last.bid_ticks, last.bid_qty);
           if (qty > 0) {
             econ = roundTrip(last.bid_ticks, last.bid_ticks + 500, qty);
             stopEcon = roundTrip(last.bid_ticks, last.bid_ticks - 300, qty);
           }
         }
+        const shownLeg = dataOk ? leg : { state: 'Bloqueada', reason: 'datos atrasados o fuente caída', family: leg.family, label: leg.label };
+        const shownBi = dataOk ? primary : { state: 'Bloqueada', reason: 'datos atrasados o fuente caída', validation: primary && primary.validation };
         return {
           ticker: meta.ticker,
           event_ticker: meta.event_ticker,
@@ -152,9 +163,9 @@ export function createSession() {
           latencyText: last && last.latency_ms != null ? `${Math.round(last.latency_ms)} ms` : '—',
           receiptText: last ? fmtDataET(last.receipt_ms) : '—',
           receiptMs: last ? last.receipt_ms : null,
-          legacy: leg,
-          bilateral: primary,
-          bilateralAll: all,
+          legacy: shownLeg,
+          bilateral: shownBi,
+          bilateralAll: dataOk ? all : [shownBi],
           sizeText: dataOk && last ? `${qty} / $5` : 'bloqueado',
           econ,
           stopEcon,

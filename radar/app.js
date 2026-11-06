@@ -1,9 +1,18 @@
 import { applyView, drawCharts } from './render.js';
 import { createSession } from './session.js';
-import { allowedSnapshotUrl, pollSnapshot } from './snapshot.js';
+import { allowedSnapshotUrl, parseSnapshot, pollSnapshot } from './snapshot.js';
 
 export const UI_INTERVAL_MS = 1000;
-export const BOOK_INTERVAL_MS = 1500;
+export const FALLBACK_POLL_MS = 5000;
+
+export function liveSocketUrl(snapshotUrl) {
+  const url = new URL(snapshotUrl);
+  url.protocol = url.protocol === 'https:' ? 'wss:' : 'ws:';
+  url.pathname = '/live';
+  url.search = '';
+  url.hash = '';
+  return url.toString();
+}
 
 export function startRadar(env) {
   const session = env.session || createSession();
@@ -31,17 +40,62 @@ export function startRadar(env) {
     }
   }
 
+  async function applyMessage(raw) {
+    try {
+      const parsed = parseSnapshot(JSON.parse(raw));
+      const now = env.now();
+      for (const market of parsed.markets) {
+        for (const point of market.points) {
+          if (point.receipt_ms > now + 2000) return;
+        }
+      }
+      const known = session.view(now).receiptMs;
+      const incoming = parsed.markets.reduce((min, market) => {
+        const last = market.points[market.points.length - 1];
+        return last && (min == null || last.receipt_ms < min) ? last.receipt_ms : min;
+      }, null);
+      if (known != null && incoming != null && incoming <= known) return;
+      session.replaceFromSnapshot({ markets: parsed.markets, attemptMs: now });
+      paint();
+    } catch {
+      /* un mensaje malo no adelanta el recibo */
+    }
+  }
+
+  let fallbackId = null;
+  let socket;
+  function startFallback() {
+    if (fallbackId != null || !env.snapshotUrl) return;
+    fallbackId = env.setInterval(() => { void poll(); }, FALLBACK_POLL_MS);
+  }
+  function stopFallback() {
+    if (fallbackId != null) env.clearInterval(fallbackId);
+    fallbackId = null;
+  }
+
   ui();
   const uiId = env.setInterval(ui, UI_INTERVAL_MS);
-  const pollId = env.setInterval(() => {
-    void poll();
-  }, BOOK_INTERVAL_MS);
-  void poll();
+  if (env.snapshotUrl) void poll();
+  const WS = env.WebSocket;
+  if (env.snapshotUrl && WS) {
+    try {
+      socket = new WS(liveSocketUrl(env.snapshotUrl));
+      socket.onmessage = (ev) => { void applyMessage(ev.data); };
+      socket.onopen = () => stopFallback();
+      socket.onclose = () => startFallback();
+      socket.onerror = () => {};
+    } catch {
+      startFallback();
+    }
+  } else if (env.snapshotUrl) {
+    startFallback();
+  }
   return {
     session,
     stop() {
       env.clearInterval(uiId);
-      env.clearInterval(pollId);
+      stopFallback();
+      try { socket && socket.close(); } catch { /* ya cerrado */ }
     },
   };
 }

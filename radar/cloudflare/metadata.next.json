@@ -1,0 +1,15 @@
+{
+  "main_module": "worker.js",
+  "compatibility_date": "2026-11-01",
+  "bindings": [
+    {
+      "type": "durable_object_namespace",
+      "name": "RADAR",
+      "class_name": "RadarSnapshot"
+    }
+  ],
+  "migrations": {
+    "old_tag": "v1",
+    "new_tag": "v1"
+  }
+}

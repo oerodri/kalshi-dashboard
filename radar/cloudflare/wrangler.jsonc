@@ -1,0 +1,9 @@
+{
+  "name": "wti-radar-snapshot",
+  "main": "worker.js",
+  "compatibility_date": "2026-11-01",
+  "durable_objects": {
+    "bindings": [{ "name": "RADAR", "class_name": "RadarSnapshot" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["RadarSnapshot"] }]
+}

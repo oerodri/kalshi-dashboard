@@ -79,6 +79,13 @@ export function parseSnapshot(body) {
         strike: market.strike ?? market.floor_strike ?? '',
         title: market.title || '',
         close_time: market.close_time || '',
+        presentation: {
+          signal: market.signal || null,
+          bilateral: market.bilateral || null,
+          econ: market.economics_if_both_fill || null,
+          stopEcon: market.economics_if_stop_fill || null,
+          size: market.size_idea || null,
+        },
       },
       points: series,
     });

@@ -10,7 +10,7 @@ import { createSession, STALE_SEC } from '../session.js';
 import { createLegacyEngine } from '../signals.js';
 import { allowedSnapshotUrl, explainFetchError, pollSnapshot } from '../snapshot.js';
 import { fmtCloseET, fmtDataET, fmtNowET } from '../timefmt.js';
-import { BOOK_INTERVAL_MS, startRadar, UI_INTERVAL_MS } from '../app.js';
+import { FALLBACK_POLL_MS, liveSocketUrl, startRadar, UI_INTERVAL_MS } from '../app.js';
 
 const ref = JSON.parse(fs.readFileSync(new URL('../reference/CANDIDATES.json', import.meta.url), 'utf8'));
 
@@ -18,7 +18,8 @@ test('las reglas 20/30 copiadas no se retocaron', () => {
   assert.deepEqual(CANDIDATES, ref);
   assert.equal(STALE_SEC, 4);
   assert.equal(UI_INTERVAL_MS, 1000);
-  assert.equal(BOOK_INTERVAL_MS, 1500);
+  assert.equal(FALLBACK_POLL_MS, 5000);
+  assert.equal(liveSocketUrl('https://bridge.example/snapshot'), 'wss://bridge.example/live');
   assert.equal(CANDIDATES.gates_common.gap_break_sec, 4);
   assert.ok(CANDIDATES.candidates.some((c) => c.id === 'RB_YES_20_20_L60' && c.drop_pct === 0.2));
   assert.equal(CANDIDATES.legacy_kept_separate.id, 'LEGACY_YES_DIP_3c_30s');
@@ -354,15 +355,48 @@ test('no hay peticiones solapadas y un redibujo no pide libros', async () => {
     clearInterval() {},
     render(view) { banners.push(view.banner); return null; },
   });
-  assert.deepEqual(intervals.map((i) => i.ms).sort((a, b) => a - b), [1000, 1500]);
+  assert.deepEqual(intervals.map((i) => i.ms).sort((a, b) => a - b), [1000, 5000]);
   assert.equal(fetches, 1);
   assert.equal(banners[0], 'DATOS ATRASADOS');
   intervals.find((i) => i.ms === 1000).fn();
   intervals.find((i) => i.ms === 1000).fn();
-  intervals.find((i) => i.ms === 1500).fn();
+  intervals.find((i) => i.ms === 5000).fn();
   assert.equal(fetches, 1);
   assert.ok(banners.every((b) => b === 'DATOS ATRASADOS'));
   hung(json({ markets: [] }));
+});
+
+test('una señal que ya vino en el snapshot no se reemplaza', async () => {
+  const now = Date.parse('2026-11-06T16:41:00.000Z');
+  const receipt = now - 500;
+  const session = createSession();
+  const body = {
+    markets: [{
+      ticker: 'KXWTI-26NOV0614-T90.49',
+      event_ticker: 'KXWTI-26NOV0614',
+      strike: 90.49,
+      close_time: '2026-11-06T19:30:00Z',
+      yes_bid: '0.5000',
+      yes_ask: '0.5200',
+      bid_qty: '100',
+      ask_qty: '100',
+      receipt_utc: new Date(receipt).toISOString(),
+      signal: { state: 'Esperar', reason: 'desde el origen', family: 'legacy_yes_dip_3c', label: 'LEGACY (caída 3¢ YES)' },
+      bilateral: { state: 'Esperar', reason: 'desde el origen', validation: { status: 'Exploratorio · no validado', hit_rate_display: 'Sin muestra suficiente' } },
+      economics_if_both_fill: { net: '0.14', gross: '0.50', fee_in: '0.18', fee_out: '0.18', premium: '5.00' },
+      economics_if_stop_fill: { net: '-0.66', gross: '-0.30', fee_in: '0.18', fee_out: '0.18', premium: '5.00' },
+      size_idea: { qty: 9 },
+    }],
+  };
+  await pollSnapshot(session, { now: () => now, snapshotUrl: 'https://bridge.example/snapshot', fetch: async () => json(body) });
+  const view = session.view(now);
+  assert.equal(view.markets[0].legacy.reason, 'desde el origen');
+  assert.equal(view.markets[0].econ.net, '0.14');
+  assert.equal(view.receiptMs, receipt);
+  const stale = session.view(receipt + 5000);
+  assert.equal(stale.markets[0].legacy.state, 'Bloqueada');
+  assert.equal(stale.markets[0].econ, null);
+  assert.equal(stale.receiptMs, receipt);
 });
 
 test('el panel y el enlace conservan el resto del dashboard', () => {
@@ -378,7 +412,7 @@ test('el panel y el enlace conservan el resto del dashboard', () => {
   assert.match(page, /Exploratorio · no validado/);
   assert.match(page, /Sin muestra suficiente/);
   assert.match(page, /cada 1 s/);
-  assert.match(page, /1,5 s/);
+  assert.match(page, /1,5/);
   assert.match(page, /4 s/);
   assert.match(page, /DATOS ATRASADOS/);
   assert.doesNotMatch(page, /\/portfolio|api-key|KALSHI-ACCESS/i);
