@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="color-scheme" content="dark"/>
+<title>Radar WTI — Erick</title>
+<style>
+:root{--bg:#0f1419;--card:#1a2332;--txt:#e7ecf3;--mut:#9aa8bc;--ok:#3dd68c;--bad:#ff6b6b;--warn:#ffd166;--line:#2a3548}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--txt);font-size:16px;line-height:1.4}
+a{color:#9ec1ff}
+header{padding:14px 16px;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(15,20,25,.96);z-index:2}
+h1{margin:0;font-size:1.2rem}
+h2{margin:0 0 8px;font-size:1rem;word-break:break-word}
+.sub,.meta{color:var(--mut);font-size:.9rem}
+.banner{margin-top:10px;padding:10px 12px;border-radius:8px;font-weight:700}
+.banner.ok{background:#143528;color:var(--ok)}
+.banner.bad{background:#3a1717;color:var(--bad)}
+main{padding:12px;max-width:980px;margin:0 auto}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin:0 0 12px}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0}
+.row{margin-top:8px}
+.kv{display:grid;grid-template-columns:1fr;gap:8px;margin-top:10px}
+@media(min-width:720px){.kv{grid-template-columns:1fr 1fr}}
+.kv div{background:#121a24;border-radius:8px;padding:8px}
+.kv span,.kv small{display:block;color:var(--mut);font-size:.75rem}
+.kv b{font-size:1rem;font-variant-numeric:tabular-nums}
+.state{display:inline-block;padding:3px 8px;border-radius:999px;font-size:.75rem;font-weight:700;margin-right:6px}
+.s-esperar{background:#243044;color:#c9d4e5}
+.s-prep{background:#3a2e12;color:var(--warn)}
+.s-ok{background:#143528;color:var(--ok)}
+.s-block{background:#3a1717;color:var(--bad)}
+.mini{margin-top:6px;font-size:.82rem;color:var(--mut)}
+canvas{width:100%;height:110px;background:#121a24;border-radius:8px;margin-top:8px;display:block}
+.back{color:var(--mut);font-size:.9rem;text-decoration:none}
+.foot{color:var(--mut);font-size:.8rem;text-align:center;padding:8px 0 24px}
+</style>
+</head>
+<body>
+<header>
+  <a class="back" href="../index.html">← Panel de Erick</a>
+  <h1>Radar WTI — Erick</h1>
+  <p class="sub">Solo observación. Estrategia sin validar. No coloca órdenes. El tope de la idea de tamaño es $5 de prima; no es una orden ni capital apartado.</p>
+  <div id="banner" class="banner bad" role="status" aria-live="polite">DATOS ATRASADOS · sin libro</div>
+  <p id="clock" class="sub">Reloj de la interfaz: esperando el primer dibujo.</p>
+</header>
+<main>
+  <p id="reason" class="sub">Todavía no llegó un libro. Un redibujo no cuenta como dato nuevo.</p>
+  <section class="card">
+    <h2>Qué mira esta página</h2>
+    <p>Contratos diarios de la serie Kalshi <b>KXWTI</b>, para mirarlos en el teléfono antes de decidir a mano. <b>Exploratorio · no validado.</b> <b>Sin muestra suficiente.</b> No hay tasa de acierto, probabilidad calibrada ni ganancia asegurada.</p>
+    <p>Hay dos lecturas separadas. <b>LEGACY</b> busca una caída absoluta de 3¢ en el ask YES, en 30 s, con confirmación. <b>% 20/30</b> mira el precio del contrato YES o NO: una caída o una subida relativa del 20% o del 30%. Ese porcentaje es del contrato (dólares entre 0 y 1). Es el precio del contrato, y el mismo porcentaje no devuelve el pico anterior. Tampoco es ROI después de comisiones ni el movimiento del barril en dólares.</p>
+    <p>La pantalla se redibuja cada 1 s: reloj y edad. Los libros se piden en otra vuelta, cerca de cada 1,5 s, un contrato detrás de otro. Si la vuelta anterior sigue en curso, no empieza otra. El redibujo no mueve la hora del último libro. Si la lectura falla, el aviso sigue en datos atrasados.</p>
+    <p>Un libro con más de 4 s, una lectura fallida, un libro incompleto, poca profundidad, un hueco mayor de 4 s o el filtro de la regla dejan la señal en espera o bloqueada.</p>
+    <p id="event-line">Todavía no hay evento elegido.</p>
+    <p id="source">Lectura prevista: GET público, sin clave, a <span>https://external-api.kalshi.com/trade-api/v2</span> (el mismo camino existe en api.elections.kalshi.com): listado <span>series_ticker=KXWTI</span> y <span>/markets/{ticker}/orderbook</span>. El ask YES se deriva como 1 − mejor bid NO. La API no trae edad de la cotización en la bolsa; la edad de esta página es la de nuestra recepción. GitHub Pages es estático. Aquí no se carga un JSON de ejemplo como si fuera el mercado.</p>
+    <p>No hay feed en vivo de ICE. El subyacente, en los términos públicos de Kalshi, es el futuro front-month WTI Light Sweet Crude de ICE. <a href="https://kalshi-public-docs.s3.amazonaws.com/contract_terms/WTIOIL.pdf">Términos WTIOIL (PDF)</a>. Calendario EIA anotado el 2026-11-06, sin usarlo como precio: jueves 12 nov 2026, 12:00 p. m. ET, por la semana que termina el 6 nov. <a href="https://www.eia.gov/petroleum/supply/weekly/schedule.php">Calendario EIA</a>.</p>
+    <p id="fee-line">Cuando hay libro fresco, el estrés de comisión es el de la regla legacy: taker en las dos patas, 0,07 × contratos × precio × (1 − precio), techo al centavo de dólar. Maker no se trata como gratis. «+5¢» y «−3¢» son esa regla legacy. Un stop no limita la pérdida al stop: el contrato puede liquidar en 0. La muestra del 20/30 sigue en «Sin muestra suficiente».</p>
+  </section>
+  <div id="markets">
+    <div class="card"><h2>Sin contratos en pantalla</h2><p class="sub">No hay un libro recibido.</p></div>
+  </div>
+  <p class="foot"><a href="../index.html">Volver al panel</a> · Observación experimental · sin órdenes</p>
+</main>
+<noscript><p class="banner bad">Sin JavaScript no hay lectura de libros. No se muestran cotizaciones de relleno.</p></noscript>
+<script type="module" src="./app.js"></script>
+</body>
+</html>
