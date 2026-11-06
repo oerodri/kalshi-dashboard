@@ -1,6 +1,6 @@
 {
- "generated": 1793934726.0345113,
- "generated_et": "2026-11-05 22:12:06 ET",
+ "generated": 1793934973.304963,
+ "generated_et": "2026-11-05 22:16:14 ET",
  "mode": "real",
  "config": {
   "size_usd": 5,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 28.43551,
-  "buying_power": 22.88551,
-  "in_positions": 5.55
+  "buying_power": 28.43551,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -1409,29 +1409,28 @@
   ]
  ],
  "totals": {
-  "trades": 226,
-  "wins": 178,
-  "win_pct": 78.8,
-  "gross_pnl": 0.3152,
-  "fees": 6.25,
-  "net_pnl": -5.9348
+  "trades": 227,
+  "wins": 179,
+  "win_pct": 78.9,
+  "gross_pnl": 0.9257,
+  "fees": 6.29,
+  "net_pnl": -5.3643
  },
  "today": {
   "day": "2026-11-05",
-  "pnl": -4.83,
-  "trades": 1,
-  "wins": 0,
+  "pnl": -4.2595,
+  "trades": 2,
+  "wins": 1,
   "breakeven_pct": 77,
-  "cap_left": 5.17,
+  "cap_left": 5.74,
   "cap_hit": false
  },
  "counts": {
   "saltada": 294,
   "error": 2,
-  "gano": 178,
+  "gano": 179,
   "nofill": 150,
-  "perdio": 48,
-  "abierta": 1
+  "perdio": 48
  },
  "equity": [
   [
@@ -2563,6 +2562,11 @@
    1793922390,
    -5.9348,
    "2345z"
+  ],
+  [
+   1793934714,
+   -5.3643,
+   "0310z"
   ]
  ],
  "calls": [
@@ -2577,7 +2581,7 @@
    "precio": 0.89,
    "qty": 5.55,
    "fee": 0.04,
-   "pnl": null,
+   "pnl": 0.5705,
    "lat": {
     "llamada": 431,
     "envio": 150,
@@ -2585,11 +2589,11 @@
    },
    "order_id": "DHYPYRG014F0",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 4.9795,
    "pct_bal": 17.9,
-   "pct_gan": null,
+   "pct_gan": 11.5,
    "bal_entrada": 27.865
   },
   {
@@ -6988,35 +6992,8 @@
   "envio": 133,
   "bolsa": 185
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-06-0310z",
-   "ronda": "0310z",
-   "hora": "22:11:54",
-   "day": "2026-11-05",
-   "ts": 1793934714.4861903,
-   "side": "down",
-   "prob": 0.9029,
-   "precio": 0.89,
-   "qty": 5.55,
-   "fee": 0.04,
-   "pnl": null,
-   "lat": {
-    "llamada": 431,
-    "envio": 150,
-    "bolsa": 205
-   },
-   "order_id": "DHYPYRG014F0",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 4.9795,
-   "pct_bal": 17.9,
-   "pct_gan": null,
-   "bal_entrada": 27.865
-  }
- ],
- "heartbeat": 1793934715.5144646,
+ "open": [],
+ "heartbeat": 1793934967.104556,
  "running": true,
  "stop_file": false
 }
