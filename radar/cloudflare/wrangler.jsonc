@@ -5,5 +5,11 @@
   "durable_objects": {
     "bindings": [{ "name": "RADAR", "class_name": "RadarSnapshot" }]
   },
-  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["RadarSnapshot"] }]
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["RadarSnapshot"] }],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 0.01,
+    "logs": { "enabled": true, "head_sampling_rate": 0.01, "invocation_logs": true },
+    "traces": { "enabled": true, "head_sampling_rate": 0.01 }
+  }
 }

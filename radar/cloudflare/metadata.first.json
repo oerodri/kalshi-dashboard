@@ -11,5 +11,11 @@
   "migrations": {
     "new_tag": "v1",
     "new_sqlite_classes": ["RadarSnapshot"]
+  },
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 0.01,
+    "logs": { "enabled": true, "head_sampling_rate": 0.01, "invocation_logs": true },
+    "traces": { "enabled": true, "head_sampling_rate": 0.01 }
   }
 }

@@ -114,7 +114,7 @@ export function createSession() {
     view(nowMs) {
       const oldest = oldestReceipt();
       const ageSec = oldest == null ? null : (nowMs - oldest) / 1000;
-      const stale = !lastRoundOk || oldest == null || ageSec > STALE_SEC;
+      const stale = !lastRoundOk || oldest == null || !(ageSec < STALE_SEC);
       let reason;
       if (!lastRoundOk) reason = lastError ? explainFetchError(lastError) : 'Todavía no llegó un libro. No se marca como fresco.';
       else if (stale) reason = `El último libro bueno tiene ${ageSec.toFixed(1)} s. El umbral es ${STALE_SEC} s.`;

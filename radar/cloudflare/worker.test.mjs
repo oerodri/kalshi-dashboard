@@ -145,6 +145,78 @@ test('auth, payload, replay, orden, futuro y recibo intacto', () => {
   assert.equal(decision.write, false);
 });
 
+test('exactamente 4 s ya está atrasado y el recibo no se reescribe', () => {
+  const receipt = '2026-11-06T16:40:58.945664+00:00';
+  const at = Date.parse(receipt);
+  const stored = projectSnapshot(sample(receipt)).stored;
+  const under = publicView(stored, at + 3999);
+  const exact = publicView(stored, at + 4000);
+  assert.equal(under.freshness.stale, false);
+  assert.equal(exact.freshness.stale, true);
+  assert.equal(exact.freshness.banner, 'DATOS ATRASADOS');
+  assert.equal(exact.freshness.receipt_utc, receipt);
+  assert.notEqual(exact.freshness.receipt_utc, new Date(at).toISOString());
+  assert.equal(stored.receipt_utc, receipt);
+});
+
+test('un rechazo devuelve el recibo guardado, no el del intento', () => {
+  const receipt = '2026-11-06T16:40:58.945664+00:00';
+  const headers = new Headers();
+  headers.set('authorization', `Bearer ${SECRET}`);
+  headers.set('origin', 'https://oerodri.github.io');
+  const request = { url: 'https://wti-radar-snapshot.oerodri-radar.workers.dev/ingest', headers };
+  const saved = handleIngest({
+    request,
+    rawText: JSON.stringify(sample(receipt)),
+    stored: null,
+    secret: SECRET,
+    now: Date.parse(receipt) + 500,
+  });
+  assert.equal(saved.status, 201);
+  assert.equal(corsHeaders(request)['Access-Control-Allow-Origin'], 'https://oerodri.github.io');
+  const wrapper = saved.next;
+  const mutated = sample(receipt);
+  mutated.markets[0].yes_bid = '0.9900';
+  mutated.markets[0].signal.state = 'Condición cumplida (sin validar)';
+  const replay = handleIngest({
+    request,
+    rawText: JSON.stringify(mutated),
+    stored: wrapper,
+    secret: SECRET,
+    now: Date.parse(receipt) + 1000,
+  });
+  const replayBody = JSON.parse(replay.body);
+  assert.equal(replay.write, false);
+  assert.equal(replayBody.freshness.receipt_utc, receipt);
+  assert.equal(replayBody.freshness.stale, false);
+  assert.equal(replayBody.freshness.age_sec, 1);
+  const older = handleIngest({
+    request,
+    rawText: JSON.stringify(sample('2026-11-06T16:40:50.945664+00:00')),
+    stored: wrapper,
+    secret: SECRET,
+    now: Date.parse(receipt) + 1000,
+  });
+  const olderBody = JSON.parse(older.body);
+  assert.equal(older.status, 409);
+  assert.equal(older.write, false);
+  assert.equal(olderBody.freshness.receipt_utc, receipt);
+  assert.equal(older.next, wrapper);
+  const emptyFuture = handleIngest({
+    request,
+    rawText: JSON.stringify(sample('2026-11-06T16:42:00.945664+00:00')),
+    stored: null,
+    secret: SECRET,
+    now: Date.parse(receipt),
+  });
+  const emptyBody = JSON.parse(emptyFuture.body);
+  assert.equal(emptyFuture.status, 422);
+  assert.equal(emptyFuture.write, false);
+  assert.equal(emptyBody.freshness.receipt_utc, '');
+  assert.equal(emptyBody.freshness.stale, true);
+  assert.equal(emptyBody.freshness.banner, 'DATOS ATRASADOS');
+});
+
 test('una observación vieja no se vuelve fresca al leerla', () => {
   const stored = projectSnapshot(sample('2026-11-06T16:40:00.000Z')).stored;
   const view = publicView(stored, NOW);

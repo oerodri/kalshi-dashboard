@@ -131,7 +131,7 @@ export function publicView(stored, nowMs) {
     };
   }
   const age = (nowMs - Date.parse(stored.receipt_utc)) / 1000;
-  const stale = !(age <= STALE_MS / 1000);
+  const stale = !Number.isFinite(age) || age >= STALE_MS / 1000;
   return {
     app: stored.app,
     mode: stored.mode,
@@ -220,15 +220,22 @@ export function handleIngest({ request, rawText, stored, secret, now }) {
   } catch (err) {
     return { ...jsonResponse(request, 422, { error: String(err.message || 'payload') }), write: false, next: stored };
   }
+  const record = stored && stored.receiptMs != null ? stored : null;
+  const inner = stored && stored.stored && stored.stored.receipt_utc
+    ? stored.stored
+    : (stored && stored.receipt_utc ? stored : null);
   const decision = decideIngest({
-    stored,
+    stored: record,
     incoming: parsed,
     now,
   });
   if (!decision.write) {
-    const view = publicView(decision.action === 'replay' ? stored : stored, now);
+    const view = publicView(inner, now);
     return {
-      ...jsonResponse(request, decision.status, { result: decision.reason, freshness: view.freshness }),
+      ...jsonResponse(request, decision.status, {
+        result: decision.reason,
+        freshness: view.freshness,
+      }),
       write: false,
       next: stored,
     };
@@ -328,7 +335,13 @@ export class RadarSnapshot {
         this.save(result.next);
         this.broadcast(JSON.stringify(publicView(result.next.stored, now)));
       }
-      if (Math.random() < 0.02) console.log(JSON.stringify({ event: 'radar', op: 'ingest', status: result.status }));
+      console.log({
+        event: 'wti_radar',
+        op: 'ingest',
+        status: result.status,
+        write: result.write === true,
+        receipt_utc: result.next && result.next.receiptUtc ? result.next.receiptUtc : '',
+      });
       return new Response(result.body, { status: result.status, headers: result.headers });
     }
     return new Response('not found', { status: 404, headers: corsHeaders(request) });

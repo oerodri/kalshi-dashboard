@@ -11,6 +11,7 @@ from urllib.parse import urlparse
 
 INTERVAL_SEC = 1.5
 LOCAL_SNAPSHOT = "http://127.0.0.1:8771/api/snapshot"
+USER_AGENT = "WTI-Radar-Publisher/1.0"
 
 
 def assert_local_source(url: str) -> str:
@@ -32,15 +33,24 @@ def assert_bridge(url: str) -> str:
     return url
 
 
+def local_request(url: str) -> urllib.request.Request:
+    return urllib.request.Request(
+        assert_local_source(url),
+        method="GET",
+        headers={"Accept": "application/json", "User-Agent": USER_AGENT},
+    )
+
+
 def build_request(bridge: str, token: str, payload: bytes) -> urllib.request.Request:
     return urllib.request.Request(
-        bridge,
+        assert_bridge(bridge),
         data=payload,
         method="POST",
         headers={
             "Authorization": f"Bearer {token}",
             "Accept": "application/json",
             "Content-Type": "application/json",
+            "User-Agent": USER_AGENT,
         },
     )
 
@@ -54,7 +64,7 @@ def main() -> None:
     while True:
         started = time.monotonic()
         try:
-            with urllib.request.urlopen(source, timeout=2) as res:
+            with urllib.request.urlopen(local_request(source), timeout=2) as res:
                 payload = res.read()
             urllib.request.urlopen(build_request(bridge, token, payload), timeout=5).read()
         except (urllib.error.URLError, TimeoutError, json.JSONDecodeError):

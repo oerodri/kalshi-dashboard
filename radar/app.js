@@ -77,9 +77,10 @@ export function startRadar(env) {
   const uiId = env.setInterval(ui, UI_INTERVAL_MS);
   if (env.snapshotUrl) void poll();
   const WS = env.WebSocket;
-  if (env.snapshotUrl && WS) {
+  const live = env.liveUrl || (env.snapshotUrl ? liveSocketUrl(env.snapshotUrl) : '');
+  if (live && WS) {
     try {
-      socket = new WS(liveSocketUrl(env.snapshotUrl));
+      socket = new WS(live);
       socket.onmessage = (ev) => { void applyMessage(ev.data); };
       socket.onopen = () => stopFallback();
       socket.onclose = () => startFallback();
@@ -105,16 +106,20 @@ async function loadSnapshotUrl() {
     const res = await fetch(new URL('./endpoint.json', import.meta.url), { cache: 'no-store' });
     if (!res.ok) return '';
     const data = await res.json();
-    return allowedSnapshotUrl(data && data.snapshotUrl);
+    return {
+      snapshotUrl: allowedSnapshotUrl(data && data.snapshotUrl),
+      liveUrl: typeof data.liveUrl === 'string' ? data.liveUrl : '',
+    };
   } catch {
-    return '';
+    return { snapshotUrl: '', liveUrl: '' };
   }
 }
 
 if (typeof document !== 'undefined' && document.getElementById('banner')) {
-  const snapshotUrl = await loadSnapshotUrl();
+  const configured = await loadSnapshotUrl();
   startRadar({
-    snapshotUrl,
+    snapshotUrl: configured.snapshotUrl,
+    liveUrl: configured.liveUrl,
     now: () => Date.now(),
     fetch: (url, init) => globalThis.fetch(url, init),
     setInterval: (fn, ms) => globalThis.setInterval(fn, ms),

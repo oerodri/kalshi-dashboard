@@ -2,6 +2,9 @@
   "account_id": "30f8b8a4671fd3352e6a36725a1d40d5",
   "script_name": "wti-radar-snapshot",
   "deployed": false,
+  "previous_deploy_id": "21207bf22e7f4834b55e370292e8c85d",
+  "this_artifact_uploaded": false,
+  "transport_of_box_ingest_validated": false,
   "workers_dev_hostname": null,
   "snapshot_url_in_repo": "",
   "workers_dev": {
@@ -67,11 +70,22 @@
     "GET /live": "websocket upgrade",
     "POST /ingest": "Authorization Bearer INGEST_TOKEN; body is the local /api/snapshot"
   },
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 0.01,
+    "logs_and_traces": true,
+    "never_log_ingest_token": true
+  },
   "pusher": {
     "file": "push_snapshot.py",
     "source": "http://127.0.0.1:8771/api/snapshot",
     "interval_sec": 1.5,
+    "user_agent": "WTI-Radar-Publisher/1.0",
     "does_not_call_kalshi": true,
     "env": ["RADAR_BRIDGE_URL", "RADAR_INGEST_TOKEN"]
+  },
+  "public_urls_not_yet_carrying_books": {
+    "snapshot": "https://wti-radar-snapshot.oerodri-radar.workers.dev/snapshot",
+    "live": "wss://wti-radar-snapshot.oerodri-radar.workers.dev/live"
   }
 }

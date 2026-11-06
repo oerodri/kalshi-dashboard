@@ -251,8 +251,8 @@ test('el puente usa el recibo original; un redibujo o un fallo no lo adelanta', 
   const redraw = session.view(now + 1000);
   assert.equal(redraw.receiptMs, firstReceipt);
   assert.equal(redraw.banner, 'DATOS FRESCOS');
-  assert.equal(session.view(firstReceipt + 4000).stale, false);
-  assert.equal(session.view(firstReceipt + 4001).stale, true);
+  assert.equal(session.view(firstReceipt + 3999).stale, false);
+  assert.equal(session.view(firstReceipt + 4000).stale, true);
   assert.equal(session.view(firstReceipt + 4001).markets[0].econ, null);
   assert.equal(session.view(firstReceipt + 4001).markets[0].legacy.state, 'Bloqueada');
 
@@ -421,7 +421,8 @@ test('el panel y el enlace conservan el resto del dashboard', () => {
   assert.match(app, /pollSnapshot/);
   assert.doesNotMatch(app, /external-api\.kalshi\.com|api\.elections\.kalshi\.com/);
   const endpoint = JSON.parse(fs.readFileSync(new URL('../endpoint.json', import.meta.url), 'utf8'));
-  assert.equal(endpoint.snapshotUrl, '');
+  assert.equal(endpoint.snapshotUrl, 'https://wti-radar-snapshot.oerodri-radar.workers.dev/snapshot');
+  assert.equal(endpoint.liveUrl, 'wss://wti-radar-snapshot.oerodri-radar.workers.dev/live');
   const bridge = fs.readFileSync(new URL('../bridge/serve_snapshot.py', import.meta.url), 'utf8');
   assert.doesNotMatch(bridge, /external-api\.kalshi\.com|api\.elections\.kalshi\.com/);
 });
