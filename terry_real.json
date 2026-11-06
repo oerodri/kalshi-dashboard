@@ -1,6 +1,6 @@
 {
- "generated": 1793937419.9535718,
- "generated_et": "2026-11-05 22:57:00 ET",
+ "generated": 1793937666.7419646,
+ "generated_et": "2026-11-05 23:01:07 ET",
  "mode": "real",
  "config": {
   "size_usd": 5,
@@ -10,8 +10,8 @@
  },
  "balance": {
   "current": 8.71081,
-  "buying_power": 2.05081,
-  "in_positions": 6.66
+  "buying_power": 8.71081,
+  "in_positions": 0
  },
  "balance_err": null,
  "balance_hist": [
@@ -1433,29 +1433,28 @@
   ]
  ],
  "totals": {
-  "trades": 227,
-  "wins": 179,
+  "trades": 228,
+  "wins": 180,
   "win_pct": 78.9,
-  "gross_pnl": 0.9241,
-  "fees": 6.29,
-  "net_pnl": -5.3659
+  "gross_pnl": 2.7223,
+  "fees": 6.38,
+  "net_pnl": -3.6577
  },
  "today": {
   "day": "2026-11-05",
-  "pnl": -4.2595,
-  "trades": 2,
-  "wins": 1,
+  "pnl": -2.5513,
+  "trades": 3,
+  "wins": 2,
   "breakeven_pct": 77,
-  "cap_left": 5.74,
+  "cap_left": 7.45,
   "cap_hit": false
  },
  "counts": {
   "saltada": 302,
   "error": 2,
-  "gano": 179,
+  "gano": 180,
   "nofill": 150,
-  "perdio": 48,
-  "abierta": 1
+  "perdio": 48
  },
  "equity": [
   [
@@ -2592,6 +2591,11 @@
    1793934714,
    -5.3659,
    "0310z"
+  ],
+  [
+   1793937397,
+   -3.6577,
+   "0355z"
   ]
  ],
  "calls": [
@@ -2606,7 +2610,7 @@
    "precio": 0.73,
    "qty": 6.66,
    "fee": 0.09,
-   "pnl": null,
+   "pnl": 1.7082,
    "lat": {
     "llamada": 384,
     "envio": 135,
@@ -2614,11 +2618,11 @@
    },
    "order_id": "DHZBDMHG94EX",
    "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
+   "out": "gano",
+   "motivo": "Liquidada",
    "costo": 4.9518,
    "pct_bal": 70.7,
-   "pct_gan": null,
+   "pct_gan": 34.5,
    "bal_entrada": 7.0026
   },
   {
@@ -7021,35 +7025,8 @@
   "envio": 133,
   "bolsa": 185
  },
- "open": [
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-06-0355z",
-   "ronda": "0355z",
-   "hora": "22:56:36",
-   "day": "2026-11-05",
-   "ts": 1793937396.9376118,
-   "side": "down",
-   "prob": 0.7335,
-   "precio": 0.73,
-   "qty": 6.66,
-   "fee": 0.09,
-   "pnl": null,
-   "lat": {
-    "llamada": 384,
-    "envio": 135,
-    "bolsa": 160
-   },
-   "order_id": "DHZBDMHG94EX",
-   "aviso": null,
-   "out": "abierta",
-   "motivo": "Esperando liquidación",
-   "costo": 4.9518,
-   "pct_bal": 70.7,
-   "pct_gan": null,
-   "bal_entrada": 7.0026
-  }
- ],
- "heartbeat": 1793937410.8287127,
+ "open": [],
+ "heartbeat": 1793937651.192524,
  "running": true,
  "stop_file": false
 }
