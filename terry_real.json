@@ -1,6 +1,6 @@
 {
- "generated": 1793996518.4239368,
- "generated_et": "2026-11-06 15:21:59 ET",
+ "generated": 1793997143.8463054,
+ "generated_et": "2026-11-06 15:34:31 ET",
  "mode": "real",
  "config": {
   "size_usd": 5,
@@ -8,12 +8,8 @@
   "min_prob": 0.6,
   "max_entry_price": 0.9
  },
- "balance": {
-  "current": 18.25211,
-  "buying_power": 18.25211,
-  "in_positions": 0
- },
- "balance_err": null,
+ "balance": null,
+ "balance_err": "APITimeoutError",
  "balance_hist": [
   [
    1793644189,
@@ -3280,7 +3276,7 @@
    "costo": 4.7624,
    "pct_bal": 54.7,
    "pct_gan": 17.8,
-   "bal_entrada": 8.7108
+   "bal_entrada": 8.71081
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-06-0630z",
@@ -3900,7 +3896,7 @@
    "costo": 4.9518,
    "pct_bal": 70.7,
    "pct_gan": 34.5,
-   "bal_entrada": 7.0026
+   "bal_entrada": 7.00261
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-06-0350z",
