@@ -1,6 +1,6 @@
 {
- "generated": 1793934417.8559086,
- "generated_et": "2026-11-05 22:06:58 ET",
+ "generated": 1793934726.0345113,
+ "generated_et": "2026-11-05 22:12:06 ET",
  "mode": "real",
  "config": {
   "size_usd": 5,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 27.86501,
-  "buying_power": 27.86501,
-  "in_positions": 0
+  "current": 28.43551,
+  "buying_power": 22.88551,
+  "in_positions": 5.55
  },
  "balance_err": null,
  "balance_hist": [
@@ -1402,6 +1402,10 @@
   [
    1793922406,
    27.86501
+  ],
+  [
+   1793934726,
+   28.43551
   ]
  ],
  "totals": {
@@ -1426,7 +1430,8 @@
   "error": 2,
   "gano": 178,
   "nofill": 150,
-  "perdio": 48
+  "perdio": 48,
+  "abierta": 1
  },
  "equity": [
   [
@@ -2561,6 +2566,32 @@
   ]
  ],
  "calls": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-06-0310z",
+   "ronda": "0310z",
+   "hora": "22:11:54",
+   "day": "2026-11-05",
+   "ts": 1793934714.4861903,
+   "side": "down",
+   "prob": 0.9029,
+   "precio": 0.89,
+   "qty": 5.55,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 431,
+    "envio": 150,
+    "bolsa": 205
+   },
+   "order_id": "DHYPYRG014F0",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 4.9795,
+   "pct_bal": 17.9,
+   "pct_gan": null,
+   "bal_entrada": 27.865
+  },
   {
    "slug": "cpc-btc-updown-5m-2026-11-06-0305z",
    "ronda": "0305z",
@@ -6950,28 +6981,6 @@
    "pct_bal": null,
    "pct_gan": null,
    "bal_entrada": null
-  },
-  {
-   "slug": "cpc-btc-updown-5m-2026-11-05-0555z",
-   "ronda": "0555z",
-   "hora": "00:58:06",
-   "day": "2026-11-05",
-   "ts": 1793858286.259291,
-   "side": "up",
-   "prob": 0.8653,
-   "precio": null,
-   "qty": null,
-   "fee": null,
-   "pnl": null,
-   "lat": null,
-   "order_id": null,
-   "aviso": null,
-   "out": "saltada",
-   "motivo": "gap ask 0.78 vs terry 0.88",
-   "costo": null,
-   "pct_bal": null,
-   "pct_gan": null,
-   "bal_entrada": null
   }
  ],
  "lat_avg": {
@@ -6979,8 +6988,35 @@
   "envio": 133,
   "bolsa": 185
  },
- "open": [],
- "heartbeat": 1793934406.2841115,
+ "open": [
+  {
+   "slug": "cpc-btc-updown-5m-2026-11-06-0310z",
+   "ronda": "0310z",
+   "hora": "22:11:54",
+   "day": "2026-11-05",
+   "ts": 1793934714.4861903,
+   "side": "down",
+   "prob": 0.9029,
+   "precio": 0.89,
+   "qty": 5.55,
+   "fee": 0.04,
+   "pnl": null,
+   "lat": {
+    "llamada": 431,
+    "envio": 150,
+    "bolsa": 205
+   },
+   "order_id": "DHYPYRG014F0",
+   "aviso": null,
+   "out": "abierta",
+   "motivo": "Esperando liquidación",
+   "costo": 4.9795,
+   "pct_bal": 17.9,
+   "pct_gan": null,
+   "bal_entrada": 27.865
+  }
+ ],
+ "heartbeat": 1793934715.5144646,
  "running": true,
  "stop_file": false
 }
