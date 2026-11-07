@@ -1,6 +1,6 @@
 {
- "generated": 1794012130.9501278,
- "generated_et": "2026-11-06 19:42:11 ET",
+ "generated": 1794012392.6006713,
+ "generated_et": "2026-11-06 19:46:33 ET",
  "mode": "real",
  "config": {
   "size_usd": 5,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 4.56351,
-  "buying_power": 4.56351,
-  "in_positions": 0
+  "current": 7.60801,
+  "buying_power": 0.56801,
+  "in_positions": 7.04
  },
  "balance_err": null,
  "balance_hist": [
@@ -1470,6 +1470,10 @@
   [
    1794008428,
    4.56351
+  ],
+  [
+   1794012393,
+   7.60801
   ]
  ],
  "totals": {
@@ -3284,7 +3288,7 @@
    "costo": 4.7624,
    "pct_bal": 54.7,
    "pct_gan": 17.8,
-   "bal_entrada": 8.7108
+   "bal_entrada": 8.71081
   },
   {
    "slug": "cpc-btc-updown-5m-2026-11-06-0630z",
