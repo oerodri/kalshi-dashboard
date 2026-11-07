@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T12:02:49.910471-05:00",
+ "actualizado": "2026-11-07T12:12:51.197139-05:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -33,7 +33,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-07T12:02:26.995145-05:00"
+   "ultimo_latido": "2026-11-07T12:12:27.038589-05:00"
   },
   {
    "id": "clima_v2",
@@ -246,7 +246,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-07T12:02:26.995145-05:00"
+   "ultimo_latido": "2026-11-07T12:12:27.038589-05:00"
   },
   {
    "id": "v2_1",
@@ -370,7 +370,15 @@
    "ganadas": 71,
    "winrate": 83.5,
    "drawdown_max_pct": 6.39,
-   "abiertas": [],
+   "abiertas": [
+    {
+     "fecha": "2026-11-07T12:03:04.980436-05:00",
+     "mercado": "KXBTC15M-26NOV071215-15",
+     "lado": "UP",
+     "precio": 0.83,
+     "contratos": 11
+    }
+   ],
    "equity": [
     {
      "t": "2026-10-31T13:05:04.337919-04:00",
@@ -1651,7 +1659,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-07T12:02:47.855894-05:00"
+   "ultimo_latido": "2026-11-07T12:12:50.533285-05:00"
   }
  ]
 }
