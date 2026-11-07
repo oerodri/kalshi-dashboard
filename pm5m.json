@@ -1,21 +1,15 @@
 {
-"actualizado": "2026-11-06 20:58 ET",
+"actualizado": "2026-11-06 20:59 ET",
 "bots": [
 {
 "nombre": "Polymarket A",
-"balance": 464.09,
-"pnl": -35.91,
-"trades": 178,
-"winrate": 80.9,
+"balance": 466.01,
+"pnl": -33.99,
+"trades": 179,
+"winrate": 81.0,
 "perdidas_hoy": 7,
 "max_dd": 17.4,
 "abiertas": [
-{
-"t": "20:50",
-"lado": "Up",
-"precio": 83.0,
-"acciones": 12.05
-},
 {
 "t": "20:55",
 "lado": "Up",
@@ -24,6 +18,14 @@
 }
 ],
 "ultimas": [
+{
+"t": "11-06 20:59",
+"ep": 1794016200,
+"lado": "Up",
+"precio": 83.0,
+"gano": true,
+"pnl": 1.93
+},
 {
 "t": "11-06 20:35",
 "ep": 1794014700,
@@ -95,18 +97,10 @@
 "precio": 80.0,
 "gano": false,
 "pnl": -10.14
-},
-{
-"t": "11-06 08:17",
-"ep": 1793970300,
-"lado": "Up",
-"precio": 84.0,
-"gano": false,
-"pnl": -10.11
 }
 ],
-"pnl_hoy": -48.77,
-"trades_hoy": 17,
+"pnl_hoy": -46.84,
+"trades_hoy": 18,
 "equity": [
 500,
 502.24,
@@ -286,7 +280,8 @@
 457.88,
 459.66,
 461.87,
-464.09
+464.09,
+466.01
 ]
 },
 {
@@ -297,7 +292,14 @@
 "winrate": 80.0,
 "perdidas_hoy": 2,
 "max_dd": 16.7,
-"abiertas": [],
+"abiertas": [
+{
+"t": "20:55",
+"lado": "Up",
+"precio": 83.6,
+"acciones": 11.96
+}
+],
 "ultimas": [
 {
 "t": "11-06 19:16",
