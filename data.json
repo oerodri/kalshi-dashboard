@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T08:12:39.695563-05:00",
+ "actualizado": "2026-11-07T08:22:39.613402-05:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -33,27 +33,19 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-07T08:12:14.505328-05:00"
+   "ultimo_latido": "2026-11-07T08:22:14.663543-05:00"
   },
   {
    "id": "clima_v2",
    "nombre": "Clima v2 (NO 85–95¢, modelo >90%)",
    "inicial": 500.0,
-   "saldo": 471.41,
-   "pnl": -28.59,
-   "trades": 12,
-   "ganadas": 10,
-   "winrate": 83.3,
+   "saldo": 473.47,
+   "pnl": -26.53,
+   "trades": 13,
+   "ganadas": 11,
+   "winrate": 84.6,
    "drawdown_max_pct": 6.89,
-   "abiertas": [
-    {
-     "fecha": "2026-11-06T16:00:30.032383+00:00",
-     "mercado": "KXHIGHAUS-26NOV06-T73",
-     "lado": "no",
-     "precio": 0.9,
-     "contratos": 22
-    }
-   ],
+   "abiertas": [],
    "equity": [
     {
      "t": "2026-10-31T16:46:15.901011+00:00",
@@ -102,6 +94,10 @@
     {
      "t": "2026-11-06T15:00:25.021440+00:00",
      "v": 471.41
+    },
+    {
+     "t": "2026-11-06T16:00:30.032383+00:00",
+     "v": 473.47
     }
    ],
    "operaciones": [
@@ -236,10 +232,21 @@
      "gano": true,
      "pnl": 0.14,
      "saldo": 471.41
+    },
+    {
+     "fecha": "2026-11-06T16:00:30.032383+00:00",
+     "mercado": "KXHIGHAUS-26NOV06-T73",
+     "lado": "no",
+     "precio": 0.9,
+     "contratos": 22.0,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 2.06,
+     "saldo": 473.47
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-07T08:12:14.505328-05:00"
+   "ultimo_latido": "2026-11-07T08:22:14.663543-05:00"
   },
   {
    "id": "v2_1",
@@ -363,7 +370,15 @@
    "ganadas": 67,
    "winrate": 82.7,
    "drawdown_max_pct": 6.39,
-   "abiertas": [],
+   "abiertas": [
+    {
+     "fecha": "2026-11-07T08:22:04.380948-05:00",
+     "mercado": "KXBTC15M-26NOV070830-30",
+     "lado": "UP",
+     "precio": 0.85,
+     "contratos": 11
+    }
+   ],
    "equity": [
     {
      "t": "2026-10-31T13:05:04.337919-04:00",
@@ -1584,7 +1599,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-07T08:12:39.420081-05:00"
+   "ultimo_latido": "2026-11-07T08:22:37.869036-05:00"
   }
  ]
 }
