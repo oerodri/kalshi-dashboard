@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-08 00:00 ET",
+"actualizado": "2026-11-08 00:03 ET",
 "bots": [
 {
 "nombre": "Polymarket A",
@@ -300,21 +300,22 @@
 },
 {
 "nombre": "Polymarket B",
-"balance": 385.08,
-"pnl": -114.92,
-"trades": 170,
-"winrate": 78.8,
+"balance": 387.01,
+"pnl": -112.99,
+"trades": 171,
+"winrate": 78.9,
 "perdidas_hoy": 0,
 "max_dd": 27.8,
-"abiertas": [
+"abiertas": [],
+"ultimas": [
 {
-"t": "23:55",
+"t": "11-08 00:02",
+"ep": 1794113700,
 "lado": "Down",
 "precio": 83.0,
-"acciones": 12.05
-}
-],
-"ultimas": [
+"gano": true,
+"pnl": 1.93
+},
 {
 "t": "11-07 23:40",
 "ep": 1794112200,
@@ -386,18 +387,10 @@
 "precio": 83.0,
 "gano": true,
 "pnl": 1.93
-},
-{
-"t": "11-07 20:35",
-"ep": 1794101100,
-"lado": "Up",
-"precio": 84.2,
-"gano": false,
-"pnl": -10.11
 }
 ],
-"pnl_hoy": 0,
-"trades_hoy": 0,
+"pnl_hoy": 1.93,
+"trades_hoy": 1,
 "equity": [
 500,
 501.79,
@@ -569,26 +562,28 @@
 379.56,
 381.49,
 383.29,
-385.08
+385.08,
+387.01
 ]
 },
 {
 "nombre": "Polymarket C",
-"balance": 526.46,
-"pnl": 26.46,
-"trades": 168,
+"balance": 527.86,
+"pnl": 27.86,
+"trades": 169,
 "winrate": 92.3,
 "perdidas_hoy": 0,
 "max_dd": 4.6,
-"abiertas": [
+"abiertas": [],
+"ultimas": [
 {
-"t": "23:55",
+"t": "11-08 00:02",
+"ep": 1794113700,
 "lado": "Down",
 "precio": 87.0,
-"acciones": 11.49
-}
-],
-"ultimas": [
+"gano": true,
+"pnl": 1.4
+},
 {
 "t": "11-07 23:22",
 "ep": 1794111000,
@@ -660,18 +655,10 @@
 "precio": 95.0,
 "gano": true,
 "pnl": 0.49
-},
-{
-"t": "11-07 16:07",
-"ep": 1794085200,
-"lado": "Up",
-"precio": 93.0,
-"gano": true,
-"pnl": 0.7
 }
 ],
-"pnl_hoy": 0,
-"trades_hoy": 0,
+"pnl_hoy": 1.4,
+"trades_hoy": 1,
 "equity": [
 500,
 501.4,
@@ -841,26 +828,28 @@
 524.12,
 524.71,
 525.75,
-526.46
+526.46,
+527.86
 ]
 },
 {
 "nombre": "Polymarket C2",
-"balance": 486.64,
-"pnl": -13.36,
-"trades": 188,
+"balance": 486.93,
+"pnl": -13.07,
+"trades": 189,
 "winrate": 91.0,
 "perdidas_hoy": 0,
 "max_dd": 9.1,
-"abiertas": [
+"abiertas": [],
+"ultimas": [
 {
-"t": "23:55",
+"t": "11-08 00:02",
+"ep": 1794113700,
 "lado": "Down",
 "precio": 97.0,
-"acciones": 10.31
-}
-],
-"ultimas": [
+"gano": true,
+"pnl": 0.29
+},
 {
 "t": "11-07 23:40",
 "ep": 1794112200,
@@ -932,18 +921,10 @@
 "precio": 95.0,
 "gano": true,
 "pnl": 0.49
-},
-{
-"t": "11-07 19:12",
-"ep": 1794096300,
-"lado": "Down",
-"precio": 86.0,
-"gano": true,
-"pnl": 1.53
 }
 ],
-"pnl_hoy": 0,
-"trades_hoy": 0,
+"pnl_hoy": 0.29,
+"trades_hoy": 1,
 "equity": [
 500,
 500.29,
@@ -1133,26 +1114,28 @@
 484.61,
 485.65,
 486.35,
-486.64
+486.64,
+486.93
 ]
 },
 {
 "nombre": "Polymarket D",
-"balance": 491.49,
-"pnl": -8.51,
-"trades": 171,
+"balance": 491.78,
+"pnl": -8.22,
+"trades": 172,
 "winrate": 92.4,
 "perdidas_hoy": 0,
 "max_dd": 5.7,
-"abiertas": [
+"abiertas": [],
+"ultimas": [
 {
-"t": "23:55",
+"t": "11-08 00:02",
+"ep": 1794113700,
 "lado": "Down",
 "precio": 97.0,
-"acciones": 10.31
-}
-],
-"ultimas": [
+"gano": true,
+"pnl": 0.29
+},
 {
 "t": "11-07 23:40",
 "ep": 1794112200,
@@ -1224,18 +1207,10 @@
 "precio": 93.0,
 "gano": true,
 "pnl": 0.7
-},
-{
-"t": "11-07 18:43",
-"ep": 1794094500,
-"lado": "Down",
-"precio": 96.0,
-"gano": true,
-"pnl": 0.39
 }
 ],
-"pnl_hoy": 0,
-"trades_hoy": 0,
+"pnl_hoy": 0.29,
+"trades_hoy": 1,
 "equity": [
 500,
 500.29,
@@ -1408,26 +1383,28 @@
 489.46,
 490.5,
 491.21,
-491.49
+491.49,
+491.78
 ]
 },
 {
 "nombre": "Polymarket E",
-"balance": 474.41,
-"pnl": -25.59,
-"trades": 109,
-"winrate": 89.0,
+"balance": 474.7,
+"pnl": -25.3,
+"trades": 110,
+"winrate": 89.1,
 "perdidas_hoy": 0,
 "max_dd": 10.2,
-"abiertas": [
+"abiertas": [],
+"ultimas": [
 {
-"t": "23:55",
+"t": "11-08 00:02",
+"ep": 1794113700,
 "lado": "Down",
 "precio": 97.0,
-"acciones": 10.31
-}
-],
-"ultimas": [
+"gano": true,
+"pnl": 0.29
+},
 {
 "t": "11-07 23:40",
 "ep": 1794112200,
@@ -1499,18 +1476,10 @@
 "precio": 94.0,
 "gano": true,
 "pnl": 0.6
-},
-{
-"t": "11-07 15:00",
-"ep": 1794081000,
-"lado": "Down",
-"precio": 90.0,
-"gano": true,
-"pnl": 1.04
 }
 ],
-"pnl_hoy": 0,
-"trades_hoy": 0,
+"pnl_hoy": 0.29,
+"trades_hoy": 1,
 "equity": [
 500,
 500.29,
@@ -1621,7 +1590,8 @@
 472.38,
 473.42,
 474.12,
-474.41
+474.41,
+474.7
 ]
 },
 {
