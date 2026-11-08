@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T02:53:25.306088-05:00",
+ "actualizado": "2026-11-08T03:03:23.164749-05:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -33,7 +33,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-08T02:53:06.385705-05:00"
+   "ultimo_latido": "2026-11-08T03:03:06.426773-05:00"
   },
   {
    "id": "clima_v2",
@@ -246,7 +246,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-08T02:53:06.385705-05:00"
+   "ultimo_latido": "2026-11-08T03:03:06.426773-05:00"
   },
   {
    "id": "v2_1",
@@ -364,21 +364,13 @@
    "id": "v4b_10usd",
    "nombre": "BTC 15 min KXBTC15M v4b balanceado 78-85, z>=0.75, min 3-10 (~$10 por trade, inicio $500)",
    "inicial": 500.0,
-   "saldo": 508.17,
-   "pnl": 8.17,
-   "trades": 97,
-   "ganadas": 81,
-   "winrate": 83.5,
+   "saldo": 510.43,
+   "pnl": 10.43,
+   "trades": 98,
+   "ganadas": 82,
+   "winrate": 83.7,
    "drawdown_max_pct": 6.39,
-   "abiertas": [
-    {
-     "fecha": "2026-11-08T02:51:04.345730-05:00",
-     "mercado": "KXBTC15M-26NOV080300-00",
-     "lado": "UP",
-     "precio": 0.8,
-     "contratos": 12
-    }
-   ],
+   "abiertas": [],
    "equity": [
     {
      "t": "2026-10-31T13:05:04.337919-04:00",
@@ -767,6 +759,10 @@
     {
      "t": "2026-11-08T02:35:03.522897-05:00",
      "v": 508.17
+    },
+    {
+     "t": "2026-11-08T02:51:04.345730-05:00",
+     "v": 510.43
     }
    ],
    "operaciones": [
@@ -1836,10 +1832,21 @@
      "gano": true,
      "pnl": 2.38,
      "saldo": 508.17
+    },
+    {
+     "fecha": "2026-11-08T02:51:04.345730-05:00",
+     "mercado": "KXBTC15M-26NOV080300-00",
+     "lado": "UP",
+     "precio": 0.8,
+     "contratos": 12,
+     "resultado": "yes",
+     "gano": true,
+     "pnl": 2.26,
+     "saldo": 510.43
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-08T02:53:24.503755-05:00"
+   "ultimo_latido": "2026-11-08T03:03:23.163796-05:00"
   }
  ]
 }
