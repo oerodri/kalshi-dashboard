@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-07 22:30 ET",
+"actualizado": "2026-11-07 22:35 ET",
 "bots": [
 {
 "nombre": "Polymarket A",
@@ -1710,21 +1710,22 @@
 },
 {
 "nombre": "Polymarket F Chainlink",
-"balance": 487.18,
-"pnl": -12.82,
-"trades": 21,
-"winrate": 85.7,
+"balance": 488.58,
+"pnl": -11.42,
+"trades": 22,
+"winrate": 86.4,
 "perdidas_hoy": 1,
 "max_dd": 3.9,
-"abiertas": [
+"abiertas": [],
+"ultimas": [
 {
-"t": "22:25",
+"t": "11-07 22:34",
+"ep": 1794108300,
 "lado": "Up",
 "precio": 87.0,
-"acciones": 11.49
-}
-],
-"ultimas": [
+"gano": true,
+"pnl": 1.4
+},
 {
 "t": "11-07 18:43",
 "ep": 1794094500,
@@ -1796,18 +1797,10 @@
 "precio": 85.0,
 "gano": true,
 "pnl": 1.66
-},
-{
-"t": "11-04 06:49",
-"ep": 1793792400,
-"lado": "Up",
-"precio": 92.3,
-"gano": true,
-"pnl": 0.78
 }
 ],
-"pnl_hoy": -5.57,
-"trades_hoy": 7,
+"pnl_hoy": -4.17,
+"trades_hoy": 8,
 "equity": [
 500,
 500.7,
@@ -1830,7 +1823,8 @@
 485.03,
 486.19,
 486.79,
-487.18
+487.18,
+488.58
 ]
 },
 {
