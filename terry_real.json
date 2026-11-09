@@ -1,6 +1,6 @@
 {
- "generated": 1794192250.6042306,
- "generated_et": "2026-11-08 21:44:11 ET",
+ "generated": 1794192496.2699165,
+ "generated_et": "2026-11-08 21:48:17 ET",
  "mode": "real",
  "config": {
   "size_usd": 5,
@@ -9,9 +9,9 @@
   "max_entry_price": 0.9
  },
  "balance": {
-  "current": 11.72841,
-  "buying_power": 11.72841,
-  "in_positions": 0
+  "current": 14.36181,
+  "buying_power": 0.82181,
+  "in_positions": 13.54
  },
  "balance_err": null,
  "balance_hist": [
@@ -1486,6 +1486,10 @@
   [
    1794176629,
    11.72841
+  ],
+  [
+   1794192496,
+   14.36181
   ]
  ],
  "totals": {
