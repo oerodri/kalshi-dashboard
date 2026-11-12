@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T22:59:15.376906-05:00",
+ "actualizado": "2026-11-11T23:09:15.383272-05:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -12,7 +12,15 @@
    "ganadas": 1,
    "winrate": 100.0,
    "drawdown_max_pct": 0,
-   "abiertas": [],
+   "abiertas": [
+    {
+     "fecha": "2026-11-12T04:00:20.440948+00:00",
+     "mercado": "KXHIGHTHOU-26NOV12-B82.5",
+     "lado": "no",
+     "precio": 0.88,
+     "contratos": 11
+    }
+   ],
    "equity": [
     {
      "t": "2026-11-04T15:00:04.511983+00:00",
@@ -33,7 +41,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-11T22:58:49.300617-05:00"
+   "ultimo_latido": "2026-11-11T23:08:50.980621-05:00"
   },
   {
    "id": "clima_v2",
@@ -45,7 +53,22 @@
    "ganadas": 11,
    "winrate": 84.6,
    "drawdown_max_pct": 6.89,
-   "abiertas": [],
+   "abiertas": [
+    {
+     "fecha": "2026-11-12T04:00:19.990357+00:00",
+     "mercado": "KXHIGHAUS-26NOV12-T80",
+     "lado": "no",
+     "precio": 0.92,
+     "contratos": 15
+    },
+    {
+     "fecha": "2026-11-12T04:00:20.440948+00:00",
+     "mercado": "KXHIGHTHOU-26NOV12-B82.5",
+     "lado": "no",
+     "precio": 0.88,
+     "contratos": 22
+    }
+   ],
    "equity": [
     {
      "t": "2026-10-31T16:46:15.901011+00:00",
@@ -246,7 +269,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-11T22:58:49.300617-05:00"
+   "ultimo_latido": "2026-11-11T23:08:50.980621-05:00"
   },
   {
    "id": "v2_1",
@@ -2131,7 +2154,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-11T22:59:14.990088-05:00"
+   "ultimo_latido": "2026-11-11T23:09:13.647552-05:00"
   }
  ]
 }
