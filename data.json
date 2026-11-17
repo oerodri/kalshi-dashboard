@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T08:14:31.873570-05:00",
+ "actualizado": "2026-11-17T08:24:32.512416-05:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -56,7 +56,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-17T08:14:03.120925-05:00"
+   "ultimo_latido": "2026-11-17T08:24:03.437270-05:00"
   },
   {
    "id": "clima_v2",
@@ -314,7 +314,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-17T08:14:03.120925-05:00"
+   "ultimo_latido": "2026-11-17T08:24:03.437270-05:00"
   },
   {
    "id": "v2_1",
@@ -432,19 +432,19 @@
    "id": "v4b_10usd",
    "nombre": "BTC 15 min KXBTC15M v4b balanceado 78-85, z>=0.75, min 3-10 (~$10 por trade, inicio $500)",
    "inicial": 500.0,
-   "saldo": 503.11,
-   "pnl": 3.11,
-   "trades": 142,
-   "ganadas": 118,
-   "winrate": 83.1,
+   "saldo": 505.49,
+   "pnl": 5.49,
+   "trades": 143,
+   "ganadas": 119,
+   "winrate": 83.2,
    "drawdown_max_pct": 8.41,
    "abiertas": [
     {
-     "fecha": "2026-11-17T08:07:05.365339-05:00",
-     "mercado": "KXBTC15M-26NOV170815-15",
-     "lado": "UP",
-     "precio": 0.79,
-     "contratos": 12
+     "fecha": "2026-11-17T08:20:05.348829-05:00",
+     "mercado": "KXBTC15M-26NOV170830-30",
+     "lado": "DOWN",
+     "precio": 0.85,
+     "contratos": 11
     }
    ],
    "equity": [
@@ -1015,6 +1015,10 @@
     {
      "t": "2026-11-17T07:05:05.264900-05:00",
      "v": 503.11
+    },
+    {
+     "t": "2026-11-17T08:07:05.365339-05:00",
+     "v": 505.49
     }
    ],
    "operaciones": [
@@ -2579,10 +2583,21 @@
      "gano": true,
      "pnl": 1.55,
      "saldo": 503.11
+    },
+    {
+     "fecha": "2026-11-17T08:07:05.365339-05:00",
+     "mercado": "KXBTC15M-26NOV170815-15",
+     "lado": "UP",
+     "precio": 0.79,
+     "contratos": 12,
+     "resultado": "yes",
+     "gano": true,
+     "pnl": 2.38,
+     "saldo": 505.49
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-17T08:14:31.394256-05:00"
+   "ultimo_latido": "2026-11-17T08:24:31.427328-05:00"
   }
  ]
 }
