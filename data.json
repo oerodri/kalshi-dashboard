@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T06:14:26.584621-05:00",
+ "actualizado": "2026-11-17T06:24:27.349617-05:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -56,7 +56,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-17T06:13:58.669912-05:00"
+   "ultimo_latido": "2026-11-17T06:23:58.995855-05:00"
   },
   {
    "id": "clima_v2",
@@ -314,7 +314,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-17T06:13:58.669912-05:00"
+   "ultimo_latido": "2026-11-17T06:23:58.995855-05:00"
   },
   {
    "id": "v2_1",
@@ -432,19 +432,19 @@
    "id": "v4b_10usd",
    "nombre": "BTC 15 min KXBTC15M v4b balanceado 78-85, z>=0.75, min 3-10 (~$10 por trade, inicio $500)",
    "inicial": 500.0,
-   "saldo": 497.65,
-   "pnl": -2.35,
-   "trades": 139,
-   "ganadas": 115,
-   "winrate": 82.7,
+   "saldo": 499.3,
+   "pnl": -0.7,
+   "trades": 140,
+   "ganadas": 116,
+   "winrate": 82.9,
    "drawdown_max_pct": 8.41,
    "abiertas": [
     {
-     "fecha": "2026-11-17T06:05:05.405924-05:00",
-     "mercado": "KXBTC15M-26NOV170615-15",
+     "fecha": "2026-11-17T06:20:03.615758-05:00",
+     "mercado": "KXBTC15M-26NOV170630-30",
      "lado": "UP",
-     "precio": 0.84,
-     "contratos": 11
+     "precio": 0.8,
+     "contratos": 12
     }
    ],
    "equity": [
@@ -1003,6 +1003,10 @@
     {
      "t": "2026-11-17T05:52:03.849468-05:00",
      "v": 497.65
+    },
+    {
+     "t": "2026-11-17T06:05:05.405924-05:00",
+     "v": 499.3
     }
    ],
    "operaciones": [
@@ -2534,10 +2538,21 @@
      "gano": true,
      "pnl": 2.03,
      "saldo": 497.65
+    },
+    {
+     "fecha": "2026-11-17T06:05:05.405924-05:00",
+     "mercado": "KXBTC15M-26NOV170615-15",
+     "lado": "UP",
+     "precio": 0.84,
+     "contratos": 11,
+     "resultado": "yes",
+     "gano": true,
+     "pnl": 1.65,
+     "saldo": 499.3
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-17T06:14:25.817536-05:00"
+   "ultimo_latido": "2026-11-17T06:24:26.956535-05:00"
   }
  ]
 }
