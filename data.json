@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-16T23:54:13.496049-05:00",
+ "actualizado": "2026-11-17T00:04:12.079123-05:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -56,7 +56,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-16T23:53:44.288803-05:00"
+   "ultimo_latido": "2026-11-17T00:03:45.108549-05:00"
   },
   {
    "id": "clima_v2",
@@ -75,6 +75,13 @@
      "lado": "no",
      "precio": 0.87,
      "contratos": 22
+    },
+    {
+     "fecha": "2026-11-17T05:00:14.658197+00:00",
+     "mercado": "KXHIGHDEN-26NOV17-T69",
+     "lado": "no",
+     "precio": 0.93,
+     "contratos": 21
     }
    ],
    "equity": [
@@ -307,7 +314,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-16T23:53:44.288803-05:00"
+   "ultimo_latido": "2026-11-17T00:03:45.108549-05:00"
   },
   {
    "id": "v2_1",
@@ -425,21 +432,13 @@
    "id": "v4b_10usd",
    "nombre": "BTC 15 min KXBTC15M v4b balanceado 78-85, z>=0.75, min 3-10 (~$10 por trade, inicio $500)",
    "inicial": 500.0,
-   "saldo": 494.63,
-   "pnl": -5.37,
-   "trades": 132,
+   "saldo": 484.89,
+   "pnl": -15.11,
+   "trades": 133,
    "ganadas": 109,
-   "winrate": 82.6,
+   "winrate": 82.0,
    "drawdown_max_pct": 8.41,
-   "abiertas": [
-    {
-     "fecha": "2026-11-16T23:51:03.458960-05:00",
-     "mercado": "KXBTC15M-26NOV170000-00",
-     "lado": "DOWN",
-     "precio": 0.8,
-     "contratos": 12
-    }
-   ],
+   "abiertas": [],
    "equity": [
     {
      "t": "2026-10-31T13:05:04.337919-04:00",
@@ -968,6 +967,10 @@
     {
      "t": "2026-11-16T23:08:03.646325-05:00",
      "v": 494.63
+    },
+    {
+     "t": "2026-11-16T23:51:03.458960-05:00",
+     "v": 484.89
     }
    ],
    "operaciones": [
@@ -2422,10 +2425,21 @@
      "gano": true,
      "pnl": 1.55,
      "saldo": 494.63
+    },
+    {
+     "fecha": "2026-11-16T23:51:03.458960-05:00",
+     "mercado": "KXBTC15M-26NOV170000-00",
+     "lado": "DOWN",
+     "precio": 0.8,
+     "contratos": 12,
+     "resultado": "yes",
+     "gano": false,
+     "pnl": -9.74,
+     "saldo": 484.89
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-16T23:54:11.897702-05:00"
+   "ultimo_latido": "2026-11-17T00:04:11.831356-05:00"
   }
  ]
 }
