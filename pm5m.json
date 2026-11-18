@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-18 01:05 ET",
+"actualizado": "2026-11-18 01:06 ET",
 "bots": [
 {
 "nombre": "Polymarket A",
@@ -2011,21 +2011,22 @@
 },
 {
 "nombre": "Polymarket ETH Lead",
-"balance": 509.72,
-"pnl": 9.72,
-"trades": 6,
+"balance": 511.65,
+"pnl": 11.65,
+"trades": 7,
 "winrate": 100.0,
 "perdidas_hoy": 0,
 "max_dd": 0,
-"abiertas": [
+"abiertas": [],
+"ultimas": [
 {
-"t": "00:55",
+"t": "11-18 01:05",
+"ep": 1794981300,
 "lado": "Up",
 "precio": 83.0,
-"acciones": 12.05
-}
-],
-"ultimas": [
+"gano": true,
+"pnl": 1.93
+},
 {
 "t": "11-18 00:14",
 "ep": 1794978300,
@@ -2075,8 +2076,8 @@
 "pnl": 1.04
 }
 ],
-"pnl_hoy": 1.53,
-"trades_hoy": 1,
+"pnl_hoy": 3.46,
+"trades_hoy": 2,
 "equity": [
 500,
 501.04,
@@ -2084,7 +2085,8 @@
 505.06,
 506.39,
 508.19,
-509.72
+509.72,
+511.65
 ]
 },
 {
