@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T22:55:06.281993-05:00",
+ "actualizado": "2026-11-17T23:05:06.374940-05:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -56,7 +56,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-17T22:54:48.665531-05:00"
+   "ultimo_latido": "2026-11-17T23:04:50.173529-05:00"
   },
   {
    "id": "clima_v2",
@@ -82,6 +82,13 @@
      "lado": "no",
      "precio": 0.93,
      "contratos": 21
+    },
+    {
+     "fecha": "2026-11-18T04:00:19.164681+00:00",
+     "mercado": "KXHIGHAUS-26NOV18-T73",
+     "lado": "no",
+     "precio": 0.95,
+     "contratos": 20
     }
    ],
    "equity": [
@@ -314,7 +321,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-17T22:54:48.665531-05:00"
+   "ultimo_latido": "2026-11-17T23:04:50.173529-05:00"
   },
   {
    "id": "v2_1",
@@ -2664,7 +2671,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-17T22:55:05.030868-05:00"
+   "ultimo_latido": "2026-11-17T23:05:05.024091-05:00"
   }
  ]
 }
