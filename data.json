@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T09:06:27.126176-05:00",
+ "actualizado": "2026-11-19T09:16:27.798263-05:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -63,26 +63,19 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-19T09:06:05.860434-05:00"
+   "ultimo_latido": "2026-11-19T09:16:06.321306-05:00"
   },
   {
    "id": "clima_v2",
    "nombre": "Clima v2 (NO 85–95¢, modelo >90%)",
    "inicial": 500.0,
-   "saldo": 482.97,
-   "pnl": -17.03,
-   "trades": 19,
-   "ganadas": 17,
-   "winrate": 89.5,
+   "saldo": 483.9,
+   "pnl": -16.1,
+   "trades": 20,
+   "ganadas": 18,
+   "winrate": 90.0,
    "drawdown_max_pct": 6.89,
    "abiertas": [
-    {
-     "fecha": "2026-11-18T05:00:22.567725+00:00",
-     "mercado": "KXHIGHDEN-26NOV18-T61",
-     "lado": "no",
-     "precio": 0.95,
-     "contratos": 20
-    },
     {
      "fecha": "2026-11-19T03:00:04.455288+00:00",
      "mercado": "KXHIGHMIA-26NOV19-B84.5",
@@ -181,6 +174,10 @@
     {
      "t": "2026-11-18T04:00:19.164681+00:00",
      "v": 482.97
+    },
+    {
+     "t": "2026-11-18T05:00:22.567725+00:00",
+     "v": 483.9
     }
    ],
    "operaciones": [
@@ -392,10 +389,21 @@
      "gano": true,
      "pnl": 0.93,
      "saldo": 482.97
+    },
+    {
+     "fecha": "2026-11-18T05:00:22.567725+00:00",
+     "mercado": "KXHIGHDEN-26NOV18-T61",
+     "lado": "no",
+     "precio": 0.95,
+     "contratos": 20.0,
+     "resultado": "no",
+     "gano": true,
+     "pnl": 0.93,
+     "saldo": 483.9
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-19T09:06:05.860434-05:00"
+   "ultimo_latido": "2026-11-19T09:16:06.321306-05:00"
   },
   {
    "id": "v2_1",
@@ -3090,7 +3098,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-19T09:06:26.006834-05:00"
+   "ultimo_latido": "2026-11-19T09:16:26.009620-05:00"
   }
  ]
 }
