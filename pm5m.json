@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 11:18 ET",
+"actualizado": "2026-11-21 11:20 ET",
 "bots": [
 {
 "nombre": "Polymarket A",
@@ -597,21 +597,22 @@
 },
 {
 "nombre": "Polymarket C",
-"balance": 528.43,
-"pnl": 28.43,
-"trades": 295,
+"balance": 529.7,
+"pnl": 29.7,
+"trades": 296,
 "winrate": 91.9,
 "perdidas_hoy": 0,
 "max_dd": 9.0,
-"abiertas": [
+"abiertas": [],
+"ultimas": [
 {
-"t": "11:10",
+"t": "11-21 11:20",
+"ep": 1795277400,
 "lado": "Up",
 "precio": 88.1,
-"acciones": 11.35
-}
-],
-"ultimas": [
+"gano": true,
+"pnl": 1.27
+},
 {
 "t": "11-21 11:10",
 "ep": 1795276800,
@@ -683,21 +684,12 @@
 "precio": 93.0,
 "gano": true,
 "pnl": 0.7
-},
-{
-"t": "11-21 05:41",
-"ep": 1795257300,
-"lado": "Down",
-"precio": 93.0,
-"gano": true,
-"pnl": 0.7
 }
 ],
-"pnl_hoy": 13.9,
-"trades_hoy": 16,
+"pnl_hoy": 15.17,
+"trades_hoy": 17,
 "equity": [
 500,
-526.25,
 527.66,
 528.75,
 529.46,
@@ -896,7 +888,8 @@
 526.85,
 527.45,
 527.94,
-528.43
+528.43,
+529.7
 ]
 },
 {
@@ -1198,21 +1191,22 @@
 },
 {
 "nombre": "Polymarket D",
-"balance": 512.93,
-"pnl": 12.93,
-"trades": 295,
+"balance": 514.07,
+"pnl": 14.07,
+"trades": 296,
 "winrate": 93.2,
 "perdidas_hoy": 0,
 "max_dd": 5.7,
-"abiertas": [
+"abiertas": [],
+"ultimas": [
 {
-"t": "11:10",
+"t": "11-21 11:20",
+"ep": 1795277400,
 "lado": "Up",
 "precio": 89.1,
-"acciones": 11.22
-}
-],
-"ultimas": [
+"gano": true,
+"pnl": 1.15
+},
 {
 "t": "11-21 11:10",
 "ep": 1795276800,
@@ -1284,21 +1278,12 @@
 "precio": 93.0,
 "gano": true,
 "pnl": 0.7
-},
-{
-"t": "11-21 05:41",
-"ep": 1795257300,
-"lado": "Down",
-"precio": 90.0,
-"gano": true,
-"pnl": 1.04
 }
 ],
-"pnl_hoy": 10.93,
-"trades_hoy": 15,
+"pnl_hoy": 12.08,
+"trades_hoy": 16,
 "equity": [
 500,
-500.65,
 501.15,
 502.19,
 502.94,
@@ -1497,7 +1482,8 @@
 511.54,
 512.03,
 512.52,
-512.93
+512.93,
+514.07
 ]
 },
 {
@@ -2067,7 +2053,14 @@
 "winrate": 100.0,
 "perdidas_hoy": 0,
 "max_dd": 0,
-"abiertas": [],
+"abiertas": [
+{
+"t": "11:15",
+"lado": "Down",
+"precio": 84.0,
+"acciones": 11.9
+}
+],
 "ultimas": [
 {
 "t": "11-21 09:03",
