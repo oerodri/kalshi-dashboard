@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T09:58:54.100122-05:00",
+ "actualizado": "2026-11-21T10:08:53.295262-05:00",
  "modo": "SIMULACION (paper) - sin dinero real",
  "bots": [
   {
@@ -12,7 +12,15 @@
    "ganadas": 3,
    "winrate": 100.0,
    "drawdown_max_pct": 0,
-   "abiertas": [],
+   "abiertas": [
+    {
+     "fecha": "2026-11-21T15:00:29.258342+00:00",
+     "mercado": "KXHIGHMIA-26NOV21-T80",
+     "lado": "no",
+     "precio": 0.89,
+     "contratos": 11
+    }
+   ],
    "equity": [
     {
      "t": "2026-11-04T15:00:04.511983+00:00",
@@ -63,7 +71,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-21T09:58:27.389365-05:00"
+   "ultimo_latido": "2026-11-21T10:08:30.913103-05:00"
   },
   {
    "id": "clima_v2",
@@ -82,6 +90,13 @@
      "lado": "no",
      "precio": 0.93,
      "contratos": 21
+    },
+    {
+     "fecha": "2026-11-21T15:00:29.258342+00:00",
+     "mercado": "KXHIGHMIA-26NOV21-T80",
+     "lado": "no",
+     "precio": 0.89,
+     "contratos": 22
     }
    ],
    "equity": [
@@ -449,7 +464,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-21T09:58:27.389365-05:00"
+   "ultimo_latido": "2026-11-21T10:08:30.913103-05:00"
   },
   {
    "id": "v2_1",
@@ -3324,7 +3339,7 @@
     }
    ],
    "activo": true,
-   "ultimo_latido": "2026-11-21T09:58:52.927433-05:00"
+   "ultimo_latido": "2026-11-21T10:08:52.024838-05:00"
   }
  ]
 }
