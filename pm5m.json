@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 10:08 ET",
+"actualizado": "2026-11-21 10:10 ET",
 "bots": [
 {
 "nombre": "Polymarket A",
@@ -9,7 +9,14 @@
 "winrate": 81.4,
 "perdidas_hoy": 0,
 "max_dd": 20.0,
-"abiertas": [],
+"abiertas": [
+{
+"t": "10:05",
+"lado": "Down",
+"precio": 84.0,
+"acciones": 11.9
+}
+],
 "ultimas": [
 {
 "t": "11-21 06:21",
@@ -597,21 +604,22 @@
 },
 {
 "nombre": "Polymarket C",
-"balance": 525.64,
-"pnl": 25.64,
-"trades": 291,
+"balance": 526.85,
+"pnl": 26.85,
+"trades": 292,
 "winrate": 91.8,
 "perdidas_hoy": 0,
 "max_dd": 9.0,
-"abiertas": [
+"abiertas": [],
+"ultimas": [
 {
-"t": "10:00",
+"t": "11-21 10:10",
+"ep": 1795273200,
 "lado": "Down",
 "precio": 88.6,
-"acciones": 11.29
-}
-],
-"ultimas": [
+"gano": true,
+"pnl": 1.21
+},
 {
 "t": "11-21 09:55",
 "ep": 1795272300,
@@ -683,21 +691,12 @@
 "precio": 87.1,
 "gano": true,
 "pnl": 1.39
-},
-{
-"t": "11-21 01:15",
-"ep": 1795241100,
-"lado": "Up",
-"precio": 86.0,
-"gano": true,
-"pnl": 1.53
 }
 ],
-"pnl_hoy": 11.11,
-"trades_hoy": 12,
+"pnl_hoy": 12.32,
+"trades_hoy": 13,
 "equity": [
 500,
-533.0,
 522.93,
 523.64,
 525.1,
@@ -896,7 +895,8 @@
 522.8,
 524.34,
 524.94,
-525.64
+525.64,
+526.85
 ]
 },
 {
@@ -1198,21 +1198,22 @@
 },
 {
 "nombre": "Polymarket D",
-"balance": 510.33,
-"pnl": 10.33,
-"trades": 291,
-"winrate": 93.1,
+"balance": 511.54,
+"pnl": 11.54,
+"trades": 292,
+"winrate": 93.2,
 "perdidas_hoy": 0,
 "max_dd": 5.7,
-"abiertas": [
+"abiertas": [],
+"ultimas": [
 {
-"t": "10:00",
+"t": "11-21 10:10",
+"ep": 1795273200,
 "lado": "Down",
 "precio": 88.6,
-"acciones": 11.29
-}
-],
-"ultimas": [
+"gano": true,
+"pnl": 1.21
+},
 {
 "t": "11-21 09:55",
 "ep": 1795272300,
@@ -1284,21 +1285,12 @@
 "precio": 91.0,
 "gano": true,
 "pnl": 0.93
-},
-{
-"t": "11-21 00:44",
-"ep": 1795239300,
-"lado": "Up",
-"precio": 93.0,
-"gano": true,
-"pnl": 0.7
 }
 ],
-"pnl_hoy": 8.33,
-"trades_hoy": 11,
+"pnl_hoy": 9.54,
+"trades_hoy": 12,
 "equity": [
 500,
-497.33,
 498.37,
 499.46,
 500.06,
@@ -1497,7 +1489,8 @@
 508.32,
 509.03,
 509.62,
-510.33
+510.33,
+511.54
 ]
 },
 {
