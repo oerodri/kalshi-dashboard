@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-24 00:19 ET",
+"actualizado": "2026-11-24 00:21 ET",
 "bots": [
 {
 "nombre": "Polymarket A",
@@ -2189,21 +2189,22 @@
 },
 {
 "nombre": "Polymarket SOL Lead",
-"balance": 472.04,
-"pnl": -27.96,
-"trades": 13,
-"winrate": 69.2,
+"balance": 473.81,
+"pnl": -26.19,
+"trades": 14,
+"winrate": 71.4,
 "perdidas_hoy": 0,
 "max_dd": 7.0,
-"abiertas": [
+"abiertas": [],
+"ultimas": [
 {
-"t": "00:15",
+"t": "11-24 00:21",
+"ep": 1795497300,
 "lado": "Up",
 "precio": 84.2,
-"acciones": 11.88
-}
-],
-"ultimas": [
+"gano": true,
+"pnl": 1.77
+},
 {
 "t": "11-23 09:10",
 "ep": 1795442400,
@@ -2275,18 +2276,10 @@
 "precio": 95.0,
 "gano": true,
 "pnl": 0.49
-},
-{
-"t": "11-05 23:03",
-"ep": 1793937300,
-"lado": "Up",
-"precio": 86.0,
-"gano": true,
-"pnl": 1.53
 }
 ],
-"pnl_hoy": 0,
-"trades_hoy": 0,
+"pnl_hoy": 1.77,
+"trades_hoy": 1,
 "equity": [
 500,
 501.86,
@@ -2301,7 +2294,8 @@
 468.16,
 470.33,
 471.34,
-472.04
+472.04,
+473.81
 ]
 }
 ]
