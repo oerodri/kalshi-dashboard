@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-27 18:25 ET",
+"actualizado": "2026-11-27 18:28 ET",
 "bots": [
 {
 "nombre": "Polymarket A",
@@ -13,6 +13,12 @@
 {
 "t": "18:20",
 "lado": "Down",
+"precio": 80.0,
+"acciones": 12.5
+},
+{
+"t": "18:25",
+"lado": "Up",
 "precio": 80.0,
 "acciones": 12.5
 }
