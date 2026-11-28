@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-28 13:59 ET",
+"actualizado": "2026-11-28 14:04 ET",
 "bots": [
 {
 "nombre": "Polymarket A",
@@ -300,21 +300,22 @@
 },
 {
 "nombre": "Polymarket B",
-"balance": 319.88,
-"pnl": -180.12,
-"trades": 244,
-"winrate": 78.3,
+"balance": 321.66,
+"pnl": -178.34,
+"trades": 245,
+"winrate": 78.4,
 "perdidas_hoy": 0,
 "max_dd": 39.6,
-"abiertas": [
+"abiertas": [],
+"ultimas": [
 {
-"t": "13:55",
+"t": "11-28 14:03",
+"ep": 1795892100,
 "lado": "Down",
 "precio": 84.1,
-"acciones": 11.89
-}
-],
-"ultimas": [
+"gano": true,
+"pnl": 1.78
+},
 {
 "t": "11-28 13:39",
 "ep": 1795890600,
@@ -386,21 +387,12 @@
 "precio": 84.0,
 "gano": false,
 "pnl": -10.11
-},
-{
-"t": "11-25 18:01",
-"ep": 1795647000,
-"lado": "Down",
-"precio": 84.0,
-"gano": true,
-"pnl": 1.79
 }
 ],
-"pnl_hoy": 5.77,
-"trades_hoy": 3,
+"pnl_hoy": 7.55,
+"trades_hoy": 4,
 "equity": [
 500,
-487.28,
 489.08,
 491.01,
 492.8,
@@ -599,7 +591,8 @@
 314.12,
 316.02,
 317.95,
-319.88
+319.88,
+321.66
 ]
 },
 {
